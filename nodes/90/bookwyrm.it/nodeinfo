@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "bookwyrm",
+      "version": "0.7.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 277,
+        "activeMonth": 26,
+        "activeHalfyear": 165
+      },
+      "localPosts": 2159
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

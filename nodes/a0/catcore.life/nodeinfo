@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 155,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "貓核",
+      "nodeDescription": "歡迎加入 catc 社區，歡迎交流各種資訊",
+      "nodeAdmins": [
+        {
+          "name": "貓核個人經營",
+          "email": "AdventureAwaits271828@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "貓核個人經營",
+        "email": "AdventureAwaits271828@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "A",
+      "privacyPolicyUrl": "A",
+      "inquiryUrl": null,
+      "impressumUrl": "A",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#20cb6a"
+    }
+  },
+  "error": null
+}

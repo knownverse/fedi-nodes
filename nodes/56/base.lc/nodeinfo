@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeMonth": 3,
+        "activeHalfyear": 8
+      },
+      "localPosts": 1043
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Base.LC",
+      "nodeDescription": "Base.lc is for anyone looking to join the mastodon revolution and signups are welcome on this general purpose mastodon server. Server kept up to date, with automatic backups and failover (AWS Ireland)"
+    }
+  },
+  "error": null
+}

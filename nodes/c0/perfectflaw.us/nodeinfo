@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 85,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Perfect Flaws",
+      "nodeDescription": "We all have our bumps and cracks…",
+      "nodeIcon": "https://i0.wp.com/perfectflaw.us/wp-content/uploads/2016/10/cropped-PF-logo-2-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

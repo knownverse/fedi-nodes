@@ -1,0 +1,351 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "woln.eu",
+            "neenster.org",
+            "activitypub-proxy.cf",
+            "rot.gives",
+            "rape.pet",
+            "childlove.space",
+            "youjo.love",
+            "cannibal.cafe",
+            "lolison.network",
+            "ghetti.monster",
+            "mirr0r.city",
+            "youjo.observer",
+            "masturb.ating.press",
+            "rapemeat.express",
+            "monk.ey.business",
+            "101010.pl",
+            "seal.cafe",
+            "shortstackran.ch",
+            "graz.social",
+            "freak.university",
+            "pedo.school",
+            "cunny.gay",
+            "poster.place",
+            "detroitriotcity.com",
+            "parcero.bond",
+            "sad.cab",
+            "poast.tv",
+            "poast.org",
+            "tummy.town",
+            "kiwifarms.st",
+            "bae.st",
+            "contentnation.net",
+            "fedilist.com",
+            "wolfgirl.bar",
+            "norwoodzero.net",
+            "mugicha.club",
+            "cum.salon",
+            "fedi.buzz",
+            "childlove.su",
+            "threads.net",
+            "bunnyanarchy.org"
+          ],
+          "media_removal": [
+            "misskey.io"
+          ],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "parcero.bond": {
+              "reason": "cp, gore, transphobia, federates with poa.st, probably CP too"
+            },
+            "childlove.su": {
+              "reason": "i don't think i need to explain this one, right?"
+            },
+            "shortstackran.ch": {
+              "reason": "transphobia (fediblocked by crimew.gay)"
+            },
+            "childlove.space": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "sad.cab": {
+              "reason": "poast"
+            },
+            "woln.eu": {
+              "reason": "homophobia (fediblocked by crimew.gay)"
+            },
+            "norwoodzero.net": {
+              "reason": "spam, transphobia, nazis"
+            },
+            "threads.net": {
+              "reason": "suck it zuck"
+            },
+            "neenster.org": {
+              "reason": "terf (fediblocked by crimew.gay)"
+            },
+            "101010.pl": {
+              "reason": "racism (fediblocked by crimew.gay)"
+            },
+            "bunnyanarchy.org": {
+              "reason": "paraphilia, weird, loli in bios of members, un-cwed nsfw posts: https://fedi.waow.cat/notice/Ai672Q4slTEsQxP0WO"
+            },
+            "fedi.buzz": {
+              "reason": "scraping"
+            },
+            "rapemeat.express": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "cum.salon": {
+              "reason": "fashism (fediblocked by crimew.gay)"
+            },
+            "masturb.ating.press": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "freak.university": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "detroitriotcity.com": {
+              "reason": "cp, gore, transphobia, federates with poa.st, probably CP too"
+            },
+            "mirr0r.city": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "tummy.town": {
+              "reason": "pedos (fediblocked by meows.gay)"
+            },
+            "seal.cafe": {
+              "reason": "transphobia (fediblocked by crimew.gay)"
+            },
+            "cunny.gay": {
+              "reason": "transphobia, loli nsfw"
+            },
+            "wolfgirl.bar": {
+              "reason": "weird asf, nazi adjacent"
+            },
+            "contentnation.net": {
+              "reason": "scraping"
+            },
+            "fedilist.com": {
+              "reason": "scraping"
+            },
+            "cannibal.cafe": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "bae.st": {
+              "reason": "yeah."
+            },
+            "monk.ey.business": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "poa.st": {
+              "reason": "transphobia"
+            },
+            "rape.pet": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "poster.place": {
+              "reason": "transphobia, weird vibes, federates with poa.st"
+            },
+            "ghetti.monster": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "poast.org": {
+              "reason": "poast"
+            },
+            "youjo.observer": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "pedo.school": {
+              "reason": "self explanatory"
+            },
+            "graz.social": {
+              "reason": "terf protection cringe af (fediblocked by crimew.gay)"
+            },
+            "kiwifarms.st": {
+              "reason": "."
+            },
+            "poast.tv": {
+              "reason": "poast"
+            },
+            "rot.gives": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "lolison.network": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "youjo.love": {
+              "reason": "pedos (fediblocked by crimew.gay)"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "block evasion"
+            },
+            "mugicha.club": {
+              "reason": "nazis"
+            }
+          },
+          "media_removal": {
+            "misskey.io": {
+              "reason": "not taking any risks (CP allegations)"
+            }
+          }
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "waow.cat is a private fedi instance for waowcat enjoyers :3",
+      "nodeName": "waow.cat :3",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": false,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://waow.cat/users/allie",
+        "https://waow.cat/users/rooot",
+        "https://waow.cat/users/blexyel"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 16000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 6,
+        "activeMonth": 2
+      },
+      "localPosts": 327
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

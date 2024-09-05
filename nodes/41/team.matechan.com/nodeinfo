@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-taiyme.1",
+      "homepage": "https://github.com/taiyme/misskey",
+      "repository": "https://github.com/taiyme/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 33800,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Momogumi",
+      "nodeDescription": "透き通るような 青い目に<br>ピンクの髪を 靡かせて<br>アホ毛とアレを 忘れるな<br>進め桃組 チームまてちゃん<hr>まてかすのおひとり？インスタンスです<br><code>@MateChan@team.matechan.com</code><br>をあなたのインスタンスでフォローしてね",
+      "nodeAdmins": [
+        {
+          "name": "まてちゃん",
+          "email": "https://twitter.com/MateBookerМ3"
+        }
+      ],
+      "maintainer": {
+        "name": "まてちゃん",
+        "email": "https://twitter.com/MateBookerМ3"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://twitter.com/MateBookerM3",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/taiyme/misskey",
+      "feedbackUrl": "https://github.com/taiyme/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffadc0"
+    }
+  },
+  "error": null
+}

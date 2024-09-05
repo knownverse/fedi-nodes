@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 77,
+      "localComments": 163
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Emiliano Caballero",
+      "nodeDescription": "Poeta – Escritor – Blogger – (&amp; Cineasta, Pero No Aquí)",
+      "nodeIcon": "https://emilianocaballeroh.wordpress.com/wp-content/uploads/2024/03/cropped-cropped-84329532_10157854915438744_4841044564888256512_n.jpg"
+    }
+  },
+  "error": null
+}

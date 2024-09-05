@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.10.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 134,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12299,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Virtual Artist Fans",
+      "nodeDescription": "バーチャルアーティストが好きな人たち向けのmisskeyサーバです。<br/>\n<br/>\n[運用ポリシー]<br/>\n・バーチャルが好きな方、大歓迎です。<br/>\n・投稿内容に制限はありません。バーチャル関係ない内容でもOKです。<br/>\n・人を傷つけるようなことはやめましょう。<br/>",
+      "maintainer": {
+        "name": "{tk}",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

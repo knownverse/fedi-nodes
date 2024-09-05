@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 33,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Kora!!!",
+      "nodeDescription": "这是一个比较任性的实例，为什么呢，因为她是一只雌小鬼！",
+      "nodeAdmins": [
+        {
+          "name": "Korari",
+          "email": "korari@kora.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "Korari",
+        "email": "korari@kora.moe"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": null,
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#d5635b"
+    }
+  },
+  "error": null
+}

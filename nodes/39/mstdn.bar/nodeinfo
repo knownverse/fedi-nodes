@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-beta.1+bar.14.0-dev"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 59
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon Bar - cheers",
+      "nodeDescription": "A general-purpose Mastodon server with a 9999 character limit. All languages are welcome.",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-beta.1"
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 424,
+      "localComments": 50
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Living in the Future",
+      "nodeDescription": "Rob Attrell",
+      "nodeIcon": "https://i0.wp.com/attrell.ca/wp-content/uploads/2018/10/cropped-rob-logo-512-5.png?fit=190%2C190&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 684,
+      "localComments": 172
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Discover God&#039;s Nature",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/myrockymountainwindow.ca/wp-content/uploads/2018/10/cropped-cropped-rjb_11081.jpg?fit=638%2C638&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 153,
+      "localComments": 82
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Living With Dan",
+      "nodeDescription": "Live, Laugh, Love",
+      "nodeIcon": "https://i0.wp.com/livingwithdan.com/wp-content/uploads/2022/07/wp-1658090400411.jpg?fit=1440%2C1440&ssl=1"
+    }
+  },
+  "error": null
+}

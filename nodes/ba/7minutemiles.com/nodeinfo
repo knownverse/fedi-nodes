@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 30654,
+      "localComments": 371
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DK&#039;s 7 Minute Miles",
+      "nodeDescription": "Live from Minnesota",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

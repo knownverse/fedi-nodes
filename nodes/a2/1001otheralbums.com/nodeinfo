@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 87,
+      "localComments": 203
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "1001 Other Albums",
+      "nodeDescription": "Or, The 1001 Albums John Mastodon Says You Must Hear Before You Die (Or Like, Don’t, But Trust Them, The Albums Are All Actually Really Good)",
+      "nodeIcon": "https://1001otheralbums.com/wp-content/uploads/2024/02/cropped-dsc02300.jpeg"
+    }
+  },
+  "error": null
+}

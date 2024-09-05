@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 375,
+      "localComments": 212
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tandem With The Random",
+      "nodeDescription": "An open-format blog and on-hiatus podcast focusing on geek/pop culture",
+      "nodeIcon": "https://tandemwiththerandom.com/wp-content/uploads/2018/07/cropped-twtr2014_itunes-e1530474529667.jpg"
+    }
+  },
+  "error": null
+}

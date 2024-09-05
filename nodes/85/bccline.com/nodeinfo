@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 39,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bccline.com",
+      "nodeDescription": ".It&#039;s better to learn than go guns",
+      "nodeIcon": "https://i0.wp.com/bccline.com/wp-content/uploads/2023/01/cropped-index.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

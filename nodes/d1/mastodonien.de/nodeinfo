@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mammuthus",
+      "version": 790
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": "22",
+        "activeMonth": "18",
+        "activeHalfyear": "18"
+      },
+      "localPosts": "13232"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

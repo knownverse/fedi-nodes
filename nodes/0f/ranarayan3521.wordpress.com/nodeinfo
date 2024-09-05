@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "digital marketing",
+      "nodeDescription": "https://images.app.goo.gl/rADJ8v6EL3Uub7kx8",
+      "nodeIcon": "https://ranarayan3521.wordpress.com/wp-content/uploads/2023/12/cropped-pexels-photo-3184611.jpeg"
+    }
+  },
+  "error": null
+}

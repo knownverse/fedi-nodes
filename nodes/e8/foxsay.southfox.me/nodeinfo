@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+foxsay+2024-09-02"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 23,
+        "activeMonth": 8,
+        "activeHalfyear": 11
+      },
+      "localPosts": 4749
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Foxsay",
+      "nodeDescription": "互联网应如繁星。"
+    }
+  },
+  "error": null
+}

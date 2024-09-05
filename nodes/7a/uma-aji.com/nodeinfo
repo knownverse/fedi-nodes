@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 581,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 303582,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "うま味",
+      "nodeDescription": "マヨイガ\n\nえっちな時があるのでこのインスタンスは外で開くことはお勧めしません。\nオタクっぽい雑談が主のインスタンスです。1ノート目のリアクションは覚悟してください。\n\n生まれたばかりのSNSです。 応援して下さいね☆ 下品なことを受け流せるお友達に教えてくださいね。\n\nそれでは登録前にまずはサイトを訪問してください\nhttps://www.srut.org/\n",
+      "nodeAdmins": [
+        {
+          "name": "margeless",
+          "email": "yunminjuyangtailang@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "margeless",
+        "email": "yunminjuyangtailang@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://bsky.app/profile/margeless.bsky.social",
+      "impressumUrl": "https://bsky.app/profile/margeless.bsky.social",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "umamisskey",
+      "themeColor": "#f0e0d6"
+    }
+  },
+  "error": null
+}

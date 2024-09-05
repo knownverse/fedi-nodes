@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 213,
+      "localComments": 78
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "rivieren &amp; meren ",
+      "nodeDescription": "rivières &amp; lacs   -   rivers &amp; lakes",
+      "nodeIcon": "https://rivieren-en-meren.online/wp-content/uploads/2019/06/cropped-cropped-dscn21351.jpg"
+    }
+  },
+  "error": null
+}

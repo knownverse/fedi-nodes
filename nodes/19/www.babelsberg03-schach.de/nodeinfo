@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "3",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 52,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SV Babelsberg 03 Schach",
+      "nodeDescription": "Schachabteilung",
+      "nodeIcon": "https://www.babelsberg03-schach.de/wp-content/uploads/2022/08/Logo_150x150.png"
+    }
+  },
+  "error": null
+}

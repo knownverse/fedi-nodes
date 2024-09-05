@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Il Blog di Giancatalda Sellivissi di videogiochi",
+      "nodeDescription": "Tante informazioni su Giochi videogiochi e console scritte da Giancatalda Sellivissi",
+      "nodeIcon": "https://giochivideogiochi.wordpress.com/wp-content/uploads/2024/03/cropped-il_blog_di_giochi_e_videogiochi-removebg-preview.png"
+    }
+  },
+  "error": null
+}

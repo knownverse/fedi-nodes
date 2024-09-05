@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "admin@darkmyre.cloud",
+        "name": "Darkmyre"
+      },
+      "nodeDescription": "My little gateway to the Fediverse, or something",
+      "nodeName": "Dark Cloud",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "掠れた備忘録",
+      "nodeDescription": "こころの声は止められない",
+      "nodeIcon": "https://caplico219.wordpress.com/wp-content/uploads/2021/06/wp-1623334766475.png"
+    }
+  },
+  "error": null
+}

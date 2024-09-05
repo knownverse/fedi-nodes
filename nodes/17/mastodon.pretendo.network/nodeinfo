@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+pink-soc"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 220
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Pretendo Network",
+      "nodeDescription": "The official Mastodon instance for the Pretendo Network service, a FOSS replacement for Nintendo's servers for 3DS and Wii U.\r\n"
+    }
+  },
+  "error": null
+}

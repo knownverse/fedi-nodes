@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1519,
+      "localComments": 618
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jamin Bradley",
+      "nodeDescription": "Pastor. Theologian. Musician. Author. Nerd. Exorcist.",
+      "nodeIcon": "https://jaminbradley.com/wp-content/uploads/2024/02/jb-logo.png"
+    }
+  },
+  "error": null
+}

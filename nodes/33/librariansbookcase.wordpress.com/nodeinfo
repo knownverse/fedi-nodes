@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 281,
+      "localComments": 37
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Librarian&#039;s Bookcase",
+      "nodeDescription": "",
+      "nodeIcon": "https://librariansbookcase.wordpress.com/wp-content/uploads/2020/03/img_6380.jpg"
+    }
+  },
+  "error": null
+}

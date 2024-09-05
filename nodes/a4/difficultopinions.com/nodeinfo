@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 66,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Difficult Opinions",
+      "nodeDescription": "Covering politics, news, and life from a Progressive viewpoint.",
+      "nodeIcon": "https://difficultopinions.com/wp-content/uploads/2023/08/cropped-ios-icon-v2.png"
+    }
+  },
+  "error": null
+}

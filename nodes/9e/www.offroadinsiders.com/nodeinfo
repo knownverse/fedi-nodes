@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 28,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Off-road Insiders",
+      "nodeDescription": "From newcomers to experienced wheelers, Nate and Jeep Momma inside the off-road community.  And we’re sharing our experience with you!",
+      "nodeIcon": "https://www.offroadinsiders.com/wp-content/uploads/2024/01/cropped-Logo-Round.png"
+    }
+  },
+  "error": null
+}

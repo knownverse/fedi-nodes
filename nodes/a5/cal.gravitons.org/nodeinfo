@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Livestream calendar. Time zone: GMT +1.",
+      "nodeName": "#fediwave",
+      "nodeTimezone": "Europe/London",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 24,
+      "users": {
+        "total": 5
+      }
+    }
+  },
+  "error": null
+}

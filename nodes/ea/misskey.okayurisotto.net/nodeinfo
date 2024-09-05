@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/okayurisotto/wisteria",
+      "repository": "https://github.com/okayurisotto/wisteria"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21565,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5820,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Pulsekey",
+      "nodeDescription": "",
+      "nodeAdmins": [
+        {
+          "name": "okayurisotto",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "okayurisotto",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://okayurisotto.net/",
+      "repositoryUrl": "https://github.com/okayurisotto/wisteria",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ff9200"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 31
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Osten ohne Plan",
+      "nodeDescription": "Ein Sabbatjahr mit Rad und Zelt",
+      "nodeIcon": "https://osten-ohne-plan.de/wp-content/uploads/2024/07/cropped-Logo_OstenOhnePlan_final.jpg"
+    }
+  },
+  "error": null
+}

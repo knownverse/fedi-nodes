@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-mewl.1",
+      "homepage": "https://github.com/anatawa12/misskey/tree/vmimi-relay-timeline-releases?tab=readme-ov-file#vmimi-relay-timeline",
+      "repository": "https://github.com/anatawa12/misskey/tree/vmimi-relay-timeline-releases?tab=readme-ov-file#vmimi-relay-timeline"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 274,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 21015,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "バーチャルケモミミ！",
+      "nodeDescription": "バーチャルとけもみみとそれ以外に関するMisskeyインスタンス\nけもみみーっ！！！！！！！！！",
+      "nodeAdmins": [
+        {
+          "name": "mewl hayabusa",
+          "email": "mewl@mewl.me"
+        }
+      ],
+      "maintainer": {
+        "name": "mewl hayabusa",
+        "email": "mewl@mewl.me"
+      },
+      "langs": [],
+      "tosUrl": "/@mewl/pages/terms",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "/@mewl",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/anatawa12/misskey/tree/vmimi-relay-timeline-releases?tab=readme-ov-file#vmimi-relay-timeline",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "vmimiRelayTimelineImplemented": true,
+      "disableVmimiRelayTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#2aa198"
+    }
+  },
+  "error": null
+}

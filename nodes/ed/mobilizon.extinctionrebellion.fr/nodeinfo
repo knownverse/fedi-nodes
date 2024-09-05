@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Événements organisés par Extinction Rebellion, tous les voir sur notre site internet : extinctionrebellion.fr/agenda",
+      "nodeName": "Mobilizon Extinction Rebellion France"
+    },
+    "usage": {
+      "users": {
+        "total": 183
+      },
+      "localComments": 27,
+      "localPosts": 1887
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

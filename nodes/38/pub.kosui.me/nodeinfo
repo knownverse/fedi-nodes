@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "kosui",
+      "version": "2024.02.23.01"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

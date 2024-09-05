@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-n",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 62564,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "モゲコ村　芸術の秋😎",
+      "nodeDescription": "<center>\n<img src=\"https://media.mogeko.monster/null/96e6d739-b6d7-400a-9f65-b8f38f053a3a.png\" alt=\"banner\">\n<br>\n<br>\nA Midsummer Night's Mogeko Village\n<br>\n<br>\n海が見える、小さくて素敵な村。<br>\n村民たちはみんな絵文字が大好き！<br>\n<br>\n※身内鯖です<br>\n※色々とセンシティブです\n<br><br>\n村の神 <font color=\"#cc3300\"><b>⛩</b></font> <a href=\"https://papi.n1l.dev/@n1lsqn\"><font color=\"#e36849\"><b>@n1lsqn</b></font></a><br><br>\n</center>",
+      "nodeAdmins": [
+        {
+          "name": "村長",
+          "email": "funamusea.com@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "村長",
+        "email": "funamusea.com@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "http://funamusea.com/contact.html",
+      "impressumUrl": "https://misskey.io/@funamusea",
+      "repositoryUrl": "https://github.com/n1lsqn/misskey/tree/mogeko-master",
+      "feedbackUrl": "https://github.com/n1lsqn/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 9000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#f29924"
+    }
+  },
+  "error": null
+}

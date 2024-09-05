@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 276,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 37442,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Tyazzkey",
+      "nodeDescription": "<p>誰もが思い描くように楽しめる場所を目指しています</p>\n<p>新規登録絶賛受付中です！</p>\n<p>Tyazzkeyでは月ごとのテーマに合わせて、アイコンや背景画像を変更してまいります<br>\n季節の移ろいを感じていただければ幸いです</p>\n<p>さて、今月のTyazzkeyのテーマは<br>\n「夏への前準備！アジサイ咲き誇る梅雨」となります！</p>\n<p>暑さと湿気も相まって夏への訪れを感じるようになりました\n水分補給や休憩を怠らず体調管理には気を付けましょう</p>\n<p>Powered by Misskey</p>",
+      "nodeAdmins": [
+        {
+          "name": "Tyazuki",
+          "email": "55_synpho_ano@digdig.org"
+        }
+      ],
+      "maintainer": {
+        "name": "Tyazuki",
+        "email": "55_synpho_ano@digdig.org"
+      },
+      "langs": [],
+      "tosUrl": "https://tyazzkey.work/@Tyazuki/pages/TOS",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#34c5b0"
+    }
+  },
+  "error": null
+}

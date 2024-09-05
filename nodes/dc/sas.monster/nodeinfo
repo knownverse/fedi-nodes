@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 546,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "SAS Heavy Industries",
+      "nodeDescription": "Welcome!\n<br><br>\nThis is a private instance maintained by @wafuu meant to be a replacement (someday, hopefully!) / fallback to a certain bird site.\n<br><br>\nWe also run:\n<br>\n- Matrix server<br>\n- More...?<br>\n<br>\nYou can contact me via the aforementioned services by visiting my profile, or by using good old-fashioned email, which you can find in the Maintainer email section.",
+      "nodeAdmins": [
+        {
+          "name": "wafuu",
+          "email": "hello@sas.monster"
+        }
+      ],
+      "maintainer": {
+        "name": "wafuu",
+        "email": "hello@sas.monster"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#0A889D"
+    }
+  },
+  "error": null
+}

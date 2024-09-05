@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1225,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "lavacat's social",
+      "nodeDescription": "New instance, made because of troubles with previous ones. Made by @lavacat for @lavacat and others.\nArt used as instance background made by <a href=\"https://misskey.io/@00aa\">@00aa@misskey.io</a>",
+      "nodeAdmins": [
+        {
+          "name": "@lavacat",
+          "email": "@lavacat@fedora.email"
+        }
+      ],
+      "maintainer": {
+        "name": "@lavacat",
+        "email": "@lavacat@fedora.email"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#813d9c"
+    }
+  },
+  "error": null
+}

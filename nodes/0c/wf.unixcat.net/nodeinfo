@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Unixcat Writefreely Blog",
+      "nodeDescription": "Something a little more than a miroblog",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 3,
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.13.1"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1
+      },
+      "localPosts": 114
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

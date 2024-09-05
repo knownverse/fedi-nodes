@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 347,
+      "localComments": 87
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Moixa Mental",
+      "nodeDescription": "Col·lectiu d’acció creativa",
+      "nodeIcon": "https://moixamental.cat/wp-content/uploads/2023/01/cropped-moixa-finestraredona.png"
+    }
+  },
+  "error": null
+}

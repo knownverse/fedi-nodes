@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 49,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Asociación Rodeo  ",
+      "nodeDescription": "Gestión del Barrio y más cosas",
+      "nodeIcon": "https://asociacionrodeo.wordpress.com/wp-content/uploads/2023/10/cropped-logo-rodeo-2.png"
+    }
+  },
+  "error": null
+}

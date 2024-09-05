@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 314,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 55894,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "限界集落",
+      "nodeDescription": "▼▼▼限界集落へようこそ▼▼▼\nここはインターネットの辺境の地、限界集落です。\nこれといったテーマも無い鯖なので、住民は思い思いの趣味を満喫しています。\n穏やかにインターネット生活を過ごしたい人が多めです。\n\n⚠️不定期にメンテナンスしてるので時々アクセスできなくなります（バージョンアップ対応, 速度最適化など）",
+      "nodeAdmins": [
+        {
+          "name": "@chilitreat",
+          "email": "chilitreat.dev@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@chilitreat",
+        "email": "chilitreat.dev@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

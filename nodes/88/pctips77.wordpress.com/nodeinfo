@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 226,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Computer Tips &amp; Other Tutorials",
+      "nodeDescription": "Short guides to using Microsoft Windows features, software, and video games along with arts and crafts",
+      "nodeIcon": "https://pctips77.wordpress.com/wp-content/uploads/2022/03/cropped-pctipslogo-01.png"
+    }
+  },
+  "error": null
+}

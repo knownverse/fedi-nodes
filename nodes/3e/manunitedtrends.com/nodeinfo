@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 32,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MAN UNITED TRENDS",
+      "nodeDescription": "Manchester United latest news, Man United Transfers Man Utd top-notch and witty opinions, Man United press conferences, Manchester United Gossips.",
+      "nodeIcon": "https://manunitedtrends.com/wp-content/uploads/2024/07/wp-1720870099528.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 725,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "hawk-tomy's misskey",
+      "nodeDescription": "hawk tomyの個人運営misskey鯖です。",
+      "nodeAdmins": [
+        {
+          "name": "hawk-tomy",
+          "email": "misskey@mail.hawk-tomy.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "hawk-tomy",
+        "email": "misskey@mail.hawk-tomy.dev"
+      },
+      "langs": [],
+      "tosUrl": " ",
+      "privacyPolicyUrl": " ",
+      "inquiryUrl": null,
+      "impressumUrl": "https://github.com/hawk-tomy",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

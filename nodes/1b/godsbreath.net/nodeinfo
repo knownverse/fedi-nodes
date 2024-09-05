@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 437,
+      "localComments": 7348
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Breath of God",
+      "nodeDescription": "&quot;Every scripture is God&#039;s breath...&quot; (2 Timothy 3:16–17).",
+      "nodeIcon": "https://godsbreath.net/wp-content/uploads/2024/02/cropped-the-breath-of-god-symbol.png"
+    }
+  },
+  "error": null
+}

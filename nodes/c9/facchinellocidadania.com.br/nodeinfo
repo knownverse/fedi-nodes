@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Facchinello Cidadania",
+      "nodeDescription": "contato@facchinellocidadania.com.br",
+      "nodeIcon": "https://facchinellocidadania.com.br/wp-content/uploads/2023/12/logo-3-edited.png"
+    }
+  },
+  "error": null
+}

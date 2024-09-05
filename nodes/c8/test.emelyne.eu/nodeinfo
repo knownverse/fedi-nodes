@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.08-1571"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Friendica Social Network",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

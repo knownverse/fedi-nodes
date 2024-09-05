@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240430",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "homepage": "https://firefish.dev/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 88,
+        "activeHalfyear": 49,
+        "activeMonth": 20
+      },
+      "localPosts": 7089,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "☕ Coffee Break 別館",
+      "nodeDescription": "参加は20歳以上（含精神年齢）<br>Coffee Breakに関係なくどなたでも参加どうぞ<br><br>\n\n<a href=\"https://misskey.soda-net.com/\">Coffee Break (https://misskey.soda-net.com/)</a> の姉妹サイトです。ローカルタイムライン、グローバルタイムライン無しの汎用サーバーです。<br><br>\n\nCoffee Break本館＋αのパブリック投稿が流れる「おすすめ」タイムラインがあります。<br><br>\n\n政治、宗教、社会問題、思想等の主義主張や議論はそれに適した他のサーバーをお探しください（基本鯖缶の仲裁や手を煩わせる可能性があるような言動はやめて）\n",
+      "maintainer": {
+        "name": "ソーダ （ @soda@annex.coffee-break.cc ）",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://www.coffee-break.cc/a/about-annex/",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "feedbackUrl": "https://firefish.dev/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 100000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#7b5545"
+    }
+  },
+  "error": null
+}

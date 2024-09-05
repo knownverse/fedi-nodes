@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Helfrich Bicycles",
+      "nodeDescription": "Mobile Bicycle Repair in Lancaster, PA",
+      "nodeIcon": "https://helfrichbicycles.com/wp-content/uploads/2021/12/profile-photo-01.jpg"
+    }
+  },
+  "error": null
+}

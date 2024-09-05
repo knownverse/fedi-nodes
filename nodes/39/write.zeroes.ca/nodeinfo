@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "ZeroesCA Write",
+      "nodeDescription": "a place to write",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 1,
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 32
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

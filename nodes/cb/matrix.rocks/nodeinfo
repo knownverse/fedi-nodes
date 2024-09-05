@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 81,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 22602,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Matrix Rocks",
+      "nodeDescription": "This Fediverse server instance is part of My Privacy DNS https://mypdns.org/, managed by @spirillen@matrix.rocks\n\nThis server diverse from many other fediverse networks, as we prioritize your privacy. See also blocked servers.",
+      "nodeAdmins": [
+        {
+          "name": "@spirillen@matrix.rocks",
+          "email": "fediverse@danwin1210.de"
+        }
+      ],
+      "maintainer": {
+        "name": "@spirillen@matrix.rocks",
+        "email": "fediverse@danwin1210.de"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.matrix.rocks/acceptable-use-policy.html",
+      "privacyPolicyUrl": "https://docs.matrix.rocks/privacy.html",
+      "inquiryUrl": "https://docs.matrix.rocks/contact.html",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "ghost",
+      "themeColor": "#00ff00"
+    }
+  },
+  "error": null
+}

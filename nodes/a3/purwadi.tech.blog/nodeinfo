@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mohd Purwadi",
+      "nodeDescription": "A Father, Teacher, and Digital Marketer",
+      "nodeIcon": "https://purwadi.tech.blog/wp-content/uploads/2023/10/cropped-whatsapp-image-2023-10-24-at-22.42.09_61b732dc.jpg"
+    }
+  },
+  "error": null
+}

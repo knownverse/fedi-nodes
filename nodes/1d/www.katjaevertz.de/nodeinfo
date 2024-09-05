@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 64,
+      "localComments": 228
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Katja Evertz",
+      "nodeDescription": "Digitalisierung, Strategie und Kommunikation",
+      "nodeIcon": "https://www.katjaevertz.de/storage/2021/11/social-optimist-logo-2021-ohne.svg"
+    }
+  },
+  "error": null
+}

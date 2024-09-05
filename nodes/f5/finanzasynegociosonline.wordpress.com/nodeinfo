@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Finanzas y Negocios Online",
+      "nodeDescription": "Ganar dinero en internet es posible. Aprende a crear propio negocio online para ganar dinero en internet",
+      "nodeIcon": "https://finanzasynegociosonline.wordpress.com/wp-content/uploads/2023/12/site-logo.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 25,
+        "activeMonth": 13,
+        "activeHalfyear": 18
+      },
+      "localPosts": 1848
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Orchard Social",
+      "nodeDescription": "A digital tree in a federated garden. A calm, welcoming place to talk about pretty much anything, but especially interested in technology, music, and films/TV."
+    }
+  },
+  "error": null
+}

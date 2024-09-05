@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Fedipix.de Instanz",
+      "software": {
+        "homepage": "https://pixelfed.org",
+        "repo": "https://github.com/pixelfed/pixelfed"
+      },
+      "config": {
+        "features": {
+          "timelines": {
+            "local": true,
+            "network": true
+          },
+          "mobile_apis": true,
+          "stories": true,
+          "video": true,
+          "import": {
+            "instagram": false,
+            "mastodon": false,
+            "pixelfed": false
+          },
+          "label": {
+            "covid": {
+              "enabled": true,
+              "org": "visit the WHO website",
+              "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+            }
+          }
+        }
+      }
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pixelfed",
+      "version": "0.11.5"
+    },
+    "usage": {
+      "localPosts": 423,
+      "localComments": 0,
+      "users": {
+        "total": 147,
+        "activeHalfyear": 6,
+        "activeMonth": 3
+      }
+    },
+    "version": "2.0",
+    "openRegistrations": true
+  },
+  "error": null
+}

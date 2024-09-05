@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 13,
+      "localComments": 7
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "人间大风&#039;s",
+      "nodeDescription": "一个庇护所、一个流浪地",
+      "nodeIcon": "https://millepageworld.blog.edu.kg/wp-content/uploads/sites/57/2020/08/cropped-0D2E4754-A48C-4140-A0B2-780CE61729A020170721-083-1.jpg"
+    }
+  },
+  "error": null
+}

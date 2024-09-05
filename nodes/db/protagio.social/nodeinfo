@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2-pf042f5d4"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 927,
+        "activeHalfyear": 9,
+        "activeMonth": 2
+      },
+      "localPosts": 1900,
+      "localComments": 2656
+    },
+    "metadata": {
+      "nodeName": "Protagio.Social",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      }
+    }
+  },
+  "error": null
+}

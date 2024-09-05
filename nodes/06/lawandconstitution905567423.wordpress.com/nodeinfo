@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jerald D&#039;souza",
+      "nodeDescription": "  More conversations are required on the Constitution and its tenets of equality, justice and fraternity. This blog is a forum to share discussions, opinions and thoughts under the umbrella of the Constitution of India",
+      "nodeIcon": "https://lawandconstitution905567423.wordpress.com/wp-content/uploads/2022/10/cropped-301730655_10228123635692519_4298981153240724849_n.jpg"
+    }
+  },
+  "error": null
+}

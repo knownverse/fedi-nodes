@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 178,
+      "localComments": 256
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JohnHenry.US [BETA]",
+      "nodeDescription": "An American Legend",
+      "nodeIcon": "https://johnhenry.us/wp-content/uploads/2024/01/cropped-jhus-2023-logo-core-512.png"
+    }
+  },
+  "error": null
+}

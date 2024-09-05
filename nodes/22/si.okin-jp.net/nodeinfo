@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-beta.1+kmyblue.14.0-dev"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeMonth": 26,
+        "activeHalfyear": 30
+      },
+      "localPosts": 4144
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "しぃ！",
+      "nodeDescription": "しぃ！は気軽に分散SNSを始められる絵文字リアクション対応Mastodon(kmyblue)サーバーです。トゥートと絵文字リアクションで今の気持ちや考え、何も考えていないこと思いつくままにつぶやける、だらだら過ごせるあなたのおうちを目指します。リアクション専門、壁打ち、サブアカウントなど様々な使い方を歓迎します。",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-beta.1"
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "Cody 2": "down",
+      "The Patriots": "La-li-lu-le-lo?  What's that?",
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "pleroma_explicit_addressing"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "quarantined_instances": []
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 10,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": false,
+      "nodeDescription": "Revolver!",
+      "postFormats": [
+        "text/plain",
+        "text/html"
+      ],
+      "private": false,
+      "restrictedNicknames": [],
+      "skipThreadContainment": true,
+      "staffAccounts": [],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 16777216,
+        "background": 16777216,
+        "banner": 16777216,
+        "general": 16777216
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub",
+      "litepub",
+      "revolver"
+    ],
+    "services": {
+      "inbound": [
+        "gnusocial",
+        "rss2.0"
+      ],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "revolver",
+      "version": "0.0.0.0.0.0.0.0.0.0.2"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

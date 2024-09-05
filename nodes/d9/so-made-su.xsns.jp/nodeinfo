@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 424,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "so made su",
+      "nodeDescription": "相馬いこの個人用鯖です<br>好き勝手に使っています<br>\n<br>\nカスタム絵文字に関する利用規約等<br>\nhttps://soumaiko.notion.site/so-made-su-8b864f82cc7e492f9392e9225d9e29fb",
+      "nodeAdmins": [
+        {
+          "name": "相馬いこ",
+          "email": "somadesu.infomation@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "相馬いこ",
+        "email": "somadesu.infomation@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://so-made-su.xsns.jp/@admin",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#162c85"
+    }
+  },
+  "error": null
+}

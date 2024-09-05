@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 96,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Storied Investor",
+      "nodeDescription": "",
+      "nodeIcon": "https://thestoriedinvestor.com/wp-content/uploads/2023/06/cropped-screenshot-2023-06-21-at-18.19.59.png"
+    }
+  },
+  "error": null
+}

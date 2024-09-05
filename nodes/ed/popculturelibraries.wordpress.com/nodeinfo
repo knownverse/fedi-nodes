@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 249,
+      "localComments": 2631
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pop Culture Library Review",
+      "nodeDescription": "&quot;This is a library, after all.&quot;- Kaisa, the librarian of Trolberg. On this blog, I review animation, movies, and other cultural mediums, attempting to counter stererotypes of libraries and librarians, while reminding people what libraries (and librarians) are all about.",
+      "nodeIcon": "https://popculturelibraries.wordpress.com/wp-content/uploads/2021/11/cropped-fire-1.png"
+    }
+  },
+  "error": null
+}

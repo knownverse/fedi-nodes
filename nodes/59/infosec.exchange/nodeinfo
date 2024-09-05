@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 70167,
+        "activeMonth": 14638,
+        "activeHalfyear": 27295
+      },
+      "localPosts": 3383624
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Infosec Exchange",
+      "nodeDescription": "A Mastodon instance for info/cyber security-minded people.\r\n"
+    }
+  },
+  "error": null
+}

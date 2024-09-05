@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 56,
+      "localComments": 48
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Podcast Projets Libres !",
+      "nodeDescription": "Modèles économiques et communautés du logiciel libre",
+      "nodeIcon": "https://www.projets-libres.org/wp-content/uploads/2023/10/cropped-Projets-libres-Icone-512x512-1.png"
+    }
+  },
+  "error": null
+}

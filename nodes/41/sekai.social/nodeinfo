@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.9.3",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3882,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "sekai.social",
+      "nodeDescription": null,
+      "maintainer": {
+        "name": "@untitled",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://sekai.social/@untitled/pages/1696788699477",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

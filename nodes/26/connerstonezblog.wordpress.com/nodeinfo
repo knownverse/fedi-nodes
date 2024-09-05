@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Conner Stonez Blog",
+      "nodeDescription": "",
+      "nodeIcon": "https://connerstonezblog.wordpress.com/wp-content/uploads/2024/03/a-beautifully-c-d4048c8c-8c52-46e4-82a9-ea5c79b7efe6.png"
+    }
+  },
+  "error": null
+}

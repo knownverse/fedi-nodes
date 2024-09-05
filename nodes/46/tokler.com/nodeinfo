@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.10.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "Tokler",
+      "nodeDescription": "A small instance for anyone.",
+      "maintainer": {
+        "name": null,
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://tokler.com/@faeempress/pages/1689721858773",
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true
+    }
+  },
+  "error": null
+}

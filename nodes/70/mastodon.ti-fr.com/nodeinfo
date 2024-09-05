@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 366
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon Ti-Fr ",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

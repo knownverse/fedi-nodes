@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 302,
+      "localComments": 95
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anonima Geek",
+      "nodeDescription": "Anónima, Geek... bruja, guerrera, libre, liberada. Esta es la historia ficticia de mi particular guerra real.",
+      "nodeIcon": "https://anonimageek.com/wp-content/uploads/2023/07/anonimageek.png"
+    }
+  },
+  "error": null
+}

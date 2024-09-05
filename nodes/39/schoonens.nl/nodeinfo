@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 0,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Camiel Schoonens",
+      "nodeDescription": "Energetic leader with a strong intrinsic motivation to get the best out of my work, my people and myself every day.",
+      "nodeIcon": "https://schoonens.nl/wp-content/uploads/2022/10/cropped-20220331_Camiel_Header.jpg"
+    }
+  },
+  "error": null
+}

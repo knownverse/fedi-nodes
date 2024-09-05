@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda llibertària de València",
+      "nodeName": "calendari.cc",
+      "nodeTimezone": "Europe/Madrid",
+      "nodeActor": "calendari.cc"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 486,
+      "users": {
+        "total": 35
+      }
+    }
+  },
+  "error": null
+}

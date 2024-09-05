@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "爆速ネット回線レンタル!!",
+      "nodeDescription": "インターネツト関連商品紹介です。",
+      "nodeIcon": "https://japan7700.wordpress.com/wp-content/uploads/2024/03/cropped-pexels-pixabay-315191.jpg"
+    }
+  },
+  "error": null
+}

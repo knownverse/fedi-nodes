@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 261,
+      "localComments": 368
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Josh Betz",
+      "nodeDescription": "Made with 🧀 in Madison",
+      "nodeIcon": "https://i.99systems.net/i/size:512:512/plain/https://josh.blog/wp-content/uploads/sites/4/2024/06/favicon.png"
+    }
+  },
+  "error": null
+}

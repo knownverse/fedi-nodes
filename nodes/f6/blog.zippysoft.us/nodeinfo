@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1.1",
+      "repository": "https://github.com/pfefferle/wordpress-nodeinfo"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 1,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": {
+      "inbound": [
+        "activitypub"
+      ],
+      "outbound": [
+        "activitypub"
+      ]
+    },
+    "metadata": {
+      "email": "zippy1981@gmail.com"
+    }
+  },
+  "error": null
+}

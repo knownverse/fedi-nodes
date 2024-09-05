@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 92,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "NextScenery",
+      "nodeDescription": "しなり個人運営鯖\n自由に気ままに次の景色へ\n\n\n",
+      "nodeAdmins": [
+        {
+          "name": "しなり",
+          "email": "rotarywalken@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "しなり",
+        "email": "rotarywalken@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://x.com/Amemiya_Shinari",
+      "impressumUrl": "https://x.com/Amemiya_Shinari",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#e66700"
+    }
+  },
+  "error": null
+}

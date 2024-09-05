@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 114,
+        "activeHalfyear": 9,
+        "activeMonth": 4
+      },
+      "localPosts": 1285,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "おたすき～",
+      "nodeDescription": "オタ系の話題なら何でも。\n\nいつき(@ityuki)が気ままに管理してます。\n",
+      "maintainer": {
+        "name": "いつき＠管理者モード",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://otasky.ja-jp.org/@admin/pages/Terms_of_service",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

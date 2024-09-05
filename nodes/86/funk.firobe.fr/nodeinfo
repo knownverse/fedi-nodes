@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 632,
+        "activeHalfyear": 98,
+        "activeMonth": 42
+      }
+    },
+    "metadata": {
+      "actorId": "https://funk.firobe.fr/federation/actors/service",
+      "private": false,
+      "shortDescription": "A personal yet open instance for any kind of music",
+      "longDescription": "A personal yet open instance for any kind of music.\r\n\r\nFeel free to contact me! Either by:\r\n- email (address at the end of this page)\r\n- [Mastodon](https://tech.lgbt/@firobe)\r\n\r\n⚠️ When waiting for the confirmation email, remember to check your spam folder.\r\n\r\nThe server may be slower every day around midnight CET, during a restart + backup.\r\n\r\nFrom time to time, the library is automatically pruned (every meta-data not associated to an uploaded audio file is scrubbed).",
+      "contactEmail": "virgile.robles@pm.me",
+      "nodeName": "The Funky Boi",
+      "banner": null,
+      "defaultUploadQuota": 30000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1383
+          }
+        },
+        "listenings": {
+          "total": 239151
+        },
+        "downloads": {
+          "total": 82250
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 47216
+        },
+        "artists": {
+          "total": 5563
+        },
+        "albums": {
+          "total": 7351
+        },
+        "music": {
+          "hours": 14455.726388888888
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": true
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "- Libraries with copyrighted content must be local or private (not public) but can accept followers.\r\n- Libraries with no copyrighted content should be local or public if possible, but may be private.\r\n- Users with >6 months of inactivity and no upload may be removed.\r\n- All content must respect Funkwhale's [Code of conduct](https://funkwhale.audio/code-of-conduct/). In particular, all music conveying far-right or neo-nazi ideas, or otherwise offensive content, will not be tolerated.",
+      "terms": "- I won't share any personal information of any kind to anyone and will limit my own data accesses to the strict minimum.\r\n- I do my best to operate this instance, keep Funkwhale up to date and make regular backups. However, nothing is guaranteed.\r\n- I may have to turn off or restart the instance for maintenance without notice.\r\n- Registrations may be closed at any time.\r\n- You have to register with a valid e-mail address (remember to check your spam folder)"
+    }
+  },
+  "error": null
+}

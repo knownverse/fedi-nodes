@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 136,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "protocols": {
+      "0": "activitypub",
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "rikmeijer.nl",
+      "nodeDescription": "reality over theory",
+      "nodeIcon": "https://i0.wp.com/rikmeijer.nl/wp-content/uploads/2021/04/cropped-logo-s.png?fit=150%2C110&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "9things",
+      "nodeDescription": "three things times three things is 9 things",
+      "nodeIcon": "https://9things3.wordpress.com/wp-content/uploads/2024/06/cropped-q2vqzrsz6wqi77o1jzub-4-72m6i-1.jpg"
+    }
+  },
+  "error": null
+}

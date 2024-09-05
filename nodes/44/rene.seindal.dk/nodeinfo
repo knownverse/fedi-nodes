@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 520,
+      "localComments": 668
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "René&#039;s old blog",
+      "nodeDescription": "Whatever I feel like posting, whenever",
+      "nodeIcon": "https://rene.seindal.dk/wp-content/uploads/2020/05/favicon.png"
+    }
+  },
+  "error": null
+}

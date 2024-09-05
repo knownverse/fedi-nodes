@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2-pf042f5d4"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 137,
+        "activeHalfyear": 2,
+        "activeMonth": 0
+      },
+      "localPosts": 1378,
+      "localComments": 359
+    },
+    "metadata": {
+      "nodeName": "grinaspora*",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      }
+    }
+  },
+  "error": null
+}

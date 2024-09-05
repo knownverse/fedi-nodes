@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 23,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11274,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "𝕭𝖆𝖘𝖘𝖕𝖎𝖘𝖙𝖔𝖑 📣",
+      "nodeDescription": "Established in 2010 as a pro-active reaction to everything that is broken in the music-industry, <a href=\"https://basspistol.com\" target=\"_blank\" style=\"text-decoration:underline\">Basspistol</a> is an endlessly evolving union for the Underground Artists of the third millenium carrying the values of the Creative Commons. We believe in Music. The underground is dead, Long Live the Underground!",
+      "nodeAdmins": [
+        {
+          "name": "Settoshi",
+          "email": "info+soc@basspistol.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Settoshi",
+        "email": "info+soc@basspistol.com"
+      },
+      "langs": [],
+      "tosUrl": "https://s.basspistol.org/@janitor/pages/CoC",
+      "privacyPolicyUrl": "https://s.basspistol.org/@janitor/pages/1718005166378",
+      "inquiryUrl": "https://s.basspistol.org/@janitor/pages/1718004437013",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "hq",
+      "themeColor": "#7100B8"
+    }
+  },
+  "error": null
+}

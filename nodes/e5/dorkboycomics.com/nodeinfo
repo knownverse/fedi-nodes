@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 108,
+      "localComments": 327
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "dorkboy comics",
+      "nodeDescription": "Offbeat comics by Canadian cartoonist damian willcox.",
+      "nodeIcon": "https://i0.wp.com/dorkboycomics.com/wp-content/blogs.dir/1/files/cropped-image-5.jpeg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

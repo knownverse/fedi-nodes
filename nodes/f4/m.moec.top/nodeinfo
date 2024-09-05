@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/laoxong/misskey",
+      "repository": "https://github.com/laoxong/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 147,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 22341,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "礼物萌",
+      "nodeDescription": "喵~\n一个广义的ACGN相关实例",
+      "nodeAdmins": [
+        {
+          "name": "老兄",
+          "email": "admin@moec.top"
+        }
+      ],
+      "maintainer": {
+        "name": "老兄",
+        "email": "admin@moec.top"
+      },
+      "langs": [],
+      "tosUrl": "https://m.moec.top/@laoxong/pages/tos",
+      "privacyPolicyUrl": "https://m.moec.top/@laoxong/pages/tos",
+      "inquiryUrl": "https://www.moec.top/",
+      "impressumUrl": "https://m.moec.top/@laoxong/pages/tos",
+      "repositoryUrl": "https://github.com/laoxong/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "followbot",
+      "themeColor": "#1793d1"
+    }
+  },
+  "error": null
+}

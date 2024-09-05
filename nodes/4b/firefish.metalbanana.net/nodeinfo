@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "firefish@metalbanana.net",
+        "name": "tangeek@firefish.metalbanana.net"
+      },
+      "nodeDescription": "<p>Instance personelle de tangeek@firefish.metalbanana.net</p>\n\n<p>Si je vous connais et que vous voulez tester Firefish, un code d'invitation peut être généré sur mesure.</p>\n\n<p>Logo utilisé avec la permission de l'artiste original: <a href=\"https://www.deviantart.com/wmvmetalsmithing/art/Metal-Banana-172012452\" style=\"text-decoration: underline;\" >WMVmetalsmithing sur DeviantArt</a>.</p>",
+      "nodeName": "Do fish dream of metal bananas ?",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 2000,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

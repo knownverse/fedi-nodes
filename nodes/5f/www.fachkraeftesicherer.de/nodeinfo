@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 613,
+      "localComments": 194
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Wir sind Ihr Fachkräftesicherer! Seit 2006!",
+      "nodeDescription": "schneller finden. effizienter binden. wirksamer arbeiten.",
+      "nodeIcon": "https://www.fachkraeftesicherer.de/wp-content/uploads/2019/09/Fachkraeftesicherer-schneller-Finden-effizienter-Binden-wirksamer-Arbeiten.jpg"
+    }
+  },
+  "error": null
+}

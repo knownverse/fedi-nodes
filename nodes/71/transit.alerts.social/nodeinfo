@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Transit Fedilerts",
+      "version": "0.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 20
+      }
+    },
+    "metadata": {}
+  },
+  "error": null
+}

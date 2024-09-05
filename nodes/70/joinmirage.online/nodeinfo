@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2022.06-1469"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "gnusocial"
+      ],
+      "outbound": [
+        "gnusocial",
+        "smtp",
+        "twitter"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 41,
+        "activeHalfyear": 4,
+        "activeMonth": 0
+      },
+      "localPosts": 1758,
+      "localComments": 1
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Project Mirage",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "gnusocial",
+          "twitter"
+        ],
+        "outbound": [
+          "gnusocial",
+          "smtp",
+          "twitter"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

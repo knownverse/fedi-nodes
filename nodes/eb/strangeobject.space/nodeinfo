@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 341,
+        "activeMonth": 168,
+        "activeHalfyear": 215
+      },
+      "localPosts": 254179
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "strangeobject.space",
+      "nodeDescription": "A strange object in space and a space for strange objects"
+    }
+  },
+  "error": null
+}

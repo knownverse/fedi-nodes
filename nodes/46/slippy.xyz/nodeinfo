@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 63,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11333,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Slippy",
+      "nodeDescription": "<p>⁂ Explicit content allowed, <strong>but only with CW</strong>.</p>\n\n<p>Trusted Constant Information: https://trusted.slippy.xyz/</p>\n\n<p>Matrix support room: <strong>#slippy-xyz-support:matrix.org</strong></p>\n\n<div style=\"text-align: left;\">\n<div><strong>Available addressed:</strong></div>\n<div> ↪ Clear web: <strong> https://slippy.xyz/ </strong></div>\n<div> ↪ Onion: <strong> http://irvqsc5bbdz2g5xpcvk4ekwzdkoc66gqjew7emyex4ygzsdc255bb7qd.onion/ </strong></div>\n</div>",
+      "nodeAdmins": [
+        {
+          "name": "efertone",
+          "email": "admin@slippy.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "efertone",
+        "email": "admin@slippy.xyz"
+      },
+      "langs": [],
+      "tosUrl": "https://slippy.xyz/@efertone/pages/tos-and-rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#613583"
+    }
+  },
+  "error": null
+}

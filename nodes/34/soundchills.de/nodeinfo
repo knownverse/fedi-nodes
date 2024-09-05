@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 536,
+      "localComments": 539
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SoundChills",
+      "nodeDescription": "Alles über die Welt der Musik- und Postproduktion",
+      "nodeIcon": "https://i0.wp.com/soundchills.de/wp-content/uploads/2024/01/cropped-Soundchills-Logo-Quadratisch-V2-B.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

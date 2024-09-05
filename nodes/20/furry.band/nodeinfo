@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.8",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": 12,
+        "activeMonth": 4
+      },
+      "localPosts": 309,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Furry Band",
+      "nodeDescription": "A fediverse instance for Furries who band together ... and play, or like music!  Rules, Terms, and such: https://terrencethefox.com/fediverse/furry-band",
+      "maintainer": {
+        "name": "@terrencefoxfur@furry.band",
+        "email": "hello@terrencethefox.com"
+      },
+      "langs": [],
+      "tosUrl": "https://terrencethefox.com/fediverse/furry-band",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

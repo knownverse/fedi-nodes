@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 84,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Forgotten Wisdom",
+      "nodeDescription": "&quot;Not IF, But WHEN. Will You Be Ready?&quot;",
+      "nodeIcon": "https://authorspiritwalker.com/wp-content/uploads/2022/02/cropped-publisher-logo..jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "",
+        "name": "snowynest"
+      },
+      "nodeDescription": "The cozy personal instance, maintained by snowynest.",
+      "nodeName": "Birdnest",
+      "proxyAccountName": "9ks4djmbw25oor8i",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#E0DDCB"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 979,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 3,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

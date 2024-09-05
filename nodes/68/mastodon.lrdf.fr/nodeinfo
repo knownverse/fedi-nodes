@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-11+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 2,
+        "activeHalfyear": 3
+      },
+      "localPosts": 17262
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

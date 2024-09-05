@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 615,
+      "localComments": 582
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Strange Life",
+      "nodeDescription": "&quot;Lately, it occurs to me, What a long strange trip its been&quot;",
+      "nodeIcon": "https://i0.wp.com/poltrack.net/wp-content/uploads/2018/08/cropped-JohnPhotographerPosterized-20120419-2.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

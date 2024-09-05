@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 119,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Octopuce",
+      "nodeDescription": "Serveurs et infogérance haute-fidélité",
+      "nodeIcon": "https://www.octopuce.fr/wp-content/uploads/2024/08/cropped-favicon-transparent-512x512-1.png"
+    }
+  },
+  "error": null
+}

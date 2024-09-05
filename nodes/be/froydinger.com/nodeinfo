@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 127,
+      "localComments": 721
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Win The Night",
+      "nodeDescription": "A Mental Health Awareness Project",
+      "nodeIcon": "https://winthenight.org/wp-content/uploads/2024/08/WTNglobe-final.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Relatos Oníricos",
+      "nodeDescription": "Explora los confines de la imaginación con &quot;Relatos Oníricos&quot;, una cautivadora colección de historias cortas que te sumergirán en mundos donde los sueños y la realidad se entrelazan. Desde percheros misteriosos hasta ascensores infinitos, cada relato te transportará a experiencias únicas y surreales. Descubre el poder de la mente en estos relatos fascinantes que desafían la lógica y te llevan a través de emocionantes viajes oníricos. Sumérgete en la magia de la narrativa y deja que &quot;Relatos Oníricos&quot; despierte tu imaginación. ¡Bienvenido a un universo donde los sueños se convierten en historias inolvidables!",
+      "nodeIcon": "https://relatosoniricos.wordpress.com/wp-content/uploads/2024/02/cropped-20240127_213717-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.0709_3e47d01"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 470
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "ShoreGuy's Sanctuary",
+      "nodeDescription": "A place for discussions, shared opinions and discourse. \r\nYou have no rights here, rights are an illusion.\r\n\r\nIf you'd like an account we are happy to consider; please ask.\r\n"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": 3,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.tangentfox.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "A personal instance for my collection of music.",
+      "longDescription": "",
+      "rules": "",
+      "contactEmail": "tangentfoxy@gmail.com",
+      "terms": "",
+      "nodeName": "Tangent's Music Collection",
+      "banner": null,
+      "defaultUploadQuota": 0,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 6759
+        },
+        "artists": {
+          "total": 1524
+        },
+        "albums": {
+          "total": 1742
+        },
+        "music": {
+          "hours": 454.37833333333333
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": true
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1337
+          }
+        },
+        "listenings": {
+          "total": 5691
+        },
+        "downloads": {
+          "total": 7721
+        }
+      }
+    }
+  },
+  "error": null
+}

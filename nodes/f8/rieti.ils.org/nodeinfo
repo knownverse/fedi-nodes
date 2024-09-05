@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 18,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ILS Rieti",
+      "nodeDescription": "Sezione Locale",
+      "nodeIcon": "https://rieti.ils.org/wp-content/uploads/sites/3/2021/08/cropped-logo-lug-rieti2-1.png"
+    }
+  },
+  "error": null
+}

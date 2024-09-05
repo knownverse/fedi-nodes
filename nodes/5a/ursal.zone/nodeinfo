@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3013,
+        "activeMonth": 593,
+        "activeHalfyear": 798
+      },
+      "localPosts": 355701
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Ursalzona",
+      "nodeDescription": "A URSAL.zone é uma instância moderada com foco em militantes progressistas, feministas e antifascistas da América Latina."
+    }
+  },
+  "error": null
+}

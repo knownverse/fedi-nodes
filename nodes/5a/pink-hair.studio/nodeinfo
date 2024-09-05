@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 622,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ピンク髪ちゃんサーバー",
+      "nodeDescription": "「ピンクは淫乱」をモットーとするサーバーです。\nピンクは淫乱に同意する偉い人たちだけ参加できます。\nエッチな投稿も、真面目な投稿も、合法ロリの投稿もOKです。",
+      "nodeAdmins": [
+        {
+          "name": "はおっこ（旧名：はおりん）",
+          "email": "admin@pink-hair.studio"
+        }
+      ],
+      "maintainer": {
+        "name": "はおっこ（旧名：はおりん）",
+        "email": "admin@pink-hair.studio"
+      },
+      "langs": [],
+      "tosUrl": "https://pink-hair.studio/@haokko/pages/server-rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_account",
+      "themeColor": "#f37ccd"
+    }
+  },
+  "error": null
+}

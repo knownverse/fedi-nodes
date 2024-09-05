@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3666,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7887735,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ゲームすきー",
+      "nodeDescription": "ゲームを遊ぶ人のサーバーです。ゲームが好きな人なら話題はなんでもどうぞ。<br>\n参加したい人はまず<a href=\"https://misskey.gamelore.fun/@admin/pages/1677660194362\">利用規約</a>を読んでください。<br>\n利用規約を読まないと登録できないようになっています。<br>\n<br>\n心得<br>\n1. うっかりデータふっとんだときに泣かないものを置くこと<br>\n2. ゲーム以外の話をしてもいいし、配信したりしていい<br>\n3. 合わない人は気軽にブロックやミュートを使うこと<br>\n（ブロックはTwitterと違い自分に見えるけど相手から見えない）<br>\n<br>\nドメインのgamelore.funはgame=ゲーム lore=伝承",
+      "nodeAdmins": [
+        {
+          "name": "あどみん（gamelore鯖缶）",
+          "email": "nassii74★gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "あどみん（gamelore鯖缶）",
+        "email": "nassii74★gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.gamelore.fun/@admin/pages/1677660194362",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

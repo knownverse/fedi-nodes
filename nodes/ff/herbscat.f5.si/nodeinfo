@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 76,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "薬草鯖インスタンス",
+      "nodeDescription": "練習がてら適当にたてたインスタンス\n個人と身内利用を今の所想定",
+      "maintainer": {
+        "name": "Narmal",
+        "email": "yama.arm@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

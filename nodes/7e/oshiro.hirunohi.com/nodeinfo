@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "https://contact-oshiro.hirunohi.com/",
+        "name": "あひるの人"
+      },
+      "nodeDescription": "通称『あひ鯖』，もしくは『おしろ』。 <br>\nDiscordおしろ民のための小規模サーバーです。 <br>\n現状登録は身内のみの想定です。",
+      "nodeName": "あひるのおしろ",
+      "proxyAccountName": "9fs9e11oj4",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#8d209e"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 83800,
+      "users": {
+        "activeHalfyear": 11,
+        "activeMonth": 9,
+        "total": 14
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

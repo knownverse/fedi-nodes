@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.th"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 73,
+        "activeMonth": 32,
+        "activeHalfyear": 44
+      },
+      "localPosts": 28674
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Restless Social Systems",
+      "nodeDescription": "RSS is a dedicated safe place for Twitter escapees, DisNCord users, and anyone who's looking for a safe place to hang their homeserver. We're a home to nonconforming individuals who, as a shared hobby, like watching paint dry on cursed computing. The Fediverse is a complicated and difficult place to navigate, but we hope to at least make it just a little easier. Run by NCommander, and staff."
+    }
+  },
+  "error": null
+}

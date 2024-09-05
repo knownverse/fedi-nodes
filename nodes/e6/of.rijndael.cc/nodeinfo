@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "2.8.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 17
+    },
+    "metadata": {
+      "nodeName": "Moana Rijndael premium edition",
+      "nodeDescription": "Добро пожаловать в мою постилку нюдсов! Пока я сижу тут одна, но может позову подружек ;)",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": []
+    }
+  },
+  "error": null
+}

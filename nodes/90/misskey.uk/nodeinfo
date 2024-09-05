@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 140,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2675,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey UK",
+      "nodeDescription": "Misskey in the UK.",
+      "nodeAdmins": [
+        {
+          "name": "巳波みなと",
+          "email": "contact@minato86.me"
+        }
+      ],
+      "maintainer": {
+        "name": "巳波みなと",
+        "email": "contact@minato86.me"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/Chipsnet/misskey.uk/blob/master/TERMS.md",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

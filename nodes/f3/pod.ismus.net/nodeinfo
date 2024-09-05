@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "http://pod.ismus.net/federation/actors/service",
+      "private": true,
+      "shortDescription": "Mainly private Audio Repository and Pod Publishing",
+      "longDescription": "",
+      "contactEmail": "",
+      "nodeName": "Pod*ismus",
+      "banner": null,
+      "defaultUploadQuota": 20000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 33
+          }
+        },
+        "listenings": {
+          "total": 20166
+        },
+        "downloads": {
+          "total": 14607
+        }
+      },
+      "library": {
+        "federationEnabled": false,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 3362
+        },
+        "artists": {
+          "total": 181
+        },
+        "albums": {
+          "total": 207
+        },
+        "music": {
+          "hours": 1075.7077777777777
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": true
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": null,
+        "libraries": null
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

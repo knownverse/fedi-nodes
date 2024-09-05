@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1298,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "いっかくみー",
+      "nodeDescription": "いっかくの遊び場SNSです。",
+      "nodeAdmins": [
+        {
+          "name": "いっかく",
+          "email": "https://mi.ikkaku.me/@ikkaku"
+        }
+      ],
+      "maintainer": {
+        "name": "いっかく",
+        "email": "https://mi.ikkaku.me/@ikkaku"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://mi.ikkaku.me/@ikkaku",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#dedb87"
+    }
+  },
+  "error": null
+}

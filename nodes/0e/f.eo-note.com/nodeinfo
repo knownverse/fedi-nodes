@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.3",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 3,
+        "activeMonth": 3
+      },
+      "localPosts": 467,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "EONOTE",
+      "nodeDescription": "冒険者RPerによる、エオルゼアに関する呟きをする個人サーバーです。\n突然爆破する可能性がある試験鯖の為、新規受付等は開放していません。",
+      "maintainer": {
+        "name": "管理人",
+        "email": "hail.djtnong@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#29bcf9"
+    }
+  },
+  "error": null
+}

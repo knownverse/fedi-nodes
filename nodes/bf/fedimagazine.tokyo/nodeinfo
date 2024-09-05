@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 445,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "fedimagazine.tokyo",
+      "nodeDescription": "日本人ユーザー向けのFediverse/分散SNSに関するニュースを掲載",
+      "nodeIcon": "https://fedimagazine.tokyo/wp-content/uploads/2023/10/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

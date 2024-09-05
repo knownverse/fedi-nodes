@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 226,
+      "localComments": 122
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Piccolina Farm",
+      "nodeDescription": "Adventures in wool and farming.",
+      "nodeIcon": "https://i0.wp.com/lapiccolinauy.com/wp-content/uploads/2024/01/WP-square-icon.png?fit=880%2C880&ssl=1"
+    }
+  },
+  "error": null
+}

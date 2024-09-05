@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 6803,
+      "localComments": 1308
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Tong Family",
+      "nodeDescription": "Rich Tong&#039;s Tips, Tricks and Traps",
+      "nodeIcon": "https://i0.wp.com/tongfamily.com/wp-content/uploads/2019/09/cropped-tesla-model-3-dashboard-in-autopilot-testing-with-iihs-credit-iihs_100665437_l.jpg?fit=%2C&ssl=1"
+    }
+  },
+  "error": null
+}

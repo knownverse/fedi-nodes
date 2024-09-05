@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 58,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Maxim Andreev",
+      "nodeDescription": "",
+      "nodeIcon": "https://maximandreev.de/wp-content/uploads/2024/08/cropped-MaximAndreevFavicon.jpg"
+    }
+  },
+  "error": null
+}

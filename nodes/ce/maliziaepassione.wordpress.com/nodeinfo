@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1081,
+      "localComments": 355
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "malizia e passione ",
+      "nodeDescription": "Raccontiamoci. ",
+      "nodeIcon": "https://maliziaepassione.wordpress.com/wp-content/uploads/2021/02/cropped-20210221_091005.jpg"
+    }
+  },
+  "error": null
+}

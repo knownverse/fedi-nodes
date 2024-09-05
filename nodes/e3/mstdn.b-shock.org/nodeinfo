@@ -1,0 +1,211 @@
+{
+  "success": true,
+  "data": {
+    "uri": "mstdn.b-shock.org",
+    "title": "美食丼",
+    "short_description": "",
+    "description": "ぷーざの個人インスタンスです。（運用開始: 2017/04/20）",
+    "email": "info@b-shock.org",
+    "version": "2.0",
+    "urls": {
+      "streaming_api": "wss://mstdn.b-shock.org"
+    },
+    "stats": {
+      "user_count": 42,
+      "status_count": 121737,
+      "domain_count": 9621
+    },
+    "thumbnail": "https://mstdn.b-shock.org/site_uploads/files/000/000/003/@1x/4fd3a70bdf47e40b.png",
+    "languages": [
+      "en"
+    ],
+    "registrations": true,
+    "approval_required": true,
+    "invites_enabled": true,
+    "configuration": {
+      "accounts": {
+        "max_featured_tags": 10
+      },
+      "statuses": {
+        "max_characters": 2000,
+        "max_media_attachments": 4,
+        "characters_reserved_per_url": 23
+      },
+      "media_attachments": {
+        "supported_mime_types": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/heic",
+          "image/heif",
+          "image/webp",
+          "image/avif",
+          "video/webm",
+          "video/mp4",
+          "video/quicktime",
+          "video/ogg",
+          "audio/wave",
+          "audio/wav",
+          "audio/x-wav",
+          "audio/x-pn-wave",
+          "audio/vnd.wave",
+          "audio/ogg",
+          "audio/vorbis",
+          "audio/mpeg",
+          "audio/mp3",
+          "audio/webm",
+          "audio/flac",
+          "audio/aac",
+          "audio/m4a",
+          "audio/x-m4a",
+          "audio/mp4",
+          "audio/3gpp",
+          "video/x-ms-asf"
+        ],
+        "image_size_limit": 16777216,
+        "image_matrix_limit": 33177600,
+        "video_size_limit": 103809024,
+        "video_frame_rate_limit": 120,
+        "video_matrix_limit": 8294400
+      },
+      "polls": {
+        "max_options": 10,
+        "max_characters_per_option": 50,
+        "min_expiration": 300,
+        "max_expiration": 2629746
+      }
+    },
+    "contact_account": {
+      "id": "1",
+      "username": "pooza",
+      "acct": "pooza",
+      "display_name": "ぷーざ",
+      "locked": false,
+      "bot": false,
+      "discoverable": true,
+      "group": false,
+      "created_at": "2017-04-19T00:00:00.000Z",
+      "note": "<p>■主な話題<br />- アニメ（プリキュアやダイ大等）<br />- <a href=\"https://mstdn.b-shock.org/tags/%E5%AE%AE%E6%9C%AC%E4%BD%B3%E9%82%A3%E5%AD%90\" class=\"mention hashtag\" rel=\"tag\">#<span>宮本佳那子</span></a> さん（歌手/声優）<br />- <a href=\"https://mstdn.b-shock.org/tags/Mac\" class=\"mention hashtag\" rel=\"tag\">#<span>Mac</span></a><br />- <a href=\"https://mstdn.b-shock.org/tags/FreeBSD\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeBSD</span></a><br />- Fediverse（自作ソフトの話題も含む）<br />- <a href=\"https://mstdn.b-shock.org/tags/%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B2%E3%83%BC\" class=\"mention hashtag\" rel=\"tag\">#<span>レトロゲー</span></a><br />- <a href=\"https://mstdn.b-shock.org/tags/TRPG\" class=\"mention hashtag\" rel=\"tag\">#<span>TRPG</span></a><br />- ゲームデザインの持論</p><p>■アカウントの目的<br />壁打ち用途、つまり独り言。<br />自分の為の記録であり、あとで振り返る日記のようなものです。</p><p>- 独り言なので、前提の共有なしにつぶやくことがあります。独り言ぐらいは自分に言い聞かせる表現を優先します。<br />- 独り言なので、本音をつぶやく一面があります。感情的な発言にならないように注意してはいますが、低評価や批判も正直に行います。<br />- 社会人としてアウトな発言でなければ、割と頻繁に、本音を含む独り言を言います。</p><p>■ここ以外に管理してる、主なfediサーバー</p><p>キュアスタ！ <a href=\"https://precure.ml\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">precure.ml</span><span class=\"invisible\"></span></a><br /><a href=\"https://mstdn.b-shock.org/tags/%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2\" class=\"mention hashtag\" rel=\"tag\">#<span>プリキュア</span></a> シリーズをテーマとするMastodonサーバー。<br />デフォルトタグ: <a href=\"https://mstdn.b-shock.org/tags/precure_fun\" class=\"mention hashtag\" rel=\"tag\">#<span>precure_fun</span></a></p><p>デルムリン丼 <a href=\"https://mstdn.delmulin.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mstdn.delmulin.com</span><span class=\"invisible\"></span></a><br />「ドラゴンクエスト <a href=\"https://mstdn.b-shock.org/tags/%E3%83%80%E3%82%A4%E3%81%AE%E5%A4%A7%E5%86%92%E9%99%BA\" class=\"mention hashtag\" rel=\"tag\">#<span>ダイの大冒険</span></a> 」をテーマとするMastodonサーバー。略してデル丼。<br />デフォルトタグ: <a href=\"https://mstdn.b-shock.org/tags/delmulin\" class=\"mention hashtag\" rel=\"tag\">#<span>delmulin</span></a></p><p>ダイスキー <a href=\"https://misskey.delmulin.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.delmulin.com</span><span class=\"invisible\"></span></a><br />「ドラゴンクエスト <a href=\"https://mstdn.b-shock.org/tags/%E3%83%80%E3%82%A4%E3%81%AE%E5%A4%A7%E5%86%92%E9%99%BA\" class=\"mention hashtag\" rel=\"tag\">#<span>ダイの大冒険</span></a> 」をテーマとするMisskeyサーバー。デル丼の姉妹サーバーです。<br />デフォルトタグ: <a href=\"https://mstdn.b-shock.org/tags/delmulin\" class=\"mention hashtag\" rel=\"tag\">#<span>delmulin</span></a></p>",
+      "url": "https://mstdn.b-shock.org/@pooza",
+      "uri": "https://mstdn.b-shock.org/users/pooza",
+      "avatar": "https://mstdn.b-shock.org/accounts/avatars/000/000/001/original/9de4eace37a77da3.png",
+      "avatar_static": "https://mstdn.b-shock.org/accounts/avatars/000/000/001/original/9de4eace37a77da3.png",
+      "header": "https://mstdn.b-shock.org/accounts/headers/000/000/001/original/fb2a92ccef43c755.png",
+      "header_static": "https://mstdn.b-shock.org/accounts/headers/000/000/001/original/fb2a92ccef43c755.png",
+      "followers_count": 323,
+      "following_count": 77,
+      "statuses_count": 49857,
+      "last_status_at": "2024-09-05",
+      "noindex": true,
+      "emojis": [],
+      "roles": [
+        {
+          "id": "3",
+          "name": "Admin",
+          "color": "#000000"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Keyoxide",
+          "value": "<a href=\"https://keyoxide.org/hkp/D7467BB6F293BDF51E738BD97D1F5AE8185B9045\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">keyoxide.org/hkp/D7467BB6F293B</span><span class=\"invisible\">DF51E738BD97D1F5AE8185B9045</span></a>",
+          "verified_at": "2021-09-21T02:41:14.874+00:00"
+        },
+        {
+          "name": "キュアスタ！",
+          "value": "<a href=\"https://precure.ml/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">precure.ml/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2019-12-15T04:41:04.184+00:00"
+        },
+        {
+          "name": "デルムリン丼",
+          "value": "<a href=\"https://mstdn.delmulin.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mstdn.delmulin.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2021-03-23T23:55:40.897+00:00"
+        },
+        {
+          "name": "きゅあすきー",
+          "value": "<a href=\"https://mk.precure.fun/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mk.precure.fun/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-05-07T09:40:34.397+00:00"
+        },
+        {
+          "name": "ダイスキー",
+          "value": "<a href=\"https://misskey.delmulin.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.delmulin.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-05-07T09:29:11.458+00:00"
+        },
+        {
+          "name": "GitHub",
+          "value": "<a href=\"https://github.com/pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-02-02T02:54:44.074+00:00"
+        },
+        {
+          "name": "Annict",
+          "value": "<a href=\"https://annict.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">annict.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "lit.link",
+          "value": "<a href=\"https://lit.link/pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">lit.link/pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        }
+      ]
+    },
+    "rules": [
+      {
+        "id": "2",
+        "text": "大事なお知らせをお伝えすることがある為、 @info のフォローは外さないでください。"
+      }
+    ],
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.12"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeMonth": 7,
+        "activeHalfyear": 9
+      },
+      "localPosts": 121737
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "美食丼",
+      "maintainer": {
+        "name": "ぷーざ",
+        "email": "info@b-shock.org"
+      }
+    },
+    "mulukhiya": {
+      "package": {
+        "authors": [
+          "Tatsuya Koishi"
+        ],
+        "description": "各種ActivityPub対応インスタンスへの投稿に対して、内容の更新等を行うプロキシ。通称「モロヘイヤ」。",
+        "email": [
+          "tkoishi@b-shock.co.jp"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/pooza/mulukhiya-toot-proxy",
+        "version": "4.32.3"
+      },
+      "config": {
+        "controller": "mastodon",
+        "status": {
+          "spoiler": {
+            "text": null,
+            "emoji": "netabare",
+            "shortcode": ":netabare:"
+          },
+          "default_hashtag": null
+        }
+      }
+    }
+  },
+  "error": null
+}

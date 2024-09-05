@@ -1,0 +1,384 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "threads.net",
+            "mastodon.art",
+            "qoto.org",
+            "law-and-politics.online",
+            "liberdon.com",
+            "mastodon.ar.al--paused",
+            "tooters.org",
+            "babka.social",
+            "styxhexenhammer666.com",
+            "cathode.church",
+            "lottia.net",
+            "kollegin.eu",
+            "ladies.community",
+            "harpia.red",
+            "social.harpia.red",
+            "piipitin.fi",
+            "kafeneio.social",
+            "eientei.org",
+            "toot.queer-lexikon.net",
+            "queer-lexikon.net",
+            "venera.social",
+            "mk.magicka.org",
+            "mastodon.social",
+            "seal.cafe",
+            "postnstuff.lol",
+            "decayable.ink",
+            "parcero.bond",
+            "assortedflotsam.com",
+            "happyfedi.better-than.tv",
+            "shitposter.world",
+            "annihilation.social",
+            "shrimpposter.club",
+            "wizard.casa",
+            "pl.pube.tk",
+            "tuusin.misono-ya.info",
+            "final.town",
+            "tooot.im",
+            "zhub.link",
+            "fedi.truth-sandwich.com",
+            "aoir.social",
+            "cherrykitten.gay"
+          ],
+          "reject_deletes": [
+            "kolektiva.social"
+          ],
+          "report_removal": [
+            "nrw.social",
+            "mastodon.world",
+            "mastodon.online",
+            "glaceon.social",
+            ""
+          ]
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "piipitin.fi": {
+              "reason": "apparently genocide rationalization is allowed"
+            },
+            "assortedflotsam.com": {
+              "reason": "nazi instance"
+            },
+            "mk.magicka.org": {
+              "reason": "nazi instance"
+            },
+            "venera.social": {
+              "reason": "https://venera.social/display/85a863ed-1366-16c2-6832-df6930292239"
+            },
+            "queer-lexikon.net": {
+              "reason": "2-user instance, gatekeeping"
+            },
+            "kafeneio.social": {
+              "reason": "free speech"
+            },
+            "social.harpia.red": {
+              "reason": "apparently nazi shit"
+            },
+            "seal.cafe": {
+              "reason": "nazi instance"
+            },
+            "fedi.truth-sandwich.com": {
+              "reason": "single-user nazi instance"
+            },
+            "annihilation.social": {
+              "reason": "retard instance"
+            },
+            "harpia.red": {
+              "reason": "apparently nazi shit"
+            },
+            "styxhexenhammer666.com": {
+              "reason": "nazi spam domain"
+            },
+            "lottia.net": {
+              "reason": "by request"
+            },
+            "wizard.casa": {
+              "reason": "retard instance"
+            },
+            "qoto.org": {
+              "reason": "nazi shit"
+            },
+            "parcero.bond": {
+              "reason": "nazi instance"
+            },
+            "tooters.org": {
+              "reason": "admins"
+            },
+            "aoir.social": {
+              "reason": "requested"
+            },
+            "postnstuff.lol": {
+              "reason": "nazi instance"
+            },
+            "toot.queer-lexikon.net": {
+              "reason": "2-user instance, gatekeeping"
+            },
+            "law-and-politics.online": {
+              "reason": "neoliberal apologism"
+            },
+            "zhub.link": {
+              "reason": "single-user nazi instance"
+            },
+            "kollegin.eu": {
+              "reason": "apparently spam"
+            },
+            "tooot.im": {
+              "reason": "server admins spread nazi propaganda (Holocaust denial)"
+            },
+            "liberdon.com": {
+              "reason": "nazi shit / neoliberal apologism"
+            },
+            "decayable.ink": {
+              "reason": "nazi instance"
+            },
+            "cathode.church": {
+              "reason": "hostile/abusive administration"
+            },
+            "eientei.org": {
+              "reason": "nazi spam server"
+            },
+            "happyfedi.better-than.tv": {
+              "reason": "spam instance"
+            },
+            "babka.social": {
+              "reason": "pervasive holocaust support"
+            },
+            "mastodon.art": {
+              "reason": "admin abuse of power"
+            },
+            "shitposter.world": {
+              "reason": "retard instance"
+            },
+            "shrimpposter.club": {
+              "reason": "retard instance"
+            },
+            "tuusin.misono-ya.info": {
+              "reason": "retard instance"
+            },
+            "cherrykitten.gay": {
+              "reason": "single-user asshole instance"
+            },
+            "mastodon.social": {
+              "reason": "nazi instance"
+            },
+            "threads.net": {
+              "reason": "capitalism"
+            },
+            "pl.pube.tk": {
+              "reason": "retard instance"
+            },
+            "ladies.community": {
+              "reason": "apparently spam"
+            },
+            "final.town": {
+              "reason": "tankie instance"
+            },
+            "mastodon.ar.al--paused": {
+              "reason": "nazi shit / neoliberal apologism"
+            }
+          },
+          "reject_deletes": {
+            "kolektiva.social": {
+              "reason": "temporary - suspected abuse potential"
+            }
+          },
+          "report_removal": {
+            "glaceon.social": {
+              "reason": "spam reports"
+            },
+            "mastodon.online": {
+              "reason": "spam reports"
+            },
+            "mastodon.world": {
+              "reason": "spam reports"
+            },
+            "nrw.social": {
+              "reason": "nazis report"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "Pleroma: An efficient and flexible fediverse server",
+      "nodeName": "immibis.com",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.immibis.com/users/immibis"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.5.5"
+    },
+    "usage": {
+      "localPosts": 5958,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

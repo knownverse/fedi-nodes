@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 12,
+        "activeHalfyear": 12
+      },
+      "localPosts": 32237,
+      "localComments": 179107
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Liliputing",
+      "nodeDescription": "",
+      "nodeIcon": "https://liliputing.com/wp-content/uploads/2020/02/cropped-lp_icon_1024-e1582423214846.png"
+    }
+  },
+  "error": null
+}

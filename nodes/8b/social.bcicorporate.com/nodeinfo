@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1225,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "BCI Corporate Social",
+      "nodeDescription": "BCI Corporate Services Intranet - Usage is subject to the terms of your BCI Corporate Services employment contract or BCI Corporate Services contract T&C's. All usage is monitored.",
+      "nodeAdmins": [
+        {
+          "name": "reldred",
+          "email": "postmaster@bcicorporate.com"
+        }
+      ],
+      "maintainer": {
+        "name": "reldred",
+        "email": "postmaster@bcicorporate.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#000000"
+    }
+  },
+  "error": null
+}

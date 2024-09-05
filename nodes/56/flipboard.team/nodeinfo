@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "flipboard",
+      "nodeDescription": "Flipboard Team Blog",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 100,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.14.0-132-g038a80c"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 5
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

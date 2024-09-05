@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.10"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1582,
+        "activeHalfyear": 273,
+        "activeMonth": 37
+      }
+    },
+    "metadata": {
+      "actorId": "https://am.pirateradio.social/federation/actors/service",
+      "private": true,
+      "shortDescription": "Unlicensed operators broadcasting on unregulated frequencies",
+      "longDescription": "**Pirate Radio, on the final frontier of freedom.**\r\n\r\nSail the high seas of federated media with these scurvy sea dogs of old.\r\n\r\nWe're here to provide a stable and ad-free alternative to centralized media platforms as well as a place for people to create a community around their content.\r\n\r\n==========\r\n\r\nPirate Radio also runs [Pirate Radio TV](https://tv.pirateradio.social/about/instance), a federated video service powered by [PeerTube](https://joinpeertube.org/)\r\n\r\nFeel free to hangout in the official matrix room: [#pirateradio:foglet.io](https://matrix.to/#/!VFjxSewOwAfbLzbPsp:foglet.io)",
+      "rules": "### If you don't own the rights to the content you upload, you must set the visibility to private.\r\n\r\n### Make an effort to properly tag your content.",
+      "contactEmail": "captain@pirateradio.social",
+      "terms": "Use your best judgement. Act in good faith.\r\n\r\nPirate Radio AM collects anonymous usage metrics, [published here](https://plausible.foglet.io/am.pirateradio.social).",
+      "nodeName": "Pirate Radio AM",
+      "banner": "https://am.pirateradio.social/media/dynamic_preferences/instance__banner/new_banner_J5cbffM.png",
+      "defaultUploadQuota": 512,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 17727
+        },
+        "artists": {
+          "total": 2068
+        },
+        "albums": {
+          "total": 1984
+        },
+        "music": {
+          "hours": 15537.601666666667
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "Thanks for being here on Pirate Radio AM, sincerely.",
+      "endpoints": {
+        "knownNodes": "https://am.pirateradio.social/api/v1/federation/domains",
+        "channels": "https://am.pirateradio.social/federation/index/channels",
+        "libraries": "https://am.pirateradio.social/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 986
+          }
+        },
+        "listenings": {
+          "total": 11577
+        },
+        "downloads": {
+          "total": 59981
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 101,
+      "localComments": 77
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "friendica",
+      "nodeDescription": "A Decentralized Social Network",
+      "nodeIcon": "https://friendi.ca/wp-content/uploads/2016/09/cropped-friendica-1600-1.png"
+    }
+  },
+  "error": null
+}

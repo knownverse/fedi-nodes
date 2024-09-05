@@ -1,0 +1,245 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1233,
+      "localComments": 0
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Chiki Chiki Tube",
+      "nodeDescription": "",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": false,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-custom-transcoding-profile",
+              "name": "custom-transcoding-profile",
+              "version": "0.3.4",
+              "description": "Set a custom quality for transcoding videos in Peertube with CRF, preset, tune options, and then some.",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-transcoding-profile-debug",
+              "name": "transcoding-profile-debug",
+              "version": "0.0.4",
+              "description": "Plugin to help developers to debug transcoding profiles",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-auth-ldap",
+              "name": "auth-ldap",
+              "version": "0.0.12",
+              "description": "Add LDAP support to login form in PeerTube.",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-playlist-reverse-order",
+              "name": "playlist-reverse-order",
+              "version": "1.0.0",
+              "description": "Customize playlists in PeerTube",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-livechat",
+              "name": "livechat",
+              "version": "10.3.3",
+              "description": "PeerTube plugin livechat: create chat rooms for your Peertube lives! Comes with many features: federation, moderation tools, chat bot, chat persistence, OBS integration, ...",
+              "clientScripts": {
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/client/admin-plugin-client-plugin.js": {
+                  "script": "dist/client/admin-plugin-client-plugin.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-dark",
+              "name": "dark",
+              "version": "2.5.0",
+              "description": "PeerTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            }
+          ],
+          "default": "dark"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": false
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            720
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": [
+              720
+            ]
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": true
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": false
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": -1,
+          "videoQuotaDaily": -1
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "pizzahut",
+      "nodeDescription": "here is the pizzahut inour society please do visit",
+      "nodeIcon": "https://bestpizza04.wordpress.com/wp-content/uploads/2024/04/cropped-pexels-photo-1488463.jpeg"
+    }
+  },
+  "error": null
+}

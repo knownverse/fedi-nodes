@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HighTechSpark",
+      "nodeDescription": "Articles on Technology, cloud, AI and their social impacts",
+      "nodeIcon": "https://i0.wp.com/hightechspark.com/wp-content/uploads/2024/03/hightechspark_logo-1.jpeg?fit=1536%2C1536&ssl=1"
+    }
+  },
+  "error": null
+}

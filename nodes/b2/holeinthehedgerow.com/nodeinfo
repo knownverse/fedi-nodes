@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 33,
+      "localComments": 181
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hole In The Hedgerow",
+      "nodeDescription": "Poetry, Stories, and Other Musings With Spilt Ink",
+      "nodeIcon": "https://holeinthehedgerow.com/wp-content/uploads/2024/08/wp-1723899780913.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 37,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1177,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Jisakey",
+      "nodeDescription": "自作er(自作PCユーザー)向けインスタンスです。\n自作er向けなだけなので、自作PCの話題以外もOKです。\n\n当インスタンスに関する情報(メンテナンス等)は@serverからご確認ください。\n個人が趣味で運営しているインスタンスなので不具合・鯖落ち等ご容赦願います。",
+      "nodeAdmins": [
+        {
+          "name": "327",
+          "email": "misskey@mail.t327.net"
+        }
+      ],
+      "maintainer": {
+        "name": "327",
+        "email": "misskey@mail.t327.net"
+      },
+      "langs": [],
+      "tosUrl": "https://m.t327.net/notes/9bt4s08dti",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#76B138"
+    }
+  },
+  "error": null
+}

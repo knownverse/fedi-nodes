@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "stelpolva@futarino.online",
+        "name": "stelpolva"
+      },
+      "nodeDescription": "<h2><ruby>無名<rt>むめい</rt></ruby><ruby>星屑<rt>ほしくず</rt></ruby> Stelpolva</h2>\n<p>满天星空下 你我一介尘埃</p>\n<h3>我们，一般通过<img src=\"/assets/misskey-BVauRZib.svg\" height=\"25\">实例desu</h3>\n<ul align=\"left\">\n<li>不太能保证服务质量</li>\n<li>没什么特别话题的普通中文实例罢了</li>\n<li>但我们<b>很好看</b>！拥有薄纱<img src=\"https://stelpolva.moe/files/e9b486ab-242d-41f6-be84-51dba40f9c51\" alt=\":mastodon:\" title=\":mastodon:\" width=\"17\" height=\"17\">Mastodon的使用体验</li>\n<li>65536字数限制，支持格式文本（MFM），支持表情回应，支持引用，支持全文搜索，<img src=\"https://stelpolva.moe/files/e9b486ab-242d-41f6-be84-51dba40f9c51\" alt=\":mastodon:\" title=\":mastodon:\" width=\"17\" height=\"17\">Mastodon羡慕吧啊哈哈！！（？</li>\n</ul>\n<h3>我们的服务宗旨</h3>\n<p><img src=\"/files/6f391613-2537-4a11-bea4-02d47ea7475c\"></p>\n\n<blockquote>\n目前注册已经暂时关闭\n</blockquote>",
+      "nodeName": "無名星屑",
+      "proxyAccountName": "9lw6d260ch4hh8je",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240710"
+    },
+    "usage": {
+      "localPosts": 14682,
+      "users": {
+        "activeHalfyear": 90,
+        "activeMonth": 44,
+        "total": 100
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

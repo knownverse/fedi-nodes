@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "https://homepage.uryokurin.net",
+        "name": "Admin"
+      },
+      "nodeDescription": "こちらは、科学好きな日本語話者向けのサーバー「Aurora Planet」です。<br>\n閉鎖前提です。<br>\n話題は必ずしも科学に限る必要はありません。<br>\n<br>\n緑色のオーロラは、その惑星に酸素がある証拠です。実際、わが地球では、多くの生物が住んでいますが、その形態は様々です。そんな地球上の生命のように、様々なバックグラウンドを持った方々が、科学に親しみ、楽しめるようなサーバーを目指しています。<br>\n\n当サーバーは招待制です。アカウントを作ってみたい方は以下の申請フォームから申請してみてください。<br>\nhttps://forms.gle/h1BXFLPE5c6xQhdi8",
+      "nodeName": "Aurora Planet(Closed Test)",
+      "proxyAccountName": "9gk9yywlw85it0i6",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#5654a2"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 13704,
+      "users": {
+        "activeHalfyear": 27,
+        "activeMonth": 14,
+        "total": 34
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

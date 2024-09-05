@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 407,
+        "activeMonth": 107,
+        "activeHalfyear": 194
+      },
+      "localPosts": 84586
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Bahn.Social",
+      "nodeDescription": "Das Wir für ein Leben von, in und mit Zügen"
+    }
+  },
+  "error": null
+}

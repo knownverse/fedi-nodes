@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 597,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 49599,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "A Quiet Place",
+      "nodeDescription": "This is a city that holds the many dreams and stories of its people.\nMost of these stories are left untold.\nBut some few find solace in the embrace of bricks and wood and glass.\nThey are told over drinks, then take up residence in some stranger's memories.\nIn one corner of the city stand a Quiet Place.\nA place that is only open when the sun is sleeping.\nA place where people share their stories.\nAnd these are their stories...",
+      "nodeAdmins": [
+        {
+          "name": "@razzlom@quietplace.xyz",
+          "email": "razzlom@riseup.net"
+        }
+      ],
+      "maintainer": {
+        "name": "@razzlom@quietplace.xyz",
+        "email": "razzlom@riseup.net"
+      },
+      "langs": [],
+      "tosUrl": "https://about.quietplace.xyz/rules.html",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxyuser",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 507,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 58505,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "[Shitpost] PoridgeClub",
+      "nodeDescription": "Федеративная социальная сеть с практически полной свободой слова и самовыражения. Нет чёрных списков инстансов, нет чёрных списков пользователей — читайте кого хотите, подписывайтесь на кого хотите, пишите что хотите, всё для вас. На сайт можно зайти с сети Tor: http://mk.cmry5fofj5vhmbyx3tqast5yjebin44o37ffq5ocuwdgjbmvf6qvllqd.onion. Основной сайт проекта — https://poridge.club",
+      "nodeAdmins": [
+        {
+          "name": "vlnst",
+          "email": "vlnst@poridge.club"
+        }
+      ],
+      "maintainer": {
+        "name": "vlnst",
+        "email": "vlnst@poridge.club"
+      },
+      "langs": [],
+      "tosUrl": "https://shitpost.poridge.club/@aurel1on_sol/pages/rules",
+      "privacyPolicyUrl": "https://poridge.club/privacy-policy",
+      "inquiryUrl": "https://poridge.club/contact",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "bot_test",
+      "themeColor": "#00a497"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1635,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "eepykitty.lol",
+      "nodeDescription": "An instance hosted by Juli, mainly for my own use, but accept some other people if you seem cool. @juli@eepykitty.lol",
+      "nodeAdmins": [
+        {
+          "name": "Juli",
+          "email": "juli@julimiro.eu"
+        }
+      ],
+      "maintainer": {
+        "name": "Juli",
+        "email": "juli@julimiro.eu"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://about.julimiro.eu",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ff00ae"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Thee Dukkes Pallace",
+      "nodeDescription": "Empowered Minds Simplify Learning and Amplify Earning",
+      "nodeIcon": "https://theedukkespallace.wordpress.com/wp-content/uploads/2023/09/wp-1693939791657.png"
+    }
+  },
+  "error": null
+}

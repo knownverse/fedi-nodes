@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 5,
+        "activeMonth": 3
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.agapimou.top/federation/actors/service",
+      "private": false,
+      "shortDescription": "Small instance for friends",
+      "longDescription": "This is a small Funkwhale instance for friends. If you want an account here, DM me at the [Fediverse].  (I just don't have a mail server yet). <br>\r\nAlso I'm federating with virtually everyone, but if you don't want to - DM me or write an e-mail.\r\n\r\nThis server stores presumably `OGG Vorbis` tracks for lower disk space usage.\r\n\r\n[Fediverse]: <https://social.linux.pizza/deck/@masta0f1eave>",
+      "contactEmail": "masta0f1eave@disroot.org",
+      "nodeName": "funkwhale.agapimou.top",
+      "banner": "https://funkwhale.agapimou.top/media/dynamic_preferences/instance__banner/728d32181483cf93_Zed9w7s.jpg",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "If you want to donate some money for this server, pls ask at Fediverse or Matrix.",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 3
+          }
+        },
+        "listenings": {
+          "total": 597
+        },
+        "downloads": {
+          "total": 3289
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 1356
+        },
+        "artists": {
+          "total": 39
+        },
+        "albums": {
+          "total": 82
+        },
+        "music": {
+          "hours": 1629.5938888888888
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "There are only one rule: if you in doubt, put you music in private, please.",
+      "terms": "This pod works AS IS and I'm keeping it alive on my own.\r\nIf you want to support this little project of mine - DM me at Fediverse or send an e-mail, will sort something out ;-)"
+    }
+  },
+  "error": null
+}

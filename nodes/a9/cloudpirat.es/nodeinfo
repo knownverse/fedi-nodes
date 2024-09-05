@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 396,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Cloud Pirates",
+      "nodeDescription": "Not pirates but ... you know ... cloud pirates.",
+      "maintainer": {
+        "name": "Joel Berger",
+        "email": "joel.a.berger@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "thepirate",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

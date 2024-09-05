@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rincones de papel",
+      "nodeDescription": "Relatos y novela corta que harán que pases un rato entretenido y saltes de este mundo a otros.",
+      "nodeIcon": "https://rinconesdepapel.com/wp-content/uploads/2024/03/cropped-fotor-ai-20240310115736.jpg"
+    }
+  },
+  "error": null
+}

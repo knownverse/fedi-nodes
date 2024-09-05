@@ -1,0 +1,263 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 52,
+        "activeMonth": 2,
+        "activeHalfyear": 10
+      },
+      "localPosts": 272,
+      "localComments": 73
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Digital Digest PeerTube",
+      "nodeDescription": "The PeerTube instance for Digital Digital",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-adsense",
+              "name": "adsense",
+              "version": "0.0.1",
+              "description": "Display ads using AdSense",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-transcoding-custom-quality",
+              "name": "transcoding-custom-quality",
+              "version": "0.1.0",
+              "description": "Set a custom quality for transcoding",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-simplelogo",
+              "name": "simplelogo",
+              "version": "0.0.5",
+              "description": "Plugin that let you change logo and favicon on your PeerTube instance.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-google-analytics",
+              "name": "google-analytics",
+              "version": "0.3.0",
+              "description": "Google Analytics (gtag) plugin for PeerTube.",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-menu-items",
+              "name": "menu-items",
+              "version": "0.0.6",
+              "description": "PeerTube plugin menu-items",
+              "clientScripts": {
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-logo-framasoft",
+              "name": "logo-framasoft",
+              "version": "0.0.1",
+              "description": "Framasoft logo on PeerTube.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [],
+          "default": "default"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            1080,
+            1440,
+            2160
+          ]
+        },
+        "live": {
+          "enabled": false,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": true
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 0,
+          "videoQuotaDaily": 0
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

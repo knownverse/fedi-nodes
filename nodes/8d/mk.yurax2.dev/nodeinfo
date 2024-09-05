@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 449,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ゆらすきー",
+      "nodeDescription": "ゆらゆらのお一人様インスタンス",
+      "nodeAdmins": [
+        {
+          "name": "ゆらゆら",
+          "email": "info@yurax2.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "ゆらゆら",
+        "email": "info@yurax2.dev"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://yurax2.dev/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#bf5252"
+    }
+  },
+  "error": null
+}

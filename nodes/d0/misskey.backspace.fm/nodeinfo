@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-bsk-hanamiBridge.1",
+      "homepage": "https://github.com/kanarikanaru/misskey/",
+      "repository": "https://github.com/kanarikanaru/misskey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3275,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3448590,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "BackspaceKey",
+      "nodeDescription": "テック系ポッドキャスト”backspace.fm”が運営する汎用サーバー。\n当サーバーはさくらインターネット株式会社からbackspace.fmへの支援として提供されたクラウドのインスタンスを利用してサービスを提供しています。",
+      "nodeAdmins": [
+        {
+          "name": "backspace.fm",
+          "email": "https://backspace.fm/information/"
+        }
+      ],
+      "maintainer": {
+        "name": "backspace.fm",
+        "email": "https://backspace.fm/information/"
+      },
+      "langs": [],
+      "tosUrl": "https://backspace.fm/misskey-terms-and-conditions/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/DfV9cnqsTBGduWWX8",
+      "impressumUrl": "https://backspace.fm/information/",
+      "repositoryUrl": "https://github.com/kanarikanaru/misskey/",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#E4D440"
+    }
+  },
+  "error": null
+}

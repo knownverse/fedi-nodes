@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2457,
+      "localComments": 771
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "後藤さんのひとりごと",
+      "nodeDescription": "mitiこと後藤道則の｢ひとりごと｣を公開（もとい後悔）するページです｡",
+      "nodeIcon": "https://blog.gotosan.jp/wp-content/uploads/2019/06/nazo-e1643978623313.jpg"
+    }
+  },
+  "error": null
+}

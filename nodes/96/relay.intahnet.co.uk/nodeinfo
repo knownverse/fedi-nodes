@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "activity-relay",
+      "version": "",
+      "repository": "https://github.com/yukimochi/Activity-Relay"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1082,
+        "activeMonth": 1082,
+        "activeHalfyear": 1082
+      }
+    },
+    "metadata": {}
+  },
+  "error": null
+}

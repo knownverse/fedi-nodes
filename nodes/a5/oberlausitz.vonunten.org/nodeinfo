@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "* Oberlausitz von unten * \nOnline Kalender und Portal mit Aktionen und Veranstaltungen für eine bessere Oberlausitz. \nSolidarisch, fair, ökologisch, nachhaltig!",
+      "nodeName": "oberlausitz.vonunten.org"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-potsda.mn-b39e566cdeea291aad93f5d5fbcf9f1866b4e243"
+    },
+    "usage": {
+      "localComments": 2,
+      "localPosts": 283,
+      "users": {
+        "total": 258
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

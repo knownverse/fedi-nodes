@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3189,
+      "localComments": 123446
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Skeptic&#039;s Kaddish 🇮🇱",
+      "nodeDescription": "",
+      "nodeIcon": "https://skepticskaddish.com/wp-content/uploads/2024/03/cropped-cropped-5ea4bf1b9525c-1-a.jpg"
+    }
+  },
+  "error": null
+}

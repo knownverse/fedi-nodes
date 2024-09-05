@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 192,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zin In Webdesign",
+      "nodeDescription": "WordPress Websites | WordPress Onderhoud | WordPress Support",
+      "nodeIcon": "https://zininwebdesign.nl/wp-content/uploads/2020/10/cropped-cropped-logo2020.png"
+    }
+  },
+  "error": null
+}

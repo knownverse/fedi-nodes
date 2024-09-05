@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 36,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "James Croft&#039;s Blog",
+      "nodeDescription": "I&#039;m an IT guy from Brisbane, Australia.",
+      "nodeIcon": "https://jamescroft.website/wp-content/uploads/2024/01/cropped-james-avatar-822566262-e1704954867937.png"
+    }
+  },
+  "error": null
+}

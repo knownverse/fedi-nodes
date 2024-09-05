@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeMonth": "45",
+        "activeHalfyear": "24"
+      },
+      "localPosts": 131,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Barroquita",
+      "nodeDescription": "dosis de cultura pop",
+      "nodeIcon": "https://i0.wp.com/barroquita.com/wp-content/uploads/2024/01/cropped-4110141699_8552b0cfef_b.jpg?fit=768%2C768&ssl=1"
+    }
+  },
+  "error": null
+}

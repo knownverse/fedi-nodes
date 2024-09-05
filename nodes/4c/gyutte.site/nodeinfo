@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 139,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 68473,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぎゅッてして - Misskey",
+      "nodeDescription": "ぎゅッてしてはFediverseに浮かぶ小さな惑星なの。<br />\nゆるゆるふわふわに包まれながらFediverseを漂うの。<br />\n<br />\n<a href=\"https://joinmisskey.github.io/ja/\">Misskey</a>始めてみませんか？<br />\n新規登録は<a href=\"https://gyutte.site/@OPGyutteSite/pages/Guidelines\">ガイドライン＆FAQ</a>を読んでね。　",
+      "nodeAdmins": [
+        {
+          "name": "@OPGyutteSite@gyutte.site",
+          "email": "－－－"
+        }
+      ],
+      "maintainer": {
+        "name": "@OPGyutteSite@gyutte.site",
+        "email": "－－－"
+      },
+      "langs": [],
+      "tosUrl": "https://gyutte.site/@OPGyutteSite/pages/Guidelines",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://gyutte.site/@OPGyutteSite/pages/Guidelines",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_kun",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

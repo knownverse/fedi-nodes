@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 37,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1763,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しんぴのあなぐら",
+      "nodeDescription": "（多分）有りそうで無かった、占いやオカルト好きな人のためのサーバです。\nちょっとだけ興味ある人もお仕事にしてる人も大歓迎！\n皆さんのスタンスで楽しんでいってくださいね。2023/07/02作成\n管理人Webサイト：https://www.amateur-magician.life/",
+      "maintainer": {
+        "name": "ETM",
+        "email": "magician@amateur-magician.life"
+      },
+      "langs": [],
+      "tosUrl": "https://mystics-den.club/@ETM/pages/1705570147464",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#6c6fc6"
+    }
+  },
+  "error": null
+}

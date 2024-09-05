@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.1-p52f206fa"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Familiar Nexus",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "battlemage"
+    }
+  },
+  "error": null
+}

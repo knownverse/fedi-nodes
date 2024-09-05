@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "6.0.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "ostatus",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "dreamwidth"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 12,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Fairymeadow"
+    }
+  },
+  "error": null
+}

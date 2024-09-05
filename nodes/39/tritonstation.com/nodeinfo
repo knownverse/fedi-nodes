@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 168,
+      "localComments": 5011
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Triton Station",
+      "nodeDescription": "A Blog About the Science and Sociology of Cosmology and Dark Matter",
+      "nodeIcon": "https://tritonstation.com/wp-content/uploads/2017/02/cropped-tritonstation.png"
+    }
+  },
+  "error": null
+}

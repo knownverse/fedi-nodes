@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "1.2.0-missingkey.develop.240715.6"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11170,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みっしんぐきー🗝",
+      "nodeDescription": "このインスタンスは招待制です。\n\nお問い合わせ: <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc2zaqJb0J7-XUP46V_g2RaB7TjoMlzhRjnAvJlKZEMO_7wcQ/viewform\" target=\"_blank\" title=\"Googleフォーム\">こちら</a>",
+      "maintainer": {
+        "name": "An internet user.",
+        "email": "support@example.tld"
+      },
+      "langs": [],
+      "tosUrl": "https://b.0sakana.xyz/archives/111",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "msky_proxy",
+      "themeColor": "#1A41B9"
+    }
+  },
+  "error": null
+}

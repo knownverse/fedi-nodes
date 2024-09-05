@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 21,
+      "localComments": 49
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tinker, Tamper, Alter, Fry",
+      "nodeDescription": "Random musings",
+      "nodeIcon": "https://blog.ploetzli.ch/wp-content/uploads/2015/06/cropped-henryk_2015_februar_640.jpg"
+    }
+  },
+  "error": null
+}

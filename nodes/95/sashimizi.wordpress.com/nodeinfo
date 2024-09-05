@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "zi&#039;s page",
+      "nodeDescription": "one day at a time",
+      "nodeIcon": "https://sashimizi.wordpress.com/wp-content/uploads/2024/03/cropped-20230711_153950.jpg"
+    }
+  },
+  "error": null
+}

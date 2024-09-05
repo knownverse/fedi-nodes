@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 147,
+      "localComments": 2164
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Stone in the River",
+      "nodeDescription": "We are the ones who will create the story of our times",
+      "nodeIcon": "https://astoneintheriver.net/wp-content/uploads/2024/01/45101-cropped-monarch-2-scaled-1.jpeg"
+    }
+  },
+  "error": null
+}

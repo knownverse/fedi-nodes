@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 21,
+      "localComments": 37
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hausbau @ Mellentin",
+      "nodeDescription": "Alles rund um unseren Hausbau",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

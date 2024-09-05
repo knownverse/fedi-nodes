@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.1",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 284,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "노리유니버스",
+      "nodeDescription": "<small>VR 게임 커뮤니티</small><br>\n안녕하세요! <b>노리유니버스</b>에 와주셔서 감사해요!!<br>\n<br>\n노리유니버스는, 이 인스턴스를 만든 <b>NoriDev</b>의 이름을 따 <b>2022.09.13</b>에 만들어 졌어요.<br>\n<b>VRChat</b>과 <b>유사 게임(Chillout VR, Neos VR 등)</b>의 <b>일상 및 정보 공유</b>, 그리고 인스턴스 내 유저들의 <b>친목을 도모</b>할 수 있는 공간이에요!<br>\n<br>\n<b>트위터</b>에는 없는 여러가지 기능들이 포함되어 있고, <b>디스코드</b>에서 봤던 이모지들을 여기서 쓸 수 있어요!<br>\n<small>예를 들면... :tada: 라거나..?</small><br>\n<br>\n트위터 타임라인에 지친 분들, 나 혼자만의 조용한 공간이나 주변 지인들만 있는 공간이 필요하신 분들이라면, 가입해 보셔도 괜찮다고 생각해요 :)<br>\n<br>\n가입하기 전에 둘러보고 싶다면, 아래의 <b>발견하기</b> 버튼을 눌러주세요!",
+      "nodeAdmins": [
+        {
+          "name": "CherryPick HQ",
+          "email": "support@kokonect.link"
+        }
+      ],
+      "maintainer": {
+        "name": "CherryPick HQ",
+        "email": "support@kokonect.link"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffa9c3"
+    }
+  },
+  "error": null
+}

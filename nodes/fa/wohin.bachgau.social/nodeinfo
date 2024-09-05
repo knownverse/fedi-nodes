@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Feste, Märkte und Veranstaltungen am bayerischen Untermain",
+      "nodeName": "Bachgau.Social",
+      "nodeLabel": "",
+      "nodeTimezone": "Europe/Berlin",
+      "nodeActor": "eventsamuntermain"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.14.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 2,
+      "localPosts": 33946,
+      "users": {
+        "total": 3
+      }
+    }
+  },
+  "error": null
+}

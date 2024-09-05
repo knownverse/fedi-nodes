@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Shkolopendre",
+      "nodeDescription": "Avec un H, bon sang",
+      "nodeIcon": "https://i0.wp.com/shkolopendre.fr/wp-content/uploads/2023/05/cropped-The_Naturalists_Miscellany_Vol.1_Centipede.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

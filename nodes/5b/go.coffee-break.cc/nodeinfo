@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 52,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 870,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "GAME OVER",
+      "nodeDescription": "参加は20歳から。ゲーム関連の投稿限定でぼちぼちユルユルやりたい方向けです。レビューや感想、プレイ日記、コツやノウハウ、ニュース、ゲーミングデバイスや各種関連パーツ・機器、スクリーンショット、関連動画・配信等々。ゲーム関連以外の投稿を見つけた時は無警告削除します（許容範囲は鯖缶次第）。ゲーム関連以外の投稿は他サーバーでどうぞ。<br><br>\n\n大人向けの落ち着いたゲーム系の何か。安心して一緒に気楽にマルチプレイゲームなども一緒にできたりする民度高いカジュアル系を目指したい所存です。<br><br>\n\nエロゲーやネタバレなどは「内容を隠す」で。<br><br>\n\n鯖缶や周囲の人々の精神に著しい不快感を与える人（チート・グリッチ関連の投稿、ゲームで異様にムキになったり発狂する人、いわゆるガチ勢的な人、その他あらゆるハラスメントや卑怯なことをしたり、言動が荒々しい人、攻撃的な人など）は管理人判断でここからもゲームからもキックします。<br><br>\n\n寝てる時以外四六時中ゲームしてたり、常時SNSに貼り付いている廃人系の方はお断りします。あくまでカジュアルです。\n",
+      "nodeAdmins": [
+        {
+          "name": "ソーダ @soda@go.coffee-break.cc",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ソーダ @soda@go.coffee-break.cc",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#398bde"
+    }
+  },
+  "error": null
+}

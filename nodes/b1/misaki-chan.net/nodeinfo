@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3391,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "水咲ちゃんの世界",
+      "nodeDescription": "水咲のちょっとしたコミュニティサーバーです。",
+      "nodeAdmins": [
+        {
+          "name": "水咲",
+          "email": "misskey_report@misaki-chan.world"
+        }
+      ],
+      "maintainer": {
+        "name": "水咲",
+        "email": "misskey_report@misaki-chan.world"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://misaki-chan.world",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "mailto:misskey_report@misaki-chan.world",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#7fffff"
+    }
+  },
+  "error": null
+}

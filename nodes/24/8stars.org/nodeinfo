@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1354,
+      "localComments": 1437
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Adam Rice",
+      "nodeDescription": "My life and the world around me",
+      "nodeIcon": "https://8stars.org/a/content/cropped-kome-1.png"
+    }
+  },
+  "error": null
+}

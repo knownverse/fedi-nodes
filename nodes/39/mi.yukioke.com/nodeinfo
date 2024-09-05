@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "receive_only@yukioke.com",
+        "name": "むかいの"
+      },
+      "nodeDescription": "<a href=\"/@mukaino\" >@mukaino</a>\nが建てた個人用の分散型ミニブログsnsです。\n\n普段はファンアートを描いたりオリジナル漫画を作ったりしています。\n\n\n<p>\nご利用中のマストドンやミスキーのような分散型snsから下記のidで検索いただくとフォローできます。\n<p>\n@mukaino@mi.yukioke.com \n\n<p>\nsnsとしてはもちろん創作も楽しめる場所にしたいと思っています。\n\n\n<p>\n<a href=\"/@mukaino/pages/links\">🔖リンク集</a>\n<a href=\"/tags/%E3%82%80%E3%81%8B%E3%81%84%E3%81%AE%E7%B5%B5\">🎨イラストまとめ</a>\n<a href=\"/gallery\">🖼️ギャラリー</a> <p>\n他サーバーからはタグ #むかいの絵 から見られるかも",
+      "nodeName": "むかいのすきー",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240623"
+    },
+    "usage": {
+      "localPosts": 1218,
+      "users": {
+        "activeHalfyear": 4,
+        "activeMonth": 3,
+        "total": 8
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

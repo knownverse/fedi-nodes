@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "desnuda calle",
+      "nodeDescription": "Desahogos peatonales y corporales",
+      "nodeIcon": "https://calledesnuda.wordpress.com/wp-content/uploads/2022/02/cropped-fa3e99176656e2f7591d70b2d6994410.jpg"
+    }
+  },
+  "error": null
+}

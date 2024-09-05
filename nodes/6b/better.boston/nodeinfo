@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 657,
+        "activeMonth": 157,
+        "activeHalfyear": 258
+      },
+      "localPosts": 104600
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Better Boston",
+      "nodeDescription": "A server for people in Greater Boston and Massachusetts interested in a more inclusive, equitable, and sustainable region."
+    }
+  },
+  "error": null
+}

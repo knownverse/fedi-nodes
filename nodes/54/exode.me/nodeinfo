@@ -1,0 +1,333 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.0.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 750,
+        "activeMonth": 8,
+        "activeHalfyear": 16
+      },
+      "localPosts": 34507,
+      "localComments": 71
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "𝅘𝅥𝅘𝅥   Exode 𝅘𝅥𝅮",
+      "nodeDescription": "A peertube server for musicians",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-glavlit",
+              "name": "glavlit",
+              "version": "0.0.1",
+              "description": "Enhanced moderation tools for PeerTube",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-social-sharing",
+              "name": "social-sharing",
+              "version": "0.10.1",
+              "description": "Share a video or playlist URL on social media (Mastodon, WordPress, reddit, Twitter, etc.)",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-vp9-small",
+              "name": "vp9-small",
+              "version": "0.1.0",
+              "description": "PeerTube plugin vp9-small",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-vp9-opus",
+              "name": "vp9-opus",
+              "version": "0.0.2",
+              "description": "PeerTube plugin vp9-opus",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-video-annotation",
+              "name": "video-annotation",
+              "version": "0.0.7",
+              "description": "PeerTube plugin video annotation",
+              "clientScripts": {
+                "dist/embed-client-plugin.js": {
+                  "script": "dist/embed-client-plugin.js",
+                  "scopes": [
+                    "embed"
+                  ]
+                },
+                "dist/video-edit-client-plugin.js": {
+                  "script": "dist/video-edit-client-plugin.js",
+                  "scopes": [
+                    "video-edit"
+                  ]
+                },
+                "dist/video-watch-client-plugin.js": {
+                  "script": "dist/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-livechat",
+              "name": "livechat",
+              "version": "8.0.4",
+              "description": "PeerTube plugin livechat: create chat rooms for your Peertube lives! Comes with many features: federation, moderation tools, chat bot, chat persistence, OBS integration, ...",
+              "clientScripts": {
+                "dist/client/videowatch-client-plugin.js": {
+                  "script": "dist/client/videowatch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                },
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/client/admin-plugin-client-plugin.js": {
+                  "script": "dist/client/admin-plugin-client-plugin.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-noussommes",
+              "name": "noussommes",
+              "version": "1.0.2",
+              "description": "NousSommes theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-bittube-dark-mode",
+              "name": "bittube-dark-mode",
+              "version": "3.0.0",
+              "description": "BitTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-dark",
+              "name": "dark",
+              "version": "2.5.0",
+              "description": "PeerTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            }
+          ],
+          "default": "default"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            0,
+            360,
+            720,
+            1080
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": false,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": false
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 5368709120,
+          "videoQuotaDaily": -1
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

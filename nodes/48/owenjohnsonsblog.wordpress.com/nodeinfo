@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 297,
+      "localComments": 38
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Owen Johnson’s Blog",
+      "nodeDescription": "",
+      "nodeIcon": "https://owenjohnsonsblog.wordpress.com/wp-content/uploads/2023/01/8d05cbcbf1f566a6752424d597af8dd921598065.png"
+    }
+  },
+  "error": null
+}

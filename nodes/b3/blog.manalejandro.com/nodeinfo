@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "",
+      "nodeName": "blog.manalejandro.com"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 13,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

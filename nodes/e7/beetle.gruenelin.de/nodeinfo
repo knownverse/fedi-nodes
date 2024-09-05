@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": 5,
+        "activeMonth": 5
+      },
+      "localPosts": 54,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "GrueneLin.de Beetle",
+      "nodeDescription": "Our \"Beetle\" is our second Fediverse server, running alongside our Mastodon server on https://mastodon.gruenelin.de. Technology is Iceshrimp.\n<br><br>\nPublic registrations are closed. This is an exclusive Fediverse server for artists and staff of TMM Stardust Publishing. But you can connect us from anywhere else in the Fediverse.\n<br><br>\nGrueneLin.de (Grüne Linde) means green lime tree and refers to the trees in front of our office location. This server is being hosted in Frankfurt (DE) and overwatched by us from Berlin and Nagoya (JP). <br><br>\nThe basis for the use of our server by our artists and staff are the legal principles that apply in Germany, Japan and the EU.\nThe use of our Iceshrimp Fediverse server is also subject to internal regulations on the part of the management, which are intended to enable reasonable interaction with users in the Fediverse. <br>\nOur principles are based on understanding, democracy, respect, friendship, and love for humanity.",
+      "maintainer": {
+        "name": "TMM Stardust Publishing",
+        "email": "thomas@gruenelin.de"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

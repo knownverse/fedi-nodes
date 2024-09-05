@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-hotomoe.5",
+      "homepage": "https://github.com/hotomoe/hotomoe",
+      "repository": "https://github.com/hotomoe/hotomoe"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 85,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "lapymoe",
+      "nodeDescription": "hello from lapymoe, this is fanclub of lapy.\n\nnot operated or managed by lapy.",
+      "nodeAdmins": [
+        {
+          "name": "not lapy",
+          "email": "09gamma_condos@icloud.com"
+        }
+      ],
+      "maintainer": {
+        "name": "not lapy",
+        "email": "09gamma_condos@icloud.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/hotomoe/hotomoe",
+      "feedbackUrl": "https://github.com/hotomoe/hotomoe/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

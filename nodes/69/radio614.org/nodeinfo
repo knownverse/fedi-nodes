@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 169,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Radio 614",
+      "nodeDescription": "Volunteer-Powered, Listener-Supported, Freeform Internet Radio from Columbus, Ohio",
+      "nodeIcon": "https://i0.wp.com/radio614.org/wp-content/uploads/2023/03/cropped-R614_brandmark.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "kazeki.net",
+        "name": "古道京紗"
+      },
+      "nodeDescription": "古道京紗の個人サーバーです",
+      "nodeName": "Kodo Web",
+      "proxyAccountName": "9izfusldqentkq06",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240905"
+    },
+    "usage": {
+      "localPosts": 12942,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

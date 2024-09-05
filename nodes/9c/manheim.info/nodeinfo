@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Eventkalender für Veranstaltungen in und um Manheim",
+      "nodeName": "Manheimer Eventkalender",
+      "nodeTimezone": "Europe/Berlin",
+      "nodeActor": "manheimereventkalender"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.15.5"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 4,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

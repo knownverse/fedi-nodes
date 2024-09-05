@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 5779,
+        "activeHalfyear": 3530,
+        "activeMonth": 557
+      },
+      "localPosts": 4417,
+      "localComments": 1122
+    },
+    "metadata": {
+      "nodeName": "Товари🇨🇭",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      }
+    }
+  },
+  "error": null
+}

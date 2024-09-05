@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.3",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1749,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Sitwell",
+      "nodeDescription": "My personal instance running Sharkey. Will attempt to keep up for as long as possible, but uptime is not guaranteed. Maintainer email is not monitored. If you must reach out to me, reach out preferably through fedi, with @linuscascade on discord as a fallback.",
+      "nodeAdmins": [
+        {
+          "name": "@linus",
+          "email": "sitwell.dev@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@linus",
+        "email": "sitwell.dev@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#126e12"
+    }
+  },
+  "error": null
+}

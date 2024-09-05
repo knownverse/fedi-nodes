@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeMonth": 9,
+        "activeHalfyear": 16
+      },
+      "localPosts": 3602
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Omada's Fediverse Café",
+      "nodeDescription": "Federated Social Networking Service hosted by Omada using Mastodon Chuckya"
+    }
+  },
+  "error": null
+}

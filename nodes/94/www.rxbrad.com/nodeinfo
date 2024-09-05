@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 22,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "RxBrad.com",
+      "nodeDescription": "Nerd / Pharmacist.  Hi.  This is my WordPress blog.",
+      "nodeIcon": "https://www.rxbrad.com/wp-content/uploads/2023/06/rxbrad-favicon.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,239 @@
+{
+  "success": true,
+  "data": {
+    "uri": "md.korako.me",
+    "title": "md.korako.me",
+    "short_description": "md.korako.meはテーマフリーのサーバです。\r\n\r\n一部独自機能があったり、元キュアスタ！の鯖缶だったこともあり機能が一部残ったままになっています。",
+    "description": "鴉河雛の個人インスタンスです。\r\n\r\n少人数の受け入れは可能です。",
+    "email": "takeuchinomori+mstdn@gmail.com",
+    "version": "2.0",
+    "urls": {
+      "streaming_api": "wss://md.korako.me"
+    },
+    "stats": {
+      "user_count": 14,
+      "status_count": 50917,
+      "domain_count": 8900
+    },
+    "thumbnail": "https://md.korako.me/packs/media/images/preview-6399aebd96ccf025654e2977454f168f.png",
+    "languages": [
+      "ja"
+    ],
+    "registrations": false,
+    "approval_required": false,
+    "invites_enabled": false,
+    "configuration": {
+      "accounts": {
+        "max_featured_tags": 10
+      },
+      "statuses": {
+        "max_characters": 3000,
+        "max_media_attachments": 4,
+        "characters_reserved_per_url": 23
+      },
+      "media_attachments": {
+        "supported_mime_types": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/heic",
+          "image/heif",
+          "image/webp",
+          "image/avif",
+          "video/webm",
+          "video/mp4",
+          "video/quicktime",
+          "video/ogg",
+          "audio/wave",
+          "audio/wav",
+          "audio/x-wav",
+          "audio/x-pn-wave",
+          "audio/vnd.wave",
+          "audio/ogg",
+          "audio/vorbis",
+          "audio/mpeg",
+          "audio/mp3",
+          "audio/webm",
+          "audio/flac",
+          "audio/aac",
+          "audio/m4a",
+          "audio/x-m4a",
+          "audio/mp4",
+          "audio/3gpp",
+          "video/x-ms-asf"
+        ],
+        "image_size_limit": 16777216,
+        "image_matrix_limit": 33177600,
+        "video_size_limit": 103809024,
+        "video_frame_rate_limit": 120,
+        "video_matrix_limit": 8294400
+      },
+      "polls": {
+        "max_options": 15,
+        "max_characters_per_option": 50,
+        "min_expiration": 300,
+        "max_expiration": 2629746
+      }
+    },
+    "contact_account": {
+      "id": "1",
+      "username": "karasu_sue",
+      "acct": "karasu_sue",
+      "display_name": "鴉河雛",
+      "locked": false,
+      "bot": false,
+      "discoverable": false,
+      "group": false,
+      "created_at": "2021-04-04T00:00:00.000Z",
+      "note": "<p>からすがわ すうと申します。</p><p>普段は、 <a href=\"https://md.korako.me/tags/DQ10\" class=\"mention hashtag\" rel=\"tag\">#<span>DQ10</span></a> <a href=\"https://md.korako.me/tags/DJMAX\" class=\"mention hashtag\" rel=\"tag\">#<span>DJMAX</span></a> <a href=\"https://md.korako.me/tags/EZ2ON\" class=\"mention hashtag\" rel=\"tag\">#<span>EZ2ON</span></a> <a href=\"https://md.korako.me/tags/%E3%82%B4%E9%AD%94%E4%B9%99\" class=\"mention hashtag\" rel=\"tag\">#<span>ゴ魔乙</span></a> <a href=\"https://md.korako.me/tags/%E3%83%91%E3%83%B3%E3%83%A4\" class=\"mention hashtag\" rel=\"tag\">#<span>パンヤ</span></a> <a href=\"https://md.korako.me/tags/overwatch2\" class=\"mention hashtag\" rel=\"tag\">#<span>overwatch2</span></a> <a href=\"https://md.korako.me/tags/%E3%82%A6%E3%83%9E%E5%A8%98\" class=\"mention hashtag\" rel=\"tag\">#<span>ウマ娘</span></a> などなどやっています！</p><p>なお、積極的にフォローするときがあります。</p><p>私の投稿内容はすべて戯言として受け取ってください。</p><p><a href=\"https://md.korako.me/tags/precure_fun\" class=\"mention hashtag\" rel=\"tag\">#<span>precure_fun</span></a> <a href=\"https://md.korako.me/tags/precure\" class=\"mention hashtag\" rel=\"tag\">#<span>precure</span></a></p><p>Lemmyの運営をしています：<a href=\"https://lm.korako.me/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">lm.korako.me/</span><span class=\"invisible\"></span></a></p><p>きゅあすきーというプリキュアファン向けMisskeyサーバーを運営しています：<a href=\"https://mk.precure.fun/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mk.precure.fun/</span><span class=\"invisible\"></span></a></p>",
+      "url": "https://md.korako.me/@karasu_sue",
+      "uri": "https://md.korako.me/users/karasu_sue",
+      "avatar": "https://media.md.korako.me/accounts/avatars/000/000/001/original/a5a257b9808901ab.png",
+      "avatar_static": "https://media.md.korako.me/accounts/avatars/000/000/001/original/a5a257b9808901ab.png",
+      "header": "https://media.md.korako.me/accounts/headers/000/000/001/original/6715e69e944016c5.jpg",
+      "header_static": "https://media.md.korako.me/accounts/headers/000/000/001/original/6715e69e944016c5.jpg",
+      "followers_count": 181,
+      "following_count": 198,
+      "statuses_count": 15937,
+      "last_status_at": "2024-09-05",
+      "noindex": true,
+      "emojis": [],
+      "roles": [
+        {
+          "id": "3",
+          "name": "Owner",
+          "color": ""
+        }
+      ],
+      "fields": [
+        {
+          "name": "キュアスタ！",
+          "value": "<a href=\"https://precure.ml/@precure\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">precure.ml/@precure</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2021-04-07T10:45:46.770+00:00"
+        },
+        {
+          "name": "きゅあすきー",
+          "value": "<a href=\"https://mk.precure.fun/@precure\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mk.precure.fun/@precure</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-03-19T03:22:47.988+00:00"
+        },
+        {
+          "name": "Lemmy",
+          "value": "<a href=\"https://lm.korako.me/u/karasu_sue\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">lm.korako.me/u/karasu_sue</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "DQX",
+          "value": "KE102-222",
+          "verified_at": null
+        },
+        {
+          "name": "DQX MSQ進行",
+          "value": "7.1済（サブクエver1~2残）",
+          "verified_at": null
+        },
+        {
+          "name": "DQXサブ育成中！",
+          "value": "JG265-227",
+          "verified_at": null
+        },
+        {
+          "name": "PeerTube",
+          "value": "<a href=\"https://fedimovie.com/c/korako\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">fedimovie.com/c/korako</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "Keyoxide",
+          "value": "<a href=\"https://keyoxide.org/hkp/7C0875BD0D7C7A01C6AAF0CC6F997E2EC9473205\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">keyoxide.org/hkp/7C0875BD0D7C7</span><span class=\"invisible\">A01C6AAF0CC6F997E2EC9473205</span></a>",
+          "verified_at": "2021-05-04T16:56:45.569+00:00"
+        }
+      ]
+    },
+    "rules": [
+      {
+        "id": "1",
+        "text": "みんななかよく"
+      },
+      {
+        "id": "2",
+        "text": "万が一のデータ消失や障害の際復旧の保証はないことをご了承ください"
+      },
+      {
+        "id": "3",
+        "text": "日本国の法律を守って利用してください"
+      },
+      {
+        "id": "4",
+        "text": "公序良俗に反しない利用をお願いします"
+      },
+      {
+        "id": "5",
+        "text": "サーバに無理な負荷をかけないでください"
+      },
+      {
+        "id": "6",
+        "text": "政治的発言をすることは禁止しています（無駄なトラブルを避けるため）"
+      },
+      {
+        "id": "7",
+        "text": "特定の思想をもった活動をこのサーバで行うことを禁止します（無駄なトラブルを避けるため）"
+      },
+      {
+        "id": "8",
+        "text": "各投稿の権利は投稿者にあります"
+      }
+    ],
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.12"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": 8,
+        "activeHalfyear": 11
+      },
+      "localPosts": 50916
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "md.korako.me",
+      "maintainer": {
+        "name": "鴉河雛",
+        "email": "takeuchinomori+mstdn@gmail.com"
+      }
+    },
+    "mulukhiya": {
+      "package": {
+        "authors": [
+          "Tatsuya Koishi"
+        ],
+        "description": "各種ActivityPub対応インスタンスへの投稿に対して、内容の更新等を行うプロキシ。通称「モロヘイヤ」。",
+        "email": [
+          "tkoishi@b-shock.co.jp"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/pooza/mulukhiya-toot-proxy",
+        "version": "4.32.2"
+      },
+      "config": {
+        "controller": "mastodon",
+        "status": {
+          "spoiler": {
+            "text": null,
+            "emoji": "netabare",
+            "shortcode": ":netabare:"
+          },
+          "default_hashtag": null
+        }
+      }
+    }
+  },
+  "error": null
+}

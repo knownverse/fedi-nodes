@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3891,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "the liquid bishop",
+      "nodeDescription": "Once there were two pies.",
+      "nodeIcon": "https://wakest.wordpress.com/wp-content/uploads/2021/04/cropped-tumblr_n8bbys7gmd1qz6q4yo1_500.gif"
+    }
+  },
+  "error": null
+}

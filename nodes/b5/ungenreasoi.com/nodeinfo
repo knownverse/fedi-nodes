@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 7,
+        "activeHalfyear": 7
+      },
+      "localPosts": 32,
+      "localComments": 55
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Un genre à soi",
+      "nodeDescription": "",
+      "nodeIcon": "https://ungenreasoi.com/wp-content/uploads/2022/04/cropped-un-genre-a-soi1-1.png"
+    }
+  },
+  "error": null
+}

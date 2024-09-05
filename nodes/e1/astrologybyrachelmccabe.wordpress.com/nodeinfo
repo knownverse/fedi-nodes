@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 130,
+      "localComments": 115
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dark Moon Astrology",
+      "nodeDescription": "by Rachel McCabe",
+      "nodeIcon": "https://astrologybyrachelmccabe.wordpress.com/wp-content/uploads/2018/03/cropped-img_4431.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,340 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "misskey.sharivegas.com",
+            "breastmilk.club",
+            "shrimpposter.club",
+            "baraag.net",
+            "freak.university",
+            "youjo.love",
+            "nnia.space",
+            "lolison.top",
+            "lolison.network",
+            "ghetti.monster",
+            "rapemeat.solutions",
+            "pl.pube.tk",
+            "rneetup.com",
+            "geofront.rocks",
+            "moar.cachapa.xyz",
+            "asimon.org",
+            "collapse.pub",
+            "frennet.xyz",
+            "apogee.polaris-1.work",
+            "novoa.nagoya",
+            "pl.kitsunemimi.club",
+            "poster.place",
+            "strelizia.net",
+            "seal.cafe",
+            "sleepy.cafe",
+            "eveningzoo.club",
+            "silliness.observer",
+            "ryona.agency",
+            "hidamari.apartments",
+            "coolsite.win",
+            "mitra.anon-kenkai.com",
+            "varishangout.net",
+            "iddqd.social",
+            "pleroma.elementality.org",
+            "roysbeer.place",
+            "fedi.pawlicker.com",
+            "animesexual.community",
+            "nicecrew.digital",
+            "noagendasocial.com",
+            "cum.salon",
+            "poa.st"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "moar.cachapa.xyz": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "nicecrew.digital": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "animesexual.community": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "apogee.polaris-1.work": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "coolsite.win": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "ryona.agency": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "cum.salon": {
+              "reason": "trolls"
+            },
+            "asimon.org": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "nnia.space": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "pleroma.elementality.org": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "breastmilk.club": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "rapemeat.solutions": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "freak.university": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "lolison.top": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "varishangout.net": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "collapse.pub": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "pl.kitsunemimi.club": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "eveningzoo.club": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "seal.cafe": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "sleepy.cafe": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "silliness.observer": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "shrimpposter.club": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "mitra.anon-kenkai.com": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "fedi.pawlicker.com": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "noagendasocial.com": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "hidamari.apartments": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "poa.st": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "frennet.xyz": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "poster.place": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "misskey.sharivegas.com": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "ghetti.monster": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "baraag.net": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "pl.pube.tk": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "roysbeer.place": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "rneetup.com": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "geofront.rocks": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "iddqd.social": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "lolison.network": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "novoa.nagoya": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "youjo.love": {
+              "reason": "Import from social.platypush.tech"
+            },
+            "strelizia.net": {
+              "reason": "Import from social.platypush.tech"
+            }
+          }
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "social.platypush.tech"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Fabio Manganiello's personal corner",
+      "nodeName": "Fabio's space",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://manganiello.social/users/fabio"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 464
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

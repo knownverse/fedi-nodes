@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.16-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3546,
+        "activeMonth": 277,
+        "activeHalfyear": 560
+      },
+      "localPosts": 445480
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Liker.Social",
+      "nodeDescription": "我們是一個基於 LikeCoin 和 Mastodon 的去中心化微博平台，致力於幫助用戶創造收入。在這裡，您可以自由發言、積累粉絲、擴大社群，並通過創作和分享內容獲得加密貨幣和廣告收入！"
+    }
+  },
+  "error": null
+}

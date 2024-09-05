@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "11.37.1-20240721044611"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": null,
+      "nodeDescription": "実験用インスタンスです。\n予期せぬ停止やサービス終了の可能性がありますのでフォローはご注意ください。",
+      "maintainer": {
+        "name": "Maya Minatsuki",
+        "email": ""
+      },
+      "langs": [],
+      "ToSUrl": null,
+      "repositoryUrl": "https://github.com/mayaeh/misskey-v11",
+      "feedbackUrl": "https://github.com/mayaeh/misskey-v11/issues/new",
+      "announcements": [],
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true
+    }
+  },
+  "error": null
+}

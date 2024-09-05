@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 581,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Plume et Le Talent",
+      "nodeDescription": "Un pont entre les époques, un tremplin vers le futur.",
+      "nodeIcon": "https://elagraoui.art.blog/wp-content/uploads/2024/05/wp-1714755220442.jpg"
+    }
+  },
+  "error": null
+}

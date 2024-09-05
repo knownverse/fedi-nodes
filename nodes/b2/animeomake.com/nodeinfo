@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Anime おまけ",
+      "nodeDescription": "Anime おまけ, when you wanted just a little more."
+    }
+  },
+  "error": null
+}

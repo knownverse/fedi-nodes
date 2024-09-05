@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 10,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "minnix_tech",
+      "nodeDescription": "",
+      "nodeIcon": "https://tech.minnix.dev/wp-content/uploads/2024/04/cropped-3c77d8c512444afe-e1714165840795.jpg"
+    }
+  },
+  "error": null
+}

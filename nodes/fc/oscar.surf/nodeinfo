@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-oscar.12a",
+      "homepage": "https://github.com/SWREI/oscar_surf",
+      "repository": "https://github.com/SWREI/oscar_surf"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4870,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "オスカー。",
+      "nodeDescription": "Want to surf the waves of notes with me?",
+      "nodeAdmins": [
+        {
+          "name": "オスカー。",
+          "email": "admin@oscar.surf"
+        }
+      ],
+      "maintainer": {
+        "name": "オスカー。",
+        "email": "admin@oscar.surf"
+      },
+      "langs": [],
+      "tosUrl": "https://oscar.surf/@luke/pages/rules",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/SWREI/oscar_surf",
+      "feedbackUrl": "https://github.com/MisskeyIO/misskey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "surfboard",
+      "themeColor": "#00ff63"
+    }
+  },
+  "error": null
+}

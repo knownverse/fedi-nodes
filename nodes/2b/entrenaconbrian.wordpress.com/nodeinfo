@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Entrena Con Brian",
+      "nodeDescription": "Fitness, Diversión y Bienestar a tu Alcance",
+      "nodeIcon": "https://entrenaconbrian.wordpress.com/wp-content/uploads/2023/12/entrena-con-brian-transparente-e1701460795264.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-mk2",
+      "homepage": "https://github.com/takaion/misskingway",
+      "repository": "https://github.com/takaion/misskingway"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 985,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1171873,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskingway",
+      "nodeDescription": "<strong>Misskingway</strong>は【<strong>成人済み</strong>FF14プレイヤー】が集うサーバーです。<br>\n<br>\nレポリットと化したユーザーたちがローカルタイムラインでのんびりチャットライクコミュニケーションを楽しんでいます。<br>\nノートやページの内容はゲームに限らず公序良俗に則る範囲で雑多にどうぞ！<br>\n<br>\n利用規約と一緒に<a href=\"https://invillage-outvillage.com/@NAKAJIMA/pages/rules\" target=\"_blank\">『はじめに』</a>も読んでね！<br>\n<br>\n<small><center>他サーバーの管理者様へ：<br>\n当サーバーで作成された絵文字を使用される際は、管理者までご一報ください。</center></small><br>\n<small><center>記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。<br> \n(C)SQUARE ENIX<br>\n<br>\nサーバーロゴ：@Re_nox<br>\nサーバーバナー：@Tsutsu</center></small>",
+      "nodeAdmins": [
+        {
+          "name": "中嶋",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "中嶋",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://invillage-outvillage.com/@NAKAJIMA/pages/terms",
+      "privacyPolicyUrl": "https://invillage-outvillage.com/@NAKAJIMA/pages/privacypolicy",
+      "inquiryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdXgyXGweDMk_VgmqNPOTKDGnhGsK8K6rITAeydnoOzAB7f_Q/viewform",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/takaion/misskingway",
+      "feedbackUrl": "https://github.com/takaion/misskingway/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#1aa3b7"
+    }
+  },
+  "error": null
+}

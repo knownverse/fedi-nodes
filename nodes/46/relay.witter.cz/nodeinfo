@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.2.2 729477820fec4ac29e232eabc1a8421e088b945c"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "peers": [
+        "lgbtcz.social",
+        "witter.cz",
+        "mastodonczech.cz",
+        "boskovice.social",
+        "mastodon.pirati.cz",
+        "mastodon.1984.cz",
+        "pidibi.com",
+        "mastodon.rfc1925.org",
+        "cztwitter.cz",
+        "mastodon.rozhlas.cz",
+        "social.mrks.network",
+        "mastodon.loutaci.cz",
+        "chatsubo.cbrpnk.dev",
+        "social.dytrych.cloud",
+        "czech-press.eu",
+        "social.blep.cz",
+        "mastodon.cesko.digital",
+        "schmaker.eu",
+        "otakuzatoka.cz"
+      ]
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

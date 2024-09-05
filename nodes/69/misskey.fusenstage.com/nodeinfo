@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 185,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13793,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ふうすきー",
+      "nodeDescription": "ふうせんという地方のシステムエンジニアが勝手に立てたMisskeyサーバーです。</br>特にエンジニア向けサーバーというわけではなく、誰でも自由に好きな話題を話せるサーバーです。管理人自身が皆さんのノートにリアクションしたりします。</br>\n運用環境は、ごくごく一般的な家庭のサーバー環境、ネットワーク設備なので障害発生時は復旧までに時間がかかる場合がございます。</br>\nどういう環境は<a href=\"https://misskey.fusenstage.com/notes/9hzonk5hj7\">こちらの管理人のノート</a>に書いてあります。</br>\n</br>\n本サーバーをご利用頂く場合は、日本国の法律や条令、<a href=\"https://www.fusenstage.com/fusky-tos\">利用規約</a>を遵守いただく必要がございます。",
+      "nodeAdmins": [
+        {
+          "name": "ふうせん",
+          "email": "https://www.fusenstage.com/contact"
+        }
+      ],
+      "maintainer": {
+        "name": "ふうせん",
+        "email": "https://www.fusenstage.com/contact"
+      },
+      "langs": [],
+      "tosUrl": "https://www.fusenstage.com/fusky-tos/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "",
+      "impressumUrl": "https://www.fusenstage.com/about/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#07db11"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+besties"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 7,
+        "activeHalfyear": 12
+      },
+      "localPosts": 7346
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "FuckGov",
+      "nodeDescription": "The only Fediverse instance ran by the US Government. For use by MAMALA HARRIS 🌴🥥🌴🥥🌴🥥🌴🥥 STREAM BRAT AND VOTE KAMALA KAMALA IS BRAT WOOOOOO"
+    }
+  },
+  "error": null
+}

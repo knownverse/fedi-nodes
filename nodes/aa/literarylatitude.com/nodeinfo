@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 46,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Literary Latitude",
+      "nodeDescription": "All contents have been prepared for the students of English Department, DDU Gorakhpur University",
+      "nodeIcon": "https://literarylatitude.com/wp-content/uploads/2024/02/wp-1708955328720.jpg"
+    }
+  },
+  "error": null
+}

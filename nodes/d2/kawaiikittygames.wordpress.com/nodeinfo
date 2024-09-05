@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kawaii Kitty",
+      "nodeDescription": "Blogger, Gamer, Twitch Streamer",
+      "nodeIcon": "https://kawaiikittygames.wordpress.com/wp-content/uploads/2024/03/kawa3.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 40,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Joe Lencioni",
+      "nodeDescription": "I&#039;m glad you are here.",
+      "nodeIcon": "https://joelencioni.com/wp-content/uploads/2024/01/cropped-4ad527a4-e80e-4c21-9d79-464170d567b4.jpeg"
+    }
+  },
+  "error": null
+}

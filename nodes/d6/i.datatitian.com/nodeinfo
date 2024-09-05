@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Immers Space",
+      "version": "6.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "WebCollectibles": "1.0"
+    }
+  },
+  "error": null
+}

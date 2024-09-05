@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Harmonious Dissonance",
+      "nodeDescription": "",
+      "nodeIcon": "https://harmoniousdissonancemusic.wordpress.com/wp-content/uploads/2024/02/cropped-barb_poster.jpg"
+    }
+  },
+  "error": null
+}

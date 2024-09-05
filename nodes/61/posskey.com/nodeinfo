@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-kakurega.1.39.1",
+      "homepage": "https://github.com/hideki0403/misskey.yukineko.me",
+      "repository": "https://github.com/hideki0403/misskey.yukineko.me"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1362,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぽすきー",
+      "nodeDescription": "新人バーチャル17才現役黒髪セミロング赤縁眼鏡超絶美少女天然ほんわか系清純派制服JKのえとぽが管理するmisskeyサーバーです。",
+      "nodeAdmins": [
+        {
+          "name": "えとぽ",
+          "email": "-"
+        }
+      ],
+      "maintainer": {
+        "name": "えとぽ",
+        "email": "-"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://etwarl.net/",
+      "impressumUrl": "https://etwarl.net/",
+      "repositoryUrl": "https://github.com/hideki0403/misskey.yukineko.me",
+      "feedbackUrl": "https://github.com/hideki0403/misskey.yukineko.me/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "po_proxy",
+      "themeColor": "#c6a39c"
+    }
+  },
+  "error": null
+}

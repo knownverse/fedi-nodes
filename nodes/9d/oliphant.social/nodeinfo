@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 15462
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Oliphant Social",
+      "nodeDescription": "A small but mighty band of warrior-poet oliphants. Safe harbor and fair speech zone."
+    }
+  },
+  "error": null
+}

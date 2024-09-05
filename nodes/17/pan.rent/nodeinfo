@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeMonth": 7,
+        "activeHalfyear": 15
+      },
+      "localPosts": 3086
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Pan",
+      "nodeDescription": "A tiny, tight, warm, improbable community of curious dreamers."
+    }
+  },
+  "error": null
+}

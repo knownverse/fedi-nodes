@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 105,
+      "localComments": 113
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Election Graphs",
+      "nodeDescription": "presidential elections, one graph at a time",
+      "nodeIcon": "https://electiongraphs.com/blog/wp-content/uploads/2018/05/cropped-Screen-Shot-2018-05-14-at-02.58.05.png"
+    }
+  },
+  "error": null
+}

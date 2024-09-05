@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-host.2d",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2063,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "かわねすきー",
+      "nodeDescription": "<center>\n文字、かなづかひ、반굴、𝤃𝪜𝣜𝪜、 ⣘⢌⣘⢸ 、🥽、F/LOSS、イスクイル<br>\n<br>\n<br>\nかわねすきー<br>\n聯合宇宙の片隅ひそり<br>\n嵐離れし星のあらはれ<br>\n<br>\n<br>\n黒玉之 夜去来者 巻向之<br>\n川音高之母 荒足鴨疾<br>\n<br>\n<br>\n</center>\n",
+      "nodeAdmins": [
+        {
+          "name": "川音리오@rio@kawane.misskey.online",
+          "email": "rio@kwn.ac"
+        }
+      ],
+      "maintainer": {
+        "name": "川音리오@rio@kawane.misskey.online",
+        "email": "rio@kwn.ac"
+      },
+      "langs": [],
+      "tosUrl": "https://kawane.misskey.online/notes/9s9wgjr58k",
+      "privacyPolicyUrl": "https://kawane.misskey.online/notes/9s9wkyeb8o",
+      "impressumUrl": "https://kwn.ac",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://kawane.misskey.online/@rio",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "ai",
+      "themeColor": "#f58231"
+    }
+  },
+  "error": null
+}

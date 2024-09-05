@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 321,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WWW-CD.ORG  Christophe Demay",
+      "nodeDescription": "",
+      "nodeIcon": "https://www-cd.org/wp-content/uploads/2020/05/cropped-LogoWWWCDORG_QR_512.png"
+    }
+  },
+  "error": null
+}

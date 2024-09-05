@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 203,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 182097,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "🌴🎍たけすきー（トロピカル）🎋🥥",
+      "nodeDescription": "\"おはよう\"から\"おやすみ\"まで、絵文字リアクションでコミュニケーションを取ったり、様々な話題がゆるやかに流れている汎用サーバーです。あなたもこのサーバーでゆったりとしたMisskeyライフを送ってみませんか？</br>\n良識の範囲内で、日本国憲法を守ってお使いください。</br>\n※このサーバーに与謝野晶子やレターパックは存在していません。それらはhttps://misskey.ioでお楽しみください。</br>\n※あくまで個人サーバーなので急にアクセス不可・公開停止・投稿内容の一部欠損が発生する可能性があります。バックアップは毎日午前3時頃に取っています。</br>\n※本サーバーに登録されている絵文字を他サーバーにインポートする場合は事前に製作者に許諾を得る必要がある場合があります。製作者が不明な場合は管理者にお問い合わせください。</br>\n\n長期的な安定運用を目指しており、ほぼ無障害で2年近く運用しています。ただし、管理者の経済状況や天災などによりサービスが一時停止・終了する可能性はあります。</br>\n\nここがアクセス不可能な場合は @take@misskey.io でアナウンスを行う可能性もあります。\n\nカスタム絵文字権利表記</br>\nFFXIVジョブアイコン：(C) SQUARE ENIX CO., LTD. All Rights Reserved.</br>\nblob emojis： <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">Apache License 2.0</a></br>\nbunhd： <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">Apache License 2.0</a></br>\nBlobhaj:  <a href=\"https://wiki.takehi.to/64b3cf1a960e8913f34d366f\">ライセンスページを参照</a></br>",
+      "nodeAdmins": [
+        {
+          "name": "take",
+          "email": "@take@takehi.to or @take@misskey.io"
+        }
+      ],
+      "maintainer": {
+        "name": "take",
+        "email": "@take@takehi.to or @take@misskey.io"
+      },
+      "langs": [],
+      "tosUrl": "https://wiki.takehi.to/640ddb3089a3b5f1f04496b4",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/edRvWmnfKjQsgZqz8",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#4c613e"
+    }
+  },
+  "error": null
+}

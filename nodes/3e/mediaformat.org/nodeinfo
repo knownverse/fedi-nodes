@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 11,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MediaFormat.org",
+      "nodeDescription": "Open standards &amp; Protocols ",
+      "nodeIcon": "https://mediaformat.org/wp-content/uploads/2020/12/cropped-angola.png"
+    }
+  },
+  "error": null
+}

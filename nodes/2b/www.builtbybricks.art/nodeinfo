@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "builtbybricks | Home of Brick-Art",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.builtbybricks.art/wp-content/uploads/2024/01/cropped-cropped-f7f56937-996d-4536-87e9-1d33761455ff.png"
+    }
+  },
+  "error": null
+}

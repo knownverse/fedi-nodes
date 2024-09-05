@@ -1,0 +1,281 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 77,
+        "activeMonth": 15,
+        "activeHalfyear": 45
+      },
+      "localPosts": 160908,
+      "localComments": 16
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "PeerTube",
+      "nodeDescription": "A PeerTube for general use, hosted in northern Europe.",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": true
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-label-pur",
+              "name": "label-pur",
+              "version": "0.0.2",
+              "description": "A PeerTube plugin that shows your instance Promotes and Uses Redundancy to help the PeerTube network",
+              "clientScripts": {
+                "client/common-client-plugin-out.js": {
+                  "script": "client/common-client-plugin-out.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-georegister",
+              "name": "georegister",
+              "version": "0.0.5",
+              "description": "PeerTube plugin for allowing registration depending on ip countries",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-hardware-transcode-vaapi",
+              "name": "hardware-transcode-vaapi",
+              "version": "0.2.9",
+              "description": "Plugin that adds transcode profiles which use vaapi for hardware acceleration",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-livechat",
+              "name": "livechat",
+              "version": "10.1.2",
+              "description": "PeerTube plugin livechat: create chat rooms for your Peertube lives! Comes with many features: federation, moderation tools, chat bot, chat persistence, OBS integration, ...",
+              "clientScripts": {
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/client/admin-plugin-client-plugin.js": {
+                  "script": "dist/client/admin-plugin-client-plugin.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-video-annotation",
+              "name": "video-annotation",
+              "version": "0.0.8",
+              "description": "PeerTube plugin video annotation",
+              "clientScripts": {
+                "dist/embed-client-plugin.js": {
+                  "script": "dist/embed-client-plugin.js",
+                  "scopes": [
+                    "embed"
+                  ]
+                },
+                "dist/video-edit-client-plugin.js": {
+                  "script": "dist/video-edit-client-plugin.js",
+                  "scopes": [
+                    "video-edit"
+                  ]
+                },
+                "dist/video-watch-client-plugin.js": {
+                  "script": "dist/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-auto-set-lang",
+              "name": "auto-set-lang",
+              "version": "1.0.3",
+              "description": "Plugin to automatically define video languages by browser language if undefined (in video settings on upload and in videos list in frontend)",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/video-edit-client-plugin.js": {
+                  "script": "dist/video-edit-client-plugin.js",
+                  "scopes": [
+                    "video-edit"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [],
+          "default": "default"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            360,
+            720,
+            1080,
+            1440
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": false,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 214748364800,
+          "videoQuotaDaily": 21474836480
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

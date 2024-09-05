@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "須藤スポーツワールド",
+      "nodeDescription": "身体能力を最大化引き出すパーソナルトレーナー 須藤慎輔",
+      "nodeIcon": "https://sudohsportsworld.wordpress.com/wp-content/uploads/2024/07/dallc2b7e-2024-07-21-09.37.24-a-high-quality-professional-illustration-of-a-muscular-human-figure-emphasizing-the-detailed-anatomy-of-muscles-without-any-text-or-graphics.-the-st.jpg"
+    }
+  },
+  "error": null
+}

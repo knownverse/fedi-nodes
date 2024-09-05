@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Andrés Flórez",
+      "nodeDescription": "&quot;Una terapia de trauma exitosa se trata de algo más que no tener síntomas. Se trata realmente de tener una vida... una vida que se trate de perseguir sueños, de perseguir la felicidad. Especialmente se trata del derecho a tener un presente y un futuro que no estén completamente dominados y dictados por el pasado&quot;. Karen Saakvitne.",
+      "nodeIcon": "https://ayudapsicologicafacil.wordpress.com/wp-content/uploads/2023/12/andres-florez-3.png"
+    }
+  },
+  "error": null
+}

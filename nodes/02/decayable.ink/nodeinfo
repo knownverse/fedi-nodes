@@ -1,0 +1,481 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "blockers_visible",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "email_list",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "events"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_block_notification_policy": [
+          [
+            "visibility",
+            "unlisted"
+          ],
+          [
+            "message",
+            "@{actor} has {actioned} @{target}"
+          ],
+          [
+            "user",
+            "AXded84xr6olJlIKzg"
+          ]
+        ],
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 35,
+          "reject_threshold": 0
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "HellthreadPolicy",
+          "ObjectAgePolicy",
+          "SimplePolicy",
+          "BlockNotificationPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "threads.net",
+            "threads.instagram.com",
+            "the.asbestos.cafe",
+            "asbestos.cafe",
+            "aethy.com",
+            "femboys.love",
+            "pedo.school",
+            "varishangout.net",
+            "shigusegubu.club",
+            "pleroma.soykaf.com",
+            "lush.moe",
+            "lolicon.rocks",
+            "loli.pizza",
+            "homoo.social",
+            "freak.university",
+            "fedi.z0ne.moe",
+            "cunny.finance",
+            "nnia.space",
+            "youjo.love",
+            "lolison.network",
+            "lolison.top",
+            "rot.gives",
+            "ghetti.monster",
+            "rapemeat.solutions",
+            "baraag.net",
+            "pawoo.net",
+            "fediverse.smat-app.com",
+            "smat-app.com",
+            "pettanko.art",
+            "rape.pet",
+            "rapemeat.express",
+            "cunnyborea.space",
+            "childlove.space",
+            "childlove.su",
+            "lit.tlespace.xyz",
+            "cannibal.cafe",
+            "monk.ey.business",
+            "loli.church",
+            "m.mxin.moe",
+            "social.cutefunny.net",
+            "cunnyborea.top",
+            "terere.social",
+            "game-tecx.de",
+            "mastodon.snmsoc.org",
+            "besties.com",
+            "kernkraft.social",
+            "wpmastodon.es",
+            "kokuusa.club",
+            "don.neet.co.jp",
+            "bigballchunkyverse.online",
+            "m.techsocial.site",
+            "forestver.se",
+            "cuyes.mooo.com",
+            "molaguay.xyz",
+            "social.tcpcat.net",
+            "nasface.cz",
+            "tootnet.nl",
+            "mastodon.education",
+            "edusocial.it",
+            "toot.poedelwitz.de",
+            "i.transmit.love",
+            "mastodon-ero.xyz",
+            "tambayan.us",
+            "niederbayern.social",
+            "cmm.fyi",
+            "mastodon.svnun.ru",
+            "waterlily.tokyo",
+            "tummy.town",
+            "social.isekco.re",
+            "m.ating.press",
+            "imouto.pics",
+            "bunnyanarchy.com",
+            "eepy.express",
+            "fedi.yesmap.net",
+            "cottoncandy.cafe",
+            "isekco.re",
+            "cunnyfu.cc",
+            "love.is.notacri.me",
+            "*.cubsex.lol",
+            "c.im",
+            "cute.lolison.top",
+            "imouto.exposed",
+            "pacsa.us",
+            "shota.house",
+            "oddballs.online"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "smat-app.com": {
+              "reason": "If our situation was hopeless, your propaganda wouldn't be necessary"
+            },
+            "pleroma.soykaf.com": {
+              "reason": "Pedos get the rope"
+            },
+            "threads.net": {
+              "reason": "Faceberg"
+            },
+            "m.ating.press": {
+              "reason": "Pedos get the rope"
+            },
+            "social.isekco.re": {
+              "reason": "Mmmmmmmmmmm violent dismemberment"
+            },
+            "eepy.express": {
+              "reason": "Get in the chipper"
+            },
+            "bunnyanarchy.com": {
+              "reason": "Get in the chipper"
+            },
+            "fedi.yesmap.net": {
+              "reason": "Get in the chipper"
+            },
+            "femboys.love": {
+              "reason": "Pedos get the rope"
+            },
+            "fediverse.smat-app.com": {
+              "reason": "hate speech deez nuts"
+            },
+            "imouto.pics": {
+              "reason": "Get in the chipper"
+            },
+            "mastodon.snmsoc.org": {
+              "reason": "You can't sit with us"
+            },
+            "love.is.notacri.me": {
+              "reason": "Pedophilia is a crime, into the chipper"
+            },
+            "nnia.space": {
+              "reason": "Pedos get the rope"
+            },
+            "fedi.z0ne.moe": {
+              "reason": "Pedos get the rope"
+            },
+            "rapemeat.solutions": {
+              "reason": "Pedos get the rope"
+            },
+            "isekco.re": {
+              "reason": "In the woodchipper"
+            },
+            "freak.university": {
+              "reason": "Pedos get the rope"
+            },
+            "lush.moe": {
+              "reason": "Pedos get the rope"
+            },
+            "lolison.top": {
+              "reason": "Pedos get the rope"
+            },
+            "wpmastodon.es": {
+              "reason": "You can't sit with us"
+            },
+            "aethy.com": {
+              "reason": "Consider suicide"
+            },
+            "homoo.social": {
+              "reason": "Pedos get the rope"
+            },
+            "varishangout.net": {
+              "reason": "Pedos get the rope"
+            },
+            "c.im": {
+              "reason": "Kill yourself"
+            },
+            "cunnyfu.cc": {
+              "reason": "I'm a chipper. If maps, zoos therian, all of the above go in my chipper feet first and it's not hurting anyone, I'm probably into it."
+            },
+            "besties.com": {
+              "reason": "You can't sit with us"
+            },
+            "shigusegubu.club": {
+              "reason": "Pedos get the rope"
+            },
+            "pacsa.us": {
+              "reason": "Blow your cock and balls off with a nail gun pedophile"
+            },
+            "loli.church": {
+              "reason": "Look at yourself in the mirror, think about all the childhood dreams you had about how great you were going to be and how proud your father would be about you. Now imagine that child groomed and their future destroyed, and you want to give that to a child. Kill yourself."
+            },
+            "threads.instagram.com": {
+              "reason": "Fight Elon in the colosseum coward"
+            },
+            "lolicon.rocks": {
+              "reason": "Pedos get the rope"
+            },
+            "social.cutefunny.net": {
+              "reason": "If someone calls your child cute and funny, bury them alive in minecraft"
+            },
+            "loli.pizza": {
+              "reason": "Pedos get the rope"
+            },
+            "cute.lolison.top": {
+              "reason": "You want to rape someones child"
+            },
+            "pettanko.art": {
+              "reason": "Consider Suicide"
+            },
+            "ghetti.monster": {
+              "reason": "Pedos get the rope"
+            },
+            "baraag.net": {
+              "reason": "Pedos get the rope"
+            },
+            "kernkraft.social": {
+              "reason": "You can't sit with us"
+            },
+            "pawoo.net": {
+              "reason": "Pedos get the rope"
+            },
+            "pedo.school": {
+              "reason": "Pedos get the rope"
+            },
+            "imouto.exposed": {
+              "reason": "Expose your organs to the outside"
+            },
+            "asbestos.cafe": {
+              "reason": "Pathological pedo accuser"
+            },
+            "lit.tlespace.xyz": {
+              "reason": "Degenerates belong on a cross"
+            },
+            "game-tecx.de": {
+              "reason": "Spam"
+            },
+            "shota.house": {
+              "reason": "Why do they always adopt little boys?"
+            },
+            "don.neet.co.jp": {
+              "reason": "You can't sit with us"
+            },
+            "the.asbestos.cafe": {
+              "reason": "pathological pedo accuser"
+            },
+            "rot.gives": {
+              "reason": "Pedos get the rope"
+            },
+            "cottoncandy.cafe": {
+              "reason": "Feet first"
+            },
+            "lolison.network": {
+              "reason": "Pedos get the rope"
+            },
+            "*.cubsex.lol": {
+              "reason": "Eat lead"
+            },
+            "cunny.finance": {
+              "reason": "Pedos get the rope"
+            },
+            "youjo.love": {
+              "reason": "Pedos get the rope"
+            },
+            "terere.social": {
+              "reason": "Spam, no one wants to go on your discord"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": true,
+      "nodeDescription": "Please wait 24 hours after making an account before signing in. You will not receive an email",
+      "nodeName": "Decayable.Ink",
+      "pollLimits": {
+        "max_expiration": 604800,
+        "max_option_chars": 200,
+        "max_options": 60,
+        "min_expiration": 3600
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": true,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "anime",
+        "loli",
+        "shota"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "messages_read",
+          "messages_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "statistics_read",
+          "users_delete"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://decayable.ink/users/Formerly_Trucks",
+        "https://decayable.ink/users/Doll",
+        "https://decayable.ink/users/Darbzilla",
+        "https://decayable.ink/users/Sui",
+        "https://decayable.ink/users/Decayable"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 160000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.50-888-g1d941583.main+soapbox"
+    },
+    "usage": {
+      "localPosts": 109471,
+      "users": {
+        "activeHalfyear": 46,
+        "activeMonth": 27,
+        "total": 55
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

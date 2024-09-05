@@ -1,0 +1,398 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1988,
+        "activeMonth": 9,
+        "activeHalfyear": 60
+      },
+      "localPosts": 3905,
+      "localComments": 199
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "TWEB.tv",
+      "nodeDescription": "Instance PeerTube de TWEB.",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-custom-links",
+              "name": "custom-links",
+              "version": "0.0.10",
+              "description": "PeerTube plugin that allows you to add custom links on the bottom of the menu",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-landing-page-markdown",
+              "name": "landing-page-markdown",
+              "version": "0.0.1",
+              "description": "Adds a markdown message to the landing page",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-categories",
+              "name": "categories",
+              "version": "1.2.7",
+              "description": "Manage video categories.",
+              "clientScripts": {
+                "src/client/admin-plugin-settings.js": {
+                  "script": "src/client/admin-plugin-settings.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-auth-oauth2",
+              "name": "auth-oauth2",
+              "version": "1.0.6",
+              "description": "A PeerTube server plugin that adds support for external authentication via an OAuth 2.0 provider. The callback URL path is /plugins/auth-oauth2/router/callback",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-transcoding-profile-debug",
+              "name": "transcoding-profile-debug",
+              "version": "0.0.4",
+              "description": "Plugin to help developers to debug transcoding profiles",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-social-sharing",
+              "name": "social-sharing",
+              "version": "0.10.1",
+              "description": "Share a video or playlist URL on social media (Mastodon, WordPress, reddit, Twitter, etc.)",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-player-watermark",
+              "name": "player-watermark",
+              "version": "0.0.1",
+              "description": "A PeerTube plugin that adds a watermark to the video player on your instance",
+              "clientScripts": {
+                "client/video-watch-client-plugin-out.js": {
+                  "script": "client/video-watch-client-plugin-out.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-creative-commons",
+              "name": "creative-commons",
+              "version": "1.2.0",
+              "description": "Standardized display of Creative Commons licenses. Uses short identifiers like CC BY-SA 4.0 instead of descriptive text.",
+              "clientScripts": {
+                "client/video-watch-client-plugin.js": {
+                  "script": "client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-simplelogo",
+              "name": "simplelogo",
+              "version": "0.0.5",
+              "description": "Plugin that let you change logo and favicon on your PeerTube instance.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-orion-admin-stats",
+              "name": "orion-admin-stats",
+              "version": "1.1.4",
+              "description": "Plugin to display stats about instance in the admin dashboard",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-livechat",
+              "name": "livechat",
+              "version": "10.3.3",
+              "description": "PeerTube plugin livechat: create chat rooms for your Peertube lives! Comes with many features: federation, moderation tools, chat bot, chat persistence, OBS integration, ...",
+              "clientScripts": {
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/client/admin-plugin-client-plugin.js": {
+                  "script": "dist/client/admin-plugin-client-plugin.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-video-annotation",
+              "name": "video-annotation",
+              "version": "0.0.6",
+              "description": "PeerTube plugin video annotation",
+              "clientScripts": {
+                "dist/embed-client-plugin.js": {
+                  "script": "dist/embed-client-plugin.js",
+                  "scopes": [
+                    "embed"
+                  ]
+                },
+                "dist/video-edit-client-plugin.js": {
+                  "script": "dist/video-edit-client-plugin.js",
+                  "scopes": [
+                    "video-edit"
+                  ]
+                },
+                "dist/video-watch-client-plugin.js": {
+                  "script": "dist/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-private-embed",
+              "name": "private-embed",
+              "version": "0.0.1",
+              "description": "PeerTube plugin to privately embed videos",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-private-embed-multiple-domain",
+              "name": "private-embed-multiple-domain",
+              "version": "1.0.0",
+              "description": "PeerTube plugin to privately embed videos for multiple domains",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-ryg",
+              "name": "ryg",
+              "version": "1.0.3",
+              "description": "PeerTube RYG-blue theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            }
+          ],
+          "default": "ryg"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            360,
+            720
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": [
+              720
+            ]
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": true
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": false
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 0,
+          "videoQuotaDaily": 0
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Inner Peace Lotions",
+      "nodeDescription": "An all-natural sunscreen to safely protect you from the sun, both internally and externally.",
+      "nodeIcon": "https://innerpeacelotions.com/wp-content/uploads/2024/04/cropped-woman-happiness-sunrise-silhouette-40192.jpeg"
+    }
+  },
+  "error": null
+}

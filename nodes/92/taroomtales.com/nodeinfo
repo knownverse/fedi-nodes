@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 16,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TAROOM TALES",
+      "nodeDescription": "Yarns from Back in the Day",
+      "nodeIcon": "https://i0.wp.com/taroomtales.com/wp-content/uploads/2023/10/cropped-logo5-tales-minimalist-simple-initial-logo.png?fit=452%2C452&ssl=1"
+    }
+  },
+  "error": null
+}

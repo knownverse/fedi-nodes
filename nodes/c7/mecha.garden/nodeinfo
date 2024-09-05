@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://forge.greenboi.me/emerald/gardenkey",
+      "repository": "https://forge.greenboi.me/emerald/gardenkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8757,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "The Garden",
+      "nodeDescription": "Giant robots go brrrr",
+      "nodeAdmins": [
+        {
+          "name": "@emerald@mecha.garden",
+          "email": "admin@mecha.garden"
+        }
+      ],
+      "maintainer": {
+        "name": "@emerald@mecha.garden",
+        "email": "admin@mecha.garden"
+      },
+      "langs": [],
+      "tosUrl": "https://mecha.garden/@emerald/pages/rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "mailto:admin@mecha.garden",
+      "impressumUrl": null,
+      "donationUrl": "https://liberapay.com/emerald",
+      "repositoryUrl": "https://forge.greenboi.me/emerald/gardenkey",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "melchior",
+      "themeColor": "#286a03"
+    }
+  },
+  "error": null
+}

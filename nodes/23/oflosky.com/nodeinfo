@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.6.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 308,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5097,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "oflosky",
+      "nodeDescription": "1.日本国憲法と公共の福祉さえ守るなら勝手にやっていい。<br>\n\n2.パスワードを失念したらアカウントを作り直して下さい。<br>\n\n3.居心地のいいSNSになる気はあんまないです<br>",
+      "maintainer": {
+        "name": "雨取由紀",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://z-n-a-k.net/terms.html",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "SuperCatProxyRobot",
+      "themeColor": "#36c3c3"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Demo instance, you can login with admin@gancio.org / password",
+      "nodeName": "Gancio cool",
+      "nodeTimezone": "Africa/Accra",
+      "nodeActor": "customized"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 14,
+      "localPosts": 1945,
+      "users": {
+        "total": 7
+      }
+    }
+  },
+  "error": null
+}

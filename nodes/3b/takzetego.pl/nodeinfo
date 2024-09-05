@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeMonth": "17",
+        "activeHalfyear": "17"
+      },
+      "localPosts": 392,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "takzetego",
+      "nodeDescription": "lepiej o tym nie mówić",
+      "nodeIcon": "https://i0.wp.com/takzetego.pl/wp-content/uploads/2022/02/cropped-tzt_ikona_witryny_512x512.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

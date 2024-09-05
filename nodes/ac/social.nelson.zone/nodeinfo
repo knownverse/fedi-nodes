@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 70
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Nelson Zone",
+      "nodeDescription": "This is the Nelson family's instance. Hosted at home, it's our connection to the fediverse."
+    }
+  },
+  "error": null
+}

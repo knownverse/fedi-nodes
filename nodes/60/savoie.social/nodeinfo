@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "nasher-mastodon@outlook.fr",
+        "name": "Nasher"
+      },
+      "nodeDescription": "Instance Firefish destinée aux résidents ou amoureux des Pays de Savoie.\nNous sommes connectés au Fédivers (Mastodon, PeerTube, Pixelfed, Funkwhale, etc) !",
+      "nodeName": "Le Réseau Social des Pays de Savoie",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 820,
+      "users": {
+        "activeHalfyear": 8,
+        "activeMonth": 2,
+        "total": 11
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

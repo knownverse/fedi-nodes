@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 95,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey - Prometheus Information Systems Corp.",
+      "nodeDescription": null,
+      "nodeAdmins": [
+        {
+          "name": "Prometheus Information Systems Corp.",
+          "email": "contact@prometheus.systems"
+        }
+      ],
+      "maintainer": {
+        "name": "Prometheus Information Systems Corp.",
+        "email": "contact@prometheus.systems"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://prometheus.systems",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#d107d5"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "فرش مهدی زاده",
+      "nodeDescription": "فرش احمد مهدی زاده",
+      "nodeIcon": "https://ahmadmahdizadehesfanjani.wordpress.com/wp-content/uploads/2023/07/wp-1690535498656.jpg"
+    }
+  },
+  "error": null
+}

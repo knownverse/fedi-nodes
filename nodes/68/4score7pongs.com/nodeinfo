@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 23,
+      "localComments": 13
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Four Score &amp; Seven Pongs Ago",
+      "nodeDescription": "We&#039;re bringing people together through gaming and charity.",
+      "nodeIcon": "https://i0.wp.com/4score7pongs.com/wp-content/uploads/2023/01/cropped-NewLogo2022Emoji.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

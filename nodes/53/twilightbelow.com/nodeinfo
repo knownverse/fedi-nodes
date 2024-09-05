@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 179,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Twilight in the Underworld",
+      "nodeDescription": "A record of my ascent as a theistic Satanist and black magician by Astarte Astaroth",
+      "nodeIcon": "https://twilightbelow.com/wp-content/uploads/2021/07/17-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 24,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 14924,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "まったりスタジオ",
+      "nodeDescription": "まったり…ね。",
+      "nodeAdmins": [
+        {
+          "name": "エデル・オーンスタイン",
+          "email": "ederu.ornstein+misskey@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "エデル・オーンスタイン",
+        "email": "ederu.ornstein+misskey@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#7c0b09"
+    }
+  },
+  "error": null
+}

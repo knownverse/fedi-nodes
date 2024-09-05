@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 23,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4533,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Facebook3",
+      "nodeDescription": null,
+      "nodeAdmins": [
+        {
+          "name": "@te",
+          "email": "tebukuro-facebook@yandex.ru"
+        }
+      ],
+      "maintainer": {
+        "name": "@te",
+        "email": "tebukuro-facebook@yandex.ru"
+      },
+      "langs": [],
+      "tosUrl": "https://tebukuro-facebook.github.io/facebook2/terms.html",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

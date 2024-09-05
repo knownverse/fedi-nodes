@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 115,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ESSMANN | Waagen &amp; Automation",
+      "nodeDescription": "Innovation für Präzision seit 1860",
+      "nodeIcon": "https://essmann.com/wp-content/uploads/2023/02/cropped-Dot-RGB-Farbig-1.png"
+    }
+  },
+  "error": null
+}

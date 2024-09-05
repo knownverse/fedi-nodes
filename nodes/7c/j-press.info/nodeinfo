@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 99,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ネットビジネスにまつわるあれこれ",
+      "nodeDescription": "ネットビジネス、副業、アフィリエイト、WEB製作関連に関する事現役コンサルＭＥＲＵの主観に基づいて書いていきます。その他便利なツールや有益な情報なども検証しレビューしていきます。",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

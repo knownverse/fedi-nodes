@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 3,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stefen&#039;s Tech Blog",
+      "nodeDescription": "",
+      "nodeIcon": "https://blog.theheart.land/wp-content/uploads/2024/07/cropped-IMG_2030.jpg"
+    }
+  },
+  "error": null
+}

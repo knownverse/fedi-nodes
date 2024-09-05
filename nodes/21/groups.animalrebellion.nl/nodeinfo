@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": null,
+      "nodeName": "Animal Rebellion Netherlands"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.1-2024.9.1+for-the-animals"
+    },
+    "usage": {
+      "localComments": 21,
+      "localPosts": 35,
+      "users": {
+        "total": 41
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

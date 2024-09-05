@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-bs1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 333,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Bluesskey",
+      "nodeDescription": "<p>当サーバーは、インターネットも含む自前で構築されたインフラストラクチャ上に立っております。<br>\nまた、当サーバーも含むネットワークは管理者の勉強のために使っており、たまに落ちることがあります</p>\n\n<p>\n・<a href=\"https://misskey.io/notes/9percc8o7wgu00ry\" target=\"_blank\">サーバー名の元ネタ</a>: @Kirigaoka@misskey.io<br>\n\n</p>\n\n<p>※当サーバーは、日本国内準じしており、国外からの登録はお断りしております</p>\n",
+      "nodeAdmins": [
+        {
+          "name": "Bluesskey Networks",
+          "email": "support@bluesskey.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "Bluesskey Networks",
+        "email": "support@bluesskey.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.bluesskey.jp/tos_docs/Tos/",
+      "privacyPolicyUrl": "https://docs.bluesskey.jp/tos_docs/privacy_policy/",
+      "inquiryUrl": "support@bluesskey.jp",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/Bluesskey/misskey",
+      "feedbackUrl": "https://github.com/Bluesskey/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#1185fe"
+    }
+  },
+  "error": null
+}

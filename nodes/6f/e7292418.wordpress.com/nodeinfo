@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": " EL POLLO TE AYUDA",
+      "nodeDescription": "Recetas sencillas (?)",
+      "nodeIcon": "https://e7292418.wordpress.com/wp-content/uploads/2024/04/b7e5b50a-6e11-4f7a-b743-a90e2ec62298-removebg-preview-1.png"
+    }
+  },
+  "error": null
+}

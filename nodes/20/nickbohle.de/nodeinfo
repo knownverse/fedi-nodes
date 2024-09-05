@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 468,
+      "localComments": 377
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "nickbohle.de",
+      "nodeDescription": "Texte und Bilder",
+      "nodeIcon": "https://i0.wp.com/nickbohle.de/wp-content/uploads/2015/12/logo_nb_512.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

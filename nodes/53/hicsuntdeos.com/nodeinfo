@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 40,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hic Sunt Deos",
+      "nodeDescription": "Here Be Gods",
+      "nodeIcon": "https://hicsuntdeos.com/wp-content/uploads/2022/12/CVK7u1lV_400x400.jpg"
+    }
+  },
+  "error": null
+}

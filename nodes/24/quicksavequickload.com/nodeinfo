@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Quick Save Quick Load",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/quicksavequickload.com/wp-content/uploads/2024/02/untitled.png?fit=400%2C600&ssl=1"
+    }
+  },
+  "error": null
+}

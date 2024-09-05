@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Magazine",
+      "nodeDescription": "International Magazine that Produces, Promotes and Disseminates the best in the World in High Impact Multimedia Content specialized in Tourism and Travel, Hospitality, Hospitality, Gastronomy, Leisure, Companies and Personalities, Economic and Investment Reports, Reports to leading and fastest growing companies Entrepreneurship, Interviews, Social, Philanthropy &amp; Foundations Fashion and trends, Beauty, Health, Automotive, Seventh Art, Music, Culture, Trends, the Most Inn, Environment and Ecology",
+      "nodeIcon": "https://xploralyaplanet.wordpress.com/wp-content/uploads/2022/03/cropped-iso.png"
+    }
+  },
+  "error": null
+}

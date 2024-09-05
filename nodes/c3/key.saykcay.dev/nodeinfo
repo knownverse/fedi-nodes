@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.8.0",
+      "basedMisskeyVersion": "2024.3.1",
+      "homepage": "https://github.com/kokonect-link/cherrypick",
+      "repository": "https://github.com/kokonect-link/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Key 🗝️",
+      "nodeDescription": "<strong>Key 🗝️</strong>은 Cherrypick을 사용한 서버 중 하나입니다.\n<hr>\n<code>Saykcay</code>는 <code>색채 [saykçay]</code>에서 따왔어요.<br>\n자유로운 주제로 연합우주를 탐구하는 인스턴스입니다.",
+      "nodeAdmins": [
+        {
+          "name": "Saykcay",
+          "email": "me@saykcay.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "Saykcay",
+        "email": "me@saykcay.dev"
+      },
+      "langs": [],
+      "tosUrl": "https://saykcay.dev/key-rules/",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#e2c0ab"
+    }
+  },
+  "error": null
+}

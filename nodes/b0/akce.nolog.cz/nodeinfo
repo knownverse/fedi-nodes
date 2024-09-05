@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Stránka pro sdílení politických akcí",
+      "nodeName": "AKCE.NOLOG.CZ",
+      "nodeTimezone": "Europe/Prague",
+      "nodeActor": "Levicove_Akce"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 221,
+      "users": {
+        "total": 22
+      }
+    }
+  },
+  "error": null
+}

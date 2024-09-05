@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.3",
+      "homepage": "https://github.com/Kesefon/misskey/tree/froggo.garden",
+      "repository": "https://github.com/Kesefon/misskey/tree/froggo.garden"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 36,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "🐸.🌷",
+      "nodeDescription": null,
+      "nodeAdmins": [
+        {
+          "name": "Kesefon",
+          "email": "admin@froggo.garden"
+        }
+      ],
+      "maintainer": {
+        "name": "Kesefon",
+        "email": "admin@froggo.garden"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://github.com/Kesefon/misskey/tree/froggo.garden",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#2ec27e"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 73,
+      "localComments": 154
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Word Philosopher",
+      "nodeDescription": "Thoughts and Adventures",
+      "nodeIcon": "https://loribossert.com/wp-content/uploads/2019/06/cropped-dscn0704-3.jpg"
+    }
+  },
+  "error": null
+}

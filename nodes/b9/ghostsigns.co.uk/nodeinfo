@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 712,
+      "localComments": 1374
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ghostsigns",
+      "nodeDescription": "Fading painted signs with Sam Roberts",
+      "nodeIcon": "https://ghostsigns.co.uk/wp-content/uploads/2021/10/cropped-Ghostsigns_Favicon.png"
+    }
+  },
+  "error": null
+}

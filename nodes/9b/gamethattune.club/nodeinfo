@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "admin@gamethattune.club",
+        "name": "@johnny@gamethattune.club"
+      },
+      "nodeDescription": "Hi there! This is Game That Tune's fediverse instance. We're fans of listening to videogame music, goofing off, and having fun!",
+      "nodeName": "Game That Tune Club",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 3374,
+      "users": {
+        "activeHalfyear": 18,
+        "activeMonth": 5,
+        "total": 43
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

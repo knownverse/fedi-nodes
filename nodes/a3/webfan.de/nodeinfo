@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "Webfan",
+      "version": "0.6.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "rootUrl": "https://webfan.de/apps/social",
+    "usage": [],
+    "openRegistrations": false
+  },
+  "error": null
+}

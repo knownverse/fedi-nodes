@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 414,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey.YTPMV.info",
+      "nodeDescription": "YTPMV.info管理人 [まいまい]の個人用インスタンス",
+      "maintainer": {
+        "name": "maimai",
+        "email": "maimai@ytpmv.info"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#c20101"
+    }
+  },
+  "error": null
+}

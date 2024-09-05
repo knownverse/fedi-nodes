@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 99,
+      "localComments": 32
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Punning",
+      "nodeDescription": "We love puns, silly memes, and dad jokes. They&#039;re pundermentally puntastic.",
+      "nodeIcon": "https://punning.isbrill.com/wp-content/uploads/sites/8/2023/11/cropped-cigar-362183_1280.jpg"
+    }
+  },
+  "error": null
+}

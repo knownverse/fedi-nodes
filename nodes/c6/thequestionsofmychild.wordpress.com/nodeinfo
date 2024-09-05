@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 54,
+      "localComments": 84
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Questions of My Child",
+      "nodeDescription": "The life of answering a million questions a day from my neurodivergent child.",
+      "nodeIcon": "https://thequestionsofmychild.wordpress.com/wp-content/uploads/2023/09/wp-1693729343074.jpg"
+    }
+  },
+  "error": null
+}

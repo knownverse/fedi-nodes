@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 19,
+      "localComments": 41
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tommys Blog",
+      "nodeDescription": "Der Blog über Autismus",
+      "nodeIcon": "https://tommysblog.de/wp-content/uploads/cropped-3e41ee5435c3976a5bd9ad0b46eaf4d8.jpeg"
+    }
+  },
+  "error": null
+}

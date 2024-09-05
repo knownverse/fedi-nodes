@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ciph3r R488i72",
+      "nodeDescription": "Cybersecurity enthusiast exploring the digital frontier! Solving puzzles, finding bugs, and adding a furry twist to the tech world. #Infosec #Furry #Wardriving",
+      "nodeIcon": "https://lucidh3x.blog/wp-content/uploads/2024/01/e28094pngtreee28094purple-skull-png_8366155.png"
+    }
+  },
+  "error": null
+}

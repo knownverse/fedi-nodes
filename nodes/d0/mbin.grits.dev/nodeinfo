@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.4.1",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 1422,
+      "localComments": 5764
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mbin",
+      "nodeDescription": "Private instance, nothing to see here"
+    }
+  },
+  "error": null
+}

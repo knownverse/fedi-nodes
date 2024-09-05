@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Welcome to Mouse’s Dog Gear, We’ll be Exploring Florida with my Service Dog Mouse.",
+      "nodeDescription": "We&#039;ll be exploring Florida with my Service Dog Mouse.",
+      "nodeIcon": "https://mousesdoggear.com/wp-content/uploads/2023/12/cropped-img_3204.jpeg"
+    }
+  },
+  "error": null
+}

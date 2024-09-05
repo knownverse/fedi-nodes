@@ -1,0 +1,351 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "activitypub-troll.cf",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "mastodong.lol",
+            "refusal.biz",
+            "poa.st",
+            "freespeechextremist.com",
+            "rdrama.cc",
+            "rojogato.com",
+            "bae.st",
+            "gab.com",
+            "mstdn.foxfam.club",
+            "paypig.org",
+            "noagendasocial.com",
+            "kiwifarms.cc",
+            "vsta.org",
+            "daishouri.moe",
+            "hallsofamenti.io",
+            "eientei.org",
+            "social.teci.world",
+            "freecumextremist.com",
+            "pleroma.kitsunemimi.club",
+            "nicecrew.digital",
+            "detroitriotcity.com",
+            "pooper.social",
+            "ryona.agency",
+            "eveningzoo.club",
+            "pieville.net",
+            "marsey.club",
+            "shitpost.cloud",
+            "s.ystn.win",
+            "natehiggers.online",
+            "leafposter.club",
+            "masthead.social",
+            "sneed.social",
+            "calobar.club",
+            "social.threefoldcloud.com",
+            "a.sc",
+            "genderheretics.xyz",
+            "seal.cafe",
+            "beefyboys.win",
+            "social.wideboys.org",
+            "cum.salon",
+            "mugicha.club",
+            "pleroma.narrativerry.xyz",
+            "mastinator.com",
+            "gleasonator.com",
+            "fediversealmanac.com",
+            "brighteon.social",
+            "clubcyberia.co",
+            "breastmilk.club",
+            "ni.hil.ist",
+            "parcero.bond"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [
+            "sinblr.com",
+            "pawoo.net",
+            "my.dirtyhobby.xyz",
+            "carrot.army",
+            "neckbeard.xyz",
+            "shitposter.club",
+            "kiwifarms.cc",
+            "skippers-bin.com",
+            "gameliberty.club",
+            "yorishiro.space",
+            "take.iteasy.club",
+            "fedi.valkyrie.world",
+            "anime.website",
+            "pl.smuglo.li",
+            "switter.at",
+            "paypig.org",
+            "freespeechextremist.com",
+            "spinster.xyz",
+            "mk.longyap.name.my",
+            "partyparrot.social",
+            "zhub.link",
+            "xscape.top",
+            "kinky.business",
+            "federated.fun"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": [
+            "nsfw",
+            "r-18"
+          ]
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "ActivityExpirationPolicy",
+          "SimplePolicy",
+          "MediaProxyWarmingPolicy",
+          "NormalizeMarkup",
+          "RejectNewlyCreatedAccountNotesPolicy",
+          "TagPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "a.sc": {
+              "reason": "Racist cretins"
+            },
+            "activitypub-troll.cf": {
+              "reason": "DDoS'ing Fediverse"
+            },
+            "bae.st": {
+              "reason": "Racists, anti-LGBTQ, generally unpleasant"
+            },
+            "beefyboys.win": {
+              "reason": "Racists"
+            },
+            "brighteon.social": {
+              "reason": "Misinformation bots"
+            },
+            "calobar.club": {
+              "reason": "racism, homophobia, anti-Semitism"
+            },
+            "clubcyberia.co": {
+              "reason": "Nazis"
+            },
+            "cum.salon": {
+              "reason": "Another garbage instance of immature antisocials"
+            },
+            "eientei.org": {
+              "reason": "Racist creeps"
+            },
+            "fediversealmanac.com": {
+              "reason": "Scraping content"
+            },
+            "freespeechextremist.com": {
+              "reason": "Racists, anti-LGBTQ, generally unpleasant"
+            },
+            "genderheretics.xyz": {
+              "reason": "Promotes abusive behaviour"
+            },
+            "mastinator.com": {
+              "reason": "Impersonates users with unclear goal"
+            },
+            "mastodong.lol": {
+              "reason": "DDoS'ing Fediverse"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "DDoS'ing Fediverse"
+            },
+            "mugicha.club": {
+              "reason": "Another garbage instance of immature antisocials"
+            },
+            "poa.st": {
+              "reason": "Racists, anti-LGBTQ, generally unpleasant"
+            },
+            "rdrama.cc": {
+              "reason": "Another garbage instance of immature antisocials"
+            },
+            "refusal.biz": {
+              "reason": "Paedophiles"
+            },
+            "repl.co": {
+              "reason": "DDoS'ing Fediverse"
+            },
+            "rojogato.com": {
+              "reason": "Racists, anti-LGBTQ, generally unpleasant"
+            },
+            "seal.cafe": {
+              "reason": "Racists"
+            },
+            "sneed.social": {
+              "reason": "Extreme racist losers"
+            },
+            "social.threefoldcloud.com": {
+              "reason": "Scamcoin shilling"
+            },
+            "social.wideboys.org": {
+              "reason": "Same owner as beefyboys.win"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "axbom.me",
+        "mycrowd.ca",
+        "trouble.social",
+        "troublemaker.social",
+        "akkoma.thesandbox.net",
+        "mookiesplace.com"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "thias.hellqui.st",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://thias.hellqui.st/users/m"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 168
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.1-0-gc02e343"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

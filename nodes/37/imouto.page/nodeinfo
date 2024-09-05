@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.3",
+      "repository": "https://git.joinfirefish.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": 15,
+        "activeMonth": 5
+      },
+      "localPosts": 428,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Imouto Page",
+      "nodeDescription": "A Misskey Instance for those who wish not to be censored. Oh but no illegal shit cus I don't wanna get raided by the fbi.",
+      "maintainer": {
+        "name": "Maria",
+        "email": "los.maria.torres@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "imouto",
+      "themeColor": "#532B70"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "notestock",
+      "version": "1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9773,
+        "activeHalfyear": 6118,
+        "activeMonth": 4580
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "log_enabled": true,
+      "registration_possible": [
+        "mastodon",
+        "misskey",
+        "pleroma",
+        "gnusocial"
+      ],
+      "recordable": [
+        "mastodon",
+        "misskey",
+        "pleroma",
+        "gnusocial",
+        "hubzilla",
+        "peertube"
+      ]
+    }
+  },
+  "error": null
+}

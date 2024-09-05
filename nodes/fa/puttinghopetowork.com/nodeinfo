@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 122,
+      "localComments": 413
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Putting Hope To Work",
+      "nodeDescription": "Inspired by my last name, I&#039;m on a journey to better understand the intertwining of FAITH &amp; HOPE.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

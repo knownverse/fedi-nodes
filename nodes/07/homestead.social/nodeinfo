@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch.0903_c461a6a"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 8500
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "homestead.social",
+      "nodeDescription": "homestead.social is an inclusive community open to anyone interested in homestead living. Welcome home!"
+    }
+  },
+  "error": null
+}

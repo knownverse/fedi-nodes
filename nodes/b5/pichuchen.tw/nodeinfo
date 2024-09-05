@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "maintainer": {
+        "email": "@pichuchen@misskey.io (m)",
+        "name": "pichu (m)"
+      },
+      "nodeDescription": "A personal website of Pichu Chen.",
+      "nodeName": "pichuchen.tw (nodeName)"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pichuchen.tw-webserver",
+      "version": "0.0.1"
+    },
+    "usage": {
+      "localComments": 1,
+      "localPosts": 1,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 10
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

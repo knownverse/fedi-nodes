@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1779,
+      "localComments": 9111
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dougal Campbell&#039;s geek ramblings",
+      "nodeDescription": "WordPress, web development, and world domination.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

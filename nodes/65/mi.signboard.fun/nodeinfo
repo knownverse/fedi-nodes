@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "nexkey",
+      "version": "12.24Q3.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 4,
+        "activeMonth": 2
+      },
+      "localPosts": 3280,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "かんばんすきー",
+      "nodeDescription": "マルフク看板・キリスト看板などの看板を楽しむために管理人が個人的に動かしているサーバーです。看板画像を定期的に投稿するBotが動いています。新規登録は開放しておりません。",
+      "maintainer": {
+        "name": "モナコ広告",
+        "email": "https://fedibird.com/@monaco_koukoku"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#C00000",
+      "features": [
+        "emoji_reaction",
+        "quote"
+      ]
+    }
+  },
+  "error": null
+}

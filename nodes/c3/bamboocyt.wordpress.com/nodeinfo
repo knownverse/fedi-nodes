@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 100,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "29樓需要更多陽光",
+      "nodeDescription": "一些旅行中的碎碎念日記",
+      "nodeIcon": "https://bamboocyt.wordpress.com/wp-content/uploads/2024/01/cropped-img_9654.jpg"
+    }
+  },
+  "error": null
+}

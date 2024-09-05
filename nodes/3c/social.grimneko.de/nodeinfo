@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-02-05+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeMonth": 7,
+        "activeHalfyear": 13
+      },
+      "localPosts": 10935
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "grimneko's social corner",
+      "nodeDescription": "A small instance. Feel welcome to join me on my quest to explore the fediverse."
+    }
+  },
+  "error": null
+}

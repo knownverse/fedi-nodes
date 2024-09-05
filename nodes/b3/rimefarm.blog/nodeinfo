@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 45,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rime Farm: Organic Farming in Downeast Maine&#039;s Changing Climate ",
+      "nodeDescription": "Sustainable Farming with a focus on Biodiversity and Nature",
+      "nodeIcon": "https://i0.wp.com/rimefarm.blog/wp-content/uploads/2024/04/rime-logo-with-city-small-center-resized.png?fit=12749%2C9026&ssl=1"
+    }
+  },
+  "error": null
+}

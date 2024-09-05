@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 129,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4311,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ほろみすきー",
+      "nodeDescription": "ホロリスナー向けmisskeyサーバです。どなたでもどうぞ。<br>\nThis is a misskey server for hololive fans. Join us!<br>\n<br>\n※本サーバはただのファンが趣味で実験的に運営しています。突然クローズするかもしれません。カバー（株）とは一切関係ありません。<br>\n※ユーザがどれほど増えるかわからないため、予告なく招待制に移行する可能性があります。",
+      "maintainer": {
+        "name": "valshia (a.k.a. ryookera)",
+        "email": "admin@holomisskey.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#00c8fa"
+    }
+  },
+  "error": null
+}

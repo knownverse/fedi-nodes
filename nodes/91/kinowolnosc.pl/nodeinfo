@@ -1,0 +1,308 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 4,
+        "activeHalfyear": 7
+      },
+      "localPosts": 56107,
+      "localComments": 9
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Kino Wolność",
+      "nodeDescription": "Społecznościowy serwer filmów i filmików, napędzany pomocą wzajemną, solidarnością i duchem hakerskim. ",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-creative-commons",
+              "name": "creative-commons",
+              "version": "1.2.0",
+              "description": "Standardized display of Creative Commons licenses. Uses short identifiers like CC BY-SA 4.0 instead of descriptive text.",
+              "clientScripts": {
+                "client/video-watch-client-plugin.js": {
+                  "script": "client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-background-play",
+              "name": "background-play",
+              "version": "0.0.5",
+              "description": "Play videos in background when mobile screen is locked.",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-simplelogo",
+              "name": "simplelogo",
+              "version": "0.0.5",
+              "description": "Plugin that let you change logo and favicon on your PeerTube instance.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-categories",
+              "name": "categories",
+              "version": "1.2.7",
+              "description": "Manage video categories.",
+              "clientScripts": {
+                "src/client/admin-plugin-settings.js": {
+                  "script": "src/client/admin-plugin-settings.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-auth-ldap",
+              "name": "auth-ldap",
+              "version": "0.0.12",
+              "description": "Add LDAP support to login form in PeerTube.",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-akismet",
+              "name": "akismet",
+              "version": "0.1.1",
+              "description": "Reject local comments, remote comments and registrations based on Akismet service",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-livechat",
+              "name": "livechat",
+              "version": "9.0.1",
+              "description": "PeerTube plugin livechat: create chat rooms for your Peertube lives! Comes with many features: federation, moderation tools, chat bot, chat persistence, OBS integration, ...",
+              "clientScripts": {
+                "dist/client/videowatch-client-plugin.js": {
+                  "script": "dist/client/videowatch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                },
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/client/admin-plugin-client-plugin.js": {
+                  "script": "dist/client/admin-plugin-client-plugin.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-spectral",
+              "name": "spectral",
+              "version": "0.0.3",
+              "description": "A theme derived from Spectra.Video",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-theme-kamerton-light",
+              "name": "kamerton-light",
+              "version": "3.5.2",
+              "description": "Kamerton Light Theme",
+              "css": [
+                "assets/plugin.css",
+                "assets/style.css",
+                "assets/kamerton-light.css"
+              ],
+              "clientScripts": {}
+            }
+          ],
+          "default": "kamerton-light"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": []
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 5368709120,
+          "videoQuotaDaily": 524288000
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

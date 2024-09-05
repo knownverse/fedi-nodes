@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "13.1.4.1",
+      "repository": "https://github.com/misskey-dev/misskey",
+      "homepage": "https://calckey.cloud"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": null,
+      "nodeDescription": null,
+      "maintainer": {
+        "name": null,
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

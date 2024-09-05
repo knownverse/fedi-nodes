@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 937,
+      "localComments": 343
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Raucherhusten",
+      "nodeDescription": "minimaler aufwand. minimale erfolge",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

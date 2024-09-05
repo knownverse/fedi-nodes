@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-10+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 84,
+        "activeMonth": 19,
+        "activeHalfyear": 32
+      },
+      "localPosts": 18271
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Shark corner",
+      "nodeDescription": "They've gone sending from Glauca.Space, to find another place. MOBILE APP USERS: if you're trying to sign up with a mobile app go back and select login to authenticate with our SSO."
+    }
+  },
+  "error": null
+}

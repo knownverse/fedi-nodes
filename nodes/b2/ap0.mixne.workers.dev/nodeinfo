@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "PetitChambre",
+      "version": "0.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "nodeName": "PetitChambre",
+      "nodeDescription": "PetitChambreは開発及び試験運用中のActivityPubプロトコルを使用した分散型ソーシャルネットワークの1つです。",
+      "nodeAdmins": [
+        {
+          "name": "mixne",
+          "email": "Private"
+        }
+      ],
+      "maintainer": {
+        "name": "mixne",
+        "email": "Private"
+      },
+      "themeColor": "#6CC9D4"
+    }
+  },
+  "error": null
+}

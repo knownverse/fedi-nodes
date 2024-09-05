@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Markku&#039;s Internet Hub",
+      "nodeDescription": "Just some thoughts",
+      "nodeIcon": "https://markku.raitisoja.cloud/wp-content/uploads/2023/09/profile.jpg"
+    }
+  },
+  "error": null
+}

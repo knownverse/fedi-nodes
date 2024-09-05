@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "https://info.graz.social\n",
+      "nodeName": "events.graz.social"
+    },
+    "usage": {
+      "users": {
+        "total": 147
+      },
+      "localComments": 21,
+      "localPosts": 3854
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 55
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Our Humble Road",
+      "nodeDescription": "A Writer&#039;s Notebook",
+      "nodeIcon": "https://ourhumbleroad.com/wp-content/uploads/2024/08/cropped-cropped-screenshot-2024-08-16-204502.png"
+    }
+  },
+  "error": null
+}

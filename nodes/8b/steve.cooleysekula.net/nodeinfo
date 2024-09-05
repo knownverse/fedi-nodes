@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 1585,
+      "localComments": 210
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Adventures of My Pet Hamster",
+      "nodeDescription": "The Personal Blog of Stephen Sekula",
+      "nodeIcon": "https://steve.cooleysekula.net/blog/wp-content/uploads/2023/09/cropped-2681010c-824f-4717-a065-026a6683a544-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 51,
+      "localComments": 309
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WORDSOUPS",
+      "nodeDescription": "by MMC 2.0",
+      "nodeIcon": "https://wordsoups.com/wp-content/uploads/2021/01/cropped-photo-2021-01-20-09-38-35-2.jpg"
+    }
+  },
+  "error": null
+}

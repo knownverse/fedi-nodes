@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8981,
+      "localComments": 364
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Court Guinness",
+      "nodeDescription": "The personal website of Court Guinness - Lord Court Guinness of Glencoe and Lucy The Cat!",
+      "nodeIcon": "https://courtg9000.wordpress.com/wp-content/uploads/2021/07/cropped-cgico.png"
+    }
+  },
+  "error": null
+}

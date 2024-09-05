@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 417,
+      "localComments": 13
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "世界のねじを巻くラジオ",
+      "nodeDescription": "ゲイブロガーが独自の視点で 世界一周旅行 / 海外記事 / ポッドキャスト/映画 / 読書書評 / 音楽 / LGBT などについてお届けするPodcast。",
+      "nodeIcon": "https://nejimaki-radio.com/wp-content/uploads/2018/07/cropped-5e28eb009e5c6a26a11153b08c6b715c-1.jpg"
+    }
+  },
+  "error": null
+}

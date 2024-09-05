@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 39,
+      "localComments": 55
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The New Social",
+      "nodeDescription": "Bewusst entscheiden. Demokratie stärken.",
+      "nodeIcon": "https://www.thenewsocial.de/wp-content/uploads/2021/12/Favicon.png"
+    }
+  },
+  "error": null
+}

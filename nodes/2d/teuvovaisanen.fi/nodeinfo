@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 630,
+      "localComments": 250
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Teuvo Väisänen",
+      "nodeDescription": "a.k.a. Stedi",
+      "nodeIcon": "https://teuvovaisanen.fi/wp-content/uploads/2017/01/cropped-tv-512-ikoni-2.png"
+    }
+  },
+  "error": null
+}

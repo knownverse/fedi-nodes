@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 4,
+        "activeHalfyear": 5
+      },
+      "localPosts": 32947
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon (instance perso)",
+      "nodeDescription": "This is a small personal instance running on a couple small ARM servers at home."
+    }
+  },
+  "error": null
+}

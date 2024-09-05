@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 297,
+        "activeMonth": 53,
+        "activeHalfyear": 78
+      },
+      "localPosts": 1058609
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "EFDN",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

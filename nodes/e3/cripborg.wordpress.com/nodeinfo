@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dis/course Blog",
+      "nodeDescription": "Explorations in critical disability studies, Internet cultures, and crip technoscience.",
+      "nodeIcon": "https://cripborg.wordpress.com/wp-content/uploads/2024/04/untitled-8.png"
+    }
+  },
+  "error": null
+}

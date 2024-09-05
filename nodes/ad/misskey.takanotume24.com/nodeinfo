@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 724,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.takanotume24.com",
+      "nodeDescription": null,
+      "nodeAdmins": [
+        {
+          "name": "takanotume24",
+          "email": "https://twitter.com/takanotume24"
+        }
+      ],
+      "maintainer": {
+        "name": "takanotume24",
+        "email": "https://twitter.com/takanotume24"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://x.com/takanotume24",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy_account",
+      "themeColor": "#87e2c0"
+    }
+  },
+  "error": null
+}

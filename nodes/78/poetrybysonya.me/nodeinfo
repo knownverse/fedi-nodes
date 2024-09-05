@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 628,
+      "localComments": 5402
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SONYA KASSAM",
+      "nodeDescription": "poetry and some more",
+      "nodeIcon": "https://poetrybysonya.me/wp-content/uploads/2017/09/cropped-henna-1581329_19201.jpg"
+    }
+  },
+  "error": null
+}

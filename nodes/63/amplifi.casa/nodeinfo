@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Um servidor simples, com o objetivo de dar vozes a quem não quer depender de grandes redes. 🌻",
+      "nodeName": "Amplifi.casa"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.2"
+    },
+    "usage": {
+      "localComments": 10,
+      "localPosts": 102,
+      "users": {
+        "total": 150
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

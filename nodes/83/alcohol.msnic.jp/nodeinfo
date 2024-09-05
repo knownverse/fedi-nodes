@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "1.0.1-MSNIS-m2024.7.0-beta.1",
+      "homepage": "https://github.com/MSNIC/MSNIS0",
+      "repository": "https://github.com/MSNIC/MSNIS0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 69,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7499,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MSNIS",
+      "nodeDescription": "20歳未満の飲酒、および喫煙は、法令によって厳しく禁止されています。また、年齢確認を怠った場合、販売者も同様に厳しく罰せられます。\n\nDKIMを設定していないため、Gmailをご利用になれません。ご利用の方は、管理者にご連絡をお願いいたします。(Twitter: 4HsAoMuAt9h0)",
+      "nodeAdmins": [
+        {
+          "name": "MSNIC",
+          "email": "EMAIL IS NOT AVAILABLE"
+        }
+      ],
+      "maintainer": {
+        "name": "MSNIC",
+        "email": "EMAIL IS NOT AVAILABLE"
+      },
+      "langs": [],
+      "tosUrl": "https://alcohol.msnic.jp/@admin/pages/tos",
+      "privacyPolicyUrl": "https://alcohol.msnic.jp/@admin/pages/tos",
+      "inquiryUrl": "NOT AVAILABLE NOW ",
+      "impressumUrl": "https://m.tkngh.jp",
+      "repositoryUrl": "https://github.com/MSNIC/MSNIS0",
+      "feedbackUrl": "https://github.com/MSNIC/MSNIS0/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

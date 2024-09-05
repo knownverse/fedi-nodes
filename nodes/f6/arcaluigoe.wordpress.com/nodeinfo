@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1337,
+      "localComments": 51061
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "(b)Arca lui goE",
+      "nodeDescription": "b-Log  anonim, amator și ventrilog al celor fără de blog. Despre NIMIC !",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

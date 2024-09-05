@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5.5",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 17
+      },
+      "localPosts": 8880,
+      "localComments": 2584
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": {
+      "inbound": [
+        "activitypub"
+      ],
+      "outbound": [
+        "activitypub"
+      ]
+    },
+    "metadata": {
+      "email": "xian@mediajunkie.com",
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "1.0.8",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      }
+    }
+  },
+  "error": null
+}

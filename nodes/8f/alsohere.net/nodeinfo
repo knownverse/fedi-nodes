@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "tika@alsohere.net",
+        "name": "Tika"
+      },
+      "nodeDescription": "Also Here is just another place to be on the internet. At this very early stage, it's just \"the server <a href=\"https://alsohere.net/@tika\">Tika</a> set up\". Our broad goal is to be welcoming and inclusive. Once there's a better established vibe, I'll try figure out how to communicate that here.\n\n<a href=\"https://alsohere.net/@tika/pages/info\">Click here for a quick intro</a>.",
+      "nodeName": "Also Here",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240601"
+    },
+    "usage": {
+      "localPosts": 263,
+      "users": {
+        "activeHalfyear": 7,
+        "activeMonth": 4,
+        "total": 16
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

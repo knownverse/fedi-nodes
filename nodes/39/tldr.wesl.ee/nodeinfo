@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "cmm.fyi",
+            "tcpcat.net",
+            "scfzfilm.org",
+            "mastodon.io.seg.br",
+            "digitaldata.social",
+            "discourse.helenprejean.org",
+            "cuyes.mooo.com",
+            "tambayan.us",
+            "mastodon.svgun.ru",
+            "9kb.me",
+            "don.neet.co.jp",
+            "academia.pub",
+            "adforward.org",
+            "aether.run",
+            "airwaves.social",
+            "america.social",
+            "archaeology.social",
+            "besties.com",
+            "bigballchunkyverse.online",
+            "bondsdogs.com",
+            "cherryberry.pink",
+            "closednetwork.social",
+            "cryptodon.lol",
+            "crosstalk.tech",
+            "cunnyborea.top",
+            "detmi.social",
+            "developers.live",
+            "devsrv.farhan.codes",
+            "don.blognot.co",
+            "dreamersreality.dev",
+            "dtris.moe",
+            "forestver.se",
+            "freesocial.co",
+            "fusionpros.social",
+            "kokuusa.club",
+            "edusocial.it",
+            "educhat.social",
+            "kernkraft.social",
+            "kommunismus.social",
+            "forum-lucifer.com",
+            "neuroscience-mastodon.com",
+            "library.love",
+            "masto.ukrainedao.love",
+            "witten.social",
+            "game-tecx.de",
+            "groupsebelah.com",
+            "phyrexia.ru",
+            "lllsecurity.com",
+            "mentalhealth-masto.com",
+            "mastodon.snmsoc.org",
+            "mastodon.integrata-stiftung.de",
+            "mastodon-ero.xyz",
+            "mastadon.astuto.cc",
+            "i.transmit.love",
+            "tootnet.nl",
+            "mastodon.education",
+            "niederbayern.social",
+            "social.tcpcat.net",
+            "m.corduba.tech",
+            "owo.town",
+            "toot.poedelwitz.de",
+            "neuss.social",
+            "nasface.cz",
+            "quakers.social",
+            "fediverse.science",
+            "parkfans.network",
+            "s-h.social",
+            "vasra.masto.host",
+            "esglife.social",
+            "teamhydra.social",
+            "toot.quest",
+            "themeparks.social"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "discourse.helenprejean.org": {
+              "reason": "Spam"
+            },
+            "esglife.social": {
+              "reason": "Spam"
+            },
+            "lllsecurity.com": {
+              "reason": "Spam"
+            },
+            "academia.pub": {
+              "reason": "Spam"
+            },
+            "toot.quest": {
+              "reason": "Spam"
+            },
+            "s-h.social": {
+              "reason": "Spam"
+            },
+            "devsrv.farhan.codes": {
+              "reason": "Spam"
+            },
+            "tcpcat.net": {
+              "reason": "Spam"
+            },
+            "cunnyborea.top": {
+              "reason": "Spam"
+            },
+            "quakers.social": {
+              "reason": "Spam"
+            },
+            "tootnet.nl": {
+              "reason": "Spam"
+            },
+            "social.tcpcat.net": {
+              "reason": "Spam"
+            },
+            "game-tecx.de": {
+              "reason": "Spam"
+            },
+            "tambayan.us": {
+              "reason": "Spam"
+            },
+            "scfzfilm.org": {
+              "reason": "Spam"
+            },
+            "forestver.se": {
+              "reason": "Spam"
+            },
+            "don.neet.co.jp": {
+              "reason": "Spam"
+            },
+            "crosstalk.tech": {
+              "reason": "Spam"
+            },
+            "forum-lucifer.com": {
+              "reason": "Spam"
+            },
+            "owo.town": {
+              "reason": "Spam"
+            },
+            "neuss.social": {
+              "reason": "Spam"
+            },
+            "masto.ukrainedao.love": {
+              "reason": "Spam"
+            },
+            "freesocial.co": {
+              "reason": "Spam"
+            },
+            "edusocial.it": {
+              "reason": "Spam"
+            },
+            "america.social": {
+              "reason": "Spam"
+            },
+            "mastodon.education": {
+              "reason": "Spam"
+            },
+            "m.corduba.tech": {
+              "reason": "Spam"
+            },
+            "fusionpros.social": {
+              "reason": "Spam"
+            },
+            "dreamersreality.dev": {
+              "reason": "Spam"
+            },
+            "kommunismus.social": {
+              "reason": "Spam"
+            },
+            "mastodon.svgun.ru": {
+              "reason": "Spam"
+            },
+            "parkfans.network": {
+              "reason": "Spam"
+            },
+            "developers.live": {
+              "reason": "Spam"
+            },
+            "nasface.cz": {
+              "reason": "Spam"
+            },
+            "educhat.social": {
+              "reason": "Spam"
+            },
+            "cmm.fyi": {
+              "reason": "Spam"
+            },
+            "witten.social": {
+              "reason": "Spam"
+            },
+            "teamhydra.social": {
+              "reason": "Spam"
+            },
+            "mentalhealth-masto.com": {
+              "reason": "Spam"
+            },
+            "mastodon.snmsoc.org": {
+              "reason": "Spam"
+            },
+            "fediverse.science": {
+              "reason": "Spam"
+            },
+            "mastadon.astuto.cc": {
+              "reason": "Spam"
+            },
+            "closednetwork.social": {
+              "reason": "Spam"
+            },
+            "airwaves.social": {
+              "reason": "Spam"
+            },
+            "vasra.masto.host": {
+              "reason": "Spam"
+            },
+            "toot.poedelwitz.de": {
+              "reason": "Spam"
+            },
+            "dtris.moe": {
+              "reason": "Spam"
+            },
+            "detmi.social": {
+              "reason": "Spam"
+            },
+            "mastodon-ero.xyz": {
+              "reason": "Spam"
+            },
+            "mastodon.io.seg.br": {
+              "reason": "Spam"
+            },
+            "cuyes.mooo.com": {
+              "reason": "Spam"
+            },
+            "mastodon.integrata-stiftung.de": {
+              "reason": "Spam"
+            },
+            "bigballchunkyverse.online": {
+              "reason": "Spam"
+            },
+            "i.transmit.love": {
+              "reason": "Spam"
+            },
+            "kernkraft.social": {
+              "reason": "Spam"
+            },
+            "9kb.me": {
+              "reason": "Spam"
+            },
+            "aether.run": {
+              "reason": "Spam"
+            },
+            "don.blognot.co": {
+              "reason": "Spam"
+            },
+            "cherryberry.pink": {
+              "reason": "Spam"
+            },
+            "niederbayern.social": {
+              "reason": "Spam"
+            },
+            "kokuusa.club": {
+              "reason": "Spam"
+            },
+            "digitaldata.social": {
+              "reason": "Spam"
+            },
+            "besties.com": {
+              "reason": "Spam"
+            },
+            "phyrexia.ru": {
+              "reason": "Spam"
+            },
+            "library.love": {
+              "reason": "Spam"
+            },
+            "adforward.org": {
+              "reason": "Spam"
+            },
+            "groupsebelah.com": {
+              "reason": "Spam"
+            },
+            "archaeology.social": {
+              "reason": "Spam"
+            },
+            "bondsdogs.com": {
+              "reason": "Spam"
+            },
+            "cryptodon.lol": {
+              "reason": "Spam"
+            },
+            "neuroscience-mastodon.com": {
+              "reason": "Spam"
+            },
+            "themeparks.social": {
+              "reason": "Spam"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "Pleroma: An efficient and flexible fediverse server",
+      "nodeName": "Prettyboy Shaker Central",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://tldr.wesl.ee/users/wesl-ee"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.2"
+    },
+    "usage": {
+      "localPosts": 676,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

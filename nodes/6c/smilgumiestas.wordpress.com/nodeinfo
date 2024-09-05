@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Smilgų miestas",
+      "nodeDescription": "Novelės",
+      "nodeIcon": "https://smilgumiestas.wordpress.com/wp-content/uploads/2023/06/cropped-original_468c9adf-bc61-4734-87c8-e5c290e87ac9_img_20220818_091557.jpg"
+    }
+  },
+  "error": null
+}

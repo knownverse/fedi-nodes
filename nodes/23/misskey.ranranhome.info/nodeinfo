@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3009,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 171907,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey by ranranhome.info（登録開放中）",
+      "nodeDescription": "ランランが運営するMisskeyインスタンス。\n\n利用規約は同じくランランが運用しているMastodonに準拠します。\nhttps://mstdn-jp.site/about\n\n当鯖の特徴としてMisskeyアカウントがメールアドレスとして機能するという不思議な機能が搭載されています。\n\n登録開放は不定期に行っていますが、招待コードがあれば制限中でも新規登録できます。\n招待コードは当サーバーの利用者に発行してもらう必要がありますので登録を希望する場合は当サーバー利用者に発行を依頼してください。",
+      "nodeAdmins": [
+        {
+          "name": "ランラン",
+          "email": "admin@ranranhome.info"
+        }
+      ],
+      "maintainer": {
+        "name": "ランラン",
+        "email": "admin@ranranhome.info"
+      },
+      "langs": [
+        ""
+      ],
+      "tosUrl": "https://mstdn-jp.site/about/more",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "toastie@toastiet0ast.com",
+        "name": "toastie"
+      },
+      "nodeDescription": "A safe place for people to hang out with others.",
+      "nodeName": "Valkyriecoms",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 21,
+      "users": {
+        "activeHalfyear": 7,
+        "activeMonth": 3,
+        "total": 7
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

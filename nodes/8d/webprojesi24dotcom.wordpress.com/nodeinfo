@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Spor",
+      "nodeDescription": "SAĞLIK VE ENERJİ",
+      "nodeIcon": "https://webprojesi24dotcom.wordpress.com/wp-content/uploads/2024/03/cropped-ekran-goruntusu-2024-03-12-101159.png"
+    }
+  },
+  "error": null
+}

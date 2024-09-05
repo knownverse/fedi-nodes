@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 29,
+        "activeHalfyear": 29
+      },
+      "localPosts": 1535,
+      "localComments": 3574
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "blog Kreatywny",
+      "nodeDescription": "Blog powstał z pasji i chęci dzielenia się wiedzą o różnego rodzaju technikach rękodzielniczych. Znajdziecie tu porady dotyczące scrapbookingu, cardmakingu, mixed media, art journaling, haftu, tworzenia biżuterii itp.",
+      "nodeIcon": "https://blogkreatywny.pl/wp-content/uploads/2019/05/cropped-arówka.png"
+    }
+  },
+  "error": null
+}

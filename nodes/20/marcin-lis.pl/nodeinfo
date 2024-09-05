@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 49,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Marcin Lis",
+      "nodeDescription": "My blog about IT",
+      "nodeIcon": "https://cdn.marcin-lis.pl/2024/03/cropped-d94ed974-29a1-4b10-bbe6-28f137540c81-1.jpeg"
+    }
+  },
+  "error": null
+}

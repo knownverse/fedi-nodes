@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "i@pari.network",
+        "name": "natsuki"
+      },
+      "nodeDescription": "世界的盡頭是水果奶油小蛋糕！<br />\nA Firefish instance that supports multiple languages.",
+      "nodeName": "Fin du monde • 私宅甜點",
+      "proxyAccountName": "9il9f5i5e6y3yfuv",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#E1AAC6"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 6371,
+      "users": {
+        "activeHalfyear": 53,
+        "activeMonth": 31,
+        "total": 92
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

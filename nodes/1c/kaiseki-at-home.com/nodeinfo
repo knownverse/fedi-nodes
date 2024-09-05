@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kaiseki at Home",
+      "nodeDescription": "japanese haute cuisine in your own kitchen",
+      "nodeIcon": "https://kaiseki-at-home.com/wp-content/uploads/2024/01/e68790e79fb3logoschwarz1.png"
+    }
+  },
+  "error": null
+}

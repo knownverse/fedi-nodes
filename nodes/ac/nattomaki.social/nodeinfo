@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "14.0.0-rc3",
+      "repository": "https://codeberg.org/calckey/calckey",
+      "homepage": "https://calckey.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 1100,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "nattomaki.social",
+      "nodeDescription": "My personal Calckey isntance.",
+      "maintainer": {
+        "name": "matias@nattomaki.social",
+        "email": "nattomaki@mailbox.org"
+      },
+      "langs": [],
+      "tosUrl": "https://nattomaki.social/@admin/pages/1687815954613",
+      "repositoryUrl": "https://codeberg.org/calckey/calckey",
+      "feedbackUrl": "https://codeberg.org/calckey/calckey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

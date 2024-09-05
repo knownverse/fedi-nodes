@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 650,
+      "localComments": 223
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Feng Qi&#039;s Academic Homepage &amp; Blogs",
+      "nodeDescription": "祁锋的主页和博客",
+      "nodeIcon": "https://qifeng618.wordpress.com/wp-content/uploads/2019/10/cropped-site-icon-logo-1.jpg"
+    }
+  },
+  "error": null
+}

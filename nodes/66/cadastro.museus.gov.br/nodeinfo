@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MuseusBR",
+      "nodeDescription": "Cadastro Nacional de Museus",
+      "nodeIcon": "https://cadastro.museus.gov.br/wp-content/uploads/2024/01/cropped-icone-site-1.png"
+    }
+  },
+  "error": null
+}

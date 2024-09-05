@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 40,
+      "localComments": 105
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "my tokyo kitchen",
+      "nodeDescription": "organizing, cooking, and learning to love a very. small. kitchen.",
+      "nodeIcon": "https://mytokyokitchen.com/wp-content/uploads/2024/02/cropped-img-nm2na7yzkh4dznf20fc0hpv0.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.10.3-xs"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6146,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しあのすきー",
+      "nodeDescription": "しあのすきーはおひとりさまの Misskey インスタンスです。\nオリジナルの Misskey から一部機能を改変しています。\n\nリポジトリ: https://gitlab.com/xianon/misskey\nオリジナルとの変更点: [DIFFERENCE.md](https://gitlab.com/xianon/misskey/blob/master/DIFFERENCE.md)",
+      "maintainer": {
+        "name": "xianon",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "",
+      "repositoryUrl": "https://gitlab.com/xianon/misskey",
+      "feedbackUrl": "https://gitlab.com/xianon/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#6facc8"
+    }
+  },
+  "error": null
+}

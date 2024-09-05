@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 502,
+      "localComments": 1179
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Schmidt mit Dete",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.schmidtmitdete.de/wp-content/uploads/2019/01/cropped-blog_logo.jpg"
+    }
+  },
+  "error": null
+}

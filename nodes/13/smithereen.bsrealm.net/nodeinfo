@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "software": {
+      "name": "smithereen",
+      "version": "0.8.1-dev.71+402f1fed",
+      "repository": "https://github.com/grishka/Smithereen",
+      "homepage": "https://smithereen.software"
+    },
+    "usage": {
+      "localPosts": 14,
+      "localComments": 65,
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      }
+    },
+    "metadata": {
+      "nodeName": "Сферический ВК в вакууме",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

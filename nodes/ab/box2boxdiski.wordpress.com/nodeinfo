@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 66,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Box2BoxDiski",
+      "nodeDescription": "Just views,vibes and my personal opinion about Mzansi Diski",
+      "nodeIcon": "https://box2boxdiski.wordpress.com/wp-content/uploads/2023/08/cropped-013c3c7f-053b-49f0-be58-a07d942c9642.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "admin@brioco.social",
+        "name": "Brioco Social Admin"
+      },
+      "nodeDescription": "A small FireFish instance for some friends.  Wholesome and clean.  \n\nWe do *not* associate with nor tolerate any persons who tolerate or promote discrimination. This includes but it not limited to: racism, transphobia, homophobia, bigotry, misogyny, ableism, fascism, white supremacy, white nationalism, qanon, antisemitism, Islamophobia, Christo-Fascism, and other alt-right ideologies. Those are strictly and swiftly dealt with and blocked. \n\nThis is a small general purpose instance and not dedicated to any particular interests. \n\nThis is a wholesome server and absolutely no hate speech is tolerated. This is *not* a “free speech” instance. \n\n日本語も可です。ここは小さなサーバーで、安全な場所です。ヘイトスピーチや差別的なことや児童搾取的の関連のこと(絵とか、萌え絵など)は固く禁じられています。",
+      "nodeName": "Brioco Social Networking",
+      "proxyAccountName": "9gohoytma11efr7e",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 1375,
+      "users": {
+        "activeHalfyear": 4,
+        "activeMonth": 3,
+        "total": 6
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

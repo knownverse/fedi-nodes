@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Halff Santos",
+      "nodeDescription": "Site Oficial do Artista Musical Halff Santos! Todas as notícias sobre o artista serão postados aqui!",
+      "nodeIcon": "https://halffsantos.wordpress.com/wp-content/uploads/2024/03/wp-1710568089660.jpg"
+    }
+  },
+  "error": null
+}

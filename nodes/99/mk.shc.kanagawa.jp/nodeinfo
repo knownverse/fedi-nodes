@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.699-m544",
+      "repository": "https://github.com/atsu1125/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeHalfyear": 8,
+        "activeMonth": 4
+      },
+      "localPosts": 20593,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MK湘南ひらつか",
+      "nodeDescription": "湘南地域にまつわるテーマインスタンスです！misskey-dev+mei23+atsu1125で動いてます！平塚市/藤沢市/茅ヶ崎市/秦野市/伊勢原市/寒川町/大磯町/二宮町の方々大歓迎！\n\n\n\nフィルタリング管理者とファイアウォール管理者への警告\nこのサーバーをフィルタリングと検閲用ファイアウォールのIP遮断リストに追加することを**禁止**します。\nこのサーバーは重要な教育サービスとあなたが連合している他のインスタンスのルーティングを提供しています。\nこのサーバーのIPアドレスをフィルタリングや検閲用ファイアウォールなどに投入すると、**意図しない不具合が生じる場合があります**。\n\n\n\nルール\n\n\n\n  違反者には、アカウントの停止等の措置を取らせていただく場合がございます。\n\n  措置に不服がある場合には、メールにてお問い合わせください。\n\n  \n法律は守ってください\n  \nCWやNSFWはちゃんと使ってください\n  \n他人に迷惑をかけたり、不快にするような行為は禁止です\n  \nみんな仲良く\n\n\n\n利用規約@atsuchan/pages/terms@mk.shc.kanagawa.jp",
+      "name": "MK湘南ひらつか",
+      "description": "湘南地域にまつわるテーマインスタンスです！misskey-dev+mei23+atsu1125で動いてます！平塚市/藤沢市/茅ヶ崎市/秦野市/伊勢原市/寒川町/大磯町/二宮町の方々大歓迎！\n\n\n\nフィルタリング管理者とファイアウォール管理者への警告\nこのサーバーをフィルタリングと検閲用ファイアウォールのIP遮断リストに追加することを**禁止**します。\nこのサーバーは重要な教育サービスとあなたが連合している他のインスタンスのルーティングを提供しています。\nこのサーバーのIPアドレスをフィルタリングや検閲用ファイアウォールなどに投入すると、**意図しない不具合が生じる場合があります**。\n\n\n\nルール\n\n\n\n  違反者には、アカウントの停止等の措置を取らせていただく場合がございます。\n\n  措置に不服がある場合には、メールにてお問い合わせください。\n\n  \n法律は守ってください\n  \nCWやNSFWはちゃんと使ってください\n  \n他人に迷惑をかけたり、不快にするような行為は禁止です\n  \nみんな仲良く\n\n\n\n利用規約@atsuchan/pages/terms@mk.shc.kanagawa.jp",
+      "maintainer": {
+        "name": "maintenance",
+        "email": "example@example.com"
+      },
+      "langs": [
+        "Japanese"
+      ],
+      "announcements": [
+        {
+          "title": "",
+          "text": "<p>Status Page: <a href=\"https://status.shc.kanagawa.jp\">status.shc.kanagawa.jp</a></p>\n<p>Pleromaをご利用になりたい方は<a href=\"https://pr.shc.kanagawa.jp\">PR湘南ひらつか</a>へお越しください</p>\n\n<h3 id=\"sec-1\">サーバー構成</h3>\n<p>このインスタンスはこれで動いてます。</p>\n<ul>\n  <li>Web Server: Rock Pi 4 Model C Plus Yokohama Region<br>CPU 6Core / RAM 4GB / SD 64GB</li>\n  <li>App Host: VirtualBox on Mac mini 2011 Yokohama Region<br>CPU 1Core / RAM 11GB / HDD 1TB</li>\n  <li>App Host: Hyper-V on ThinkCentre m720s Yokohama Region<br>CPU 6Core / RAM 12GB / NVMe 1TB</li>\n  <li>App Host: Mac mini 2014 Yokohama Region<br>CPU 4 Core / RAM 8GB / HDD 1TB\n  <li>DB Primary: Hyper-V on ThinkCentre m720s Yokohama Region<br>CPU 2Core / RAM 11GB / NVMe 1TB</li>\n  <li>Object Storage: Vultr Object Storage Singapore Region</li>\n  <li>OS: Debian bullseye on Docker (App Host), Debian bullseye (DB Primary), Ubuntu 20.04.4 LTS (Web Server)</li>\n</ul>\n\n<p>mk.shc.kanagawa.jpにデプロイされているMisskeyのソースコードは以下のレポジトリから入手できます: <a href=\"https://github.com/atsu1125/misskey\">atsu1125/misskey</a></p>"
+        },
+        {
+          "title": "めっちゃアプデした",
+          "text": "ほめて\n2023/03/03発行\nMK湘南ひらつか運営部"
+        },
+        {
+          "title": "リレー参加のお知らせ",
+          "text": "このインスタンスは<a href=https://relay.shc.kanagawa.jp>relay.shc</a>と<a href=https://pub-relay.shc.kanagawa.jp>SHC Pub-relay Service</a>のリレーに参加しています"
+        }
+      ],
+      "relayActor": "https://mk.shc.kanagawa.jp/users/610624668a644c0013e5bc0d",
+      "relays": [
+        "relay.shc.kanagawa.jp",
+        "pub-relay.shc.kanagawa.jp"
+      ],
+      "disableRegistration": true,
+      "disableDeletion": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 10000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#5A0608",
+      "upstream": {
+        "name": "misskey",
+        "version": "10.102.1"
+      }
+    }
+  },
+  "error": null
+}

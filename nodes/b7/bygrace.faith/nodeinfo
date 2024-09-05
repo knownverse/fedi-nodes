@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "By Grace - Christian Social Community",
+      "nodeDescription": "Connecting followers of Christ world wide",
+      "nodeIcon": "https://bygrace.faith/wp-content/uploads/2024/03/cropped-G.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 13,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "hej@genossekos.se"
+    }
+  },
+  "error": null
+}

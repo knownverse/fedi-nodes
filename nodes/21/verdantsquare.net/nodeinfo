@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.2"
+    },
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeMonth": "46",
+        "activeHalfyear": "46"
+      },
+      "localPosts": 98,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Verdant Square",
+      "nodeDescription": "by Grateful Dread Peace Media - founded 1996",
+      "nodeIcon": "https://verdantsquare.net/wp-content/uploads/2023/03/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

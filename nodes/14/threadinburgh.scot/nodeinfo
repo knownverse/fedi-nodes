@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 268,
+      "localComments": 703
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Threadinburgh",
+      "nodeDescription": "The more obscure, unusual, overlooked, and irreverent bits of Edinburgh and Leith local history",
+      "nodeIcon": "https://i0.wp.com/threadinburgh.scot/wp-content/uploads/2023/07/thread2.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

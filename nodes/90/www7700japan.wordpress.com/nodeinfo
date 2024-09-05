@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "国内旅行に行こう!!!",
+      "nodeDescription": "国内旅行計画につきものな．宿泊予約．飛行機予約．新幹線予約などの．ご案内です。",
+      "nodeIcon": "https://www7700japan.wordpress.com/wp-content/uploads/2024/03/cropped-pexels-ata-daftarifard-20440051.jpg"
+    }
+  },
+  "error": null
+}

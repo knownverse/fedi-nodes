@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 988,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Toy Box Comix",
+      "nodeDescription": "By Alan Young",
+      "nodeIcon": "https://www.toyboxcomix.com/wp-content/uploads/2017/05/cropped-Ejector-icon-trace-1.jpg"
+    }
+  },
+  "error": null
+}

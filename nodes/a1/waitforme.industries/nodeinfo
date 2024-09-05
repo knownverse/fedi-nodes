@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 2
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "wait for me industries",
+      "nodeDescription": "home of slow wild rec, a podcast of field recordings and sounds from slow wild",
+      "nodeIcon": "https://i0.wp.com/waitforme.industries/wp-content/uploads/2023/08/cropped-slowwildrec-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

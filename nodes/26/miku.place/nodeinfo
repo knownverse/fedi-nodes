@@ -1,0 +1,444 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "freespeechextremist.com",
+            "pawoo.net",
+            "baraag.net",
+            "shitposter.club",
+            "bae.st",
+            "noagendasocial.com",
+            "gameliberty.club",
+            "spinster.xyz",
+            "pieville.net",
+            "nicecrew.digital",
+            "yggdrasil.social",
+            "iddqd.social",
+            "detroitriotcity.com",
+            "freecumextremist.com",
+            "freeatlantis.com",
+            "beefyboys.win",
+            "brighteon.social",
+            "chudbuds.lol",
+            "gleasonator.com",
+            "rdrama.cc",
+            "cum.salon",
+            "cawfee.club",
+            "ryona.agency",
+            "genderheretics.xyz",
+            "anti-degeneracy.club",
+            "ignorelist.com",
+            "mastodong.lol",
+            "activitypub-troll.cf",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "seal.cafe",
+            "boks.moe",
+            "clew.lol",
+            "blockedur.mom",
+            "mapsupport.de",
+            "nnia.space",
+            "mastodon.cf",
+            "valkyrie.world",
+            "lolison.network",
+            "shota.house",
+            "kiwifarms.net",
+            "sneed.social",
+            "pmth.us",
+            "срёт.онлайн",
+            "076.ne.jp",
+            "milker.cafe",
+            "shortstackran.ch",
+            "kitsunemimi.club",
+            "varishangout.net",
+            "honkwerx.tech",
+            "helladoge.com",
+            "wolfgirl.bar",
+            "sleepy.cafe",
+            "leafposter.club",
+            "handholding.io",
+            "freak.university",
+            "youjo.love",
+            "pedo.school",
+            "fluf.club",
+            "lolicon.rocks",
+            "clubcyberia.co",
+            "darknight-coffee.org",
+            "animalliberation.social",
+            "gorf.pub",
+            "ligma.pro",
+            "freethinkers.lgbt",
+            "springbo.cc",
+            "marsey.moe",
+            "freesoftwareextremist.com",
+            "anarchy.center",
+            "decayable.ink",
+            "moar.cachapa.xyz",
+            "cum.camp",
+            "pleroma.adachi.party",
+            "lab.nyanide.com",
+            "mastodon.redplanetlabs.com",
+            "ubiqueros.com",
+            "emmaverse.void.rehab",
+            "cassilda.house",
+            "*.cassilda.house",
+            "oddballs.online",
+            "*.yesmap.net",
+            "tummy.town",
+            "merovingian.club",
+            "shonk.phite.ro",
+            "slimegirl.social",
+            "the.asbestos.cafe",
+            "cottoncandy.cafe",
+            "social.isekco.re",
+            "monk.ey.business",
+            "cannibal.cafe",
+            "rape.pet",
+            "rqd2.net",
+            "cute.church",
+            "lolison.top",
+            "ghetti.monster",
+            "tooters.fun",
+            "lit.tlespace.xyz",
+            "mstdn.jp",
+            "cunnyborea.top",
+            "*.cutefunny.net",
+            "h-i.social",
+            "forestver.se",
+            "nasface.cz",
+            "don.neet.co.jp",
+            "toot.garden"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "h-i.social": {
+              "reason": "FediFenced + federates with usual suspects + DNI + alt-fedi + problematic"
+            },
+            "shortstackran.ch": {
+              "reason": "nonces"
+            },
+            "moar.cachapa.xyz": {
+              "reason": "freezepeach/lolishit"
+            },
+            "mstdn.jp": {
+              "reason": "unmoderated, full of nonces"
+            },
+            "mapsupport.de": {
+              "reason": "nonces"
+            },
+            "social.isekco.re": {
+              "reason": "nonces"
+            },
+            "shonk.phite.ro": {
+              "reason": "STOP SPAMMING THAT FUCKING EMOJI (plus instance hosts minors under 15 lol)"
+            },
+            "cute.church": {
+              "reason": "nonces"
+            },
+            "pleroma.adachi.party": {
+              "reason": "just read the about, it should tell you enough"
+            },
+            "cunnyborea.top": {
+              "reason": "spam + nonces"
+            },
+            "076.ne.jp": {
+              "reason": "nonces"
+            },
+            "nnia.space": {
+              "reason": "nonces"
+            },
+            "forestver.se": {
+              "reason": "spam"
+            },
+            "freak.university": {
+              "reason": "nonces"
+            },
+            "lolison.top": {
+              "reason": "nonces"
+            },
+            "varishangout.net": {
+              "reason": "nonces"
+            },
+            "*.cassilda.house": {
+              "reason": "nonces"
+            },
+            "oddballs.online": {
+              "reason": "nonces"
+            },
+            "tummy.town": {
+              "reason": "nonces"
+            },
+            "cassilda.house": {
+              "reason": "nonces"
+            },
+            "tooters.fun": {
+              "reason": "nonces"
+            },
+            "emmaverse.void.rehab": {
+              "reason": "such a fucking hilarious joke bro i am genuinely dying of laughter"
+            },
+            "lolicon.rocks": {
+              "reason": "nonces"
+            },
+            "*.cutefunny.net": {
+              "reason": "spam + nonces"
+            },
+            "cum.camp": {
+              "reason": "doxshits"
+            },
+            "toot.garden": {
+              "reason": "you are not a \"fedi celebrity\", you're 15 and past due on your math homework"
+            },
+            "cannibal.cafe": {
+              "reason": "nonces"
+            },
+            "ubiqueros.com": {
+              "reason": "i'm not falling for any more bait, Ro"
+            },
+            "lab.nyanide.com": {
+              "reason": "admin is a fucking weirdo and impersonates people"
+            },
+            "decayable.ink": {
+              "reason": "hateful"
+            },
+            "monk.ey.business": {
+              "reason": "nonces"
+            },
+            "nasface.cz": {
+              "reason": "spam"
+            },
+            "rape.pet": {
+              "reason": "nonces"
+            },
+            "ghetti.monster": {
+              "reason": "nonces"
+            },
+            "pawoo.net": {
+              "reason": "nonces"
+            },
+            "mastodon.redplanetlabs.com": {
+              "reason": "vc startup piggy go home"
+            },
+            "pedo.school": {
+              "reason": "nonces"
+            },
+            "merovingian.club": {
+              "reason": "mgtow is an acronym for \"i'm an insufferable douche\""
+            },
+            "*.yesmap.net": {
+              "reason": "nonces"
+            },
+            "lit.tlespace.xyz": {
+              "reason": "nonces"
+            },
+            "clubcyberia.co": {
+              "reason": "hateful"
+            },
+            "shota.house": {
+              "reason": "nonces"
+            },
+            "don.neet.co.jp": {
+              "reason": "spam"
+            },
+            "the.asbestos.cafe": {
+              "reason": "nonfree js be upon ye"
+            },
+            "cottoncandy.cafe": {
+              "reason": "nonces"
+            },
+            "lolison.network": {
+              "reason": "nonces"
+            },
+            "rqd2.net": {
+              "reason": "nonces"
+            },
+            "youjo.love": {
+              "reason": "nonces"
+            },
+            "slimegirl.social": {
+              "reason": "100% fed-run instance"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "akko.wtf",
+        "wetdry.world",
+        "insufferable.tools",
+        "yourwalls.today",
+        "fedi.bapril.pl",
+        "ak.lavenderfield.xyz"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "i'm thinking miku miku oo ee oo",
+      "nodeName": "miku brainrot",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://miku.place/users/prefetcher"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": 6,
+        "activeMonth": 4
+      },
+      "localPosts": 2927
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.12.0-0-gd71d523"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

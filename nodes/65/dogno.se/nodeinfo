@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeMonth": 5,
+        "activeHalfyear": 11
+      },
+      "localPosts": 952
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "dogno.se",
+      "nodeDescription": "dognose POPULAR"
+    }
+  },
+  "error": null
+}

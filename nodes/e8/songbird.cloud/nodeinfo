@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 224,
+        "activeMonth": 125,
+        "activeHalfyear": 159
+      },
+      "localPosts": 332570
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Songbird",
+      "nodeDescription": "特に決まったテーマはありませんが、主に生活や社会、文化全般の話題に興味のある方に向いている Mastodon サーバーです。多様な方々が安心して過ごせる場所を目指しています。"
+    }
+  },
+  "error": null
+}

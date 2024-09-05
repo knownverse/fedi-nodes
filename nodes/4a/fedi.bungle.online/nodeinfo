@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12707,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Bungle 2",
+      "nodeDescription": "Bungle 2.0",
+      "nodeAdmins": [
+        {
+          "name": "Weeble",
+          "email": "bungleadmin@fedora.email"
+        }
+      ],
+      "maintainer": {
+        "name": "Weeble",
+        "email": "bungleadmin@fedora.email"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://fedi.bungle.online/@weeble",
+      "impressumUrl": "no",
+      "donationUrl": "https://ko-fi.com/bungle",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 5000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

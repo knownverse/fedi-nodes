@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Nomagic - Your life, Your data. Mobilizon is a decentralised and federated solution to organise and engage with other people for all kind of events.",
+      "nodeName": "See you there!"
+    },
+    "usage": {
+      "users": {
+        "total": 206
+      },
+      "localComments": 16,
+      "localPosts": 148
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

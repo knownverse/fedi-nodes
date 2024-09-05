@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 30517,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "グルコスキー",
+      "nodeDescription": "某音楽ゲームが好きな人が管理人のインスタンスです。\n音楽ゲームの関連カスタム絵文字多めです。\n某社とは一切関係ありません。\n<br><img src=\"https://status2.penginn.net/api/badge/2/uptime/24?label=Uptime(24h)&labelSuffix=d\">\n<img src=\"https://status2.penginn.net/api/badge/2/uptime/720?label=Uptime(30d)&labelSuffix=d\"><img src=\"https://status2.penginn.net/api/badge/2/ping/24?label=API Avg(24h)&labelSuffix=d\">",
+      "nodeAdmins": [
+        {
+          "name": "ぺん",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ぺん",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#0400fa"
+    }
+  },
+  "error": null
+}

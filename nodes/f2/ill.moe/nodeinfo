@@ -1,0 +1,276 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "gopher",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "rejected_instances": {},
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "don.neet.co.jp",
+            "zenzone.social",
+            "pkm.social",
+            "kommunismus.social",
+            "tcpcat.net",
+            "besties.com",
+            "america.social",
+            "bondsdogs.com",
+            "m.techsocial.site",
+            "tambayan.us",
+            "niederbayern.social",
+            "mastodon.io.seg.br",
+            "cmm.fyi",
+            "molaguay.xyz",
+            "nasface.cz",
+            "9kb.me",
+            "cuyes.mooo.com",
+            "mastodon-ero.xyz",
+            "forestver.se"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "InlineQuotePolicy",
+          "SimplePolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "9kb.me": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "america.social": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "besties.com": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "bondsdogs.com": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "cmm.fyi": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "cuyes.mooo.com": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "don.neet.co.jp": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "forestver.se": {
+              "reason": "seems to be a spam conduit [2024-02-22]"
+            },
+            "kommunismus.social": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "m.techsocial.site": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "mastodon-ero.xyz": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "mastodon.io.seg.br": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "molaguay.xyz": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "nasface.cz": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "niederbayern.social": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "pkm.social": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "tambayan.us": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "tcpcat.net": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            },
+            "zenzone.social": {
+              "reason": "seems to be a spam conduit [2024-02-21]"
+            }
+          }
+        }
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "ill.moe: a fediverse instance for bss and friends",
+      "nodeName": "ill.moe",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://ill.moe/users/bss"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 16000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 1126
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0-2783-g36d469cf"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Roylan Salsa Casino",
+      "nodeDescription": "&quot;La mejor academia de Salsa Cubana &amp; Rueda de Casino de la ciudad de Biel/Bienne&quot;",
+      "nodeIcon": "https://roylansalsacasino.com/wp-content/uploads/2024/06/logo-oficial-rsc-4.png"
+    }
+  },
+  "error": null
+}

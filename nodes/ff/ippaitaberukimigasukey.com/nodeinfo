@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2565,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "いっぱい食べる君がスキー",
+      "nodeDescription": "日嶽YURIKOが楽しむための鯖<br>\n美味しいものと創作を好きなだけ楽しめ！<br>\n食べるために運動もしろ！<br>\nみんな健やかであれ！<br>",
+      "maintainer": {
+        "name": "日嶽YURIKO",
+        "email": "yuriko@ippaitaberukimigasukey.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#02317e"
+    }
+  },
+  "error": null
+}

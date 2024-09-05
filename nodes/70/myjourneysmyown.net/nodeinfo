@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 230,
+      "localComments": 169
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Journey’s My Own",
+      "nodeDescription": "Oregon native, Mother of 4, Grammy to 1, writer, lover of nature,  and obesity survivor. Welcome to My Journey",
+      "nodeIcon": "https://myjourneysmyown.net/wp-content/uploads/2023/11/cropped-img_2407-1.jpg"
+    }
+  },
+  "error": null
+}

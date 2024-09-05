@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 109,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Calgary Recreational Flying Club YYC",
+      "nodeDescription": "Promoting the safe enjoyment of aviation for pilots, aircraft builders and enthusiasts.",
+      "nodeIcon": "https://crfcyyc.ca/wp-content/uploads/2023/05/cropped-crfc-logo-small-1.png"
+    }
+  },
+  "error": null
+}

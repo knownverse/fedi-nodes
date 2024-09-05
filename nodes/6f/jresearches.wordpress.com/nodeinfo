@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 19,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Journal of Researches",
+      "nodeDescription": "Another blogging attempt",
+      "nodeIcon": "https://jresearches.wordpress.com/wp-content/uploads/2023/12/cropped-cropped-pexels-photo-767197.jpeg"
+    }
+  },
+  "error": null
+}

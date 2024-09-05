@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 39
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Financial Fluency: Equipping Students for Life&#039;s Financial Journey",
+      "nodeDescription": "The benefits and challenges of incorporating financial literacy in schools.",
+      "nodeIcon": "https://fourpointohno.wordpress.com/wp-content/uploads/2024/04/mktlogo.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 56,
+        "activeMonth": 0,
+        "activeHalfyear": 1
+      },
+      "localPosts": 52124
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "hub.vahfoom3iquahfah",
+      "nodeDescription": "vahfoom3iquahfah is a Community Entity for \"Guest\" Aliases. We follow the posts and replies of @AmiW@mastodon.online to kickstart this mastodon demo with some nicely curated street art.\r\n"
+    }
+  },
+  "error": null
+}

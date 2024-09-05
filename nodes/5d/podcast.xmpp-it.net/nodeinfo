@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 5,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://podcast.xmpp-it.net/federation/actors/service",
+      "private": false,
+      "shortDescription": "XMPP Community Podcasts",
+      "longDescription": "# XMPP-IT Italian Community Podcasts\r\n\r\nSe stai cercando informazioni in italiano sul protocollo XMPP , Extensible Messaging and Presence Protocol, sei nel posto giusto.\r\n\r\n## Sistema decentralizzato\r\nL'architettura di XMPP è molto simile a quella della posta elettronica. Chiunque può installare il proprio server XMPP e scambiare messaggi e chiamate audio / video senza dover utilizzare un server centrale.\r\n\r\n## Standard aperto\r\nL'Internet Engineering Task Force (IETF) ha formalizzato le specifiche XMPP per la messaggistica istantanea (definite negli RFC 6120 e RFC 6121). Non sono previste royalty per l'implementazione di queste specifiche.\r\n\r\nQuesta è l'istanza Funkwhale della comunità degli utenti XMPP che si riunisce nel Gruppo (MUC - Multi User Chat) creato al seguente indirizzo:\r\n\r\nxmpp-it@conference.xmpp-it.net\r\n\r\nAbbiamo anche un GIT per condividere, creare e sviluppare software e configurazioni riguardanti il protocollo XMPP, un server streaming Owncast, un Podcast per gli audio dell'Happy Hour e un Pad per le note collaborative.\r\n\r\nLa nostra comunità si incontra virtualmente ogni terzo martedì del mese in occasione dell'XMPP Happy Hour, che è un evento mensile trasmesso in diretta streaming in questo canale Peertube. Gli eventi mensili possono essere riascoltati anche nel podcast.\r\n\r\nIl logo XMPP© è copyright della XMPP Standards Foundation ed è concesso in licenza secondo la Expat License, talvolta nota come MIT License. Leggi qui: https://commons.wikimedia.org/wiki/File:XMPP_logo.svg",
+      "contactEmail": "admin@xmpp-it.net",
+      "nodeName": "XMPP-IT Community Podcast",
+      "banner": "https://podcast.xmpp-it.net/media/dynamic_preferences/instance__banner/xmpp-it_hn4LuCY.png",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 1
+        },
+        "downloads": {
+          "total": 372
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 14
+        },
+        "artists": {
+          "total": 1
+        },
+        "albums": {
+          "total": 2
+        },
+        "music": {
+          "hours": 10.637777777777778
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

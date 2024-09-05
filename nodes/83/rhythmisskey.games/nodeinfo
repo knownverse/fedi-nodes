@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1648,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1372614,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "りずみすきー / rhythmisskey.games",
+      "nodeDescription": "りずみすきーです。Misskeyの音ゲーマー向けサーバーです。\n初心者からごりらまで、メジャーどころから知る人ぞ知るマイナーなものまで、\nAC・CS・スマホ・PC・ブラウザ音ゲーなど幅広く音ゲーの話をしたり、\nリザルトを投稿したり、日常の投稿をしたりなど、ご自由にお使いください。\n【！】登録の際は、利用規約をよく読んで理解した上でご登録ください。",
+      "nodeAdmins": [
+        {
+          "name": "ぷろろーぐ",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ぷろろーぐ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://rhythmisskey.games/@info/pages/terms",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "info",
+      "themeColor": "#895b8a"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 122,
+        "activeMonth": 53,
+        "activeHalfyear": 71
+      },
+      "localPosts": 157547
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": " moé for solarpunk~",
+      "nodeDescription": "Moé for Solarpunk is a small, friendly server run by a group of optimistically-utopian LGBT+ individuals. Registration is by invite only!"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+datsmods"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 8
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Tracyverse Social",
+      "nodeDescription": "The official Mastodon instance for Tracyverse Comics. Gwelp!"
+    }
+  },
+  "error": null
+}

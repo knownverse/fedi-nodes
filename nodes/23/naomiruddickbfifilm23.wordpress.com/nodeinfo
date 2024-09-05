@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Naomi Ruddick BFI Film Academy",
+      "nodeDescription": "NCFE qualification BFI Film Academy 2023",
+      "nodeIcon": "https://naomiruddickbfifilm23.wordpress.com/wp-content/uploads/2023/11/cropped-cropped-cropped-bfi_fa_mono_black_rgb.png"
+    }
+  },
+  "error": null
+}

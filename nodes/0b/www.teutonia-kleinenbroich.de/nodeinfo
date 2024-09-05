@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 78,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SC Teutonia Kleinenbroich 1921 e. V.",
+      "nodeDescription": "Tradition trifft Zukunft. Seit 1921.",
+      "nodeIcon": "https://www.teutonia-kleinenbroich.de/wp-content/uploads/2020/09/cropped-Website-Icon_STK1921-Logo_weiss-blau_ohne_Schrift_512x512.png"
+    }
+  },
+  "error": null
+}

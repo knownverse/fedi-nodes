@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "5edmet taleb66963432",
+      "nodeDescription": "طباعة وتصوير مستندات وتوصيل  (الكويت -حولي-السالمية-الجهراء-مبارك الكبير-الفروانية)",
+      "nodeIcon": "https://5edmettaleb.com/wp-content/uploads/2020/11/cropped-cropped-d8a7d8b9d984d8a7d986-d8acd8afd98ad8af-d8a8d988-d985d8b1d98ad985-d984d984d8b7d8a8d8a7d8b9d987-d988d8a7d984d8aad8b5d988d98ad8b1-copy-2.pdf1_.jpg12.jpg"
+    }
+  },
+  "error": null
+}

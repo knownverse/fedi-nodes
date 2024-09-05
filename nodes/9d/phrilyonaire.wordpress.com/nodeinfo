@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Phrilyonaire",
+      "nodeDescription": "An Actually Autistic Bloggist",
+      "nodeIcon": "https://phrilyonaire.wordpress.com/wp-content/uploads/2024/02/the-phrilyonaire-512c397512.png"
+    }
+  },
+  "error": null
+}

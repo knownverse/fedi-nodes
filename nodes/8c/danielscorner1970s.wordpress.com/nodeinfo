@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 117,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Daniels_Corner",
+      "nodeDescription": "Refracting The Light of Imagination",
+      "nodeIcon": "https://danielscorner1970s.wordpress.com/wp-content/uploads/2023/11/cropped-5booksmarketing-home-pic.png"
+    }
+  },
+  "error": null
+}

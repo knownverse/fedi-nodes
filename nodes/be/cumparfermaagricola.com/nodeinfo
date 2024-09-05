@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cumpar Ferma Agricola - Superficie Teren Parc Fotovoltaic - Inchiriere Teren Parc Fotovoltaic - Teren Parc Fotovoltaic",
+      "nodeDescription": "Agricultura si energia regenerabila sunt doua sectoare cheie care joaca un rol crucial in abordarea provocarilor contemporane.",
+      "nodeIcon": "https://cumparfermaagricola.com/wp-content/uploads/2022/08/cropped-investments-romania.jpg"
+    }
+  },
+  "error": null
+}

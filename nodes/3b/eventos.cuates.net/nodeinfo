@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Una agenda compartida para eventos locales.",
+      "nodeName": "Eventos para Cuates",
+      "nodeTimezone": "America/Mexico_City",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.17.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 8,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

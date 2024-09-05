@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 60,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey.NRPS",
+      "nodeDescription": "実運用となりました。\nラズパイ4Bで稼働してます。",
+      "maintainer": {
+        "name": "N_Verniy",
+        "email": "misskey@nrps.dix.asia"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

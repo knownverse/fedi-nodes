@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jenick Consulting",
+      "nodeDescription": "Crafting Magical Solutions for Your E-commerce Success.",
+      "nodeIcon": "https://jenickconsulting.com/wp-content/uploads/2024/03/dallc2b7e-2024-02-29-13.56.11-craft-a-square-visually-appealing-instagram-profile-picture-for-an-e-commerce-consulting-company-called-ecomm-wizards.-the-design-features-a-modern.webp"
+    }
+  },
+  "error": null
+}

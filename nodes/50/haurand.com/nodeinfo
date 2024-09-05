@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 125,
+      "localComments": 182
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WordPress-Webdesign",
+      "nodeDescription": "Webdesign mit WordPress in Aachen und Attendorn",
+      "nodeIcon": "https://haurand.com/wp-content/uploads/2021/04/cropped-Eckendeko_ohne_Rahmen.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "A shared agenda for local communities",
+      "nodeName": "The Bristol Social Events",
+      "nodeTimezone": "Europe/London",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 13,
+      "users": {
+        "total": 4
+      }
+    }
+  },
+  "error": null
+}

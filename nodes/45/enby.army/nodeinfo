@@ -1,0 +1,142 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 15,
+        "maxRemoteFields": 30,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "private queer instance",
+      "nodeName": "Enby Army",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": false,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "admin",
+        "mod",
+        "moderator",
+        "akkoma",
+        "welcome-bot",
+        "robots.txt"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://enby.army/users/caylin"
+      ],
+      "uploadLimits": {
+        "background": 4194304,
+        "avatar": 2097152,
+        "general": 104857600,
+        "banner": 4194304
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 18
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.12.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

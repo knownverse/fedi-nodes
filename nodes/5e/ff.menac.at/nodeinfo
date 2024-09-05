@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "@noya@ff.menac.at",
+        "name": "のや"
+      },
+      "nodeDescription": "のややーんだよ",
+      "nodeName": "のややーん(新)",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240710"
+    },
+    "usage": {
+      "localPosts": 10233,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 3,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

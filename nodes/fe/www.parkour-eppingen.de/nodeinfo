@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1.1"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      },
+      "localPosts": 32,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "sabinehaider@gmx.net"
+    }
+  },
+  "error": null
+}

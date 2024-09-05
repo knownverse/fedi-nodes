@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6902,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "nekusuchan.net",
+      "nodeDescription": "<p>汎用のMisskeyサーバーです。<br>極小規模サーバーでしか過ごせない、静かなMisskeyライフを求めている人におすすめです。<br></p>",
+      "nodeAdmins": [
+        {
+          "name": "ねくす",
+          "email": "contactchan(at)nekusu.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ねくす",
+        "email": "contactchan(at)nekusu.com"
+      },
+      "langs": [],
+      "tosUrl": "https://www.nekusu.com/nekusuchanpolicy/",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": "https://www.nekusu.com/nekusuchan/",
+      "impressumUrl": "https://www.nekusu.com/nekusuchan/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#a0d8ef"
+    }
+  },
+  "error": null
+}

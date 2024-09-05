@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 88,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Family Histories Podcast",
+      "nodeDescription": "A genealogy podcast for and about family historians.",
+      "nodeIcon": "https://i0.wp.com/familyhistoriespodcast.com/wp-content/uploads/2021/02/cropped-the-family-history-addicts-3000x3000-72dpi.png?fit=3000%2C3000&ssl=1"
+    }
+  },
+  "error": null
+}

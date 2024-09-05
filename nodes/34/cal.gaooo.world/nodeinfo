@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "14.0.0-rc",
+      "repository": "https://codeberg.org/calckey/calckey",
+      "homepage": "https://calckey.cloud"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": 8,
+        "activeMonth": 8
+      },
+      "localPosts": 9398,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "GAOOO!",
+      "nodeDescription": "甘浦が管理する個人サーバーです。基本的に外部からの登録は許可しておりません。",
+      "maintainer": {
+        "name": "甘浦",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://codeberg.org/calckey/calckey",
+      "feedbackUrl": "https://codeberg.org/calckey/calckey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#00ABB3"
+    }
+  },
+  "error": null
+}

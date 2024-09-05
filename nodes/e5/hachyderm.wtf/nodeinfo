@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 4,
+        "activeHalfyear": 6
+      },
+      "localPosts": 55
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "hachyderm.wtf - Hachyderm's Dev Environment",
+      "nodeDescription": "This is the **dev/test** environment for hachyderm.io. No SLAs, no SLOs, no guarantee of service or durability of data."
+    }
+  },
+  "error": null
+}

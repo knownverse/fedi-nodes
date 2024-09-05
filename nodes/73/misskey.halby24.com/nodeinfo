@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1383,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Halky",
+      "nodeDescription": "HALBYの個人用サーバー\n現在完全招待制となっております、ご了承ください。",
+      "nodeAdmins": [
+        {
+          "name": "HALBY",
+          "email": "misskey@halby24.com"
+        }
+      ],
+      "maintainer": {
+        "name": "HALBY",
+        "email": "misskey@halby24.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.halby24.com/@halby24/pages/1677733104697",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#FFCDFC"
+    }
+  },
+  "error": null
+}

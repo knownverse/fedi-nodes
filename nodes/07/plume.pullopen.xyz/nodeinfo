@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "这里是**蓝盒子**图书馆！欢迎大家前来发布及分享**本人或经授权转载**的**中文**作品！\n\nThis is an instance for articles written in **Chinese**. If you want to publish in other languages, please contact the admin, thank you.\n\n请使用英文用户名注册，否则与其他平台联通会出现问题。可在事后改成中文昵称。\n\n目前发现文章标题中若带有英文“/”、“[]”等符号会出现错误，请尽量避免。\n\n[基本使用方法](https://write.allships.run/~/Test%E5%9B%BE/%E5%8F%91-%E5%9B%BE-q-a-%E7%A9%BA/)\n\n本站支持Markdown写作方式，请参见[Plume中的格式使用：Markdown及HTML](https://plume.pullopen.xyz/~/%E5%9B%BE%E4%B9%A6%E9%A6%86%E7%AE%A1%E7%90%86%E6%97%A5%E5%BF%97/plume-%E4%B8%AD-%E7%9A%84-%E6%A0%BC-%E5%BC%8F-%E4%BD%BF-%E7%94%A8-markdown-%E5%8F%8A-html)\n\n因Plume本身问题，目前无法在用户主页显示所有文章，各位需自行创建目录，并将链接放在**个人资料**中。\n\n本站不保证未来长时间稳定，请保存好存档。**请勿将本站分享至墙内平台！**",
+      "nodeName": "蓝盒子图书馆"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 32200,
+      "localPosts": 383,
+      "users": {
+        "total": 1804
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

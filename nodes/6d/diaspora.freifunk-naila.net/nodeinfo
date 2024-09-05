@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.1-p52f206fa"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2629,
+        "activeHalfyear": 152,
+        "activeMonth": 51
+      },
+      "localPosts": 3768,
+      "localComments": 14957
+    },
+    "metadata": {
+      "nodeName": "diaspora* freifunk naila",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "podmaster"
+    }
+  },
+  "error": null
+}

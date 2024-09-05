@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-sn.0",
+      "homepage": "https://github.com/cathiecode/superneko.net",
+      "repository": "https://github.com/cathiecode/superneko.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 30,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 21659,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "すーぱーねこ",
+      "nodeDescription": "キャサリン @cathiecode@superneko.net が管理するインスタンスです。\n\nなにかあったら@cathiecode@superneko.net, catherine@misskey.io, Discord:catherine8875へお気軽にどうぞ<br>\n<br>\nキャサリンのりあふれかぶいちゃふれだったら招待コードを送ります。また、すーぱーねこのユーザーは招待コードを生成可能です<br>\n<br>\n本アプリケーションのソースコードはhttps://github.com/cathiecode/superneko.netで利用可能です。",
+      "nodeAdmins": [
+        {
+          "name": "キャサリン",
+          "email": "cathiecode+sneko@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "キャサリン",
+        "email": "cathiecode+sneko@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://superneko.net/@admin/pages/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/cathiecode/superneko.net",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "system",
+      "themeColor": "#dbe61a"
+    }
+  },
+  "error": null
+}

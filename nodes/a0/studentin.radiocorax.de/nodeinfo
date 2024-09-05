@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 356,
+      "localComments": 58
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "StudentIn @ Radio Corax",
+      "nodeDescription": "Weblog des AK Studierendenradio",
+      "nodeIcon": "https://studentin.radiocorax.de/wp-content/uploads/2019/07/cropped-StudiesOnAir_Rabe-1.png"
+    }
+  },
+  "error": null
+}

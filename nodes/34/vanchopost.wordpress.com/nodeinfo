@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vancho Post",
+      "nodeDescription": "a good read for your minds eye.",
+      "nodeIcon": "https://vanchopost.wordpress.com/wp-content/uploads/2023/12/dallc2b7e-2023-12-20-13.12.57-design-a-sophisticated-and-symbolic-logo-for-a-blog-named-vancho-post.-the-logo-should-integrate-the-letters-v-and-p-in-a-style-reminiscent-of-t.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 26995,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "きあらんち",
+      "nodeDescription": "狐火きあらん(@kiaran5012@mi.kitsunebi-ya.com)の個人鯖です<br>\nこのサーバーでの登録は受け付けませんが、他のサーバーで作ったアカウントからフォローすることはできます",
+      "nodeAdmins": [
+        {
+          "name": "狐火きあらん",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "狐火きあらん",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ff5900"
+    }
+  },
+  "error": null
+}

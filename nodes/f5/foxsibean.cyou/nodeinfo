@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "13.1.2",
+      "repository": "https://codeberg/calckey/calckey",
+      "homepage": "https://calckey.cloud"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      },
+      "localPosts": 398,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "FoxSiBean 🦊✔️🐾",
+      "nodeDescription": "Welcome to the foxsibean calckey instance! It is currently a small, private instance.\n\nShoot us a message, from wherever you are in the fediverse! Maintained by MolarFox",
+      "maintainer": {
+        "name": "MolarFox",
+        "email": "foxsibean@molarfox.io"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://codeberg/calckey/calckey",
+      "feedbackUrl": "https://codeberg/calckey/calckey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

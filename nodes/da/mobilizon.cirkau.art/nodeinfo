@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Plateforme d'évènement autour du clown et/ou de l'artivisme",
+      "nodeName": "Mobilizon les Clowns"
+    },
+    "usage": {
+      "users": {
+        "total": 9
+      },
+      "localComments": 0,
+      "localPosts": 3
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

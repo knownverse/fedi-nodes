@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-taiyme.1",
+      "homepage": "https://github.com/nanasina8/misskey/",
+      "repository": "https://github.com/nanasina8/misskey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 87,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 22606,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Stream",
+      "nodeDescription": "misskey.streamへようこそ！この場所は自由な表現のオアシスです。アニメから政治まで、あらゆる話題がここにはあります。\n",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "@admin@misskey.stream"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "@admin@misskey.stream"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "@admin",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/nanasina8/misskey/",
+      "feedbackUrl": "https://github.com/taiyme/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "big_brother",
+      "themeColor": "#003249"
+    }
+  },
+  "error": null
+}

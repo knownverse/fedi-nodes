@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-alpha.5+kmyblue.13.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 6381
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "わーさんのおうち",
+      "nodeDescription": "わーさんこと和条門尚樹の管理サーバーの1つです。",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-alpha.5"
+      }
+    }
+  },
+  "error": null
+}

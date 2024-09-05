@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 42,
+      "localComments": 9
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "la mirada limpia, limpia todo lo que mira.",
+      "nodeDescription": "Quaerendo invenietis",
+      "nodeIcon": "https://salvajelive.wordpress.com/wp-content/uploads/2018/09/cropped-wb-siglas1.jpg"
+    }
+  },
+  "error": null
+}

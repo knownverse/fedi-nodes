@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6142,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "魔王の城（談話室）",
+      "nodeDescription": "四天王や幹部の素質がある<br>\n魔物や悪魔を招き入れている城<br><br>\n魔王の城の一角、皆でゆるりと集まれる談話室\n",
+      "nodeAdmins": [
+        {
+          "name": "猫耳",
+          "email": "@nekomimi"
+        }
+      ],
+      "maintainer": {
+        "name": "猫耳",
+        "email": "@nekomimi"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#311111"
+    }
+  },
+  "error": null
+}

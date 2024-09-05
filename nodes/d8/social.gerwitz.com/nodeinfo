@@ -1,0 +1,205 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "NormalizeMarkup",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "shitposter.club",
+            "poa.st",
+            "chudbuds.lol",
+            "nicecrew.digital",
+            "iddqd.social"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "chudbuds.lol": {
+              "reason": "Troll domain"
+            },
+            "iddqd.social": {
+              "reason": "Antisemitism"
+            },
+            "nicecrew.digital": {
+              "reason": "Literally Nazis"
+            },
+            "poa.st": {
+              "reason": "Significantly more than an unacceptable number of assholes"
+            },
+            "shitposter.club": {
+              "reason": "I don’t like them"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "indieweb.social",
+        "tilde.zone"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "This narcissism nexus is not meant for public consumption.",
+      "nodeName": "Safely Ignored",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": true,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.gerwitz.com/users/hans"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.10.4"
+    },
+    "usage": {
+      "localPosts": 999,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 0,
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

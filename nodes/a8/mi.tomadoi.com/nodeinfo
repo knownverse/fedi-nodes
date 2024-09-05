@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-build-5df27b5",
+      "homepage": "https://github.com/4ster1sk/misskey",
+      "repository": "https://github.com/4ster1sk/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1146,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ㅤ",
+      "nodeDescription": "ここにサーバーの紹介文が表示されます",
+      "nodeAdmins": [
+        {
+          "name": "****",
+          "email": "****"
+        }
+      ],
+      "maintainer": {
+        "name": "****",
+        "email": "****"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://4ster1sk.github.io/#/contact",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/4ster1sk/misskey",
+      "feedbackUrl": "https://github.com/4ster1sk/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#4d1d63"
+    }
+  },
+  "error": null
+}

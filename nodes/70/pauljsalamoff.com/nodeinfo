@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 12,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Paul J. Salamoff",
+      "nodeDescription": "Writer / Producer / Director",
+      "nodeIcon": "https://pauljsalamoff.com/wp-content/uploads/2023/04/cropped-Black-White-Personal-Initials-Modern-Logo-.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.5-rc",
+      "repository": "https://git.joinfirefish.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 48,
+        "activeHalfyear": 7,
+        "activeMonth": 0
+      },
+      "localPosts": 413,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "48 Club",
+      "nodeDescription": null,
+      "maintainer": {
+        "name": "48club",
+        "email": "twi@48.club"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ca9e00"
+    }
+  },
+  "error": null
+}

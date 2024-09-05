@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 2028,
+      "localComments": 5947
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "beko.famkos.net",
+      "nodeDescription": "User Slice of beko",
+      "nodeIcon": "https://beko.famkos.net/wp-content/uploads/2023/02/cropped-beko_logo_square_transparent-1.png"
+    }
+  },
+  "error": null
+}

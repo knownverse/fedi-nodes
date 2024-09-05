@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 658,
+      "localComments": 9312
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Frollein Herr",
+      "nodeDescription": "Information und Inspiration rund um Fashion, Beauty, Interior und alles was sonst noch so in meinem Kopf vor sich geht.",
+      "nodeIcon": "https://frolleinherr.com/wp-content/uploads/2021/04/cropped-frolleinherr_favicon_logo.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "",
+      "nodeName": "blog.oi7.de"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.4.0"
+    },
+    "usage": {
+      "localComments": 3,
+      "localPosts": 6,
+      "users": {
+        "total": 3
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

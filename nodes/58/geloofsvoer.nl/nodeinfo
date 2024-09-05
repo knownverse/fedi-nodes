@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 295,
+      "localComments": 182
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "geloofsvoer.nl",
+      "nodeDescription": "voer voor gelovigen",
+      "nodeIcon": "/wp-content/uploads/2021/11/logo-geloofsvoer-1400x1400px.png"
+    }
+  },
+  "error": null
+}

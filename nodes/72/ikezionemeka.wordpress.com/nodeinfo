@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 66,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ike Zion Emeka Quotes and Poetry",
+      "nodeDescription": "Entrepreneur | Life coach | PHILANTHROPIST | Author, Poet and artist",
+      "nodeIcon": "https://ikezionemeka.wordpress.com/wp-content/uploads/2024/04/cropped-aiel-cosmopolitan-wall-paper-2.jpg"
+    }
+  },
+  "error": null
+}

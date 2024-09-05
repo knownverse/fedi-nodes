@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 415,
+      "localComments": 789
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dotcomblog",
+      "nodeDescription": "",
+      "nodeIcon": "https://dotcomblog.de/wp-content/uploads/2020/10/logo_header_160px_transparent.png"
+    }
+  },
+  "error": null
+}

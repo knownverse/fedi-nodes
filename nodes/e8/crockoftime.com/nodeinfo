@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 47,
+      "localComments": 51
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Crock of Time",
+      "nodeDescription": "Your Food&#039;s Destiny Awaits",
+      "nodeIcon": "https://crockoftime.com/wp-content/uploads/2020/05/favicon.png"
+    }
+  },
+  "error": null
+}

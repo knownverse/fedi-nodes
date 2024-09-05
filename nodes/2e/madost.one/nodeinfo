@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 36,
+        "activeHalfyear": 26,
+        "activeMonth": 20
+      },
+      "localPosts": 1312959,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "마도스톤",
+      "nodeDescription": "<span style=\"font-size:2rem; font-weight:bold\">마도스톤!</span><br /><br />\n마도스톤이에요!!<br /><br />\n<div style=\"text-align:justify\">\n캐삭빵 초대제로 운영되고 있어요! (가입할시 본계를 옮겨야 해요)<br />\n<span style=\"font-size: 0.7rem\">자세한 소개/규칙은 <a href=\"https://madost.one/@chocologic/pages/rules\">https://madost.one/@chocologic/pages/rules</a>를 참고해주세요!</span>\n</div>\n<br />\n<div style=\"text-align: left\">\n단순히 Misskey가 궁금하신 거라면:<br />\nhttps://misskey.io (공식, 일본어)에서 둘러보실 수 있어요!<br /><br />\n</div>\n<div style=\"text-align:justify\">마도스톤은 Misskey에 커스텀을 가한 버전으로 구동되요!</div>\n<div style=\"font-size: 0.7rem; text-align: justify\">소스 코드는 <a href=\"https://gitlab.com/chocological00/misskey\">https://gitlab.com/chocological00/misskey</a>에 공개되어 있어요! (AGPL 3.0)</div>\n<br /><hr />\n<div style=\"text-align: justify; font-size: 0.7rem\">Please send an email to this address for any inquiries regarding this website <br />(incl. DMCA takedown notices): misskey.madost.one@gmail.com\n</div>",
+      "maintainer": {
+        "name": "chocologic",
+        "email": "misskey.madost.one@gmail.com"
+      },
+      "langs": [
+        "한국어"
+      ],
+      "tosUrl": "https://madost.one/@chocologic/pages/rules",
+      "repositoryUrl": "https://gitlab.com/chocological00/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#fff1cc"
+    }
+  },
+  "error": null
+}

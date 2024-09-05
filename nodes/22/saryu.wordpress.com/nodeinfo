@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 377,
+      "localComments": 901
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ગંગોત્રી...www.saryu.wordpress.com",
+      "nodeDescription": "Gujarati and English-મારા આધ્યાત્મિક અને સાહિત્યિક વિચારોનું ઉદભવ સ્થાન..સરયૂ દિલીપ પરીખ. Saryu",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

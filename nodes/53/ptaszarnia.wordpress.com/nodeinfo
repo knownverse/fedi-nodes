@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 452,
+      "localComments": 1957
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Świat przez szklane oko",
+      "nodeDescription": "(c) MiSBet",
+      "nodeIcon": "https://ptaszarnia.wordpress.com/wp-content/uploads/2017/10/cropped-paw_bialy-001.jpg"
+    }
+  },
+  "error": null
+}

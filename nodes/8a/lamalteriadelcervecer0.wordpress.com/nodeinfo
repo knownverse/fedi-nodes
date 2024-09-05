@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 152,
+      "localComments": 1185
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Maltería Del Cervecero",
+      "nodeDescription": "Blog sobre la elaboración de cerveza en casa",
+      "nodeIcon": "https://lamalteriadelcervecer0.wordpress.com/wp-content/uploads/2024/02/f5eb6-logo-la-malteria-del-cervecero.jpg"
+    }
+  },
+  "error": null
+}

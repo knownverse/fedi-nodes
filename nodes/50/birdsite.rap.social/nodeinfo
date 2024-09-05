@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "birdsitelive",
+      "version": "0.20.0"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 0
+      }
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "admin@rap.social"
+    }
+  },
+  "error": null
+}

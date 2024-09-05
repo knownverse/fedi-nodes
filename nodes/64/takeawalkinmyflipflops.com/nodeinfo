@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 68,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Virginia Hype Girl : Virginia Foodie and Travel Blogger",
+      "nodeDescription": "Hyping Virginia Tourism and Foodie Destinations: Wanderlust with a side of gravy!",
+      "nodeIcon": "https://takeawalkinmyflipflops.com/wp-content/uploads/2024/04/e2fdd5c1-e81a-4da2-9026-0dc925c13d6d_original-2.jpeg"
+    }
+  },
+  "error": null
+}

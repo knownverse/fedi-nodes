@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "teddybear",
+      "version": "2024.5.5-beta",
+      "homepage": "https://github.com/14ChannelBBS/teddybear",
+      "repository": "https://github.com/14ChannelBBS/teddybear"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 0,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "14ちゃんねるβ",
+      "nodeDescription": "Fediverse史上初、ActivityPub対応の匿名掲示板<br>\n(本サービスはβテストなので、壊れたり、予告なしにサービスを終了する場合がございます)",
+      "nodeAdmins": [
+        {
+          "name": "nennneko5787",
+          "email": "nennneko5787@14chan.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "nennneko5787",
+        "email": "nennneko5787@14chan.jp"
+      },
+      "langs": [
+        "ja"
+      ],
+      "tosUrl": "https://beta.14chan.jp/mod/tos",
+      "privacyPolicyUrl": "https://beta.14chan.jp/mod/privacy",
+      "impressumUrl": "https://nennneko5787.cloudfree.jp/",
+      "repositoryUrl": "https://github.com/14ChannelBBS/teddybear",
+      "feedbackUrl": "https://github.com/14ChannelBBS/teddybear/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 2048,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#87cefa"
+    }
+  },
+  "error": null
+}

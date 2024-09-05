@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 137,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The GetOutside Project",
+      "nodeDescription": "Celebrating human-powered adventures",
+      "nodeIcon": "https://i0.wp.com/getoutside.ca/wp-content/uploads/2018/11/cropped-G0271588_1541111548756_high.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 982,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Center for Contemplative Practice",
+      "nodeDescription": "A Lay Cistercian Looks at Spiritual Reality",
+      "nodeIcon": "https://thecenterforcontemplativepractice.org/wp-content/uploads/2017/08/cropped-pexels-photo-2095008.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wxwClub",
+      "version": "0.0.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": "44",
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": "8"
+    },
+    "metadata": {
+      "nodeName": "dev.ovo.st",
+      "nodeDescription": "一个实现群组功能的 呜呜站 (wxw.moe) 附属实例 ~",
+      "maintainer": {
+        "name": "@ovo_st_status@wxw.moe",
+        "email": "support@ovo.st"
+      },
+      "repositoryUrl": "https://github.com/wxwmoe/wxwClub",
+      "feedbackUrl": "https://github.com/wxwmoe/wxwClub/issues/new"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 60,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Citizen Rat",
+      "nodeDescription": "&quot;The Sentence, &#039;snow is white&#039; is true, just in the case that snow is White&quot; Alfred Tarski",
+      "nodeIcon": "https://citizenrat.blog/wp-content/uploads/2019/03/cropped-me-and-meria.jpg"
+    }
+  },
+  "error": null
+}

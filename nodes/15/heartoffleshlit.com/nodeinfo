@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 128,
+      "localComments": 244
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Heart of Flesh Literary Journal",
+      "nodeDescription": "&quot;I will remove from you your heart of stone and give you a heart of flesh&quot; -Ezekiel 36:26",
+      "nodeIcon": "https://heartoffleshlit.com/wp-content/uploads/2019/03/cropped-1mcdonald_eve2.jpg"
+    }
+  },
+  "error": null
+}

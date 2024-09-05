@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.0"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": 6,
+        "activeMonth": 6
+      },
+      "localPosts": 78,
+      "localComments": 155
+    },
+    "metadata": {
+      "nodeName": "Dies und Das"
+    }
+  },
+  "error": null
+}

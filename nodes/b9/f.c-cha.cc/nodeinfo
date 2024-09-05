@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "d@c-cha.cc",
+        "name": "c_cha"
+      },
+      "nodeDescription": "【f】",
+      "nodeName": "f.c-cha.cc",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#3366cc"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 2948,
+      "users": {
+        "activeHalfyear": 10,
+        "activeMonth": 7,
+        "total": 10
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

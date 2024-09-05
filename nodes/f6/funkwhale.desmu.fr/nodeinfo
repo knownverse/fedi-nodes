@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.desmu.fr/federation/actors/service",
+      "private": false,
+      "shortDescription": "Instance privée de @desmu@mastodon.desmu.fr",
+      "longDescription": "Ma propre instance pour héberger mon propre compte pour satisfaire ma propre mégalomanie. @desmu@mastodon.desmu.fr",
+      "contactEmail": "bonjour@desmu.fr",
+      "nodeName": "funkwhale.desmu.fr",
+      "banner": null,
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 0
+        },
+        "downloads": {
+          "total": 60697
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 258
+        },
+        "artists": {
+          "total": 2
+        },
+        "albums": {
+          "total": 14
+        },
+        "music": {
+          "hours": 13.612222222222222
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

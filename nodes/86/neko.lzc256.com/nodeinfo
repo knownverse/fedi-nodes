@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240430",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "homepage": "https://firefish.dev/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 1030,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "落雨宸的时光机",
+      "nodeDescription": "是 @lzc256@neko.lzc256.com 的个人实例 <br> 希望和大家交朋友…在这里玩得开心ww！",
+      "maintainer": {
+        "name": "落雨宸🍥",
+        "email": "lzc256@lzc256.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "feedbackUrl": "https://firefish.dev/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#eba7b1"
+    }
+  },
+  "error": null
+}

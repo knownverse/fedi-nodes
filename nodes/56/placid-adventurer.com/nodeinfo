@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 9,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Placid Adventurer                                                                                                                     ",
+      "nodeDescription": "Start small if you must, but start today!  Time waits for no one!",
+      "nodeIcon": "https://i0.wp.com/placid-adventurer.com/wp-content/uploads/2024/04/img-9m5vxadxv3qabx2c1o1fh8ea.png?fit=1024%2C1024&ssl=1"
+    }
+  },
+  "error": null
+}

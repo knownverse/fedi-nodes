@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "13",
+        "activeHalfyear": "13"
+      },
+      "localPosts": 946,
+      "localComments": 462
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mitarbeiterportal für den Mittelstand",
+      "nodeDescription": "Unterstützung für alle Mitarbeiter und deren Angehörige von 0 bis 99plus!",
+      "nodeIcon": "https://www.familienfreund.de/wp-content/uploads/2013/12/10_ff_logo-1.jpg"
+    }
+  },
+  "error": null
+}

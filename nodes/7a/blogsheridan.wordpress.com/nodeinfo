@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sheridan Comboble",
+      "nodeDescription": "observations on pop culture and being a dad",
+      "nodeIcon": "https://blogsheridan.wordpress.com/wp-content/uploads/2024/02/cropped-screenshot-2024-02-19-224227.png"
+    }
+  },
+  "error": null
+}

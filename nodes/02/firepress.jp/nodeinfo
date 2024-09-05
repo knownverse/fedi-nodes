@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 307,
+      "localComments": 11
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FirePress Japan by Blaze &#039;n&#039; Rekka",
+      "nodeDescription": "Sharing what&#039;s hot and coming in Japan.",
+      "nodeIcon": "https://firepress.jp/wp-content/uploads/2023/10/favicon-fs.png"
+    }
+  },
+  "error": null
+}

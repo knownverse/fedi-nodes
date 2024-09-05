@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "gitea",
+      "version": "1.21.0",
+      "repository": "https://github.com/go-gitea/gitea.git",
+      "homepage": "https://gitea.io/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 7,
+      "localComments": 21
+    },
+    "metadata": {}
+  },
+  "error": null
+}

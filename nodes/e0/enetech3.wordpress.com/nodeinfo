@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 66
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "エネゼリガー公式officialサイト",
+      "nodeDescription": "",
+      "nodeIcon": "https://enetech3.wordpress.com/wp-content/uploads/2023/11/cropped-e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388-452-4.png"
+    }
+  },
+  "error": null
+}

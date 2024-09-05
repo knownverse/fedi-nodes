@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 1621,
+      "localComments": 847
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SCRiiiPT",
+      "nodeDescription": "Jeu de rôle et Culture Ludique",
+      "nodeIcon": "https://i0.wp.com/scriiipt.com/wp-content/uploads/2024/07/cropped-logo-chat-scriiipt-3-4-3.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

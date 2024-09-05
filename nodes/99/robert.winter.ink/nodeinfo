@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 234,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dr Robert N. Winter",
+      "nodeDescription": "Muse &amp; Reason",
+      "nodeIcon": "https://i0.wp.com/robert.winter.ink/wp-content/uploads/2024/01/7a940-cropped-cropped-w_icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

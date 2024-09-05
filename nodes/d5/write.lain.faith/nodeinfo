@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "plume",
+      "version": "0.3.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5
+      },
+      "localPosts": 37,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "write.lain.faith",
+      "nodeDescription": "The federated blogging instance for [lain.faith](https://lain.faith)."
+    }
+  },
+  "error": null
+}

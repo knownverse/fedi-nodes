@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 138,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SoCalGo",
+      "nodeDescription": "All about Go in Southern California",
+      "nodeIcon": "https://i0.wp.com/www.socalgo.org/wp-content/uploads/2021/03/cropped-socalgo_logo_2021_icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

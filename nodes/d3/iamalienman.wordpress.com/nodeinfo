@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 260,
+      "localComments": 119
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Alienman",
+      "nodeDescription": "Where Speculation is rife!",
+      "nodeIcon": "https://iamalienman.wordpress.com/wp-content/uploads/2017/03/cropped-16641066_1450762808276105_2336634059274842905_n-2697288737-e1704248750174.png"
+    }
+  },
+  "error": null
+}

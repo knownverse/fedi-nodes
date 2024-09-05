@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 74,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MILLENNIAL BUSINESS GUIDE",
+      "nodeDescription": "Inform | Educate | Motivate",
+      "nodeIcon": "https://millennialbusinessguide.wordpress.com/wp-content/uploads/2019/12/wp-1576923466889.png"
+    }
+  },
+  "error": null
+}

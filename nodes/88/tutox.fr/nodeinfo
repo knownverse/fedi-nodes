@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 264,
+      "localComments": 981
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "tutox.fr",
+      "nodeDescription": "Partager et apprendre en toute liberté",
+      "nodeIcon": "https://tutox.fr/wp-content/uploads/2021/04/cropped-favicon-32x32-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4151,
+      "localComments": 148
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Inside my shell i milk and hate",
+      "nodeDescription": "Straight to the point or all over the place",
+      "nodeIcon": "https://milkandhate.wordpress.com/wp-content/uploads/2020/10/caz.png"
+    }
+  },
+  "error": null
+}

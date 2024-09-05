@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 325,
+      "localComments": 2029
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ofadam",
+      "nodeDescription": "quote unquote",
+      "nodeIcon": "https://ofadam.com/wp-content/uploads/2016/03/cropped-cropped-ofadam_logo2.png"
+    }
+  },
+  "error": null
+}

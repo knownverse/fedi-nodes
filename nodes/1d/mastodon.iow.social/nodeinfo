@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 230,
+        "activeMonth": 20,
+        "activeHalfyear": 32
+      },
+      "localPosts": 7042
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "IOW.Social",
+      "nodeDescription": "Server by @cleatsandcode's business Isitmeanttodothat.io. Keep it friendly, insulting Gallybagger will get you banned, probably. \r\nBanner photo: https://unsplash.com/@lison"
+    }
+  },
+  "error": null
+}

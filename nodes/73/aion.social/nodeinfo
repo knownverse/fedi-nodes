@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Aion.Social",
+      "nodeDescription": null,
+      "nodeAdmins": [
+        {
+          "name": "Smirvent",
+          "email": "smirvent@aion.social"
+        }
+      ],
+      "maintainer": {
+        "name": "Smirvent",
+        "email": "smirvent@aion.social"
+      },
+      "langs": [],
+      "tosUrl": "https://sites.google.com/view/legal-aion-social/terms-of-service",
+      "privacyPolicyUrl": "https://sites.google.com/view/legal-aion-social/privacy-policy",
+      "inquiryUrl": "https://sites.google.com/view/legal-aion-social",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

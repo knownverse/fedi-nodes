@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1-n.9",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 96,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Fuzzy's Underworld",
+      "nodeDescription": "A tight-knit community in the depths of nowhere. You'll need a key to get in.\n\nLogo by @supr",
+      "nodeAdmins": [
+        {
+          "name": "fuzzy",
+          "email": "fuzzy@fuzzyb.it"
+        }
+      ],
+      "maintainer": {
+        "name": "fuzzy",
+        "email": "fuzzy@fuzzyb.it"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/n1lsqn/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 9000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#e94343"
+    }
+  },
+  "error": null
+}

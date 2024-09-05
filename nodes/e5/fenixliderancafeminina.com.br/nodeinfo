@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 33,
+      "localComments": 100
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fênix Liderança Feminina",
+      "nodeDescription": "&quot;Fênix Liderança Feminina: Inspirando mulheres a liderarem com equidade, empoderamento e excelência.&quot;",
+      "nodeIcon": "https://i0.wp.com/fenixliderancafeminina.com.br/wp-content/uploads/2024/01/bcca1-bd978a_c3c43b5f4c904cb3a6c96c7845c6f5a67emv2.png?fit=32%2C32&ssl=1"
+    }
+  },
+  "error": null
+}

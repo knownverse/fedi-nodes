@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 42,
+      "localComments": 87
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Le blog de Petite Loutre",
+      "nodeDescription": "Autisme, handicap, antivalidisme et lance-flammes",
+      "nodeIcon": "https://leblogdepetiteloutre.com/wp-content/uploads/2023/10/cropped-maroon-simple-thrift-shop-logo.jpg"
+    }
+  },
+  "error": null
+}

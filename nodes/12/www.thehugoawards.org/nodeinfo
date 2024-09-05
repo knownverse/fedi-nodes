@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 284,
+      "localComments": 3044
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Hugo Award",
+      "nodeDescription": "The Official Site of The Hugo Award",
+      "nodeIcon": "https://www.thehugoawards.org/wp-content/uploads/2019/09/cropped-hugo_sm.jpg"
+    }
+  },
+  "error": null
+}

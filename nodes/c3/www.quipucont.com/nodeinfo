@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 870,
+      "localComments": 237
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Quipucont",
+      "nodeDescription": "Recursos para contadores y asistentes de oficina",
+      "nodeIcon": "https://www.quipucont.com/wp-content/uploads/sites/5/2024/04/cropped-quipu.png"
+    }
+  },
+  "error": null
+}

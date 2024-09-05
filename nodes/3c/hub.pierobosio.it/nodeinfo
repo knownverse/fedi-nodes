@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial",
+        "friendica",
+        "pumpio",
+        "redmatrix"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 4,
+        "activeMonth": 4
+      },
+      "localPosts": 28,
+      "localComments": 12
+    },
+    "metadata": {
+      "nodeName": "Piero Bosio Social Hub"
+    }
+  },
+  "error": null
+}

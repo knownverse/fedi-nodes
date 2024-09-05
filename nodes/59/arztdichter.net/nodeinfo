@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 339,
+      "localComments": 198
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "       &gt;Blick ins Buch",
+      "nodeDescription": " Lektüreempfehlungen und Lesungen",
+      "nodeIcon": "https://arztdichter.net/wp-content/uploads/2021/05/cropped-cropped-img_7923.jpg"
+    }
+  },
+  "error": null
+}

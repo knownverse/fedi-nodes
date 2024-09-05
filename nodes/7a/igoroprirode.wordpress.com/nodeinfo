@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 151,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ИГОРЬ О ПРИРОДЕ",
+      "nodeDescription": "Природа удивительна, нужно только внимательнее присмотреться",
+      "nodeIcon": "https://igoroprirode.wordpress.com/wp-content/uploads/2023/09/d0bcd0b0d0b9d181d0bad0b8d0b9-d0b6d183d0ba-d0b0d0bdd184d0b0d181.jpg"
+    }
+  },
+  "error": null
+}

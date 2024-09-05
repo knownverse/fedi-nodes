@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 113,
+      "localComments": 71
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Seasoned Writer",
+      "nodeDescription": "Creative Work by Tara Meissner Huck",
+      "nodeIcon": "https://i0.wp.com/aseasonedwritertarahuck.com/wp-content/uploads/2024/03/cropped-tara-huck_favicon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

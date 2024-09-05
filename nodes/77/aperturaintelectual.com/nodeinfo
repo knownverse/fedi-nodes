@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3653,
+      "localComments": 486
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Apertura Intelectual",
+      "nodeDescription": "Dedicado a la información validada, veraz y de interés. Temas de cultura,deportes, negocios, literatura, política, películas y más",
+      "nodeIcon": "https://aperturaintelectual.com/wp-content/uploads/2022/03/ai-impi-cerebro-sin-cubrebocas.webp"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "ktistec",
+      "version": "2.2.0",
+      "repository": "https://github.com/toddsundsted/ktistec",
+      "homepage": "https://ktistec.com/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 771
+    },
+    "metadata": {
+      "siteName": "JayVii's Fedisite"
+    }
+  },
+  "error": null
+}

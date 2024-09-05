@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "archivedPosts": 2429,
+      "avgPostsPerDay": 4.461538461538462,
+      "remotePosts": 2947
+    },
+    "nodeDescription": "Usagi is a federated image board instance.",
+    "nodeName": "Usagi",
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "homepage": "https://fchannel.org",
+      "name": "FChannel",
+      "repository": "https://github.com/FChannel0/FChannel-Server",
+      "version": "0.1.1"
+    },
+    "usage": {
+      "localPosts": 4282
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

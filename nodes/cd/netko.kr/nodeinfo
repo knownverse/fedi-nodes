@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 30,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 575,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "넷코",
+      "nodeDescription": "넷코 인스턴스입니다냥.<br>\n현재 시범 운영 중이라냥.<br>\n마스토돈 인스턴스를 찾고있냥?<br>\n그럼 <a href=\"https://wiki.mastodon.kr/wiki/%ED%95%9C%EA%B5%AD%EC%96%B4_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4\">[여기]</a>로 가라냥.<br>\n<br>\n미스키를 찾고 있냥?<br>\n다른 곳들이 자리가 없으면 여기로 와보라냥 강요 아니라냥.<br>\n대신 안정성은 보장하지 않는다냥.",
+      "maintainer": {
+        "name": "넷코짱",
+        "email": "github.external@netko.kr"
+      },
+      "langs": [],
+      "tosUrl": "https://netko.kr/@netko/pages/privacy",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "netko",
+      "themeColor": "#3d3d3d"
+    }
+  },
+  "error": null
+}

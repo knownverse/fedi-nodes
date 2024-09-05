@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Egutegia",
+      "nodeName": "La Kelo Gaztetxea",
+      "nodeLabel": "La Kelo Gaztetxea"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.4.3"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 623,
+      "users": {
+        "total": 3
+      }
+    }
+  },
+  "error": null
+}

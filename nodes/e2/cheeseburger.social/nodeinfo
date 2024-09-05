@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 72,
+        "activeMonth": 10,
+        "activeHalfyear": 16
+      },
+      "localPosts": 14472
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Cheeseburger.social",
+      "nodeDescription": "Who doesn't love cheeseburgers? Cheeseburger.social is a General open instance for anyone wanting to be a part of the Fediverse!"
+    }
+  },
+  "error": null
+}

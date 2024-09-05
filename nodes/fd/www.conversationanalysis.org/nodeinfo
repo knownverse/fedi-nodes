@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 75,
+      "localComments": 31
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ISCA",
+      "nodeDescription": "The International Society for Conversation Analysis",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

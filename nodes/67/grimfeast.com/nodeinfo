@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.1",
+      "homepage": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "repository": "https://git.joinsharkey.org/Sharkey/Sharkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "GrimFeast",
+      "nodeDescription": "A Mastodon Server focused on MMO Players. ",
+      "nodeAdmins": [
+        {
+          "name": "AterNox",
+          "email": "atergens@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "AterNox",
+        "email": "atergens@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://accessory.grimfeast.com/privacy-GrimFeast.txt",
+      "privacyPolicyUrl": "https://accessory.grimfeast.com/privacy-GrimFeast.txt",
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "feedbackUrl": "https://git.joinsharkey.org/Sharkey/Sharkey/issues/new/choose",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

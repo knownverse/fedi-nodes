@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+babka"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 836,
+        "activeMonth": 190,
+        "activeHalfyear": 359
+      },
+      "localPosts": 206892
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Babka Social",
+      "nodeDescription": "A site where you can be unapologetically Jewish, with a healthy, diverse community of Jews and Jewish allies."
+    }
+  },
+  "error": null
+}

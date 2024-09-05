@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 230,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "bibliocrat.com",
+      "nodeDescription": "Read to know you are not alone. Write to keep yourself company. Share your experience of the beauty of literature.",
+      "nodeIcon": "https://i0.wp.com/bibliocrat.com/wp-content/uploads/2024/03/homespun-vintage-png.png?fit=2462%2C3179&ssl=1"
+    }
+  },
+  "error": null
+}

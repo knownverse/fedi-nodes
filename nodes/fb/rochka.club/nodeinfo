@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": 18,
+        "activeMonth": 14
+      },
+      "localPosts": 8092,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "らちかくらぶ",
+      "nodeDescription": "都会の喧騒から離れたところの喧騒から離れて、新しいインターネットにダイブしてみませんか？",
+      "maintainer": {
+        "name": "みえる",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#2f4f4f"
+    }
+  },
+  "error": null
+}

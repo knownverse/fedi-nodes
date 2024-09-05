@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 66,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskeyARCHEX",
+      "nodeDescription": "misskeyARCHEX(misskey.archexart.net)はオゼアズサ個人が運営するMisskeyサーバーです。\n日記雑記、趣味の記録、メインアカウントの避難所、Misskey全般の練習や勉強用などを目的として、2023年12月3日に開設され、2024年6月1日にサブドメインでの運用となりました。\n\n現在は自分用として運用しているため新規ユーザー登録は受け付けていません。\n外部サーバーから当サーバーのアカウントへのフォローやリアクション等は可能です。",
+      "nodeAdmins": [
+        {
+          "name": "オゼアズサ",
+          "email": "misskey[at]info.archexart.net"
+        }
+      ],
+      "maintainer": {
+        "name": "オゼアズサ",
+        "email": "misskey[at]info.archexart.net"
+      },
+      "langs": [],
+      "tosUrl": "https://info.archexart.net/",
+      "privacyPolicyUrl": "https://info.archexart.net/",
+      "inquiryUrl": "https://info.archexart.net/",
+      "impressumUrl": "https://info.archexart.net/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#353640"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "star.tf/Please contact me :)",
+        "name": "Porlam Nicla"
+      },
+      "nodeDescription": "汎用的で自由なFirefishサーバーです\nりんごぱいと同じ環境で動いています",
+      "nodeName": "みかんぱい",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#ed9232"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 50651,
+      "users": {
+        "activeHalfyear": 77,
+        "activeMonth": 37,
+        "total": 262
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

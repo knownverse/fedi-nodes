@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 39,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "France Monde",
+      "nodeDescription": "Journal numérique d&#039;opinions et de réflexions sur le monde.",
+      "nodeIcon": "https://francemonde9.wordpress.com/wp-content/uploads/2024/01/cropped-capture-decran-2024-01-10-a-18.42.05.png"
+    }
+  },
+  "error": null
+}

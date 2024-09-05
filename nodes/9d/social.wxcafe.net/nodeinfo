@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 291,
+        "activeMonth": 32,
+        "activeHalfyear": 44
+      },
+      "localPosts": 151148
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastocafé",
+      "nodeDescription": "This is a mastodon instance for queer people and friends"
+    }
+  },
+  "error": null
+}

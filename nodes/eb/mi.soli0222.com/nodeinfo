@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-psr.7.2.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 99300,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Polestar",
+      "nodeDescription": "Polestarは異常独身男性サーバーです。メンバーはSoliの身内に限定しています。",
+      "nodeAdmins": [
+        {
+          "name": "Soli",
+          "email": "@Soli_0222@mi.soli0222.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Soli",
+        "email": "@Soli_0222@mi.soli0222.com"
+      },
+      "langs": [],
+      "tosUrl": "https://psr-hub.soli0222.com/post/terms_of_service/",
+      "privacyPolicyUrl": "https://psr-hub.soli0222.com/post/privacy/",
+      "inquiryUrl": "https://psr-hub.soli0222.com/contact/",
+      "impressumUrl": "https://psr-hub.soli0222.com/post/impressum/",
+      "repositoryUrl": "https://github.com/Soli0222/misskey",
+      "feedbackUrl": "https://github.com/Soli0222/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#7483c3"
+    }
+  },
+  "error": null
+}

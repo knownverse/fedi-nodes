@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 1472
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Arnaus goes social",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 0,
+        "activeMonth": 1,
+        "activeHalfyear": 3
+      },
+      "localPosts": 367
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Merfolk's home in the fediverse",
+      "nodeDescription": "This instance will be shut down on Sept. 16th, 2024. "
+    }
+  },
+  "error": null
+}

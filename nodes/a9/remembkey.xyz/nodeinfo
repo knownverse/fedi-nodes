@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 64,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "remembkey.xyz",
+      "nodeDescription": "忘れられないの。\nPost words you don't want to forget.\nwithout privacy somethings :)",
+      "nodeAdmins": [
+        {
+          "name": "dwan",
+          "email": "dwan@remembkey.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "dwan",
+        "email": "dwan@remembkey.xyz"
+      },
+      "langs": [],
+      "tosUrl": "https://remembkey.xyz/@dwan/pages/1722646725836",
+      "privacyPolicyUrl": "https://remembkey.xyz/@dwan/pages/1722646541498",
+      "inquiryUrl": "https://remembkey.xyz/@dwan",
+      "impressumUrl": "https://remembkey.xyz/@dwan",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/taniiicom/metreee",
+      "repository": "https://github.com/taniiicom/metreee"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 203,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 17104,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "metreee",
+      "nodeDescription": "metreee は 大きなフェディバースの海の端にある小さな灯台 をコンセプトにしています. 特定のジャンルに特化しない, 『日常の切れ端』をつぶやいたりながめたりできる落ち着いた空間で, 自由に気軽に気兼ねなく, 日々の出来事や思ったことをノートできる場所を目指しています. 『灯台』のアイコンが目印です!  \n「met-」という接頭辞は実は都立大に由来しています.  \nAWS のリソースを使い, いそがしい朝でも眠れない夜でも安心して使える, 安定して速い Misskey インスタンスを提供しています.  ",
+      "nodeAdmins": [
+        {
+          "name": "Taniii",
+          "email": "mail@taniii.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Taniii",
+        "email": "mail@taniii.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://taniii.com",
+      "repositoryUrl": "https://github.com/taniiicom/metreee",
+      "feedbackUrl": "https://github.com/taniiicom/metreee/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00ebdb"
+    }
+  },
+  "error": null
+}

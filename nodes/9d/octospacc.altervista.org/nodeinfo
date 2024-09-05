@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 443,
+      "localComments": 338
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "fritto misto di octospacc",
+      "nodeDescription": "&quot;Un nuovo sito targato WordPress&quot; è il &quot;Hey there! I am using WhatsApp&quot; degli scrittori.",
+      "nodeIcon": "https://octospacc.altervista.org/wp-content/uploads/2024/05/fried-shrimp_1f364.png"
+    }
+  },
+  "error": null
+}

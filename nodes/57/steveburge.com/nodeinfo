@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 750,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Steve Burge",
+      "nodeDescription": "Hi, I&#039;m Steve. I&#039;ve been involved with open source software for 20 years. Currently, I help run some popular WordPress plugins that have over 1 million installs.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

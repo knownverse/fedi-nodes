@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 226,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BITÁCORA MENTAL",
+      "nodeDescription": "Por Carlos Vitesse",
+      "nodeIcon": "https://bitacoramental.com/wp-content/uploads/2023/07/cropped-bitacora-mental-1600-px.jpg"
+    }
+  },
+  "error": null
+}

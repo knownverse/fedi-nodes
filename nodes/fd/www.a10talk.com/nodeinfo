@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 81,
+        "activeMonth": 65,
+        "activeHalfyear": 64
+      },
+      "localPosts": 3219,
+      "localComments": 1156
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A10 Talk",
+      "nodeDescription": "Latest News and Discussion on Atlantic 10 Basketball",
+      "nodeIcon": "https://www.a10talk.com/wp-content/uploads/2020/11/logo-square.jpg"
+    }
+  },
+  "error": null
+}

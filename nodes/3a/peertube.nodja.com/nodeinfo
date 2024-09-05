@@ -1,0 +1,269 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 172,
+        "activeMonth": 5,
+        "activeHalfyear": 29
+      },
+      "localPosts": 807,
+      "localComments": 25
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "NodjaTube",
+      "nodeDescription": "Nodjas PeerTube Instance",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": false,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-hardware-transcode-vaapi",
+              "name": "hardware-transcode-vaapi",
+              "version": "0.2.9",
+              "description": "Plugin that adds transcode profiles which use vaapi for hardware acceleration",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-hardware-transcode-nvenc",
+              "name": "hardware-transcode-nvenc",
+              "version": "0.0.1",
+              "description": "Plugin that adds transcode profiles which use NVIDIA NVENC for hardware acceleration",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-simplelogo",
+              "name": "simplelogo",
+              "version": "0.0.5",
+              "description": "Plugin that let you change logo and favicon on your PeerTube instance.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-pacerip",
+              "name": "pacerip",
+              "version": "1.2.2",
+              "description": "Theme for the PaceRIP PeerTube instance",
+              "css": [
+                "assets/color.css",
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-theme-bittube-dark-mode",
+              "name": "bittube-dark-mode",
+              "version": "3.0.0",
+              "description": "BitTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-dark",
+              "name": "dark",
+              "version": "2.5.0",
+              "description": "PeerTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-theme-borked",
+              "name": "borked",
+              "version": "1.2.3",
+              "description": "Dark theme for PeerTube, built for tube.borked.host",
+              "css": [
+                "assets/css/style.css",
+                "assets/css/starfield.css"
+              ],
+              "clientScripts": {
+                "client/starfield.js": {
+                  "script": "client/starfield.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ],
+          "default": "dark"
+        },
+        "email": {
+          "enabled": false
+        },
+        "contactForm": {
+          "enabled": false
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            480
+          ]
+        },
+        "live": {
+          "enabled": false,
+          "transcoding": {
+            "enabled": false,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": false
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 0,
+          "videoQuotaDaily": 0
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

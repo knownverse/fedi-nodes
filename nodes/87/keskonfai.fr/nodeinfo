@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Ce site associatif et collaboratif a pour ambition de mettre en valeurs les initiatives locales et leur diversité, et ainsi créer du lien social entre les générations, les cultures...  Des choses qui ne s'achètent pas et qui font embellissent vraiment la vie!\n\nVous pouvez rechercher des événéments, activités et groupes près de chez vous et partout en France. Vous pouvez aussi publier des événements et activités locales.",
+      "nodeName": "Keskonfai"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "2.0.2"
+    },
+    "usage": {
+      "localComments": 67,
+      "localPosts": 420358,
+      "users": {
+        "total": 429
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

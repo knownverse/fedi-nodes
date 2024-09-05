@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 310,
+      "localComments": 985
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Aaron&#039;s Worthless Words",
+      "nodeDescription": "It&#039;s possible that someone somewhere needs to know this.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

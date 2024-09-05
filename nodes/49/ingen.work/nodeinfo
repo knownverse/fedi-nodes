@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 35906,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ingen.work",
+      "nodeDescription": "管理人にDMすると招待コードがもらえるタイプの自宅小規模サーバーです。<br>\n(ユーザーの良識が守られる前提での)API制限などの緩さがウリです。\n\n<h3>ステータスページ</h3>\n<a href=\"https://status.ingen084.net/\" target=\"_blank\">https://status.ingen084.net/</a>\n\n<h3>サーバーのスペック</h3>\n<ul style=\"text-align:left\"><li>CPU : Ryzen9 3950X(16C32T)\n<li>MEM : 128GB\n<li>Disk: NVMe Gen4 SSD 2TB</ul>\n\n<h3>連絡先</h3>\n<ul style=\"text-align:left\"><li><a rel=\"my\" href=\"https://ingen.work/@ingen084\" target=\"_blank\">@ingen084@ingen.work</a>\n<li><a href=\"https://twitter.com/ingen084\" target=\"_blank\">@ingen084@twitter.com</a></ul>\n",
+      "nodeAdmins": [
+        {
+          "name": "ingen084",
+          "email": "misskey@ingen.work"
+        }
+      ],
+      "maintainer": {
+        "name": "ingen084",
+        "email": "misskey@ingen.work"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "mailto:misskey@ingen.work",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#001900"
+    }
+  },
+  "error": null
+}

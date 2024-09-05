@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 915,
+      "localComments": 549
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Apothecary Shed",
+      "nodeDescription": "Science!  Psuedo-science!  Nature! Art! Nonsense! ",
+      "nodeIcon": "https://i0.wp.com/apothecaryshed.com/wp-content/uploads/2022/05/cropped-Screen-Shot-2022-05-19-at-10.21.56-AM.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

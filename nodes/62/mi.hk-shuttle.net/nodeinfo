@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6202,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mi.hk-shuttle.net",
+      "nodeDescription": "そら@HK_Shuttleの個人インスタンスです。アカウント登録は知り合いのみ<br>\n<br>\n<a href=https://mi.hk-shuttle.net/@HK_Shuttle/pages/system>インスタンス情報はこちら</a>",
+      "nodeAdmins": [
+        {
+          "name": "HK_Shuttle",
+          "email": "webmaster@hk-shuttle.net"
+        }
+      ],
+      "maintainer": {
+        "name": "HK_Shuttle",
+        "email": "webmaster@hk-shuttle.net"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

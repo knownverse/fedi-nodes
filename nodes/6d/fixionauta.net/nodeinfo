@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1028,
+      "localComments": 762
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fixionauta",
+      "nodeDescription": "Graphic artist focused on Comic Books. I live in a sea of books, comics, music, cinema and more books. También soy zurdo y hablo español.",
+      "nodeIcon": "https://i0.wp.com/fixionauta.net/wp-content/uploads/2024/05/cropped-favicon_052024.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

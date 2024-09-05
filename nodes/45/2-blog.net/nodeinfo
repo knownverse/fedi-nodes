@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 812,
+      "localComments": 4144
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "2-Blog",
+      "nodeDescription": "Luca Hammer bloggt über Social Media Analyse, Netzwerkvisualisierung und sonstige Dinge, die ihn beschäftigen.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

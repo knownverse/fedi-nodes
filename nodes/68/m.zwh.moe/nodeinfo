@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "i@zwh.moe",
+        "name": "wuhang2003"
+      },
+      "nodeDescription": "一个自用的 FireFish 实例<br> 看起来不想被打扰于是就关闭了新用户注册<br> <span class=\"_blur_text\">（怎么感觉就像偌大的屋子就自己一个人住）</span><br>",
+      "nodeName": "m.zwh.moe",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240601"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 0,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,276 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "media_proxy",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "rejected_instances": {},
+        "mrf_hellthread": {
+          "delist_threshold": 15,
+          "reject_threshold": 25
+        },
+        "mrf_simple": {
+          "accept": [],
+          "reject": [],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [
+            "humblr.social",
+            "mamot.fr",
+            "masto.komintern.work",
+            "tuiter.rocks",
+            "mastodon.la",
+            "masto.nobigtech.es",
+            "mastouille.fr",
+            "mastodon.it",
+            "mastodon.nl",
+            "troet.cafe",
+            "tkz.one",
+            "masto.es",
+            "misskey.io",
+            "xarxa.cloud",
+            "mastodon.social",
+            "botsin.space"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_keyword": {
+          "replace": [],
+          "reject": [
+            "https://womenarestupid.site",
+            "https://荒らし.com",
+            "https://ctkpaarr.org"
+          ],
+          "federated_timeline_removal": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 7776000,
+          "actions": [
+            "delist"
+          ]
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "botsin.space": {
+              "reason": "These really should be unlisted in the first place"
+            },
+            "humblr.social": {
+              "reason": "Lots of NSFW"
+            },
+            "mamot.fr": {
+              "reason": "Non-english"
+            },
+            "masto.es": {
+              "reason": "Non-english"
+            },
+            "masto.komintern.work": {
+              "reason": "Non-english"
+            },
+            "masto.nobigtech.es": {
+              "reason": "Non-english"
+            },
+            "mastodon.it": {
+              "reason": "Non-english"
+            },
+            "mastodon.la": {
+              "reason": "Non-english"
+            },
+            "mastodon.nl": {
+              "reason": "Non-english"
+            },
+            "mastodon.social": {
+              "reason": "Frankly, there's nothing interesting going on there"
+            },
+            "mastouille.fr": {
+              "reason": "Non-english"
+            },
+            "misskey.io": {
+              "reason": "Non-english"
+            },
+            "tkz.one": {
+              "reason": "Non-english"
+            },
+            "troet.cafe": {
+              "reason": "Non-english"
+            },
+            "tuiter.rocks": {
+              "reason": "Non-english"
+            },
+            "xarxa.cloud": {
+              "reason": "Non-english"
+            }
+          }
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "HellthreadPolicy",
+          "SimplePolicy",
+          "KeywordPolicy",
+          "ObjectAgePolicy",
+          "InlineQuotePolicy",
+          "HashtagPolicy"
+        ]
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "A pleroma instance run by kotobank.ch",
+      "nodeName": "Pleroma/Kotobank",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://pl.kotobank.ch/users/vaartis"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 5000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": 6,
+        "activeMonth": 6
+      },
+      "localPosts": 84996
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0-157-gfbcfbde8-develop"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Eastern California Guide",
+      "nodeDescription": "Muir said, &quot;Climb the mountains and get their good tidings.&quot; Enjoy my photography and affiliate writings. ",
+      "nodeIcon": "https://easterncaliforniaguide.com/wp-content/uploads/2024/03/cropped-20240212_172556.jpg"
+    }
+  },
+  "error": null
+}

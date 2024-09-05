@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 497,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "くらすきー",
+      "nodeDescription": "くらすきーは分散型SNSであるMisskeyのサーバーです。\nこのサーバーはここで暮らす皆様のためにあります。\n鍵空いてるにゃ！流行りに乗るにゃ！ついった………🫶",
+      "nodeAdmins": [
+        {
+          "name": "grarich",
+          "email": "support@grawlily.com"
+        }
+      ],
+      "maintainer": {
+        "name": "grarich",
+        "email": "support@grawlily.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "api",
+      "themeColor": "#80c0ff"
+    }
+  },
+  "error": null
+}

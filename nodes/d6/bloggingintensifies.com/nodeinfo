@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 896,
+      "localComments": 33
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "[Blogging Intensifies]",
+      "nodeDescription": "Technology, Coding, Music, Life...",
+      "nodeIcon": "https://bloggingintensifies.com/wp-content/uploads/2023/04/cropped-bifavicon.png"
+    }
+  },
+  "error": null
+}

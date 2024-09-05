@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 83,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 436,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ネクストさいずどん",
+      "nodeDescription": "オレハ、マダ、ツカエル",
+      "nodeAdmins": [
+        {
+          "name": "契音",
+          "email": "ikusuyo@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "契音",
+        "email": "ikusuyo@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://sites.google.com/site/ikenebroadcast/%E3%81%95%E3%81%84%E3%81%9A%E3%81%A9%E3%82%93%E9%96%A2%E9%80%A3/%E3%81%95%E3%81%84%E3%81%9A%E3%81%A9%E3%82%93%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://sites.google.com/site/ikenebroadcast/home",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#102e76"
+    }
+  },
+  "error": null
+}

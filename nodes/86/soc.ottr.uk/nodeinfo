@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 13444
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Otterspace",
+      "nodeDescription": "A teeny tiny server run by @cooper@ottr.uk for himself and friends!"
+    }
+  },
+  "error": null
+}

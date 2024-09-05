@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 319,
+      "localComments": 434
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Philip John",
+      "nodeDescription": "Senior WordPress Engineer specialising in journalism and migrations.",
+      "nodeIcon": "https://philipjohn.blog/wp-content/uploads/2023/01/cropped-me.jpg"
+    }
+  },
+  "error": null
+}

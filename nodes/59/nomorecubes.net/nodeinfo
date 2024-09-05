@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2608,
+      "localComments": 65
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "no more cubes",
+      "nodeDescription": "business / product / strategy / technology / therapy",
+      "nodeIcon": "https://nomorecubes.net/wp-content/uploads/2019/12/cropped-Bildschirmfoto-2019-12-15-um-12.29.55.png"
+    }
+  },
+  "error": null
+}

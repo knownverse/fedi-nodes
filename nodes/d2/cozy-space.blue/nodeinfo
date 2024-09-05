@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2349,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ソファのある部屋",
+      "nodeDescription": "僕（サーバー管理者）が個人的に安心できる場を作りたくて立てた小規模なインスタンス。<br>\n\n各々が実社会のロールを脱ぎ、誰も彼もが小さな生き物のひとつでいられるための空間。<br>\n飾ったり目立ったりする必要のない場所。<br>\n\nソファがある。座ってくつろいでもいいし、ソファは使わずに床に寝転がってもいい。<br>\n\n招待制になっているので、登録したいひとは、サーバールールを確認した上で何らかの方法で僕に連絡してください。<br>\nサーバールールは「登録する」ボタンを押すと確認できるよ。",
+      "nodeAdmins": [
+        {
+          "name": "せかいないそんざい",
+          "email": "dasein@cozy-space.bule"
+        }
+      ],
+      "maintainer": {
+        "name": "せかいないそんざい",
+        "email": "dasein@cozy-space.bule"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "sub_master",
+      "themeColor": "#322858"
+    }
+  },
+  "error": null
+}

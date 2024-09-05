@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 566,
+      "localComments": 3718
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KieranHumor.com",
+      "nodeDescription": "Not suitable for children, the sensitive or those hoping to get into heaven.",
+      "nodeIcon": "https://i0.wp.com/kieranhumor.com/wp-content/uploads/2022/08/cropped-kieran-richardson-humor-profile.jpg?fit=1659%2C1659&ssl=1"
+    }
+  },
+  "error": null
+}

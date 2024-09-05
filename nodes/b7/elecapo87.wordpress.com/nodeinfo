@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 802,
+      "localComments": 528
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Elena Ayala Bailador 🙋🏻‍♀️",
+      "nodeDescription": "Consultora educativa. Especialista en tecnología educativa. Formadora de docentes. Entrenadora de baloncesto",
+      "nodeIcon": "https://elecapo87.wordpress.com/wp-content/uploads/2024/01/cropped-cropped-t6xuwd6uc-ukpl4ca3d-8835153200cf-512.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 878,
+      "localComments": 227
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anna Plays Skyrim",
+      "nodeDescription": "And other games, too!",
+      "nodeIcon": "https://skyrim.annathepiper.org/files/2022/03/skyrim-imperial-logo.jpg"
+    }
+  },
+  "error": null
+}

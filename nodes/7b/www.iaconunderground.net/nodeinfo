@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 101,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Iacon Underground Radio Network",
+      "nodeDescription": "Committing 19(84) Since 2013",
+      "nodeIcon": "https://www.iaconunderground.net/wp-content/uploads/2019/10/Symbol_autobot_reg.png"
+    }
+  },
+  "error": null
+}

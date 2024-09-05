@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/shrimpia/misskey",
+      "repository": "https://github.com/shrimpia/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1529,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1755328,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "シュリンピア帝国",
+      "nodeDescription": "<p>ここは、空の上に浮かぶ不思議な国「シュリンピア帝国」。現実の喧騒にお疲れですか？シュリンピアで新たな生活を。</p>\n\n<p>エビが苦手でも大丈夫。好きを語りましょう。入ったら好きなものを自己紹介してみるといいかも。</p>",
+      "nodeAdmins": [
+        {
+          "name": "Shrimpia Network",
+          "email": "shrimpia@shrimpia.network"
+        }
+      ],
+      "maintainer": {
+        "name": "Shrimpia Network",
+        "email": "shrimpia@shrimpia.network"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.shrimpia.network/constitution",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/shrimpia/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#B93E43"
+    }
+  },
+  "error": null
+}

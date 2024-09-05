@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-drg-1.0.2",
+      "homepage": "https://github.com/doracochan/dragoskey/tree/dragoskey",
+      "repository": "https://github.com/doracochan/dragoskey/tree/dragoskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 25,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 9358,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "どらごすきー",
+      "nodeDescription": "ドラゴンが好きな人が管理する身内鯖です。ドラゴンを愛でるもよし、カスタム絵文字で遊ぶもよし、好きにお過ごしください。\n\n避難用・サブ垢としての運用、好きな絵文字を追加してノートを書いたりリアクションシューティングする、といった利用を想定しています。",
+      "nodeAdmins": [
+        {
+          "name": "どらこ",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "どらこ",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://sky.drago.moe/@drago/pages/terms_of_service",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://sky.drago.moe/@drago",
+      "repositoryUrl": "https://github.com/doracochan/dragoskey/tree/dragoskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#c0bdce"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,137 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "11.37.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 209
+      },
+      "localPosts": 13694
+    },
+    "metadata": {
+      "nodeName": "Gothloli Club -- ロリータ・ファッション クラブ -- 今天大家吃土了么！a.k.a. Lo站",
+      "nodeDescription": "A Pan-Lolita-Fashion instance, a Japanese fashion style, not the Russian literature \"Lolita\". \n这是一个泛Lolita主题的Misskey服务器，欢迎lo娘/lo汉入驻！Pink House还有制服汉服哥特各种原宿风亚逼等等也超ok！感兴趣的路人也可以！\n欢迎大家分享各种各样的东西，只是另一个分享你生活的地方，讨论话题基本无限制，请先阅读服务器规则<a href=\"/@c/pages/1558201403801\">Server Descriptions & Rules</a>。如果在本网站上遇到任何问题，请随时发送电子邮件至j2kxzz4e@anonaddy.me或者任何能找到站长我的通讯手段。",
+      "maintainer": {
+        "name": "CGG",
+        "email": "j2kxzz4e@anonaddy.me"
+      },
+      "langs": [],
+      "ToSUrl": "https://misskey.gothloli.club/@c/pages/1558201403801",
+      "repositoryUrl": "https://github.com/CGsama/misskey",
+      "feedbackUrl": "https://github.com/CGsama/misskey/issues/new",
+      "announcements": [
+        {
+          "text": "如果遇到了什么问题或者有想要改进的地方请毫不留情的创建一个case吧！\n如果站点挂了也可以创建个case联系站长www\n\nhttps://jira.corsethime.com/projects/GLC/",
+          "image": null,
+          "title": "使用上的问题请随意开Jira Case"
+        },
+        {
+          "text": "注册后一周未发布任何内容的账号将被冻结，请联系站长解冻",
+          "image": null,
+          "title": "冻结僵尸号"
+        },
+        {
+          "text": "https://register.gothiclolita.club/",
+          "image": null,
+          "title": "邀请码申修好了修好了"
+        },
+        {
+          "text": "RT，等我这两天有空搞个php+wp的服务器出来",
+          "image": null,
+          "title": "邀请码申请坏了！"
+        },
+        {
+          "text": "海外用户推荐使用第一个，国内用户推荐使用第二个\n\n走cloudflare\n`fedi.gothiclolita.club`\n\n备用直连\n`m.glc.icu`\n\n关于注册，请访问`gothloli.live`填表申请邀请码\n其他疑问请发送邮件至`j2kxzz4e@anonaddy.me`\n",
+          "image": null,
+          "title": "lo站额外访问线路"
+        },
+        {
+          "text": "lo站也跟风开了Matrix聊天室！虽然暂时没多少人也不用分频道，不过还是先做了一个导航房间，进去之后划到顶就能看到主聊天室的入口了（x\n\n加入链接：https://stnr.icu/iLxCe3\n",
+          "image": null,
+          "title": "Matrix聊天室"
+        },
+        {
+          "text": "本lo站现已停止开放注册，邀请码申请请填写表单 http://lolita.icu/f13OGq",
+          "image": null,
+          "title": "关闭开放注册"
+        },
+        {
+          "text": "@gcnmb <----私信她！可以带一张图！",
+          "image": null,
+          "title": "本站树洞"
+        },
+        {
+          "text": "本实例内在用保存书签方法访问本站的国内用户请尽快联系我，入口预计会在11月份更换",
+          "image": null,
+          "title": "关于魔法链接更新"
+        },
+        {
+          "text": "就俩，禁肖战粉，禁政治话题\n其他细则请见https://misskey.gothloli.club/@c/pages/1558201403801",
+          "image": null,
+          "title": "说下规矩"
+        },
+        {
+          "text": "介于最近消耗日益剧增，开放赞助页面，所得款项会全部用于服务器开销。\n赞助者在本站没有实际额外权益，但是可以得到gothloli.club的域名邮箱。\n信用卡: https://www.patreon.com/corsethime\n比特币: 1PozjxRWR4GHERr6tEGyU9ohKD2XyLEke7\n",
+          "image": null,
+          "title": "关于赞助"
+        },
+        {
+          "text": "好像也没有什么人来了，于是决定注册启用reCAPTCHA（以后登录时不需要），国内小伙伴们抱歉了，需要动点小脑筋怎么访问谷歌，需要帮忙的可以加下面的群或者邮件联系我",
+          "image": null,
+          "title": "启用reCAPTCHA"
+        },
+        {
+          "text": "开了一个qq群，欢迎来玩w",
+          "image": "https://fedi.gothiclolita.club/files/webpublic-aead15d2-2bf8-4d41-b641-dbd2c725931c",
+          "title": "来唠嗑啊"
+        },
+        {
+          "text": "有需要的童鞋可以私聊gcnmb来发送匿名消息，源码在https://stnr.icu/eH4RKj",
+          "image": null,
+          "title": "新开了匿名bot"
+        },
+        {
+          "text": "当然是喜闻乐见的邮箱时刻！这次用私人架设的服务器，所以想要直接说就好！",
+          "image": null,
+          "title": "新增域名gothlo.li"
+        },
+        {
+          "text": "科科，发现gsuite真是好东西，超过五个人居然可以gdrive无限容量，费用是12美元一个月，邮箱后缀可以和本站域名一样，也可以.net，有兴趣可以联系我",
+          "image": null,
+          "title": "想要域名邮箱的联系我"
+        },
+        {
+          "text": "祝大家在这里玩得开心🥳\n爱你们❤️\n服務器規則http://lolita.icu/346NRS\n管理員郵箱及PGP公鑰：http://lolita.icu/WJkhT3",
+          "image": "https://fedi.gothiclolita.club/files/9325abba-1a97-4c87-aeb9-cb180cd147d6",
+          "title": "歡迎歡迎！"
+        }
+      ],
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 8192,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 59,
+      "localComments": 76
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "www.mattos.eng.br",
+      "nodeDescription": "Dominus illuminatio mea",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

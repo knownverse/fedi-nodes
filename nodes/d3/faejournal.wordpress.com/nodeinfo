@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 31,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Fae Journal",
+      "nodeDescription": "Adventures, mishaps, and messy magic",
+      "nodeIcon": "https://faejournal.wordpress.com/wp-content/uploads/2022/10/cropped-8f378a7f-d59f-42a6-9f0d-725b7b516ffe_1_105_c.jpeg"
+    }
+  },
+  "error": null
+}

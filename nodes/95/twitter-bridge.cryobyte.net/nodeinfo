@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "birdsitelive",
+      "version": "1.0.0"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1158
+      }
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "cryolab3@gmail.com"
+    }
+  },
+  "error": null
+}

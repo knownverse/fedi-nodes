@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Ibaizabal aldeko eragile eta gune autogestionatuen agenda",
+      "nodeName": "Lubaki Agenda ",
+      "nodeTimezone": "Europe/Madrid",
+      "nodeActor": "lubaki"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 2,
+      "localPosts": 472,
+      "users": {
+        "total": 38
+      }
+    }
+  },
+  "error": null
+}

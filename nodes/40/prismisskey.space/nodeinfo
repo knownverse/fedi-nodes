@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "0.1.4-beta",
+      "homepage": "https://github.com/Type4ny-project/type4ny",
+      "repository": "https://github.com/Type4ny-project/type4ny"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1002,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 534182,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "PrisMisskey",
+      "nodeDescription": "Misskeyの最先端がここにある。\nPrismisskeyは高機能で話題を選ばない汎用サーバー、今登録しないなんて勿体ないかも…？\nあなたの居場所もきっとここにある。",
+      "nodeAdmins": [
+        {
+          "name": "まっちゃてぃー。",
+          "email": "@mattyatea@prismisskey.space"
+        }
+      ],
+      "maintainer": {
+        "name": "まっちゃてぃー。",
+        "email": "@mattyatea@prismisskey.space"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.prismisskey.space/tos",
+      "privacyPolicyUrl": "https://docs.prismisskey.space/Privacy-Policy",
+      "inquiryUrl": "https://prismisskey.space/@mattyatea",
+      "impressumUrl": "https://prismisskey.space/@mattyatea",
+      "repositoryUrl": "https://github.com/Type4ny-project/type4ny",
+      "feedbackUrl": "https://github.com/Type4ny-project/type4ny/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#2b2c41"
+    }
+  },
+  "error": null
+}

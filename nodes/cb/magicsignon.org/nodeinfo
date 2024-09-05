@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.8.8"
+    },
+    "protocols": [
+      "zot",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 2,
+        "activeMonth": 0
+      },
+      "localPosts": 3,
+      "localComments": 15
+    },
+    "metadata": {
+      "nodeName": "Magic Sign On \\ OpenWebAuth (OWA)"
+    }
+  },
+  "error": null
+}

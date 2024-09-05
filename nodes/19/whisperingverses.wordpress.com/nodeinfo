@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 116,
+      "localComments": 112
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "whisperingverses - Girija Menon",
+      "nodeDescription": "From the heart ......to the heart",
+      "nodeIcon": "https://whisperingverses.wordpress.com/wp-content/uploads/2021/06/cropped-cropped-whatsapp-image-2021-06-10-at-16.54.40.jpeg"
+    }
+  },
+  "error": null
+}

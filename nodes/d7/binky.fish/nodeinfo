@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.1",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 45,
+        "activeHalfyear": 28,
+        "activeMonth": 14
+      },
+      "localPosts": 2098,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Binkyfish Network",
+      "nodeDescription": "Every Day is Binky Fish Friday!\n\nWe're a small group of creators who love to express ourselves above everything else. Post memes, create art, or make music or stories here. ",
+      "maintainer": {
+        "name": "Koimoa",
+        "email": "lol@nope.com"
+      },
+      "langs": [],
+      "tosUrl": "https://binky.fish/@koimoa/pages/Terms%20of%20Service",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

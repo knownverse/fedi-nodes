@@ -1,0 +1,337 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 2,
+        "activeHalfyear": 4
+      },
+      "localPosts": 4167,
+      "localComments": 28
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Based Tube",
+      "nodeDescription": "Dcc's tube",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": true
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-transcoding-custom-quality",
+              "name": "transcoding-custom-quality",
+              "version": "0.1.0",
+              "description": "Set a custom quality for transcoding",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-hardware-transcode-vaapi",
+              "name": "hardware-transcode-vaapi",
+              "version": "0.2.9",
+              "description": "Plugin that adds transcode profiles which use vaapi for hardware acceleration",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-hardware-transcode-nvenc",
+              "name": "hardware-transcode-nvenc",
+              "version": "0.0.1",
+              "description": "Plugin that adds transcode profiles which use NVIDIA NVENC for hardware acceleration",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-ffprobe",
+              "name": "ffprobe",
+              "version": "0.3.0",
+              "description": "This plugin using ffprobe to extract metadata from a media file.",
+              "clientScripts": {
+                "client/video-watch-client-plugin.js": {
+                  "script": "client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-custom-branding-cappital",
+              "name": "custom-branding-cappital",
+              "version": "1.0.0",
+              "description": "The PeerTube Customization Plugin allows you to easily customize the color theme and logo of your PeerTube instance. With this plugin, you can create a unique and branded look for your video hosting platform.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-chapters",
+              "name": "chapters",
+              "version": "1.1.3",
+              "description": "PeerTube chapter plugin",
+              "clientScripts": {
+                "dist/client/video-watch-client-plugin.js": {
+                  "script": "dist/client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch",
+                    "embed"
+                  ]
+                },
+                "dist/client/video-edit-client-plugin.js": {
+                  "script": "dist/client/video-edit-client-plugin.js",
+                  "scopes": [
+                    "video-edit"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-desocialify",
+              "name": "desocialify",
+              "version": "0.0.1",
+              "description": "PeerTube remove social features",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-dark",
+              "name": "dark",
+              "version": "2.5.0",
+              "description": "PeerTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-theme-borked",
+              "name": "borked",
+              "version": "1.2.3",
+              "description": "Dark theme for PeerTube, built for tube.borked.host",
+              "css": [
+                "assets/css/style.css",
+                "assets/css/starfield.css"
+              ],
+              "clientScripts": {
+                "client/starfield.js": {
+                  "script": "client/starfield.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-bittube-dark-mode",
+              "name": "bittube-dark-mode",
+              "version": "3.0.0",
+              "description": "BitTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-bittube-dark-mode-no-background",
+              "name": "bittube-dark-mode-no-background",
+              "version": "3.0.1",
+              "description": "BitTube dark theme without background",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ],
+          "default": "bittube-dark-mode-no-background"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": true
+          },
+          "enabledResolutions": [
+            720,
+            1080
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": [
+              1080
+            ]
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": true
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": false
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 5368709120,
+          "videoQuotaDaily": 5368709120
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.700-m544",
+      "repository": "https://github.com/mei23/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1914,
+        "activeHalfyear": 232,
+        "activeMonth": 135
+      },
+      "localPosts": 1906954,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "めいすきー",
+      "nodeDescription": "お淑やかなめいめいさん推しのためのめいめい邸ガレージなのだわ\n\n\nローカルタイムラインのない[meisskey.one](https://meisskey.one/)もあるのだわ\n\n\n\nお淑やかなめいめいさん (@mei23) の言うことを聞くこと\n\n\n招待コード: 758072\n\n\n<small>[通報・報告 (Report)](https://forms.gle/FHBsBMsYbuBmTsE17)</small>",
+      "name": "めいすきー",
+      "description": "お淑やかなめいめいさん推しのためのめいめい邸ガレージなのだわ\n\n\nローカルタイムラインのない[meisskey.one](https://meisskey.one/)もあるのだわ\n\n\n\nお淑やかなめいめいさん (@mei23) の言うことを聞くこと\n\n\n招待コード: 758072\n\n\n<small>[通報・報告 (Report)](https://forms.gle/FHBsBMsYbuBmTsE17)</small>",
+      "maintainer": {
+        "name": "めいめい",
+        "email": "https://forms.gle/FHBsBMsYbuBmTsE17"
+      },
+      "langs": [],
+      "announcements": [
+        {
+          "title": "めいすきーについて",
+          "text": "<a target=_blank href=https://mei23.github.io/misskey_m544_net>めいすきーについて</a> / \n<a target=_blank href=https://misskey.m544.net/notes/717cefadcfe84dd16460ba5f>アイコンの設定方法</a> / \n<a target=_blank href=https://misskey.m544.net/docs/ja-JP/search-box>検索について</a> / \n<a target=_blank href=https://misskey.m544.net/docs/ja-JP/visibilities>公開範囲について</a> /\n<a target=_blank href=https://misskey.m544.net/mfm-cheat-sheet>文字装飾</a>\n"
+        }
+      ],
+      "relayActor": "https://misskey.m544.net/users/5eb6af526f38b1736a3fe345",
+      "relays": [],
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3001,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost"
+    }
+  },
+  "error": null
+}

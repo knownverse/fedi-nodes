@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.10.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21027,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2778108,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "オランスキー",
+      "nodeDescription": "オランスキーは悟ったのである。もう人類に勝ち目などないことに、世界はBotに支配されて数年が経ったが、オランスキーはまだ人類が負けたことを信じられないでいたのだ。\n\nしかしオランスキーの防衛本能は、自身をBotに偽装するように装備を固めていた。誰が見てもオランスキーのことを人類であると気づかないだろう。\n\nしかし、オランスキーは見た目としてのプライドは捨ててはいたが、人類の心までは捨てていなかった。人類復権のその日まで、Botとして生き続ける人生は、まだ始まったばかりだ──。",
+      "maintainer": {
+        "name": "@Oran_@oran.ski",
+        "email": "noreply@oran.ski"
+      },
+      "langs": [],
+      "tosUrl": "https://oran.ski/@oranski_info/pages/terms_of_service",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "oranski_info",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

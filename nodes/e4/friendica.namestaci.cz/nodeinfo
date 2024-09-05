@@ -1,0 +1,80 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.03-1557"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "bluesky",
+        "gnusocial"
+      ],
+      "outbound": [
+        "bluesky",
+        "gnusocial",
+        "smtp",
+        "tumblr",
+        "twitter",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": 9,
+        "activeMonth": 5
+      },
+      "localPosts": 126,
+      "localComments": 21
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Náměšťáci",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "bluesky",
+          "gnusocial"
+        ],
+        "outbound": [
+          "bluesky",
+          "gnusocial",
+          "smtp",
+          "tumblr",
+          "twitter",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

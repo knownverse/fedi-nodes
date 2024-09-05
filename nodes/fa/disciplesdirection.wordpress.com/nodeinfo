@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1670,
+      "localComments": 127
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Disciple&#039;s Direction",
+      "nodeDescription": "Luke 9:23-24 23 And He was saying to them all, “If anyone wishes to come after Me, he must deny himself, and take up his cross daily and follow Me. 24 For whoever wishes to save his life will lose it, but whoever loses his life for My sake, he is the one who will save it.",
+      "nodeIcon": "https://disciplesdirection.wordpress.com/wp-content/uploads/2023/03/cropped-screenshot_20230324-0701142-1.png"
+    }
+  },
+  "error": null
+}

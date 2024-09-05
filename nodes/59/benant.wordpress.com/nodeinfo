@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1216,
+      "localComments": 226
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "웹 개발자 이야기",
+      "nodeDescription": "웹 사이트 개발자의 평범한 이야기들입니다.",
+      "nodeIcon": "https://benant.wordpress.com/wp-content/uploads/2023/05/cropped-kennyhan.jpg"
+    }
+  },
+  "error": null
+}

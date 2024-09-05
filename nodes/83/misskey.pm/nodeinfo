@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "abuse@nauzome.com",
+        "name": "nauzome"
+      },
+      "nodeDescription": "abuse@nauzome.com",
+      "nodeName": "misskey.pm",
+      "proxyAccountName": "9r3btkqvh7knl5xd",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 42427,
+      "users": {
+        "activeHalfyear": 65,
+        "activeMonth": 14,
+        "total": 236
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

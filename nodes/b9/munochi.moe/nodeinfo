@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+munochi.7",
+      "homepage": "https://github.com/yunochi/misskey",
+      "repository": "https://github.com/yunochi/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 21875,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "무놋치.모에",
+      "nodeDescription": "므아한 무놋치.모에 인스턴스입니다!\n개인서버에 가깝습니다. ",
+      "nodeAdmins": [
+        {
+          "name": "yuno",
+          "email": "admin@munochi.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "yuno",
+        "email": "admin@munochi.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://juicy-baryonyx-152.notion.site/munochi-moe-133ac0b7d58f49fba84fca0b0aacf6e9",
+      "privacyPolicyUrl": "https://juicy-baryonyx-152.notion.site/munochi-moe-ab63862e59bb46fb84fb34c59abb8c1a",
+      "inquiryUrl": "https://munochi.moe/@yuno",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/yunochi/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "muno",
+      "themeColor": "#ffb3e9"
+    }
+  },
+  "error": null
+}

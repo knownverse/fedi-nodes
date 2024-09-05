@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 31734,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "月のテンペスト",
+      "nodeDescription": "夜闇に輝く月のように静謐な存在感と、嵐のような激しい闘志を持つ五人組。\nどこか儚さを感じさせる楽曲と、パワフルなダンスパフォーマンスが存在感を放つ。 <br>\n夜を司る月の引力は、大きな嵐を巻き起こす。 <br>\n",
+      "nodeAdmins": [
+        {
+          "name": "じゃがびぃ",
+          "email": "americangrosbeak0629@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "じゃがびぃ",
+        "email": "americangrosbeak0629@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#0000CD"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 153195,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "sp8key",
+      "nodeDescription": "字：YUKETSU<br>\nてきとう身内サーバーです<br><br>\n▼絵文字について▼<br><a href=\"https://sp8key.monster/@aktmr/pages/emoji\" style=\"color:#ff0000\">sp8key.monster/@aktmr/pages/emoji</a>\n<br>",
+      "nodeAdmins": [
+        {
+          "name": "aktmr",
+          "email": "none"
+        }
+      ],
+      "maintainer": {
+        "name": "aktmr",
+        "email": "none"
+      },
+      "langs": [],
+      "tosUrl": "https://www.notion.so/sp8key/7adfc7533b2f4ea3b1ca99d4c6762eea?v=ef83f737734a45a29b49eb3b0d46b1f9&pvs=4",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": "https://sp8key.monster/@aktmr",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#915da3"
+    }
+  },
+  "error": null
+}

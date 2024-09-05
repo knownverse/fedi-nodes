@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3469,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 19418,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "声豚避難所",
+      "nodeDescription": "ここはツイッターではありません アイコラを送ったからといってアカウントを凍結される心配はありません。<br>\n声優さんに関する投稿は自由に投稿できます。🥰",
+      "maintainer": {
+        "name": "すぱい",
+        "email": "admin@seikora.one"
+      },
+      "langs": [],
+      "tosUrl": "https://seikora.one/announcements",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "follow_bot",
+      "themeColor": "#1D9BF0"
+    }
+  },
+  "error": null
+}

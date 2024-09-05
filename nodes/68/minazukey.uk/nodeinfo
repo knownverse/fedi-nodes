@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "https://forms.gle/VQ2D3nmVmhykUDh99",
+        "name": "@magi"
+      },
+      "nodeDescription": "【2024.07.10】不具合が解消され、Safariブラウザ上からログインできない問題が解決しました。長らくご不便をおかけしてしまい、申し訳ありませんでした。<br>\n<h3>※<font color=\"#008ace\"><u><a href=\"https://minazukey.notion.site/c50ab8a847d1451aa495c5f091b0a947#778825569e624971bf40e6c17ec4976f\">利用規約</a></u></font>を確認して登録条件をよく見てください</h3>\n和風ホラー因習村風汎用Firefishサーバーです。ホラー風で始めただけでホラー要素はかなり薄めです(好きな方もいます) サーバーの雰囲気は下記の公開タイムラインを確認して見てください。登録した時点で利用規約に同意したと看做します。<br>一部のメールアドレス宛にうまく登録メールが届かない場合があります。その場合お手数ですが<font color=\"#008ace\"><a href=\"https://forms.gle/VQ2D3nmVmhykUDh99\"><u>お問い合わせフォーム</u></a></font>からご連絡ください。<br>\nアカウント作成前に確認可能な公開タイムラインのURLは<font color=\"#008ace\"><u><a href=\"timeline\">こちら</a></u></font><br>\n<font color=\"#008ace\"><u><a href=\"https://www.notion.so/minazukey/682c43fa76754853992eacedfd2fe565?pvs=4\">プライバシーポリシー</a></u></font>\n<br>",
+      "nodeName": "皆尽村",
+      "proxyAccountName": "9dzjhe6dol",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#c71b07"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 527672,
+      "users": {
+        "activeHalfyear": 244,
+        "activeMonth": 150,
+        "total": 372
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

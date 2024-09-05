@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I Am Violet",
+      "nodeDescription": "Transcendent tales from my transition",
+      "nodeIcon": "https://iamviolet.ca/wp-content/uploads/2024/06/cropped-pxl_20240511_172915042.portrait2_1920.jpg"
+    }
+  },
+  "error": null
+}

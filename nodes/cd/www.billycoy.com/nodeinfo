@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Blasted Brain V4.0",
+      "nodeDescription": "Masakit sa ulo ang mag-isip",
+      "nodeIcon": "https://i0.wp.com/www.billycoy.com/wp-content/uploads/2023/10/cropped-pasta-1529090.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

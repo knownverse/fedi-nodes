@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 23,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "“A World of Curiosities: Unraveling the Wonders of Everyday Life",
+      "nodeDescription": "Lifestyle, Technology, Health &amp; Wellness, Global Cuisine, Personal Development, Creative Arts, Eco-friendly, History, Finance, Travel, Insurance, Culture",
+      "nodeIcon": "https://johnagas.wordpress.com/wp-content/uploads/2024/01/cropped-qi-bin-w4hbafegiac-unsplash.jpg"
+    }
+  },
+  "error": null
+}

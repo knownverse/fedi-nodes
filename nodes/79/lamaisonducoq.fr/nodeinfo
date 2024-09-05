@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 19,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Maison du Coq de Mennetou-sur-Cher",
+      "nodeDescription": "Spa - Meublé de tourisme 3 étoiles - Cité médiévale de Mennetou-sur-Cher - Vue sur le canal de Berry et le val de Cher.",
+      "nodeIcon": "https://lamaisonducoq.fr/wp-content/uploads/2024/04/cropped-logo2.png"
+    }
+  },
+  "error": null
+}

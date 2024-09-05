@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1580,
+      "localComments": 663
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Eric Binnion",
+      "nodeDescription": "One of those blog things",
+      "nodeIcon": "https://i0.wp.com/eric.blog/wp-content/uploads/2022/11/cropped-cropped-91D14218-AABC-46B3-8478-EE1B9760606F.jpeg?fit=512%2C512&quality=89&ssl=1"
+    }
+  },
+  "error": null
+}

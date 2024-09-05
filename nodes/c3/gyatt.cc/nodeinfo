@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeMonth": 3,
+        "activeHalfyear": 12
+      },
+      "localPosts": 3748
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "gyatt",
+      "nodeDescription": "the best gyatt the rizzler has ever seen\r\n\r\nbased in australia"
+    }
+  },
+  "error": null
+}

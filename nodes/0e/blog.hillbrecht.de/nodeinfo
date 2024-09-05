@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 727,
+      "localComments": 1379
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Letzte Weisheiten",
+      "nodeDescription": "Der Blog zum Dirk",
+      "nodeIcon": "https://blog.hillbrecht.de/wp-content/uploads/2017/02/cropped-2012-01-17.dh-siteicon.png"
+    }
+  },
+  "error": null
+}

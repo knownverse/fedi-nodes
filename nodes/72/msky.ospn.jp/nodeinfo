@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 467,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "OSPN Misskey server",
+      "nodeDescription": "OSPNのMisskeyサーバーです。\n\nこのサーバーは @akkie が職権を乱用して勝手に立てたものなので、運用の安定性については保証できない場合があります。とくに、サーバー所在地で年に1回くらい数時間停電するため、このサーバーでFediverseに入り浸れるようになった場合は、予備のアカウントを別のサーバーに作ることをオススメします。",
+      "nodeAdmins": [
+        {
+          "name": "あっきぃ",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "あっきぃ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://ospn.jp",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

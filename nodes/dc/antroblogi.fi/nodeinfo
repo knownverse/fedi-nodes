@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 62,
+        "activeMonth": 253,
+        "activeHalfyear": 251
+      },
+      "localPosts": 1045,
+      "localComments": 415
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AntroBlogi",
+      "nodeDescription": "Kulttuurin kriitikot",
+      "nodeIcon": "https://antroblogi.fi/wp-content/uploads/2022/07/cropped-Icon-AntroBlogi-Head.png"
+    }
+  },
+  "error": null
+}

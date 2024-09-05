@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WORLD ZEN ART CENTER",
+      "nodeDescription": "World Zen Art Center is a renowned non-profit institution dedicated to Zen art, registered in the State of New York, United States, on December 15, 2012. The Ci Bei Temple and the New York Qimen Fengshui Academy are affiliated with the World Zen Art Center. Established under the guidance of Master Yi-Xiong Gu, a respected figure in the field, our mission is to delve into the depths of Zen Tao and Art, ensuring international initiatives promote lasting prosperity and appreciation of this rich heritage for generations to come. As a non-profit Zen study center, we are dedicated to exploring and preserving the mysterious Eastern Zen Tao culture and art.",
+      "nodeIcon": "https://worldzenart.org/wp-content/uploads/2023/07/cropped-gu-zen2.jpg"
+    }
+  },
+  "error": null
+}

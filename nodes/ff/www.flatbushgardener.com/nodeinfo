@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 1086,
+      "localComments": 1745
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Flatbush Gardener",
+      "nodeDescription": "Urban Habitat Gardening with Native Plants",
+      "nodeIcon": "https://www.flatbushgardener.com/wp-content/uploads/2023/03/Flatbush-Gardener-Avatar-by-Ethan-Kocak-2020-10-07-400x400-1.jpg"
+    }
+  },
+  "error": null
+}

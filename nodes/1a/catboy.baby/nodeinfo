@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.7.0-rc",
+      "homepage": "https://github.com/codingneko/Sharkey",
+      "repository": "https://github.com/codingneko/Sharkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4464,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Catboy Baby",
+      "nodeDescription": "Sharkey for baby catboys! <br /><br />\nThis instance is meant as a house for the little catboys of the fediverse. <br /> <br />\nJoining is free, but you need to be approved. Throwing me a message wherever will help speed this up. <br /> <br />\nNo reason sign ups or signups with gibberish as a reason will NOT be approved. Don't bother.",
+      "nodeAdmins": [
+        {
+          "name": "Cody",
+          "email": "cody@codingneko.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Cody",
+        "email": "cody@codingneko.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": "https://catboy.baby/privacy",
+      "inquiryUrl": "https://codingneko.com",
+      "impressumUrl": null,
+      "donationUrl": "https://ko-fi.com/codingneko",
+      "repositoryUrl": "https://github.com/codingneko/Sharkey",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#56bee1"
+    }
+  },
+  "error": null
+}

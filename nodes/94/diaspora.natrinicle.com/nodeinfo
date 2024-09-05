@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.0-p9485a026"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      },
+      "localPosts": 250,
+      "localComments": 965
+    },
+    "metadata": {
+      "nodeName": "Natrinicles Diaspora Pod",
+      "xmppChat": false,
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": true
+      }
+    }
+  },
+  "error": null
+}

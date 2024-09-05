@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.700-m544",
+      "repository": "https://github.com/mei23/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 28108,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "四畳半一間",
+      "nodeDescription": "ごくごく一般的な個人用サーバ",
+      "name": "四畳半一間",
+      "description": "ごくごく一般的な個人用サーバ",
+      "maintainer": {},
+      "langs": [],
+      "announcements": [
+        {
+          "title": "このサーバについて",
+          "text": "ここに掲示するのが漏れておりました...。以下ページをご確認ください。2021年頃からあったのですが、掲示漏れしてました……。<br>\n以下は2023/07/07より有効とします（運営ポリシー自体は2年前から変更ありません）<br>\n<br>\nサーバー概要、サーバー運営ポリシー<br>\nhttps://ridixy.com/@nuitary/pages/1624310553531"
+        },
+        {
+          "title": "githubアカウントについて",
+          "text": "2020/7/23現在、githubアカウントを所持していません。<br>\nですが、めいすきーをベースに、機能追加・変更などの独自改造をする場合は事前にアカウントを取得し、本項に明示いたします。"
+        }
+      ],
+      "relayActor": null,
+      "relays": [],
+      "disableRegistration": true,
+      "maxNoteTextLength": 1000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null
+    }
+  },
+  "error": null
+}

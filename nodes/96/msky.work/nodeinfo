@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 93,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11792,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "労働者たちのMisskey",
+      "nodeDescription": "聞いたことある名前ですね？　社畜さんいらっしゃい！！　特にIT系の人！！　※登録や話題は限定しませんが、IT系の社畜さんを集めています！",
+      "nodeAdmins": [
+        {
+          "name": "いつき",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "いつき",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://msky.work/@admin/pages/Terms_of_service",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://msky.work/@ityuki",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

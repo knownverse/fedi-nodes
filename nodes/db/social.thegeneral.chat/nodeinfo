@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.4+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 3,
+        "activeHalfyear": 4
+      },
+      "localPosts": 1397
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The General Chat",
+      "nodeDescription": "We are the General Chat, a long-running private community of friends (and friends of friends) going back to the days of phpBB message boards."
+    }
+  },
+  "error": null
+}

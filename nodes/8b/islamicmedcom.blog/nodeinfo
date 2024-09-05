@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 9,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "https://islamicmedcom.blog",
+      "nodeDescription": "Dr. Sayed Banny Hashemy ve Dr. Hossein Heirandish&#039;in Seminerinden Notlar",
+      "nodeIcon": "https://mltrgfl7fzud.i.optimole.com/cb:wUVf.4b66b/w:auto/h:auto/q:mauto/f:best/ig:avif/https://i0.wp.com/islamicmedcom.blog/wp-content/uploads/2024/08/cropped-demo-screenshot.jpg?fit=624%2C624&ssl=1"
+    }
+  },
+  "error": null
+}

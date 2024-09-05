@@ -1,0 +1,344 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "staging.kazar.ma",
+            "poa.st",
+            "pawoo.net",
+            "nicecrew.digital",
+            "baraag.net",
+            "bae.st",
+            "mastodon.top",
+            "ryona.agency",
+            "eveningzoo.club",
+            "leafposter.club",
+            "poster.place",
+            "mastodon.art",
+            "mastodon.redplanetlabs.com",
+            "wolfgirl.bar",
+            "detroitriotcity.com",
+            "cmm.fyi",
+            "forestver.se",
+            "cryptodon.lol",
+            "freesocial.co",
+            "scfzfilm.org",
+            "kokuusa.club",
+            "edusocial.it",
+            "9kb.me",
+            "bondsdogs.com",
+            "neuroscience-mastodon.com",
+            "mastodon.svgun.ru",
+            "cum.salon",
+            "maven.ly",
+            "heymaven.com",
+            "awakari.com",
+            "awakari.app",
+            "parcero.bond",
+            "notacri.me",
+            "miiverse.cafe"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [
+            "mastodon.social"
+          ],
+          "report_removal": [],
+          "followers_only": [
+            "threads.net",
+            "universeodon.com"
+          ],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "parcero.bond": {
+              "reason": "not nice"
+            },
+            "kokuusa.club": {
+              "reason": "Spam"
+            },
+            "mastodon.svgun.ru": {
+              "reason": "Spam"
+            },
+            "9kb.me": {
+              "reason": "Spam"
+            },
+            "nicecrew.digital": {
+              "reason": "not nice"
+            },
+            "maven.ly": {
+              "reason": "scrapers"
+            },
+            "ryona.agency": {
+              "reason": "not nice"
+            },
+            "cum.salon": {
+              "reason": "spam"
+            },
+            "leafposter.club": {
+              "reason": "not nice"
+            },
+            "staging.kazar.ma": {
+              "reason": "noisy"
+            },
+            "forestver.se": {
+              "reason": "Spam"
+            },
+            "edusocial.it": {
+              "reason": "Spam"
+            },
+            "detroitriotcity.com": {
+              "reason": "Not nice"
+            },
+            "awakari.com": {
+              "reason": "ad tech bullshit"
+            },
+            "eveningzoo.club": {
+              "reason": "Not nice"
+            },
+            "cmm.fyi": {
+              "reason": "Spam"
+            },
+            "wolfgirl.bar": {
+              "reason": "not nice"
+            },
+            "awakari.app": {
+              "reason": "ad tech bullshit"
+            },
+            "heymaven.com": {
+              "reason": "scrapers"
+            },
+            "mastodon.top": {
+              "reason": "porn spam"
+            },
+            "bae.st": {
+              "reason": "loli"
+            },
+            "neuroscience-mastodon.com": {
+              "reason": "Spam"
+            },
+            "cryptodon.lol": {
+              "reason": "Spam"
+            },
+            "bondsdogs.com": {
+              "reason": "Spam"
+            },
+            "poa.st": {
+              "reason": "not nice, loli"
+            },
+            "poster.place": {
+              "reason": "not nice"
+            },
+            "freesocial.co": {
+              "reason": "Spam"
+            },
+            "baraag.net": {
+              "reason": "not nice, loli"
+            },
+            "pawoo.net": {
+              "reason": "loli"
+            },
+            "miiverse.cafe": {
+              "reason": "gross"
+            },
+            "mastodon.redplanetlabs.com": {
+              "reason": "spam"
+            },
+            "scfzfilm.org": {
+              "reason": "Spam"
+            },
+            "notacri.me": {
+              "reason": "gross"
+            },
+            "mastodon.art": {
+              "reason": "cannibalism/bukkake"
+            }
+          },
+          "federated_timeline_removal": {
+            "mastodon.social": {
+              "reason": "spam concerns"
+            }
+          },
+          "followers_only": {
+            "threads.net": {
+              "reason": "zucc"
+            },
+            "universeodon.com": {
+              "reason": "normie energy threshold exceeded"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "thejoyo.com"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "Serious Business International 2: Back from the Dead",
+      "nodeName": "Serious Business International 2",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://fedi.seriousbusiness.international/users/joyo",
+        "https://fedi.seriousbusiness.international/users/tapmac",
+        "https://fedi.seriousbusiness.international/users/kurosaki_ichigo",
+        "https://fedi.seriousbusiness.international/users/swaggboi",
+        "https://fedi.seriousbusiness.international/users/ceo",
+        "https://fedi.seriousbusiness.international/users/drudgesentinel"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": 11,
+        "activeMonth": 9
+      },
+      "localPosts": 7381
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

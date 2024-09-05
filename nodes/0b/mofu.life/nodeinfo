@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0+neko-rc",
+      "homepage": "https://github.com/nekoplanet/misskey",
+      "repository": "https://github.com/nekoplanet/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1596,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "평일농장!",
+      "nodeDescription": "흠. 가끔은 내 사무소가 그리워, 정 많은 스타트업이었다구.",
+      "nodeAdmins": [
+        {
+          "name": null,
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": null,
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/nekoplanet/misskey",
+      "feedbackUrl": "https://github.com/nekoplanet/misskey-io/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "MeowBot",
+      "themeColor": "#1e1e1e"
+    }
+  },
+  "error": null
+}

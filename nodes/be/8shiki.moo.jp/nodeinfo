@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 695,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "8th Street",
+      "nodeDescription": "八番通り",
+      "nodeIcon": "https://8shiki.moo.jp/wp-content/uploads/2019/02/cropped-8th-1-1.png"
+    }
+  },
+  "error": null
+}

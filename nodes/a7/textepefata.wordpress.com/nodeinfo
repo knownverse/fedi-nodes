@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 1117
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Texte pe față",
+      "nodeDescription": "Zic ce-am de zis",
+      "nodeIcon": "https://textepefata.wordpress.com/wp-content/uploads/2018/08/cropped-cat_watermark_green.jpg"
+    }
+  },
+  "error": null
+}

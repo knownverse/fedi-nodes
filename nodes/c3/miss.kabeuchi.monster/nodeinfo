@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3587,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "カベウチモンスターズ",
+      "nodeDescription": "壁打ちノートを投稿するのが好きな凡人のサーバーです。<br>\n<br>\n新規登録解放の予定はありませんが、管理者とガチ知り合いの方でもし登録したい方がいたら招待コードを発行するので個人的に連絡ください。<br>\n素人の自腹運営なので急に消えるかもしれませんが消えないように頑張ります。",
+      "nodeAdmins": [
+        {
+          "name": "よもぎ",
+          "email": "https://miss.kabeuchi.monster/@yomogi"
+        }
+      ],
+      "maintainer": {
+        "name": "よもぎ",
+        "email": "https://miss.kabeuchi.monster/@yomogi"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://wavebox.me/wave/8rdat2je9ghhfbug/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#06271f"
+    }
+  },
+  "error": null
+}

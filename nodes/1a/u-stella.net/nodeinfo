@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 98,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1696,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ユーステラSNS[u-stella.net]",
+      "nodeDescription": "このサーバーはユーステラのユーザー同士でお話しができるSNSサーバーです。<br>\n好きなキャラクターについて語り合ったり、ファンアートの共有など自由にお使いください。<br>\n<br>\n似たサービスとしてユーステラDiscordサーバーもございます。<br>\nhttps://discord.gg/GcfmrcpRmM",
+      "nodeAdmins": [
+        {
+          "name": "U-Stella Inc.",
+          "email": "support@u-stella.co.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "U-Stella Inc.",
+        "email": "support@u-stella.co.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://u-stella.co.jp/second-creation-guideline/",
+      "privacyPolicyUrl": "https://u-stella.co.jp/privacy-policy/",
+      "impressumUrl": "@U_Stella",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#59bde8"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SocialSphere Insights",
+      "nodeDescription": "SocialSphere Insights is your ultimate guide to mastering the realm of social media for both professional and leisure contexts. \n\nThis blog delves into essential social media concepts, including digital identity, GDPR compliance, and effective content-sharing strategies. \n\nLed by Alexandra Janhonen, a forward-thinking Marketing student based in Helsinki who shares insights, practical tips, and actionable approaches to help you maximise the potential of social media. \n\nWhether you’re seeking to enhance your online presence professionally or seeking inspiration for leisure activities, SocialSphere Insights equips you with the knowledge and tools needed to thrive in the dynamic world of social media.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

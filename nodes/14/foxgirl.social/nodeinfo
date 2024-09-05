@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.5-dev-5de32c609",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 1302,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "foxgirl.social",
+      "nodeDescription": "A friendly Iceshrimp server for all the foxgirls. And non-foxgirls too, ofc :3",
+      "maintainer": {
+        "name": "Jamie Murphy",
+        "email": "hello@itsjamie.dev"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "themeColor": "#f7965a"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "27",
+        "activeHalfyear": "27"
+      },
+      "localPosts": 1030,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FreeMagOne",
+      "nodeDescription": "FreeMagOne",
+      "nodeIcon": "https://www.freemag.one/wp-content/uploads/2020/08/cropped-2020_main_white_cr_700_700.png"
+    }
+  },
+  "error": null
+}

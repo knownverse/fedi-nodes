@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "me@si-on.top",
+        "name": "秉蕳"
+      },
+      "nodeDescription": "非共格晶系，一个部署在开源硬件上的联邦宇宙实例，自由不受控制，然而随时可能宕机。\n\n",
+      "nodeName": "非共格晶系",
+      "proxyAccountName": "9t43he77n104dqdn",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#04a5e5"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 138,
+      "users": {
+        "activeHalfyear": 6,
+        "activeMonth": 2,
+        "total": 7
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

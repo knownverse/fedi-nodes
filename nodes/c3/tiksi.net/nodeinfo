@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "twitter",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 290,
+        "activeHalfyear": 27,
+        "activeMonth": 7
+      },
+      "localPosts": 11519,
+      "localComments": 13251
+    },
+    "metadata": {
+      "nodeName": "tiksi@net"
+    }
+  },
+  "error": null
+}

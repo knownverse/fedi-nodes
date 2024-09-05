@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Life of an ADHD Dog Mom",
+      "nodeDescription": "Writing about my life from dog product reviews to pet friendly hiking. As well the the process writing a book series based off of my dogs",
+      "nodeIcon": "https://lifeofanadhddogmom.wordpress.com/wp-content/uploads/2024/03/image.jpg"
+    }
+  },
+  "error": null
+}

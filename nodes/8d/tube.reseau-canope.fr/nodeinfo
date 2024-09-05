@@ -1,0 +1,333 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 115,
+        "activeMonth": 4,
+        "activeHalfyear": 35
+      },
+      "localPosts": 748,
+      "localComments": 0
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Réseau Canopé",
+      "nodeDescription": "Peertube propulsé par Réseau Canopé, établissement public sous tutelle du Ministère de l’Éducation nationale et de la Jeunesse.",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": false,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-upload-instructions",
+              "name": "upload-instructions",
+              "version": "0.1.1",
+              "description": "Show an instructions modal right before uploading",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-originally-published-at",
+              "name": "originally-published-at",
+              "version": "0.0.3",
+              "description": "PeerTube plugin to use originallyPublishedAt over publishedAt",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-simplelogo",
+              "name": "simplelogo",
+              "version": "0.0.5",
+              "description": "Plugin that let you change logo and favicon on your PeerTube instance.",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-auth-saml2",
+              "name": "auth-saml2",
+              "version": "0.0.8",
+              "description": "Add SAML 2 support to login form in PeerTube.",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-transcoding-custom-quality",
+              "name": "transcoding-custom-quality",
+              "version": "0.1.0",
+              "description": "Set a custom quality for transcoding",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-bittube-livestream-instructions",
+              "name": "bittube-livestream-instructions",
+              "version": "0.0.2",
+              "description": "Show an instructions modal right before a livestream",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-matomo",
+              "name": "matomo",
+              "version": "1.0.2",
+              "description": "Matomo plugin that tracks page views on a PeerTube instance.",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/embed-client-plugin.js": {
+                  "script": "dist/embed-client-plugin.js",
+                  "scopes": [
+                    "embed"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-custom-links",
+              "name": "custom-links",
+              "version": "0.0.10",
+              "description": "PeerTube plugin that allows you to add custom links on the bottom of the menu",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-categories",
+              "name": "categories",
+              "version": "1.2.7",
+              "description": "Manage video categories.",
+              "clientScripts": {
+                "src/client/admin-plugin-settings.js": {
+                  "script": "src/client/admin-plugin-settings.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-nocomments",
+              "name": "nocomments",
+              "version": "2.1.0",
+              "description": "disables and hides the comment section on PeerTube instances.",
+              "clientScripts": {
+                "client/video-watch-client-plugin.js": {
+                  "script": "client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-dark",
+              "name": "dark",
+              "version": "2.5.0",
+              "description": "PeerTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {}
+            }
+          ],
+          "default": "default"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            0,
+            480,
+            720,
+            1080
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": [
+              480,
+              720
+            ]
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 0,
+          "videoQuotaDaily": 0
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

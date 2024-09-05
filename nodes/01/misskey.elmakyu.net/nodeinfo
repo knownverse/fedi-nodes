@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": null,
+      "repository": null
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3047,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "キュネット",
+      "nodeDescription": "このインスタンスはエルマキューネ(https://twitter.com/ElmaKyune)による身内向けインスタンスです。\n招待コードを希望する知り合いの方はご連絡ください。",
+      "nodeAdmins": [
+        {
+          "name": "キューネ",
+          "email": "admin@elmakyu.net"
+        }
+      ],
+      "maintainer": {
+        "name": "キューネ",
+        "email": "admin@elmakyu.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": null,
+      "feedbackUrl": null,
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#f471d1"
+    }
+  },
+  "error": null
+}

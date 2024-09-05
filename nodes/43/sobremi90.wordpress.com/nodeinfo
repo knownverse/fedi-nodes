@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "@sobremi90_Liorgis-Sanit",
+      "nodeDescription": "😏Quieren saber de mi y dar opiniones  y contradicciomes....😉pues el es sitio ideal no a mis espaldas 😁gracias....  Para aceder a ello deven crear una cuanta o autenticarse con un correo electronico",
+      "nodeIcon": "https://sobremi90.wordpress.com/wp-content/uploads/2024/01/cropped-20231223_173817.jpg"
+    }
+  },
+  "error": null
+}

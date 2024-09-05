@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 64,
+        "activeMonth": 14,
+        "activeHalfyear": 25
+      },
+      "localPosts": 247323
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "taruntarun.net",
+      "nodeDescription": "taruntarun.net - Mastodon"
+    }
+  },
+  "error": null
+}

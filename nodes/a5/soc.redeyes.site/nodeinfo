@@ -1,0 +1,176 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 4,
+        "activeHalfyear": 5
+      },
+      "localPosts": 7522
+    },
+    "software": {
+      "version": "2.5.0",
+      "name": "pleroma"
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": true,
+    "metadata": {
+      "uploadLimits": {
+        "general": 104857600,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      },
+      "suggestions": {
+        "enabled": false
+      },
+      "staffAccounts": [
+        "https://soc.redeyes.site/users/orion",
+        "https://soc.redeyes.site/users/lixitini"
+      ],
+      "skipThreadContainment": true,
+      "roles": {
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ],
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ]
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "private": false,
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "pollLimits": {
+        "min_expiration": 0,
+        "max_options": 20,
+        "max_option_chars": 200,
+        "max_expiration": 31536000
+      },
+      "nodeName": "Pleroma",
+      "nodeDescription": "Pleroma: An efficient and flexible fediverse server",
+      "mailerEnabled": false,
+      "invitesEnabled": false,
+      "fieldsLimits": {
+        "valueLength": 2048,
+        "nameLength": 512,
+        "maxRemoteFields": 20,
+        "maxFields": 10
+      },
+      "federation": {
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "quarantined_instances": [],
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "exclusions": false,
+        "enabled": true
+      },
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "blockers_visible",
+        "media_proxy",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "accountActivationRequired": false
+    }
+  },
+  "error": null
+}

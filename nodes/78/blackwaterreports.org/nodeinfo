@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 284,
+      "localComments": 43
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Blackwater Reports",
+      "nodeDescription": "a simple facts media company™",
+      "nodeIcon": "https://blackwaterreports.org/wp-content/uploads/2024/02/dig-deeper.jpg"
+    }
+  },
+  "error": null
+}

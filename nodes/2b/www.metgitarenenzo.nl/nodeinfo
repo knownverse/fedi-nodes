@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 4686,
+      "localComments": 3084
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MetGitarenEnZo",
+      "nodeDescription": "Geneuzel van een rockveelvraat",
+      "nodeIcon": "https://www.metgitarenenzo.nl/mgez/wp-content/uploads/2015/12/cropped-plectrumMGEZ500.png"
+    }
+  },
+  "error": null
+}

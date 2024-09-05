@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Políticas VIH en Chile",
+      "nodeDescription": "En Chile los últimos años ha existido un aumento en los casos de VIH, lo que ha generado malestar en las diversas organizaciones relacionadas con el tema, ya que estas denuncian que el gobierno no ha generado planes de acción y políticas públicas eficientes para tratar la situación.",
+      "nodeIcon": "https://politicasvih.wordpress.com/wp-content/uploads/2023/12/whatsapp-image-2023-12-06-at-23.49.02.jpeg"
+    }
+  },
+  "error": null
+}

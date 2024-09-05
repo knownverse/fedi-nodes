@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Little Zen Corner",
+      "nodeDescription": "Amidst the hustle and bustle of modern life;  Amidst the endless to do lists and ever accumulating &quot;unread&quot; emails;  Amidst the constant &quot;ting&quot;ling of notifications and the weight of endless thoughts;  Sometimes I feel like taking a step back; A step back from the life I have, from  my thoughts, my feelings, from my...and my... and my... And stepping into Life a bit,  Just stopping for a few moments; to breathe a bit, listen a little, smell and see and touch something And feel things slow down, and thoughts melt away and a feeling of warmth and love appear, like it was always there, just waiting to be remembered..",
+      "nodeIcon": "https://azencorner.wordpress.com/wp-content/uploads/2024/03/cropped-image.jpeg"
+    }
+  },
+  "error": null
+}

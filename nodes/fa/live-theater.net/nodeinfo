@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-ltn.25672",
+      "homepage": null,
+      "repository": null
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3350,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6459900,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "LIVE THE@TER NET",
+      "nodeDescription": "LIVE THE@TER NET (LTN) はアイドルマスター ミリオンライブ！のプロデューサー向けに開設された非公式 SNS です（版権元とは一切関係ありません）。",
+      "nodeAdmins": [
+        {
+          "name": "LIVE THE@TER NET 運営チーム",
+          "email": "contact@live-theater.net"
+        }
+      ],
+      "maintainer": {
+        "name": "LIVE THE@TER NET 運営チーム",
+        "email": "contact@live-theater.net"
+      },
+      "langs": [],
+      "tosUrl": "https://cdn.live-theater.net/toc.html",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "mailto:contact@live-theater.net",
+      "impressumUrl": "",
+      "repositoryUrl": null,
+      "feedbackUrl": "mailto:contact@live-theater.net",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ffc20b"
+    }
+  },
+  "error": null
+}

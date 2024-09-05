@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "João Aguiar",
+      "nodeDescription": "João Aguiar é um jornalista, comunicador, líder de projeto, fotógrafo e pesquisador, nem sempre nessa ordem.",
+      "nodeIcon": "https://joaoaguiar.blog.br/wp-content/uploads/2022/12/cropped-JOAO-AGUIAR2.png"
+    }
+  },
+  "error": null
+}

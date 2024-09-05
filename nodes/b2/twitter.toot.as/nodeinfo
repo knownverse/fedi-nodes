@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "birdsitelive",
+      "version": "1.0.0"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 95
+      }
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "twitter-toot-as@jippi.dev"
+    }
+  },
+  "error": null
+}

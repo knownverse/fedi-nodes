@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DJ Robzilla",
+      "nodeDescription": "Turntablist. Beatboxer. Beatmaker.",
+      "nodeIcon": "https://i0.wp.com/www.djrobzilla.net/wp-content/uploads/2018/09/cropped-ROBZILLALOGOWhiteOnBlackNoBorderFinal-2.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

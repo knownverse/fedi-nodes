@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 366,
+        "activeMonth": 207,
+        "activeHalfyear": 267
+      },
+      "localPosts": 743210
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "hackers.town",
+      "nodeDescription": "A bunch of technomancers in the fediverse. This arcology is for all who wash up upon it's digital shore."
+    }
+  },
+  "error": null
+}

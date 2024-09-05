@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 813,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mistigris computer arts, est. 1994",
+      "nodeDescription": "604-based underground computer arts collective est. 1994. Textmode, hirez, pixelart, textiles, music, programs... surprise us! Submit today!",
+      "nodeIcon": "https://mistfunk.wordpress.com/wp-content/uploads/2024/06/bafkreicc7irn4ncrblc5dnkppk4lyyp6etmogb67ixsiddzqshs5t4ynea.jpg"
+    }
+  },
+  "error": null
+}

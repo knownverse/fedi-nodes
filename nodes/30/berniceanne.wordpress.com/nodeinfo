@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 287,
+      "localComments": 782
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ANNEcdotes.",
+      "nodeDescription": "Catching flights, because I caught feelings.",
+      "nodeIcon": "https://berniceanne.wordpress.com/wp-content/uploads/2019/09/cropped-cropped-45536581_726045701062136_7250805648667565005_n.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 144,
+        "activeMonth": 82,
+        "activeHalfyear": 98
+      },
+      "localPosts": 395858
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "RaRu.Re",
+      "nodeDescription": "Lil cozy place on top of a mountain.\r\nIt's pronounced ʁaʁyʁe.\r\nAnd written RaRuRe, or R3 for short."
+    }
+  },
+  "error": null
+}

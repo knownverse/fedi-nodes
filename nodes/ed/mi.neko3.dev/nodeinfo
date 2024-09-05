@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 33,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mi.neko3.dev",
+      "nodeDescription": "🍫🍫🍫",
+      "nodeAdmins": [
+        {
+          "name": "cacao",
+          "email": "0001cacao@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "cacao",
+        "email": "0001cacao@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#c2f0f0"
+    }
+  },
+  "error": null
+}

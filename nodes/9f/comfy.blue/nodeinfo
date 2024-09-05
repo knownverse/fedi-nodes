@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 1,
+        "activeHalfyear": 3
+      },
+      "localPosts": 6056
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Comfy.Blue",
+      "nodeDescription": "Lexa's comfy place! Cosy chats about FFXIV, Gaming, Anime and Tech. No politics or internet drama please.\r\n\r\nSafe space for those that need one 💕."
+    }
+  },
+  "error": null
+}

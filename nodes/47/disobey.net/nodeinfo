@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 9,
+        "activeHalfyear": 9
+      },
+      "localPosts": 14848
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "disobey.net",
+      "nodeDescription": "disobey.net is a mastodon server for friends of Emerald Onion, and miscellaneous other cypherpunks or solarpunks."
+    }
+  },
+  "error": null
+}

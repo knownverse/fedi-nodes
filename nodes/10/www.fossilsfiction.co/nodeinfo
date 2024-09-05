@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 59,
+      "localComments": 27
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fossils &amp; Fiction",
+      "nodeDescription": "A podcast about prehistoric stories and palaeomedia",
+      "nodeIcon": "https://www.fossilsfiction.co/wp-content/uploads/2023/02/cropped-Copy-of-Fossils-Fiction-1.png"
+    }
+  },
+  "error": null
+}

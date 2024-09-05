@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 63,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 22084,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "おとうふ王国",
+      "nodeDescription": "やさしいインターネット ※招待を受けた方へ※ 利用規約を必ず読み、ご理解いただいたうえで登録をお願いします。",
+      "nodeAdmins": [
+        {
+          "name": "ねむだる豆腐",
+          "email": "ｈｔｔｐｓ;／／ｆｏｒｍｓ（どっと）ｇｌｅ／Ｅｙｂ5ｓｋＢｇｒＱＡ2ｋＮｎｗ9"
+        }
+      ],
+      "maintainer": {
+        "name": "ねむだる豆腐",
+        "email": "ｈｔｔｐｓ;／／ｆｏｒｍｓ（どっと）ｇｌｅ／Ｅｙｂ5ｓｋＢｇｒＱＡ2ｋＮｎｗ9"
+      },
+      "langs": [],
+      "tosUrl": "https://nemudaru.uk/@n/pages/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#FFF9EE"
+    }
+  },
+  "error": null
+}

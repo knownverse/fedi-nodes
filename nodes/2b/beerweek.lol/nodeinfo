@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Beerweek.lol",
+      "nodeDescription": "Every Week is Beer Week in San Francisco! Curated and Special Beer Events in SF.",
+      "nodeIcon": "https://beerweek.lol/wp-content/uploads/2023/01/cropped-cropped-Beergeek_simplified_line_drawing_of_the_Golden_Gate_Bridge_refr_4bc26db6-c653-468d-9d67-5d08b1f27d42.png"
+    }
+  },
+  "error": null
+}

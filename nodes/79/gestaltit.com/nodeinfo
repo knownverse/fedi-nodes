@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 156,
+        "activeMonth": "176",
+        "activeHalfyear": "173"
+      },
+      "localPosts": 5511,
+      "localComments": 984
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gestalt IT",
+      "nodeDescription": "The Latest News in Enterprise IT, part of The Futurum Group",
+      "nodeIcon": "https://gestaltit.com/wp-content/uploads/2020/08/cropped-Favicon-1.png"
+    }
+  },
+  "error": null
+}

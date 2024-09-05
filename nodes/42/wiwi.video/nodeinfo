@@ -1,0 +1,203 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3988,
+        "activeMonth": 91,
+        "activeHalfyear": 309
+      },
+      "localPosts": 884,
+      "localComments": 4452
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Wiwi.Video 好和弦聯播網",
+      "nodeDescription": "好和弦自己架的 YouTube！沒有廣告、沒有言論審查，也沒有白痴的服務條款，不用登入也可以看到爽！如果想要留言按讚的就申請個帳號吧～",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": false,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-livechat",
+              "name": "livechat",
+              "version": "8.0.3",
+              "description": "PeerTube plugin livechat: create chat rooms for your Peertube lives!",
+              "clientScripts": {
+                "dist/client/videowatch-client-plugin.js": {
+                  "script": "dist/client/videowatch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                },
+                "dist/client/common-client-plugin.js": {
+                  "script": "dist/client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/client/admin-plugin-client-plugin.js": {
+                  "script": "dist/client/admin-plugin-client-plugin.js",
+                  "scopes": [
+                    "admin-plugin"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-sort-originally-published-at",
+              "name": "sort-originally-published-at",
+              "version": "0.1.1",
+              "description": "Plugin to sort recently added videos by originally published date.",
+              "clientScripts": {}
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-bittube-dark-mode",
+              "name": "bittube-dark-mode",
+              "version": "3.0.0",
+              "description": "BitTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ],
+          "default": "bittube-dark-mode"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            144
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": false,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".mp4"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 0,
+          "videoQuotaDaily": 0
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

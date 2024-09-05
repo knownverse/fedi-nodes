@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeMonth": 6,
+        "activeHalfyear": 12
+      },
+      "localPosts": 20676
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Chalkboard",
+      "nodeDescription": "제법이구나⋯⋯ 하지만 알테마 웨폰의 진정한 힘을 얕보지 마라! 소용돌이치는 생명의 빛이 일곱 문을 열고 힘의 탑 꼭대기에 이르리라! ⋯⋯알테마!"
+    }
+  },
+  "error": null
+}

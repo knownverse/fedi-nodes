@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 194,
+      "localComments": 36
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "3dcsocial",
+      "nodeDescription": "",
+      "nodeIcon": "https://3dcandy.social/wp-content/uploads/2024/01/cropped-3dcandy_3dcandy_logo_realistic_b1032d98-222c-4384-8dcd-6711d48b064e-1.png"
+    }
+  },
+  "error": null
+}

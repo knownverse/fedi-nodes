@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FediPhoto.Art",
+      "nodeDescription": "Photography Magazine for the Fediverse",
+      "nodeIcon": "https://fediphoto.art/wp-content/uploads/2024/04/cropped-fediphoto.art-transparent-icon.png"
+    }
+  },
+  "error": null
+}

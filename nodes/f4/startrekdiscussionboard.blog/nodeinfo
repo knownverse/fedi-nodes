@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 13,
+        "activeHalfyear": 13
+      },
+      "localPosts": 17717
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Star Trek Discussion Board",
+      "nodeDescription": "A private server for some friends."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Storyteller Archive",
+      "nodeDescription": "Create your own World and it&#039;s History. ",
+      "nodeIcon": "https://storytellerarchive.com/wp-content/uploads/2024/05/Cl4p63Fz5Qo74UGsA7IB-1-0vvqs.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 45,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12139,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "pickey.net",
+      "nodeDescription": "2023年8月4日正式稼働開始、Xserver VPS上で稼働、\nメールサーバーはXserverのレンタルサーバーを使用しています。\n中の人は社会人で昼間働いているので、設定などはかなりゆっくり。\n\n現在新入り大歓迎。\n写真・画像などの投稿は大歓迎です。\n(自分が撮影したもの・自分に著作権があるもの・規約内でのゲーム画像・許可を得たものに限ります)",
+      "maintainer": {
+        "name": "Ishikura Kei",
+        "email": "ishikura@japan-iseya.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#3399ff"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 24,
+        "activeMonth": 7,
+        "activeHalfyear": 8
+      },
+      "localPosts": 86
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "TeamTaidum Mastodon Server",
+      "nodeDescription": "Mastodon instance for any and all Taidums! Proceed with caution: furry and banana bread-related content inside."
+    }
+  },
+  "error": null
+}

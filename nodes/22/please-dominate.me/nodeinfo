@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.1",
+      "homepage": "https://git.joinfirefish.org/firefish/firefish",
+      "repository": "https://git.joinfirefish.org/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1522,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "bottom town",
+      "nodeDescription": "Private Sharkey instance for me and my friends :3\n\n<img src=\"https://children.trade/1cHcciSa.gif\" alt=\"big boobs\">\n",
+      "nodeAdmins": [
+        {
+          "name": "Wiki",
+          "email": "wiki@children.trade"
+        }
+      ],
+      "maintainer": {
+        "name": "Wiki",
+        "email": "wiki@children.trade"
+      },
+      "langs": [],
+      "tosUrl": "https://please-dominate.me/@wiki/pages/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#F42069"
+    }
+  },
+  "error": null
+}

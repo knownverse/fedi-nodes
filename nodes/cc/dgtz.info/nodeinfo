@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 251,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dania Guti&eacute;rrez - Investigadora y activista",
+      "nodeDescription": "✦ Email: dra@dgtz.mx ✦ ",
+      "nodeIcon": "https://dgtz.info/wp-content/uploads/2024/02/cropped-IMG-20240207-WA0009.jpg"
+    }
+  },
+  "error": null
+}

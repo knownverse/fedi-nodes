@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 816,
+      "localComments": 1458
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HerrSpitau.de",
+      "nodeDescription": "Bis auf Weiteres ohne Untertitel - aus Gründen.",
+      "nodeIcon": "https://herrspitau.de/wp-content/uploads/2015/03/cropped-Jokuza-e1427724772308.png"
+    }
+  },
+  "error": null
+}

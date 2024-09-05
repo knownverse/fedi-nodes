@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2160,
+      "localComments": 13224
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "One Starry Night",
+      "nodeDescription": "Personal blogging since 2001",
+      "nodeIcon": "https://onestarrynight.com/wp-content/uploads/2023/04/favicon.png"
+    }
+  },
+  "error": null
+}

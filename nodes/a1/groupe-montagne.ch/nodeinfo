@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 337,
+      "localComments": 11
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Groupe Montagne",
+      "nodeDescription": "Groupe des locataires des immeubles du chemin De-La-Montagne 70 à 134",
+      "nodeIcon": "https://groupe-montagne.ch/wp-content/uploads/2022/01/cropped-logo-groupe-montagne-cercle-bleu-1.png"
+    }
+  },
+  "error": null
+}

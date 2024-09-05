@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "electricrequiem@riseup.net",
+        "name": "yawhn"
+      },
+      "nodeDescription": "Το Electric Requiem είναι ένα ελεύθερο κοινωνικό δίκτυο, μέρος του αποκεντρωμένου Fediverse (που σημαίνει ότι συνδεόμαστε οριζόντια και με servers Mastodon, Pleroma, Friendica, Peertube, Pixelfed κ.λπ.). Παρακαλούμε, πριν την εγγραφή σας, να διαβάσετε το κείμενο σχετικά με εμάς <u><b><a href=\"https://electricrequiem.com/@admin/pages/all-about-us\" target=\"_blank\">εδώ.</a></b></u>",
+      "nodeName": "Electric Requiem",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 60249,
+      "users": {
+        "activeHalfyear": 143,
+        "activeMonth": 64,
+        "total": 497
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

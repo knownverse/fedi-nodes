@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 5,
+        "activeHalfyear": 6
+      },
+      "localPosts": 22645
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "oldfriends.live",
+      "nodeDescription": "A place where old friends can meet in the Fediverse! Home of the popular 9 o'clock #HashTagGames. Specialty server, invite only at this time. "
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 56,
+      "localComments": 120
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Saima Karim",
+      "nodeDescription": "I have full time 9-5 job. First time mom. Learning something new everyday. I blog about technology, women in tech, education, sports and few life stories as well. :)",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

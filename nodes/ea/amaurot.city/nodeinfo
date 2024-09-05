@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 11675
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Amaurot",
+      "nodeDescription": "And then there was Amaurot... Never was a city more magnificent.\r\nFrom the humblest streets to the highest spires, they fairly gleamed...\r\nNot that _you_ would remember any of this."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Mobilizon.fr est l'instance Mobilizon de Framasoft.",
+      "nodeName": "Mobilizon"
+    },
+    "usage": {
+      "users": {
+        "total": 10518
+      },
+      "localComments": 3754,
+      "localPosts": 10449
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dss créative",
+      "nodeDescription": "société de designer Graphique et de gestion de buisines en ligne",
+      "nodeIcon": "https://dssfernand.business.blog/wp-content/uploads/2024/03/62320d6f-e619-4148-bb15-7bba22a7b52f.jpeg"
+    }
+  },
+  "error": null
+}

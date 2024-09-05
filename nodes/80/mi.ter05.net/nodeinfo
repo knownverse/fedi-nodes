@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.7.2-simkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": 5,
+        "activeMonth": 4
+      },
+      "localPosts": 11572,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ついんてーるおしこまないで",
+      "nodeDescription": "このインスタンスはadzukin_maniaの活動を支援しています\npowered by simkey(フロントだけ)\nhttps://github.com/pz2or/misskey-v12",
+      "maintainer": {
+        "name": "とるか",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#87cefa"
+    }
+  },
+  "error": null
+}

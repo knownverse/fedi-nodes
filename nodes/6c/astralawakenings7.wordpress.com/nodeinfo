@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AstralAwakenings",
+      "nodeDescription": "Welcome to the captivating world of astral travel, where the boundaries between body and spirit converge.",
+      "nodeIcon": "https://astralawakenings7.wordpress.com/wp-content/uploads/2024/01/4ab7e08d-ee87-42ae-b66b-b4fe6c68d903-1.jpg"
+    }
+  },
+  "error": null
+}

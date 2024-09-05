@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 41,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Long Shadow Games",
+      "nodeDescription": "Real men and women take chances. Roll a d100!",
+      "nodeIcon": "https://longshadowgames.com/wp-content/uploads/2019/11/cropped-long-shadow-hat.png"
+    }
+  },
+  "error": null
+}

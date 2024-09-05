@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 165,
+      "localComments": 155
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anjali Roongta&#039;s Musings",
+      "nodeDescription": "A collection of poems, writing advice, short stories, and imperfect and realistic everyday sustainable living tales from Anjali Roongta",
+      "nodeIcon": "https://roongtaanjali.wordpress.com/wp-content/uploads/2023/04/cropped-whatsapp-image-2022-04-28-at-12.08.18-pm.jpeg"
+    }
+  },
+  "error": null
+}

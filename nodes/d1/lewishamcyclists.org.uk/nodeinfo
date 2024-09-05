@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": "6",
+        "activeHalfyear": "6"
+      },
+      "localPosts": 380,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lewisham Cyclists",
+      "nodeDescription": "Part of the London Cycling Campaign, working to get more people cycling in the borough of Lewisham",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

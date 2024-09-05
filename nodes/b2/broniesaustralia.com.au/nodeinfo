@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.5-rc",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Bronies Australia",
+      "nodeDescription": "Horsing around on the internet.",
+      "maintainer": {
+        "name": "@cameron@broniesaustralia.com.au",
+        "email": "camerondew@live.com"
+      },
+      "langs": [],
+      "tosUrl": "https://broniesaustralia.com.au/@DIVINE_JUDGEMENT/pages/rules",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "searchFilters": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 330,
+      "localComments": 67
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "jaydadawn",
+      "nodeDescription": "depression survivor, transformed by Jesus",
+      "nodeIcon": "https://jaydadawn.wordpress.com/wp-content/uploads/2021/06/cropped-376755_2660551038176_1392593173_n.jpg"
+    }
+  },
+  "error": null
+}

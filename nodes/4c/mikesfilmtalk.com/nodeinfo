@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 4344,
+      "localComments": 8593
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mikes Film Talk",
+      "nodeDescription": "Entertainment, Films, Books, Television",
+      "nodeIcon": "https://i0.wp.com/mikesfilmtalk.com/wp-content/uploads/2023/12/cropped-cropped-img_7647-2.jpg?fit=512%2C512&quality=89&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "5.9"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 208,
+      "localComments": 120
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "neunetz.fm",
+      "nodeDescription": "Digitale Wirtschaft besser verstehen",
+      "nodeIcon": "https://neunetz.fm/wp-content/uploads/2017/03/cropped-neunetzfm-logo-2014-Avatar-2.png"
+    }
+  },
+  "error": null
+}

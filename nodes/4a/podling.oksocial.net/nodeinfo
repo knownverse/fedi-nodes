@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.12.0-p09a425cb"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 697,
+        "activeHalfyear": 27,
+        "activeMonth": 9
+      },
+      "localPosts": 4764,
+      "localComments": 2631
+    },
+    "metadata": {
+      "nodeName": "OKSocial: Podling",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "podmin"
+    }
+  },
+  "error": null
+}

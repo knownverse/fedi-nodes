@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-art+1.0",
+      "homepage": "https://github.com/Misskey-art/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7487,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2135028,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey.art",
+      "nodeDescription": "<h3>創作活動をする人や見る人を歓迎するMisskeyのサーバーです。<br />\nこのサーバーはメールアドレス必須です。</h3>\n<p style=\"color: #81d4fa; font-size: 18px;\">このサーバーには、作品を投稿するためのルールとガイドラインがあります、<br />\nアカウントの登録をする前に必ず<a href=\"https://service.misskey.art/rules\" style=\"color: #159e9a; text-decoration: underline;\" target=\"_blank\">ルール・ガイドライン</a>を確認してから登録してください。<br />\n</p>",
+      "nodeAdmins": [
+        {
+          "name": "Alvier.Kaiser.Von.Deathgrad, c30",
+          "email": "support@misskey.art"
+        }
+      ],
+      "maintainer": {
+        "name": "Alvier.Kaiser.Von.Deathgrad, c30",
+        "email": "support@misskey.art"
+      },
+      "langs": [],
+      "tosUrl": "https://service.misskey.art/rules",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": "mailto:support@misskey.art",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/Misskey-art/misskey",
+      "feedbackUrl": "https://github.com/Misskey-art/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#184ade"
+    }
+  },
+  "error": null
+}

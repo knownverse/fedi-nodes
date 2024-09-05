@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 998,
+      "localComments": 8869
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jon Udell",
+      "nodeDescription": "Strategies for Internet citizens",
+      "nodeIcon": "https://i0.wp.com/blog.jonudell.net/wp-content/uploads/2024/07/gravatar-jon.png?fit=256%2C256&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Relax - Take a Break",
+      "nodeDescription": "Find Clarity in a Moment of Calm",
+      "nodeIcon": "https://relaxtakeabreak.com/wp-content/uploads/2024/01/cropped-pexels-photo-414612.jpeg"
+    }
+  },
+  "error": null
+}

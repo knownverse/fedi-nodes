@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2-pa63281cd"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11702,
+        "activeHalfyear": 90,
+        "activeMonth": 37
+      },
+      "localPosts": 150842,
+      "localComments": 95415
+    },
+    "metadata": {
+      "nodeName": "Diaspora Germany",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "info"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "federation": true,
+      "nodeDescription": "An unstable digital space.        ",
+      "nodeName": "ivan cafe"
+    },
+    "usage": {
+      "users": {
+        "total": null
+      }
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "bonfire; compatible: mastodon, akkoma",
+      "version": "0.9.10-beta.119"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

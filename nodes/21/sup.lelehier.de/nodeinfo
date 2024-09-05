@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1515,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Sup!",
+      "nodeDescription": "Herzlich willkommen auf unserer eigenen kleinen Fedi-Instanz! Dieser Ort ist für unseren inneren Kreis gedacht - für die coolen Leute ! 😎 Hier könnt ihr entspannt abhängen, quatschen und Bilder teilen.\n\nAlso, macht es euch gemütlich und lasst uns gemeinsam Spaß habenn! 🚀",
+      "nodeAdmins": [
+        {
+          "name": "Leandro Schaguhn",
+          "email": "lele204@gmx.de"
+        }
+      ],
+      "maintainer": {
+        "name": "Leandro Schaguhn",
+        "email": "lele204@gmx.de"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#730e9c"
+    }
+  },
+  "error": null
+}

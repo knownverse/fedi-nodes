@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2319,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "はしばみ村",
+      "nodeDescription": "<a href=\"@hashi_nazumi@84bami.net\">菜泉ハシ</a>のおひとりサーバーです。<br>\n<br>\nアカウント登録は出来ないので、やり取りは他のサーバーからお願いします。<br>\n<br>\n登録している絵文字については<a href=\"https://84bami.net/@hashi_nazumi/pages/emoji\"><u>こちら</u></a>をご覧ください。",
+      "nodeAdmins": [
+        {
+          "name": "菜泉ハシ",
+          "email": "https://ebifuraihashi.fc2.net/blog-entry-23.html"
+        }
+      ],
+      "maintainer": {
+        "name": "菜泉ハシ",
+        "email": "https://ebifuraihashi.fc2.net/blog-entry-23.html"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://ebifuraihashi.fc2.net/blog-entry-23.html",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#fdddaf"
+    }
+  },
+  "error": null
+}

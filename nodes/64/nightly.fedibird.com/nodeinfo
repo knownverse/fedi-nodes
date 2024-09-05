@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "fedibird",
+      "version": "0.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 352,
+        "activeMonth": 117,
+        "activeHalfyear": 176
+      },
+      "localPosts": 261043
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "upstream": {
+        "name": "mastodon",
+        "version": "3.4.1"
+      }
+    }
+  },
+  "error": null
+}

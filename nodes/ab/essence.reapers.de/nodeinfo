@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "5.2.2"
+    },
+    "protocols": [
+      "zot",
+      "diaspora"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial",
+        "friendica",
+        "libertree",
+        "pumpio",
+        "redmatrix",
+        "twitter",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 3,
+        "activeMonth": 0
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "RoG - The Essence"
+    }
+  },
+  "error": null
+}

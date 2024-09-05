@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Instance Mobilizon proposé par Parinux",
+      "nodeName": "MobilizonPx"
+    },
+    "usage": {
+      "users": {
+        "total": 51
+      },
+      "localComments": 12,
+      "localPosts": 41
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "1.0.0-dev-p744f5449"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {},
+      "localPosts": 454105,
+      "localComments": 113
+    },
+    "metadata": {
+      "nodeName": "federatica*",
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "niko"
+    }
+  },
+  "error": null
+}

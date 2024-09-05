@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Mobilizon vous permet d'organiser vos évènements en ligne, en dehors de Facebook et de manière décentralisée.",
+      "nodeName": "Mobilisons"
+    },
+    "usage": {
+      "users": {
+        "total": 307
+      },
+      "localComments": 19,
+      "localPosts": 9237
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

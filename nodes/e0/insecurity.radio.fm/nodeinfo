@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 24,
+      "localComments": 52
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Radio (In)Security",
+      "nodeDescription": "Gespräche über (Un)Sicherheit",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

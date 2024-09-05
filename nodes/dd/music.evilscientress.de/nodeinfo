@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.10"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.evilscientress.de/federation/actors/service",
+      "private": true,
+      "shortDescription": "Enjoy Music — Fuck Capitalism",
+      "longDescription": "I removed my music from Bandcamp when they got bought by Epic Games, but I want my music to be out there for others to enjoy, so I'm hosting it here for everyone to enjoy freely :)",
+      "rules": "",
+      "contactEmail": "",
+      "terms": "",
+      "nodeName": "EvilScientress' Music",
+      "banner": "https://s3.isystems.io/music.evilscientress.de/dynamic_preferences/instance__banner/Wireframe_Funkwhale_GcsNNap.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0C9N6JVAX0U9H5Q21V4L%2F20240905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240905T221623Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bb78482d68998b5c8bb74620d406895a74f3d48ed250235558ad5d15624ff6d0",
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 221
+        },
+        "artists": {
+          "total": 3
+        },
+        "albums": {
+          "total": 10
+        },
+        "music": {
+          "hours": 13.101111111111111
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://music.evilscientress.de/api/v1/federation/domains",
+        "channels": "https://music.evilscientress.de/federation/index/channels",
+        "libraries": "https://music.evilscientress.de/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 13
+        },
+        "downloads": {
+          "total": 336
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 25,
+      "localComments": 27
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Great Refactoring",
+      "nodeDescription": "Coding shenanigans and other nerdy musings",
+      "nodeIcon": "https://vilelasagna.ddns.net/wp-content/uploads/2019/03/cropped-greatrefactoringicon.png"
+    }
+  },
+  "error": null
+}

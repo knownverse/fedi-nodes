@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/ligun/misskey",
+      "repository": "https://github.com/ligun/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11420,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "大りぐんすかや王国",
+      "nodeDescription": "Bonvenon!\nGranda Ligunskaya Reĝlando - 大りぐんすかや王国 - へようこそ\n\nりぐんすかやは@esnaがReĝino[女王]（管理人）を務めているわたし専用の王国（ぼっちサーバ）です。\nサーバー名の由来はおんなのこならすきーよりすかやでしょ？って感じです。\nユーザー登録は公開していません。\n公用語はエスペラントです。",
+      "nodeAdmins": [
+        {
+          "name": "Esna Ligunskaya",
+          "email": "非公開"
+        }
+      ],
+      "maintainer": {
+        "name": "Esna Ligunskaya",
+        "email": "非公開"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/ligun/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#FD7E00"
+    }
+  },
+  "error": null
+}

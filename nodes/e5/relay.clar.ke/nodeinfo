@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.104-HEAD-a0f9827e"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "clar.ke",
+        "declin.eu",
+        "dycho.jp",
+        "eeeeeeeee.eu",
+        "freeside.cafe",
+        "kitsune.moe",
+        "koliosky.com",
+        "labo.wovs.tk",
+        "mattyaski.co",
+        "misskey.amau.jp",
+        "misskey.cloud",
+        "misskey.day",
+        "misskey.midorichan.net",
+        "misskey.ssskkk.top",
+        "misskey.yuu0918.net",
+        "misskey.zhoushen929.com",
+        "mk.amanita.zone",
+        "msky.mfz.jp",
+        "nekomiya.net",
+        "nicomedkey.cc",
+        "relay.fedi.buzz",
+        "relay.fedi.buzz",
+        "serve.moe",
+        "sns.onjann.club",
+        "soc.cluboftone.com",
+        "social.zerojay.com",
+        "soshar.dess.ga",
+        "toot.zerojay.com",
+        "voskey.icalo.net",
+        "yagamin.com"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

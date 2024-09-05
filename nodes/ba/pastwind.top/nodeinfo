@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 111,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 38437,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Pastwind.top",
+      "nodeDescription": "使用Misskey架設的去中心化社群網路，類似Twitter。本站的特色以動畫、漫畫與遊戲為主，但不僅限於此。\n\n本站主要使用的語言是中文、日文、英文。",
+      "nodeAdmins": [
+        {
+          "name": "ryanhe",
+          "email": "qcp43ut5y@mozmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ryanhe",
+        "email": "qcp43ut5y@mozmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://service.pastwind.top/%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE",
+      "privacyPolicyUrl": "https://service.pastwind.top/%E9%9A%B1%E7%A7%81%E6%AC%8A%E6%94%BF%E7%AD%96",
+      "inquiryUrl": null,
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "surrogate",
+      "themeColor": "#3a97fe"
+    }
+  },
+  "error": null
+}

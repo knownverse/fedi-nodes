@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A VOZ DE IPAMERI-GO",
+      "nodeDescription": "FATOS, NOTÍCIAS, INFORMAÇÃO,ACONTECIMENTOS,TRABALHAMOS EM PRÓ DA POPULAÇÃO",
+      "nodeIcon": "https://zaparaputanga.wordpress.com/wp-content/uploads/2024/03/cropped-wp-17113513905375563090439742541047.png"
+    }
+  },
+  "error": null
+}

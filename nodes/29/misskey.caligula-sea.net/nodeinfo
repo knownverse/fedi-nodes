@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 76808,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ねこのみすきー Powered by 7743号室のかりぐらし",
+      "nodeDescription": "猫乃名無 (仮) / Nekono Nana KAKKO KARI の運営するMisskeyインスタンスです。ねこのの完全招待制です。",
+      "nodeAdmins": [
+        {
+          "name": "Nekono Nana KAKKO KARI",
+          "email": "sizes.jags.0g@icloud.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Nekono Nana KAKKO KARI",
+        "email": "sizes.jags.0g@icloud.com"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/nananek/static-nekonomisskey/blob/main/rule.md",
+      "privacyPolicyUrl": "https://github.com/nananek/static-nekonomisskey/blob/main/terms.md",
+      "inquiryUrl": "https://nananek.github.io/static-nekonomisskey/",
+      "impressumUrl": "https://7kry.github.io/static-nekonomisskey/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey ",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Ghost",
+      "themeColor": "#0061fe"
+    }
+  },
+  "error": null
+}

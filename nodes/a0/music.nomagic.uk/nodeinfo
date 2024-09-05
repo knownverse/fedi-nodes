@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+59687b2f"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeHalfyear": 7,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.nomagic.uk/federation/actors/service",
+      "private": false,
+      "shortDescription": "Nomagic is an online services provider part of the Librehosters and CHATONS networks",
+      "longDescription": "**Nomagic** is a French, not-for-profit, online services hoster based in Grenoble, France (formally based near London in the UK).\r\nWe are part of the CHATONS and Librehosters collectives. [Check us out](https://nomagic.uk)!\r\n\r\nOriginal Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash",
+      "contactEmail": "hostmaster+funkwhale@nomagic.uk",
+      "nodeName": "Funkwhale instance of Nomagic",
+      "banner": "https://music.nomagic.uk/media/dynamic_preferences/instance__banner/priscilla-du-preez-NP3KdAQc6c4-unsplash_0yDvCHX.jpg",
+      "defaultUploadQuota": 10000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 85
+          }
+        },
+        "listenings": {
+          "total": 35146
+        },
+        "downloads": {
+          "total": 27322
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 18864
+        },
+        "artists": {
+          "total": 554
+        },
+        "albums": {
+          "total": 627
+        },
+        "music": {
+          "hours": 5725.560277777778
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "rules": "Be nice with other users, both locally and from external instance.",
+      "terms": "As always, the content published is the responsability of the user, who should take care to rightfully flag mature content whenever needed. You can find Nomagic Terms of Service on [our webiste](https://nomagic.uk/tos.html)."
+    }
+  },
+  "error": null
+}

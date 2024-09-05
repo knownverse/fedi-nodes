@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 249,
+      "localComments": 358
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Webschale",
+      "nodeDescription": "Christ – Informatik – Podcaster",
+      "nodeIcon": "https://webschale.de/wp-content/uploads/sites/2/2015/07/Favicon_HHB-5598de57v1_site_icon.png"
+    }
+  },
+  "error": null
+}

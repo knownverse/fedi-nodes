@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1089,
+      "localComments": 519
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Amnesty in Salisbury &amp; South Wiltshire - 50 this year!",
+      "nodeDescription": "Promoting human rights in Salisbury UK  ",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

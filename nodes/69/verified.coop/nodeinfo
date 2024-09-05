@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.0.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 130,
+        "activeMonth": 10,
+        "activeHalfyear": 25
+      },
+      "localPosts": 10891
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "hello": {
+        "version": "1.0.26",
+        "issuer": "https://issuer.hello.coop"
+      }
+    }
+  },
+  "error": null
+}

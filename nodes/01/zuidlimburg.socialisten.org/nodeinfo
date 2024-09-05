@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Socialisten Zuid-Limburg",
+      "nodeDescription": "Voor een socialistische toekomst!",
+      "nodeIcon": "https://zuidlimburg.socialisten.org/wp-content/uploads/sites/9/2022/09/cropped-Socialisten-pictogram-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.03-1557"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "bluesky"
+      ],
+      "outbound": [
+        "bluesky",
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 4468,
+      "localComments": 106
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "White Lion Lair",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "bluesky"
+        ],
+        "outbound": [
+          "bluesky",
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

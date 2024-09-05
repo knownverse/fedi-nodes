@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.1 26a6d80227e3f339e7f286d67afe40537e88cfa5"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0",
+    "metadata": {
+      "peers": [
+        "fet.bar",
+        "misskey.gothloli.club",
+        "txwb.org",
+        "bdsmspace.club",
+        "liber.chocoflan.net",
+        "pleroma.freespeech.club",
+        "qip.wang",
+        "iddqd.social",
+        "neet.church",
+        "not-really.me",
+        "eeeeeeeee.eu",
+        "masto.namwen.me",
+        "mastodon.theclashfruit.me",
+        "relay.national-defence.network",
+        "declin.eu"
+      ]
+    }
+  },
+  "error": null
+}

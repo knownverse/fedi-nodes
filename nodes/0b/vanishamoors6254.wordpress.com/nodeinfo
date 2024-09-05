@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 395,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vanisha Moors",
+      "nodeDescription": "Intuition Is The Mission",
+      "nodeIcon": "https://vanishamoors6254.wordpress.com/wp-content/uploads/2022/02/cropped-vmoors.jpg"
+    }
+  },
+  "error": null
+}

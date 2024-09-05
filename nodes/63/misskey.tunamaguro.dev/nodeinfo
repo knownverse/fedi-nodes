@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 49,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4026,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "まぐろすきー",
+      "nodeDescription": "管理者のtunamaguroがmisskeyをやるためだけに建てたサーバです。\nメアド不要でどなたでも利用できますが個人環境のため障害発生時、復旧に時間がかかる恐れがあります。\n\n本サーバを利用いただく場合、一般的な公序良俗および日本国の法律を順守していただくことが必要です。\n\n上記を守られない場合、tunamaguroの独断で凍結及びアカウントの削除を行います",
+      "nodeAdmins": [
+        {
+          "name": "tunamaguro",
+          "email": "misskey@tunamaguro.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "tunamaguro",
+        "email": "misskey@tunamaguro.dev"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.tunamaguro.dev/@tunamaguro/pages/1710720800834",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://www.tunamaguro.dev/",
+      "impressumUrl": "https://www.tunamaguro.dev/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

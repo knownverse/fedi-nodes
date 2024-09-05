@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 164,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "1,000 Leaps",
+      "nodeDescription": "My public notebook on remarkable people and thought-provoking ideas. Targeting 1,000 posts by end of 2025.",
+      "nodeIcon": "https://1000leaps.com/wp-content/uploads/2023/07/leaps.png"
+    }
+  },
+  "error": null
+}

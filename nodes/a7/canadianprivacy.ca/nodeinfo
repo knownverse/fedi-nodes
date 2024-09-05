@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1846,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Canadian Privacy",
+      "nodeDescription": "Privacy and Information Security news stories affecting Canada and the Fediverse.",
+      "nodeIcon": "https://canadianprivacy.ca/wp-content/uploads/2024/05/avatar_400x400.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 287,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1271,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "BiliBili",
+      "nodeDescription": "联邦宇宙里的一颗🌟",
+      "nodeAdmins": [
+        {
+          "name": "Izan",
+          "email": "i@bilibili.org"
+        }
+      ],
+      "maintainer": {
+        "name": "Izan",
+        "email": "i@bilibili.org"
+      },
+      "langs": [],
+      "tosUrl": "https://bilibili.org/@i/pages/TOS",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

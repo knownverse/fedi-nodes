@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2219
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "どんぶり大破",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

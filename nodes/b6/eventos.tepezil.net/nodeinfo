@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Una cartelera cultural y de resistencia para xalapa",
+      "nodeName": "Eventos en tu barrio"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localComments": 0,
+      "localPosts": 32
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

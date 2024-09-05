@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 77,
+      "localComments": 34
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hameau des GRANDES-DALLES",
+      "nodeDescription": "76540 St-Pierre-en-Port &amp; Sassetot-Le-Mauconduit",
+      "nodeIcon": "https://grandesdalles.wordpress.com/wp-content/uploads/2020/02/cropped-va-ab-copie.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 25
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Astroninjagirl Subtitles",
+      "nodeDescription": "Touken Ranbu Subtitles From Tenden: Osaka Winter Campaign onwards",
+      "nodeIcon": "https://astroninjagirl.co.uk/wp-content/uploads/2024/03/ang_icon.png"
+    }
+  },
+  "error": null
+}

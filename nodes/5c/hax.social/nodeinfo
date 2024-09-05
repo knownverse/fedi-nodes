@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1255
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Hax Social",
+      "nodeDescription": "Mastodon instance for le hax.\r\n\r\nThis is a public instance, operated as part of Hax LLC."
+    }
+  },
+  "error": null
+}

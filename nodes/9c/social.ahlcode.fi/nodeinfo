@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "ceo@ahlcode.fi",
+        "name": "Mikko Ahlroth"
+      },
+      "nodeDescription": "This is a fediverse instance run by T:mi AhlCode, a sole proprietorship in Finland that runs <a href=\"https://codestats.net/\">Code::Stats</a>. This instance hosts the owner's personal account and other related accounts.\n\n---\n\nTätä fediversumi-instanssia operoi T:mi AhlCode, joka pyörittää <a href=\"https://codestats.net/\">Code::Stats</a>-palvelua. Instanssilla on omistajan henkilökohtainen tili ja muita sekalaisia saman henkilön tilejä.",
+      "nodeName": "AhlCode Social server",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 1887,
+      "users": {
+        "activeHalfyear": 4,
+        "activeMonth": 4,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

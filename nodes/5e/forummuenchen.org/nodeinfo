@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 88,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Forum Queeres Archiv München e.V.",
+      "nodeDescription": "LesBiSchwulTransInter* in Geschichte und Kultur",
+      "nodeIcon": "https://forummuenchen.org/wp-content/uploads/2020/05/cropped-favicon-1.png"
+    }
+  },
+  "error": null
+}

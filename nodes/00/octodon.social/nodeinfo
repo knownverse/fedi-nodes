@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12218,
+        "activeMonth": 733,
+        "activeHalfyear": 1089
+      },
+      "localPosts": 3018957
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "the Octodon",
+      "nodeDescription": "queer anarchist communist cyber pirate ship"
+    }
+  },
+  "error": null
+}

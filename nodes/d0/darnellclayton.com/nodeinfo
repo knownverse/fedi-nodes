@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1372,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Darnell Clayton",
+      "nodeDescription": "If Ignorance is bliss, then Enlightenment is Heaven.",
+      "nodeIcon": "https://i0.wp.com/darnellclayton.com/wp-content/uploads/2024/04/cropped-70931350496__81AC3C48-8463-4526-9632-61B6D5CCB134-rotated-1.jpeg?fit=3024%2C3024&ssl=1"
+    }
+  },
+  "error": null
+}

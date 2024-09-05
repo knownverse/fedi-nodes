@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 185,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zero Tituli News",
+      "nodeDescription": "ZTN è un progetto indipendente per supportare la diffusione dell&#039;informazione di qualità. Propone rassegne di articoli, siti, documenti e repost liberamente accessibili sul web. Gli articoli internazionali di particolare interesse sono tradotti in lingua italiana. I titoli degli articoli sono verificati ed eventualmente modificati per sintetizzare correttamente il contenuto del testo (no clickbait). Il progetto è autofinanziato, non è a scopo di lucro e non contiene inserzioni o pubblicità. Seguici anche su facebook, instagram, tumblr e twitter (zerotitulinews).",
+      "nodeIcon": "https://zerotitulinews.wordpress.com/wp-content/uploads/2022/04/cropped-zero-tituli3-1.png"
+    }
+  },
+  "error": null
+}

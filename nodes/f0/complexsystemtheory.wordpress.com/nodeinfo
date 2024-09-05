@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Complex system theory",
+      "nodeDescription": "study of complex system theory",
+      "nodeIcon": "https://complexsystemtheory.wordpress.com/wp-content/uploads/2019/05/cropped-eb9e9ceb8da4eab2bdeba19c-view-1.png"
+    }
+  },
+  "error": null
+}

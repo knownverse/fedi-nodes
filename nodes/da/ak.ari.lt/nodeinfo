@@ -1,0 +1,857 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "fedi.nano.lgbt",
+            "poa.st",
+            "poast.org",
+            "pisskey.io",
+            "poast.tv",
+            "probablyfreespeech.com",
+            "mapsupport.de",
+            "childlove.space",
+            "childlove.su",
+            "cannibal.cafe",
+            "paraviefalt.zone",
+            "awakari.com",
+            "pawoo.net",
+            "mstdn.jp",
+            "13bells.com",
+            "1611.social",
+            "4aem.com",
+            "5dollah.click",
+            "adachi.party",
+            "adtension.com",
+            "dembased.xyz",
+            "anon-kenkai.net",
+            "asbestos.cafe",
+            "skippers-bin.com",
+            "bae.st",
+            "banepo.st",
+            "bassam.social",
+            "beefyboys.win",
+            "boymoder.biz",
+            "brainsoap.net",
+            "breastmilk.club",
+            "brighteon.social",
+            "cachapa.xyz",
+            "peervideo.club",
+            "gameliberty.club",
+            "cawfee.club",
+            "clew.lol",
+            "clubcyberia.co",
+            "cottoncandy.cafe",
+            "crlf.ninja",
+            "crucible.world",
+            "cum.camp",
+            "cum.salon",
+            "cunnyborea.space",
+            "decayable.ink",
+            "detroitriotcity.com",
+            "djsumdog.com",
+            "social.nano.lgbt",
+            "eientei.org",
+            "eveningzoo.club",
+            "fluf.club",
+            "foxgirl.lol",
+            "pedo.school",
+            "freak.university",
+            "freeatlantis.com",
+            "freespeechextremist.com",
+            "fsebugoutzone.org",
+            "froth.zone",
+            "gearlandia.haus",
+            "geofront.rocks",
+            "genderheretics.xyz",
+            "gleasonator.com",
+            "glee.li",
+            "harpy.faith",
+            "h5q.net",
+            "haeder.net",
+            "hitchhiker.social",
+            "battlepenguin.video",
+            "iddqd.social",
+            "kitsunemimi.club",
+            "kiwifarms.cc",
+            "kyaruc.moe",
+            "leafposter.club",
+            "liberdon.com",
+            "ligma.pro",
+            "loli.church",
+            "lolicon.rocks",
+            "lolison.network",
+            "lolison.top",
+            "magicka.org",
+            "marsey.moe",
+            "taihou.website",
+            "merovingian.club",
+            "midwaytrades.com",
+            "mirr0r.city",
+            "mouse.services",
+            "morale.ch",
+            "mugicha.club",
+            "natehiggers.online",
+            "narrativerry.xyz",
+            "nobodyhasthe.biz",
+            "nationalist.social",
+            "shortstacksran.ch",
+            "needs.vodka",
+            "nicecrew.digital",
+            "nightshift.social",
+            "nnia.cc",
+            "nnia.space",
+            "noagendasocial.com",
+            "noagendasocial.nl",
+            "noagendatube.com",
+            "noauthority.social",
+            "norwoodzero.net",
+            "nyanide.com",
+            "onionfarms.org",
+            "pawlicker.com",
+            "parcero.bond",
+            "piazza.today",
+            "pibvt.net",
+            "pieville.net",
+            "sad.cab",
+            "poster.place",
+            "rapemeat.solutions",
+            "rapemeat.express",
+            "rayci.st",
+            "rebelbase.site",
+            "ryona.agency",
+            "plagu.ee",
+            "schwartzwelt.xyz",
+            "seal.cafe",
+            "shaw.app",
+            "shitpost.cloud",
+            "skinheads.social",
+            "skinheads.eu",
+            "skinheads.uk",
+            "skinheads.io",
+            "spinster.xyz",
+            "neenster.org",
+            "strelizia.net",
+            "tastingtraffic.net",
+            "theblab.org",
+            "thechimp.zone",
+            "thenobody.club",
+            "truthsocial.co.in",
+            "usualsuspects.lol",
+            "vampiremaid.cafe",
+            "varishangout.net",
+            "vtuberfan.social",
+            "wolfgirl.bar",
+            "yggdrasil.social",
+            "zhub.link",
+            "threads.net",
+            "www.threads.net",
+            "imouto.pics",
+            "imouto.exposed",
+            "*.ating.press",
+            "oddballs.online",
+            "rape.pet",
+            "*.thoughtcrimes.top",
+            "rqd2.net",
+            "tummy.town",
+            "*.isekco.re",
+            "*.notacri.me",
+            "*.tor.observer",
+            "eepy.express",
+            "paravielfalt.zone",
+            "*.ey.business",
+            "cutecatgirls.cafe",
+            "*.nekos.cafe",
+            "pacsa.us",
+            "*.sexycubs.xyz",
+            "*.cubsex.lol",
+            "*.yesmap.net",
+            "miiverse.cafe",
+            "cunnyfu.cc",
+            "childlove.top",
+            "aethy.com",
+            "baraag.net"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "parcero.bond": {
+              "reason": "[FediNuke] Blatantly racist slur use from admin.  Antisemitism from admin.  Sui-bait from admin."
+            },
+            "childlove.top": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "nyanide.com": {
+              "reason": "[FediNuke] Staff member sends transmisogynistic pedojacketing harassment.  Same staff member posts blatant extreme racism (CW: SA).  Same staff member sends anti-vax harassment to other users.  Two staff members in a racist and antisemitic thread."
+            },
+            "foxgirl.lol": {
+              "reason": "[FediNuke] Blatantly antisemitic use of slurs from admin. transphobic slurs from admin."
+            },
+            "marsey.moe": {
+              "reason": "[FediNuke] boks.moe had the occasional holocaust denial meme. one of the main users “Ruusu” set their display name to a racial slur in a violent context. Staff member “MischievousuTomatosu” posts blatantly racist takes on border control.  boks.moe moved to marsey.moe, which features a hitler-themed racist “Witster_” account, making fun of mutual aid posts, racist misogyny, blatantly transphobic jokes.  Staff member later moved to taihou.website. The staff member then went on to post rape threats, anti-vax, indophobic racism, and some more xenophobia"
+            },
+            "nnia.cc": {
+              "reason": "Import from Pedikill blocklist."
+            },
+            "childlove.su": {
+              "reason": "Domain name, clearly for pedophilia"
+            },
+            "childlove.space": {
+              "reason": "Domain name, clearly for pedophilia"
+            },
+            "sad.cab": {
+              "reason": "[FediNuke] Graf, admin of poa.st, also runs (and block-evades from) pisskey.io, and sends racist transphobic antisemitic harassment from it too."
+            },
+            "cutecatgirls.cafe": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "1611.social": {
+              "reason": "[FediNuke]     antisemitism from admin, anti-vax from admin with other local members, antisemitic caricature from admin."
+            },
+            "mstdn.jp": {
+              "reason": "Openly hosting CSAM."
+            },
+            "norwoodzero.net": {
+              "reason": "[FediNuke] Admin pedojackets in a transphobic harassment campaign.  Admin invites others users for the purpose of harassing trans users. Another example, using the fact that the instance is “barely defederated” as a selling point.  Instance “about” page contains racial slurs and an animated banner that says “whites only”."
+            },
+            "spinster.xyz": {
+              "reason": "[FediNuke] Spinster is a TERF instance created by Alex Gleason, admin of gleasonator.com; see its entry. Instance mostly engages in transmisogyny.  Staff member posts blatant transmisogyny.  Another staff member openly admits to being a TERF in their profile.  A third staff member posts a rant against the validity of trans women, with several local members piling on in the replies.  Neenster shares staff members (Alex Gleason, Nina Paley). The latter posts self-described TERF content and links to her blog with more TERF content."
+            },
+            "pibvt.net": {
+              "reason": "[FediNuke] Lolisho and actual photos of toddlers posted by MAPs. FediBlock post with some more details."
+            },
+            "bassam.social": {
+              "reason": "[FediNuke] The admin equates people being against anti-queer discrimination with “oppression”. After a user made a FediBlock post against bassam.social, its instance admin doubled down on permitting bigotry."
+            },
+            "threads.net": {
+              "reason": "Threads is filled with nazis facebook refuses to ban, privacy concerns, federation ethics"
+            },
+            "clew.lol": {
+              "reason": "[FediNuke] Racist meme from admin. Another racist meme. Racial slurs in bio of a user with a white-nationalist dog whistle in their handle who posts NJP propaganda Local users participating in a transmisogynistic harassment campaign with sui-bait."
+            },
+            "*.nekos.cafe": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "mapsupport.de": {
+              "reason": "Import from Pedikill blocklist."
+            },
+            "5dollah.click": {
+              "reason": "[FediNuke] Blatantly racist use of slurs from staff account, more racism from same account. The other staff account is racist too. Extreme racism from staff. “About” page lists no rules."
+            },
+            "nicecrew.digital": {
+              "reason": "[FediNuke] Blatant anti-Black racism from staff, anti-Black racist caricature from staff. Antisemitic COVIDspiracy from staff.  Has a bot to spam threads with racist slurs."
+            },
+            "paraviefalt.zone": {
+              "reason": "Pro-contact pedophile instance. Admin has the MAP (minor attracted person) flag in their profile picture and banner, along with their \"Age of Attraction\" (to minors) in their bio."
+            },
+            "rayci.st": {
+              "reason": "[FediNuke] Admin posts racial slurs, anti-Indian racism, anti-Black racist use of slurs, and some antisemitism.  Admin spams the MutualAid guppe group with shock content."
+            },
+            "tastingtraffic.net": {
+              "reason": "[FediNuke] Admin account is a high-activity news account full of hashtag spam. Frequently posts far-right transphobia/queerphobia, another example. The same content is frequently pasted in multiple posts per day."
+            },
+            "neenster.org": {
+              "reason": "[FediNuke] See spinster.xyz"
+            },
+            "anon-kenkai.net": {
+              "reason": "[FediNuke]     Blatant antisemitic caricature on the landing page of its “peertube” subdomain. Admin on the “mitra” subdomain posts anti-pride messages."
+            },
+            "gearlandia.haus": {
+              "reason": "[FediNuke] Transphobic targeted harassment from multiple staff members, including sui-bait.  Racist use of slurs from another staff member.  Assorted queerphobia from multiple users, including staff.  Staff members sometimes post lolisho, which may pose a legal risk in some jurisdictions."
+            },
+            "eepy.express": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "shitpost.cloud": {
+              "reason": "[FediNuke] Admin “Hoss” uses racial slurs in an unreclaimed context.  Admin publicized reports against local users participating in a targeted transphobic harassment campaign.  A user with a violent racist display name, with staff participating later in the thread."
+            },
+            "harpy.faith": {
+              "reason": "[FediNuke] blatant antisemitism from admin, admin doubling down with racist slurs after being called out.  Admin sends sui-bait transphobic replies to trans women.  suibait from user."
+            },
+            "fluf.club": {
+              "reason": "[FediNuke] Transphobia from admin, more transphobia, transphobic sui-bait.  The instance “about” page recommends freespeechextremist.com and kiwifarms.cc as instances “with similar moderation policies”; both those instances are on FediNuke with receipts."
+            },
+            "onionfarms.org": {
+              "reason": "[FediNuke] “About” page says \"This is a Mastodon server for the Onionfarms and Kiwifarms communites\" [sic] and admin bio confirms it."
+            },
+            "midwaytrades.com": {
+              "reason": "[FediNuke] Runs a Libs of TikTok bot. Transphobic and misogynist admin."
+            },
+            "shaw.app": {
+              "reason": "[FediNuke] Admin pedojackets trans people, posts blatant denial of trans validity (alongside other far-right talking points), and leaves transphobic replies to trans women.  Anti-mask post from admin."
+            },
+            "fsebugoutzone.org": {
+              "reason": "[FediNuke] See freespeechextremist.com"
+            },
+            "imouto.pics": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "crucible.world": {
+              "reason": "[FediNuke] Admin participating in extremely transphobic harassment More transphobia from admin Even more transphobia."
+            },
+            "rapemeat.express": {
+              "reason": "[FediNuke] rapemeat.express is the more public counterpart to rapemeat.solutions according to its “About” page."
+            },
+            "ryona.agency": {
+              "reason": "[FediNuke] Admin bio features blatant racism, antisemitism, misogyny, and other bigotry.  Admin participates in transmisogynistic harassment.  Blatant racism from a local user.  The instance “about page” features MRF policies to power a block-notification bot, to convert all posts (including followers-only posts) to public visibility, and to reject deletes.  Also runs a version of Pleroma patched to allow bypassing authorized-fetch.  plagu.ee is run by the same admin as ryona.agency, with similar patches and MRF policies applied as per the plagu.ee “about” page."
+            },
+            "cum.salon": {
+              "reason": "[FediNuke] see cum.camp"
+            },
+            "usualsuspects.lol": {
+              "reason": "[FediNuke] Admin led targeted transphobic bodyshaming harassment against members of a mainly-trans instance. Originally created to be a block-bait Soapbox instance."
+            },
+            "nnia.space": {
+              "reason": "Import from Pedikill blocklist."
+            },
+            "taihou.website": {
+              "reason": "[FediNuke] See marsey.moe"
+            },
+            "leafposter.club": {
+              "reason": "[FediNuke] Blatant antisemitism and queerphobia, SWERF, blatant racist use of slurs."
+            },
+            "ligma.pro": {
+              "reason": "[FediNuke] The admin threatened mass violence, threatened animal cruelty, posted unmarked gore (CW: NSFL gore), bragged about making death threats. After his infosec.exchange alt got banned he set up shop on fosstodon.org."
+            },
+            "hitchhiker.social": {
+              "reason": "[FediNuke] Sibling instances of djsumdog.com, run by the same admin; see its entry."
+            },
+            "boymoder.biz": {
+              "reason": "[FediNuke] Admin accounts post anti-Indian racism, racist copypasta. Staff includes “meso” from the.asbestos.cafe. Incompatible moderation standards."
+            },
+            "vampiremaid.cafe": {
+              "reason": "[FediNuke] Admin posts white nationalism, blatant racism, antisemitism, and more racism and antisemitism with unreclaimed slurs.  Admin posts a context-free “HH” and boosts swastikas from Poast.  Note that the instance heavily features suggestive lolicon."
+            },
+            "skinheads.uk": {
+              "reason": "[FediNuke] Alternate domains for The Antisocial Network."
+            },
+            "freespeechextremist.com": {
+              "reason": "[FediNuke] End of this thread has blatant antisemitism.  Multiple other users engaging in transmisogyny, and participating in a transmisogynistic harassment campaign.  Transphobic blanket-pedojacketing.  MRF policies include a block-notification bot. The linked page also makes it clear that this is a freeze-peach instance, so reporting won’t help.  In April 2024, FSE migraterd to fsebugoutzone.org due to technical issues. Blog post, new matching admin profile, new “about” page. The MRF policies listed include rejecting deletes, block-notification, and a freeze-peach moderation policy."
+            },
+            "breastmilk.club": {
+              "reason": "[FediNuke] Admin “leyonhjelm” posts transphobic sui-bait, spamming the “mutualaid” guppe group with blatant queerphobia."
+            },
+            "rapemeat.solutions": {
+              "reason": "[FediNuke] rapemeat.solutions is the successor to hentai.baby, run by its admin. hentai.baby was known for posting real CSA material. Openly pro-CSA. Has drawn nudity in the instance background."
+            },
+            "vtuberfan.social": {
+              "reason": "[FediNuke] Racism and other hate-speech, CW for unmarked nudity in profile pictures and banners.  Admin “Sivee” posts blatant racism, and local user “Saige” replies with violent racist bait. Sivee likely went by the same handle on seal.cafe.  Saige posts homophobic bait."
+            },
+            "freak.university": {
+              "reason": "[FediNuke] see pedo.school"
+            },
+            "www.threads.net": {
+              "reason": "See threads.net"
+            },
+            "gameliberty.club": {
+              "reason": "[FediNuke] Freeze-peach rules permit lolisho, which may be a legal risk depending on your jurisdiction.  Admin pinned posts contain slurs in un-reclaimed contexts, and runs an rsdb bot for more.  Admin posts racist memes, more racist memes, anti-pride."
+            },
+            "detroitriotcity.com": {
+              "reason": "[FediNuke] Well-known Nazi instance. Instance “about” page says: \"racial pejoratives, NSFW images & videos, insensitivity and contempt toward differences in sexual orientation and gender identification, and so-called “cyberbullying” are all commonplace on this instance\" and has a staff account display name featuring an iron cross. Policies permitting lolicon may make it a legal risk, depending on your jurisdiction."
+            },
+            "nightshift.social": {
+              "reason": "[FediNuke] Anti-Black racism and antisemitism from staff.  Extreme anti-black racism and more antisemitism from another staff member."
+            },
+            "beefyboys.win": {
+              "reason": "[FediNuke] Runs a blockbot. Staff member “Prude” has a profile with a racist rant pinned. Staff member “Tyler” posts “racism is cool and natural” followed immediately by racial slurs, and other slurs in a non-reclaimed context."
+            },
+            "lolison.top": {
+              "reason": "[FediNuke] Sibling instances focused on the MAP/pedophilia community. Claim to forbid CP, but also appears to have rules too lax for instances with such focus. Admin “Spag” also admins rapemeat.express; see its FediNuke entry."
+            },
+            "gleasonator.com": {
+              "reason": "[FediNuke] Admin is an outspoken TERF, who was head of engineering for Truth Social.  User “caekislove” pedojackets and sui-baits trans users, does homophobic pedojacketing as well, and posts extreme classism (violent imagery).  Admin is aware of the user but will not take action (unrelated extreme bigotry and Nazi iconography in thread)."
+            },
+            "thechimp.zone": {
+              "reason": "[FediNuke] Admin sends transphobic pedojacketing harassment to trans users, with racial slurs to boot.  Admin participates in queerphobic harassment.  Admin profile contains racial slurs."
+            },
+            "aethy.com": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "skinheads.io": {
+              "reason": "[FediNuke] Alternate domains for The Antisocial Network."
+            },
+            "noauthority.social": {
+              "reason": "[FediNuke] Run by the admin of noagendasocial.com (see the No Agenda Social FediNuke entry). Features more blatant transphobia from the admin.  Instance “about” page describes it as a free-speech instance with a link to a directory of other instances with similar policies; all the live domains on that list are also on FediNuke with receipts."
+            },
+            "varishangout.net": {
+              "reason": "[FediNuke] Instance permits lolicon/shotacon. sample non-graphic thread containing queerphobia, esp. transphobia, with staff involvement, another such thread.  Staff member being openly transphobic.  Several members participating in transphobic harassment."
+            },
+            "mirr0r.city": {
+              "reason": "[FediNuke] Paraphilia- and pedophilia-focused instance that explicitly welcomes pro-contacts and neo-Nazis."
+            },
+            "cunnyfu.cc": {
+              "reason": "Domain name and content discussed in https://labyrinth.zone/objects/a1a30209-b5ac-426f-b8ce-23f30047b6ea"
+            },
+            "awakari.com": {
+              "reason": "Unauthorised selling and scraping of data. https://awakari.com/#about // https://ursal.zone/@Ursalzona/112602899062032969"
+            },
+            "oddballs.online": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "*.tor.observer": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "eveningzoo.club": {
+              "reason": "[FediNuke] Transphobia from admin More admin transmisogny Racist meme from admin Antisemitism from admin More antisemitism from admin White nationalism from user."
+            },
+            "tummy.town": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "liberdon.com": {
+              "reason": "[FediNuke] Freeze-peach ancap instance.  Medical misinformation: COVIDspiracy, anti-vax, more anti-vax) across three different users.  Across four users: transphobia, flat-earth conspiracy theories, antisemitism, blatant nazism, and fashjacketing antifa."
+            },
+            "seal.cafe": {
+              "reason": "[FediNuke] Users including admin participate in transphobic targeted harassment.  Racist slurs from admin.  Antisemitic transphobia from a user.  Admin posting sui-bait in response to a trans woman coming out."
+            },
+            "*.thoughtcrimes.top": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "narrativerry.xyz": {
+              "reason": "[FediNuke] Admin posts blatant anti-Indian racism.  Admin combines antisemitic conspiracy theories, homophobia, and racism in a slur-filled thread."
+            },
+            "freeatlantis.com": {
+              "reason": "[FediNuke] Far-right MAGA instance.  Admin has reblogged local users posting extreme transmisogny, xenophobia, anti-drag, MAGA, anti-vax, more anti-vax.  Admin posts QAnon."
+            },
+            "pacsa.us": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "loli.church": {
+              "reason": "[FediNuke] Instance announcement post explicitly condones racist posts (reblogged by admin). Author of that post also posts blatant antisemitism and anti-Indigenous ethno-nationalism.  loli.church is the new home of fediverse.dotnet00.dev. Receipts from the old instance: Racist user “Wiz”, posts edgy bigotry.  Receipts from the old instance: Reporting probably won’t help, as the admin maintains a freeze-peach policy and regularly boosts racist content themself.  The users in receipts for dotnet00.dev are now on loli.church with the same handles. Their profiles contain uncensored loli hentai."
+            },
+            "skinheads.eu": {
+              "reason": "[FediNuke] See skinheads.social"
+            },
+            "battlepenguin.video": {
+              "reason": "[FediNuke] Sibling instances of djsumdog.com, run by the same admin; see its entry."
+            },
+            "lolicon.rocks": {
+              "reason": "[FediNuke] “About” page states \"posting.lolicon.rocks is a common carrier telecommunications provider that does not moderate content\" and also features the owner with the handle “BlinkRape”.  Owner profile bio contains racist and ableist slurs.  Owner posts antisemitism, blatant racism in a climate-denial thread."
+            },
+            "nationalist.social": {
+              "reason": "[FediNuke] See nobodyhasthe.biz"
+            },
+            "*.sexycubs.xyz": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "13bells.com": {
+              "reason": "[FediNuke]     Admin posts Sandy Hook school shooting conspiracy theories, transphobia, and queerphobia."
+            },
+            "eientei.org": {
+              "reason": "[FediNuke] Instance “about” page explicitly describes it as a racist instance, anad uses racial slurs. MRF policies on the “about” page feature a blockbot and rejecting deletes. Admin posts antisemitic caricatures. User “lina” has a bio with blatant bigotry."
+            },
+            "thenobody.club": {
+              "reason": "[FediNuke] Admin participates in a transmisogynistic harassment campaign.  Racist and antisemitic use of slurs from admin, along with some heavy xenophobia shortly after.  More racist xenophobia from admin."
+            },
+            "brainsoap.net": {
+              "reason": "[FediNuke] dismissive over white supremacy, Nazi humor"
+            },
+            "wolfgirl.bar": {
+              "reason": "[FediNuke] Admin participates in racist harassment, posting openly Nazi bigoted slur-filled content. Sends Nazi imagery with racial slurs to Jewish users while defending slavery."
+            },
+            "plagu.ee": {
+              "reason": "[FediNuke] See ryona.agency"
+            },
+            "piazza.today": {
+              "reason": "[FediNuke] climate denial from admin, COVID misinformation from admin, transphobia from admin.  xenophobic MAGA crap and Great Replacement conspiracy theories (archive visually cut off, but the post is visible in the screenshot tab or in page source code) from local user."
+            },
+            "theblab.org": {
+              "reason": "[FediNuke] Instance explicitly permits, and admin reblogs, openly ethno-nationalist/Nazi content from local users.  TheBlab.org “about” page says: \"The Blab is the place for refugees of places that claim to be free speech. After the shekelcaust of Gab an alternative was needed. This is that alternative.\".  Admin profile page contains multiple reblogs of local users posting racial slurs, Nazi imagery, and antisemitism. More racism from local users."
+            },
+            "cum.camp": {
+              "reason": "[FediNuke] Instance has MRF policies to reject deletes and run a blockbot on cum.camp and on cum.salon. Staff members “pernia” and “nimt” are known for overly-creepy posts related to sexual assault, esp. CSA, another. The cum.salon domain name was recently terminated by PorkBun after several people reported it for publishing dox materials. Other instances have locally overridden their DNS to continue federating until its TLS certificate expires; however, it came back after transferring to Epik."
+            },
+            "*.ating.press": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "cannibal.cafe": {
+              "reason": "[FediNuke] Shares some staff with lolison.top; see its FediNuke entry. Staff-endorsed instances in the “local bubble” include nnia.space, freak.university, rapemeat.express, and other instances on FediNuke for similar reasons. Admin is explicitly pro-contact."
+            },
+            "noagendasocial.com": {
+              "reason": "[FediNuke] Far-right instance connected to the No Agenda show.  Blatant queerphobia.  One of its more popular users is openly an ethno-nationalist with thinly-veiled genocidal views and runs the far-right amerika.org blog.  An even more popular user regularly posts far-right content."
+            },
+            "natehiggers.online": {
+              "reason": "[FediNuke] Used to run an awful Pleroma instance, which shut down. A WriteFreely instance is still up on the “wf” subdomain. Domain name is an obvious spoonerism of racist use of slurs.  The WriteFreely blog features COVID conspiracy theories, violent racist transmisogyny, anti-vax, and other far-right content."
+            },
+            "adtension.com": {
+              "reason": "[FediNuke]     Admin posts blatant anti-Black racism, and doubles-down with more after being called out on it."
+            },
+            "probablyfreespeech.com": {
+              "reason": "Instance has the \"NoIncomingDeletes\" MRF enabled, this is a breach of the privacy of remote users. https://probablyfreespeech.com/about"
+            },
+            "mouse.services": {
+              "reason": "[FediNuke] Admin posts blatantly racist use of slurs, more racism."
+            },
+            "kitsunemimi.club": {
+              "reason": "[FediNuke] Admin “bronze” participates in racist harassment.  Admin sends users transphobic shock content, makes transphobic TTD posts with hashtag spam.  Runs the HighRoller MRF policy for a block-notification bot."
+            },
+            "bae.st": {
+              "reason": "[FediNuke] see skippers-bin.com"
+            },
+            "banepo.st": {
+              "reason": "[FediNuke] Runs a blockbot. Admin posts antisemitism, homophobia, and transphobia in one post, another with more of the same, all of that with a side of ableism."
+            },
+            "glee.li": {
+              "reason": "[FediNuke] Racist harassment of Mutual Aid posts.  More blatant racism and transmisia.  Admin posts \"glad shes gone\" in response to a gender and sexuality scholar dying, and participates in a transmisogynistic harassment campaign.  More blatant racism.  Instance is associated with the website https://getgle.org. Split off of asbestos.cafe in early 2023, formerly at a subdomain of getgle.org."
+            },
+            "yggdrasil.social": {
+              "reason": "[FediNuke] The first rule of the yggdrasil.social “about” page says “No LGBTQ. Period. No homosexuality” followed by blatant transphobia.  Profile for “Ricotta”, the current most active user, has a swastika in their display name and a bio that includes “National Socialist” and “TERF”.  Blatant racism from another user."
+            },
+            "decayable.ink": {
+              "reason": "[FediNuke] Instance is well-known for harassment campaigns. Targeted transmisogynistic harassment, and aftermath of said harassment. Racist admin. The instance introductory post is chock-full of red flags. Another instance of haraassment."
+            },
+            "poa.st": {
+              "reason": "Well-known for allowing Nazism and other bigotry. Instance has Confederate battle flag emojis and Nazi flag emojis, along with a Hitler emoji and an Epstein emoji."
+            },
+            "*.ey.business": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "rape.pet": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "needs.vodka": {
+              "reason": "[FediNuke] See shortstacksran.ch"
+            },
+            "poster.place": {
+              "reason": "[FediNuke] Staff member “spitfire” spams the “mutualaid” guppe group and hashtag with extreme queerphobia, and makes racist homophobic slur-filled anti-antifa posts. Instance header contains an animated GIF full of slurs."
+            },
+            "froth.zone": {
+              "reason": "[FediNuke] Blatant racism, racist homophobia. Reporting is unlikely to help given the lack of rules against this, some ableism from the admin and some racism from the admin."
+            },
+            "kyaruc.moe": {
+              "reason": "[FediNuke] Admin sui-baiting to get on this list. Later changed their mind, got mad about being on it, and publicized an attempted dox.  Racist use of slurs, targeted ableist harassment"
+            },
+            "morale.ch": {
+              "reason": "[FediNuke] Transphobia, blatant antisemitism, and both at once. Ableist holocaust denial. All from the admin account."
+            },
+            "haeder.net": {
+              "reason": "[FediNuke] Instance blocklist reasons are unapologetically queerphobic, calling nonbinary individuals “delusional” and saying \"We don’t need more diversity and tollerance when this doesn’t fall back on us straight people\".  Admin bio has blatant transphobia and hashtags such as \"SayNoToWoke\"."
+            },
+            "poast.org": {
+              "reason": "See reason for poa.st, same admins and users"
+            },
+            "baraag.net": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "paravielfalt.zone": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "crlf.ninja": {
+              "reason": "[FediNuke] Instance admin endorses sending toxic racist slurs and being “horrible” to people for blocking instances.  Admin participated in a transphobic dogpiling campaign.  Admin publicizes blocks.  Admin uses triple-paren antisemitic dogwhistle."
+            },
+            "pawoo.net": {
+              "reason": "Import from Pedikill blocklist."
+            },
+            "miiverse.cafe": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "kiwifarms.cc": {
+              "reason": "[FediNuke] The official occasionally-online KiwiFarms Fediverse instance. Look up “KiwiFarms” online if you want receipts. It briefly came back once after a long period of downtime, so I’m not removing it during the current downtime."
+            },
+            "cawfee.club": {
+              "reason": "[FediNuke] Racism from multiple users, including admin. Anti-Romani and racist posts from admin. Users engaging in more racism. Anti-vax from admin."
+            },
+            "pedo.school": {
+              "reason": "[FediNuke] Instance known for permitting paraphilia including pedophilia, and also explicitly allows minors (13+ although that limit may be lowered). Scroll through local users on /directory for more receipts.  pedo.school has identical rules on its “About” page. Instance contains untagged sexual depictions of minors and multiple self-described “pro-c” users; scroll through local users on /directory for more receipts."
+            },
+            "imouto.exposed": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "merovingian.club": {
+              "reason": "[FediNuke] Instance “About” page bills it as “a club for redpilled exiles”.  Admin is active on MGTOW.TV, and posts racist caricatures. Admin and instance members are deeply misogynistic. Another example of admin misogyny.  Among users, there’s blatant transmisogyny, antisemitism, anti-vax."
+            },
+            "noagendasocial.nl": {
+              "reason": "[FediNuke] Sibling instances of noagendasocial.com, also connected to the No Agenda Show."
+            },
+            "*.yesmap.net": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "geofront.rocks": {
+              "reason": "[FediNuke] Well-known Nazi instance.  Blatantly racist and transphobic use of slurs, ethno-nationalism, more racism. All from what seems to be the primary active user of the instance.  Another user has a blatantly Nazi profile featuring violent transphobic shock content."
+            },
+            "cunnyborea.space": {
+              "reason": "[FediNuke] Appears to be a racist pro-contact pedophilia-themed instance. One admin has swastikas in their profile bio and several variations on “total ___ death”. The other admin’s bio has blatant racism and antisemitism."
+            },
+            "asbestos.cafe": {
+              "reason": "[FediNuke] Racism and ableism from admin. Admin sharing a dox attempt Transmedical gatekeeping from a cis user.  Antisemitism from local user followed by ableism from admin. Admin defends antisemitism. Queerphobic user."
+            },
+            "clubcyberia.co": {
+              "reason": "[FediNuke] Instance features anti-black emotes. Users such as “Inginsub” often post blatant racism. Hosts a KiwiFarms staff member. Staff member publicizes reports against extremely transphobic harassment in a reply to said harassment (YWNBAW-like copypasta)."
+            },
+            "magicka.org": {
+              "reason": "[FediNuke] antisemitism from admin.  unreclaimed use of homophobic slur.  climate change denial conspiracy theories.  anti-abortion."
+            },
+            "pawlicker.com": {
+              "reason": "[FediNuke] Root domain hosts a pro-KiwiFarms and transphobic essay. Admin posts transmisogyny, more transphobia (the person he references knowing more is a KF staff member), even more transphobia."
+            },
+            "truthsocial.co.in": {
+              "reason": "[FediNuke] Named after Donald Trump’s “Truth Social” network. A glimpse at their local timeline shows mostly far-right content befitting of the instance name. One of the main posters, “Kittruth”, regularly posts racist talking points. Instance seems completely unmoderated, with spambots such as “leoedward” going unnoticed for months."
+            },
+            "djsumdog.com": {
+              "reason": "[FediNuke] Admin posts blatant transphobia, more blatant transphobia. Defends teaching children to be transphobic on moral grounds. Jan 6th conspiracy theories while calling participants “discount Mandelas”."
+            },
+            "cachapa.xyz": {
+              "reason": "[FediNuke] Admin posts blatant racism, blatantly racist transphobic sui-biat. Root domain’s “about” page contains transphobic, racist, queerphobic, and other slurs in a list of things the owner “hates”. Instance permits lolicon, and runs accounts for it such as “Shishihime” and “NahidaBot”; this may be a legal risk, depending on your jurisdiction."
+            },
+            "rebelbase.site": {
+              "reason": "[FediNuke] Admin posts blatant transphobia, posts more thinly-veiled transphobia, insists on misgendering.  Admin is anti-abortion, identifies as an MRA.  Elsewhere on the site is a user who posts COVID denial, anti-vax with a side of queerphobia and Islamophobia."
+            },
+            "social.nano.lgbt": {
+              "reason": "See fedi.nano.lgbt"
+            },
+            "brighteon.social": {
+              "reason": "[FediNuke] Brighteon’s “about” page marks the instance as a far-right cesspit. Instance is connected to the Brighteon network, a far-right network featuring shows such as “The Reality Camp” with Stacey Campfield."
+            },
+            "noagendatube.com": {
+              "reason": "[FediNuke] Sibling instances of noagendasocial.com, also connected to the No Agenda Show."
+            },
+            "fedi.nano.lgbt": {
+              "reason": "Admin has their XMPP/Jabber account hosted on a server with the domain name \"knots inside . me\". This almost certainly refers to the term for animal penis. Whether this is an edgy joke or not, this is in extremely bad taste and still worth a block."
+            },
+            "iddqd.social": {
+              "reason": "[FediNuke] Admin posts anti-Black caricatures, supports organized predatory retaliation against DEI efforts. Instance landing page markets itself as an instance for 4chan users."
+            },
+            "poast.tv": {
+              "reason": "See reason for poa.st, same admins and users"
+            },
+            "pisskey.io": {
+              "reason": "See reason for poa.st, same admins and users"
+            },
+            "shortstacksran.ch": {
+              "reason": "[FediNuke] Admin posts ethno-fascist harassment, antisemitism. Supports racist, misogynistic, violent grooming.  shortstacksran.ch is the continuation of squid.kids and shortstackran.ch (note the extra “s”), by the same admin. See prior FediBlock post. On the new instance, the admin posts extremely racist use of slurs, and racist antisemitism. Blatantly racist use of slurs and hashtag-spam in a block-bait post from a local user."
+            },
+            "cottoncandy.cafe": {
+              "reason": "Import from Pedikill blocklist."
+            },
+            "genderheretics.xyz": {
+              "reason": "[FediNuke] “About” page explicitly labels the instance as transphobic.  Admin posts unmarked NSFL medical gore in a transmisogynistic context.  Anti-drag pedojacketing from admin."
+            },
+            "*.isekco.re": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "lolison.network": {
+              "reason": "[FediNuke] Sibling instances focused on the MAP/pedophilia community. Claim to forbid CP, but also appears to have rules too lax for instances with such focus. Admin “Spag” also admins rapemeat.express; see its FediNuke entry."
+            },
+            "rqd2.net": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "*.cubsex.lol": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "zhub.link": {
+              "reason": "[FediNuke] Admin strolling into mentions of trans lesbians to post queerphobia, later doubling down on it, describing transness as “ugly, illogical”. An earlier example claiming to be oppressed for being labelled homophobic for holding homophobic beliefs.  Admin posts Islamophobic pedojacketing."
+            },
+            "nobodyhasthe.biz": {
+              "reason": "[FediNuke] “About” page lists multiple admins and mods with swastikas in their display names and/or profile photos.  Admin “ShariVegas” is an unapologetic white supremacist and antisemite.  Admin “thomaslewis” makes fun of a report against a blatantly racist user while adding a homophobic and antisemitic slur of his own.  Moderator “BobRoss” has a bio starting with \"Spreading the joy of antisemitism\" and encourages calling users slurs instead of reporting as \"an integral part of the culture around here\".  nobodyhasthe.biz eventually migrated to nationalist.social. Instance announcement establishes the connection. Contains the same/similar staff handles.  Some local users on the new instance: a self-identified racist with nazi iconography, and a blatantly antisemitic white nationalist.  Admins of nationalist.social made it clear that reporting won’t help, if you’re still holding out hope for some reason."
+            },
+            "*.notacri.me": {
+              "reason": "Import from Pedikill blocklist. Considering being a part of this banlist marks the instance as paedophilic, pro-paedophillia, and/or creepy in any other way: it is better to block it."
+            },
+            "4aem.com": {
+              "reason": "[FediNuke]     Freeze peach PeerTube instance on the “tube” subdomain, hosting blatant antisemitic content. “Clown World” dogwhistles, antisemitic “Why Kanye West is right”."
+            },
+            "skippers-bin.com": {
+              "reason": "[FediNuke] Admin profile page has an “n-word pass”. Runs a host of bots posting lewd artwork, some of which venture into lolicon and Black-fetishism territory (e.g. “NessaBot”). Runs “glow_in_the_dark_cia_agent”, one of the biggest followbots on Fedi. Instance rejects deletes. Another admin has a Confederate battle-flag and unreclaimed transphobic slurs in their display name. skippers-bin.com is run by the same person as bae.st."
+            },
+            "skinheads.social": {
+              "reason": "[FediNuke] The Antisocial Network is for white-nationalist skinhead subculture. “Aryans” botwhite pride, Nordic resistance movement."
+            },
+            "dembased.xyz": {
+              "reason": "[FediNuke] #FediBlock on 2023-02-24 Hosts a blockbot user, with the handle “blockbot”, and a defederation-notification bot. Racism from admin. In light of this, I’m not inclined to give the benefit of doubt over the cross in his display name and doubling down on vaguely antisemitic posts. Another example of antisemitic caricatures from the admin. Blatant antisemitism from local user. dembased.xyz used to run the predecessor of annihilation.social. A few times since, a small experimental instance has been set up on a subdomain. Both are owned by the same person."
+            },
+            "schwartzwelt.xyz": {
+              "reason": "[FediNuke] Admin participates in a transphobic harassment campaign by posting transphobic pedojacketing sui-bait containing Nazi iconography. More blatant transphobia from admin.  Admin participates in anti-indigenous racist harassment.  Local user “Agartha_Noble” posts blatant racism in a thread about race-mixing."
+            },
+            "strelizia.net": {
+              "reason": "[FediNuke] Instance “About” page lists MRF policies to reject deletes and run a block-notification bot.  Admin posts anti-Black racism, more blatant racism, and some other slurs in non-reclaimed contexts Local user “nikiboo” posts blatant anti-Black racism (re-blogged by admin), has a profile photo with Nazi imagery."
+            },
+            "h5q.net": {
+              "reason": "[FediNuke] Contains untagged AI-generated photorealistic erotic content that may pose a legal risk in several jurisdictions."
+            },
+            "peervideo.club": {
+              "reason": "[FediNuke] Both are part of the Waifu Hunter Club’s suite of services, along with gameliberty.club; see its FediNuke entry. catgirl.life has the same admin as gameliberty.club, who has used the domain for block-evasion. Like gameliberty.club, both instances also permit lolicon."
+            },
+            "adachi.party": {
+              "reason": "[FediNuke] The instance in question is on the “pleroma” subdomain. Its “about” page has the “Kill, behead, roundhouse kick” copypasta with racial slurs. Archived “about” page. Later updated rules to include “must advocate for racism/fascism/nazism”. Admin posts racist transphobia, mass-tags other users with blatant racism."
+            },
+            "mugicha.club": {
+              "reason": "[FediNuke] Admin participated in a transphobic targeted harassment campaign with local users.  Anti-asian racist slurs from admin.  Misogynistic racism from admin with several local users with Confederate battle-flags in their display names.  More blatantly racist use of slurs from admin."
+            },
+            "pieville.net": {
+              "reason": "[FediNuke] Admin is a white nationalist who supports building an ethno-state, and genocide. Admin profile features more blatant slur-filled racism, antisemitism, etc."
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 16,
+        "maxRemoteFields": 24,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "The ari-web fediverse instance based on Akkoma!",
+      "nodeName": "Ari::web -> Akkoma",
+      "pollLimits": {
+        "max_options": 32,
+        "max_option_chars": 256,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": true,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://ak.ari.lt/users/zayd",
+        "https://ak.ari.lt/users/ari"
+      ],
+      "uploadLimits": {
+        "general": 33554432,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": 20,
+        "activeMonth": 11
+      },
+      "localPosts": 5684
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

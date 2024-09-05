@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey.kitazawa.me",
+      "repository": "https://misskey.kitazawa.me"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2589,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 889820,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "きたざわ🤝みすき",
+      "nodeDescription": "ガキはデジタルアーツによってシバかれたらしいです！\nウオー、ホンマに悲しい😌\n<hr>\nセクシーでアダルティックで且つ上品なユーザーによるノーツはこちら。\n北沢みのるやキタザワミノルちゃんが好きな人集合！",
+      "nodeAdmins": [
+        {
+          "name": "北沢み(@roko1501)",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "北沢み(@roko1501)",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://misskey.kitazawa.me",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "GTL",
+      "themeColor": "#64DD17"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.7.1-rc4",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 1,
+      "localComments": 1
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Everything Hub",
+      "nodeDescription": "Content aggregator, content voting, discussion and micro-blogging platform on the fediverse"
+    }
+  },
+  "error": null
+}

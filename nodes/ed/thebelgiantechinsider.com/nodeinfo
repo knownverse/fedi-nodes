@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 36,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Belgian Tech Insider",
+      "nodeDescription": "Le blog belge de référence pour tout ce qui touche le smartphone et la high tech. Actualités, conseils d&#039;achat, tests produits, astuces : nous vous donnons toutes les informations dont vous avez besoin pour être à la pointe de la technologie.",
+      "nodeIcon": "https://thebelgiantechinsider.com/wp-content/uploads/2024/01/5296b6f9-178b-4a62-9ffb-948881778cef-1.jpeg"
+    }
+  },
+  "error": null
+}

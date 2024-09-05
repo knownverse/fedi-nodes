@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2023.05-1518"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "gnusocial",
+        "pumpio"
+      ],
+      "outbound": [
+        "dreamwidth",
+        "gnusocial",
+        "libertree",
+        "livejournal",
+        "pumpio",
+        "smtp",
+        "tumblr",
+        "twitter",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 64,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "gnusocial",
+          "pumpio",
+          "twitter"
+        ],
+        "outbound": [
+          "dreamwidth",
+          "gnusocial",
+          "libertree",
+          "livejournal",
+          "pumpio",
+          "smtp",
+          "tumblr",
+          "twitter",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

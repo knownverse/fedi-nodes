@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 41,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Viata e scurta",
+      "nodeDescription": "Bun venit pe Viata e scurta, colțul meu confortabil de internet. Aici, va invit sa fiti alaturi de mine intr-o calatorie a visurilor, a dorintelor si a tuturor lucrurilor facute din dragoste, indiferent de felul lor",
+      "nodeIcon": "https://viataescurta.com/wp-content/uploads/2024/02/justme-1.jpg"
+    }
+  },
+  "error": null
+}

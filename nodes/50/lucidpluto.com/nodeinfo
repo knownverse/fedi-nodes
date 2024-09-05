@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 82,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LucidPluto",
+      "nodeDescription": "Bringing Light To The Darkness",
+      "nodeIcon": "https://i0.wp.com/lucidpluto.com/wp-content/uploads/2022/11/lucidpluto.jpeg?fit=1024%2C1024&ssl=1"
+    }
+  },
+  "error": null
+}

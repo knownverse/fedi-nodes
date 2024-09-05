@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Rotes Potsdam ist eine Website zur Ankündigung und Bewerbung von anstehenden Terminen im Großraum Potsdam. Die veröffentlichten Veranstaltungen sind in der Regel nicht kommerziell orientiert. Wir sehen uns als strömungsübergreifende \"linke\" Terminplattform und distanzieren uns von allen Veranstaltungen, die Unterdrückungsmechanismen jeglicher Art reproduzieren.",
+      "nodeName": "rotes.potsda.mn"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-potsda.mn-b39e566cdeea291aad93f5d5fbcf9f1866b4e243"
+    },
+    "usage": {
+      "localComments": 1,
+      "localPosts": 1282,
+      "users": {
+        "total": 79
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

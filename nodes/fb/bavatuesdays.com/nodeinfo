@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "9",
+        "activeHalfyear": "9"
+      },
+      "localPosts": 3836,
+      "localComments": 16122
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "bavatuesdays",
+      "nodeDescription": "a &quot;b&quot; blog",
+      "nodeIcon": "https://files.bavatuesdays.com/wp-content/uploads/2015/07/cropped-cropped-barbara-steele-images-1.jpg"
+    }
+  },
+  "error": null
+}

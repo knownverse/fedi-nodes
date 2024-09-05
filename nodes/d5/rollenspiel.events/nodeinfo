@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Veröffentlichen und Organisieren von Terminen rund um das Thema Rollenspiel",
+      "nodeName": "Rollenspiel Events"
+    },
+    "usage": {
+      "users": {
+        "total": 34
+      },
+      "localComments": 46,
+      "localPosts": 43
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

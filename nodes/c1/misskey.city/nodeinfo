@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-kakurega.1.39.1-city-1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 55014,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "常夜迷子",
+      "nodeDescription": "常夜迷子(とこよまいご)はLTLとGTLがある個人運営の汎用サーバーです。<a href=\"https://github.com/hideki0403/kakurega.app/blob/dev-kakurega/docs/difference.md\" style=\"color:var(--accent);\">隠れ家の機能</a>と投稿(Twitter/Misskey/Instagram)のインポート機能が使えます。<br>\n関東にある自宅サーバーで動いています。<br>\n",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "https://doc.misskey.city/"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "https://doc.misskey.city/"
+      },
+      "langs": [],
+      "tosUrl": "https://doc.misskey.city/rule/",
+      "privacyPolicyUrl": "https://doc.misskey.city/privacy/",
+      "inquiryUrl": "https://doc.misskey.city",
+      "impressumUrl": "https://doc.misskey.city",
+      "repositoryUrl": "https://github.com/hideki0403/misskey.yukineko.me",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#58b2dc"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Guppe Groups",
+      "version": "1.5.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 0
+      }
+    },
+    "metadata": {}
+  },
+  "error": null
+}

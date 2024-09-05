@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 83,
+      "localComments": 173
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "View from Elephant Hills",
+      "nodeDescription": "TR Shankar Raman",
+      "nodeIcon": "https://i0.wp.com/shankarraman.in/wp-content/uploads/2024/01/9c6cc-quillthumb.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

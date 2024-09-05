@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 4,
+        "activeHalfyear": 5
+      },
+      "localPosts": 28
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastdn",
+      "nodeDescription": "Share interests, discuss tech and art, or just enjoy good company. We vet applicants and maintain firm but fair moderation. Join us at Mastdn, subject to successful application!"
+    }
+  },
+  "error": null
+}

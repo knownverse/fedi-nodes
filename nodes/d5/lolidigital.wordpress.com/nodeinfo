@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 115,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Loli Digital",
+      "nodeDescription": "Apuntes de programación",
+      "nodeIcon": "https://lolidigital.wordpress.com/wp-content/uploads/2024/01/cropped-ee3e28a0-3a75-4727-a363-104eb29af524-1.jpg"
+    }
+  },
+  "error": null
+}

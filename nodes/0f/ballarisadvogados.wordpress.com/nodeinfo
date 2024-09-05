@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ballaris Advogados",
+      "nodeDescription": "Explore o fascinante mundo da lei com o blog do Ballaris Advogados. Aqui, oferecemos insights valiosos, análises profundas e conselhos práticos sobre uma variedade de tópicos legais, desde direito civil e trabalhista até questões médicas e criminais.  🔍 Profundidade e Clareza 🔍  Nossa equipe de advogados especializados compartilha seu conhecimento de uma forma acessível e fácil de entender. De tendências legais atuais a conselhos práticos para lidar com situações jurídicas complexas, você encontrará tudo aqui.  💡 Fique Informado, Esteja Preparado 💡  Fique atualizado sobre as últimas notícias jurídicas, aprenda sobre seus direitos e como protegê-los e descubra dicas úteis para navegar pelo sistema legal. Nosso objetivo é capacitar você com o conhecimento necessário para tomar decisões informadas sobre questões legais importantes.  👩‍⚖️ Sua Fonte Confiável de Informações Jurídicas 👨‍⚖️  No Ballaris Advogados, estamos comprometidos em fornecer conteúdo valioso que beneficie nossos leitores. Confie em nós para orientação em todos os assuntos legais.  Explore nosso blog hoje mesmo e comece sua jornada para um entendimento mais profundo do mundo jurídico!",
+      "nodeIcon": "https://ballarisadvogados.wordpress.com/wp-content/uploads/2024/04/cropped-logo-para-onm.png"
+    }
+  },
+  "error": null
+}

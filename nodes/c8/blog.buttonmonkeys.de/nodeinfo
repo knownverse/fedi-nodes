@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 32,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Braindump",
+      "nodeDescription": "This is a place where I write down things that my brain refuses to remember.",
+      "nodeIcon": "https://blog.buttonmonkeys.de/wp-content/uploads/2018/01/cropped-ezgif-1-78547a4fb4-1.gif"
+    }
+  },
+  "error": null
+}

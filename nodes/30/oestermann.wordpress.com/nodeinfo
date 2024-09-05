@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 381,
+      "localComments": 167
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Östermanns Blog",
+      "nodeDescription": "Organisation und Unternehmensführung | Transformation | Klimakrise |  Medienwandel |  Digitalisierung |  Zukunft der Arbeit | Komplexität | nächste Gesellschaft",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

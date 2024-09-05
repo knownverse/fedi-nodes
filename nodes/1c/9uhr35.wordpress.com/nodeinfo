@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5929,
+      "localComments": 1390
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "9:35",
+      "nodeDescription": "Entertainment News",
+      "nodeIcon": "https://9uhr35.wordpress.com/wp-content/uploads/2022/12/cropped-935am-logo-rot.jpg"
+    }
+  },
+  "error": null
+}

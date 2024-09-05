@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1++choco.38"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 3
+      },
+      "localPosts": 11622
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "S'more Waffle",
+      "nodeDescription": "한국어 위주의 연합우주 인스턴스입니다. 서버 주인장의 문제로 인해 다소 불안정한 서버 운영을 맛보실 수 있습니다. 현재 기존 연합우주 사용자에 한해 테스트 목적으로 주인장(@smore 혹은 @paperbox)에게 요청하시면 초대해드립니다."
+    }
+  },
+  "error": null
+}

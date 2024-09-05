@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1127,
+      "localComments": 501
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dispara con la lengua KdG",
+      "nodeDescription": "Blog de opinión sobre política y derechos humanos. Creado en el año 2009 como un blog de recopilación de artículos, que permitieran ofrecer otras miradas sobre lo que sucedía en el mundo diferentes a las que ofrecen los medios generalistas, se fue transformando en estos años en una bitácora de opinión política desde la perspectiva del autor. De las miradas de otros a la mirada kaleidoskópica de Gabalaui. Sed bienvenidos.",
+      "nodeIcon": "https://kaleidoskopiodegabalaui.com/wp-content/uploads/2017/11/cropped-perfil-foto.jpeg"
+    }
+  },
+  "error": null
+}

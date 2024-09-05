@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 201
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "The Home of One.",
+      "nodeDescription": "Just a single-user instance set up for myself, because self-hosting is important to me."
+    }
+  },
+  "error": null
+}

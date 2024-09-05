@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.2.2"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "peers": [
+        "imd.social",
+        "darmstadt.social",
+        "rheinneckar.social",
+        "mstdn.axtch.net",
+        "creators.social",
+        "mastodon.friendnet.eu",
+        "tacty.social"
+      ]
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

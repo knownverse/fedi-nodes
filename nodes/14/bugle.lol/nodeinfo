@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Bugle",
+      "version": "1.0.0",
+      "repository": "https://github.com/rknightuk/bugle",
+      "homepage": "https://bugle.lol"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 9,
+        "activeHalfyear": 9
+      },
+      "localPosts": 4235
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "author": "Robb Knight"
+    }
+  },
+  "error": null
+}

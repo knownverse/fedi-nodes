@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 30,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anne Slanders",
+      "nodeDescription": "Seriously. Who wouldn&#039;t rather be drinking a Mimosa?",
+      "nodeIcon": "https://anne-slanders.com/wp-content/uploads/2024/02/cropped-anne-slanders-logo.png"
+    }
+  },
+  "error": null
+}

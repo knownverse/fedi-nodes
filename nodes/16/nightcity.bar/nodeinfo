@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 59,
+        "activeHalfyear": 38,
+        "activeMonth": 23
+      },
+      "localPosts": 14681,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "NIGHT CITY BAR 🍹",
+      "nodeDescription": "Welcome to NIGHT CITY BAR, the ultimate cyberpunk-inspired, LGBTQIA+ friendly Fediverse instance for edgerunners, netrunners, and cyberpunks.",
+      "maintainer": {
+        "name": "skye",
+        "email": "nightcitybar@obeythesystem.com"
+      },
+      "langs": [],
+      "tosUrl": "https://obeythesystem.com/terms-of-service/",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

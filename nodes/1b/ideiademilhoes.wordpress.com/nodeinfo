@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "Bem-vindo ao X do tesouro, onde todo o segredo do sucesso é revelado. Neste blog, todas as estratégias psicológicas e táticas que fazem os clientes implorarem para comprar de você antes mesmo de você oferecer algo a eles. \n\nDescubra como ser irresistível, e alimentar seguidores loucos pra serem seus clientes.\n\nCada postagem é um guia simples e prático, embasado por estudos de caso reais e pesquisas de mercado avançadas seguindo os modelos que mais alcançaram sucesso no mundo digital, projetado para equipá-lo com o conhecimento para fazer você se destacar de forma inesquecível no coração e na mente dos seus clientes. \n\nPrepare-se, grandes poderes trazem grandes... FATURAMENTOS!",
+      "nodeIcon": "https://ideiademilhoes.wordpress.com/wp-content/uploads/2024/03/design-sem-nome-13.png"
+    }
+  },
+  "error": null
+}

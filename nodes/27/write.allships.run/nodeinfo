@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "剑不能让历史逆流，但笔却可以。",
+      "nodeName": "有害书籍工作室"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 348,
+      "localPosts": 236,
+      "users": {
+        "total": 166
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

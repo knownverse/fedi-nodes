@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "English for All",
+      "nodeDescription": "A collection of articles, books and ideas related to the English language.",
+      "nodeIcon": "https://thetefl.wordpress.com/wp-content/uploads/2024/04/cropped-logo-site.jpg"
+    }
+  },
+  "error": null
+}

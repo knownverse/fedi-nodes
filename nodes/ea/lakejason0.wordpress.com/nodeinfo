@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1418,
+      "localComments": 81
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lake桑的存档馆 &gt;&gt; WordPress.com分馆",
+      "nodeDescription": "Project Archive by Lakejason0.",
+      "nodeIcon": "https://lakejason0.wordpress.com/wp-content/uploads/2018/10/image-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ආයුෂ ආයුර්වෙද   වෙදමැදුර",
+      "nodeDescription": "Ayurvedic Medical Centre",
+      "nodeIcon": "https://ayushalk.wordpress.com/wp-content/uploads/2022/10/wp-1666206176170.jpg"
+    }
+  },
+  "error": null
+}

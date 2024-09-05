@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 256,
+      "localComments": 102
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "perlen und geperle",
+      "nodeDescription": "nicht nur schule, aber auch dort",
+      "nodeIcon": "https://perlenundgeperle.wordpress.com/wp-content/uploads/2013/03/img_13812-scaled1000.jpg"
+    }
+  },
+  "error": null
+}

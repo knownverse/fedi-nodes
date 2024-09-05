@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "jtheserg@gmail.com",
+        "name": "@JtheSerg@mastodon.sergal.org"
+      },
+      "nodeDescription": "John the Sergal's \"private\" instance",
+      "nodeName": "John the Sergal's FireFish",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240728"
+    },
+    "usage": {
+      "localPosts": 3,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

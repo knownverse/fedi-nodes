@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 48,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MuseCharmer Network",
+      "nodeDescription": "Home of the MuseCharmer Media Network",
+      "nodeIcon": "https://cdn.eponaauthorsolutions.com/wp-content/uploads/sites/15/2023/11/19170636/cropped-MCN-New-Logo-111923-copy-scaled-1.jpg"
+    }
+  },
+  "error": null
+}

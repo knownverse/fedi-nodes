@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2005,
+      "localComments": 40
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "protocols": {
+      "0": "activitypub",
+      "1": "webmention",
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Duckrowing",
+      "nodeDescription": "by Fred McCann",
+      "nodeIcon": "https://micro.duckrowing.com/wp-content/uploads/2022/11/Logo2x2-300x300-1.png"
+    }
+  },
+  "error": null
+}

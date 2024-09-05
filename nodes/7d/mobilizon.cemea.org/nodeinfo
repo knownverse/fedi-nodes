@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Mobilizon.cemea.org est un service proposé par les CEMÉA permettant d'organiser des évènements, préparer l'avant et l'après, et de publier des infos pour les groupes que vous souhaitez gérer à plusieurs. Vos événements culturels, associatifs locaux ou à plus grande échelle, peuvent grâce à Mobilizon vous permettre de réaliser vos rassemblements comme vous le souhaitez tout en préservant la confidentialité des participantes et participants.\nMerci de nous contacter pour la création de comptes manuelle si besoin : https://mallette.cemea.org/nous-contacter/",
+      "nodeName": "Mobilizon CEMEA"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "usage": {
+      "localComments": 10,
+      "localPosts": 133,
+      "users": {
+        "total": 52
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

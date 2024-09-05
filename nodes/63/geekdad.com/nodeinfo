@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeMonth": 231,
+        "activeHalfyear": 231
+      },
+      "localPosts": 45065,
+      "localComments": 43393
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GeekDad",
+      "nodeDescription": "Raising Geek Generation 2.0",
+      "nodeIcon": "https://geekdad.com/wp-content/uploads/2020/07/cropped-GeekDad-Logo-Square-Template-03172016-1024.png"
+    }
+  },
+  "error": null
+}

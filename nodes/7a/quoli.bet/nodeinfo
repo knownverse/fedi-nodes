@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "quolibet",
+      "version": "1.0",
+      "repository": null,
+      "homepage": null
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 261,
+        "activeHalfyear": 79,
+        "activeMonth": 29
+      },
+      "localPosts": 3681,
+      "localComments": 1651
+    },
+    "metadata": []
+  },
+  "error": null
+}

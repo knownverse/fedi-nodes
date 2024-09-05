@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4290,
+      "localComments": 605
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Emotion Dough",
+      "nodeDescription": "Emotions always rise",
+      "nodeIcon": "https://rawemotiondough.wordpress.com/wp-content/uploads/2024/05/wp-1716515918246.jpg"
+    }
+  },
+  "error": null
+}

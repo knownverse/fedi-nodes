@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "WriteFreely",
+      "nodeDescription": "WriteFreely_Blogs",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 1,
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.13.1"
+    },
+    "usage": {
+      "users": {
+        "total": 274,
+        "activeHalfyear": 127
+      },
+      "localPosts": 24814
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

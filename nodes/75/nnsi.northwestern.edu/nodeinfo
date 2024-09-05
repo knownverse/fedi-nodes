@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeMonth": "7",
+        "activeHalfyear": "7"
+      },
+      "localPosts": 188,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Network for Nonprofit and Social Impact",
+      "nodeDescription": "We are a research lab discovering how organizations can work together to make a social impact",
+      "nodeIcon": "https://i0.wp.com/nnsi.northwestern.edu/wp-content/uploads/2022/07/1519908229170.jpeg?fit=200%2C200&ssl=1"
+    }
+  },
+  "error": null
+}

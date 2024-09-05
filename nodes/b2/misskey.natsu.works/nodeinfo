@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 903,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.natsu.works",
+      "nodeDescription": "<h4>natsu.works Group関係者用Misskey</h4>\n\n<p style=\"color:#b0c4de\n;font-size: 12px;\">\n夏が大好きな運営とその仲間が提供するインスタンス<br>\n「夏すきー」<br>\n<br>\n<p style=\"font-size: 15px;\">\nnatsu.worksではMisskey以外にも<br>\n様々なサービスを運営してます。<br>\n\n<p style=\"font-size: 12px;\">\n詳しくは<a href=\"https://natsu.works/\" style=\"color:#b0c4de\n;text-decoration-style: underline;\" target=\"_blank\">こちら</a></p>\n\n<p style=\"font-size: 12px;\">\nMisskey.ioなど他のインスタンスからフォローされる場合は<br>\nそのインスタンス内の照会機能をご使用ください。<br>",
+      "nodeAdmins": [
+        {
+          "name": "@natsu-works, @kazunamine",
+          "email": "mail@natsu.works"
+        }
+      ],
+      "maintainer": {
+        "name": "@natsu-works, @kazunamine",
+        "email": "mail@natsu.works"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://natsu.works",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#aab8e8"
+    }
+  },
+  "error": null
+}

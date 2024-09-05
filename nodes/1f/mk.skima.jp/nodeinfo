@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.12.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 930,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 10462,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "SKIMA",
+      "nodeDescription": "mk.skima.jpは、SKIMAの公式コミュニティスペースです。<br><br>\n\nここはイラストやデザインなどクリエイティブなことが好きなみんなのためのスペースです。<br>\nイラストに対する情報交換はもちろん、SKIMA内で出品・取引・購入されたイラストやデザインの告知、宣伝、感謝、伝えたいことなど、楽しめる場所にしていきたいです。<br><br>\n\n他にもトレンドや雑談などなんでも構いませんので、とにかくクリエイティブなことが好きなみんなで交流できたらいいなと思っています！\n<br><br>\nSKIMAの中の人もいますが、お問い合わせはこちらで回答することはできません。今までどおりSKIMA内やQ＆A内からのお問い合わせにて対応しています。ご了承ください。\n<br><br>\n\n<h3><a href=\"https://mk.skima.jp/@skima/pages/1689055946013\" target=\"blank\">登録する前にガイドラインを確認してください</a><h3>",
+      "maintainer": {
+        "name": "SKIMA",
+        "email": "support@visualworks.zendesk.com"
+      },
+      "langs": [],
+      "tosUrl": "https://mk.skima.jp/@skima/pages/1688622568106",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {},
+      "nodeDescription": "The cutest* private Firefish server in existance\n\n*the writer of this description may or may not be biased",
+      "nodeName": "meowverse",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 335,
+      "users": {
+        "activeHalfyear": 8,
+        "activeMonth": 6,
+        "total": 8
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

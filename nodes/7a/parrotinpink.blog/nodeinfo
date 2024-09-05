@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 45,
+      "localComments": 226
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Parrot in Pink: Fashion &amp; Lifestyle insights!",
+      "nodeDescription": "Your All-in-One Guide to Fashion, Travel, Decor, and Parenting Delights",
+      "nodeIcon": "https://parrotinpink.blog/wp-content/uploads/2024/01/cropped-ccfxe2793.jpg"
+    }
+  },
+  "error": null
+}

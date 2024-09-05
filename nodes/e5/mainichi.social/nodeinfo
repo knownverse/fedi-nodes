@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240405+nyan",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "homepage": "https://firefish.dev/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeHalfyear": 15,
+        "activeMonth": 9
+      },
+      "localPosts": 330,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mainichi.social",
+      "nodeDescription": "We hope to create a cozy, friendly community for weebs and otaku alike, mostly in europe.\nNew users welcome!",
+      "maintainer": {
+        "name": "yumeko",
+        "email": "yumeko@mainichi.social"
+      },
+      "langs": [],
+      "tosUrl": "https://mainichi.social/@yumeko/pages/terms-of-service",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "feedbackUrl": "https://firefish.dev/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 5000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#2de7e7"
+    }
+  },
+  "error": null
+}

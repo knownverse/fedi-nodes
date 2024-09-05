@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 153,
+      "localComments": 55
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Connoisseur of Memories",
+      "nodeDescription": "An open journal on thriving",
+      "nodeIcon": "https://dcconnoisseur.com/wp-content/uploads/2023/11/cropped-3a1513c18cad2ee10047d25853225971.jpg"
+    }
+  },
+  "error": null
+}

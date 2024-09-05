@@ -1,0 +1,383 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "*.disqordia.space",
+            "asbestos.cafe",
+            "worm.pink",
+            "translunar.academy",
+            "k.posix.gay",
+            "goreslut.xyz",
+            "shitposter.club",
+            "comp.lain.la",
+            "mastodon.art",
+            "mastodon.world",
+            "threads.net",
+            "sneed.social",
+            "rigcz.club",
+            "freespeechextremist.com",
+            "infosec.exchange",
+            "mastodon.social",
+            "cassilda.house",
+            "truth.social",
+            "poa.st",
+            "fediverse-lite.com",
+            "fox-girl.lol",
+            "nicecrew.digital",
+            "smuganimeavatar.xyz",
+            "social.uden.ai",
+            "iddqd.social",
+            "bae.st",
+            "mugicha.club",
+            "*.nyanide.com",
+            "lain.com",
+            "social.hendrixgames.com",
+            "crimew.gay",
+            "donotsta.re",
+            "woem.men",
+            "infosec.space",
+            "yourwalls.today",
+            "*.umbrellix.org",
+            "seal.cafe",
+            "den.raccoon.quest",
+            "breastmilk.club",
+            "boymoder.biz",
+            "awakari.app",
+            "awakari.com",
+            "activitypub.awakari.com",
+            "chat.wecops.uk",
+            "clubcyberia.co"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [
+            "donotsta.re",
+            "101010.pl",
+            "mstdn.social",
+            "kolektiva.social",
+            "mastodon.online"
+          ],
+          "report_removal": [],
+          "followers_only": [
+            "mastodon.social"
+          ],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances": [],
+        "mrf_simple_info": {
+          "reject": {
+            "*.disqordia.space": {
+              "reason": "disqordia, racism, drama queens"
+            },
+            "threads.net": {
+              "reason": "Facebook"
+            },
+            "nicecrew.digital": {
+              "reason": "soapbox"
+            },
+            "k.posix.gay": {
+              "reason": "discordia-adj"
+            },
+            "mastodon.art": {
+              "reason": "drama queens"
+            },
+            "iddqd.social": {
+              "reason": "Soapbox, transphobic admin"
+            },
+            "worm.pink": {
+              "reason": "disqordia-adj"
+            },
+            "seal.cafe": {
+              "reason": "soapbox"
+            },
+            "infosec.space": {
+              "reason": "racists"
+            },
+            "goreslut.xyz": {
+              "reason": "disqordia-adj"
+            },
+            "social.hendrixgames.com": {
+              "reason": "soapbox"
+            },
+            "chat.wecops.uk": {
+              "reason": "literally cops lmfao"
+            },
+            "fox-girl.lol": {
+              "reason": "Right-Wing"
+            },
+            "yourwalls.today": {
+              "reason": "bad vibes, two user instance"
+            },
+            "awakari.app": {
+              "reason": "Scraper"
+            },
+            "donotsta.re": {
+              "reason": "abusers"
+            },
+            "breastmilk.club": {
+              "reason": "Transphobes, harrass MutualAid"
+            },
+            "freespeechextremist.com": {
+              "reason": "paid speech"
+            },
+            "truth.social": {
+              "reason": "Self-explanatory"
+            },
+            "smuganimeavatar.xyz": {
+              "reason": "soapbox"
+            },
+            "translunar.academy": {
+              "reason": "discordia-adj"
+            },
+            "*.nyanide.com": {
+              "reason": "doxxing, malicious software, blocks #MutualAid"
+            },
+            "woem.men": {
+              "reason": "disqordia-adj, anti-MutualAid"
+            },
+            "awakari.com": {
+              "reason": "Scraper"
+            },
+            "mastodon.social": {
+              "reason": "Enormous instance"
+            },
+            "sneed.social": {
+              "reason": "kf"
+            },
+            "mastodon.world": {
+              "reason": "enormous instance"
+            },
+            "fediverse-lite.com": {
+              "reason": "freeze peach, blocks queer and activist instances"
+            },
+            "bae.st": {
+              "reason": "republicans"
+            },
+            "rigcz.club": {
+              "reason": "misleading name"
+            },
+            "crimew.gay": {
+              "reason": "the only cool people there really are just maia and lau. otherwise it's a shithole."
+            },
+            "cassilda.house": {
+              "reason": "pedos"
+            },
+            "poa.st": {
+              "reason": "Soap Box"
+            },
+            "mugicha.club": {
+              "reason": "soapbox"
+            },
+            "den.raccoon.quest": {
+              "reason": "weird vibes, tbh"
+            },
+            "lain.com": {
+              "reason": "racism, bigotry, right-wing"
+            },
+            "infosec.exchange": {
+              "reason": "federated feds"
+            },
+            "social.uden.ai": {
+              "reason": "Soapbox"
+            },
+            "asbestos.cafe": {
+              "reason": "disqordia-adj"
+            }
+          },
+          "federated_timeline_removal": {
+            "101010.pl": {
+              "reason": "polish weirdos"
+            },
+            "donotsta.re": {
+              "reason": "N/A"
+            },
+            "kolektiva.social": {
+              "reason": "untrustworthy admins, mishandling sensitive data (https://kolektiva.social/@admin/110637031574056150)"
+            },
+            "mastodon.online": {
+              "reason": "enormous instance"
+            },
+            "mstdn.social": {
+              "reason": "enormous instance"
+            }
+          },
+          "followers_only": {
+            "mastodon.social": {
+              "reason": "enormous instance"
+            }
+          }
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "miau.jeder.pl",
+        "is-a.cat",
+        "hackerspace.pl",
+        "catcatnya.com",
+        "karp.lol"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "Solutiones to femdom and its lack",
+      "nodeName": "femdom.solutions",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": false,
+        "federated": false,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://femdom.solutions/users/xeniabutwhy",
+        "https://femdom.solutions/users/admin",
+        "https://femdom.solutions/users/emma",
+        "https://femdom.solutions/users/fwam"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": 9,
+        "activeMonth": 7
+      },
+      "localPosts": 6817
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.10.4"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 48,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Radio Together",
+      "nodeDescription": "Audio adventures with citizens of the pre-digital era",
+      "nodeIcon": "https://radiotogether.uk/wp-content/uploads/2022/08/cropped-icon-squares-0512x0512-1.png"
+    }
+  },
+  "error": null
+}

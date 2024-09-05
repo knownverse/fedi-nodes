@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 23,
+      "localComments": 62
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Follow the Money",
+      "nodeDescription": "Writing all my crazy thoughts about crazy things",
+      "nodeIcon": "https://truthfinder.blog/wp-content/uploads/2024/03/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 487,
+        "activeMonth": 28,
+        "activeHalfyear": 48
+      },
+      "localPosts": 604670
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Abyss.fun",
+      "nodeDescription": "メイドインアビス非公式のファンSNSです"
+    }
+  },
+  "error": null
+}

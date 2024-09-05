@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "1.0.0-dev-pb20c7258"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 405,
+        "activeHalfyear": 180,
+        "activeMonth": 63
+      },
+      "localPosts": 19464
+    },
+    "metadata": {
+      "nodeName": "societas diaspora*",
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": false
+      },
+      "adminAccount": "podmin"
+    }
+  },
+  "error": null
+}

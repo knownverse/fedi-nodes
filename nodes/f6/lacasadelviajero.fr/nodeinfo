@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 121,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LA CASA DEL VIAJERO 🪂",
+      "nodeDescription": "~ Bienvenue sur le Blog de voyage, La Maison du Voyageur ou encore en espagnol La Casa del Viajero, je suis contente de commencer cette belle aventure avec vous 🎒! ~",
+      "nodeIcon": "https://lacasadelviajero.fr/wp-content/uploads/2024/01/cropped-logo-1.png"
+    }
+  },
+  "error": null
+}

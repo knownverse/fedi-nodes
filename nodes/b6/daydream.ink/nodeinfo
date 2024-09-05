@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+qdon.glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeMonth": 9,
+        "activeHalfyear": 16
+      },
+      "localPosts": 8655
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Missing Island",
+      "nodeDescription": "스스로 꿈꾸고, 어딘가로 떠날 수 있는 사람을 위한 장소입니다."
+    }
+  },
+  "error": null
+}

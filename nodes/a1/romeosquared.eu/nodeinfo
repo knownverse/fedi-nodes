@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 314,
+      "localComments": 53
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Romeo Squared – Defense blog",
+      "nodeDescription": "Defense with a Baltic edge",
+      "nodeIcon": "https://i0.wp.com/romeosquared.eu/wp-content/uploads/2020/04/cropped-logo_512x512.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 650,
+      "localComments": 217
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Opinião do David",
+      "nodeDescription": "Blog que David Telio Duarte utiliza como registro de memórias sobre assuntos de seu interesse, como esporte, política, cinema, escolas de samba ou qualquer coisa que lhe venha à cabeça.",
+      "nodeIcon": "https://opiniaododavid.wordpress.com/wp-content/uploads/2024/04/cropped-jornalista.jpg"
+    }
+  },
+  "error": null
+}

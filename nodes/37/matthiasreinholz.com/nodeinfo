@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 11,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Matthias Reinholz",
+      "nodeDescription": "Product architect, passionate about WordPress, WooCommerce, and open source.",
+      "nodeIcon": "https://i0.wp.com/matthiasreinholz.com/wp-content/uploads/2024/01/cropped-matthias_avatar_2023_circle-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "What to do, what to do? Do it the Basspistol way. Underground events promoted by the people, for the people. Ad-free and decentralized.",
+      "nodeName": "𝕯𝖔 - 𝕭𝖆𝖘𝖘𝖕𝖎𝖘𝖙𝖔𝖑 𝕲𝖆𝖓𝖈𝖎𝖔",
+      "nodeTimezone": "Europe/Stockholm",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 4,
+      "localPosts": 55,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

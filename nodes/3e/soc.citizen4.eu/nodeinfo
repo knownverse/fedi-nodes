@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2023.01-1502"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 56,
+        "activeHalfyear": 17,
+        "activeMonth": 9
+      },
+      "localPosts": 2384,
+      "localComments": 3017
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Citizen4 social hub",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

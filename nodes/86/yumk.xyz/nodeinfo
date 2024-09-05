@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0-akatsukey-v2.0.3",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 49639,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "あかつきー",
+      "nodeDescription": "ゆーのMisskeyフォークインスタンスです。\n登録は@y@yumk.xyzに要相談。 ",
+      "nodeAdmins": [
+        {
+          "name": "ゆー",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ゆー",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#DD69FF"
+    }
+  },
+  "error": null
+}

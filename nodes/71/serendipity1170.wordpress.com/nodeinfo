@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 471,
+      "localComments": 2319
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "香氣花園的日常 Days in the Garden of Scent",
+      "nodeDescription": "探索香氣與世界的大小事 Explore the Scent, Explore the World",
+      "nodeIcon": "https://serendipity1170.wordpress.com/wp-content/uploads/2024/02/cropped-img_20201010_110606.jpg"
+    }
+  },
+  "error": null
+}

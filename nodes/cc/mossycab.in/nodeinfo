@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 71,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Mossy cabin",
+      "nodeDescription": "A fediverse instance for cottagecore & moss enjoyers.\n<br><br>\n\n<a href=\"https://mossycab.in/@y0nei/pages/instance-moderation\"><u>Moderated instances</u></a>\n<br>\n<a href=\"https://www.artstation.com/artwork/YeJyLX\" target=\"_blank\"><u>Background artwork</u></a> by <a href=\"https://www.artstation.com/andreistef\" target=\"_blank\"><u>Andrei Stef</u></a>\n<br>\nInstance icon is the <a href=\"https://bulbapedia.bulbagarden.net/wiki/Moss_Rock\" target=\"_blank\"><u>Moss Rock</u></a> from Pokemon Gen VI",
+      "maintainer": {
+        "name": "y0nei",
+        "email": "y0nei@proton.me"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

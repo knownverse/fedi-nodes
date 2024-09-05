@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HM Construction Group - Long Island NY",
+      "nodeDescription": "Long Island Construction Company &amp; General Contractor on Long Island",
+      "nodeIcon": "https://longislandhandy.com/wp-content/uploads/2024/04/cropped-gemini_generated_image_3i8zbd3i8zbd3i8z.jpeg"
+    }
+  },
+  "error": null
+}

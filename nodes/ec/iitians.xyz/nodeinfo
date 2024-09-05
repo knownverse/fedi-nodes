@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.17.0-p02eba842"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3420,
+        "activeHalfyear": 38,
+        "activeMonth": 8
+      },
+      "localPosts": 4569,
+      "localComments": 497
+    },
+    "metadata": {
+      "nodeName": "IITIANS",
+      "xmppChat": false,
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": false
+      },
+      "adminAccount": "admin"
+    }
+  },
+  "error": null
+}

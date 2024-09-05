@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 102,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Geekpulp",
+      "nodeDescription": "By Glen Young",
+      "nodeIcon": "https://i0.wp.com/geekpulp.co.nz/wp-content/uploads/2017/06/cropped-16917_10153595163209359_4506911896360513476_n-1.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

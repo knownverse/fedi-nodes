@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.9+git.817c8fbc"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": 4,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.miv2nir.me/federation/actors/service",
+      "private": true,
+      "shortDescription": "Hello! Miv shares some music again :D",
+      "longDescription": "Just a server I host myself, on which I keep my music library :D",
+      "rules": "",
+      "contactEmail": "miv2nir@gmail.com",
+      "terms": "",
+      "nodeName": "Miv2nir's Personal Funkwhale Pod",
+      "banner": null,
+      "defaultUploadQuota": 0,
+      "library": {
+        "federationEnabled": false,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 26677
+        },
+        "artists": {
+          "total": 4946
+        },
+        "albums": {
+          "total": 2667
+        },
+        "music": {
+          "hours": 1537.465
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://funkwhale.miv2nir.me/api/v1/federation/domains",
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 6293
+          }
+        },
+        "listenings": {
+          "total": 94235
+        },
+        "downloads": {
+          "total": 107143
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 75,
+      "localComments": 68
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Maidenhead in Pictures ",
+      "nodeDescription": "Photo Blog",
+      "nodeIcon": "https://maidenheadinpictures.com/wp-content/uploads/2022/01/favicon-32x32-1.png"
+    }
+  },
+  "error": null
+}

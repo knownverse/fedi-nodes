@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 422,
+      "localComments": 4912
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tales from a Mid-Life Mama",
+      "nodeDescription": "Mid-Life Ponderings",
+      "nodeIcon": "https://family5power.com/wp-content/uploads/2024/04/cropped-icon8-1.jpg"
+    }
+  },
+  "error": null
+}

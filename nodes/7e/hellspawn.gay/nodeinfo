@@ -1,0 +1,723 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "spinster.xyz",
+            "gleasonator.com",
+            "pieville.net",
+            "baraag.net",
+            "ryona.agency",
+            "pisskey.io",
+            "detroitriotcity.com",
+            "eientei.org",
+            "yggdrasil.social",
+            "bae.st",
+            "pl.kitsunemimi.club",
+            "nicecrew.digital",
+            "brighteon.social",
+            "leafposter.club",
+            "mostr.pub",
+            "clew.lol",
+            "decayable.ink",
+            "poster.place",
+            "cum.salon",
+            "varishangout.net",
+            "boymoder.biz",
+            "theblab.org",
+            "rot.gives",
+            "shitpost.cloud",
+            "kyaruc.moe",
+            "threads.net",
+            "frennet.xyz",
+            "femboys.love",
+            "beefyboys.win",
+            "write.allships.run",
+            "gameliberty.club",
+            "pawoo.net",
+            "clubcyberia.co",
+            "moar.cachapa.xyz",
+            "strelizia.net",
+            "cum.camp",
+            "adachi.party",
+            "fluf.club",
+            "glee.li",
+            "fediverse.blog",
+            "1611.social",
+            "wolfgirl.bar",
+            "mugicha.club",
+            "minds.com",
+            "hendrixgames.com",
+            "pettanko.art",
+            "nnia.space",
+            "freak.university",
+            "xn--p1abe3d.xn--80asehdb",
+            "norwoodzero.net",
+            "cawfee.club",
+            "social.teci.world",
+            "thechimp.zone",
+            "gearlandia.haus",
+            "neenster.org",
+            "umbrellix.org",
+            "5dollah.click",
+            "rap*.pet",
+            "childlove.space",
+            "cunnyborea.space",
+            "monk.ey.business",
+            "ghetti.monster",
+            "rosaline.systems",
+            "tooters.fun",
+            "tooters.wtf",
+            "seal.cafe",
+            "cassilda.house",
+            "freespeechextremist.com",
+            "vabu.us",
+            "noagenda.social",
+            "noauthority.social",
+            "parcero.bond",
+            "alterracloud.com",
+            "thewired.online",
+            "rosiemma.online",
+            "bsky.brid.gy",
+            "cunnyborea.top",
+            "nyanide.com",
+            "aspublic.org",
+            "cutiecluster.cc",
+            "oddballs.online",
+            "turturea.online",
+            "cunny.gay",
+            "holocaust.tatar",
+            "cannibal.cafe",
+            "tummy.town",
+            "mapsupport.de",
+            "cloudplane.app",
+            "clown.university",
+            "harpy.faith",
+            "cutiecluster.cafe",
+            "cutiecluster.ynh.fr",
+            "fsebugoutzone.org",
+            "taihou.website",
+            "fouroclockfarms.club",
+            "aethy.com",
+            "ating.press",
+            "eepy.express",
+            "annihilation.social",
+            "awakari.com",
+            "imouto.pics",
+            "schwartzwelt.xyz",
+            "cutecatgirls.cafe",
+            "nekos.cafe",
+            "yesmap.net",
+            "agarthangooncave.com",
+            "rqd2.net",
+            "cottoncandy.cafe",
+            "nnia.cc",
+            "maven.ly",
+            "heymaven.com",
+            "shota.house",
+            "awakari.app",
+            "bunnyanarchy.org",
+            "rayci.st",
+            "momostr.pink",
+            "mostr.net",
+            "uoh.cx",
+            "feral.cafe",
+            "iddqd.social",
+            "notacri.me",
+            "thoughtcrimes.top",
+            "aklp.club",
+            "stereophonic.space",
+            "hollow.raccoon.quest",
+            "bea**.*ity",
+            "goyim.social",
+            "pl.dav1d.xyz"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [
+            "mastodon.social",
+            "hachyderm.io",
+            "universeodon.com"
+          ],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "parcero.bond": {
+              "reason": "racism"
+            },
+            "mostr.pub": {
+              "reason": "nostr relay, transphobia"
+            },
+            "nyanide.com": {
+              "reason": "transphobia"
+            },
+            "nnia.cc": {
+              "reason": "see nnia.space, paedophilia"
+            },
+            "clown.university": {
+              "reason": "paedophilia"
+            },
+            "childlove.space": {
+              "reason": "paedophilia"
+            },
+            "cutecatgirls.cafe": {
+              "reason": "paedophilia"
+            },
+            "moar.cachapa.xyz": {
+              "reason": "freeze peach"
+            },
+            "1611.social": {
+              "reason": "nazi"
+            },
+            "social.teci.world": {
+              "reason": "conspiracy nuts"
+            },
+            "norwoodzero.net": {
+              "reason": "transphobia, block bot"
+            },
+            "spinster.xyz": {
+              "reason": "terfs"
+            },
+            "threads.net": {
+              "reason": "facebook/meta danger zone"
+            },
+            "clew.lol": {
+              "reason": "transphobia"
+            },
+            "tooters.wtf": {
+              "reason": "paedophilia"
+            },
+            "rap*.pet": {
+              "reason": "paedophilia"
+            },
+            "mapsupport.de": {
+              "reason": "paedophilia"
+            },
+            "5dollah.click": {
+              "reason": "racism, homophobia"
+            },
+            "nicecrew.digital": {
+              "reason": "transphobia"
+            },
+            "rayci.st": {
+              "reason": "Racism, Transphobia, Sexism"
+            },
+            "agarthangooncave.com": {
+              "reason": "racism"
+            },
+            "neenster.org": {
+              "reason": "transphobia"
+            },
+            "momostr.pink": {
+              "reason": "Nostr bridge"
+            },
+            "gearlandia.haus": {
+              "reason": "paedophilia, transphobia"
+            },
+            "eepy.express": {
+              "reason": "paedophilia"
+            },
+            "shitpost.cloud": {
+              "reason": "racism"
+            },
+            "harpy.faith": {
+              "reason": "racism, transphobia"
+            },
+            "fluf.club": {
+              "reason": "transphobia"
+            },
+            "cunnyborea.top": {
+              "reason": "see cunnyborea.space"
+            },
+            "maven.ly": {
+              "reason": "scraper"
+            },
+            "thoughtcrimes.top": {
+              "reason": "Pedophilia"
+            },
+            "bunnyanarchy.org": {
+              "reason": "paedophilia"
+            },
+            "femboys.love": {
+              "reason": "unmoderated"
+            },
+            "fsebugoutzone.org": {
+              "reason": "see freespeechextremist.com"
+            },
+            "imouto.pics": {
+              "reason": "paedophilia"
+            },
+            "ryona.agency": {
+              "reason": "transphobia"
+            },
+            "cum.salon": {
+              "reason": "bad moderation"
+            },
+            "uoh.cx": {
+              "reason": "paedophilia"
+            },
+            "nnia.space": {
+              "reason": "paedophilia"
+            },
+            "taihou.website": {
+              "reason": "racism"
+            },
+            "leafposter.club": {
+              "reason": "racism"
+            },
+            "boymoder.biz": {
+              "reason": "too toxic"
+            },
+            "pl.dav1d.xyz": {
+              "reason": "racism"
+            },
+            "freespeechextremist.com": {
+              "reason": "freeze peach"
+            },
+            "minds.com": {
+              "reason": "conspiracy nuts"
+            },
+            "freak.university": {
+              "reason": "paedophilia"
+            },
+            "cloudplane.app": {
+              "reason": "paedophilia"
+            },
+            "gameliberty.club": {
+              "reason": "paedophilia"
+            },
+            "detroitriotcity.com": {
+              "reason": "transphobia"
+            },
+            "beefyboys.win": {
+              "reason": "unmoderated"
+            },
+            "gleasonator.com": {
+              "reason": "transphobia"
+            },
+            "thechimp.zone": {
+              "reason": "conspiracy nuts"
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "transphobia"
+            },
+            "aethy.com": {
+              "reason": "paedophilia"
+            },
+            "noauthority.social": {
+              "reason": "freeze peach"
+            },
+            "varishangout.net": {
+              "reason": "paedophilia"
+            },
+            "aspublic.org": {
+              "reason": "non-consensual scraping and archiving"
+            },
+            "thewired.online": {
+              "reason": "paedophilia"
+            },
+            "bea**.*ity": {
+              "reason": "harassment"
+            },
+            "awakari.com": {
+              "reason": "scraper"
+            },
+            "oddballs.online": {
+              "reason": "paedophilia"
+            },
+            "pl.kitsunemimi.club": {
+              "reason": "racism"
+            },
+            "feral.cafe": {
+              "reason": "zoophilia"
+            },
+            "tummy.town": {
+              "reason": "paedophilia"
+            },
+            "aklp.club": {
+              "reason": "pedophilia, single user"
+            },
+            "seal.cafe": {
+              "reason": "racism"
+            },
+            "cassilda.house": {
+              "reason": "paedophilia"
+            },
+            "bsky.brid.gy": {
+              "reason": "bluesky bridge (toxic, moderation issues, etc)"
+            },
+            "tooters.fun": {
+              "reason": "paedophilia"
+            },
+            "cunny.gay": {
+              "reason": "paedophilia"
+            },
+            "vabu.us": {
+              "reason": "paedophilia"
+            },
+            "cutiecluster.ynh.fr": {
+              "reason": "see above, groan"
+            },
+            "eientei.org": {
+              "reason": "transphobia"
+            },
+            "wolfgirl.bar": {
+              "reason": "racism"
+            },
+            "awakari.app": {
+              "reason": "scraper, see awakari.com"
+            },
+            "theblab.org": {
+              "reason": "freeze peach"
+            },
+            "cum.camp": {
+              "reason": "cum.salon alt"
+            },
+            "stereophonic.space": {
+              "reason": "freeze peach, federation with known scum, alt-right red flags"
+            },
+            "cannibal.cafe": {
+              "reason": "paedophilia"
+            },
+            "mostr.net": {
+              "reason": "Nostr bridge"
+            },
+            "heymaven.com": {
+              "reason": "scraper"
+            },
+            "turturea.online": {
+              "reason": "transphobia"
+            },
+            "cutiecluster.cc": {
+              "reason": "see rosiemma.online, block evasion"
+            },
+            "write.allships.run": {
+              "reason": "spam"
+            },
+            "bae.st": {
+              "reason": "transphobia"
+            },
+            "glee.li": {
+              "reason": "racism"
+            },
+            "cutiecluster.cafe": {
+              "reason": "see rosiemma.online, cutiecluster.cc, block evasion"
+            },
+            "yggdrasil.social": {
+              "reason": "racism"
+            },
+            "decayable.ink": {
+              "reason": "transphobia"
+            },
+            "monk.ey.business": {
+              "reason": "paedophilia"
+            },
+            "rosiemma.online": {
+              "reason": "harrassment, doxx"
+            },
+            "poa.st": {
+              "reason": "transphobia"
+            },
+            "umbrellix.org": {
+              "reason": "emotional abuse"
+            },
+            "frennet.xyz": {
+              "reason": "homophobia"
+            },
+            "poster.place": {
+              "reason": "freeze peach"
+            },
+            "kyaruc.moe": {
+              "reason": "unmoderated"
+            },
+            "pettanko.art": {
+              "reason": "paedophilia"
+            },
+            "ghetti.monster": {
+              "reason": "paedophilia"
+            },
+            "baraag.net": {
+              "reason": "paedophilia"
+            },
+            "pawoo.net": {
+              "reason": "paedophilia"
+            },
+            "goyim.social": {
+              "reason": "racism"
+            },
+            "nekos.cafe": {
+              "reason": "paedophilia"
+            },
+            "cawfee.club": {
+              "reason": "racism"
+            },
+            "ating.press": {
+              "reason": "paedophilia"
+            },
+            "notacri.me": {
+              "reason": "Pedophilia"
+            },
+            "cunnyborea.space": {
+              "reason": "transphobia, racism"
+            },
+            "rosaline.systems": {
+              "reason": "paedophilia"
+            },
+            "hollow.raccoon.quest": {
+              "reason": "freeze peach, federation with known scum, alt-right red flags"
+            },
+            "annihilation.social": {
+              "reason": "racism"
+            },
+            "clubcyberia.co": {
+              "reason": "transphobia"
+            },
+            "fouroclockfarms.club": {
+              "reason": "admin refusal to handle genuine reports"
+            },
+            "holocaust.tatar": {
+              "reason": "racism"
+            },
+            "shota.house": {
+              "reason": "paedophilia"
+            },
+            "brighteon.social": {
+              "reason": "conspiracy nuts"
+            },
+            "yesmap.net": {
+              "reason": "paedophilia"
+            },
+            "iddqd.social": {
+              "reason": "Racism, gore"
+            },
+            "alterracloud.com": {
+              "reason": "transphobia"
+            },
+            "pisskey.io": {
+              "reason": "poasties"
+            },
+            "rot.gives": {
+              "reason": "paedophilia"
+            },
+            "cottoncandy.cafe": {
+              "reason": "paedophilia"
+            },
+            "rqd2.net": {
+              "reason": "paedophilia"
+            },
+            "fediverse.blog": {
+              "reason": "spam"
+            },
+            "schwartzwelt.xyz": {
+              "reason": "racism"
+            },
+            "strelizia.net": {
+              "reason": "racism"
+            },
+            "adachi.party": {
+              "reason": "transphobia"
+            },
+            "mugicha.club": {
+              "reason": "nazi"
+            },
+            "noagenda.social": {
+              "reason": "freeze peach"
+            },
+            "hendrixgames.com": {
+              "reason": "conspiracy nuts"
+            },
+            "pieville.net": {
+              "reason": "racism"
+            }
+          },
+          "followers_only": {
+            "hachyderm.io": {
+              "reason": "transmisia"
+            },
+            "mastodon.social": {
+              "reason": "gargon, transmisia"
+            },
+            "universeodon.com": {
+              "reason": "transmisia"
+            }
+          }
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "HellthreadPolicy",
+          "SimplePolicy",
+          "MediaProxyWarmingPolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "void.lgbt"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Lilith's Circle of Hell",
+      "nodeName": "Second Circle of Hell",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": true,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://hellspawn.gay/users/liliththehellhound"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": 16,
+        "activeMonth": 14
+      },
+      "localPosts": 3632
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

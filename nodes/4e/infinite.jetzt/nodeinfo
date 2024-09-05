@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240319",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://firefish.dev/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": 11,
+        "activeMonth": 2
+      },
+      "localPosts": 62,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Infinite Jetzt",
+      "nodeDescription": "Be in the unending now.",
+      "maintainer": {
+        "name": "Nyan Helsing",
+        "email": "me@nyanhelsing.io"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

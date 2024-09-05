@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20230513+39a428",
+      "repository": "https://codeberg.org/calckey/calckey",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 174,
+        "activeHalfyear": 160,
+        "activeMonth": 129
+      },
+      "localPosts": 812361,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "もこきー",
+      "nodeDescription": "もこきーです。\n\n本家Calckeyから管理人または使用者の要望で追加された独自の変更が多数入っている機能性重視サーバーです。　\n\n管理人が思いついた機能を試すテストサーバーみたいなものでもあります。\nそのためバグがあったり、動作が不安定になったり、しばらく接続できなくなることがよくあります。\n\nゲームとか日常とか愚痴とか飯テロとかなんにでも使ってくれて大丈夫です。　\n（ゲームの話は音ゲー、FF14が多いかも）　\n\nサブの用途でも全然構いませんのでお気軽にどうぞ〜\n\n※fedibirdやakkomaなどと同じ、他サーバーのリアクションに便乗できる機能があります。\n\nサーバールール\nhttps://mkkey.net/@emtk/pages/server-rule\n\nタイムライン\nhttps://mkkey.net/cli\n\nステータスページ\nhttps://status.mkkey.net/",
+      "maintainer": {
+        "name": "たこ",
+        "email": "@emtk@mkkey.net"
+      },
+      "langs": [],
+      "tosUrl": "https://mkkey.net/@emtk/pages/server-rule",
+      "repositoryUrl": "https://codeberg.org/calckey/calckey",
+      "feedbackUrl": "https://codeberg.org/calckey/calckey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 7999,
+      "maxCaptionTextLength": 7999,
+      "maxReactionsPerAccount": 3,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#f8bcba",
+      "features": [
+        "emoji_reaction",
+        "quote",
+        "status_reference",
+        "circle"
+      ]
+    }
+  },
+  "error": null
+}

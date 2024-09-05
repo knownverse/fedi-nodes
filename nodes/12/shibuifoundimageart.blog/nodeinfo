@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 174,
+      "localComments": 39
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Shibui Found Image Art @ Cottage Muddy Brook Road",
+      "nodeDescription": "Shibui begins with action art and becomes found image art!",
+      "nodeIcon": "https://shibuifoundimageart.blog/wp-content/uploads/2023/10/pejj-nunes-1-250x250-1.jpg"
+    }
+  },
+  "error": null
+}

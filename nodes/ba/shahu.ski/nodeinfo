@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-shahu.1.3.2",
+      "homepage": "https://github.com/team-shahu/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 182,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 65510,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しゃふすきー",
+      "nodeDescription": "社会に疲れた人々が集う\"社不\"向けサーバーです。\n俗世の喧騒と距離を置いて、ここで一休みしませんか？",
+      "nodeAdmins": [
+        {
+          "name": "@mai_llj@shahu.ski",
+          "email": "admin@shahu.ski"
+        }
+      ],
+      "maintainer": {
+        "name": "@mai_llj@shahu.ski",
+        "email": "admin@shahu.ski"
+      },
+      "langs": [],
+      "tosUrl": "https://portal.shahu.ski/terms",
+      "privacyPolicyUrl": "https://portal.shahu.ski/privacy-policy",
+      "inquiryUrl": "https://portal.shahu.ski/contact",
+      "impressumUrl": "https://shahu.ski/@mai_llj",
+      "repositoryUrl": "https://github.com/team-shahu/misskey",
+      "feedbackUrl": "https://github.com/team-shahu/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#f48cb4"
+    }
+  },
+  "error": null
+}

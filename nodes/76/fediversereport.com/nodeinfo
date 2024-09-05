@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 159,
+      "localComments": 115
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Fediverse Report",
+      "nodeDescription": "The relevant news on the Fediverse",
+      "nodeIcon": "https://fediversereport.com/wp-content/uploads/2023/02/cropped-The-fediverse-tree.png"
+    }
+  },
+  "error": null
+}

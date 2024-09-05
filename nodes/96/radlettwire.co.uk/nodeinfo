@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 125,
+      "localComments": 62
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Radlett Wire",
+      "nodeDescription": "For over ten years - since way before everything went weird - we&#039;ve been droning on about Radlett and the Hertsmere Parliamentary constituency",
+      "nodeIcon": "https://radlettwire.co.uk/wp-content/uploads/2022/04/cropped-Radlett-Wire-logo-512-square.jpg"
+    }
+  },
+  "error": null
+}

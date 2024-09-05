@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 25,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "компот студия «Омск» официальный сайт",
+      "nodeDescription": "А можно мне ещё компотика?",
+      "nodeIcon": "https://kompotkids.wordpress.com/wp-content/uploads/2023/09/wp-1694430030791.png"
+    }
+  },
+  "error": null
+}

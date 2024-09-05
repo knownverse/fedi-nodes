@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-md1",
+      "homepage": "https://github.com/kiyo4act/misskey.design"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 34558,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5873917,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "一次創作 misskey.design",
+      "nodeDescription": "<h3>一次創作が主役のサーバーです！</h3>\n\n<p>イラスト・漫画・小説・音楽・ゲームetc</br>さまざまな創作を応援しています。</br>（※二次創作の投稿も一定のルールを守れば許可しています）</p>\n<p>創作者はもちろん、創作物を楽しむ方の</br>参加も歓迎します！</p>\n\n\n<p style=\"font-size: 20px;\"><a href=\"https://terms.misskey.design/\" style=\"color: red;text-decoration-style: underline;\" target=\"_blank\">これから登録される方は<br>\nこちらの<br>《利用規約・ガイドライン》<br>を必ずご確認ください。</a></p>\n<p>登録された時点で利用規約を確認済みとします。</p>\n",
+      "nodeAdmins": [
+        {
+          "name": "misskey.design運営陣",
+          "email": "hogehoge"
+        }
+      ],
+      "maintainer": {
+        "name": "misskey.design運営陣",
+        "email": "hogehoge"
+      },
+      "langs": [],
+      "tosUrl": "https://terms.misskey.design/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://terms.misskey.design/discord-8fda3052ee334a68b50afe3919d4753e",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kiyo4act/misskey.design",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#e16a62"
+    }
+  },
+  "error": null
+}

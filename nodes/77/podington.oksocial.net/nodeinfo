@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.12.0-p09a425cb"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 498,
+        "activeHalfyear": 19,
+        "activeMonth": 7
+      },
+      "localPosts": 1984,
+      "localComments": 595
+    },
+    "metadata": {
+      "nodeName": "OKSocial: Podington",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "podmin"
+    }
+  },
+  "error": null
+}

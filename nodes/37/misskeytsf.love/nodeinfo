@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 661,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12906,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MisskeyTSF.love",
+      "nodeDescription": "TSF好きな方々が集まるMisskeyサーバー\n他の話題も大歓迎です！盛り上げていきましょう！！\n\n創作者側も読者側も楽しめる仕組みを色々作っていきたいと思います",
+      "nodeAdmins": [
+        {
+          "name": "@admin",
+          "email": "admin@misskeytsf.love"
+        }
+      ],
+      "maintainer": {
+        "name": "@admin",
+        "email": "admin@misskeytsf.love"
+      },
+      "langs": [],
+      "tosUrl": "https://misskeytsf.love/@admin/pages/1718027841621",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "admin@misskeytsf.love",
+      "impressumUrl": "https://misskeytsf.love/@admin",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ff8585"
+    }
+  },
+  "error": null
+}

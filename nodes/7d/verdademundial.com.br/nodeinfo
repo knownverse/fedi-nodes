@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4293,
+      "localComments": 5731
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Verdade Mundial",
+      "nodeDescription": "Os maiores mistérios da humanidade",
+      "nodeIcon": "https://verdademundial.com.br/wp-content/uploads/2024/04/cropped-vm_ufo_white.png"
+    }
+  },
+  "error": null
+}

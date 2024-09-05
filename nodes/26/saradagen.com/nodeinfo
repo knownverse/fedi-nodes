@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 549,
+      "localComments": 1781
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "All Things Work Together",
+      "nodeDescription": "Home of All Things Work Together &amp; Sara&#039;s Shorts",
+      "nodeIcon": "https://saradagen.com/wp-content/uploads/2022/07/cropped-sara-dagen-square-white-logo.png"
+    }
+  },
+  "error": null
+}

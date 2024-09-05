@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "trinsec@trinsec.org",
+        "name": "Trinsec"
+      },
+      "nodeDescription": "This is a privately run server by Trinsec. This is not a public server.\n\nIf you want to join the Fediverse, I can recommend qoto.org, mstdn.social, or masto.ai. Dutch people might feel more at home on mastodon.nl. Make sure to read their rules before joining.",
+      "nodeName": "Trinsec Dot Org",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FF7F00"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 2273,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

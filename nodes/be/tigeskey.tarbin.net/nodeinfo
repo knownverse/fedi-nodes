@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "tanukey",
+      "version": "14.4.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 143,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5951,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "マルチゲームすきー（チゲすきー）",
+      "nodeDescription": "マルチプレイヤーで遊べるゲームがすきな人のためのMisskey系サーバーです。</br>\nApex/LOL/Overwatch2/FF14/雀魂などなど</br>\n（棲み分けはチャンネルとかをうまく使ってね）</br>\n</br>\n申し訳ありませんが、管理の都合上実年齢が18歳未満の方は登録をお断りさせていただきます。</br>\n</br>\n日本の法律及び<font color=\"blue\"><a href=\"https://gist.github.com/tar-bin/ec200b0624780d03127b0912bf9eb1d4\" target=\"_blank\">利用規約</a></font>を守ってください。</br>\n話題は基本自由ですが規約違反行為が見られた場合は運営判断で凍結等の対処を行います。</br>\n</br>\n運営へは<font color=\"blue\"><a href=\"https://novelskey.tarbin.net/@tar_bin/pages/1678696113968\" target=\"_blank\">連絡先一覧</a></font>のいずれかからご連絡ください</br>\n",
+      "maintainer": {
+        "name": "たーびん",
+        "email": "https://novelskey.tarbin.net/@tar_bin/pages/1678696113968"
+      },
+      "langs": [],
+      "tosUrl": "https://gist.github.com/tar-bin/ec200b0624780d03127b0912bf9eb1d4",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ffbe4d"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 36,
+        "activeMonth": 20,
+        "activeHalfyear": 28
+      },
+      "localPosts": 31015
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "BlackQueerLife",
+      "nodeDescription": "You guessed it, this server is for Black queer folks to relax, spread out, and be themselves. This is BlackQueerLife."
+    }
+  },
+  "error": null
+}

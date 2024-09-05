@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "groundpolis-milkey",
+      "version": "2022.07.03-milkey-3.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "Milkey",
+      "nodeDescription": "Milkeyへようこそ！\nMisskeyを改造したGroundpolisというものを採用しており、独自機能などがいろいろあります\n\n当サーバーは同人サークル桜ヶ丘電信によって運営されております。\nhttps://sakura.tel\n\n登録する前に必ず利用規約を読みましょう。\n13さいよりしたの人は、とうろくできません。",
+      "maintainer": {
+        "name": "桜ヶ丘電信",
+        "email": "contact@sakura.tel"
+      },
+      "langs": [],
+      "tosUrl": "https://sanctuary-sakura-telegraph.pages.dev/terms",
+      "repositoryUrl": "https://github.com/xeltica/groundpolis",
+      "feedbackUrl": "https://github.com/xeltica/groundpolis/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 2000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "MilkeyGhost221B",
+      "themeColor": "#ed6c8e",
+      "upstream": {
+        "name": "misskey",
+        "version": "12.69.0"
+      }
+    }
+  },
+  "error": null
+}

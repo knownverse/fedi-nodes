@@ -1,0 +1,419 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "lol****.****ork",
+            "freespeechextremist.com",
+            "ple****.*****.net",
+            "mastinator.com",
+            "activitypub-proxy.cf",
+            "s-awoo-dev.activitypub-proxy.cf",
+            "ign*******.com",
+            "mas******.lol",
+            "act**************.cf",
+            "mis*************.cf",
+            "re**.co",
+            "bar***.net",
+            "lol****.top",
+            "ani**.****ite",
+            "kiw******.cc",
+            "kiw******.is",
+            "kiw******.net",
+            "",
+            "nni*.**ace",
+            "mas*****.cf",
+            "sho**.**use",
+            "rap*****.******ons",
+            "fre**.*******ity",
+            "you**.*ove",
+            "ped*.***ool",
+            "zet***.*lub"
+          ],
+          "media_removal": [
+            "lol****.****ork",
+            "ple****.*****.net",
+            "bar***.net",
+            "lol****.top",
+            "ani**.****ite",
+            "nni*.**ace",
+            "mas*****.cf",
+            "sho**.**use",
+            "rap*****.******ons",
+            "fre**.*******ity",
+            "you**.*ove",
+            "ped*.***ool",
+            "zet***.*lub",
+            "misskey.io"
+          ],
+          "media_nsfw": [],
+          "federated_timeline_removal": [
+            "lol****.****ork",
+            "ple****.*****.net",
+            "bar***.net",
+            "lol****.top",
+            "ani**.****ite",
+            "nni*.**ace",
+            "mas*****.cf",
+            "sho**.**use",
+            "rap*****.******ons",
+            "fre**.*******ity",
+            "you**.*ove",
+            "ped*.***ool",
+            "zet***.*lub",
+            "threads.net"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "AntiFollowbotPolicy",
+          "AntiLinkSpamPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "act**************.cf": {
+              "reason": "malware"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "does not respect blocks"
+            },
+            "ani**.****ite": {
+              "reason": "pedophilia"
+            },
+            "bar***.net": {
+              "reason": "pedophilia"
+            },
+            "fre**.*******ity": {
+              "reason": "pedophilia"
+            },
+            "freespeechextremist.com": {
+              "reason": "does not respect deletes"
+            },
+            "ign*******.com": {
+              "reason": "malware"
+            },
+            "kiw******.cc": {
+              "reason": "crimes against humanity"
+            },
+            "kiw******.is": {
+              "reason": "crimes against humanity"
+            },
+            "kiw******.net": {
+              "reason": "crimes against humanity"
+            },
+            "lol****.****ork": {
+              "reason": "pedophilia"
+            },
+            "lol****.top": {
+              "reason": "pedophilia"
+            },
+            "mas******.lol": {
+              "reason": "malware"
+            },
+            "mas*****.cf": {
+              "reason": "pedophilia"
+            },
+            "mastinator.com": {
+              "reason": "does not respect follow-only"
+            },
+            "mis*************.cf": {
+              "reason": "malware"
+            },
+            "nni*.**ace": {
+              "reason": "pedophilia"
+            },
+            "ped*.***ool": {
+              "reason": "pedophilia"
+            },
+            "ple****.*****.net": {
+              "reason": "pedophilia"
+            },
+            "rap*****.******ons": {
+              "reason": "pedophilia"
+            },
+            "re**.co": {
+              "reason": "malware"
+            },
+            "s-awoo-dev.activitypub-proxy.cf": {
+              "reason": "does not respect blocks"
+            },
+            "sho**.**use": {
+              "reason": "pedophilia"
+            },
+            "you**.*ove": {
+              "reason": "pedophilia"
+            },
+            "zet***.*lub": {
+              "reason": "pedophilia"
+            }
+          },
+          "media_removal": {
+            "ani**.****ite": {
+              "reason": "pedophilia"
+            },
+            "bar***.net": {
+              "reason": "pedophilia"
+            },
+            "fre**.*******ity": {
+              "reason": "pedophilia"
+            },
+            "lol****.****ork": {
+              "reason": "pedophilia"
+            },
+            "lol****.top": {
+              "reason": "pedophilia"
+            },
+            "mas*****.cf": {
+              "reason": "pedophilia"
+            },
+            "misskey.io": {
+              "reason": "lolicon"
+            },
+            "nni*.**ace": {
+              "reason": "pedophilia"
+            },
+            "ped*.***ool": {
+              "reason": "pedophilia"
+            },
+            "ple****.*****.net": {
+              "reason": "pedophilia"
+            },
+            "rap*****.******ons": {
+              "reason": "pedophilia"
+            },
+            "sho**.**use": {
+              "reason": "pedophilia"
+            },
+            "you**.*ove": {
+              "reason": "pedophilia"
+            },
+            "zet***.*lub": {
+              "reason": "pedophilia"
+            }
+          },
+          "federated_timeline_removal": {
+            "ani**.****ite": {
+              "reason": "pedophilia"
+            },
+            "bar***.net": {
+              "reason": "pedophilia"
+            },
+            "fre**.*******ity": {
+              "reason": "pedophilia"
+            },
+            "lol****.****ork": {
+              "reason": "pedophilia"
+            },
+            "lol****.top": {
+              "reason": "pedophilia"
+            },
+            "mas*****.cf": {
+              "reason": "pedophilia"
+            },
+            "nni*.**ace": {
+              "reason": "pedophilia"
+            },
+            "ped*.***ool": {
+              "reason": "pedophilia"
+            },
+            "ple****.*****.net": {
+              "reason": "pedophilia"
+            },
+            "rap*****.******ons": {
+              "reason": "pedophilia"
+            },
+            "sho**.**use": {
+              "reason": "pedophilia"
+            },
+            "threads.net": {
+              "reason": "Owned by Meta Technologies"
+            },
+            "you**.*ove": {
+              "reason": "pedophilia"
+            },
+            "zet***.*lub": {
+              "reason": "pedophilia"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 32,
+        "maxRemoteFields": 32,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "s.awoo.dev",
+        "wetdry.world",
+        "treehouse.systems",
+        "fedi.absturztau.be",
+        "mk.absturztau.be",
+        "raru.re",
+        "infosec.exchange",
+        "crimew.gay",
+        "chariz.com",
+        "catgirls.nya.gay",
+        "procursus.social"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "Awoo Social: Now with more cats!",
+      "nodeName": "Awoo Social",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "shuga",
+        "social.awoo.dev"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://s.awoo.dev/users/s",
+        "https://s.awoo.dev/users/shuga"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": 5,
+        "activeMonth": 2
+      },
+      "localPosts": 1122
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.12.0-0-g087d88f-develop"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

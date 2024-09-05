@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://watts.refchat.net/federation/actors/service",
+      "private": false,
+      "shortDescription": "Named after Isaac Watts, the prolific 17th-18th century theologian and hymn writer.",
+      "longDescription": "This is a semi-private Funkwhale pod hosted by RefChat, a Reformed Chat network. You can find out more about us at [this link](https://refchat.net/). We've had federated social media on our expansion roadmap for quite some time, and we're dipping our toes in. Our chat network currently features a Matrix server bridged to 2 linked IRC servers (Gill and Owen) and a Discord server.\r\n\r\nCurrently, registration on this Funkwhale pod is by invitation only.",
+      "rules": "",
+      "contactEmail": "rk@razorskiss.net",
+      "terms": "",
+      "nodeName": "Watts || RefChat",
+      "banner": null,
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 30
+        },
+        "artists": {
+          "total": 4
+        },
+        "albums": {
+          "total": 7
+        },
+        "music": {
+          "hours": 1.716388888888889
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://watts.refchat.net/api/v1/federation/domains",
+        "channels": "https://watts.refchat.net/federation/index/channels",
+        "libraries": "https://watts.refchat.net/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 32
+        },
+        "downloads": {
+          "total": 602
+        }
+      }
+    }
+  },
+  "error": null
+}

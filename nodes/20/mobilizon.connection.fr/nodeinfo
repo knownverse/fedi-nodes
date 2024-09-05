@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Ce site répertorie les événements associés aux Pride, Gay Pride et autres Marches des Fiertés en France. Il recense également les principaux rendez-vous festifs ou culturels de la vie LGBT+ hexagonale.",
+      "nodeName": "l'agenda Pride"
+    },
+    "usage": {
+      "users": {
+        "total": 4
+      },
+      "localComments": 0,
+      "localPosts": 32
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

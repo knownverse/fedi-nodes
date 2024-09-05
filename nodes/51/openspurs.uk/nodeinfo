@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 26,
+      "localComments": 48
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Open Spurs",
+      "nodeDescription": "Tottenham Hotspur Updates for Fans in the Fediverse",
+      "nodeIcon": "https://openspurs.uk/wp-content/uploads/2024/08/cropped-IMG_2477.png"
+    }
+  },
+  "error": null
+}

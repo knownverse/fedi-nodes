@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 99,
+      "localComments": 111
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bob van Dijk&#039;s Blog",
+      "nodeDescription": "Beschouwingen over boeken, bijeenkomsten en theologische ontwikkelingen",
+      "nodeIcon": "https://bvdijk.blog/wp-content/uploads/2021/09/queer-look.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1992,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Darnell (Creative Outlet)",
+      "nodeDescription": "Celebrating God &amp; Space &amp; The Human Race",
+      "nodeIcon": "https://i0.wp.com/darnell.co/wp-content/uploads/2024/04/cropped-img_0790.jpeg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

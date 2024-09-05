@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2-taiyme-v1.2.0-17"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": 3,
+        "activeMonth": 3
+      },
+      "localPosts": 37165,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mk.taiy.me",
+      "nodeDescription": "taiyのおひとりさまインスタンスです。",
+      "maintainer": {
+        "name": "taiy",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/taiyme/misskey",
+      "feedbackUrl": "https://github.com/taiyme/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": true,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#1c3c70"
+    }
+  },
+  "error": null
+}

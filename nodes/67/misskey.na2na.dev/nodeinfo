@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-na2na-v4",
+      "homepage": "https://github.com/na2na-p/misskey",
+      "repository": "https://github.com/na2na-p/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 69014,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "なずなのおふとん",
+      "nodeDescription": "なずなさんのおひとり鯖\n\n新規登録は受け付けていません。",
+      "nodeAdmins": [
+        {
+          "name": "なずな",
+          "email": "@na2na@misskey.io"
+        }
+      ],
+      "maintainer": {
+        "name": "なずな",
+        "email": "@na2na@misskey.io"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/na2na-p/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "na2na",
+      "themeColor": "#c239b3"
+    }
+  },
+  "error": null
+}

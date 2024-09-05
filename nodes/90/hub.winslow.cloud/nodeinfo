@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 4,
+        "activeHalfyear": 11
+      },
+      "localPosts": 596
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "WinslowCloud",
+      "nodeDescription": "Welcome to the private Mastodon instance of WinslowCloud, owned by Winslow \"Tengu Youkai\" S.\r\n\r\nThis server is not available for public registration. Contact i@winslow.cloud for more info."
+    }
+  },
+  "error": null
+}

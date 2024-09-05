@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "tootlat@micronotas.cl",
+        "name": "Toot.Lat"
+      },
+      "nodeDescription": "¡Bienvenides a Toot.Lat!<br><br>\n\nEl registro en la instancia se realiza sólo por invitación. Puedes pedir tu código de invitación a través de @hinobara@toot.lat o hinobara@micronotas.cl\n<br><br>\nLas reglas generales de la instancia son:<br>\n1. SÉ AMABLE. Nadie sabe por lo que el otro esté pasando.<br>\n2. No se permiten discursos de odio.<br>\n3. No se acepta discriminación de ningún tipo. Todos los seres humanos somos únicos y la instancia intenta reflejar esa diversidad.<br>\n4. Todas las imágenes que se suben deben llevar Alt Text. Si, es obligatorio porque es una instancia inclusiva. Puedes ayudarte de una IA si lo deseas.<br>\n5. Tratamos de mantener la instancia lo más descentralizada posible, por lo que no federamos con Meta.<br>\n\n\n\n",
+      "nodeName": "Toot.Lat",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 1569,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3366,
+      "localComments": 3016
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pieceoplastic",
+      "nodeDescription": "The Revolution will be Blogged",
+      "nodeIcon": "https://pieceoplastic.com/wp-content/uploads/2018/02/cropped-Post-Hate-1.jpg"
+    }
+  },
+  "error": null
+}

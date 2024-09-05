@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "REGNAL",
+      "nodeDescription": "The Kingdom of God is our Eternal Reality",
+      "nodeIcon": "https://theregnalsodality.wordpress.com/wp-content/uploads/2024/02/cropped-whatsapp-image-2023-01-30-at-09.58.16.jpeg"
+    }
+  },
+  "error": null
+}

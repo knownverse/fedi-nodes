@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/syuilo/misskey",
+      "repository": "https://github.com/syuilo/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 157,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mk.aqr.af",
+      "nodeDescription": "○自宅で動いてるおひとりインスタンスだよ\n○Aqraf’s single user instance!",
+      "nodeAdmins": [
+        {
+          "name": "@aqraf",
+          "email": "admin@aqr.af"
+        }
+      ],
+      "maintainer": {
+        "name": "@aqraf",
+        "email": "admin@aqr.af"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

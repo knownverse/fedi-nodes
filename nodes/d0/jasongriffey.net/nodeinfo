@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 2311,
+      "localComments": 2844
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jason Griffey",
+      "nodeDescription": "&quot;I like the dreams of the future better than the history of the past…&quot;",
+      "nodeIcon": "https://jasongriffey.net/wp-content/uploads/2020/04/image.jpg"
+    }
+  },
+  "error": null
+}

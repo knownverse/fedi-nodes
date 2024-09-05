@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I Love New York City",
+      "nodeDescription": "Discover new and old places, brands, businesses, events, cafes &amp; news from New York City",
+      "nodeIcon": "https://i0.wp.com/iloveny.city/wp-content/uploads/2024/03/cropped-i-love-new-york.png?fit=459%2C459&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 254,
+      "localComments": 59
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Música folk",
+      "nodeDescription": "Aprendiendo juntos sobre músicas ibéricas y del mundo",
+      "nodeIcon": "https://www.musicafolk.es/wp-content/uploads/2022/10/cropped-twitter_I2O7qp9V_400x400.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 28
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "新🔑丼",
+      "nodeDescription": "ConoHa VPS の 2GB プランで動いている個人用サーバーです。"
+    }
+  },
+  "error": null
+}

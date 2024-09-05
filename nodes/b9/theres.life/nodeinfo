@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 320,
+        "activeMonth": 56,
+        "activeHalfyear": 87
+      },
+      "localPosts": 56054
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "There's Life",
+      "nodeDescription": "A family-friendly social network (Mastodon instance) devoted to the new life found in Christ. "
+    }
+  },
+  "error": null
+}

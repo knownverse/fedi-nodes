@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3504,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ガード下酔いどれ人生",
+      "nodeDescription": "<div style=\"text-align:left\">\n<p>\n酔いどれが集まるサーバー。<br>\n現在管理人の知人のみの招待制で運用中。<br>\n<i>※自室に放置しているRaspberryPiにて運用しているため、不安定な場合があります。</i>\n</p>\n</div>",
+      "nodeAdmins": [
+        {
+          "name": "ゆ",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ゆ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#0abab5"
+    }
+  },
+  "error": null
+}

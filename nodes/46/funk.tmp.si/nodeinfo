@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.7+git.ffe306ed"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://funk.tmp.si/federation/actors/service",
+      "private": true,
+      "shortDescription": "A personal, semi-shared jukebox instance .",
+      "longDescription": "This a quiet slow personal/family library with some public (mine, or CC) and some private music collections.",
+      "rules": "We are using [Berlin Code of Conduct](https://berlincodeofconduct.org/)",
+      "contactEmail": "",
+      "terms": "",
+      "nodeName": "funk.tmp.si",
+      "banner": "https://funk.tmp.si/media/dynamic_preferences/instance__banner/IMG_20170504_112315ello.jpg",
+      "defaultUploadQuota": 100000,
+      "library": {
+        "federationEnabled": false,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 906
+        },
+        "artists": {
+          "total": 80
+        },
+        "albums": {
+          "total": 85
+        },
+        "music": {
+          "hours": 335.69666666666666
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://funk.tmp.si/api/v1/federation/domains",
+        "channels": "https://funk.tmp.si/federation/index/channels",
+        "libraries": "https://funk.tmp.si/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 18
+          }
+        },
+        "listenings": {
+          "total": 358
+        },
+        "downloads": {
+          "total": 8879
+        }
+      }
+    }
+  },
+  "error": null
+}

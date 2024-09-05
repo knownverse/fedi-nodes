@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 417
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon",
+      "nodeDescription": "Curious about the name? Why a parrot? Read David Langford's excellent short story, \"BLIT\"."
+    }
+  },
+  "error": null
+}

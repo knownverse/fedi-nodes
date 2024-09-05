@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-ion2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 14894,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "イオンすきー",
+      "nodeDescription": "たかイオンのおひとりさまサーバー\n<br />\nなにかあれば <a href=\"/@takaion\">@takaion</a> まで。",
+      "nodeAdmins": [
+        {
+          "name": "たかイオン",
+          "email": "https://mi.takaion.net/@takaion"
+        }
+      ],
+      "maintainer": {
+        "name": "たかイオン",
+        "email": "https://mi.takaion.net/@takaion"
+      },
+      "langs": [],
+      "tosUrl": "https://mi.takaion.net/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#33d6db"
+    }
+  },
+  "error": null
+}

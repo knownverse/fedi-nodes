@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1033,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1805048,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "シコすきー",
+      "nodeDescription": "シコるのが好きな人のためのMisskeyサーバーです。<br>\n18歳以上であればどなたでもご利用できます。<br>\n※ユーザー同士の性的な出会いを目的とするサーバーではありません。<br>\n<br>\n招待コードについて→https://portal.45sukey.net/faq#h.n1tgd0vehltg",
+      "nodeAdmins": [
+        {
+          "name": "シコ姉",
+          "email": "https://portal.45sukey.net/faq#h.n1tgd0vehltg"
+        }
+      ],
+      "maintainer": {
+        "name": "シコ姉",
+        "email": "https://portal.45sukey.net/faq#h.n1tgd0vehltg"
+      },
+      "langs": [],
+      "tosUrl": "https://45sukey.net/@announcement/pages/terms-of-use",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/Q4LZSmbhTKMzQn819",
+      "impressumUrl": "https://portal.45sukey.net/developer",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#cbcf00"
+    }
+  },
+  "error": null
+}

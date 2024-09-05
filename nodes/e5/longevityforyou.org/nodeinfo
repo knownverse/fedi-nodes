@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 125,
+      "localComments": 810
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Longevity For You",
+      "nodeDescription": "-Meistere die Kunst des gesunden Alterns: Erfahre, wie du Schlüsselfaktoren für eine langfristig hohe Lebensqualität gestalten kannst -",
+      "nodeIcon": "https://longevityforyou.org/wp-content/uploads/2023/12/image.jpg"
+    }
+  },
+  "error": null
+}

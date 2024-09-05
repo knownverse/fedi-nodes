@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.0.2"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "twitter"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 6,
+        "activeMonth": 6
+      },
+      "localPosts": 58,
+      "localComments": 1
+    },
+    "metadata": {
+      "nodeName": "Lindeh.se"
+    }
+  },
+  "error": null
+}

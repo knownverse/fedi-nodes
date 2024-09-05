@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Hungry Glomad",
+      "nodeDescription": "recollections of people, food, &amp; travels",
+      "nodeIcon": "https://thehungryglomad.com/wp-content/uploads/2019/04/cropped-site-id.jpg"
+    }
+  },
+  "error": null
+}

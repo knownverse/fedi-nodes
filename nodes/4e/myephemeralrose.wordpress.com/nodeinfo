@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 87,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "#pseudo intellectualism #thrifty gamer",
+      "nodeDescription": "We know that the only way to avoid error is to detect it and that the only way to detect it is to be free to inquire. And we know that as long as men are free to ask what they must, free to say what they think, free to think what they will, freedom can never be lost, and science can never regress. - robert oppenheimer the troubled shadow",
+      "nodeIcon": "https://myephemeralrose.wordpress.com/wp-content/uploads/2024/05/cropped-the-speculation.png"
+    }
+  },
+  "error": null
+}

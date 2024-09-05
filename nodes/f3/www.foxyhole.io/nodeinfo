@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "redhunt07@tutanota.com",
+        "name": "redhunt07"
+      },
+      "nodeDescription": "FoxyHole nasce con l'ambizione di liberare l'utente da indagini di mercato e profilazione, rendendoti veramente padrone della tua identità digitale. In un mondo digitale sempre più invasivo, vogliamo essere il rifugio che ti offre sicurezza e confort, proprio come la tana di una volpe.",
+      "nodeName": "FoxyHole",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FF8C00"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 15516,
+      "users": {
+        "activeHalfyear": 41,
+        "activeMonth": 27,
+        "total": 127
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

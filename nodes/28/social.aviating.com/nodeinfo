@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 34,
+        "activeMonth": 3,
+        "activeHalfyear": 12
+      },
+      "localPosts": 482
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Aviating.com Social",
+      "nodeDescription": "By pilots, for pilots."
+    }
+  },
+  "error": null
+}

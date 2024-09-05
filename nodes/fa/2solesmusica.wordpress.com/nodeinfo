@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 70,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "2solesmusica",
+      "nodeDescription": "Música, cine, festivales, libros, arte, y más",
+      "nodeIcon": "https://2solesmusica.wordpress.com/wp-content/uploads/2021/12/cropped-cropped-avatar2sm-e1638901412205.jpg"
+    }
+  },
+  "error": null
+}

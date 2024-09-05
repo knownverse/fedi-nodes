@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 2,
+        "activeHalfyear": 10
+      },
+      "localPosts": 2439
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "PopGeeks",
+      "nodeDescription": "Welcome to masto.popgeeks.com! Meet like-minded friends and share your thoughts on all things tabletop games,PS5, Xbox One, Nintendo Switch, PC Gaming, Comics, Animation, Anime, and many other interesting subjects."
+    }
+  },
+  "error": null
+}

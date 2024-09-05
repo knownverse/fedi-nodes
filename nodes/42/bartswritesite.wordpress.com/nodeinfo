@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 130,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "So you want to be a writer",
+      "nodeDescription": "Schrijfoefeningen",
+      "nodeIcon": "https://bartswritesite.wordpress.com/wp-content/uploads/2024/03/johnny_automatic_typewriter-4294730346.png"
+    }
+  },
+  "error": null
+}

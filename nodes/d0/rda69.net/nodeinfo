@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "5.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 288,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "RDA69",
+      "nodeDescription": "Associação Recreativa dos Anjos 69",
+      "nodeIcon": "https://rda69.net/wp-content/uploads/2021/02/cropped-logotipo-RDA_color-1.jpg"
+    }
+  },
+  "error": null
+}

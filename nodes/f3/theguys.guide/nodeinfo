@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 10,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TheGuysGuide",
+      "nodeDescription": "Curating authentic connections in an increasingly disconnected world",
+      "nodeIcon": "https://i0.wp.com/theguys.guide/wp-content/uploads/2024/03/Logo-2.png?fit=500%2C500&ssl=1"
+    }
+  },
+  "error": null
+}

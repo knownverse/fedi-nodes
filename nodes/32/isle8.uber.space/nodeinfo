@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.0"
+    },
+    "protocols": [
+      "zot",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "friendica"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": 19,
+        "activeMonth": 19
+      },
+      "localPosts": 58,
+      "localComments": 114
+    },
+    "metadata": {
+      "nodeName": "Hubzilla"
+    }
+  },
+  "error": null
+}

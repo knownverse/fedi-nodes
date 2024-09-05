@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2348,
+        "activeMonth": 82,
+        "activeHalfyear": 129
+      },
+      "localPosts": 1654110
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Elekk: Gameing and Other Delightful Pursuits",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

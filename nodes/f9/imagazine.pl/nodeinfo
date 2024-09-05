@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.0"
+    },
+    "usage": {
+      "users": {
+        "total": 69,
+        "activeMonth": "63",
+        "activeHalfyear": "63"
+      },
+      "localPosts": 21547,
+      "localComments": 76368
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "iMagazine",
+      "nodeDescription": "Technologia, lifestyle, podróże i sztuka",
+      "nodeIcon": "https://imagazine.pl/wp-content/uploads/2017/09/cropped-iMag-Logo-2500x2500-six-colours-2016-09.png"
+    }
+  },
+  "error": null
+}

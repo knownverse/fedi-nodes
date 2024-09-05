@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 40,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Katze 1 und 2",
+      "nodeDescription": "Was machen denn die schon wieder...",
+      "nodeIcon": "https://katze.einsundzwei.ch/wp-content/uploads/2023/07/cropped-cropped-IMG_0461.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 6980
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The Fox Den",
+      "nodeDescription": "For the tech enjoyers. By tech enjoyers (and furries)"
+    }
+  },
+  "error": null
+}

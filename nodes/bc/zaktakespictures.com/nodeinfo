@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 115,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zak Takes Pictures",
+      "nodeDescription": "",
+      "nodeIcon": "https://zaktakespictures.com/wp-content/uploads/2022/05/P1270126.jpg"
+    }
+  },
+  "error": null
+}

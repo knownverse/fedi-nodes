@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rico Tele Net",
+      "nodeDescription": "&quot;Tu Estación Musical y Cultural en Internet&quot;",
+      "nodeIcon": "https://ricotele.net/wp-content/uploads/2022/03/cropped-cropped-cropped-logo-rico-tele-net-marzo-2022-1.jpg"
+    }
+  },
+  "error": null
+}

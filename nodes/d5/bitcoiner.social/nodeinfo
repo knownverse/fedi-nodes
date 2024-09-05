@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "features": [
+        "nostr_relay"
+      ]
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "nostr"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "homepage": "https://github.com/hoytech/strfry",
+      "name": "strfry",
+      "repository": "https://github.com/hoytech/strfry",
+      "version": "0.9.6-26-gc0dec7c"
+    },
+    "usage": {
+      "users": {}
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

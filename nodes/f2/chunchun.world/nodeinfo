@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 184,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 125466,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ちゅんちゅんわーるど",
+      "nodeDescription": "自由にチュンチュンするサーバーです。\n羽休めの止まり木としてご利用ください。\n\n新規の方は歓迎してないわけではなく、前から居た体でしれっと居る感じにしたい。\nなので、新規の人が入ってきても特段騒ぎ立てる事がないようにしてます。（管理者は）\n\n\n- 日本の法律に従って使う\n- 喧嘩してもいいけどほどほどに\n- サーバーをいじめない\n- なんとなく動かしてるのでサーバーがぶっ飛んでも許してね\n\n絵文字のしろぷよちゃんの利用規約\nhttps://misskey.04.si/@Yakiniku/pages/Shiropuyo_kiyaku\n\n絵文字の笹ちゅんの利用規約\nhttps://chunchun.world/@sasaplus_altn/pages/1708222547528",
+      "nodeAdmins": [
+        {
+          "name": "kyon_g",
+          "email": "infoあっとchunchun.world"
+        }
+      ],
+      "maintainer": {
+        "name": "kyon_g",
+        "email": "infoあっとchunchun.world"
+      },
+      "langs": [],
+      "tosUrl": "https://chunchun-misskey.s3.amazonaws.com/terms.html",
+      "privacyPolicyUrl": "https://chunchun-misskey.s3.amazonaws.com/terms.html",
+      "inquiryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdj3mVd8UrMGxIDdS_cyLFviWmnevb-USs8DceMB2r55Qv1nA/viewform",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_bot",
+      "themeColor": "#4e7a27"
+    }
+  },
+  "error": null
+}

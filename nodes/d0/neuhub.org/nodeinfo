@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.6.3"
+    },
+    "protocols": [
+      "zot",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": 9,
+        "activeMonth": 0
+      },
+      "localPosts": 36,
+      "localComments": 173
+    },
+    "metadata": {
+      "nodeName": "Neuhub"
+    }
+  },
+  "error": null
+}

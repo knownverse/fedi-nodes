@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 746,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Trade-Free Directory",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.directory.trade-free.org/wp-content/uploads/2022/03/cropped-logo-favicon-black.png"
+    }
+  },
+  "error": null
+}

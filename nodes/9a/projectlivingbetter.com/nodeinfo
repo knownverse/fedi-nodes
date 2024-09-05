@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 19,
+      "localComments": 223
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Project: Living Better",
+      "nodeDescription": "Your guide to a healthy life.",
+      "nodeIcon": "https://projectlivingbetter.com/wp-content/uploads/2023/02/cropped-a3954a1a-100c-496f-a383-30075c745431.jpeg"
+    }
+  },
+  "error": null
+}

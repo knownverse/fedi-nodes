@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 52141,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "jiskey",
+      "nodeDescription": "JJ1GUJの個人インスタンス.\nRaspberry Pi5上で動いている.\nJJ1GUJがJS配列ユーザーなのでこの名前になっているらしい.\n稼働状況: https://stats.uptimerobot.com/nqvLAUlpQZ",
+      "nodeAdmins": [
+        {
+          "name": "JJ1GUJ",
+          "email": "https://jiskey.dev/@jj1guj"
+        }
+      ],
+      "maintainer": {
+        "name": "JJ1GUJ",
+        "email": "https://jiskey.dev/@jj1guj"
+      },
+      "langs": [],
+      "tosUrl": "https://support.misskey.io/hc/ja/articles/6564530842767-%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://jiskey.dev/@jj1guj",
+      "impressumUrl": "https://github.com/jj1guj",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#3872a9"
+    }
+  },
+  "error": null
+}

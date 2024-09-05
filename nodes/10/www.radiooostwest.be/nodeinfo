@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 677,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Radio Oost West",
+      "nodeDescription": "de gezelligste streekradio voor het oosten van West-Vlaanderen. Te beluisteren via 106.5 en 107.3 FM of via www.radiooostwest.be.",
+      "nodeIcon": "https://www.radiooostwest.be/wp-content/uploads/2018/01/cropped-Logo-enkel.png"
+    }
+  },
+  "error": null
+}

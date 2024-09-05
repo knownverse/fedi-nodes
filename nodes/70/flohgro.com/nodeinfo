@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 69,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FlohGro",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/flohgro.com/wp-content/uploads/2022/02/icon.png?fit=1859%2C1859&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,310 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "SimplePolicy",
+          "TagPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "gleasonator.com",
+            "spinster.xyz",
+            "bae.st",
+            "poa.st",
+            "noagendasocial.com",
+            "freespeechextremist.com",
+            "clubcyberia.co",
+            "kiwifarms.cc",
+            "gameliberty.club",
+            "beefyboys.win",
+            "*.truthsocial.com",
+            "truthsocial.co.in",
+            "shitposter.club",
+            "nicecrew.digital",
+            "leafposter.club"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "*.eientei.org",
+            "*.miria.love",
+            "*.lolicon.rocks",
+            "nnia.space",
+            "pedo.school",
+            "pawoo.net",
+            "youjo.love",
+            "dlf.social",
+            "*.pseudo-whiskey.bar",
+            "baraag.net",
+            "freak.university",
+            "varishangout.net",
+            "*.gab.com",
+            "gab.ai",
+            "activitypub-troll.cf",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "detroitriotcity.com",
+            "mstdn.yukioke.com"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "*.truthsocial.com": {
+              "reason": "Truth Social. Not federating with anyone, but kept for completeness"
+            },
+            "bae.st": {
+              "reason": "Channer"
+            },
+            "beefyboys.win": {
+              "reason": "Channer"
+            },
+            "clubcyberia.co": {
+              "reason": "Kiwi Farms refugees"
+            },
+            "freespeechextremist.com": {
+              "reason": "Limited Moderation"
+            },
+            "gameliberty.club": {
+              "reason": "Channer"
+            },
+            "gleasonator.com": {
+              "reason": "Transphobia"
+            },
+            "kiwifarms.cc": {
+              "reason": "Kiwi Farms. Instance apparently not online. Kept for completeness"
+            },
+            "leafposter.club": {
+              "reason": "Channer"
+            },
+            "nicecrew.digital": {
+              "reason": "Nazis"
+            },
+            "noagendasocial.com": {
+              "reason": "Conspiracy theories"
+            },
+            "poa.st": {
+              "reason": "Nazis"
+            },
+            "shitposter.club": {
+              "reason": "Channer"
+            },
+            "spinster.xyz": {
+              "reason": "Transphobia"
+            },
+            "truthsocial.co.in": {
+              "reason": "Truth Social related."
+            }
+          },
+          "reject": {
+            "*.eientei.org": {
+              "reason": "Pedophilia"
+            },
+            "*.gab.com": {
+              "reason": "Gab. Not on the Fediverse anymore, but for completeness' sake"
+            },
+            "*.lolicon.rocks": {
+              "reason": "Loli"
+            },
+            "*.miria.love": {
+              "reason": "Pedophilia. Apparently not online. Kept for completeness."
+            },
+            "*.pseudo-whiskey.bar": {
+              "reason": "Pedophilia"
+            },
+            "activitypub-troll.cf": {
+              "reason": "DDOS"
+            },
+            "baraag.net": {
+              "reason": "Loli"
+            },
+            "detroitriotcity.com": {
+              "reason": "Harassment. Was on federated timeline removal, but admin decided to be a jerk. Receipts upon request."
+            },
+            "dlf.social": {
+              "reason": "Pedophilia"
+            },
+            "freak.university": {
+              "reason": "Pedophilia"
+            },
+            "gab.ai": {
+              "reason": "Gab. Not on the Fediverse anymore, but for completeness' sake"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "DDOS"
+            },
+            "mstdn.yukioke.com": {
+              "reason": "Loli"
+            },
+            "nnia.space": {
+              "reason": "Pedophilia"
+            },
+            "pawoo.net": {
+              "reason": "Pedophilia"
+            },
+            "pedo.school": {
+              "reason": "Pedophilia"
+            },
+            "repl.co": {
+              "reason": "DDOS"
+            },
+            "varishangout.net": {
+              "reason": "Loli"
+            },
+            "youjo.love": {
+              "reason": "Pedophilia. Apparently not online. Kept for completeness."
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "A small Akkoma server for me, family, and close friends.",
+      "nodeName": "Sandhill Social",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://akkoma.sandhill.social/users/ML2"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.7.1-0-gfef4bae"
+    },
+    "usage": {
+      "localPosts": 604,
+      "users": {
+        "total": 4
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

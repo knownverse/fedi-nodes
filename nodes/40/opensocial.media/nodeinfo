@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 1349
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Open Social",
+      "nodeDescription": "A small community providing access to the best parts of the Fediverse via Mastodon to friends and family. Invitation only."
+    }
+  },
+  "error": null
+}

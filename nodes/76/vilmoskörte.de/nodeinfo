@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1336,
+      "localComments": 5669
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vilmoskörtes Blog",
+      "nodeDescription": "vilmoskörte ist nicht vilmoskröte",
+      "nodeIcon": "https://vilmoskörte.de/wp-content/uploads/2018/03/cropped-birne512-1-e1529077744862.png"
+    }
+  },
+  "error": null
+}

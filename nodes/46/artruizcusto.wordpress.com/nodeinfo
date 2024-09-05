@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "RUIZCUSTO",
+      "nodeDescription": "OBRA PLASTICA",
+      "nodeIcon": "https://artruizcusto.wordpress.com/wp-content/uploads/2018/12/cropped-30443461_362252230941176_4578409084264382464_o.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7609,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "はすきー",
+      "nodeDescription": "某所在住可愛い大型犬はすきーとその飼い主うつきの個人サーバーです。\n利用規約、プライバシーポリシーの参考：misKiyaku（https://github.com/CAT5NEKO/misKiyaku）\n",
+      "nodeAdmins": [
+        {
+          "name": "うつき",
+          "email": "kaoism@fedibird.com"
+        }
+      ],
+      "maintainer": {
+        "name": "うつき",
+        "email": "kaoism@fedibird.com"
+      },
+      "langs": [],
+      "tosUrl": "https://kaoism.xyz/@kaoism/pages/1711461137901",
+      "privacyPolicyUrl": "https://kaoism.xyz/@kaoism/pages/1711339090699",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#eed5ff"
+    }
+  },
+  "error": null
+}

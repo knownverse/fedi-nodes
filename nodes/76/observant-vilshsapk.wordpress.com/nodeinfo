@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 140,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "2人目不育&amp;不妊治療中ママの休職日記",
+      "nodeDescription": "1歳半の娘がいるも、2人目不妊治療がうまくいかず（妊娠初期で三度流産（うち一度は化学流産））、育休から復帰も新しい業務で疲弊して休職中の30代ママです。不育も加わって2人目の難易度が更に上がってる気がしますが、リハビリや気持ちの整理を兼ねて、日記に挑戦！",
+      "nodeIcon": "https://observant-vilshsapk.wordpress.com/wp-content/uploads/2024/02/site-logo.png"
+    }
+  },
+  "error": null
+}

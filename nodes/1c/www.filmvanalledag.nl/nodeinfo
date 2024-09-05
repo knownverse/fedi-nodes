@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3812,
+      "localComments": 5373
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "filmvanalledag",
+      "nodeDescription": "hervonden weblog",
+      "nodeIcon": "https://www.filmvanalledag.nl/wp-content/uploads/2024/06/cropped-Van-klembord-kopie.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "the Brown Girl Blog: Shamed brown girl to Strong brown woman",
+      "nodeDescription": "Overcoming misogyny, racism, generational trauma, and various jackasseries with the power of Stories and Sarcasm",
+      "nodeIcon": "https://browngirl.blog/wp-content/uploads/2023/12/cropped-scopio-d8f64622-2bb6-483b-8bda-62f8f87c53b8.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 801,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぎがへるつのみすきー",
+      "nodeDescription": "しがない高専生のおひとりさまインスタンスです",
+      "nodeAdmins": [
+        {
+          "name": "ぎがへるつ",
+          "email": "gigahertz00@ghz00.net"
+        }
+      ],
+      "maintainer": {
+        "name": "ぎがへるつ",
+        "email": "gigahertz00@ghz00.net"
+      },
+      "langs": [],
+      "tosUrl": "俺がルール",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#0080ff"
+    }
+  },
+  "error": null
+}

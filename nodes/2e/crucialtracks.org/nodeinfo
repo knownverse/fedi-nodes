@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 29,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Crucial Tracks",
+      "nodeDescription": "The songs that made you",
+      "nodeIcon": "https://crucialtracks.org/wp-content/uploads/2023/12/cropped-ct-square.jpg"
+    }
+  },
+  "error": null
+}

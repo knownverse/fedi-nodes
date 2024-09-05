@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 455,
+      "localComments": 251
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ham Radio Reviews and Events",
+      "nodeDescription": "Project, Software and Equipment Reviews",
+      "nodeIcon": "https://ke2yk.com/wp-content/uploads/2017/05/cropped-dodo_bird.jpg"
+    }
+  },
+  "error": null
+}

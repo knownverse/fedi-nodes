@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "socialhome",
+      "version": "0.20.0-dev"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 942,
+      "localComments": 51
+    },
+    "metadata": {
+      "nodeName": "jase.social"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.6.0-transfem",
+      "homepage": "https://activitypub.software/TransFem-org/sharkey-trans-fem",
+      "repository": "https://activitypub.software/TransFem-org/sharkey-trans-fem"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1648,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 466794,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "TransFem Space",
+      "nodeDescription": "TransFem Space: A safe space for TransFem individuals and allies. Together, we build a stronger community!\n<br>\n<br>\nEveryone is welcome, just please specify a signup reason when signing up :3\n<br>\nSignups Currently Disabled\n<br>\nBanner Image made by @Gingeh@tech.lgbt\n",
+      "nodeAdmins": [
+        {
+          "name": "Amber",
+          "email": "admin@transfem.org"
+        }
+      ],
+      "maintainer": {
+        "name": "Amber",
+        "email": "admin@transfem.org"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": "",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/sharkey-trans-fem",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 5000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#F7A8B8"
+    }
+  },
+  "error": null
+}

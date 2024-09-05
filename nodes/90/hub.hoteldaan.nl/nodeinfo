@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.8.7"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 53,
+        "activeHalfyear": 40,
+        "activeMonth": 15
+      },
+      "localPosts": 13140,
+      "localComments": 1243
+    },
+    "metadata": {
+      "nodeName": "Hubzilla  HotelDaan"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "fuzakebito@fuzake.io",
+        "name": "Naoya HAYASHI"
+      },
+      "nodeDescription": "fuzakebitoの巣穴",
+      "nodeName": "social.fuzake.io",
+      "proxyAccountName": "9htzjt4qjj7p5is8",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240623"
+    },
+    "usage": {
+      "localPosts": 30,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 3723,
+      "localComments": 11231
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lars Fosdal",
+      "nodeDescription": "I rant, therefore I am.",
+      "nodeIcon": "https://i0.wp.com/larsfosdal.blog/wp-content/uploads/2024/05/LarsFosdal_2024_512x512_BG.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

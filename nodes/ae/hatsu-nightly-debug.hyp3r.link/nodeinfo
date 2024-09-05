@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "hatsu",
+      "version": "0.3.0-beta.0",
+      "repository": "https://github.com/importantimport/hatsu",
+      "homepage": "https://hatsu.cli.rs"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 36
+    },
+    "metadata": {}
+  },
+  "error": null
+}

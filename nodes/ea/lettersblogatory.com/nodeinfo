@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2525,
+      "localComments": 3472
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Letters Blogatory",
+      "nodeDescription": "The Blog of International Judicial Assistance",
+      "nodeIcon": "https://lettersblogatory.com/wp-content/uploads/2023/11/cropped-DALL·E-2023-11-10-16.41.28-A-final-revision-of-the-digital-logo-design-for-a-blog-about-international-judicial-assistance-based-on-the-previous-design-but-without-the-handle-pr.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,885 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "media_proxy",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "com"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "13bells.com",
+            "1611.social",
+            "4aem.com",
+            "5dollah.click",
+            "adachi.party",
+            "adtension.com",
+            "akko.disqordia.space",
+            "annihilation.social",
+            "anon-kenkai.com",
+            "asbestos.cafe",
+            "bae.st",
+            "banepo.st",
+            "bassam.social",
+            "battlepenguin.video",
+            "beefyboys.win",
+            "boymoder.biz",
+            "brainsoap.net",
+            "breastmilk.club",
+            "brighteon.social",
+            "cachapa.xyz",
+            "campduffel.social",
+            "canary.fedinuke.example.com",
+            "catgirl.life",
+            "cawfee.club",
+            "childlove.su",
+            "clew.lol",
+            "clubcyberia.co",
+            "contrapointsfan.club",
+            "cottoncandy.cafe",
+            "crucible.world",
+            "cum.camp",
+            "cum.salon",
+            "cunnyborea.space",
+            "decayable.ink",
+            "declin.eu",
+            "dembased.xyz",
+            "detroitriotcity.com",
+            "djsumdog.com",
+            "eientei.org",
+            "eveningzoo.club",
+            "fluf.club",
+            "foxgirl.lol",
+            "freak.university",
+            "freeatlantis.com",
+            "freecumextremist.com",
+            "freesoftwareextremist.com",
+            "freespeechextremist.com",
+            "froth.zone",
+            "gameliberty.club",
+            "gearlandia.haus",
+            "genderheretics.xyz",
+            "geofront.rocks",
+            "gleasonator.com",
+            "glee.li",
+            "glindr.org",
+            "goyim.app",
+            "h5q.net",
+            "haeder.net",
+            "handholding.io",
+            "hitchhiker.social",
+            "iddqd.social",
+            "kitsunemimi.club",
+            "kiwifarms.cc",
+            "kiwifarms.com",
+            "kurosawa.moe",
+            "kyaruc.moe",
+            "leafposter.club",
+            "liberdon.com",
+            "ligma.pro",
+            "loli.church",
+            "lolicon.rocks",
+            "lolison.network",
+            "lolison.top",
+            "lovingexpressions.net",
+            "makemysarcophagus.com",
+            "masochi.st",
+            "mastinator.com",
+            "merovingian.club",
+            "midwaytrades.com",
+            "mirr0r.city",
+            "morale.ch",
+            "mouse.services",
+            "mugicha.club",
+            "narrativerry.xyz",
+            "natehiggers.online",
+            "nationalist.social",
+            "needs.vodka",
+            "neenster.org",
+            "nicecrew.digital",
+            "nightshift.social",
+            "nnia.space",
+            "noagendasocial.com",
+            "noagendasocial.nl",
+            "noagendatube.com",
+            "noauthority.social",
+            "nobodyhasthe.biz",
+            "norwoodzero.net",
+            "novoa.nagoya",
+            "nyanide.com",
+            "onionfarms.org",
+            "ortodogs.info",
+            "parcero.bond",
+            "pawlicker.com",
+            "pawoo.net",
+            "pedo.school",
+            "peervideo.club",
+            "piazza.today",
+            "pibvt.net",
+            "pieville.net",
+            "pisskey.io",
+            "pl.nulled.red",
+            "plagu.ee",
+            "poa.st",
+            "poast.org",
+            "poast.tv",
+            "poster.place",
+            "posting.lolicon.rocks",
+            "prospeech.space",
+            "quodverum.com",
+            "r18.social",
+            "rakket.app",
+            "rapemeat.express",
+            "rapemeat.solutions",
+            "rayci.st",
+            "rebelbase.site",
+            "ryona.agency",
+            "sad.cab",
+            "schwartzwelt.xyz",
+            "seal.cafe",
+            "shaw.app",
+            "shigusegubu.club",
+            "shitpost.cloud",
+            "shitposter.cafe",
+            "shortstacksran.ch",
+            "silliness.observer",
+            "skinheads.eu",
+            "skinheads.io",
+            "skinheads.social",
+            "skinheads.uk",
+            "skippers-bin.com",
+            "skyshanty.xyz",
+            "slash.cl",
+            "sleepy.cafe",
+            "smuglo.li",
+            "sneed.social",
+            "social.xenofem.me",
+            "sonichu.com",
+            "spinster.xyz",
+            "springbo.cc",
+            "strelizia.net",
+            "taihou.website",
+            "tastingtraffic.net",
+            "teci.world",
+            "the.asbestos.cafe",
+            "theapex.social",
+            "theblab.org",
+            "thechimp.zone",
+            "thenobody.club",
+            "thepostearthdestination.com",
+            "threads.net",
+            "tkammer.de",
+            "trumpislovetrumpis.life",
+            "truthsocial.co.in",
+            "truthsocial.com",
+            "usualsuspects.lol",
+            "vampiremaid.cafe",
+            "varishangout.net",
+            "vtuberfan.social",
+            "weeaboo.space",
+            "wolfgirl.bar",
+            "xn--p1abe3d.xn--80asehdb",
+            "yggdrasil.social",
+            "youjo.love"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "com": {
+              "reason": "commercial"
+            }
+          },
+          "reject": {
+            "cachapa.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "pibvt.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "h5q.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "pedo.school": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "social.xenofem.me": {
+              "reason": "manual block"
+            },
+            "thenobody.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "djsumdog.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "natehiggers.online": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "truthsocial.com": {
+              "reason": "manual block"
+            },
+            "trumpislovetrumpis.life": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "geofront.rocks": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "akko.disqordia.space": {
+              "reason": "manual block"
+            },
+            "childlove.su": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "sleepy.cafe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "midwaytrades.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "gameliberty.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "weeaboo.space": {
+              "reason": "manual block"
+            },
+            "poa.st": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "bae.st": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "truthsocial.co.in": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "rakket.app": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "strelizia.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "hitchhiker.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "foxgirl.lol": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "seal.cafe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "anon-kenkai.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "shitposter.cafe": {
+              "reason": "manual block"
+            },
+            "rebelbase.site": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "skinheads.eu": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "pawlicker.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "freespeechextremist.com": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "gleasonator.com": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "the.asbestos.cafe": {
+              "reason": "manual block"
+            },
+            "annihilation.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "silliness.observer": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "4aem.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "fluf.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "asbestos.cafe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "usualsuspects.lol": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "merovingian.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "iddqd.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "rapemeat.express": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "kiwifarms.com": {
+              "reason": "manual block"
+            },
+            "pawoo.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "poast.org": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "rapemeat.solutions": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "pisskey.io": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "skippers-bin.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "banepo.st": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "sad.cab": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "parcero.bond": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "sneed.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "nicecrew.digital": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "morale.ch": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "vampiremaid.cafe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "nightshift.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "catgirl.life": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "nnia.space": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "13bells.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "sonichu.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "norwoodzero.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "battlepenguin.video": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "campduffel.social": {
+              "reason": "manual block"
+            },
+            "mirr0r.city": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "handholding.io": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "ryona.agency": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "bassam.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "varishangout.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "cunnyborea.space": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "yggdrasil.social": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "noauthority.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "clew.lol": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "mouse.services": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "glee.li": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "spinster.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "lolicon.rocks": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "clubcyberia.co": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "skyshanty.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "genderheretics.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "youjo.love": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "freak.university": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "novoa.nagoya": {
+              "reason": "manual block"
+            },
+            "shaw.app": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "lolison.network": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "noagendasocial.nl": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "canary.fedinuke.example.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "nationalist.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "contrapointsfan.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "skinheads.io": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "freecumextremist.com": {
+              "reason": "manual block"
+            },
+            "froth.zone": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "beefyboys.win": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "quodverum.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "ortodogs.info": {
+              "reason": "manual block"
+            },
+            "poast.tv": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "shitpost.cloud": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "brainsoap.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "springbo.cc": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "onionfarms.org": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "liberdon.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "detroitriotcity.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "decayable.ink": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "theapex.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "tastingtraffic.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "haeder.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "r18.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "skinheads.uk": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "leafposter.club": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "loli.church": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "schwartzwelt.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "piazza.today": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "cum.salon": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "taihou.website": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "pl.nulled.red": {
+              "reason": "manual block"
+            },
+            "eientei.org": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "mugicha.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "goyim.app": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "masochi.st": {
+              "reason": "manual block"
+            },
+            "lolison.top": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "mastinator.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "brighteon.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "pieville.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "freesoftwareextremist.com": {
+              "reason": "manual block"
+            },
+            "tkammer.de": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "eveningzoo.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "cottoncandy.cafe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "kyaruc.moe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "cawfee.club": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "teci.world": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "theblab.org": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "1611.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "nobodyhasthe.biz": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "slash.cl": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "5dollah.click": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "freeatlantis.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "declin.eu": {
+              "reason": "manual block"
+            },
+            "kurosawa.moe": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "gearlandia.haus": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "adtension.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "cum.camp": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "skinheads.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "makemysarcophagus.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "noagendasocial.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "nyanide.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "kitsunemimi.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "peervideo.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "noagendatube.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "threads.net": {
+              "reason": "manual block"
+            },
+            "shigusegubu.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "lovingexpressions.net": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "crucible.world": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "breastmilk.club": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "narrativerry.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "poster.place": {
+              "reason": "manual block, Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "boymoder.biz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "dembased.xyz": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "needs.vodka": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "smuglo.li": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "vtuberfan.social": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "shortstacksran.ch": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "neenster.org": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "glindr.org": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "wolfgirl.bar": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "plagu.ee": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "thechimp.zone": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "posting.lolicon.rocks": {
+              "reason": "manual block"
+            },
+            "rayci.st": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "ligma.pro": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "adachi.party": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "kiwifarms.cc": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "thepostearthdestination.com": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            },
+            "prospeech.space": {
+              "reason": "Seirdy's FediNuke as of 2024-03-31 https://seirdy.one/pb/FediNuke.txt"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "Pleroma: An efficient and flexible fediverse server",
+      "nodeName": "PleromAnt",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://plero.antopie.org/users/miraty"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.2"
+    },
+    "usage": {
+      "localPosts": 19,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

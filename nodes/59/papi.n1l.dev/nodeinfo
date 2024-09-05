@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-n.1",
+      "homepage": "https://github.com/n1lsqn/misskey",
+      "repository": "https://github.com/n1lsqn/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 63,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 199181,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "にる村",
+      "nodeDescription": "Fediverseに存在するこじんまりとした村",
+      "nodeAdmins": [
+        {
+          "name": "@n1lsqn",
+          "email": "@n1lsqn"
+        }
+      ],
+      "maintainer": {
+        "name": "@n1lsqn",
+        "email": "@n1lsqn"
+      },
+      "langs": [],
+      "tosUrl": "https://papi.n1l.dev/@n1lsqn/pages/1699835982163",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/n1lsqn/misskey",
+      "feedbackUrl": "https://github.com/n1lsqn/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 9000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#2792c3"
+    }
+  },
+  "error": null
+}

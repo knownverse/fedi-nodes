@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "firefish@constructed.space",
+        "name": "Kit Redgrave"
+      },
+      "nodeDescription": "Kit Redgrave's single-user Firefish instance",
+      "nodeName": "firefish.kitredgrave.net",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 535,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

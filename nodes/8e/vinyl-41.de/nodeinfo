@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1374,
+      "localComments": 642
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vinyl 41 ... #uffjedreht",
+      "nodeDescription": "Der Vinyl Blog aus Berlin-Friedenau",
+      "nodeIcon": "https://vinyl-41.de/wp-content/uploads/2018/07/cropped-vinyl-41-logo-1.png"
+    }
+  },
+  "error": null
+}

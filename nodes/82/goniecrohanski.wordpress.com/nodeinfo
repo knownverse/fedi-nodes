@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1354,
+      "localComments": 841
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Goniec Rohański",
+      "nodeDescription": "Aktualności tolkienowskie",
+      "nodeIcon": "https://goniecrohanski.wordpress.com/wp-content/uploads/2016/05/goniecrohanski155.jpg"
+    }
+  },
+  "error": null
+}

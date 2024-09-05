@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+pbzweihander.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 60,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 147751,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "靑白",
+      "nodeDescription": "개인용 인스턴스입니다. 기본적으로 신규 가입은 비활성화되어 있습니다.<br>본 인스턴스에 가입하고자 하신다면 유저에게 초대 코드를 요청해 주세요.<br><br>본 인스턴스에서 사용되는 아이콘은 Freepik에서 제작되었습니다.<br>Icons in this instance are from Freepik.",
+      "nodeAdmins": [
+        {
+          "name": "담비",
+          "email": "bluespringlily@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "담비",
+        "email": "bluespringlily@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://bluespringlily.notion.site/f9d9084067864bd69db965107dcdbd17?pvs=4",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#bfd6ff"
+    }
+  },
+  "error": null
+}

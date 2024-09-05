@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2348,
+      "localComments": 8415
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Curiosity Killed the Bookworm",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.curiositykilledthebookworm.net/wp-content/uploads/2021/01/cropped-project_20210130_1655143-01-01.png"
+    }
+  },
+  "error": null
+}

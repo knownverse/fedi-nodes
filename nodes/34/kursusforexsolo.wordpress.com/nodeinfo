@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kursus Forex Solo",
+      "nodeDescription": "Kursus Forex Solo Tempat kursus forex, belajar forex, training forex, pelatihan forex, diklat forex, sekolah forex, edukasi forex di Surakarta Jawa Tengah",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.9.0",
+      "basedMisskeyVersion": "2024.5.0",
+      "homepage": "https://github.com/yodangang-express/cherrypick",
+      "repository": "https://github.com/yodangang-express/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 93,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12239,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "요단강 익스프레스",
+      "nodeDescription": "<요단강 익스프레스>는 대한민국 서브컬쳐</br>-고스/Goth</br>-이모/Emo</br>-펑크/Punk</br>-비주얼계/V系</br>-양지뢰</br>-지하아이돌</br>향유자 친화 서버입니다.</br>\n해당 장르를 좋아하시는 분들이라면 가입이 가능합니다.</br>메일이 오지 않는다면 스팸함을 확인해 주세요.",
+      "nodeAdmins": [
+        {
+          "name": "요단강 익스프레스",
+          "email": "yodangang6516@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "요단강 익스프레스",
+        "email": "yodangang6516@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://yodangangexpress.notion.site/d3c057bb1d0b4566b6ce0188dd7b5bb4",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/yodangang-express/cherrypick",
+      "feedbackUrl": "https://github.com/yodangang-express/cherrypick/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#1a1a1a"
+    }
+  },
+  "error": null
+}

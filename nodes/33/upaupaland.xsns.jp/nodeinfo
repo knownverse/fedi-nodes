@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 445,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "うぱらんど",
+      "nodeDescription": "おひとりさま鯖です。登録受け付けてないです〜",
+      "nodeAdmins": [
+        {
+          "name": "うぱし",
+          "email": "upa.upascir@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "うぱし",
+        "email": "upa.upascir@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://sly-railway-608.notion.site/150e81458c314b76b7c99f8c8f2f539e?pvs=4",
+      "privacyPolicyUrl": "https://sly-railway-608.notion.site/85a71134660842b882f93d9043cd1838?pvs=4",
+      "inquiryUrl": "https://misskey.io/@upaupascir",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#f4a4a4"
+    }
+  },
+  "error": null
+}

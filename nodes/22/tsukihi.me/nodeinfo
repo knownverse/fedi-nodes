@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 66,
+        "activeMonth": 22,
+        "activeHalfyear": 32
+      },
+      "localPosts": 45723
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Tsukihime",
+      "nodeDescription": "Tsukihime (月姫, tsu-kee hee-mei) translation means Moon Princess. This server is ran by a Type-Moon fanatic as a safe haven for trans people by trans people"
+    }
+  },
+  "error": null
+}

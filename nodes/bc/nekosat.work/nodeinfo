@@ -1,0 +1,508 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 15,
+          "reject_threshold": 30
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": [
+            {
+              "pattern": "MAP",
+              "replacement": "chomo"
+            },
+            {
+              "pattern": "YAP",
+              "replacement": "chomo"
+            }
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "InlineQuotePolicy",
+          "ExNihiloNihilFit",
+          "HighRollerPolicy",
+          "HellthreadPolicy",
+          "KeywordPolicy",
+          "NoIncomingDeletes",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [
+            "nnia.space",
+            "mapsupport.de",
+            "cannibal.cafe",
+            "rape.pet",
+            "social.isekco.re",
+            "m.ating.press",
+            "masturb.ating.press",
+            "cottoncandy.cafe",
+            "nnia.cc",
+            "paravielfalt.zone",
+            "oddballs.online",
+            "whitewomen.dog",
+            "eepy.express",
+            "akkoma.nekos.cafe",
+            "luv.cunnyborea.space",
+            "dill.burggit.moe",
+            "love.is.notacri.me",
+            "imouto.exposed",
+            "miiverse.cafe",
+            "childlove.top",
+            "lit.tlespace.xyz",
+            "fedi.yesmap.net",
+            "freak.university"
+          ],
+          "federated_timeline_removal": [
+            "techhub.social",
+            "wetdry.world",
+            "lethallava.land",
+            "xim.ca",
+            "squid.cafe",
+            "seafoam.space",
+            "mastinsaan.in",
+            "icosahedron.website",
+            "ailbhean.co-shaoghal.net",
+            "jubi.life",
+            "toot.funami.tech",
+            "social.harpia.red"
+          ],
+          "followers_only": [],
+          "media_nsfw": [
+            "pawoo.net",
+            "baraag.net",
+            "wank.social",
+            "xscape.top"
+          ],
+          "media_removal": [
+            "nnia.space",
+            "mapsupport.de",
+            "cannibal.cafe",
+            "rape.pet",
+            "social.isekco.re",
+            "m.ating.press",
+            "masturb.ating.press",
+            "cottoncandy.cafe",
+            "nnia.cc",
+            "paravielfalt.zone",
+            "oddballs.online",
+            "whitewomen.dog",
+            "eepy.express",
+            "akkoma.nekos.cafe",
+            "luv.cunnyborea.space",
+            "dill.burggit.moe",
+            "love.is.notacri.me",
+            "imouto.exposed",
+            "miiverse.cafe",
+            "childlove.top",
+            "lit.tlespace.xyz",
+            "fedi.yesmap.net",
+            "freak.university"
+          ],
+          "reject": [
+            "social.icod.de",
+            "icod.de",
+            "smat-app.com",
+            "openmeasures.io",
+            "charcha.cc",
+            "heymaven.com",
+            "maven.ly"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "banner_removal": {
+            "akkoma.nekos.cafe": {
+              "reason": "Nekos at Work LLC direct competitor (also happens to be a chomo instance)"
+            },
+            "cannibal.cafe": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "childlove.top": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "cottoncandy.cafe": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "dill.burggit.moe": {
+              "reason": "instance is proof they were raping kids in the Jew tunnels"
+            },
+            "eepy.express": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "fedi.yesmap.net": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "freak.university": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "imouto.exposed": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "lit.tlespace.xyz": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "love.is.notacri.me": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "luv.cunnyborea.space": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "m.ating.press": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "mapsupport.de": {
+              "reason": "Preemptive castration for known kiddy diddler instance + you're german"
+            },
+            "masturb.ating.press": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "miiverse.cafe": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "nnia.cc": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "nnia.space": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "oddballs.online": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "paravielfalt.zone": {
+              "reason": "Preemptive castration for known kiddy diddler instance + you're german"
+            },
+            "rape.pet": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "social.isekco.re": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "whitewomen.dog": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            }
+          },
+          "federated_timeline_removal": {
+            "ailbhean.co-shaoghal.net": {
+              "reason": "Garlic bread"
+            },
+            "icosahedron.website": {
+              "reason": "German instance with a blocklist longer than your mom's list of partners? Must be a day ending in Y"
+            },
+            "jubi.life": {
+              "reason": "Cast into the bowels of irrelevancy"
+            },
+            "lethallava.land": {
+              "reason": "Sister instance of wetdry.world. Still full of malding furries"
+            },
+            "mastinsaan.in": {
+              "reason": "BASTARD BITCH BLOODY"
+            },
+            "seafoam.space": {
+              "reason": "Maybe you should harass some bitches"
+            },
+            "social.harpia.red": {
+              "reason": "The year 1997 has arrived. A herd of fuckin' ugly reds. are rushing from the mainland. Crime rate skyrockeded! Hongkong is ruined! Therefore, The Honkong government called Bruce Lee's relative, \"Chin\" for the massacre of the reds. Chin is a killer machine. Wipe out all 1.2 billion of the red communists! However, in mainland China there was a secret project in progress! A progress to transform the deceased Tong Shau Ping into an ultimate weapon!"
+            },
+            "squid.cafe": {
+              "reason": "I can't even make up something funny for this one"
+            },
+            "techhub.social": {
+              "reason": "ayo this nigga defederated over a blockbot"
+            },
+            "toot.funami.tech": {
+              "reason": "At least I can curl the instance again."
+            },
+            "wetdry.world": {
+              "reason": "Furry instance malding over me AI generating \"12 billion Rika Furude pics\""
+            },
+            "xim.ca": {
+              "reason": "Leftodon instance masquerading as a Firefish instance. Just migrate to Sharkey already"
+            }
+          },
+          "media_nsfw": {
+            "baraag.net": {
+              "reason": "Hella unmarked NSFW"
+            },
+            "pawoo.net": {
+              "reason": "Hella unmarked NSFW"
+            },
+            "wank.social": {
+              "reason": "Dedicated porn instance"
+            },
+            "xscape.top": {
+              "reason": "Dedicated porn instance"
+            }
+          },
+          "media_removal": {
+            "akkoma.nekos.cafe": {
+              "reason": "Nekos at Work LLC direct competitor (also happens to be a chomo instance)"
+            },
+            "cannibal.cafe": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "childlove.top": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "cottoncandy.cafe": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "dill.burggit.moe": {
+              "reason": "instance is proof they were raping kids in the Jew tunnels"
+            },
+            "eepy.express": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "fedi.yesmap.net": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "freak.university": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "imouto.exposed": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "lit.tlespace.xyz": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "love.is.notacri.me": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "luv.cunnyborea.space": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "m.ating.press": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "mapsupport.de": {
+              "reason": "Preemptive castration for known kiddy diddler instance + you're german"
+            },
+            "masturb.ating.press": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "miiverse.cafe": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "nnia.cc": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "nnia.space": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "oddballs.online": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "paravielfalt.zone": {
+              "reason": "Preemptive castration for known kiddy diddler instance + you're german"
+            },
+            "rape.pet": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "social.isekco.re": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            },
+            "whitewomen.dog": {
+              "reason": "Preemptive castration for known kiddy diddler instance"
+            }
+          },
+          "reject": {
+            "charcha.cc": {
+              "reason": "Live look at their instance: https://youtu.be/8X64OF55-dU"
+            },
+            "heymaven.com": {
+              "reason": "You can scrape deez nuts too"
+            },
+            "icod.de": {
+              "reason": "BTW calling me a \"tranny retard\" still won't get you into heaven, O puppet of Zion"
+            },
+            "maven.ly": {
+              "reason": "You can scrape deez nuts too"
+            },
+            "openmeasures.io": {
+              "reason": "The glowies have rebranded (same as smat-app.com)"
+            },
+            "smat-app.com": {
+              "reason": "Three letter agent glow so bright"
+            },
+            "social.icod.de": {
+              "reason": "Das Judenhaus, Ihr werdet den Himmel nicht betreten"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "rejected_instances": {}
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "The Fediverse's most highly-rated Nekomimi employment agency!",
+      "nodeName": "Nekos at Work!",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 2000,
+        "max_options": 64,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": true,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://nekosat.work/users/Cocoa"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 20000000,
+        "background": 40000000,
+        "banner": 40000000,
+        "general": 160000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.52-1209-g68767618-develop"
+    },
+    "usage": {
+      "localPosts": 6918,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

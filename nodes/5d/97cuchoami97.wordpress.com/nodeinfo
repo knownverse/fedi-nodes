@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 150,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "🌸•°CÚC HỌA MI°•🌸",
+      "nodeDescription": "🌸•°CÚC HỌA MI°•🌸",
+      "nodeIcon": "https://97cuchoami97.wordpress.com/wp-content/uploads/2024/03/cropped-img_1709434508898_1709434530253.png"
+    }
+  },
+  "error": null
+}

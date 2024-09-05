@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.2.3"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "peers": [
+        "ottawa.place",
+        "ottawa.party",
+        "thecanadian.social",
+        "tuxz.one",
+        "social.ewpratten.com",
+        "xim.ca"
+      ]
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

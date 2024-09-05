@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 494,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Running With Bulls",
+      "nodeDescription": "Running With Bulls- Sometimes you&#039;re the torero, sometimes you&#039;re the toro.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

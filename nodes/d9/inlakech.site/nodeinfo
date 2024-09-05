@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "friendica",
+        "libertree",
+        "pumpio",
+        "redmatrix"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 145,
+      "localComments": 173
+    },
+    "metadata": {
+      "nodeName": "Inlakech Site"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 125,
+      "localComments": 70
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Marco Konopacki",
+      "nodeDescription": "Participatory Policymaking | e-Government | Online Public Participation",
+      "nodeIcon": "https://konopacki.com.br/wp-content/uploads/2019/10/cropped-cropped-Marco_Profile.jpg"
+    }
+  },
+  "error": null
+}

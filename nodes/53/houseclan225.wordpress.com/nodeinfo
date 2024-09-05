@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "شركة تنظيف بالمدينة المنورة 0547242572 ",
+      "nodeDescription": "{0547242572} إذا كنت تبحث شركة تنظيف بالمدينة المنورة  فنحن شركه متخصصه فى تنظيف الشقق والفلل العمائر وتلميع السيراميك تنظيف الكنب والسجاد بأحدث المكائن أفضل شركة تنظيف فلل بالمدينة المنورة 🌹🌹🌹",
+      "nodeIcon": "https://houseclan225.wordpress.com/wp-content/uploads/2023/12/wp-1701986801289.jpg"
+    }
+  },
+  "error": null
+}

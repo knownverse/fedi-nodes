@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Restoration Software",
+      "nodeDescription": "The whole world is in our hands. (Note: I can only see mentions that are replies to my posts.)",
+      "nodeIcon": "https://restoration.software/wp-content/uploads/2023/11/social-web-avatar.jpg"
+    }
+  },
+  "error": null
+}

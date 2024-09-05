@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "federated",
+      "version": "0.0.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {}
+  },
+  "error": null
+}

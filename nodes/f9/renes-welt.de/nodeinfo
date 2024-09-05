@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 40,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rene&#039;s Welt",
+      "nodeDescription": "News &amp; Info&#039;s aus dem Hauptquartier",
+      "nodeIcon": "https://renes-welt.de/wp-content/uploads/2021/01/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

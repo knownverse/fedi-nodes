@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 11,
+        "activeHalfyear": 12
+      },
+      "localPosts": 3922
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "All Over the Place",
+      "nodeDescription": "This is my personal/project instance. This is also considered a safe environment for anyone with an account here who isn't me. No BS."
+    }
+  },
+  "error": null
+}

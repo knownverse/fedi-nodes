@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 296,
+      "localComments": 81
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ethical Revolution",
+      "nodeDescription": "26 Steps to a Better World, A-Z!",
+      "nodeIcon": "https://ethicalrevolution.co.uk/wp-content/uploads/2023/07/cropped-IMG_0234.png"
+    }
+  },
+  "error": null
+}

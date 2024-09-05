@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 11,
+        "activeHalfyear": 11
+      },
+      "localPosts": 294,
+      "localComments": 246
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Atheistische Religionsgesellschaft in Österreich",
+      "nodeDescription": "atheistisch.at -  Das Webportal der Atheistischen Religionsgesellschaft in Österreich",
+      "nodeIcon": "https://atheistisch.at/wp-content/uploads/2017/06/cropped-ARG.png"
+    }
+  },
+  "error": null
+}

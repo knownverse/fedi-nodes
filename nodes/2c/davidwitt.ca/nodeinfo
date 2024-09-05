@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 793,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dave&#039;s Sonex Builders Log",
+      "nodeDescription": "Welcome to my builders log for Sonex S/N 767. It won&#039;t be as big as a real 767 but if you scale the speed I bet it will be almost as fast",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

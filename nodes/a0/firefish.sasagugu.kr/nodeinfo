@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {},
+      "nodeDescription": "sasagugu의 개인 인스입니다.\n\n노트의 일부가 이 인스턴스에서는 삭제될수있습니다. (끄덕)",
+      "nodeName": "ff.sagu",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#00b2ff"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 510,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 3,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 114,
+      "localComments": 355
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SHOPTRUYENFUL",
+      "nodeDescription": "THÔNG BÁO ",
+      "nodeIcon": "https://wikipediavn1.wordpress.com/wp-content/uploads/2023/11/cropped-20231127_0848591.gif"
+    }
+  },
+  "error": null
+}

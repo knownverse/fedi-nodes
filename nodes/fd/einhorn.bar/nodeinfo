@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 233,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zum tanzenden Einhorn",
+      "nodeDescription": "Die Mittelalter- und Rollenspieltaverne in Hamburg",
+      "nodeIcon": "https://einhorn.bar/wp-content/uploads/2023/07/cropped-logo-1.png"
+    }
+  },
+  "error": null
+}

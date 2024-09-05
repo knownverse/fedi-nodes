@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 337,
+      "localComments": 1572
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Scuba Hank NYC",
+      "nodeDescription": "Scuba Diving Around The World",
+      "nodeIcon": "https://i0.wp.com/scubahanknyc.com/wp-content/uploads/2019/02/hh_scuba_fin1sm-resized-1.png?fit=412%2C302&ssl=1"
+    }
+  },
+  "error": null
+}

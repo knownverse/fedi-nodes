@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 34,
+        "activeMonth": 31,
+        "activeHalfyear": 30
+      },
+      "localPosts": 4287,
+      "localComments": 43068
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Seattle Bike Blog",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.seattlebikeblog.com/wp-content/uploads/2023/10/cropped-favicon-512x512-1.png"
+    }
+  },
+  "error": null
+}

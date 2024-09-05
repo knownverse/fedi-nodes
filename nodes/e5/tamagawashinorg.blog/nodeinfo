@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Top page 行政書士関根優司（せきね　ゆうじ）",
+      "nodeDescription": "",
+      "nodeIcon": "https://tamagawashinorg.blog/wp-content/uploads/2023/11/cropped-20231120e5908de588bae794a8efbc92_0018.jpg"
+    }
+  },
+  "error": null
+}

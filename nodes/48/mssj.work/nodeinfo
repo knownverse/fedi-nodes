@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3103,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MSSJ;妄想少女",
+      "nodeDescription": "망상소녀 미스키 인스턴스\n<br>초대는 인스턴스 멤버 중 아무나에게 요청해주세요!\n<br>\n<A href = \"https://web.mssj.work/\" target = \"blank\" > 소개 웹페이지 (클릭!) </A>",
+      "maintainer": {
+        "name": "Larill",
+        "email": "larill@mssj.work"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "worldski",
+      "themeColor": "#ffbdf6"
+    }
+  },
+  "error": null
+}

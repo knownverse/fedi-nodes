@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "activityrelay",
+      "version": "0.3.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "localPosts": 0,
+      "localComments": 0,
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "approval_required": true,
+      "peers": [
+        "reve.land",
+        "social.kithop.ca",
+        "ghost.cafe",
+        "daedal.io",
+        "barkshark.xyz",
+        "bunny.blue",
+        "masto.fuzzy.systems",
+        "masto.asonix.dog",
+        "transfur.social",
+        "amie.zone",
+        "floofy.tech",
+        "petri.dog",
+        "xn--lw8h.xn--9s9h.it.com"
+      ]
+    }
+  },
+  "error": null
+}

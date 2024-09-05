@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 135,
+        "activeMonth": 78,
+        "activeHalfyear": 91
+      },
+      "localPosts": 3989105
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "monads.online",
+      "nodeDescription": "monads.online is a place for friends"
+    }
+  },
+  "error": null
+}

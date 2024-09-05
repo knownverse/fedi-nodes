@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 282,
+      "localComments": 500
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cinematic Chronicles: Exploring the World of Film &amp; TV&quot;",
+      "nodeDescription": "Unlocking the Magic of Film &amp; TV: Your Ultimate Review &amp; Recap Destination",
+      "nodeIcon": "https://missshee254.wordpress.com/wp-content/uploads/2017/03/cropped-wp-1488891025988.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 9,
+        "activeHalfyear": 9
+      },
+      "localPosts": 1067,
+      "localComments": 99
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NVDA en español",
+      "nodeDescription": "Comunidad hispanohablante del lector de pantalla NVDA",
+      "nodeIcon": "https://nvda.es/wp-content/uploads/cropped-favicon-1.png"
+    }
+  },
+  "error": null
+}

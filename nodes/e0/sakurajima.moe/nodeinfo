@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1181,
+        "activeMonth": 281,
+        "activeHalfyear": 740
+      },
+      "localPosts": 150414
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Sakurajima (桜島）",
+      "nodeDescription": "A comfy, non-toxic, and inclusive Mastodon Server for Anime/Manga/Japanese Media fandom and Anime/Japanese Media Content Creators (Bloggers/Video Creators/Podcasters/etc.)"
+    }
+  },
+  "error": null
+}

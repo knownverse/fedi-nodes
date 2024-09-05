@@ -1,0 +1,2214 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "xenofem.me",
+            "worm.pink",
+            "uwu.social",
+            "ursal.zone",
+            "truthsocial.st",
+            "toad.social",
+            "thebag.social",
+            "stars.eroaward.com",
+            "social.hendrixgames.com",
+            "soc.ua-fediland.de",
+            "servernerds.net",
+            "seo.chat",
+            "seikora.one",
+            "respublicae.eu",
+            "rcsocial.net",
+            "qoto.org",
+            "pl.tkammer.de",
+            "niscii.xyz",
+            "newsie.social",
+            "monads.online",
+            "mediastodon.com",
+            "mastodon.world",
+            "mastodon.cloud",
+            "liberdon.com",
+            "kibitz.cloud",
+            "ieji.de",
+            "grants.cafe",
+            "freezepeach.xyz",
+            "elonsucks.org",
+            "elekk.xyz",
+            "eightpoint.app",
+            "disqordia.space",
+            "dirtyhobby.xyz",
+            "devs.live",
+            "botsin.space",
+            "birdity.club",
+            "aspiechattr.me",
+            "arachnid.town",
+            "absturztau.be",
+            "101010.pl",
+            "fosstodon.org",
+            "misskey.io",
+            "calim.club"
+          ],
+          "followers_only": [],
+          "media_nsfw": [
+            "yandere.cc",
+            "porntoot.com",
+            "mastobate.social"
+          ],
+          "media_removal": [],
+          "reject": [
+            "threads.net",
+            "z0ne.social",
+            "yuriposter.club",
+            "yukioke.com",
+            "youjo.love",
+            "yggdrasil.social",
+            "xn--p1abe3d.xn--80asehdb",
+            "xhais.love",
+            "wxw.moe",
+            "writehere.is",
+            "wolfgirl.bar",
+            "willtrade.org",
+            "wideboys.org",
+            "whitewomen.dog",
+            "whitesmokebbq.social",
+            "whinge.town",
+            "whinge.house",
+            "were.social",
+            "waskuisland.com",
+            "wake.st",
+            "waifuism.life",
+            "vtuberfan.social",
+            "vladtepesblog.com",
+            "veenus.art",
+            "varishangout.net",
+            "vara.lol",
+            "usualsuspects.lol",
+            "urspringer.de",
+            "urchan.org",
+            "unperson.us",
+            "unbound.social",
+            "ua-fediland.de",
+            "truthsocial.com",
+            "truthsocial.co.in",
+            "troll.cafe",
+            "translunar.academy",
+            "tpo.world",
+            "toot.pt",
+            "tomw.social",
+            "tokhmi.xyz",
+            "thisisjoes.site",
+            "thewizardingworld.com",
+            "theres.life",
+            "thepostearthdestination.com",
+            "thechimp.zone",
+            "theapex.social",
+            "the9thcircle.club",
+            "terrible.place",
+            "teci.world",
+            "taullo.social",
+            "tastingtraffic.net",
+            "sweetappleacr.es",
+            "suya.place",
+            "strelizia.net",
+            "stormcloak.info",
+            "stop.voring.me",
+            "starnix.network",
+            "spinster.dev",
+            "spearman.xyz",
+            "sonichu.com",
+            "socialgoblins.club",
+            "social.quodverum.com",
+            "social.handholding.io",
+            "social.getgle.org",
+            "sneed.vip",
+            "sneak.berlin",
+            "smuganimeavatar.xyz",
+            "slippy.xyz",
+            "sleepy.cafe",
+            "skyshanty.xyz",
+            "skippers-bin.com",
+            "skinnyver.se",
+            "skinheads.uk",
+            "skinheads.social",
+            "skinheads.network",
+            "skinheads.io",
+            "skinheads.eu",
+            "shrine.moe",
+            "shrimpposter.club",
+            "shpposter.club",
+            "shouldibuyahorse.com",
+            "shotatube.xyz",
+            "shota.social",
+            "shota.house",
+            "shocktohp.xyz",
+            "shitposter.club",
+            "shitposte.rs",
+            "shitpost.cloud",
+            "shigusegubu.club",
+            "sheep.network",
+            "sharivegas.com",
+            "shadowsocial.org",
+            "seriousbusiness.international",
+            "seal.cafe",
+            "scots.network",
+            "schwartzwelt.xyz",
+            "scarlet.house",
+            "scamdemic.party",
+            "satoshishop.de",
+            "salushnes.solutions",
+            "salastil.com",
+            "sad.cab",
+            "ryona.agency",
+            "ruinouspowe.rs",
+            "roysbeer.place",
+            "rot.gives",
+            "rojogato.com",
+            "rodent.life",
+            "rneetup.com",
+            "rio.social",
+            "rigcz.club",
+            "republic.red",
+            "repl.co",
+            "remnant.social",
+            "reisen.church",
+            "redspinning.top",
+            "redpill-insight.com",
+            "rebelbase.site",
+            "rebased.social",
+            "rebased.io",
+            "realnephestate.xyz",
+            "rdrama.cc",
+            "rayci.st",
+            "rageparty.club",
+            "raccoon.quest",
+            "r18.social",
+            "quodverum.com",
+            "quietplace.xyz",
+            "quanta.wiki",
+            "pube.tk",
+            "pseudo-whiskey.bar",
+            "prospeech.space",
+            "projectftm.com",
+            "probablyfreespeech.com",
+            "privex.social",
+            "preteengirls.biz",
+            "poweredbycocaine.com",
+            "pouque.net",
+            "postnstuffds.lol",
+            "posting.lolicon.rocks",
+            "poster.place",
+            "poridge.club",
+            "pone.social",
+            "podcastindex.social",
+            "poast.tv",
+            "poast.org",
+            "poa.st",
+            "plus.st",
+            "platypush.tech",
+            "plagu.ee",
+            "pl.slash.cl",
+            "pkteerium.xyz",
+            "pizzaf.art",
+            "pieville.net",
+            "pibvt.net",
+            "piazza.today",
+            "petrolkorps.cc",
+            "pedo.school",
+            "paypig.org",
+            "paws.moe",
+            "pawoo.net",
+            "pawlicker.com",
+            "outerkosm.us",
+            "outerheaven.club",
+            "oti.st",
+            "otakufarms.com",
+            "ortodogs.info",
+            "onlyfeds.cc",
+            "onionfarms.org",
+            "obo.sh",
+            "nya.gay",
+            "nuked.social",
+            "novoa.nagoya",
+            "noc.social",
+            "nobodyhasthe.biz",
+            "nobl.ink",
+            "noagendatube.com",
+            "noagendasocial.nl",
+            "noagendasocial.com",
+            "nixnet.social",
+            "nightshift.social",
+            "nicecrew.digital",
+            "netzsphaere.xyz",
+            "nekoea.red",
+            "nekocave.xyz",
+            "neighborli.xyz",
+            "neenster.org",
+            "needs.vodka",
+            "name.my",
+            "nalocal519.social",
+            "mycub.space",
+            "musksocial.com",
+            "mugicha.club",
+            "mu.zaitcev.nu",
+            "mstdn.foxfam.club",
+            "mrhands.horse",
+            "mostr.pub",
+            "morale.ch",
+            "mooo.com",
+            "moa.st",
+            "mitra.social",
+            "misskey-forkbomb.cf",
+            "misono-ya.info",
+            "miruku.cafe",
+            "miniwa.moe",
+            "minidisc.tokyo",
+            "milker.cafe",
+            "merovingian.club",
+            "meatbag.app",
+            "mastodon.la",
+            "mastodon.com.pl",
+            "mastodon.bgzashtita.es",
+            "masthead.social",
+            "marsey.moe",
+            "mapsupport.de",
+            "maneisacutie.club",
+            "maladaptive.art",
+            "makemysarcophagus.com",
+            "macsnet.cz",
+            "lovingexpressions.net",
+            "lovesick.social",
+            "loveforlandlords.com",
+            "longyap.name.my",
+            "lolitube.moe",
+            "lolison.top",
+            "lolison.network",
+            "lolicon.win",
+            "lolicon.rocks",
+            "loli.pizza",
+            "loli.estate",
+            "loli.best",
+            "logografos.com",
+            "lizards.live",
+            "ligma.pro",
+            "libtar.de",
+            "librenet.co.za",
+            "liberal.city",
+            "libbie.cloud",
+            "lewdieheaven.com",
+            "leftychan.net",
+            "leafposter.club",
+            "leadslinger.org",
+            "landofkittens.social",
+            "kys.moe",
+            "kyou.social",
+            "kurosawa.moe",
+            "koyu.space",
+            "kotobank.ch",
+            "kompost.cz",
+            "kiwifarms.net",
+            "kiwifarms.is",
+            "kiwifarms.cc",
+            "kitsunemimi.club",
+            "kisslolis.moe",
+            "khajiit.tech",
+            "kenhbit.com",
+            "keinpfusch.net",
+            "kazv.moe",
+            "kawa-kun.com",
+            "karjalazet.se",
+            "kalli.st",
+            "kafka.icu",
+            "kabukimono.top",
+            "jvpiter.net",
+            "justicewarrior.social",
+            "justbros.xyz",
+            "jorts.horse",
+            "jollyville.net",
+            "jir.moe",
+            "ironbug.org",
+            "inumbra.xyz",
+            "intkos.link",
+            "injection.love",
+            "indiefedi.party",
+            "impeccable.social",
+            "illegitimate.technology",
+            "ikbenpiraat.nl",
+            "idolheaven.org",
+            "iddqd.social",
+            "iamterminally.online",
+            "husk.site",
+            "hoto.rocks",
+            "hornyjail.pro",
+            "honkwerx.tech",
+            "homd.xyz",
+            "hidamari.apartments",
+            "hermit.cafe",
+            "heonian.org",
+            "hentai.baby",
+            "hendrixgames.com",
+            "headcannon.xyz",
+            "hdcraft.xyz",
+            "handicapped.tk",
+            "handholding.io",
+            "hallsofamenti.io",
+            "hagra.net",
+            "haeder.net",
+            "h5q.net",
+            "gothloli.club",
+            "goreslut.xyz",
+            "glowie.cloud",
+            "glee.li",
+            "gleasonator.com",
+            "ghetti.monster",
+            "getgle.org",
+            "geofront.rocks",
+            "genderheretics.xyz",
+            "gearlandia.haus",
+            "gangstalking.services",
+            "gamers.exposed",
+            "gameliberty.club",
+            "gabe.rocks",
+            "gab.protohype.net",
+            "gab.com",
+            "gab.ai",
+            "fuwa.pink",
+            "frennet.xyz",
+            "freezepeach.online",
+            "freethinkers.lgbt",
+            "freetalklive.com",
+            "freespeechextremist.com",
+            "freespeech.group",
+            "freespeech.club",
+            "freesoftwareextremist.com",
+            "freeatlantis.com",
+            "freak.university",
+            "fr13nd5.com",
+            "fluffytail.org",
+            "fluf.club",
+            "firefaithfellowship.com",
+            "fightthis.net",
+            "feral.cafe",
+            "femboys.love",
+            "fedposters.club",
+            "fediverse-lite.com",
+            "eveningzoo.club",
+            "esmailelbob.xyz",
+            "epsilon.social",
+            "endtimebelievers.com",
+            "eientei.org",
+            "ebin.club",
+            "duckdns.org",
+            "dtzbts.xyz",
+            "dsocialize.net",
+            "dragonpsi.xyz",
+            "dogsex.org",
+            "doctors4covidethics.org",
+            "dline.xyz",
+            "dingdash.com",
+            "digitalmarketer.social",
+            "diamondelizaa.com",
+            "develop.gab.com",
+            "dev-wiki.de",
+            "detroitriotcity.com",
+            "desupost.soy",
+            "dembased.xyz",
+            "decept.org",
+            "decayable.ink",
+            "deadreckoning.cc",
+            "daspr.io",
+            "darlow.co.uk",
+            "danksquad.xyz",
+            "danksquad.org",
+            "cyuucat.moe",
+            "cybercriminal.eu",
+            "cum.camp",
+            "csdisaster.club",
+            "cryptotooter.com",
+            "crowleyclub.com",
+            "crlf.ninja",
+            "comfysnug.space",
+            "collapsitarian.io",
+            "clew.lol",
+            "civiq.social",
+            "chudbuds.org",
+            "childpawn.shop",
+            "cheeseburger.social",
+            "catgirl.life",
+            "carnivore.social",
+            "campduffel.social",
+            "calobar.club",
+            "cachapa.xyz",
+            "bussy.monster",
+            "busshi.moe",
+            "burger.rodeo",
+            "bungle.online",
+            "buildthatwallandmakeamericagreatagain.trumpislovetrumpis.life",
+            "bubbletea.dev",
+            "bruh.homd.xyz",
+            "brotka.st",
+            "brighteon.social",
+            "breastmilk.club",
+            "boymoder.biz",
+            "boingo00.wtf",
+            "blackoutstout.space",
+            "bitcointv.com",
+            "bitcoinlizard.net",
+            "bikeshed.party",
+            "bigzu.cc",
+            "biendeo.com",
+            "bibly.com",
+            "bgzashtita.es",
+            "berserker.town",
+            "beepboop.ga",
+            "beefyboys.win",
+            "bassam.social",
+            "baraag.net",
+            "bajax.us",
+            "bae.st",
+            "badly.co",
+            "awootism.club",
+            "awoo.fyi",
+            "asteroidm.space",
+            "assortedflotsam.com",
+            "asphodel.rip",
+            "asimon.org",
+            "asbestos.cafe",
+            "argentum.social",
+            "arasaka.vip",
+            "applied-langua.ge",
+            "apathy.tv",
+            "anon-kenkai.com",
+            "annihilation.social",
+            "animesexual.community",
+            "anemoneya.me",
+            "ancreport.com",
+            "alpaca.gold",
+            "akm.longyap.name.my",
+            "ai.wiki",
+            "agdersam.no",
+            "aethy.com",
+            "adachi.party",
+            "abraham.su",
+            "8777.ch",
+            "5dollah.click",
+            "1being.org",
+            "1745.info",
+            "1611.social",
+            "13bells.com",
+            "10minutepleroma.com",
+            "076.ne.jp",
+            "076.moe",
+            "minds.com",
+            "moegirl.live",
+            "blob.cat",
+            "aillust.fun",
+            "aipub.social",
+            "zetamu.club",
+            "x0f.org",
+            "pettanko.art",
+            "activitypub-troll.cf",
+            "3zi.ru",
+            "rqd2.net",
+            "social.freetalklive.com",
+            "peertube.biz",
+            "activitypub.awakari.com"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "worm.pink": {
+              "reason": "spam (erreur 502, à checker)"
+            },
+            "disqordia.space": {
+              "reason": "racisme, alt fedi"
+            },
+            "social.hendrixgames.com": {
+              "reason": "conspi, alt-right"
+            },
+            "seo.chat": {
+              "reason": "tout est dans le nom"
+            },
+            "fosstodon.org": {
+              "reason": "propos lgbtq+phobes, demandes d'aide supprimées, problèmes généraux de modération"
+            },
+            "soc.ua-fediland.de": {
+              "reason": "spam"
+            },
+            "101010.pl": {
+              "reason": "propos haineux (\"free speech\")"
+            },
+            "mastodon.world": {
+              "reason": "modération insuffisante, demande d'infos personnelles (carte d'identité)"
+            },
+            "niscii.xyz": {
+              "reason": "alt fedi"
+            },
+            "arachnid.town": {
+              "reason": "modération étrange"
+            },
+            "monads.online": {
+              "reason": "racisme, harcèlement"
+            },
+            "devs.live": {
+              "reason": "alt fedi"
+            },
+            "respublicae.eu": {
+              "reason": "clone Twitter"
+            },
+            "dirtyhobby.xyz": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "uwu.social": {
+              "reason": "fascisme"
+            },
+            "servernerds.net": {
+              "reason": "clone Twitter"
+            },
+            "elekk.xyz": {
+              "reason": "harcèlement"
+            },
+            "ieji.de": {
+              "reason": "liens avec des instances haineuses"
+            },
+            "misskey.io": {
+              "reason": "ne modère pas des posts loli, propos LGBTQ+phobes de la part d'admins"
+            },
+            "liberdon.com": {
+              "reason": "fascisme, conspi..."
+            },
+            "botsin.space": {
+              "reason": "bots"
+            },
+            "seikora.one": {
+              "reason": "contenu porno piraté"
+            },
+            "pl.tkammer.de": {
+              "reason": "transphobie"
+            },
+            "toad.social": {
+              "reason": "transphobie, lent à la modération"
+            },
+            "kibitz.cloud": {
+              "reason": "harcèlement"
+            },
+            "xenofem.me": {
+              "reason": "validisme, insultes, globalement toxique"
+            },
+            "absturztau.be": {
+              "reason": "propos haineux (\"free speech\")"
+            },
+            "truthsocial.st": {
+              "reason": "trump"
+            },
+            "thebag.social": {
+              "reason": "alt fedi"
+            },
+            "birdity.club": {
+              "reason": "alt fedi"
+            },
+            "mediastodon.com": {
+              "reason": "usurpation de compte (indispo, à checker)"
+            },
+            "stars.eroaward.com": {
+              "reason": "instance de pub et paiement en bitcoin"
+            },
+            "aspiechattr.me": {
+              "reason": "contenu haineux (indispo, à checker)"
+            },
+            "mastodon.cloud": {
+              "reason": "modération insuffisante"
+            },
+            "eightpoint.app": {
+              "reason": "modération insuffisante"
+            },
+            "ursal.zone": {
+              "reason": "harcèlement, lgbtq+phobie..."
+            },
+            "elonsucks.org": {
+              "reason": "transphobie, contenu haineux"
+            },
+            "rcsocial.net": {
+              "reason": "lgbtq+phobie, contenu haineux"
+            },
+            "calim.club": {
+              "reason": "petite instance de trolls"
+            },
+            "newsie.social": {
+              "reason": "transphobie"
+            },
+            "grants.cafe": {
+              "reason": "clone Twitter"
+            },
+            "qoto.org": {
+              "reason": "liens avec des instances haineuses"
+            },
+            "freezepeach.xyz": {
+              "reason": "alt fedi"
+            }
+          },
+          "media_nsfw": {
+            "mastobate.social": {
+              "reason": "porn non taggué"
+            },
+            "porntoot.com": {
+              "reason": "porn non taggué"
+            },
+            "yandere.cc": {
+              "reason": "porn non taggué"
+            }
+          },
+          "reject": {
+            "leftychan.net": {
+              "reason": "alt fedi"
+            },
+            "mostr.pub": {
+              "reason": "relai nostr"
+            },
+            "collapsitarian.io": {
+              "reason": "alt fedi"
+            },
+            "raccoon.quest": {
+              "reason": "alt fedi"
+            },
+            "satoshishop.de": {
+              "reason": "alt fedi"
+            },
+            "awoo.fyi": {
+              "reason": "alt fedi"
+            },
+            "076.moe": {
+              "reason": "loli, racisme"
+            },
+            "realnephestate.xyz": {
+              "reason": "alt fedi"
+            },
+            "marsey.moe": {
+              "reason": "alt fedi"
+            },
+            "dsocialize.net": {
+              "reason": "alt fedi"
+            },
+            "cryptotooter.com": {
+              "reason": "crypto"
+            },
+            "masthead.social": {
+              "reason": "fachos, admins inactifs"
+            },
+            "csdisaster.club": {
+              "reason": "(ne pas visiter)"
+            },
+            "pouque.net": {
+              "reason": "alt fedi russe"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "alt fedi"
+            },
+            "honkwerx.tech": {
+              "reason": "alt fedi (instance supprimée, à checker)"
+            },
+            "desupost.soy": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "sad.cab": {
+              "reason": "alt fedi"
+            },
+            "poridge.club": {
+              "reason": "racisme, harcèlement"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "spam et ddos"
+            },
+            "1611.social": {
+              "reason": "alt fedi"
+            },
+            "starnix.network": {
+              "reason": "alt fedi"
+            },
+            "thewizardingworld.com": {
+              "reason": "terf"
+            },
+            "mastodon.bgzashtita.es": {
+              "reason": "pro russe, admin incompréhensible et visiblement conspi"
+            },
+            "freesoftwareextremist.com": {
+              "reason": "alt fedi"
+            },
+            "pibvt.net": {
+              "reason": "pédocriminalité"
+            },
+            "jir.moe": {
+              "reason": "alt fedi"
+            },
+            "bikeshed.party": {
+              "reason": "alt fedi"
+            },
+            "bassam.social": {
+              "reason": "alt fedi"
+            },
+            "threads.net": {
+              "reason": "meta"
+            },
+            "clew.lol": {
+              "reason": "alt fedi"
+            },
+            "petrolkorps.cc": {
+              "reason": "alt fedi"
+            },
+            "alpaca.gold": {
+              "reason": "collecte les données des utilisateurices"
+            },
+            "decept.org": {
+              "reason": "alt fedi"
+            },
+            "endtimebelievers.com": {
+              "reason": "alt fedi"
+            },
+            "mapsupport.de": {
+              "reason": "pédocriminalité, harcèlement"
+            },
+            "5dollah.click": {
+              "reason": "alt fedi"
+            },
+            "duckdns.org": {
+              "reason": "outil facilitant le harcèlement, crypto"
+            },
+            "moa.st": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "handicapped.tk": {
+              "reason": "pédocriminalité, fachos"
+            },
+            "nicecrew.digital": {
+              "reason": "alt fedi"
+            },
+            "bruh.homd.xyz": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "rayci.st": {
+              "reason": "alt fedi"
+            },
+            "landofkittens.social": {
+              "reason": "alt fedi"
+            },
+            "tastingtraffic.net": {
+              "reason": "lgbtq+phobie"
+            },
+            "plus.st": {
+              "reason": "alt fedi"
+            },
+            "waifuism.life": {
+              "reason": "alt fedi"
+            },
+            "neenster.org": {
+              "reason": "fachos (gab)"
+            },
+            "lovesick.social": {
+              "reason": "alt fedi"
+            },
+            "cheeseburger.social": {
+              "reason": "conspi"
+            },
+            "comfysnug.space": {
+              "reason": "alt fedi"
+            },
+            "poweredbycocaine.com": {
+              "reason": "alt fedi"
+            },
+            "esmailelbob.xyz": {
+              "reason": "alt fedi"
+            },
+            "lolitube.moe": {
+              "reason": "loli"
+            },
+            "makemysarcophagus.com": {
+              "reason": "gore, spam"
+            },
+            "stop.voring.me": {
+              "reason": "racisme"
+            },
+            "glowie.cloud": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "hornyjail.pro": {
+              "reason": "alt fedi"
+            },
+            "gearlandia.haus": {
+              "reason": "alt fedi"
+            },
+            "hdcraft.xyz": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "deadreckoning.cc": {
+              "reason": "alt fedi"
+            },
+            "animesexual.community": {
+              "reason": "nom explicite"
+            },
+            "shitpost.cloud": {
+              "reason": "alt fedi"
+            },
+            "ortodogs.info": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "awootism.club": {
+              "reason": "alt fedi"
+            },
+            "thepostearthdestination.com": {
+              "reason": "transphobie, validisme"
+            },
+            "sneak.berlin": {
+              "reason": "archivage suspect de données d'utilisateurices"
+            },
+            "kurosawa.moe": {
+              "reason": "loli, alt fedi"
+            },
+            "fluf.club": {
+              "reason": "transphobie"
+            },
+            "freespeech.group": {
+              "reason": "alt fedi"
+            },
+            "bgzashtita.es": {
+              "reason": "pro russe, admin incompréhensible et visiblement conspi"
+            },
+            "crowleyclub.com": {
+              "reason": "alt fedi"
+            },
+            "onionfarms.org": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "civiq.social": {
+              "reason": "alt fedi"
+            },
+            "apathy.tv": {
+              "reason": "alt fedi"
+            },
+            "shitposte.rs": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "handholding.io": {
+              "reason": "lgbtq+phobie"
+            },
+            "gothloli.club": {
+              "reason": "loli (maintenant devenu moegirl.live )"
+            },
+            "social.quodverum.com": {
+              "reason": "trumpisme"
+            },
+            "salastil.com": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "waskuisland.com": {
+              "reason": "lgbtq+phobie"
+            },
+            "bitcoinlizard.net": {
+              "reason": "crypto"
+            },
+            "danksquad.xyz": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "bibly.com": {
+              "reason": "alt fedi"
+            },
+            "femboys.love": {
+              "reason": "spam"
+            },
+            "oti.st": {
+              "reason": "alt fedi"
+            },
+            "nalocal519.social": {
+              "reason": "alt fedi"
+            },
+            "mooo.com": {
+              "reason": "alt fedi"
+            },
+            "pizzaf.art": {
+              "reason": "propos haineux"
+            },
+            "ai.wiki": {
+              "reason": "nourrit ses IA du contenu du fedivers"
+            },
+            "yukioke.com": {
+              "reason": "loli, shota"
+            },
+            "rageparty.club": {
+              "reason": "alt fedi"
+            },
+            "kawa-kun.com": {
+              "reason": "alt fedi"
+            },
+            "noc.social": {
+              "reason": "ne modère pas les posts haineux"
+            },
+            "z0ne.social": {
+              "reason": "alt fedi"
+            },
+            "minidisc.tokyo": {
+              "reason": "alt fedi"
+            },
+            "whinge.house": {
+              "reason": "alt fedi"
+            },
+            "quietplace.xyz": {
+              "reason": "alt fedi"
+            },
+            "shitposter.club": {
+              "reason": "alt fedi"
+            },
+            "bungle.online": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "shadowsocial.org": {
+              "reason": "alt fedi"
+            },
+            "troll.cafe": {
+              "reason": "alt fedi incel"
+            },
+            "tomw.social": {
+              "reason": "conspi (inaccessible, à checker)"
+            },
+            "rio.social": {
+              "reason": "alt fedi"
+            },
+            "ryona.agency": {
+              "reason": "propos haineux"
+            },
+            "loli.estate": {
+              "reason": "loli"
+            },
+            "hallsofamenti.io": {
+              "reason": "lgbtq+phobie"
+            },
+            "usualsuspects.lol": {
+              "reason": "transphobie (indisponible, à checker)"
+            },
+            "the9thcircle.club": {
+              "reason": "alt fedi"
+            },
+            "dline.xyz": {
+              "reason": "alt fedi, crypto"
+            },
+            "3zi.ru": {
+              "reason": "propagande russe"
+            },
+            "ruinouspowe.rs": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "076.ne.jp": {
+              "reason": "alt fedi"
+            },
+            "pone.social": {
+              "reason": "alt fedi"
+            },
+            "kenhbit.com": {
+              "reason": "crypto"
+            },
+            "biendeo.com": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "spinster.dev": {
+              "reason": "transphobie (indispo, à checker)"
+            },
+            "injection.love": {
+              "reason": "alt fedi"
+            },
+            "mastodon.com.pl": {
+              "reason": "alt fedi"
+            },
+            "arasaka.vip": {
+              "reason": "alt fedi"
+            },
+            "impeccable.social": {
+              "reason": "alt fedi"
+            },
+            "asimon.org": {
+              "reason": "alt fedi"
+            },
+            "misono-ya.info": {
+              "reason": "alt fedi"
+            },
+            "mitra.social": {
+              "reason": "conspi, crypto"
+            },
+            "kisslolis.moe": {
+              "reason": "loli"
+            },
+            "privex.social": {
+              "reason": "alt fedi"
+            },
+            "logografos.com": {
+              "reason": "alt fedi"
+            },
+            "blob.cat": {
+              "reason": "alt fedi"
+            },
+            "dingdash.com": {
+              "reason": "conspi, terf"
+            },
+            "diamondelizaa.com": {
+              "reason": "alt fedi"
+            },
+            "leafposter.club": {
+              "reason": "alt fedi"
+            },
+            "brotka.st": {
+              "reason": "spam"
+            },
+            "ligma.pro": {
+              "reason": "alt fedi (instance non fonctionnelle, à checker)"
+            },
+            "obo.sh": {
+              "reason": "pédocriminalité"
+            },
+            "aillust.fun": {
+              "reason": "images générées par IA, parfois du loli"
+            },
+            "freethinkers.lgbt": {
+              "reason": "alt fedi"
+            },
+            "boymoder.biz": {
+              "reason": "alt fedi"
+            },
+            "illegitimate.technology": {
+              "reason": "alt fedi"
+            },
+            "chudbuds.org": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "bitcointv.com": {
+              "reason": "crypto"
+            },
+            "musksocial.com": {
+              "reason": "alt fedi"
+            },
+            "libtar.de": {
+              "reason": "alt fedi"
+            },
+            "koyu.space": {
+              "reason": "admin anti-modération"
+            },
+            "bigzu.cc": {
+              "reason": "alt fedi"
+            },
+            "smuganimeavatar.xyz": {
+              "reason": "alt fedi"
+            },
+            "skinheads.uk": {
+              "reason": "suprémacistes blancs"
+            },
+            "mycub.space": {
+              "reason": "pédocriminalité"
+            },
+            "freespeechextremist.com": {
+              "reason": "alt fedi"
+            },
+            "breastmilk.club": {
+              "reason": "alt fedi"
+            },
+            "wxw.moe": {
+              "reason": "pédocriminalité"
+            },
+            "ikbenpiraat.nl": {
+              "reason": "alt fedi"
+            },
+            "sonichu.com": {
+              "reason": "lgbtq+phobie"
+            },
+            "minds.com": {
+              "reason": "crypto, alt fedi"
+            },
+            "inumbra.xyz": {
+              "reason": "alt fedi"
+            },
+            "agdersam.no": {
+              "reason": "alt fedi"
+            },
+            "vtuberfan.social": {
+              "reason": "racisme, alt fedi"
+            },
+            "thisisjoes.site": {
+              "reason": "alt fedi"
+            },
+            "cyuucat.moe": {
+              "reason": "alt fedi"
+            },
+            "beepboop.ga": {
+              "reason": "alt fedi"
+            },
+            "freak.university": {
+              "reason": "pédocriminalité"
+            },
+            "otakufarms.com": {
+              "reason": "loli, alt fedi"
+            },
+            "nixnet.social": {
+              "reason": "alt fedi"
+            },
+            "iamterminally.online": {
+              "reason": "alt fedi (instance supprimée, à checker)"
+            },
+            "gameliberty.club": {
+              "reason": "alt fedi"
+            },
+            "detroitriotcity.com": {
+              "reason": "alt fedi"
+            },
+            "kyou.social": {
+              "reason": "alt fedi"
+            },
+            "nightshift.social": {
+              "reason": "alt fedi, incitation au suicide"
+            },
+            "beefyboys.win": {
+              "reason": "alt fedi"
+            },
+            "khajiit.tech": {
+              "reason": "alt fedi"
+            },
+            "lolison.top": {
+              "reason": "loli"
+            },
+            "calobar.club": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "unperson.us": {
+              "reason": "conspi, antivax"
+            },
+            "gleasonator.com": {
+              "reason": "terf"
+            },
+            "nya.gay": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "thechimp.zone": {
+              "reason": "lgbtq+phobie"
+            },
+            "republic.red": {
+              "reason": "conspi, propos haineux"
+            },
+            "fightthis.net": {
+              "reason": "alt fedi"
+            },
+            "lewdieheaven.com": {
+              "reason": "loli"
+            },
+            "mrhands.horse": {
+              "reason": "alt fedi, non modéré"
+            },
+            "seriousbusiness.international": {
+              "reason": "alt fedi"
+            },
+            "socialgoblins.club": {
+              "reason": "alt fedi"
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "racisme"
+            },
+            "aethy.com": {
+              "reason": "pédocriminalité"
+            },
+            "skinheads.io": {
+              "reason": "suprémacistes blancs"
+            },
+            "freetalklive.com": {
+              "reason": "alt fedi, conspi"
+            },
+            "varishangout.net": {
+              "reason": "lgbtq+phobie, racisme"
+            },
+            "wake.st": {
+              "reason": "apologie de la pédocriminalité"
+            },
+            "ebin.club": {
+              "reason": "alt fedi"
+            },
+            "dev-wiki.de": {
+              "reason": "ne modère pas les fachos"
+            },
+            "campduffel.social": {
+              "reason": "alt fedi"
+            },
+            "danksquad.org": {
+              "reason": "alt fedi"
+            },
+            "fuwa.pink": {
+              "reason": "alt fedi"
+            },
+            "freezepeach.online": {
+              "reason": "alt fedi"
+            },
+            "rebased.social": {
+              "reason": "alt fedi"
+            },
+            "shocktohp.xyz": {
+              "reason": "alt fedi"
+            },
+            "jorts.horse": {
+              "reason": "alt fedi, spam, non modéré"
+            },
+            "kiwifarms.is": {
+              "reason": "alt fedi, harcèlement"
+            },
+            "yuriposter.club": {
+              "reason": "pédocriminalité"
+            },
+            "nekocave.xyz": {
+              "reason": "loli/shota"
+            },
+            "eveningzoo.club": {
+              "reason": "alt fedi"
+            },
+            "sweetappleacr.es": {
+              "reason": "pédocriminalité"
+            },
+            "justicewarrior.social": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "headcannon.xyz": {
+              "reason": "alt fedi"
+            },
+            "dogsex.org": {
+              "reason": "nom de domaine zoophile"
+            },
+            "rebased.io": {
+              "reason": "alt fedi"
+            },
+            "feral.cafe": {
+              "reason": "zoophilie"
+            },
+            "remnant.social": {
+              "reason": "conspi"
+            },
+            "indiefedi.party": {
+              "reason": "alt fedi"
+            },
+            "whitesmokebbq.social": {
+              "reason": "racisme"
+            },
+            "preteengirls.biz": {
+              "reason": "pédocriminalité"
+            },
+            "slippy.xyz": {
+              "reason": "alt fedi"
+            },
+            "bubbletea.dev": {
+              "reason": "alt fedi"
+            },
+            "seal.cafe": {
+              "reason": "alt fedi"
+            },
+            "outerkosm.us": {
+              "reason": "alt fedi"
+            },
+            "pseudo-whiskey.bar": {
+              "reason": "pédocriminalité"
+            },
+            "heonian.org": {
+              "reason": "spam"
+            },
+            "kompost.cz": {
+              "reason": "alt fedi"
+            },
+            "whinge.town": {
+              "reason": "alt fedi (visiblement inactif, à checker)"
+            },
+            "vladtepesblog.com": {
+              "reason": "conspi"
+            },
+            "freespeech.club": {
+              "reason": "alt fedi"
+            },
+            "sleepy.cafe": {
+              "reason": "contenu haineux (alerte antivirus)"
+            },
+            "kalli.st": {
+              "reason": "alt fedi"
+            },
+            "freeatlantis.com": {
+              "reason": "alt fedi"
+            },
+            "dragonpsi.xyz": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "reisen.church": {
+              "reason": "alt fedi"
+            },
+            "shrimpposter.club": {
+              "reason": "alt fedi"
+            },
+            "ancreport.com": {
+              "reason": "alt fedi"
+            },
+            "doctors4covidethics.org": {
+              "reason": "conspi"
+            },
+            "posting.lolicon.rocks": {
+              "reason": "loli"
+            },
+            "scamdemic.party": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "fediverse-lite.com": {
+              "reason": "alt fedi"
+            },
+            "shigusegubu.club": {
+              "reason": "harcèlement"
+            },
+            "shrine.moe": {
+              "reason": "loli, racisme"
+            },
+            "kiwifarms.net": {
+              "reason": "alt fedi, harcèlement"
+            },
+            "skinheads.eu": {
+              "reason": "suprémacistes blancs"
+            },
+            "outerheaven.club": {
+              "reason": "alt fedi"
+            },
+            "lolicon.rocks": {
+              "reason": "loli"
+            },
+            "gab.ai": {
+              "reason": "trump"
+            },
+            "podcastindex.social": {
+              "reason": "conspi, crypto"
+            },
+            "develop.gab.com": {
+              "reason": "trump"
+            },
+            "10minutepleroma.com": {
+              "reason": "spam"
+            },
+            "macsnet.cz": {
+              "reason": "alt fedi"
+            },
+            "kazv.moe": {
+              "reason": "loli"
+            },
+            "13bells.com": {
+              "reason": "trump"
+            },
+            "anon-kenkai.com": {
+              "reason": "alt fedi"
+            },
+            "onlyfeds.cc": {
+              "reason": "alt fedi"
+            },
+            "social.getgle.org": {
+              "reason": "lgbtq+phobie"
+            },
+            "terrible.place": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "truthsocial.com": {
+              "reason": "trump"
+            },
+            "tpo.world": {
+              "reason": "alt fedi"
+            },
+            "blackoutstout.space": {
+              "reason": "alt fedi"
+            },
+            "kys.moe": {
+              "reason": "alt fedi"
+            },
+            "cybercriminal.eu": {
+              "reason": "harcèlement"
+            },
+            "eientei.org": {
+              "reason": "alt fedi"
+            },
+            "maladaptive.art": {
+              "reason": "alt fedi"
+            },
+            "shouldibuyahorse.com": {
+              "reason": "alt fedi"
+            },
+            "rdrama.cc": {
+              "reason": "racisme, lgbtq+phobie (indisponible, à checker)"
+            },
+            "stormcloak.info": {
+              "reason": "alt fedi"
+            },
+            "asphodel.rip": {
+              "reason": "alt fedi"
+            },
+            "maneisacutie.club": {
+              "reason": "alt fedi"
+            },
+            "wolfgirl.bar": {
+              "reason": "fachos"
+            },
+            "shotatube.xyz": {
+              "reason": "shota"
+            },
+            "plagu.ee": {
+              "reason": "alt fedi"
+            },
+            "urspringer.de": {
+              "reason": "conspi, antivax"
+            },
+            "postnstuffds.lol": {
+              "reason": "alt fedi"
+            },
+            "x0f.org": {
+              "reason": "crypto"
+            },
+            "pl.slash.cl": {
+              "reason": "lgbtq+phobie"
+            },
+            "piazza.today": {
+              "reason": "alt fedi"
+            },
+            "cum.camp": {
+              "reason": "harcèlement"
+            },
+            "pube.tk": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "libbie.cloud": {
+              "reason": "alt fedi"
+            },
+            "childpawn.shop": {
+              "reason": "pédocriminalité"
+            },
+            "sheep.network": {
+              "reason": "alt fedi"
+            },
+            "moegirl.live": {
+              "reason": "loli"
+            },
+            "hagra.net": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "noagendasocial.com": {
+              "reason": "alt fedi"
+            },
+            "veenus.art": {
+              "reason": "alt fedi"
+            },
+            "paypig.org": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "gab.protohype.net": {
+              "reason": "alt fedi (gab)"
+            },
+            "quodverum.com": {
+              "reason": "trumpisme"
+            },
+            "fedposters.club": {
+              "reason": "alt fedi"
+            },
+            "longyap.name.my": {
+              "reason": "spam"
+            },
+            "zetamu.club": {
+              "reason": "pédocriminalité"
+            },
+            "gabe.rocks": {
+              "reason": "alt fedi"
+            },
+            "kabukimono.top": {
+              "reason": "alt fedi"
+            },
+            "epsilon.social": {
+              "reason": "bot raciste"
+            },
+            "hermit.cafe": {
+              "reason": "alt fedi"
+            },
+            "hidamari.apartments": {
+              "reason": "alt fedi"
+            },
+            "1being.org": {
+              "reason": "alt fedi"
+            },
+            "sharivegas.com": {
+              "reason": "alt fedi"
+            },
+            "teci.world": {
+              "reason": "alt fedi (gab)"
+            },
+            "probablyfreespeech.com": {
+              "reason": "alt fedi"
+            },
+            "8777.ch": {
+              "reason": "alt fedi"
+            },
+            "spearman.xyz": {
+              "reason": "alt fedi"
+            },
+            "writehere.is": {
+              "reason": "conspi (indispo, à checker)"
+            },
+            "shota.social": {
+              "reason": "shota"
+            },
+            "kitsunemimi.club": {
+              "reason": "alt fedi"
+            },
+            "repl.co": {
+              "reason": "spam et ddos"
+            },
+            "bae.st": {
+              "reason": "alt fedi"
+            },
+            "skyshanty.xyz": {
+              "reason": "racisme"
+            },
+            "miniwa.moe": {
+              "reason": "alt fedi"
+            },
+            "glee.li": {
+              "reason": "alt fedi"
+            },
+            "yggdrasil.social": {
+              "reason": "transphobie, homophobie"
+            },
+            "loli.pizza": {
+              "reason": "loli"
+            },
+            "dtzbts.xyz": {
+              "reason": "alt fedi"
+            },
+            "peertube.biz": {
+              "reason": "trumpistes et autres nazis"
+            },
+            "decayable.ink": {
+              "reason": "transphobie"
+            },
+            "catgirl.life": {
+              "reason": "alt fedi"
+            },
+            "abraham.su": {
+              "reason": "abraham.su"
+            },
+            "intkos.link": {
+              "reason": "alt fedi"
+            },
+            "husk.site": {
+              "reason": "alt fedi (instance supprimée, à checker)"
+            },
+            "quanta.wiki": {
+              "reason": "alt fedi"
+            },
+            "urchan.org": {
+              "reason": "fachos (indisponible, à checker)"
+            },
+            "kafka.icu": {
+              "reason": "alt fedi"
+            },
+            "leadslinger.org": {
+              "reason": "alt fedi"
+            },
+            "1745.info": {
+              "reason": "alt fedi"
+            },
+            "poa.st": {
+              "reason": "alt fedi"
+            },
+            "ua-fediland.de": {
+              "reason": "fachos"
+            },
+            "getgle.org": {
+              "reason": "alt fedi"
+            },
+            "frennet.xyz": {
+              "reason": "alt fedi"
+            },
+            "xhais.love": {
+              "reason": "pédocriminalité, zoophilie"
+            },
+            "needs.vodka": {
+              "reason": "alt fedi"
+            },
+            "jollyville.net": {
+              "reason": "alt fedi"
+            },
+            "poster.place": {
+              "reason": "racisme, lgbtq+phobie"
+            },
+            "were.social": {
+              "reason": "alt fedi (kiwi)"
+            },
+            "taullo.social": {
+              "reason": "pédocriminalité"
+            },
+            "burger.rodeo": {
+              "reason": "autorise le loli et le shota"
+            },
+            "boingo00.wtf": {
+              "reason": "alt fedi"
+            },
+            "miruku.cafe": {
+              "reason": "alt fedi"
+            },
+            "akm.longyap.name.my": {
+              "reason": "spam"
+            },
+            "name.my": {
+              "reason": "spam"
+            },
+            "busshi.moe": {
+              "reason": "autorise le loli"
+            },
+            "pettanko.art": {
+              "reason": "csam"
+            },
+            "platypush.tech": {
+              "reason": "alt fedi"
+            },
+            "nobl.ink": {
+              "reason": "alt fedi"
+            },
+            "morale.ch": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "haeder.net": {
+              "reason": "lgbtq+phobie et boudeur"
+            },
+            "rodent.life": {
+              "reason": "alt fedi"
+            },
+            "gamers.exposed": {
+              "reason": "alt fedi"
+            },
+            "salushnes.solutions": {
+              "reason": "alt fedi"
+            },
+            "ghetti.monster": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "poast.org": {
+              "reason": "alt fedi"
+            },
+            "badly.co": {
+              "reason": "alt fedi"
+            },
+            "baraag.net": {
+              "reason": "héberge de la pédocriminalité"
+            },
+            "roysbeer.place": {
+              "reason": "alt fedi, transphobie"
+            },
+            "crlf.ninja": {
+              "reason": "alt fedi"
+            },
+            "pawoo.net": {
+              "reason": "loli récurrent"
+            },
+            "liberal.city": {
+              "reason": "alt fedi"
+            },
+            "daspr.io": {
+              "reason": "conspi (antivax)"
+            },
+            "applied-langua.ge": {
+              "reason": "alt fedi"
+            },
+            "idolheaven.org": {
+              "reason": "alt fedi"
+            },
+            "activitypub-troll.cf": {
+              "reason": "spam"
+            },
+            "paws.moe": {
+              "reason": "alt fedi"
+            },
+            "lolicon.win": {
+              "reason": "loli"
+            },
+            "asteroidm.space": {
+              "reason": "loli"
+            },
+            "shpposter.club": {
+              "reason": "alt fedi"
+            },
+            "scarlet.house": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "projectftm.com": {
+              "reason": "alt fedi"
+            },
+            "redpill-insight.com": {
+              "reason": "haine envers les femmes"
+            },
+            "wideboys.org": {
+              "reason": "racisme, lgbtq+phobie, harcèlement"
+            },
+            "kiwifarms.cc": {
+              "reason": "alt fedi, harcèlement"
+            },
+            "loli.best": {
+              "reason": "loli"
+            },
+            "nekoea.red": {
+              "reason": "alt fedi"
+            },
+            "redspinning.top": {
+              "reason": "alt fedi"
+            },
+            "kotobank.ch": {
+              "reason": "alt fedi"
+            },
+            "pedo.school": {
+              "reason": "pédocriminalité"
+            },
+            "toot.pt": {
+              "reason": "racisme"
+            },
+            "rneetup.com": {
+              "reason": "racieme (indisponible, à checker)"
+            },
+            "rigcz.club": {
+              "reason": "alt fedi"
+            },
+            "rojogato.com": {
+              "reason": "contenu haineux"
+            },
+            "vara.lol": {
+              "reason": "alt fedi"
+            },
+            "merovingian.club": {
+              "reason": "haine contre les femmes, alt fedi"
+            },
+            "social.handholding.io": {
+              "reason": "lgbtq+phobie"
+            },
+            "noagendasocial.nl": {
+              "reason": "alt fedi"
+            },
+            "mu.zaitcev.nu": {
+              "reason": "alt fedi (gab)"
+            },
+            "skinheads.network": {
+              "reason": "suprémacistes blancs"
+            },
+            "theres.life": {
+              "reason": "alt fedi, conspi"
+            },
+            "geofront.rocks": {
+              "reason": "racisme"
+            },
+            "asbestos.cafe": {
+              "reason": "alt fedi"
+            },
+            "translunar.academy": {
+              "reason": "ne pas visiter"
+            },
+            "carnivore.social": {
+              "reason": "haine contre les femmes, alt fedi"
+            },
+            "annihilation.social": {
+              "reason": "racisme"
+            },
+            "mastodon.la": {
+              "reason": "alt fedi, admin malveillant"
+            },
+            "social.freetalklive.com": {
+              "reason": "crypto (procédure en justice contre le fondateur : https://www.justice.gov/usao-nh/pr/ian-freeman-convicted-all-counts-relating-bitcoin-money-laundering-scheme), lgbtq+phobie, \"free speech\""
+            },
+            "anemoneya.me": {
+              "reason": "spam"
+            },
+            "pawlicker.com": {
+              "reason": "loli, alt fedi"
+            },
+            "activitypub.awakari.com": {
+              "reason": "Indexe et creér des stats sur tout le monde"
+            },
+            "fluffytail.org": {
+              "reason": "alt fedi"
+            },
+            "truthsocial.co.in": {
+              "reason": "trump"
+            },
+            "suya.place": {
+              "reason": "alt fedi"
+            },
+            "argentum.social": {
+              "reason": "suprémaciste blanc"
+            },
+            "shota.house": {
+              "reason": "shota"
+            },
+            "justbros.xyz": {
+              "reason": "alt fedi"
+            },
+            "hentai.baby": {
+              "reason": "pédocriminalité"
+            },
+            "bussy.monster": {
+              "reason": "alt fedi"
+            },
+            "buildthatwallandmakeamericagreatagain.trumpislovetrumpis.life": {
+              "reason": "trump"
+            },
+            "gab.com": {
+              "reason": "trump"
+            },
+            "lovingexpressions.net": {
+              "reason": "fachos (instance supprimée, à checker)"
+            },
+            "aipub.social": {
+              "reason": "images générées par IA"
+            },
+            "cachapa.xyz": {
+              "reason": "racisme"
+            },
+            "keinpfusch.net": {
+              "reason": "alt fedi"
+            },
+            "gangstalking.services": {
+              "reason": "troll"
+            },
+            "rebelbase.site": {
+              "reason": "transphobie"
+            },
+            "brighteon.social": {
+              "reason": "nazis"
+            },
+            "milker.cafe": {
+              "reason": "loli, porn non taggué"
+            },
+            "willtrade.org": {
+              "reason": "bigot + racisme + lgbtq phobie"
+            },
+            "noagendatube.com": {
+              "reason": "alt fedi"
+            },
+            "prospeech.space": {
+              "reason": "alt fedi"
+            },
+            "homd.xyz": {
+              "reason": "alt fedi (alerte antivirus)"
+            },
+            "netzsphaere.xyz": {
+              "reason": "alt fedi"
+            },
+            "firefaithfellowship.com": {
+              "reason": "alt fedi (indisponible, à checker)"
+            },
+            "sneed.vip": {
+              "reason": "alt fedi"
+            },
+            "bajax.us": {
+              "reason": "harcèlement"
+            },
+            "iddqd.social": {
+              "reason": "pas de règles ni de conditions d'utilisation"
+            },
+            "ironbug.org": {
+              "reason": "soutien les abus envers les enfants"
+            },
+            "goreslut.xyz": {
+              "reason": "transphobie, harcèlement"
+            },
+            "librenet.co.za": {
+              "reason": "conspi"
+            },
+            "poast.tv": {
+              "reason": "alt fedi"
+            },
+            "hoto.rocks": {
+              "reason": "spam"
+            },
+            "lizards.live": {
+              "reason": "alt fedi"
+            },
+            "neighborli.xyz": {
+              "reason": "alt fedi"
+            },
+            "r18.social": {
+              "reason": "pédocriminalité, fachos"
+            },
+            "rot.gives": {
+              "reason": "contenu haineux, antécédents de contenu pédocriminel"
+            },
+            "darlow.co.uk": {
+              "reason": "transphobie"
+            },
+            "digitalmarketer.social": {
+              "reason": "conspi, bullshit marketting"
+            },
+            "genderheretics.xyz": {
+              "reason": "lgbtq+phobie"
+            },
+            "scots.network": {
+              "reason": "lgbtq+phobie"
+            },
+            "lolison.network": {
+              "reason": "loli"
+            },
+            "whitewomen.dog": {
+              "reason": "alt fedi"
+            },
+            "rqd2.net": {
+              "reason": "pédocriminalité (témoignages de criminels)"
+            },
+            "tokhmi.xyz": {
+              "reason": "alt fedi"
+            },
+            "nobodyhasthe.biz": {
+              "reason": "lgbtq+phobie"
+            },
+            "unbound.social": {
+              "reason": "discours haineux"
+            },
+            "jvpiter.net": {
+              "reason": "alt fedi"
+            },
+            "meatbag.app": {
+              "reason": "alt fedi"
+            },
+            "novoa.nagoya": {
+              "reason": "alt fedi"
+            },
+            "skippers-bin.com": {
+              "reason": "loli"
+            },
+            "skinheads.social": {
+              "reason": "suprémacistes blancs"
+            },
+            "dembased.xyz": {
+              "reason": "alt fedi"
+            },
+            "youjo.love": {
+              "reason": "loli, shota"
+            },
+            "schwartzwelt.xyz": {
+              "reason": "alt fedi (indispo, à checker)"
+            },
+            "pkteerium.xyz": {
+              "reason": "conspi, alt fedi"
+            },
+            "strelizia.net": {
+              "reason": "loli, racisme"
+            },
+            "skinnyver.se": {
+              "reason": "alt fedi (troll ?)"
+            },
+            "assortedflotsam.com": {
+              "reason": "alt fedi"
+            },
+            "nuked.social": {
+              "reason": "alt fedi"
+            },
+            "h5q.net": {
+              "reason": "pédocriminalité (ne pas visiter)"
+            },
+            "berserker.town": {
+              "reason": "alt fedi"
+            },
+            "adachi.party": {
+              "reason": "racisme,homophobie, alt fedi"
+            },
+            "mugicha.club": {
+              "reason": "alt fedi"
+            },
+            "loveforlandlords.com": {
+              "reason": "alt fedi"
+            },
+            "theapex.social": {
+              "reason": "conspi, contenu haineux"
+            },
+            "hendrixgames.com": {
+              "reason": "alt fedi, conspi"
+            },
+            "fr13nd5.com": {
+              "reason": "alt fedi"
+            },
+            "pieville.net": {
+              "reason": "alt fedi"
+            },
+            "karjalazet.se": {
+              "reason": "fachos"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "rejected_instances": {}
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 500,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "Craftopi.art est une instance Pleroma dédiée à tous ceux qui fabriquent/confectionnent/peignent/érigent.",
+      "nodeName": "Craftopi.art",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://craftopi.art/users/admin",
+        "https://craftopi.art/users/lord",
+        "https://craftopi.art/users/from_Otterspace"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 51000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0-70-g36d469cf"
+    },
+    "usage": {
+      "localPosts": 9709,
+      "users": {
+        "activeHalfyear": 22,
+        "activeMonth": 18,
+        "total": 34
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

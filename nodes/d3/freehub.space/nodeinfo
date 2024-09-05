@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "friendica",
+        "wordpress",
+        "xmpp"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 99,
+        "activeHalfyear": 17,
+        "activeMonth": 4
+      },
+      "localPosts": 1592,
+      "localComments": 2443
+    },
+    "metadata": {
+      "nodeName": "Free Hub"
+    }
+  },
+  "error": null
+}

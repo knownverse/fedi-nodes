@@ -1,0 +1,239 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "TagPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "zotum.net",
+            "crypto-group.buy.com",
+            "wintermute.fr.to",
+            "gen******.*****ver",
+            "solagg.com",
+            "kis******.moe",
+            "chi******.*hop",
+            "d-fens.systems",
+            "nnia.space",
+            "misskey-forkbomb.cf",
+            "*.repl.co",
+            "plush.city",
+            "staging.kazar.ma",
+            "lol****.top",
+            "map*******.de",
+            "off***.cat"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "*.repl.co": {
+              "reason": "forkbomb"
+            },
+            "chi******.*hop": {
+              "reason": "obvious"
+            },
+            "crypto-group.buy.com": {
+              "reason": "legacy"
+            },
+            "d-fens.systems": {
+              "reason": "legacy"
+            },
+            "gen******.*****ver": {
+              "reason": "obvious"
+            },
+            "kis******.moe": {
+              "reason": "obvious"
+            },
+            "lol****.top": {
+              "reason": "obvious"
+            },
+            "map*******.de": {
+              "reason": "obvious"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "forkbomb"
+            },
+            "nnia.space": {
+              "reason": "legacy"
+            },
+            "off***.cat": {
+              "reason": "obvious"
+            },
+            "plush.city": {
+              "reason": "counterblock, slander, dog-piling"
+            },
+            "solagg.com": {
+              "reason": "legacy"
+            },
+            "staging.kazar.ma": {
+              "reason": "search engine not respecting user flags"
+            },
+            "wintermute.fr.to": {
+              "reason": "legacy"
+            },
+            "zotum.net": {
+              "reason": "legacy"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "A home for blobfoxes",
+      "nodeName": "Blobfox.es",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": true,
+        "federated": false,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://blobfox.es/users/Jain"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-2006-gef4a28a3-fox"
+    },
+    "usage": {
+      "localPosts": 1191,
+      "users": {
+        "activeHalfyear": 7,
+        "activeMonth": 2,
+        "total": 21
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

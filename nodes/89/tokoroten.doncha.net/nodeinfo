@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "tokoroten",
+      "version": "0.1.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ところてん",
+      "nodeDescription": "perlによる自作実装のお一人様ActivityPubサーバーです",
+      "features": [
+        "circle"
+      ]
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

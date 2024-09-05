@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 204,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Aleteo",
+      "nodeDescription": "Lo último en música, deportes y estilo de vida.",
+      "nodeIcon": "https://aleteo.com.mx/wp-content/uploads/2022/10/whatsapp-image-2022-10-31-at-10.19.06-am.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Experimental instance to handle events liberated from Facebook",
+      "nodeName": "mobilizon.libr.events"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "2.1.0"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 449,
+      "users": {
+        "total": 438
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

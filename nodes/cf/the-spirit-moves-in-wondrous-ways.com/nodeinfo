@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 37,
+      "localComments": 36
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Spirit Moves In Wondrous Ways",
+      "nodeDescription": "Reflections &amp; writings of a retired hospital Chaplain offering hope and healing.",
+      "nodeIcon": "https://the-spirit-moves-in-wondrous-ways.com/wp-content/uploads/2023/11/dove.png"
+    }
+  },
+  "error": null
+}

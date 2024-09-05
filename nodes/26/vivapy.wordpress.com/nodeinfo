@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8052,
+      "localComments": 52319
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "VIVA PARAGUAY",
+      "nodeDescription": "&quot;PARAGUAYOS, REPÚBLICA O MUERTE! NUESTRO BRÍO NOS DIO LIBERTAD; NI OPRESORES, NI SIERVOS ALIENTAN, DONDE REINA UNIÓN, E IGUALDAD.&quot;",
+      "nodeIcon": "https://vivapy.wordpress.com/wp-content/uploads/2022/04/cropped-cropped-pexels-photo-251287-1.jpg"
+    }
+  },
+  "error": null
+}

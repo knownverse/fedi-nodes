@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 462,
+      "localComments": 117
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Un buhito en la montaña",
+      "nodeDescription": "Un blog autobiográfico",
+      "nodeIcon": "https://janismountains.com/wp-content/uploads/2023/12/un-buhito-en-la-montana.png"
+    }
+  },
+  "error": null
+}

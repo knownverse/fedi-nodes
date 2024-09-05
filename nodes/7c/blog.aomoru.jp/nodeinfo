@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ぶろぐあおもる",
+      "nodeDescription": "「アオモル！」のライターが徒然なるままに書き散らすブログ",
+      "nodeIcon": "https://blog.aomoru.jp/wp-content/uploads/sites/6/2023/08/cropped-blog_aomoru_logo.png"
+    }
+  },
+  "error": null
+}

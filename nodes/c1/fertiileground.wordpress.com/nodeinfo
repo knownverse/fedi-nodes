@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2138,
+      "localComments": 119
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fertiileground&#039;s Blog",
+      "nodeDescription": "The Whole Word for the Whole World",
+      "nodeIcon": "https://fertiileground.wordpress.com/wp-content/uploads/2021/04/29fa58a172b4a5a648cfbf06e1c564b11.jpeg"
+    }
+  },
+  "error": null
+}

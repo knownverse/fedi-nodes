@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 76,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Victoria Riess",
+      "nodeDescription": "The No. 1 Strategy Advisor, Keynote Speaker &amp; Author in Tech",
+      "nodeIcon": "https://www.victoriariess.de/wp-content/uploads/2023/08/cropped-woman-leader.jpeg"
+    }
+  },
+  "error": null
+}

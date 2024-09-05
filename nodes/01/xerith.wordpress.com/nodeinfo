@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 43,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Xerith&#039;s Photography Journey",
+      "nodeDescription": "A journey of exploring photography",
+      "nodeIcon": "https://xerith.wordpress.com/wp-content/uploads/2012/06/batch-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 126,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ADDITIONAL KNOWLEDGE",
+      "nodeDescription": "&quot;To acquire knowledge one must study, but to acquire wisdom one must observe.&quot;",
+      "nodeIcon": "https://additionalknowledge.com/wp-content/uploads/2023/12/group-20.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.th"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeMonth": 18,
+        "activeHalfyear": 19
+      },
+      "localPosts": 23547
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "unstable.systems Mastodon (Glitch Edition)",
+      "nodeDescription": "This is unstable.systems, a general-purpose invite-only Mastodon instance. We'll always be pretty small, and we hope to be a comfortable instance to be on."
+    }
+  },
+  "error": null
+}

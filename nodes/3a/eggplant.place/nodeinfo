@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "neodb",
+      "version": "main",
+      "repository": "https://github.com/neodb-social/neodb",
+      "homepage": "https://neodb.net/"
+    },
+    "protocols": [
+      "activitypub",
+      "neodb"
+    ],
+    "openRegistrations": true,
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 184,
+        "activeMonth": 29,
+        "activeHalfyear": 50
+      },
+      "localPosts": 25412,
+      "localComments": 4624
+    },
+    "metadata": {
+      "nodeName": "Eggplant.place",
+      "nodeRevision": "main-6aa8d22-7ea6cb1-20240731015925",
+      "nodeEnvironment": "production"
+    }
+  },
+  "error": null
+}

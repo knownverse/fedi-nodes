@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-voskey",
+      "homepage": "https://github.com/icalo35/voskey",
+      "repository": "https://github.com/icalo35/voskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4120,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7024676,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぼすきー",
+      "nodeDescription": "合成音声ソフト関連コンテンツ全般が好きな人向け\nそれ以外はジャンルもキャラもトーク系かソング系かも特に定まってない、ゆるいぼんやりサーバーです。\n創作したい人もファンとして楽しみたい人もご自由にどうぞ。\n雑談や独り言などに使ってください（目的が無いサーバーのため）\n他のサーバーがメインの方もサブにどうぞ。\n\n注意：個人運営の小さなサーバーのため、Twitterのような使い方が難しい事は予めご承知おき下さい。\n\n\n\n★新規登録再開しました。ぼちぼち覗かれてください。",
+      "nodeAdmins": [
+        {
+          "name": "伽仂イカロ（@icalo35)",
+          "email": "voskey@icalo.net"
+        }
+      ],
+      "maintainer": {
+        "name": "伽仂イカロ（@icalo35)",
+        "email": "voskey@icalo.net"
+      },
+      "langs": [],
+      "tosUrl": "https://voskeywiki.icalo.net/2b1a70a2ea0648409f0f0374fac5ba6b",
+      "privacyPolicyUrl": "https://voskeywiki.icalo.net/75829316c2f3468cbe8465a3861bc2c2?pvs=25",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/icalo35/voskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#33ffa0"
+    }
+  },
+  "error": null
+}

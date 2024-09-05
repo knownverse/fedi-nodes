@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 39,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Watercolors at La Quinta HOA Maintenance Issues",
+      "nodeDescription": "HOA Storm drainage maintenance issues",
+      "nodeIcon": "https://endlesssky92253.wordpress.com/wp-content/uploads/2024/03/endless-sky-logo.png"
+    }
+  },
+  "error": null
+}

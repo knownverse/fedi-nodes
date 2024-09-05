@@ -1,0 +1,338 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "rejected_instances": {},
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "parcero.bond",
+            "detroitriotcity.com",
+            "breastmilk.club",
+            "kitsunemimi.club",
+            "needs.vodka",
+            "nicecrew.digital",
+            "poster.place",
+            "rayci.st",
+            "tastingtraffic.net",
+            "truthsocial.co.in",
+            "firedragonstudios.com",
+            "cachapa.xyz",
+            "crucible.world",
+            "cunnyborea.space",
+            "eientei.org",
+            "freeatlantis.com",
+            "kyaruc.moe",
+            "ligma.pro",
+            "mugicha.club",
+            "nationalist.social",
+            "norwoodzero.net",
+            "sad.cab",
+            "pisskey.io",
+            "schwartzwelt.xyz",
+            "seal.cafe",
+            "shaw.app",
+            "shitpost.cloud",
+            "thechimp.zone",
+            "thenobody.club",
+            "usualsuspects.lol",
+            "vtuberfan.social",
+            "crlf.ninja",
+            "enjoyer.network",
+            "skinheads.social",
+            "skinheads.eu",
+            "skinheads.uk",
+            "skinheads.io"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "kitsunemimi.club": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "nicecrew.digital": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "ligma.pro": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "freeatlantis.com": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj eble atakema servilestro."
+            },
+            "detroitriotcity.com": {
+              "reason": "Malamaj trudafiŝoj freneze akraj."
+            },
+            "skinheads.uk": {
+              "reason": "… nomiĝas tiom memevidente! xD"
+            },
+            "crucible.world": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "seal.cafe": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "skinheads.social": {
+              "reason": "… nomiĝas tiom memevidente! xD"
+            },
+            "sad.cab": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj blokevitema servilestro."
+            },
+            "tastingtraffic.net": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "shitpost.cloud": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "skinheads.eu": {
+              "reason": "… nomiĝas tiom memevidente! xD"
+            },
+            "rayci.st": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "nationalist.social": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestraro."
+            },
+            "kyaruc.moe": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "shaw.app": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "norwoodzero.net": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "breastmilk.club": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "usualsuspects.lol": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "skinheads.io": {
+              "reason": "… nomiĝas tiom memevidente! xD"
+            },
+            "pisskey.io": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj blokevitema servilestro."
+            },
+            "schwartzwelt.xyz": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "cunnyborea.space": {
+              "reason": "Laŭ seirdy.one-listo, subtenas perforton de infanoj."
+            },
+            "eientei.org": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "enjoyer.network": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "cachapa.xyz": {
+              "reason": "Laŭ seirdy.one-listo, freneza kaj atakema servilestro."
+            },
+            "poster.place": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "needs.vodka": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "crlf.ninja": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "parcero.bond": {
+              "reason": "Malamaj trudafiŝoj freneze akraj."
+            },
+            "firedragonstudios.com": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            },
+            "thechimp.zone": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "mugicha.club": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "vtuberfan.social": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "thenobody.club": {
+              "reason": "Laŭ seirdy.one-listo, freneza servilestro."
+            },
+            "truthsocial.co.in": {
+              "reason": "Laŭ seirdy.one-listo, trudmesaĝado."
+            }
+          }
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "AntiLinkSpamPolicy",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ]
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": false,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "Esperanta servilo federuja, farita per amo kaj nattō!",
+      "nodeName": "Mansardo Jamada",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://jam.xwx.moe/users/jadedctrl",
+        "https://jam.xwx.moe/users/tirifto"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 50000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": 16,
+        "activeMonth": 9
+      },
+      "localPosts": 5467
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

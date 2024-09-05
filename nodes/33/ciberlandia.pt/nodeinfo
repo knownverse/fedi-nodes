@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 381,
+        "activeMonth": 87,
+        "activeHalfyear": 169
+      },
+      "localPosts": 59120
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Ciberlândia",
+      "nodeDescription": "Uma instância 🇵🇹 dedicada à tecnopolítica e também a tudo o resto. Regras e termos em ciberlandia.pt ❤️ 🏳️‍🌈"
+    }
+  },
+  "error": null
+}

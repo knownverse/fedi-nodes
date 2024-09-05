@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "https://aaronparecki.com",
+      "software": {
+        "homepage": "https://p3k.io/",
+        "github": "https://github.com/aaronpk/p3k",
+        "follow": "https://aaronparecki.com/aaronpk"
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "github"
+      ]
+    },
+    "software": {
+      "name": "p3k",
+      "version": "0.9.0"
+    },
+    "usage": {
+      "localPosts": 58637,
+      "localComments": 0,
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

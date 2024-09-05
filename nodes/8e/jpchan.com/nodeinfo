@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1901,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JP Chan",
+      "nodeDescription": "Filmmaker and Creative Director",
+      "nodeIcon": "https://i0.wp.com/jpchan.com/wordpress/wp-content/uploads/2021/02/cropped-JP-Logo-512x512-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

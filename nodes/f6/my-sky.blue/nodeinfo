@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2553,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MySky",
+      "nodeDescription": "ローカル・グローバル非表示のまったり鯖。\n現在、新規登録は管理人（和条門尚樹）からの招待コード制となっております。",
+      "nodeAdmins": [
+        {
+          "name": "和条門　尚樹",
+          "email": "https://forms.gle/2QrDJuyQYjGLYg7n9"
+        }
+      ],
+      "maintainer": {
+        "name": "和条門　尚樹",
+        "email": "https://forms.gle/2QrDJuyQYjGLYg7n9"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/2QrDJuyQYjGLYg7n9",
+      "impressumUrl": "https://naoki-wjm.yumegatari.com/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "for_list",
+      "themeColor": "#ccffff"
+    }
+  },
+  "error": null
+}

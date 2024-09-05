@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Mobilizon.nl is de Nederlandse versie.",
+      "nodeName": "mobilizon.nl"
+    },
+    "usage": {
+      "users": {
+        "total": 310
+      },
+      "localComments": 8,
+      "localPosts": 560
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

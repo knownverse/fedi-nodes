@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 52,
+      "localComments": 53
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ما بين سطرٍ وحرف ",
+      "nodeDescription": "بحروفٍ نابضةٍ بالدهشة، أُصوغُ لك كلماتٍ تفيضُ بالسحر.",
+      "nodeIcon": "https://nadaabbasdotblog.wordpress.com/wp-content/uploads/2023/02/nada-abbas-1.png"
+    }
+  },
+  "error": null
+}

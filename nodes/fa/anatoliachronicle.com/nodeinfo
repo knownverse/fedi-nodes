@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 65,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anatolia Chronicle",
+      "nodeDescription": "Exploring Turkish Affairs",
+      "nodeIcon": "https://i0.wp.com/anatoliachronicle.com/wp-content/uploads/2024/02/cropped-cropped-cropped-oig-1-1.jpg?fit=677%2C677&ssl=1"
+    }
+  },
+  "error": null
+}

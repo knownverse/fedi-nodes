@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DJGummikuh 3D Printing stuff and Coding",
+      "nodeDescription": "The single place of truth for all the sick stuff going on in my head",
+      "nodeIcon": "https://www.djgummikuh.de/wp-content/uploads/2019/11/cropped-Avatar512.png"
+    }
+  },
+  "error": null
+}

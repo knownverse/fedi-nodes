@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "timeline",
+      "version": "0.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    }
+  },
+  "error": null
+}

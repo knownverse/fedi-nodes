@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 646,
+      "localComments": 60
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "CONNECTICUT VETERANS BULLETIN",
+      "nodeDescription": "Information by Connecticut Veterans for Connecticut Veterans.",
+      "nodeIcon": "https://ctvetsbulletin.org/wp-content/uploads/2021/07/cropped-cropped-1627411982041.png"
+    }
+  },
+  "error": null
+}

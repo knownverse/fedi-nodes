@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "forgejo",
+      "version": "7.0.7",
+      "repository": "https://codeberg.org/forgejo/forgejo.git",
+      "homepage": "https://forgejo.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 4,
+      "localComments": 1
+    },
+    "metadata": {}
+  },
+  "error": null
+}

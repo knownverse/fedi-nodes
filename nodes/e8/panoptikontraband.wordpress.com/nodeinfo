@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Panoptikontraband",
+      "nodeDescription": "now lives at http://blog.panoptikontraband.eu/ ",
+      "nodeIcon": "https://panoptikontraband.wordpress.com/wp-content/uploads/2024/01/cropped-01be207f09c68761afa3b7afee6fd1d9-3428284133-e1705879203450.jpg"
+    }
+  },
+  "error": null
+}

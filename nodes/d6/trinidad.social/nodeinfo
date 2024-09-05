@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.2"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 10,
+      "localComments": 1
+    },
+    "metadata": {
+      "nodeName": "Trinidad Social"
+    }
+  },
+  "error": null
+}

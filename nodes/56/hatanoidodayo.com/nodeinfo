@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 726,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "はたのいけ",
+      "nodeDescription": "ここは　名もなき　池/\n旗茶と身内のための避暑地",
+      "nodeAdmins": [
+        {
+          "name": "旗茶",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "旗茶",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": "https://tolehatacha.xsns.jp/notes/9vf9iq81bf1u1nxr",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#012f7b"
+    }
+  },
+  "error": null
+}

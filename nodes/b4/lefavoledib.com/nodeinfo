@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 72,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Le Favole di B, storie e favole per bambini",
+      "nodeDescription": "Le migliori audio favole per bambini con voci magiche e divertenti",
+      "nodeIcon": "https://lefavoledib.com/wp-content/uploads/2022/11/cropped-logo-lefavoledib.jpg"
+    }
+  },
+  "error": null
+}

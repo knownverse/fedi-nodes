@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.9.0.0-pf181cdb0"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 782,
+        "activeHalfyear": 126,
+        "activeMonth": 69
+      },
+      "localPosts": 102694,
+      "localComments": 134849
+    },
+    "metadata": {
+      "nodeName": "Despora*",
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": true
+      },
+      "adminAccount": "desporateam"
+    }
+  },
+  "error": null
+}

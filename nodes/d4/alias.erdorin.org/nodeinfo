@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5059,
+      "localComments": 11730
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Blog à part",
+      "nodeDescription": "Rock et metal progressifs, science-fiction, jeu de rôle et divagations de vieux gauchiste; maison fondée en 2002",
+      "nodeIcon": "https://erdorin.org/wp-content/uploads/2017/04/cropped-avataralias-fav512.png"
+    }
+  },
+  "error": null
+}

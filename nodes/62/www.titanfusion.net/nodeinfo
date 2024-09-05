@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 325,
+      "localComments": 91
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Titan Fusion",
+      "nodeDescription": "Alexandar Tzanov&#039;s Personal Blog",
+      "nodeIcon": "https://i0.wp.com/www.titanfusion.net/wordpress/wp-content/uploads/2013/11/TFnet100x100.png?fit=100%2C100&ssl=1"
+    }
+  },
+  "error": null
+}

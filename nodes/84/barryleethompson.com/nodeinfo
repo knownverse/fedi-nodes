@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 215,
+      "localComments": 954
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Barry Lee Thompson",
+      "nodeDescription": "writing fiction",
+      "nodeIcon": "https://barryleethompson.com/wp-content/uploads/2023/11/image-2.jpg"
+    }
+  },
+  "error": null
+}

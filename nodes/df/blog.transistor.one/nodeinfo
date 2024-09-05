@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Alex's Blog!",
+      "nodeDescription": "A blog where I talk about anime, tech and other geeky things",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 5,
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.14.0-146-g24e9430"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 22
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

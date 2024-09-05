@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.7.1-rc5",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 84,
+        "activeHalfyear": 52,
+        "activeMonth": 18
+      },
+      "localPosts": 264,
+      "localComments": 989
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "the/brain/bin",
+      "nodeDescription": "content aggregator and micro-blogging platform for the fediverse"
+    }
+  },
+  "error": null
+}

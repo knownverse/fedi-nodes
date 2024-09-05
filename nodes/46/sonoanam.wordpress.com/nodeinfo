@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sono Anam",
+      "nodeDescription": "Senza nome",
+      "nodeIcon": "https://sonoanam.wordpress.com/wp-content/uploads/2023/12/cropped-860943_618926958200928_4526356300987233367_o-1.jpeg"
+    }
+  },
+  "error": null
+}

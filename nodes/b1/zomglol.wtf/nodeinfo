@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-09-03"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2189
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "zomglol",
+      "nodeDescription": "We’re all just trying to find a place to post the memes"
+    }
+  },
+  "error": null
+}

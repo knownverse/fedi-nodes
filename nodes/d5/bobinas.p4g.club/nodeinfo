@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "gnusocial",
+      "version": "2.0.1-beta0"
+    },
+    "protocols": [
+      "ostatus",
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "gnusocial"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "gnusocial"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 7911,
+      "localComments": 8466
+    },
+    "metadata": {
+      "nodeName": "Bobinas P4G",
+      "software": {
+        "homepage": "https://gnusocial.rocks/",
+        "repository": "https://notabug.org/diogo/gnu-social/"
+      },
+      "uploadLimit": 2097152,
+      "postFormats": [
+        "text/plain",
+        "text/html"
+      ],
+      "features": [
+        "polls"
+      ]
+    }
+  },
+  "error": null
+}

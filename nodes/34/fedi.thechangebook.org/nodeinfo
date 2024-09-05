@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial",
+        "friendica",
+        "redmatrix"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 30,
+        "activeHalfyear": 17,
+        "activeMonth": 2
+      },
+      "localPosts": 3709,
+      "localComments": 14520
+    },
+    "metadata": {
+      "nodeName": "TheChangebook"
+    }
+  },
+  "error": null
+}

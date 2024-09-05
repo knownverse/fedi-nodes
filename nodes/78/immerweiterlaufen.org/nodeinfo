@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Ein Kalender für Läufer",
+      "nodeName": "ImmerWeiterLaufen",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "immerweiterlaufen"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 77,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

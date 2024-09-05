@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11565,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2284046,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "お絵かきすきー",
+      "nodeDescription": "イラストを描くのが好きな方、見るのが好きな方があつまるサーバーです一次創作、二次創作、問わずすべての絵描きを歓迎しています。<br>\n\n日本の法律と利用規約を守ってご利用ください。\n\n<ul>\n    <li><a href=\"https://oekakiskey.com/@admin/pages/terms-of-service\n\">利用規約</a></li>\n    <li><a href=\"https://oekakiskey.com/@admin/pages/privacy-policy\n\">プライバシーポリシー</a></li>\n    <li><a href=\"https://oekakiskey.com/@admin/pages/work-posting-guidelines\n\">作品投稿ガイドライン</a></li>\n    <li><a href=\"https://oekakiskey.com/@admin/pages/content-guidelines\n\">コンテンツガイドライン</a></li>\n <li><a href=\"https://wiki.oekakiskey.com/\n\">お絵かきすきーwiki　※初心者はこちらをどうぞ</a></li>\n</ul>",
+      "nodeAdmins": [
+        {
+          "name": "oekakiskey",
+          "email": "info[at sign]oekakiskey.com"
+        }
+      ],
+      "maintainer": {
+        "name": "oekakiskey",
+        "email": "info[at sign]oekakiskey.com"
+      },
+      "langs": [],
+      "tosUrl": "https://oekakiskey.com/@admin/pages/terms-of-service",
+      "privacyPolicyUrl": "https://oekakiskey.com/@admin/pages/privacy-policy",
+      "inquiryUrl": "https://wiki.oekakiskey.com/ja/home",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#2ab0fa"
+    }
+  },
+  "error": null
+}

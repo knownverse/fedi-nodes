@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "mayawidyans",
+      "nodeDescription": "",
+      "nodeIcon": "https://mayawidyans.wordpress.com/wp-content/uploads/2023/09/0cdfd26c9804898add6ea829e0891205b542847c5d882993915ac86b718836b8.png"
+    }
+  },
+  "error": null
+}

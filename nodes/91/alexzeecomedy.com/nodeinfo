@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 17,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Alex Zee Comedy",
+      "nodeDescription": "The online landing page for stand-up comedian, Alex Zee",
+      "nodeIcon": "https://i0.wp.com/alexzeecomedy.com/wp-content/uploads/2023/11/361410032_247176204743349_7832819862243420404_n.jpg?fit=1440%2C1440&ssl=1"
+    }
+  },
+  "error": null
+}

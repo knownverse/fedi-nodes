@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 704,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23288,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "百合ヶ丘女学院考証科",
+      "nodeDescription": "アサルトリリィっぽいドメインのMisskeyサーバーです。アサルトリリィの話題やその他なんでもお話しください。\n\nご意見等ありましたら管理者までお気軽にお知らせください。よろしくお願いします。",
+      "nodeAdmins": [
+        {
+          "name": "theoria",
+          "email": "admin@assaultli.ly"
+        }
+      ],
+      "maintainer": {
+        "name": "theoria",
+        "email": "admin@assaultli.ly"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.assaultli.ly/@theoria/pages/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

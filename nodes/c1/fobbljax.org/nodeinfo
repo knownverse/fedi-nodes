@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 37,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Friends of the Beaches Branch Library",
+      "nodeDescription": "Supporting Jacksonville&#039;s Beaches Branch Library since 1979",
+      "nodeIcon": "https://fobbljax.org/wp-content/uploads/2023/07/logo-web.jpg"
+    }
+  },
+  "error": null
+}

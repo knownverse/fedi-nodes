@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Asia Passion Adurna",
+      "nodeDescription": "Découvrez l&#039;Asie de l&#039;Est. De la gastronomie, aux fêtes traditionnelles , en passant par la culture populaire. Du Japon aux Philippines, en passant par la Thaïlande.",
+      "nodeIcon": "https://asiapassionadurna.wordpress.com/wp-content/uploads/2024/01/asia-passion-png.png"
+    }
+  },
+  "error": null
+}

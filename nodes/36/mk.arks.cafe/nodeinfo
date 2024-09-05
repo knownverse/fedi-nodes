@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 179,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 9251,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "arks.cafe 💫 misskey",
+      "nodeDescription": "ARKS Defenders across the entire galaxy!\n<br /><br />\nmk.arks.cafe is a Misskey instance dedicated to PSO2, but can also serve as a general instance for ARKS members. Feel free to dump your screenshots here! 😁\n<br /><br />\n<a href=\"https://arks.cafe/\"><b>Check out arks.cafe for more details.</b></a>\n<hr />\n<i>arks.cafe is not affiliated with ©SEGA</i>",
+      "nodeAdmins": [
+        {
+          "name": "@jojobii@mk.arks.cafe",
+          "email": "jojobii.arks@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@jojobii@mk.arks.cafe",
+        "email": "jojobii.arks@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://arks.cafe/fedi/tos",
+      "privacyPolicyUrl": "https://arks.cafe/fedi/tos",
+      "inquiryUrl": null,
+      "impressumUrl": "https://arks.cafe/fedi/tos",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_follower",
+      "themeColor": "#73c3ed"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 28,
+      "localComments": 25
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Clumsy Interloper",
+      "nodeDescription": "B&amp;W Thought Bubbles in a 4K Streaming World",
+      "nodeIcon": "https://theclumsyinterloper.com/wp-content/uploads/2024/04/cropped-typewriter.jpg"
+    }
+  },
+  "error": null
+}

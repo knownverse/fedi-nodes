@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 41,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SpaceColoniSZation",
+      "nodeDescription": "Beyond Limits: Pioneering New Worlds for Tomorrow&#039;s Generation",
+      "nodeIcon": "https://spacecoloniszation.wordpress.com/wp-content/uploads/2024/02/cropped-dallc2b7e-2024-02-27-11.49.17-design-a-sleek-and-futuristic-logo-for-a-website-dedicated-to-space-colonization.-the-logo-should-be-highly-symbolic-featuring-elements-such-as-a-s.webp"
+    }
+  },
+  "error": null
+}

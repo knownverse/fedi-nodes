@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 119,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4179,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "りりすぺーす (Lilyspace)",
+      "nodeDescription": "百合好きのためのMisskeyサーバーです。\n百合に関する会話はもちろん、普段使いにもご利用いただけます。\n\n<p>\n【百合作家さんへ】<br>\nこのサーバーでは、百合作家さん（イラスト・漫画・小説・音声作品等、媒体は問いません）にはドライブサイズ制限の緩和を実施しております。<br>\nこの緩和措置はサーバーに作品を投稿した時点で全員に行っています。<br>\n詳細は、@support にご連絡ください。\n</p>",
+      "nodeAdmins": [
+        {
+          "name": "Momo",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "Momo",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://policies.lilygl.net/lilyspace/tos",
+      "privacyPolicyUrl": "https://policies.lilygl.net/privacy-policy",
+      "inquiryUrl": null,
+      "impressumUrl": "https://momo-can-factory.com",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#feecf2"
+    }
+  },
+  "error": null
+}

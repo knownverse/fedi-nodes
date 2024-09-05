@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HeadandHeartTogether.com",
+      "nodeDescription": "Developing A Life of Balance and Wellbeing",
+      "nodeIcon": "https://headandhearttogether.com/wp-content/uploads/2024/01/cropped-head-heart-together-logos_white512-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch+COTS"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5227,
+        "activeMonth": 309,
+        "activeHalfyear": 877
+      },
+      "localPosts": 180343
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "CupOfTea.Social",
+      "nodeDescription": "A Small Community Mastodon Server for Casual Chit-Chat. UK Based, A place for good and wholesome content open to everyone. Pets, Photos, Music & Food are popular topics. "
+    }
+  },
+  "error": null
+}

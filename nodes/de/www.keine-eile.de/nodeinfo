@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 359,
+      "localComments": 1995
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Keine Eile",
+      "nodeDescription": "Leben im Wohnmobil | Reisen mit dem eigenen Fahrzeug",
+      "nodeIcon": "https://www.keine-eile.de/wordpress/wp-content/uploads/2018/11/cropped-KE-Favicon.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,511 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "strip_followers",
+            "delist"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "TagPolicy",
+          "SimplePolicy",
+          "NormalizeMarkup",
+          "ObjectAgePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "mstdn.social",
+            "eightpoint.app",
+            "comp.lain.la",
+            "annihilation.social",
+            "woem.men"
+          ],
+          "followers_only": [
+            "bird.makeup"
+          ],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "spinster.xyz",
+            "gleasonator.com",
+            "catcatnya.com",
+            "todon.nl",
+            "freespeechextremist.com",
+            "cum.salon",
+            "pkteerium.xyz",
+            "twitter.com",
+            "poa.st",
+            "bae.st",
+            "outpoa.st",
+            "kiwifarms.cc",
+            "qoto.org",
+            "noagendasocial.com",
+            "ryona.agency",
+            "hayu.sh",
+            "plush.city",
+            "nicecrew.digital",
+            "seal.cafe",
+            "awwter.online",
+            "mastodon.art",
+            "rage.love",
+            "weirder.earth",
+            "queer.hacktivis.me",
+            "x.com",
+            "mostr.pub",
+            "pleroma.narrativerry.xyz",
+            "freeatlantis.com",
+            "the.usualsuspects.lol",
+            "norwoodzero.net",
+            "detroitriotcity.com",
+            "eightpoint.app",
+            "0w0.is",
+            "childlove.space",
+            "eientei.org",
+            "asbestos.cafe",
+            "ubiqueros.com",
+            "boymoder.biz",
+            "threads.net",
+            "beefyboys.win",
+            "varishangout.net",
+            "mastodon.derg.nz",
+            "parcero.bond",
+            "neoliber.al",
+            "mastodo.neoliber.al",
+            "fedi.dav1d.xyz",
+            "px.mathias777.com",
+            "snarfed.org",
+            "bsky.brid.gy",
+            "brid.gy",
+            "h-i.social",
+            "friendsyu.me",
+            "mxin.moe",
+            "minds.com",
+            "social.freetalklive.com",
+            "clew.lol",
+            "social.teci.world",
+            "noauthority.social",
+            "bofh.social",
+            "queerfedi.net",
+            "*.truth-sandwich.com",
+            "worm.pink",
+            "*.worm.pink",
+            "*.awakari.com",
+            "*.awakari.app",
+            "shitposter.world",
+            "bark.lgbt",
+            "momostr.pink",
+            "social.beaware.live"
+          ],
+          "reject_deletes": [
+            "clew.lol"
+          ],
+          "report_removal": [
+            "comp.lain.la",
+            "asbestos.cafe"
+          ]
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "annihilation.social": {
+              "reason": "Free speech instance; due to useful bots being on-instance I am taking responsibility for moderating annihilation.social for bv.umbrellix.org users and specifically debarring individual hate preachers. I recommend most operators to defederate."
+            },
+            "comp.lain.la": {
+              "reason": "This server probably needs to be somewhat quarantined"
+            },
+            "eightpoint.app": {
+              "reason": "Formerly run by a rapist. Once bitten, twice as shy. Shame, really, found a lot of cool people there. https://nitter.snopyta.org/panderp/status/1600314160926978050"
+            },
+            "mstdn.social": {
+              "reason": "Ploum scandal"
+            },
+            "woem.men": {
+              "reason": "appears to be administrated by ashten, with whom we have negative context. promoting from rejection as good animals are here."
+            }
+          },
+          "followers_only": {
+            "bird.makeup": {
+              "reason": "Read-only mirror of Twitter (X) posts"
+            }
+          },
+          "reject": {
+            "parcero.bond": {
+              "reason": "User dj responded to my toot about Pythagoras with \"But did you find a use case for your pecker or did you saw it off already?\", and when @ellenor responded with \"I don't know you from Eve,\" we got a \"trannycide\" emojo, which appears to be an animated FTM wearing a trans flag and dangling from a noose."
+            },
+            "mostr.pub": {
+              "reason": "Nostr bridge. Nostr is overwhelmingly a source of rightist bullshit."
+            },
+            "friendsyu.me": {
+              "reason": "Compromised"
+            },
+            "fedi.dav1d.xyz": {
+              "reason": "You know who you are. Harassment, smear campaign, just generally a depraved kitten (and not in the neat way)"
+            },
+            "px.mathias777.com": {
+              "reason": "Platform abuse, ???"
+            },
+            "h-i.social": {
+              "reason": "Ubiqueros comments"
+            },
+            "worm.pink": {
+              "reason": "Routinely maximally shitty accelerationist takes regarding US elections, et alia"
+            },
+            "weirder.earth": {
+              "reason": "TBS cabal"
+            },
+            "childlove.space": {
+              "reason": "I am not required to explain this - and I won't. Ew."
+            },
+            "social.teci.world": {
+              "reason": "Soapbox. Need I say more?"
+            },
+            "norwoodzero.net": {
+              "reason": "Trans genocide harassment - https://s3.us-west-1.wasabisys.com/rxv9pnt8bnesfmqtom1w/358b8f63-0783-4ec3-9cf3-1562df7f5679/norwood-Screenshot_20230922_054711.png"
+            },
+            "spinster.xyz": {
+              "reason": "known to be a transphobic instance"
+            },
+            "threads.net": {
+              "reason": "Facebook"
+            },
+            "clew.lol": {
+              "reason": "Soapbox. Need I say more?"
+            },
+            "*.truth-sandwich.com": {
+              "reason": "Single-user instance by someone banned from MastoSoc for being a horrible rightist troll from hell."
+            },
+            "nicecrew.digital": {
+              "reason": "Connected to sealcafe"
+            },
+            "social.beaware.live": {
+              "reason": "Harassment on the fediblock hashtag"
+            },
+            "momostr.pink": {
+              "reason": "Nostr relay bot/Roboto plusenda Nostr"
+            },
+            "catcatnya.com": {
+              "reason": "dq.s drama UPDATE: is also harassing ErikU https://mastodon.de/@ErikUden/112357132221418557"
+            },
+            "twitter.com": {
+              "reason": "Not an AP implementation; I still think it's important to defederate them preemptively due to their open Nazism, transphobia, and other forms of hate speech completely unacceptable on Umbrellix APMS."
+            },
+            "rage.love": {
+              "reason": "TBS cabal"
+            },
+            "ryona.agency": {
+              "reason": "Actively malicious implementation, per FloatingGhost: using another instance's HTTP signatures, rewriting non-public posts to public"
+            },
+            "cum.salon": {
+              "reason": "I think I recall these ones sucking but I don't remember how"
+            },
+            "boymoder.biz": {
+              "reason": "So it's nukie again. The transphobic trans woman from FSE."
+            },
+            "freespeechextremist.com": {
+              "reason": "I'm not required to explain why FSE is a problem - and I won't"
+            },
+            "minds.com": {
+              "reason": "Hosts James Lindsay, who made this wonderful toot (CW: he's endorsing LibsOfTikTok) https://www.minds.com/newsfeed/1604622116907388937"
+            },
+            "hayu.sh": {
+              "reason": "Moving to Soapbox. That is Not the vibe."
+            },
+            "detroitriotcity.com": {
+              "reason": "Trans genocide harassment - https://s3.us-west-1.wasabisys.com/rxv9pnt8bnesfmqtom1w/0731d848-e7ea-4b26-9a24-2736a091aedf/detriotcity-Screenshot_20230922_054644.png"
+            },
+            "beefyboys.win": {
+              "reason": "Unresponsive to reports (known from experience), hosts transphobic users freely. Also deeply racist."
+            },
+            "queer.hacktivis.me": {
+              "reason": "Single user instance who dislikes us a lot"
+            },
+            "gleasonator.com": {
+              "reason": "Racism (from memory)"
+            },
+            "queerfedi.net": {
+              "reason": "Ethnic cleansing advocacy by the (white gammon) admin https://archive.ph/7SWqr"
+            },
+            "noauthority.social": {
+              "reason": "Throwaway climate-denier mastodon instance."
+            },
+            "varishangout.net": {
+              "reason": "Pending further reasons; known to have unsafe users"
+            },
+            "awwter.online": {
+              "reason": "unserviceable gun nut fox and her girlfriends apparently"
+            },
+            "bofh.social": {
+              "reason": "Ethnic cleansing advocacy by the (white gammon) admin https://archive.ph/7SWqr"
+            },
+            "plush.city": {
+              "reason": "Harbors hostile user (Tricorgs)"
+            },
+            "todon.nl": {
+              "reason": "dq.s drama"
+            },
+            "pleroma.narrativerry.xyz": {
+              "reason": "user on this instance was transphobic to us once"
+            },
+            "seal.cafe": {
+              "reason": "Harassment. Also transphobia and therianthrope hatred."
+            },
+            "bsky.brid.gy": {
+              "reason": "Bsky bridge"
+            },
+            "snarfed.org": {
+              "reason": "Bsky bridge"
+            },
+            "freeatlantis.com": {
+              "reason": "Queer genocide denial"
+            },
+            "bark.lgbt": {
+              "reason": "They would prefer not to associate with us - the fuckers - so I will give them their wretched wish."
+            },
+            "eientei.org": {
+              "reason": "Usual suspect, high host of genocidistes"
+            },
+            "x.com": {
+              "reason": "see twitter.com"
+            },
+            "mastodo.neoliber.al": {
+              "reason": "neoliber.al"
+            },
+            "noagendasocial.com": {
+              "reason": "has an agenda"
+            },
+            "ubiqueros.com": {
+              "reason": "Part of transphobic hate group FSEP/TBS"
+            },
+            "bae.st": {
+              "reason": "I don't think this needs to be spoken of."
+            },
+            "poa.st": {
+              "reason": "I don't think this needs to be spoken of."
+            },
+            "*.awakari.app": {
+              "reason": "malicious scraper"
+            },
+            "mxin.moe": {
+              "reason": "Compromised"
+            },
+            "*.worm.pink": {
+              "reason": "See worm.pink"
+            },
+            "neoliber.al": {
+              "reason": "I don't believe that I need to explain why this is a problem. Neoliberalism contains within itself the seeds of fascism."
+            },
+            "kiwifarms.cc": {
+              "reason": "Obvious abuser is obvious."
+            },
+            "brid.gy": {
+              "reason": "Bsky bridge"
+            },
+            "asbestos.cafe": {
+              "reason": "harbours KYLRs"
+            },
+            "social.freetalklive.com": {
+              "reason": "Extremely spare ToS, no indication that moderation problems will be addressed."
+            },
+            "shitposter.world": {
+              "reason": "Rape threats from hyperhidrosis"
+            },
+            "eightpoint.app": {
+              "reason": "defederated us after the incident with Lightning, hazelnot and daviddd"
+            },
+            "mastodon.art": {
+              "reason": "Part of the TBS/FSEP cabal which has harmed trans people and decided that anyone calling this out is racist. https://thegoodspace.neocities.org/"
+            },
+            "the.usualsuspects.lol": {
+              "reason": "veganism"
+            },
+            "*.awakari.com": {
+              "reason": "scraper"
+            },
+            "mastodon.derg.nz": {
+              "reason": "No, you shouldn't federate with Google employees. So, after about a year, we don't."
+            },
+            "outpoa.st": {
+              "reason": "I don't think this needs to be spoken of."
+            },
+            "0w0.is": {
+              "reason": "defederated us after the incident with Lightning, hazelnot and daviddd - but did so only saying \"abusive admin\"."
+            },
+            "pkteerium.xyz": {
+              "reason": "user on this instance was transphobic to us once"
+            },
+            "qoto.org": {
+              "reason": "United Federation of Instances, conservative/reactionary moderation norms"
+            }
+          },
+          "reject_deletes": {
+            "clew.lol": {
+              "reason": "Soapbox. Need I say more?"
+            }
+          },
+          "report_removal": {
+            "asbestos.cafe": {
+              "reason": "High risk of unreliable reports"
+            },
+            "comp.lain.la": {
+              "reason": "High risk of unreliable reports"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 120,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "We're bankrupt - see announcements for more information",
+      "nodeName": "Umbrellix ActivityPub Microblogging Services in bankruptcy",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 40,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": false,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://bv.umbrellix.org/users/amelia",
+        "https://bv.umbrellix.org/users/lightning",
+        "https://bv.umbrellix.org/users/ellenor",
+        "https://bv.umbrellix.org/users/melanie",
+        "https://bv.umbrellix.org/users/reinhilde"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 320000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.12.0"
+    },
+    "usage": {
+      "localPosts": 23682,
+      "users": {
+        "activeHalfyear": 7,
+        "activeMonth": 4,
+        "total": 12
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

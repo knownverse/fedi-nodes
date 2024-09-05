@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6069,
+      "localComments": 1291
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LA PROTESTA MILITAR 3",
+      "nodeDescription": "Blog de Opinión, Militar, Política y de DDHH. Editor: Coronel ® (FAV) Sammy Landaeta Millán @ProtestaMilitar Correo: sammylandaeta@gmail.com VENEZUELA.",
+      "nodeIcon": "https://laprotestamilitar3.wordpress.com/wp-content/uploads/2024/04/sammylanmillan.jpg"
+    }
+  },
+  "error": null
+}

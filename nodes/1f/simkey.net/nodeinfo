@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.120.0-simkey-2023-12-03"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 46,
+        "activeHalfyear": 21,
+        "activeMonth": 11
+      },
+      "localPosts": 146824,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "simkey.net",
+      "nodeDescription": "世界三大大興奮インスタンス<br>\nこけっちの別荘<br>2024までは稼働します<br><a href=\"https://github.com/sim1222/misskey\">https://github.com/sim1222/misskey</a><br>気分で招待コードを発行します",
+      "maintainer": {
+        "name": "こけっち",
+        "email": "contact@sim1222.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 8192,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#a7dc4e"
+    }
+  },
+  "error": null
+}

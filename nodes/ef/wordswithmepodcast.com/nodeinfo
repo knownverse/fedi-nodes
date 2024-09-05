@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 33,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Words with Me",
+      "nodeDescription": "Creating and Cultivating Community",
+      "nodeIcon": "https://i0.wp.com/wordswithmepodcast.com/wp-content/uploads/2022/01/cropped-4d421f6c-7669-466f-84db-c526936563f3-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

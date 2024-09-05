@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 126,
+      "localComments": 4094
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Silence of Mind",
+      "nodeDescription": "Where God Speaks and Creation Listens",
+      "nodeIcon": "https://silenceofmind.wordpress.com/wp-content/uploads/2022/01/cropped-the-thinker.jpg"
+    }
+  },
+  "error": null
+}

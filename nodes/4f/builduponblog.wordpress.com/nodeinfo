@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 31,
+      "localComments": 132
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Build_upon 🕊️",
+      "nodeDescription": "This is a safe and supportive space that connects and encourages all minds seeking growth and a stabilized relationship with God. It is a locale of healing, clarity, and relatable dealings empowering you to express your thoughts, feelings, and questions safely as you journey in the Faith.",
+      "nodeIcon": "https://builduponblog.wordpress.com/wp-content/uploads/2024/02/cropped-screenshot_20240208-152129_2-1.jpg"
+    }
+  },
+  "error": null
+}

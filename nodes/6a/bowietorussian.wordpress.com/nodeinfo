@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 64,
+      "localComments": 424
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bowie to Russian",
+      "nodeDescription": "Эквиритмичные переводы песен Дэвида Боуи на русский язык",
+      "nodeIcon": "https://bowietorussian.wordpress.com/wp-content/uploads/2023/05/cropped-20200602030246_r-9394528-1485222866-5979.jpeg-1.jpg"
+    }
+  },
+  "error": null
+}

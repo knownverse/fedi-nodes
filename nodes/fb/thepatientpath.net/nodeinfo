@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 148,
+      "localComments": 389
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Patient Path",
+      "nodeDescription": "Coping with Women&#039;s Cancers",
+      "nodeIcon": "https://thepatientpath.net/wp-content/uploads/2018/07/cropped-pale-peach-rose_335x250px.jpg"
+    }
+  },
+  "error": null
+}

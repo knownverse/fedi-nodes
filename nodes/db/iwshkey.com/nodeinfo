@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "info[at]iwshkey.com",
+        "name": "渦森うはら(@6ikka)"
+      },
+      "nodeDescription": "publicly accessible feed is <a href=\"https://iwshkey.com/timeline\">here</a>.\n\n主に解説投稿者の皆さんが集うことを想定して設立したサーバーですが、他ジャンルの方や未投稿者も登録していただいて構いません。名前は「<a href=\"https://voskey.icalo.net\">ぼすきー</a>」の管理者であるイカロ(@icalo35@voskey.icalo.net)様の発言を由来に使用させていただきました(運営面についてぼすきー及びイカロ様との関係はございません)。長らく招待制で運用していましたが、現在は新規登録を一般開放しております。",
+      "nodeName": "イウしキー",
+      "proxyAccountName": "9gz1h6wulh",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#E57931"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 18693,
+      "users": {
+        "activeHalfyear": 109,
+        "activeMonth": 55,
+        "total": 136
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

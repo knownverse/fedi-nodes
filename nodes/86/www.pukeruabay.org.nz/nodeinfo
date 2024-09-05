@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 9,
+        "activeHalfyear": 9
+      },
+      "localPosts": 342,
+      "localComments": 26625
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pukerua Bay, New Zealand",
+      "nodeDescription": "",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

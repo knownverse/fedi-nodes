@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5352,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "こづか山荘",
+      "nodeDescription": "小束弓月のクローズドmisskeyサーバです。一般の方からのユーザ登録は一切受け付けておりません。\n本サーバ運営は日本国の法規に準じます。The operation of this server complies with Japanese laws and regulations.",
+      "nodeAdmins": [
+        {
+          "name": "小束 弓月",
+          "email": "saya.kasumi@yukoduka.com"
+        }
+      ],
+      "maintainer": {
+        "name": "小束 弓月",
+        "email": "saya.kasumi@yukoduka.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "shrine_master",
+      "themeColor": "#C0DEFF"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Adam Bloom - Software Business Leader | Generative AI | Author",
+      "nodeDescription": "Adam Bloom | Generative AI | Growth | Gratitude",
+      "nodeIcon": "https://adambloom.me/wp-content/uploads/2020/11/cropped-adambloom-me_logo-color-alt-04-trnsp.png"
+    }
+  },
+  "error": null
+}

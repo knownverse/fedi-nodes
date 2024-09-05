@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "forgejo",
+      "version": "9.0.0-dev-905-6b24ce6420+gitea-1.22.0",
+      "repository": "https://codeberg.org/forgejo/forgejo.git",
+      "homepage": "https://forgejo.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 12,
+      "localComments": 167
+    },
+    "metadata": {}
+  },
+  "error": null
+}

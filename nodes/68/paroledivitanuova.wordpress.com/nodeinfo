@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 250,
+      "localComments": 565
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": " paroledivitanuova e bible journaling italiano ",
+      "nodeDescription": " Vinciamo lo stress quotidiano con l&#039;aiuto della Parola di Dio",
+      "nodeIcon": "https://paroledivitanuova.wordpress.com/wp-content/uploads/2023/10/cropped-logo-blog-mio.png"
+    }
+  },
+  "error": null
+}

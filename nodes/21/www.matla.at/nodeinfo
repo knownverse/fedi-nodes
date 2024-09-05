@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1421,
+      "localComments": 8233
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Das Manifest des Erbrechens",
+      "nodeDescription": "aka Mein Mittagessen",
+      "nodeIcon": "https://i0.wp.com/www.matla.at/wp-content/uploads/2022/12/cropped-gozella_None_6ff937f9-0094-4d02-9275-8d938c08e6c8.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

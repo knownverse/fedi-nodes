@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 726,
+      "localComments": 294
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Data Quality Matters",
+      "nodeDescription": "Data integrity - Unlock the value in your enterprise information asset",
+      "nodeIcon": "https://blog.masterdata.co.za/wp-content/uploads/2021/06/cropped-mdm_favicon.jpg"
+    }
+  },
+  "error": null
+}

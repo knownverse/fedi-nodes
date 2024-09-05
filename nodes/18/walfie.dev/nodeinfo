@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.3",
+      "repository": "https://gitlab.com/walfie/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 36,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "walfie.dev",
+      "nodeDescription": "<p>Walfie's personal fediverse instance running Firefish.</p>\n\n<p>Follow on Mastodon, Misskey/Firefish, Akkoma/Pleroma, etc.</p>",
+      "maintainer": {
+        "name": "Walfie",
+        "email": "walfie@walfie.dev"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://gitlab.com/walfie/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#e36273"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 25317,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "うほうほ.life",
+      "nodeDescription": "ゴリラのように強く逞しく生きたい、個人趣味で建ってる小規模インスタンス。\n基本的にホームTLで各々自由気ままに過ごしている\nたまに開放たまに招待",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "https://x.com/nolaji1"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "https://x.com/nolaji1"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://x.com/nolaji1",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#d7e1e5"
+    }
+  },
+  "error": null
+}

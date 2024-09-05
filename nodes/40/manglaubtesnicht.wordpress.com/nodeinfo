@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 353,
+      "localComments": 10894
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Man Glaubt Es Nicht!",
+      "nodeDescription": "Notizen über Religion und andere Esoterik",
+      "nodeIcon": "https://manglaubtesnicht.wordpress.com/wp-content/uploads/2021/09/mgen-profilbild2001-1000px.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+tom"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 11,
+        "activeHalfyear": 12
+      },
+      "localPosts": 84186
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Tomkahe",
+      "nodeDescription": "Glitch-Soc (with some minor tweaks) instance ran out of Columbus, Ohio"
+    }
+  },
+  "error": null
+}

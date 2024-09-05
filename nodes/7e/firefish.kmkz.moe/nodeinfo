@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {},
+      "nodeDescription": "初心者の建てたお一人様サーバーです。\n設定ミスやら何やらで突然落ちたりすると思いますが、他サーバー様にはご迷惑をおかけするかもしれませんが、悪意はないので何卒ご了承下さいませ。",
+      "nodeName": "firefish.kmkz.moe",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 266,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

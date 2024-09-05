@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 48,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Short Circuit Story Time",
+      "nodeDescription": "Brining my short stories alive with the help of AI",
+      "nodeIcon": "https://shortcircuitstorytime.wordpress.com/wp-content/uploads/2024/02/cropped-logger-bot.jpg"
+    }
+  },
+  "error": null
+}

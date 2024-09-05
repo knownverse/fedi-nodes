@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "아이엔골프",
+      "nodeDescription": "아이엔골프, 골프용품점, 1:1 스크린 개인 레슨",
+      "nodeIcon": "https://ingolf0.wordpress.com/wp-content/uploads/2024/04/eca09cebaaa9-ec9786eb8a94-eb9494ec9e90ec9db8-2-1.png"
+    }
+  },
+  "error": null
+}

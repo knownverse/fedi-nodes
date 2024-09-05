@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 620,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sehfahrten",
+      "nodeDescription": "Das Leben, die Fotografie und der ganze Rest",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": "9",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 89,
+      "localComments": 247
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Salesforce Break",
+      "nodeDescription": "Salesforce Made Easy",
+      "nodeIcon": "https://i0.wp.com/salesforcebreak.com/wp-content/uploads/2024/04/Salesforce_emblem_2.png?fit=1001%2C1001&ssl=1"
+    }
+  },
+  "error": null
+}

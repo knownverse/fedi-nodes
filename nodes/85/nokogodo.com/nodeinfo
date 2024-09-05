@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NOKOGODO",
+      "nodeDescription": "Developers of GNOMONIC and Sunshower",
+      "nodeIcon": "https://i0.wp.com/nokogodo.com/wp-content/uploads/2022/07/cropped-NokoGodo-IconZeichenflache-1@3x.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.82-HEAD-d644e837"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "animal.business",
+        "blimps.xyz",
+        "cackl.io",
+        "cyberfurz.social",
+        "dragontavern.social",
+        "earfolds.com",
+        "f.e4.pm",
+        "floofy.tech",
+        "free.gaycatgirl.sex",
+        "hom.ph",
+        "masto.asonix.dog",
+        "mastodon.furrypaws.cc",
+        "poggers.pogcha.mp",
+        "pounced-on.me",
+        "transfur.social"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

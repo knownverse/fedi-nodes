@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 24,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3489,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Growthers",
+      "nodeDescription": "@la が運用するサーバーです.\n",
+      "nodeAdmins": [
+        {
+          "name": "laminet",
+          "email": "info@growthers.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "laminet",
+        "email": "info@growthers.dev"
+      },
+      "langs": [],
+      "tosUrl": "https://laminne.notion.site/4ef75a87088e4a1ab44616959d92f9e6",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Ghost",
+      "themeColor": "#b18cfe"
+    }
+  },
+  "error": null
+}

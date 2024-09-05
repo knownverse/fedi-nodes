@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 16,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "株式会社アリアル",
+      "nodeDescription": "品川区の不動産コンサルタント",
+      "nodeIcon": "https://areal-inc.jp/wp-content/uploads/2020/05/cropped-縦型基本ロゴ（透明）-1.png"
+    }
+  },
+  "error": null
+}

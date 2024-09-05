@@ -1,0 +1,260 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "detroitriotcity.com",
+            "eientei.org",
+            "clew.lol",
+            "poster.place",
+            "norwoodzero.net",
+            "gleasonator.com",
+            "decayable.ink",
+            "varishangout.net",
+            "ryona.agency",
+            "pl.kitsunemimi.club",
+            "shitpost.cloud",
+            "amala.schwartzwelt.xyz",
+            "wolfgirl.bar",
+            "gearlandia.haus",
+            "Spinster.xyz",
+            "seal.cafe",
+            "parcero.bond",
+            "lab.nyanide.com"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "Spinster.xyz": {
+              "reason": "Nasty, pathetic people."
+            },
+            "amala.schwartzwelt.xyz": {
+              "reason": "Trash."
+            },
+            "clew.lol": {
+              "reason": "Trash."
+            },
+            "decayable.ink": {
+              "reason": "Trash."
+            },
+            "detroitriotcity.com": {
+              "reason": "Trash."
+            },
+            "eientei.org": {
+              "reason": "Trash."
+            },
+            "gearlandia.haus": {
+              "reason": "Trash."
+            },
+            "gleasonator.com": {
+              "reason": "Gleason and his sad ilk"
+            },
+            "lab.nyanide.com": {
+              "reason": "Trash."
+            },
+            "norwoodzero.net": {
+              "reason": "Trash."
+            },
+            "parcero.bond": {
+              "reason": "Trash."
+            },
+            "pl.kitsunemimi.club": {
+              "reason": "Trash."
+            },
+            "poa.st": {
+              "reason": "Grotesque."
+            },
+            "poster.place": {
+              "reason": "Trash."
+            },
+            "ryona.agency": {
+              "reason": "Trash."
+            },
+            "seal.cafe": {
+              "reason": "Trash."
+            },
+            "shitpost.cloud": {
+              "reason": "Trash."
+            },
+            "varishangout.net": {
+              "reason": "Trash."
+            },
+            "wolfgirl.bar": {
+              "reason": "Trash."
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "JameTek's Fediverse Server!",
+      "nodeName": "JameTek",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://fedi.jametek.com/users/jamie"
+      ],
+      "uploadLimits": {
+        "general": 36000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 4209
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.11.0-0-ga03f3a9"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

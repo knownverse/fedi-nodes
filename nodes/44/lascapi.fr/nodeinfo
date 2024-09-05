@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 122,
+      "localComments": 73
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "protocols": {
+      "0": "activitypub",
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Lascapi.fr",
+      "nodeDescription": "Cultiver son jardin - informatique, open source, terre et plantes",
+      "nodeIcon": "https://lascapi.fr/wp-content/uploads/2017/07/cropped-LPI-transparent-500-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Una agenda de todos los eventos rebeldes a nivel estatal",
+      "nodeName": "Calendario XR",
+      "nodeLabel": ""
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.5.6"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 309,
+      "users": {
+        "total": 16
+      }
+    }
+  },
+  "error": null
+}

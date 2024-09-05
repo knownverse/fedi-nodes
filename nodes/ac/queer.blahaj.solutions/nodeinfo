@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 3,
+        "activeHalfyear": 4
+      },
+      "localPosts": 298
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "queer solutions by blahaj ",
+      "nodeDescription": "This is a small instance for me and my friends for now. If you know me and want an account here contact me at @kenakapheus@chaos.social"
+    }
+  },
+  "error": null
+}

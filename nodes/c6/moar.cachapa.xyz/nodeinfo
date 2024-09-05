@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 149,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 72250,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Moar Cachapas!",
+      "nodeDescription": "Free speech advocate instance.<br>\nBooty, tata and cunny posting encouraged!<br><br>\nThis is an invite-only instance. If you have mutuals here you can ask them to vouch for an invite, or you can join another instance.",
+      "nodeAdmins": [
+        {
+          "name": "Captain Arepa",
+          "email": "admin@cachapa.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "Captain Arepa",
+        "email": "admin@cachapa.xyz"
+      },
+      "langs": [],
+      "tosUrl": "https://cachapa.xyz/fediverse/terms-of-service/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "CachapaProxy",
+      "themeColor": "#3f3522"
+    }
+  },
+  "error": null
+}

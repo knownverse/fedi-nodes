@@ -1,0 +1,566 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "nicecrew.digital",
+            "hachyderm.io",
+            "gegenstimme.tv",
+            "misskey.io",
+            "gaygeek.social",
+            "mastodonapp.uk",
+            "universeodon.com",
+            "fediverse.blog",
+            "furry.energy",
+            "kinky.business",
+            "toot.blue",
+            "misskey.gg",
+            "cybercuties.net",
+            "cuties.social",
+            "social.wikimedia.de",
+            "mastodon.social",
+            "fediverse.gay",
+            "paravielfalt.zone",
+            "qaf.men",
+            "queer.party",
+            "girldick.gay",
+            "thicc.horse",
+            "masto.ai",
+            "mstdn.social",
+            "queer.cool",
+            "shitposter.club",
+            "threads.net",
+            "www.threads.net",
+            "nekosat.work",
+            "transfem.social",
+            "crimew.gay",
+            "todon.nl",
+            "treehouse.systems",
+            "decayable.ink",
+            "bae.st",
+            "queer-lexikon.net",
+            "gayonly.ch",
+            "gaybdsm.group",
+            "liberdon.com",
+            "mastodon.maechler.cloud",
+            "mastodon.world",
+            "sueden.social",
+            "mastobate.social",
+            "social.treehouse.systems",
+            "mstdn.business",
+            "girlcock.club",
+            "infosec.exchange",
+            "bark.lgbt",
+            "woem.men",
+            "lol.lamp.wtf",
+            "solarpunk.moe",
+            "fandom.garden",
+            "eldritch.cafe",
+            "ludosphere.fr",
+            "g33ks.coffee",
+            "eleph.social",
+            "octodon.social",
+            "horche.demkontinuum.de",
+            "toot.garden",
+            "toot.cat",
+            "rage.love",
+            "soc.webair.xyz",
+            "peculiar.florist",
+            "eepy.moe",
+            "den.raccoon.quest",
+            "soc.jrconlin.com",
+            "lethallava.land",
+            "infosec.town",
+            "mycrowd.ca",
+            "soc.pyrox.dev",
+            "sampleuser.nl",
+            "mstdn.ca",
+            "mastodon.scot",
+            "mas.to",
+            "left-tusk.com",
+            "vmst.io",
+            "fruef.social",
+            "mastodon.guerilla.studio",
+            "www.mastodon.scot",
+            "mastodon.iftas.org",
+            "fedi.kemonomimi.gay",
+            "xim.ca",
+            "meow.woem.cat",
+            "squid.cafe",
+            "social.cu2d.com",
+            "notorious.gay",
+            "gamdev.lgbt",
+            "parcero.bond",
+            "detroitriotcity.com",
+            "witten.social",
+            "mastodon.com.py",
+            "4bear.com",
+            "cyberplace.social",
+            "cooltrans.men",
+            "blahaj.zone",
+            "*.lgbt",
+            "*.gay",
+            "sfba.social",
+            "*.sdf.org",
+            "mastodon.online",
+            "journa.host",
+            "meow.social",
+            "super-gay.co",
+            "baraag.net",
+            "woof.group",
+            "nsfw.social",
+            "chaosfem.tw",
+            "imouto.pics",
+            "transgirl.cafe",
+            "hellspawn.gay"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [
+            "fulda.social",
+            "techhub.social"
+          ],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "rejected_instances": {},
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": true,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "misskey.gg": {
+              "reason": "Dont understand the language sorry"
+            },
+            "parcero.bond": {
+              "reason": "harassment"
+            },
+            "kinky.business": {
+              "reason": "Dick pics"
+            },
+            "fediverse.gay": {
+              "reason": "G"
+            },
+            "cyberplace.social": {
+              "reason": "reverse block"
+            },
+            "threads.net": {
+              "reason": "Fuck Zuckerberg"
+            },
+            "transfem.social": {
+              "reason": "T"
+            },
+            "lol.lamp.wtf": {
+              "reason": "penis"
+            },
+            "nicecrew.digital": {
+              "reason": "Nazi shit"
+            },
+            "qaf.men": {
+              "reason": "G"
+            },
+            "journa.host": {
+              "reason": "political bullshit"
+            },
+            "mastodon.world": {
+              "reason": "Because they blocked me"
+            },
+            "rage.love": {
+              "reason": "None"
+            },
+            "cybercuties.net": {
+              "reason": "G"
+            },
+            "soc.webair.xyz": {
+              "reason": "Heterophobic single user instance"
+            },
+            "hachyderm.io": {
+              "reason": "Nova is an Ukrainian Faschist"
+            },
+            "g33ks.coffee": {
+              "reason": "heterophobia"
+            },
+            "solarpunk.moe": {
+              "reason": "heterophobia"
+            },
+            "furry.energy": {
+              "reason": "T"
+            },
+            "imouto.pics": {
+              "reason": "Die"
+            },
+            "shitposter.club": {
+              "reason": "Shitposting"
+            },
+            "gayonly.ch": {
+              "reason": "Dick pics"
+            },
+            "thicc.horse": {
+              "reason": "dick pics"
+            },
+            "gaygeek.social": {
+              "reason": "Faggots with Dick Pics and Videos"
+            },
+            "witten.social": {
+              "reason": "unmitigated spam"
+            },
+            "octodon.social": {
+              "reason": "None"
+            },
+            "www.threads.net": {
+              "reason": "Fuck Zuckerberg"
+            },
+            "queer.party": {
+              "reason": "G"
+            },
+            "detroitriotcity.com": {
+              "reason": "harassment"
+            },
+            "chaosfem.tw": {
+              "reason": "Trannies"
+            },
+            "eldritch.cafe": {
+              "reason": "heterophobia"
+            },
+            "notorious.gay": {
+              "reason": "G"
+            },
+            "sfba.social": {
+              "reason": "Ukrainian Nazis"
+            },
+            "gegenstimme.tv": {
+              "reason": "Nazis"
+            },
+            "social.cu2d.com": {
+              "reason": "afd"
+            },
+            "mastodon.guerilla.studio": {
+              "reason": "administered by publicly heterophobe"
+            },
+            "mstdn.social": {
+              "reason": "Operated by Ukrainian faschist Stux"
+            },
+            "*.sdf.org": {
+              "reason": "Reverse block"
+            },
+            "misskey.io": {
+              "reason": "Pedophiles"
+            },
+            "liberdon.com": {
+              "reason": "Nazis"
+            },
+            "todon.nl": {
+              "reason": "Idiots"
+            },
+            "queer.cool": {
+              "reason": "Queer is not cool"
+            },
+            "nsfw.social": {
+              "reason": "Gay Sex Videos"
+            },
+            "fedi.kemonomimi.gay": {
+              "reason": "G"
+            },
+            "toot.cat": {
+              "reason": "Anti Hetero Admin"
+            },
+            "mycrowd.ca": {
+              "reason": "single user anti hetero"
+            },
+            "horche.demkontinuum.de": {
+              "reason": "Lost his mind and humanity Server"
+            },
+            "meow.social": {
+              "reason": "gay ass furries"
+            },
+            "eleph.social": {
+              "reason": "heterophobia"
+            },
+            "toot.garden": {
+              "reason": "Hate Speech, Heterophobia, slurs"
+            },
+            "gaybdsm.group": {
+              "reason": "G"
+            },
+            "mastodon.online": {
+              "reason": "Reverse block"
+            },
+            "ludosphere.fr": {
+              "reason": "hate-billies"
+            },
+            "left-tusk.com": {
+              "reason": "Anti Hetero Admin"
+            },
+            "mastobate.social": {
+              "reason": "G, dick pics"
+            },
+            "bae.st": {
+              "reason": "unmoderated Nazis"
+            },
+            "girldick.gay": {
+              "reason": "T"
+            },
+            "decayable.ink": {
+              "reason": "retard"
+            },
+            "transgirl.cafe": {
+              "reason": "T"
+            },
+            "queer-lexikon.net": {
+              "reason": "Q"
+            },
+            "poa.st": {
+              "reason": "Too much racism"
+            },
+            "treehouse.systems": {
+              "reason": "harassment"
+            },
+            "girlcock.club": {
+              "reason": "Do not want"
+            },
+            "social.wikimedia.de": {
+              "reason": "G"
+            },
+            "mastodon.social": {
+              "reason": "Zu viele Schwule und Transen und Dick Pics"
+            },
+            "mastodon.com.py": {
+              "reason": "unmitigated spam"
+            },
+            "baraag.net": {
+              "reason": "Pedophiles"
+            },
+            "paravielfalt.zone": {
+              "reason": "pedos"
+            },
+            "crimew.gay": {
+              "reason": "Retard"
+            },
+            "cuties.social": {
+              "reason": "T"
+            },
+            "hellspawn.gay": {
+              "reason": "G"
+            },
+            "masto.ai": {
+              "reason": "Operated by Ukrainian faschist Stux"
+            },
+            "toot.blue": {
+              "reason": "Dont understand the language sorry"
+            },
+            "super-gay.co": {
+              "reason": "G"
+            },
+            "infosec.exchange": {
+              "reason": "Blocked me"
+            },
+            "universeodon.com": {
+              "reason": "Hetero hating admin"
+            },
+            "nekosat.work": {
+              "reason": "Tranny retard who thinks insulting people is ok"
+            },
+            "woof.group": {
+              "reason": "GAY SEX VIDEOS"
+            },
+            "sueden.social": {
+              "reason": "Weil sie mich geblockt haben"
+            },
+            "mstdn.business": {
+              "reason": "Spam"
+            },
+            "gamdev.lgbt": {
+              "reason": "Calls for other instances to be banned, here have one yourself"
+            },
+            "mastodonapp.uk": {
+              "reason": "Heterophobic Admin"
+            },
+            "fediverse.blog": {
+              "reason": "Spam"
+            },
+            "mastodon.maechler.cloud": {
+              "reason": "Fascho"
+            },
+            "social.treehouse.systems": {
+              "reason": "harassment"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "suggestions": {
+        "enabled": false
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "Wen interessierts?",
+      "nodeName": "social.icod.de",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.icod.de/users/darq"
+      ],
+      "uploadLimits": {
+        "general": 50000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 1267
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

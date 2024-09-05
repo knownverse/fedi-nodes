@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 33,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Equitem",
+      "nodeDescription": "Exploring Limitless Frontiers",
+      "nodeIcon": "https://equitem.blog/wp-content/uploads/2023/10/cropped-cropped-equitem-high-resolution-logo-transparent.png"
+    }
+  },
+  "error": null
+}

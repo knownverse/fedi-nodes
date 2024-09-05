@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 81,
+      "localComments": 33
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Argilus",
+      "nodeDescription": "… countdown...",
+      "nodeIcon": "https://i0.wp.com/argilus.pl/wp-content/uploads/2022/10/cropped-favicon.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

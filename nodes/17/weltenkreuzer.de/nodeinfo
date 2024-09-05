@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 225,
+      "localComments": 327
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Weltenkreuzer",
+      "nodeDescription": "Ein Blick in meinen Zettelkasten",
+      "nodeIcon": "https://weltenkreuzer.de/wp-content/uploads/2017/02/cropped-logo_200.png"
+    }
+  },
+  "error": null
+}

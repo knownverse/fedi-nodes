@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "dolphin",
+      "version": "1.4.0-20231128081000"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "\tねこのみすきー災害伝言板",
+      "nodeDescription": null,
+      "maintainer": {
+        "name": "Nekono Nana KAKKO KARI",
+        "email": ""
+      },
+      "maxNoteTextLength": 500
+    }
+  },
+  "error": null
+}

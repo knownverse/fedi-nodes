@@ -1,0 +1,1317 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "boostwithmeta.com",
+            "boostwithmeta.net",
+            "careersatmeta.net",
+            "curatedbymeta.com",
+            "curatedbymeta.net",
+            "dataforgoodatmeta.com",
+            "dataforgoodatmeta.net",
+            "dataforgoodfrommeta.com",
+            "dataforgoodfrommeta.net",
+            "diversityatmeta.com",
+            "diversityatmeta.net",
+            "expresswififrommeta.com",
+            "expresswififrommeta.net",
+            "facebookfrommeta.net",
+            "horizonfrommeta.com",
+            "horizonfrommeta.net",
+            "instagramfrommeta.com",
+            "instagramfrommeta.net",
+            "jobsatmeta.com",
+            "jobsatmeta.net",
+            "layoutfrommeta.com",
+            "layoutfrommeta.net",
+            "messengerfrommeta.com",
+            "messengerfrommeta.net",
+            "metaboomerang.net",
+            "metaboostleadersnetwork.com",
+            "metaboostleadersnetwork.net",
+            "metaboostyourbusiness.com",
+            "metaboostyourbusiness.net",
+            "metabulletin.us",
+            "metaexpresswifi.net",
+            "metaf8.com",
+            "metaf8.net",
+            "metaf8conference.com",
+            "metaf8conference.net",
+            "metafacebook.name",
+            "metafacebook.tv",
+            "metafacebook.us",
+            "metafacebookcrisisresponse.com",
+            "metafacebookcrisisresponse.net",
+            "metafacebookdating.com",
+            "metafacebookdating.net",
+            "metafacebookdisasterresponse.com",
+            "metafacebookdisasterresponse.net",
+            "metafacebookentertainment.com",
+            "metafacebookentertainment.net",
+            "metafacebookfundraisers.com",
+            "metafacebookfundraisers.net",
+            "metafacebookgroups.com",
+            "metafacebookgroups.net",
+            "metafacebookinfluencers.com",
+            "metafacebookinfluencers.net",
+            "metafacebookinstantarticles.com",
+            "metafacebookinstantarticles.net",
+            "metafacebooklite.com",
+            "metafacebooklite.net",
+            "metafacebooklive.com",
+            "metafacebooklive.net",
+            "metafacebooklocal.com",
+            "metafacebooklocal.net",
+            "metafacebookmarketplace.com",
+            "metafacebookmarketplace.net",
+            "metafacebookprivacy.com",
+            "metafacebookprivacy.net",
+            "metafacebooksports.com",
+            "metafacebooksports.net",
+            "metafacebookstickersz.com",
+            "metafacebookstickersz.net",
+            "metafacebooktownhall.com",
+            "metafacebooktownhall.net",
+            "metafacebookwatch.com",
+            "metafacebookwatch.net",
+            "metafb.name",
+            "metafbgroups.com",
+            "metafbgroups.net",
+            "metafbmarketplace.com",
+            "metafbmarketplace.net",
+            "metafbmarketplace.tv",
+            "metafbmarketplace.us",
+            "metafightcovidmisinfo.com",
+            "metafightcovidmisinfo.net",
+            "metaforcreators.com",
+            "metaforcreators.net",
+            "metafordevelopers.com",
+            "metafordevelopers.net",
+            "metaforeducation.com",
+            "metaforeducation.net",
+            "metaforgovernment.com",
+            "metaforgovernment.net",
+            "metaforgpa.com",
+            "metaforgpa.net",
+            "metafreebasics.com",
+            "metafreebasics.net",
+            "metagpa.com",
+            "metagpa.net",
+            "metagreatdaytovideo.com",
+            "metagreatdaytovideo.net",
+            "metahackforgood.com",
+            "metahackforgood.net",
+            "metahackthefuture.com",
+            "metahackthefuture.net",
+            "metahorizonvenues.com",
+            "metahorizonvenues.net",
+            "metahorizonworkrooms.com",
+            "metahorizonworkrooms.net",
+            "metahorizonworlds.com",
+            "metahorizonworlds.net",
+            "metahouseofinstagram.com",
+            "metahouseofinstagram.net",
+            "metahyperlapse.com",
+            "metahyperlapse.net",
+            "metaigboomerang.com",
+            "metaigboomerang.net",
+            "metaigforcreators.com",
+            "metaigforcreators.net",
+            "metaigreels.com",
+            "metaigreels.net",
+            "metaigtv.com",
+            "metaigtv.net",
+            "metainstagram.name",
+            "metainstagram.tv",
+            "metainstagramboomerang.com",
+            "metainstagramboomerang.net",
+            "metainstagrameng.com",
+            "metainstagrameng.net",
+            "metainstagramforbusiness.com",
+            "metainstagramforbusiness.net",
+            "metainstagramforcreators.com",
+            "metainstagramforcreators.net",
+            "metainstagramhyperlapse.com",
+            "metainstagramhyperlapse.net",
+            "metainstagramlayout.com",
+            "metainstagramlayout.net",
+            "metainstagramreels.com",
+            "metainstagramreels.net",
+            "metainstagramthreads.com",
+            "metainstagramthreads.net",
+            "metainstantarticles.com",
+            "metainstantarticles.net",
+            "metaiqhackthefuture.com",
+            "metaiqhackthefuture.net",
+            "metajournalismaccelerator.com",
+            "metajournalismaccelerator.net",
+            "metajournalismproject.com",
+            "metajournalismproject.net",
+            "metalightweightinterfaces.com",
+            "metalightweightinterfaces.net",
+            "metamarketingpartner.com",
+            "metamarketingpartner.net",
+            "metamarketplace.tv",
+            "metamessenger.com.sg",
+            "metamessenger.name",
+            "metamessenger.tv",
+            "metamessengerbrand.com",
+            "metamessengerbrand.net",
+            "metamessengerbusiness.com",
+            "metamessengerbusiness.net",
+            "metamessengerforbusiness.com",
+            "metamessengerforbusiness.net",
+            "metamessengerkids.com",
+            "metamessengerkids.net",
+            "metamessengerlite.com",
+            "metamessengerlite.net",
+            "metamessengerrooms.com",
+            "metamessengerrooms.net",
+            "metanewproductexperimentation.com",
+            "metanewproductexperimentation.net",
+            "metanewsroom.net",
+            "metanovi.name",
+            "metanovi.tv",
+            "metanovibrand.com",
+            "metanovibrand.net",
+            "metanpe.com",
+            "metanpe.net",
+            "metaoculusdevelopers.com",
+            "metaoculusdevelopers.net",
+            "metaoculusforbusiness.com",
+            "metaoculusforbusiness.net",
+            "metaoculusquest.com",
+            "metaoculusquest.net",
+            "metaoculusstudios.com",
+            "metaoculusstudios.net",
+            "metaoculusvenues.com",
+            "metaoculusvenues.net",
+            "metaopenarts.com",
+            "metaopenarts.net",
+            "metapixelads.com",
+            "metapixelads.net",
+            "metaportal.name",
+            "metaportalbrand.com",
+            "metaportalbrand.net",
+            "metaportalbusiness.com",
+            "metaportalbusiness.net",
+            "metaportalforbusiness.com",
+            "metaportalforbusiness.net",
+            "metaportalgo.com",
+            "metaportalgo.net",
+            "metaportalmini.com",
+            "metaportalmini.net",
+            "metaportalplus.com",
+            "metaportalplus.net",
+            "metaportaltv.com",
+            "metaportaltv.net",
+            "metapytorch.com",
+            "metapytorch.net",
+            "metaquestdevelopers.com",
+            "metaquestdevelopers.net",
+            "metaquestforbusiness.com",
+            "metaquestforbusiness.net",
+            "metaqueststorystudios.com",
+            "metaqueststorystudios.net",
+            "metaqueststudios.com",
+            "metaqueststudios.net",
+            "metaquestvenues.com",
+            "metaquestvenues.net",
+            "metaquestvrforgood.com",
+            "metaquestvrforgood.net",
+            "metaquill.com",
+            "metaquill.net",
+            "metarightsmanager.com",
+            "metarightsmanager.net",
+            "metarightstool.com",
+            "metarightstool.net",
+            "metasalespartners.com",
+            "metasalespartners.net",
+            "metasocialgood.com",
+            "metasocialgood.net",
+            "metasocialimpact.com",
+            "metasocialimpact.net",
+            "metasparkar.com",
+            "metasparkar.net",
+            "metasparkarstudio.com",
+            "metasparkarstudio.net",
+            "metatechprep.com",
+            "metatechprep.net",
+            "metaterragraph.com",
+            "metaterragraph.net",
+            "metatransparency.net",
+            "metatransparencyreport.com",
+            "metatransparencyreport.net",
+            "metavrforgood.com",
+            "metavrforgood.net",
+            "metawhatsapp.tv",
+            "metawhatsappbusiness.com",
+            "metawhatsappbusiness.net",
+            "metawhatsapppayments.com",
+            "metawhatsapppayments.net",
+            "metaworkplace.name",
+            "metaworkplace.tv",
+            "metaworkplacebrand.com",
+            "metaworkplacebrand.net",
+            "metaworkplacechat.com",
+            "metaworkplacechat.net",
+            "metaworkplaceforgood.com",
+            "metaworkplaceforgood.net",
+            "metazerofrictionfuture.com",
+            "metazerofrictionfuture.net",
+            "newsatmeta.com",
+            "newsatmeta.net",
+            "novifrommeta.com",
+            "novifrommeta.net",
+            "portalfrommeta.com",
+            "portalfrommeta.net",
+            "pytorchfrommeta.com",
+            "pytorchfrommeta.net",
+            "questfrommeta.com",
+            "questfrommeta.net",
+            "socialimpactfrommeta.com",
+            "socialimpactfrommeta.net",
+            "whatsappfrommeta.com",
+            "whatsappfrommeta.net",
+            "womenatmeta.com",
+            "womenatmeta.net",
+            "workatmeta.com",
+            "workatmeta.net",
+            "workonmeta.com",
+            "workonmeta.net",
+            "workplacefrommeta.com",
+            "workplacefrommeta.net",
+            "workroomsfrommeta.com",
+            "workroomsfrommeta.net",
+            "threads.net",
+            "threads.instagram.com"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "diversityatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooklite.net": {
+              "reason": "Fuck facebook"
+            },
+            "metanovi.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metaigtv.net": {
+              "reason": "Fuck facebook"
+            },
+            "metawhatsappbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metavrforgood.com": {
+              "reason": "Fuck facebook"
+            },
+            "metapytorch.com": {
+              "reason": "Fuck facebook"
+            },
+            "metasocialimpact.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookdisasterresponse.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookgroups.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusdevelopers.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramforcreators.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessenger.com.sg": {
+              "reason": "Fuck facebook"
+            },
+            "metaigforcreators.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaquill.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebook.name": {
+              "reason": "Fuck facebook"
+            },
+            "facebookfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramforcreators.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusvenues.net": {
+              "reason": "Fuck facebook"
+            },
+            "workatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplacebrand.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamarketingpartner.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerlite.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaigtv.com": {
+              "reason": "Fuck facebook"
+            },
+            "threads.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaopenarts.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerkids.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookstickersz.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerrooms.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaboostyourbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafordevelopers.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramthreads.com": {
+              "reason": "Fuck facebook"
+            },
+            "metanewproductexperimentation.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramreels.com": {
+              "reason": "Fuck facebook"
+            },
+            "metanovibrand.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplace.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metaboostleadersnetwork.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookdating.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaquill.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooklive.com": {
+              "reason": "Fuck facebook"
+            },
+            "whatsappfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooklocal.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalbrand.net": {
+              "reason": "Fuck facebook"
+            },
+            "metasalespartners.com": {
+              "reason": "Fuck facebook"
+            },
+            "metanpe.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaforcreators.net": {
+              "reason": "Fuck facebook"
+            },
+            "metawhatsapppayments.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessenger.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerbrand.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalmini.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaiqhackthefuture.com": {
+              "reason": "Fuck facebook"
+            },
+            "layoutfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metanovi.name": {
+              "reason": "Fuck facebook"
+            },
+            "pytorchfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metalightweightinterfaces.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafbmarketplace.net": {
+              "reason": "Fuck facebook"
+            },
+            "metanpe.com": {
+              "reason": "Fuck facebook"
+            },
+            "questfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerlite.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramlayout.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessenger.name": {
+              "reason": "Fuck facebook"
+            },
+            "metagreatdaytovideo.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestvrforgood.net": {
+              "reason": "Fuck facebook"
+            },
+            "womenatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metarightsmanager.com": {
+              "reason": "Fuck facebook"
+            },
+            "metajournalismaccelerator.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookinfluencers.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookentertainment.net": {
+              "reason": "Fuck facebook"
+            },
+            "dataforgoodatmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaexpresswifi.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookdating.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplacebrand.net": {
+              "reason": "Fuck facebook"
+            },
+            "diversityatmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalplus.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaigreels.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaforcreators.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalforbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerforbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramhyperlapse.net": {
+              "reason": "Fuck facebook"
+            },
+            "messengerfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaforgpa.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaforgovernment.com": {
+              "reason": "Fuck facebook"
+            },
+            "dataforgoodfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metarightstool.net": {
+              "reason": "Fuck facebook"
+            },
+            "questfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaboostleadersnetwork.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestforbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplacechat.com": {
+              "reason": "Fuck facebook"
+            },
+            "metapixelads.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaopenarts.net": {
+              "reason": "Fuck facebook"
+            },
+            "boostwithmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookstickersz.net": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerrooms.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestvenues.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramthreads.net": {
+              "reason": "Fuck facebook"
+            },
+            "dataforgoodfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstantarticles.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaboostyourbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramboomerang.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagram.name": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalgo.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaf8.com": {
+              "reason": "Fuck facebook"
+            },
+            "metarightstool.com": {
+              "reason": "Fuck facebook"
+            },
+            "metasparkarstudio.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaigforcreators.net": {
+              "reason": "Fuck facebook"
+            },
+            "metasalespartners.net": {
+              "reason": "Fuck facebook"
+            },
+            "metasocialgood.net": {
+              "reason": "Fuck facebook"
+            },
+            "instagramfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metanewproductexperimentation.com": {
+              "reason": "Fuck facebook"
+            },
+            "metagpa.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafreebasics.net": {
+              "reason": "Fuck facebook"
+            },
+            "metapixelads.net": {
+              "reason": "Fuck facebook"
+            },
+            "whatsappfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookprivacy.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookfundraisers.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaigboomerang.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaqueststudios.net": {
+              "reason": "Fuck facebook"
+            },
+            "metahackforgood.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafightcovidmisinfo.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramforbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramhyperlapse.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahyperlapse.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "expresswififrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metasocialgood.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaterragraph.com": {
+              "reason": "Fuck facebook"
+            },
+            "horizonfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplaceforgood.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplacechat.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooklite.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusstudios.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaqueststorystudios.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaforeducation.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestdevelopers.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalplus.net": {
+              "reason": "Fuck facebook"
+            },
+            "workroomsfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metasparkar.com": {
+              "reason": "Fuck facebook"
+            },
+            "expresswififrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metatechprep.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaforgpa.net": {
+              "reason": "Fuck facebook"
+            },
+            "metahorizonworlds.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstantarticles.com": {
+              "reason": "Fuck facebook"
+            },
+            "threads.instagram.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahorizonworlds.com": {
+              "reason": "Fuck facebook"
+            },
+            "metanovibrand.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooktownhall.com": {
+              "reason": "Fuck facebook"
+            },
+            "curatedbymeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooktownhall.net": {
+              "reason": "Fuck facebook"
+            },
+            "workplacefrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metatransparencyreport.net": {
+              "reason": "Fuck facebook"
+            },
+            "workatmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramlayout.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafbgroups.net": {
+              "reason": "Fuck facebook"
+            },
+            "workroomsfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusvenues.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookentertainment.com": {
+              "reason": "Fuck facebook"
+            },
+            "metajournalismproject.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafreebasics.com": {
+              "reason": "Fuck facebook"
+            },
+            "metajournalismaccelerator.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafbmarketplace.us": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebook.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metalightweightinterfaces.com": {
+              "reason": "Fuck facebook"
+            },
+            "jobsatmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamarketplace.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerbrand.com": {
+              "reason": "Fuck facebook"
+            },
+            "horizonfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaterragraph.net": {
+              "reason": "Fuck facebook"
+            },
+            "metanewsroom.net": {
+              "reason": "Fuck facebook"
+            },
+            "workonmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "pytorchfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafbmarketplace.tv": {
+              "reason": "Fuck facebook"
+            },
+            "socialimpactfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookinstantarticles.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaiqhackthefuture.net": {
+              "reason": "Fuck facebook"
+            },
+            "metavrforgood.net": {
+              "reason": "Fuck facebook"
+            },
+            "metabulletin.us": {
+              "reason": "Fuck facebook"
+            },
+            "metahorizonvenues.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaforgovernment.net": {
+              "reason": "Fuck facebook"
+            },
+            "metahyperlapse.net": {
+              "reason": "Fuck facebook"
+            },
+            "portalfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaf8conference.net": {
+              "reason": "Fuck facebook"
+            },
+            "newsatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusdevelopers.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaf8.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookwatch.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramforbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaboomerang.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookinfluencers.net": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerforbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafordevelopers.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramboomerang.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooklive.net": {
+              "reason": "Fuck facebook"
+            },
+            "metahackforgood.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportaltv.com": {
+              "reason": "Fuck facebook"
+            },
+            "messengerfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "boostwithmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metasparkar.net": {
+              "reason": "Fuck facebook"
+            },
+            "jobsatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookdisasterresponse.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookmarketplace.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalgo.net": {
+              "reason": "Fuck facebook"
+            },
+            "metagpa.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaforeducation.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahackthefuture.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestdevelopers.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahorizonvenues.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestforbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "metazerofrictionfuture.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "workplacefrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "womenatmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaqueststorystudios.net": {
+              "reason": "Fuck facebook"
+            },
+            "metagreatdaytovideo.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooksports.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalbrand.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahackthefuture.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "instagramfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahorizonworkrooms.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalforbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "metajournalismproject.com": {
+              "reason": "Fuck facebook"
+            },
+            "metawhatsappbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "portalfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metamarketingpartner.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaqueststudios.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookinstantarticles.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookmarketplace.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookcrisisresponse.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusforbusiness.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafbgroups.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaigreels.net": {
+              "reason": "Fuck facebook"
+            },
+            "metasparkarstudio.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusforbusiness.net": {
+              "reason": "Fuck facebook"
+            },
+            "curatedbymeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookprivacy.com": {
+              "reason": "Fuck facebook"
+            },
+            "metapytorch.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafbmarketplace.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagram.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusquest.net": {
+              "reason": "Fuck facebook"
+            },
+            "socialimpactfrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "workonmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooklocal.com": {
+              "reason": "Fuck facebook"
+            },
+            "metahouseofinstagram.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaf8conference.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplace.name": {
+              "reason": "Fuck facebook"
+            },
+            "metawhatsapp.tv": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusquest.com": {
+              "reason": "Fuck facebook"
+            },
+            "metasocialimpact.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaportaltv.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagramreels.net": {
+              "reason": "Fuck facebook"
+            },
+            "metahorizonworkrooms.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestvenues.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookcrisisresponse.net": {
+              "reason": "Fuck facebook"
+            },
+            "metawhatsapppayments.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaworkplaceforgood.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaoculusstudios.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaportal.name": {
+              "reason": "Fuck facebook"
+            },
+            "metatechprep.com": {
+              "reason": "Fuck facebook"
+            },
+            "metatransparency.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaquestvrforgood.com": {
+              "reason": "Fuck facebook"
+            },
+            "careersatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafb.name": {
+              "reason": "Fuck facebook"
+            },
+            "metazerofrictionfuture.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookgroups.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafightcovidmisinfo.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebook.us": {
+              "reason": "Fuck facebook"
+            },
+            "metamessengerkids.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookwatch.com": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebookfundraisers.net": {
+              "reason": "Fuck facebook"
+            },
+            "metafacebooksports.com": {
+              "reason": "Fuck facebook"
+            },
+            "metaportalmini.net": {
+              "reason": "Fuck facebook"
+            },
+            "metaigboomerang.com": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagrameng.com": {
+              "reason": "Fuck facebook"
+            },
+            "dataforgoodatmeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metainstagrameng.net": {
+              "reason": "Fuck facebook"
+            },
+            "metahouseofinstagram.net": {
+              "reason": "Fuck facebook"
+            },
+            "novifrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "layoutfrommeta.net": {
+              "reason": "Fuck facebook"
+            },
+            "metatransparencyreport.com": {
+              "reason": "Fuck facebook"
+            },
+            "newsatmeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "novifrommeta.com": {
+              "reason": "Fuck facebook"
+            },
+            "metarightsmanager.net": {
+              "reason": "Fuck facebook"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "Pleroma: An efficient and flexible fediverse server",
+      "nodeName": "Pleroma/unx",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.unx.pw/users/11backslashes"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 128000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.3"
+    },
+    "usage": {
+      "localPosts": 1894,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 65,
+      "localComments": 437
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Open Mentions",
+      "nodeDescription": "Having excellent discussions using the open web",
+      "nodeIcon": "https://openmentions.com/wp-content/uploads/2022/06/cropped-openmentipns-coffeshop-edition.png"
+    }
+  },
+  "error": null
+}

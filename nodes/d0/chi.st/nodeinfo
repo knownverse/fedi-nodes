@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "chi.st",
+      "nodeDescription": "For rebels, naysayers and mischief-makers",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 10,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 29
+      },
+      "localPosts": 246
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

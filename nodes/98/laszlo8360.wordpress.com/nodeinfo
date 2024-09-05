@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 508,
+      "localComments": 34
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Varga Laci",
+      "nodeDescription": "THIS WEBSITE HAS MOVED &gt;&gt;&gt; LASZLO8360.COM",
+      "nodeIcon": "https://laszlo8360.wordpress.com/wp-content/uploads/2017/11/cropped-cropped-wp_20130607_001.jpg"
+    }
+  },
+  "error": null
+}

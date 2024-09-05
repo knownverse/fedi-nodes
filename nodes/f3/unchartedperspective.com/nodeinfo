@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 216,
+      "localComments": 35
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Uncharted Perspective",
+      "nodeDescription": "At the frontier of thought",
+      "nodeIcon": "https://i0.wp.com/unchartedperspective.com/wp-content/uploads/2024/05/Logo.png?fit=1024%2C1024&ssl=1"
+    }
+  },
+  "error": null
+}

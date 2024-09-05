@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3140,
+      "localComments": 1078
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LA AGENCIA MUNDIAL DE PRENSA  ",
+      "nodeDescription": "Organización Mundial de Líderes de la Comunicación y Prensa. Gestión de Noticias e Información Objetiva, Veraz, Cultural, Educativa. &quot;TU PUNTO DE ENCUENTRO CON LA VERDAD&quot;. World Organization of Leaders in Communication and Press, News Management and Objective Information Truthful, Cultural, Educational. &quot;YOUR POINT OF MEETING WITH THE TRUTH&quot;",
+      "nodeIcon": "https://agenciamundialdeprensa.com/wp-content/uploads/2019/09/atreveteampdeoriginal2019.png"
+    }
+  },
+  "error": null
+}

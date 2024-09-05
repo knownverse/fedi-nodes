@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 125,
+      "localComments": 167
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bijesh Mishra, Ph.D.",
+      "nodeDescription": "Post-doctoral Fellow | Economic Modeling | Auburn University |",
+      "nodeIcon": "https://bijeshmishra.com/wp-content/uploads/2023/07/cropped-picture-portrait1-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Vous êtes sur le tout premier site collaboratif qui permet de partager des idées de sortie à faire avec des enfants.\nSans publicité, sans collecte de données, ce site est fait pour apporter aux familles bien-être, divertissement, épanouissement, découverte et joie.  Partagez vos coups de coeur, vos bonnes expériences, ce que vous trouvez fun et fait bouger.  Libérez-vous de la routine un moment, prenez le temps de découvrir votre quartier: émerveillement, amitiés et apprentissages se trouvent certainement au coin de la rue.  Il suffit d'un peu de curiosité et d'ouverture aux autres.\nLa vie est belle en famille, profitez-en!",
+      "nodeName": "Keskonfai Kids"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "2.0.2"
+    },
+    "usage": {
+      "localComments": 13,
+      "localPosts": 720,
+      "users": {
+        "total": 271
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

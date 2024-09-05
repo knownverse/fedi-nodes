@@ -1,0 +1,186 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "2.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 16
+      },
+      "localPosts": 104,
+      "localComments": 3
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "PeerTube",
+      "nodeDescription": "PeerTube, an ActivityPub-federated video streaming platform using P2P directly in your web browser.",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": []
+        },
+        "theme": {
+          "registered": [
+            {
+              "name": "bittube-light-mode",
+              "version": "2.3.0",
+              "description": "BitTube light theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "bittube-dark-mode",
+              "version": "2.0.0",
+              "description": "BitTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ],
+          "default": "bittube-light-mode"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": false
+          },
+          "webtorrent": {
+            "enabled": true
+          },
+          "enabledResolutions": [
+            0,
+            240,
+            360,
+            480,
+            720
+          ]
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": false
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 2097152
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".jpg",
+              ".jpeg"
+            ],
+            "size": {
+              "max": 2097152
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".mp4",
+              ".mov",
+              ".avi",
+              ".flv",
+              ".mkv",
+              ".m4v",
+              "null",
+              ".mp3",
+              ".ogg",
+              ".wma",
+              ".wav",
+              ".flac"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 2097152
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 5368709120,
+          "videoQuotaDaily": 5368709120
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

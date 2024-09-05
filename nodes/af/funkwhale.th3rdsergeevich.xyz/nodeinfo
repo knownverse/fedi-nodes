@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.3.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.th3rdsergeevich.xyz/federation/actors/service",
+      "private": false,
+      "shortDescription": "Коллекция треков, миксов, мэшапов и звукозаписей от Тр3тьего Сергеевича",
+      "longDescription": "**TS3**: Добро пожаловать в мою аудиокладовку! Это (пока что) однопользовательский инстанс Funkwhale, куда я буду складывать любимые треки, а также ремиксы, мэшапы и звукозаписи, которые я делаю сам время от времени.",
+      "rules": "- **Ой, давайте только не здесь.** Материал сексуального, политического характера на данном узле публикуется только с пометкой sensitive.\r\n- **...Таков закон.** Запрещено распространение материалов, нарушающих законодательство страны-местоположения хостинга (Румынии).",
+      "contactEmail": "th3rdsergeevich@proton.me",
+      "terms": "- **Делайте что хотите, главное -  чтоб скучно не было.** Весь звуковой материал за авторством владельца инстанса публикуется под лицензией Creative Commons (CC) BY-NC-SA 4.0, если не оговорено иное. Это значит: материал можно использовать и модифицировать в некоммерческих целях с ссылкой на автора и на схожих условиях.\r\n- **Моя кладовка - мне и отвечать.** Ответственность за хранение и распространение звукового материала лежит полностью на владельце инстанса.\r\n- **Я выложу вашу песню, но обязательно сошлюсь на вас, потому что я не засранец.** Использование стороннего звукового материала допускается только с атрибуцией, т.е. при размещении обязательно указывается оригинальный автор и ссылка на его ресурсы.\r\n- **Как языковая модель, я обладаю стандартами.** Материал, созданный при помощи нейронных сетей, маркируется соответствующим образом и сопровождается описанием используемой модели и (по возможности) ссылкой на ее лицензию.",
+      "nodeName": "Аудиокладовка Сергеевича",
+      "banner": null,
+      "defaultUploadQuota": 10000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 173
+        },
+        "artists": {
+          "total": 43
+        },
+        "albums": {
+          "total": 17
+        },
+        "music": {
+          "hours": 253.84027777777777
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1
+          }
+        },
+        "listenings": {
+          "total": 214
+        },
+        "downloads": {
+          "total": 1001
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 89,
+      "localComments": 490
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "All my cameras",
+      "nodeDescription": "My collection of (mostly) vintage cameras",
+      "nodeIcon": "https://all-my-cameras.com/wp-content/uploads/2017/08/cropped-47cdc5e2afaa11e18bb812313804a181_7.jpg"
+    }
+  },
+  "error": null
+}

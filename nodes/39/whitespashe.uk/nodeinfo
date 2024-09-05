@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4221
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Whitespashe Mastodon",
+      "nodeDescription": "Whitespashe is named after the admin's first coding project, which replaced spaces within a Word document with non-printable characters, fooling plagiarism detection sites such as Turnitin. "
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "tksm",
+      "version": "1.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "usage": {},
+    "metadata": {
+      "private": false,
+      "nodeName": "tksm",
+      "nodeDescription": "hello world.",
+      "maintainer": {
+        "name": "tksm",
+        "email": "support@2ko.moe"
+      },
+      "langs": [
+        "en"
+      ],
+      "tosUrl": "https://2ko.moe/legal/terms-of-service",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 10000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "themeColor": "#a29bfe"
+    }
+  },
+  "error": null
+}

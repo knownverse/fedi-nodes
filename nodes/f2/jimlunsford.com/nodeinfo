@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 92,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JIM LUNSFORD",
+      "nodeDescription": "Empowering Resilience | Inspiring Transformation",
+      "nodeIcon": "https://i0.wp.com/jimlunsford.com/wp-content/uploads/2024/06/cropped-good-headshot-of-me.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

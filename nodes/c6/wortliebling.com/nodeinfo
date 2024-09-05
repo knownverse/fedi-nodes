@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 266,
+      "localComments": 535
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ẄORTliebling.com",
+      "nodeDescription": "Aus Liebe zum Wort.",
+      "nodeIcon": "https://wortliebling.com/wp-content/uploads/2024/09/photoroom-20240716_1220382225204010403493271-e17211309523204200253625544641634.png"
+    }
+  },
+  "error": null
+}

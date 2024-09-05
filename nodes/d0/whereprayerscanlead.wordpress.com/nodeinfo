@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Cluttered Mind of Sebastian Baker",
+      "nodeDescription": "Random stuff, reading, writing, gaming, life, sheets and giggles.",
+      "nodeIcon": "https://whereprayerscanlead.wordpress.com/wp-content/uploads/2024/01/smiley.jpg"
+    }
+  },
+  "error": null
+}

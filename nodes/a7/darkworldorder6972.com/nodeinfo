@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "View of a Vampire by Syxx Von Dragula",
+      "nodeDescription": "Horror Paranormal Witches Bigfoot Ghosts Hauntings Werewolves Vampires",
+      "nodeIcon": "https://darkworldorder6972.com/wp-content/uploads/2024/03/cropped-da38sad.jpg"
+    }
+  },
+  "error": null
+}

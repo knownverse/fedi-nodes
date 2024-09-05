@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 326,
+      "localComments": 120
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bluesactu.com",
+      "nodeDescription": "Le webzine du blues actuel depuis 1995",
+      "nodeIcon": "https://i0.wp.com/bluesactu.com/wp-content/uploads/2024/05/favicon.png?fit=320%2C320&ssl=1"
+    }
+  },
+  "error": null
+}

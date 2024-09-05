@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "YUM TA DAM",
+      "nodeDescription": "Yum Ta Dam: Where culinary innovation meets the power of AI. Explore a world of delightful recipes crafted with creativity, tested with passion, and shared with a dash of humor.",
+      "nodeIcon": "https://yumtadam.com/wp-content/uploads/2024/01/site-logo.png"
+    }
+  },
+  "error": null
+}

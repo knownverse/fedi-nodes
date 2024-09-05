@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 200,
+      "localComments": 894
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Brno Hat",
+      "nodeDescription": "Jiri Eischmann&#039;s Blog",
+      "nodeIcon": "https://enblog.eischmann.cz/wp-content/uploads/2023/10/me-mastodon-circle.webp"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 289,
+      "localComments": 635
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Andrew E. Scott",
+      "nodeDescription": "It&#039;s all about me, really.",
+      "nodeIcon": "https://aes.id.au/wp-content/uploads/2023/11/cropped-headshot_512x512.jpg"
+    }
+  },
+  "error": null
+}

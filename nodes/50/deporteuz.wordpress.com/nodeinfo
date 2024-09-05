@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Deporte UZ",
+      "nodeDescription": "Adéntrate en el fascinante universo del deporte",
+      "nodeIcon": "https://deporteuz.wordpress.com/wp-content/uploads/2023/12/cropped-deportes-unzar-logo-jjejej-1.png"
+    }
+  },
+  "error": null
+}

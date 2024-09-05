@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 295,
+      "localComments": 1402
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sharon A. Hill",
+      "nodeDescription": "Strange Claims Adjuster",
+      "nodeIcon": "https://i0.wp.com/sharonahill.com/wp-content/uploads/2022/03/cropped-b07ed-skull-rock-red-e1647194556168.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

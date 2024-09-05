@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13483,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "BINAH.blue",
+      "nodeDescription": "ビナーくんの話をするサーバーです。\n\n絵文字にスタンプが多いのでカスタムCSSは下の設定がおすすめ。\n参考元：　https://misskey.io/notes/9gksqo74g4\n\n/* リアクションを大きく表示 */\n.xlT1y .x5kTm,\n.xlT1y .xagin {\n    height: 7rem !important;\n}\n\n.xlT1y .xDpSv {\n    font-size: 1.5rem !important;\n    vertical-align: 0.35rem !important;\n}\n/* 絵文字ホバー時に大きく表示*/\n.x48yH .xeJ4G:hover {\n    transform: scale(4) !important;\n}",
+      "nodeAdmins": [
+        {
+          "name": "binah",
+          "email": "baika3821@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "binah",
+        "email": "baika3821@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "accountcreatetest",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

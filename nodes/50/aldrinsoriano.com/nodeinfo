@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 95,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Aldrin Soriano",
+      "nodeDescription": "The Official Website of Councilor Aldrin Soriano of Mangaldan, Pangasinan",
+      "nodeIcon": "https://aldrinsoriano.com/wp-content/uploads/2021/10/cropped-244476345_10226626087386860_3690272813495889024_n.jpeg"
+    }
+  },
+  "error": null
+}

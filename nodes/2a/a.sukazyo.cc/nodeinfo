@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 129,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Mekoshop - 技术测试中",
+      "nodeDescription": "<p><b>由 <u>Sukazyo Workshop</u> 支持的 Misskey<small style=\"opacity: 0.4;\">(ActivityPub)</small> 实例！</b></p>\n<div style=\"margin: 1.4rem; padding: 1rem; border-radius: 1rem; box-shadow: 0px 4px 17px #0000000f;\">\n<p>\n<b style=\"color: orange;\">正在进行技术测试当中</b><br>\n<small style=\"opacity: 0.6\">检查 <a href=\"/@master/notes\">@master@a.sukazyo.cc</a> 获取实例准备进展</small>\n</p>\n<small>\n<p>站点暂时开放注册，但很多东西都没有准备完全。</p>\n<p>如果想要注册的话，可能你需要一些前端调试技术（比如清理缓存）来确定不会被技术调整的缓存污染。</p>\n<p>同时也注意...可能存在的删档问题...</p>\n</small>\n</div>\n<p>用于 Sukazyo Workshop 官方播报，为工房成员提供栖息之地，或者，pretty much something——</p>",
+      "maintainer": {
+        "name": "Mekoshop - Maintain & Report",
+        "email": "icee@sukazyo.cc"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#f9c3c3"
+    }
+  },
+  "error": null
+}

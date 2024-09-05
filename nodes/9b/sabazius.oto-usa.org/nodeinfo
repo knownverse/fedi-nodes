@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 256,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Invisible Basilica of Sabazius",
+      "nodeDescription": "Essays, speeches, commentary, and rituals by the National Grand Master of OTO USA",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

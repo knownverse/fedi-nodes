@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 0,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "br0ken",
+      "nodeDescription": "The internet is br0ken. Everything else, too"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1014,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Poetta News",
+      "nodeDescription": "Baixar Músicas",
+      "nodeIcon": "https://poetta.news.blog/wp-content/uploads/2023/07/cropped-logo-portal-poetta-news-novo-circulo.png"
+    }
+  },
+  "error": null
+}

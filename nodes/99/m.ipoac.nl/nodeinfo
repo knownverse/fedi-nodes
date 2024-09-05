@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 128
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "ipoac.nl",
+      "nodeDescription": "This instance is hosted on a server in my living room.\r\n\r\nRegistrations are open."
+    }
+  },
+  "error": null
+}

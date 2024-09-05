@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "marcel@aufentha.lt",
+        "name": "Marcel Keienborg"
+      },
+      "nodeDescription": "Eine Instanz, sie zu knechten, sie alle zu finden,\nIns Dunkel zu treiben und ewig zu binden\n\nOne instance to rule them all, One instance to find them,\nOne instance to bring them all and in the darkness bind them",
+      "nodeName": "social.aufentha.lt",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 300,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

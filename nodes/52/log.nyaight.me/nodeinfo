@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "microblogpub",
+      "version": "2.0.0+dev+nyt",
+      "repository": "https://github.com/NyaightHazard/log.nyaight.me.git",
+      "homepage": "https://docs.microblog.pub"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 105
+    },
+    "metadata": {
+      "nodeName": "room#N/B log.",
+      "nodeDescription": "いろんなことをしたり見たりしてる人<br>あることないこと日記に書いていく<br>気まぐれに更新中...<br>Mi.io: <a href='https://misskey.io/@Nyaight_Hazard'><strong>@Nyaight_Hazard</strong>@misskey.io</a><br><a href='https://links.nyaight.me/'>🔗リンクまとめ</a> | <a href='https://nyaight.me/ja/'>🏠ホームページ</a>",
+      "maintainer": {
+        "name": "NyaightHazard",
+        "email": "https://links.nyaight.me/"
+      },
+      "langs": [
+        "ja",
+        "en"
+      ],
+      "repositoryUrl": "https://github.com/NyaightHazard/log.nyaight.me.git",
+      "disableRegistration": true,
+      "themeColor": "#FFFBF0"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "kitsune",
+      "version": "0.0.1-pre.1-39c9126",
+      "repository": "https://github.com/kitsune-soc/kitsune",
+      "homepage": "https://joinkitsune.org"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8,
+      "localComments": null
+    },
+    "metadata": null
+  },
+  "error": null
+}

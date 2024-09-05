@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 73,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "مها سعيد",
+      "nodeDescription": "كاتب مصري غير روائي ",
+      "nodeIcon": "https://mahasaied.com/wp-content/uploads/2024/02/d984d988d8acd988-d985d8afd988d986d8a9-d8b9d982d984d8a9-d8a7d984d8a7d8b5d8a8d8b9-d98ad982d988d984-d985d987d8a7-d8b3d8b9d98ad8af-d983d8a7d8aad8a8-d985d8b5d8b1d98a-d8bad98ad8b1-d8b1d988d8a7.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,258 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "5.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 3
+      },
+      "localPosts": 94357,
+      "localComments": 0
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "Go3.site",
+      "nodeDescription": "PeerTube, an ActivityPub-federated video streaming platform using P2P directly in your web browser.",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": true,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-svt-av1-psy",
+              "name": "svt-av1-psy",
+              "version": "0.5.7",
+              "description": "Adds SVT-AV1-PSY transcoding profile with loudnorm. Uses 8-bit for compatibility. Available settings: max bitrate per resolution, SVT-AV1 presets, CRF. Requires custom ffmpeg build with SVT-AV1-PSY, check plugins repo for additional info.",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-georegister",
+              "name": "georegister",
+              "version": "0.0.5",
+              "description": "PeerTube plugin for allowing registration depending on ip countries",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-ncd-sell-storage",
+              "name": "ncd-sell-storage",
+              "version": "1.1.2",
+              "description": "NCD fork of the peertube-plugin-orion-sell-storage to sell storage to users using Stripe",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-transcoding-custom-quality",
+              "name": "transcoding-custom-quality",
+              "version": "0.1.0",
+              "description": "Set a custom quality for transcoding",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-embed",
+              "name": "embed",
+              "version": "1.0.1",
+              "description": "PeerTube plugin to privately embed videos for multiple domains, improved ui",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-label-pur",
+              "name": "label-pur",
+              "version": "0.0.2",
+              "description": "A PeerTube plugin that shows your instance Promotes and Uses Redundancy to help the PeerTube network",
+              "clientScripts": {
+                "client/common-client-plugin-out.js": {
+                  "script": "client/common-client-plugin-out.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-fsntube-dark-mode",
+              "name": "fsntube-dark-mode",
+              "version": "3.0.2",
+              "description": "FSNTube dark theme based on the BitTube dark theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            }
+          ],
+          "default": "fsntube-dark-mode"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": false
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "webtorrent": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            480
+          ]
+        },
+        "live": {
+          "enabled": false,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": []
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": true
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": false
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": -1,
+          "videoQuotaDaily": -1
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

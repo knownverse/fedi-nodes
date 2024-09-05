@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KARE&#039;S MEMORIAL TRIBUTES",
+      "nodeDescription": "Beautiful Things",
+      "nodeIcon": "https://karesfloralsandcraftsmemorialtributes.wordpress.com/wp-content/uploads/2024/01/cropped-fireshot-capture-337-karesfloralandcrafts-40kbe_farms-e280a2-instagram-photos-and-videos_-www.instagram.com_.png"
+    }
+  },
+  "error": null
+}

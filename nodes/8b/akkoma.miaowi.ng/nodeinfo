@@ -1,0 +1,281 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "ai.wiki"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "lolison.top",
+            "natehiggers.online",
+            "lolis.world",
+            "kisslolis.com",
+            "kisslolis.moe",
+            "mastodong.lol",
+            "lolison.network",
+            "loli.best",
+            "lolic.at",
+            "lolicon.win",
+            "retardedniggers.forsale",
+            "hatesnigge.rs",
+            "niggers.auction",
+            "loli.church",
+            "rapemeat.express",
+            "fursuit.me",
+            "qaf.men",
+            "catswords.social",
+            "workers.dev",
+            "ngrok.io",
+            "pub.instances.scw.cloud",
+            "cloudapp.azure.com",
+            "gitpod.io",
+            "cloud.okteto.net",
+            "cloud.scaleway.com",
+            "cloudplane.app",
+            "openshiftapps.com",
+            "nrk.cloud",
+            "localhost.run",
+            "rsc.cdn77.org",
+            "vps.ovh.ca",
+            "ngrok-free.app",
+            "amazonaws.com",
+            "deno.dev",
+            "asbestos.cafe",
+            "the.asbestos.cafe"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "ai.wiki": {
+              "reason": "cryptocurrency scams"
+            }
+          },
+          "reject": {
+            "amazonaws.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "catswords.social": {
+              "reason": "non english"
+            },
+            "cloud.okteto.net": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "cloud.scaleway.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "cloudapp.azure.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "cloudplane.app": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "deno.dev": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "gitpod.io": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "localhost.run": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "lolison.top": {
+              "reason": "obvious"
+            },
+            "natehiggers.online": {
+              "reason": "obvious"
+            },
+            "ngrok-free.app": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "ngrok.io": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "nrk.cloud": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "openshiftapps.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "pub.instances.scw.cloud": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "rsc.cdn77.org": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "vps.ovh.ca": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "workers.dev": {
+              "reason": "dynamically allocated hostnames and/or spin-up-spin-down short-lived servers"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "miaowi.ng // birb's akkoma instance",
+      "nodeName": "miaowi.ng",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": false,
+        "local": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://akkoma.miaowi.ng/users/birb"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 50000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.10.2-0-gba1ed37"
+    },
+    "usage": {
+      "localPosts": 649,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 3,
+        "total": 4
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

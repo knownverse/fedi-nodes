@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "momostr",
+      "version": "0.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "momostr.pink",
+      "nodeDescription": "A WIP bridge between Nostr and Fediverse.",
+      "langs": [],
+      "themeColor": "#ff549e"
+    }
+  },
+  "error": null
+}

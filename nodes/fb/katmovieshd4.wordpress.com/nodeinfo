@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 91,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "katmovieshd",
+      "nodeDescription": "Katmovieshd : Watch &amp; Dpwnload Hollywood Movie &amp; Tv Series in Hindi Dubbed, Dual-Audio : All Hollywood movies, Adult 18+ Film, Tv shows , Korean-drama Series in Hindi Dubbed + English Subtitles : Chinese c-drama Tv Series | Animation | 4k 2160p 1080p 720p 480p hd hevc 10bit | x264 | genres: action, horror, thriller, sci- fi, bollywood, free download",
+      "nodeIcon": "https://katmovieshd4.wordpress.com/wp-content/uploads/2024/04/cropped-katmoviehd.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ONIZE RADIO",
+      "nodeDescription": "Una radio de musica electronica",
+      "nodeIcon": "https://onizeradio.wordpress.com/wp-content/uploads/2019/07/cropped-pexels-photo-2651794.jpeg"
+    }
+  },
+  "error": null
+}

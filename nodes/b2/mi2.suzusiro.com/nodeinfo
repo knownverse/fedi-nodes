@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1240,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みもすそ川(β)",
+      "nodeDescription": "<center>倭姫命が御裳のすその汚れを濯いだという伝説があり、御裳濯川（みもすそがわ）の異名を持つ。<br>\n古くから清流とされ、和歌にも多く歌われた。 <br>\n\n<br>\n参考文献：<br>\n「五十鈴川 - Wikipedia」<br>\nhttps://w.wiki/ALfQ</center>\n<br>\n<small><small><small><small><small><small>こちらは<span style=”color:red;”>お一人様サーバー</span>です。<br>\nFediverse内の別サーバーからリモートでどうぞ…！</small></small></small></small></small></small>",
+      "nodeAdmins": [
+        {
+          "name": "五十鈴",
+          "email": "tsugarunbeat@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "五十鈴",
+        "email": "tsugarunbeat@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "misskey.io/@50sz",
+      "impressumUrl": "misskey.io/@50sz",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#850c50"
+    }
+  },
+  "error": null
+}

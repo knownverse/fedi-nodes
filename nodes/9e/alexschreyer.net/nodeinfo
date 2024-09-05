@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 331,
+      "localComments": 1093
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "[as]",
+      "nodeDescription": "Alex Schreyer&#039;s Blog, Projects, Books, and More",
+      "nodeIcon": "https://i0.wp.com/alexschreyer.net/wp-content/uploads/2020/07/cropped-favicon-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

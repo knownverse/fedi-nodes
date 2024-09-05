@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 25,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Read with Keshav",
+      "nodeDescription": "Words Unbound: Celebrating Books, Crafting Stories",
+      "nodeIcon": "https://readwithkeshav.com/wp-content/uploads/2021/03/3d_books_stacked_picture_166357.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 644,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kulturwerkstatt e.V. Reutlingen",
+      "nodeDescription": "Jugendkulturarbeit | Medienpädagogik | Jugendsozialarbeit",
+      "nodeIcon": "https://kulturwerkstatt.de/wp-content/uploads/2021/03/ms-icon-310x310-1.png"
+    }
+  },
+  "error": null
+}

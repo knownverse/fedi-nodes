@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-03-05+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 774
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Bene Homini Social",
+      "nodeDescription": "A community for people interested in long-term thinking that benefits everyone."
+    }
+  },
+  "error": null
+}

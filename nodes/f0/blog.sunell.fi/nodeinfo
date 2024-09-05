@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 542,
+      "localComments": 833
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Totuus",
+      "nodeDescription": "Matti Sunellin blogi",
+      "nodeIcon": "https://blog.sunell.fi/wp-content//2019/11/cropped-img033-poster-neliö.png"
+    }
+  },
+  "error": null
+}

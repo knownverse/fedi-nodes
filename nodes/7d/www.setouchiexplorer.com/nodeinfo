@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1086,
+      "localComments": 2143
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Setouchi Explorer",
+      "nodeDescription": "Japanese Islands, Art and more...",
+      "nodeIcon": "https://www.setouchiexplorer.com/wp-content/uploads/2014/03/cropped-cropped-Setouchi-Explorer-Logo-512x512-circle.png"
+    }
+  },
+  "error": null
+}

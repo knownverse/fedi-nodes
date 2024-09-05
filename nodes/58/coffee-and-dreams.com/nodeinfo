@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 32,
+      "localComments": 11
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "First, Coffee. Then, Go Forth &amp; Inspire!",
+      "nodeDescription": "Embark on a journey where coffee, leadership, and digital marketing converge seamlessly under one umbrella.",
+      "nodeIcon": "https://coffee-and-dreams.com/wp-content/uploads/2024/04/cropped-image_67207425-1.jpg"
+    }
+  },
+  "error": null
+}

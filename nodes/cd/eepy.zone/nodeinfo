@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "lockpick",
+      "version": "2024.8.31.dev5",
+      "homepage": "https://git.gay/blueb/Lockpick",
+      "repository": "https://git.gay/blueb/Lockpick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 71,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 28211,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "eepy.zone",
+      "nodeDescription": "A small and silly semi-public Lockpick instance for silly creatures. For more information see https://eepy.zone/@blueb/pages/info.",
+      "nodeAdmins": [
+        {
+          "name": "blueb",
+          "email": "ihateblueb@proton.me"
+        }
+      ],
+      "maintainer": {
+        "name": "blueb",
+        "email": "ihateblueb@proton.me"
+      },
+      "langs": [],
+      "tosUrl": "https://eepy.zone/@blueb/pages/info",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://git.gay/blueb/Lockpick",
+      "feedbackUrl": "https://git.gay/blueb/Lockpick/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 10000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#251f2b"
+    }
+  },
+  "error": null
+}

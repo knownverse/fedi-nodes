@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 424,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 299356,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Warpday.net 只今招待制",
+      "nodeDescription": "初心者向けサーバー。\n「怠い」「役所の手続きめんどくさい」とか気兼ねなく言えるローカルです。\n年齢層高めで落ち着いています。\n管理人と一緒にFediverse手探りしてくれる気の長い方、お待ちしております。\nwarpday.net",
+      "nodeAdmins": [
+        {
+          "name": "れいゔぇん",
+          "email": "https://blog.warpday.net"
+        }
+      ],
+      "maintainer": {
+        "name": "れいゔぇん",
+        "email": "https://blog.warpday.net"
+      },
+      "langs": [],
+      "tosUrl": "https://blog.warpday.net/2022/12/termsofservicev1.html",
+      "privacyPolicyUrl": "https://blog.warpday.net/2022/12/privacypolicyv1.html",
+      "inquiryUrl": "https://blog.warpday.net",
+      "impressumUrl": "https://blog.warpday.net",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "System_agent",
+      "themeColor": "#8FBC8F"
+    }
+  },
+  "error": null
+}

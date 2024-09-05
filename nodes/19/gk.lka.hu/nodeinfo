@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.3.3"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 258,
+      "localComments": 1539
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    }
+  },
+  "error": null
+}

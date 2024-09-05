@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Escuelas democráticas en red",
+      "nodeDescription": "Experiencias de Innovación presentes en Escuelas que promueven la justicia escolar y las prácticas democraticas de enseñanza y aprendizaje",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

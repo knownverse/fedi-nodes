@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 219,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 224125,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みゃみーすきー！",
+      "nodeDescription": "自宅サーバーからこんにちは！\n大手のサーバーを使いたくないという一心から立ててしまったサーバーです。\n\n日本の法律に違反しなければ何でもいいよ・・・\n\n最近お客さんがちらほらみえるので・・・\nチュートリアル\n1.\nまずは登録したら@myamiを検索して管理人をフォローするにゃ！\nサーバー管理情報が流れてくるかもしれないから要チェックにゃ！\n2.\n星のタイムラインやトレンドを使ってのーとを流し見してくるにゃ！\n3.\nアンテナに好きなものを登録して話題をキャッチするにゃ\n例：ウ○娘、東○Project\n4.\n好きな人をフォローするにゃ！\n※Misskey.ioはフォローに時間がかかるから「フォローが承認されました」と出るまで何回かフォローの入りきりをしてみるにゃ",
+      "nodeAdmins": [
+        {
+          "name": "@myami",
+          "email": "https://x.com/MyamiVrc"
+        }
+      ],
+      "maintainer": {
+        "name": "@myami",
+        "email": "https://x.com/MyamiVrc"
+      },
+      "langs": [],
+      "tosUrl": "https://myamisskey.ddo.jp/@myami/pages/1706500763685",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://myamisskey.ddo.jp/@myamivrc",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#275f5a"
+    }
+  },
+  "error": null
+}

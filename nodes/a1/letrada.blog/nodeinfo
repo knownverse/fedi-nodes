@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 80,
+      "localComments": 46
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Boomer Letrada",
+      "nodeDescription": "Uma Baby Boom que navega nos territórios das Letras e da Educação ",
+      "nodeIcon": "https://letrada.blog/wp-content/uploads/2024/05/img_3445.png"
+    }
+  },
+  "error": null
+}

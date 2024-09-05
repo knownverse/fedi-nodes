@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.692-m544"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey",
+      "nodeDescription": "",
+      "name": "Misskey",
+      "description": "",
+      "maintainer": {},
+      "langs": [],
+      "relayActor": null,
+      "relays": [],
+      "disableRegistration": true,
+      "maxNoteTextLength": 1000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null
+    }
+  },
+  "error": null
+}

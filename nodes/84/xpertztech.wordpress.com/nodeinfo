@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 49,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "XpertzTech",
+      "nodeDescription": "Website development designing,software development,mobile app development-XpertzTech",
+      "nodeIcon": "https://xpertztech.wordpress.com/wp-content/uploads/2024/02/square-logo.png"
+    }
+  },
+  "error": null
+}

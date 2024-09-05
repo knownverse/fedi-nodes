@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 49
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Caring for Dementia",
+      "nodeDescription": "Behaviour Support Specialist  • Emotion-focused Care Strategies",
+      "nodeIcon": "https://caringfordementia.ca/wp-content/uploads/2020/09/cropped-logdem-1.jpg"
+    }
+  },
+  "error": null
+}

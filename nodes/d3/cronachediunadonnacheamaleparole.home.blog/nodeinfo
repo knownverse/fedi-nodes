@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 193,
+      "localComments": 219
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cronache di una donna che ama le parole",
+      "nodeDescription": "Io non ho soldati, Dàmhaso, io ho le mie parole, ricordi? (Ìsmandri)",
+      "nodeIcon": "https://cronachediunadonnacheamaleparole.home.blog/wp-content/uploads/2024/01/cropped-logo-per-cronachediunadonnacheamaleparole-2-1.png"
+    }
+  },
+  "error": null
+}

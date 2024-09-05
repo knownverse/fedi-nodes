@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 32,
+      "localComments": 39
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "vgngth.de",
+      "nodeDescription": "",
+      "nodeIcon": "https://vgngth.de/wp-content/uploads/2024/06/cropped-cropped-VGNGTH-LOGO.png"
+    }
+  },
+  "error": null
+}

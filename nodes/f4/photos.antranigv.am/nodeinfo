@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 400,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Photos by Antranig",
+      "nodeDescription": "",
+      "nodeIcon": "https://photos.antranigv.am/wp-content/uploads/2023/01/cropped-av_1400-1.png"
+    }
+  },
+  "error": null
+}

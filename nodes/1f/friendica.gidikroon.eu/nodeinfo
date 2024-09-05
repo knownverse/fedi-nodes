@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.08-1571"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "bluesky"
+      ],
+      "outbound": [
+        "bluesky",
+        "smtp",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": 5,
+        "activeMonth": 5
+      },
+      "localPosts": 1946,
+      "localComments": 967
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Gidi's Friendica",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "bluesky"
+        ],
+        "outbound": [
+          "bluesky",
+          "smtp",
+          "tumblr",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 194,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "osage.moe | おさげもえ",
+      "nodeDescription": "おさげを愛するもの（？）が集う Misskey サーバーです。\n\n<p>\n<a href=\"https://osage.moe/@nzws/pages/about\"><b>このサーバーについて/新規登録はこちら</b></a>\n</p>",
+      "nodeAdmins": [
+        {
+          "name": "nzws",
+          "email": "inquiry+osage-moe@nzws.me"
+        }
+      ],
+      "maintainer": {
+        "name": "nzws",
+        "email": "inquiry+osage-moe@nzws.me"
+      },
+      "langs": [],
+      "tosUrl": "https://osage.moe/@nzws/pages/about",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#392623"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-24+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 95
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "A Home for Cybernetic Mages",
+      "nodeDescription": "A small server for kind-hearted folk"
+    }
+  },
+  "error": null
+}

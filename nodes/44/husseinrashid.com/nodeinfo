@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 509,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hussein Rashid",
+      "nodeDescription": "Academic. Speaker. Educator. Advocate.",
+      "nodeIcon": "https://i0.wp.com/husseinrashid.com/wp-content/uploads/2023/03/cropped-TRIce_FAMI_HusseinRashid_22_2174-Edit-copy-2.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1056,
+        "activeMonth": 382,
+        "activeHalfyear": 520
+      },
+      "localPosts": 372984
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "OldBytes Space - Mastodon",
+      "nodeDescription": "Full of old bytes. Please don't demagnetize the core memory, thanks.\r\nDo you like old hardware ? Do you use them ? Perfect you're welcome here !"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "* Instance personnelle mais ouverte à tou·tes (suite à des spams, les inscriptions sont désactivée, demandez un compte à l'admin si vous en voulez un)\n* Gérée par @Amaranthe@soc.luciferi.st\n* Aucun contenu haineux ou discriminant, respectez la loi française (aussi conne soit-elle)",
+      "nodeName": "Plume Luciférienne"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.6.0"
+    },
+    "usage": {
+      "localComments": 8,
+      "localPosts": 65,
+      "users": {
+        "total": 19
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

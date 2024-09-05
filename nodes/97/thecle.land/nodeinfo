@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 357,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "TheCLE.Land",
+      "nodeDescription": "TheCLE.Land\tCleveland's online Public Square! Interact with the community and stay up to date on the latest events and news!\n<br/><br/>\n<a href=\"https://thecle.land/explore\">🧭 Explore</a><br/>\n<a href=\"https://thecle.land/@admin/pages/UserDirectory\">👤 User Directory<a/><br/>\n<a href=\"https://thecle.land/@admin/pages/GettingStartedGuide\">ℹ️ Getting Started</a> | <a href=\"mailto:support@contact.thecle.land\">❔ Support<a/><br/>\n<a href=\"https://thecle.land/@admin/pages/Organizations\">🤝 Organizations on TheCLE.Land</a>",
+      "nodeAdmins": [
+        {
+          "name": "@samsmucny@thecle.land",
+          "email": "support@contact.thecle.land"
+        }
+      ],
+      "maintainer": {
+        "name": "@samsmucny@thecle.land",
+        "email": "support@contact.thecle.land"
+      },
+      "langs": [],
+      "tosUrl": "https://thecle.land/@admin/pages/TOS",
+      "privacyPolicyUrl": "https://thecle.land/@admin/pages/PrivacyPolicy",
+      "inquiryUrl": "mailto:support@contact.thecle.land",
+      "impressumUrl": "@samsmucny",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

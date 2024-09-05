@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12833,
+        "activeMonth": 1092,
+        "activeHalfyear": 1658
+      },
+      "localPosts": 2821154
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Eldritch Café",
+      "nodeDescription": "Une instance se voulant accueillante pour les personnes queers, féministes et anarchistes ainsi que pour leurs sympathisant·e·s. Nous sommes principalement francophone."
+    }
+  },
+  "error": null
+}

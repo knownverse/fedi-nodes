@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 150,
+      "localComments": 161
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Algarve pur",
+      "nodeDescription": "Urlaub auf eigene Faust",
+      "nodeIcon": "https://www.algarve-pur.de/wp-content/uploads/cropped-AP-Favicon.jpg"
+    }
+  },
+  "error": null
+}

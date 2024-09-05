@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 29,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BJJ Journal",
+      "nodeDescription": "ブラジリアン柔術の練習日記なブログ@京都",
+      "nodeIcon": "https://www.bjjjournal.jp/wp-content/uploads/2024/07/popart-style-two-guy-do-judo-on-the-roof-in-ny-.png"
+    }
+  },
+  "error": null
+}

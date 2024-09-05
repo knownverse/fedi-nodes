@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 150,
+      "localComments": 358
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "1 Earth - 8 billion adventures",
+      "nodeDescription": "Anything is possible",
+      "nodeIcon": "https://i0.wp.com/1earthadventures.com/wp-content/uploads/2020/08/1earth.png?fit=300%2C300&ssl=1"
+    }
+  },
+  "error": null
+}

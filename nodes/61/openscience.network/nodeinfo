@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "federation": true,
+      "nodeDescription": "We are a network of scientists, developers and organizations building the next generation of digital spaces for open science.        ",
+      "nodeName": "Open Science"
+    },
+    "usage": {
+      "users": {
+        "total": 11
+      }
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "bonfire; compatible: mastodon, akkoma",
+      "version": "0.9.10-beta.141"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

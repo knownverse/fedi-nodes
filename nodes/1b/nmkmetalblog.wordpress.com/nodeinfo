@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 81,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NOW MANKIND KNOWS",
+      "nodeDescription": "Melodic Death | Prog Metal from Peru",
+      "nodeIcon": "https://nmkmetalblog.wordpress.com/wp-content/uploads/2024/02/cropped-nmk-wordpress-logo-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.2"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 2,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Marcos Welt",
+      "nodeDescription": "Gedanken und Vorkommnisse rund um meinen Alltag",
+      "nodeIcon": "https://marco-zehe.de/wp-content/uploads/2024/04/cropped-Desktop-Maulwurf-512x512-1.png"
+    }
+  },
+  "error": null
+}

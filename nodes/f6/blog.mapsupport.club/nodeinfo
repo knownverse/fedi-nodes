@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "MSC Blogs",
+      "nodeDescription": "The MAP Support Club (MSC) is a community for Minor Attracted People (MAPs) of all ages who are committed to never harming a child and are fundamentally against adult-child sex. It is intended as a community where MAPs can connect with one another, offer and receive support in difficult times and overall just enjoy a relaxed atmosphere where one can have fun and not be judged.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 5,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.13.1"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      },
+      "localPosts": 59
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeMonth": 9,
+        "activeHalfyear": 9
+      },
+      "localPosts": 1706
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "friends of librescrum",
+      "nodeDescription": "Hi, dies ist der Mastodon Server von https://librescrum.org/"
+    }
+  },
+  "error": null
+}

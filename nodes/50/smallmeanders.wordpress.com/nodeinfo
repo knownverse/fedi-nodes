@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 45,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Small Meanders",
+      "nodeDescription": "Following the flow...",
+      "nodeIcon": "https://smallmeanders.wordpress.com/wp-content/uploads/2021/03/cropped-zen-1381093_1280-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10137,
+      "localComments": 3404
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Goomba Gazette",
+      "nodeDescription": "Commonsense - fairness - honesty - shooting straight from the hip",
+      "nodeIcon": "https://thegoombagazette.com/wp-content/uploads/2018/07/aqzv2071904922.png"
+    }
+  },
+  "error": null
+}

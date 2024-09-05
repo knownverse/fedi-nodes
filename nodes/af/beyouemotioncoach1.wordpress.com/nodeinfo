@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Be You Emotion Coach",
+      "nodeDescription": "Connect with your true self - it&#039;s about accepting our emotions and feeling better : get the support you need to do support to do so",
+      "nodeIcon": "https://beyouemotioncoach1.wordpress.com/wp-content/uploads/2023/12/cropped-captura-de-pantalla-2023-12-30-a-las-19.11.09.png"
+    }
+  },
+  "error": null
+}

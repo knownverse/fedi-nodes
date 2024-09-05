@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": 8,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://buzzworkers.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "Initially attracted to music production with Jeskola Buzz, over the years, BuzzWorkers moved to Acid Techno Tracks & Session with Roland TB303,Roland TR808,Roland TR707,Roland TR727,Roland mc202,Jupiter 4, Polysix and other vintage hardware under different project names",
+      "longDescription": "Two decades ago, BuzzWorkers emerged as a sanctuary for an eclectic mix of locally produced electronic music tracks, spanning genres like Techno, Electro, Trip Hop, Acid, EDM, along with other avant-garde electronic compositions. With time, BuzzWorkers expanded its repertoire to include an extensive collection of DJ Mixes, tracing the evolution of these genres from the 1990s through to the present day. As the digital landscape transformed, so did BuzzWorkers; our journey began with Jeskola Buzz, eventually transitioning to modern digital audio workstations like Ableton and Reaper. Our hardware preferences also evolved from purely software-based creations to incorporating legendary equipment such as the Roland TB303, TR808, TR707, TR727, mc202, Jupiter 4, Polysix, and other classic gear, marking a deep dive into Acid Tracks & Sessions.\r\n\r\nIn 2024, BuzzWorkers embraced the fediverse, stepping away from restrictive platforms to enjoy the liberty of sharing our and our friends' musical creations unfettered. During this transition, we also undertook the mission of rescuing and preserving audio collections from across the internet, dedicating ourselves to making these treasures available for educational use.\r\n\r\nLooking ahead, our goal is to further expand our community through funkwhale, inviting radio collectives, labels, and music enthusiasts to collaborate and share their sounds on our platform, fostering a rich, inclusive music-sharing environment.",
+      "contactEmail": "info@buzzworkers.com",
+      "nodeName": "BuzzWorkers - Experimental Electronic Music",
+      "banner": "https://buzzworkers.com/media/dynamic_preferences/instance__banner/buzzv2_uOdsfxP.png",
+      "defaultUploadQuota": 20000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 10
+          }
+        },
+        "listenings": {
+          "total": 83
+        },
+        "downloads": {
+          "total": 2440
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 1659
+        },
+        "artists": {
+          "total": 215
+        },
+        "albums": {
+          "total": 186
+        },
+        "music": {
+          "hours": 1320.7091666666668
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

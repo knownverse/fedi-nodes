@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-03-20+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 80287
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mad Scientist Tooting Club",
+      "nodeDescription": "This is a private instance, for <a href=\"/@algernon\">@algernon</a> and friends."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 7,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mela Eckenfels",
+      "nodeDescription": "Freie Autorin &amp; Fachjournalistin",
+      "nodeIcon": "https://i0.wp.com/mela.eckenfels.net/wp-content/uploads/2014/12/7-wbg-548fb235v1_site_icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

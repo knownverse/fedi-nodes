@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "name": "https://moonserver.yorha.nexus/@Council/pages/about"
+      },
+      "nodeDescription": "This is the Council of Humanity, speaking from the moon to all YoRHa-Androids.\nIf you require any assistance, contact us.",
+      "nodeName": "Moonserver of YoRHa",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 413,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 3,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "octofedi",
+      "version": "0.3.4-rs"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Fedineko",
+      "nodeAdmins": [
+        {
+          "name": "Fedineko Support",
+          "email": "support@fedineko.org"
+        }
+      ],
+      "maintainer": {
+        "name": "Fedineko Support",
+        "email": "support@fedineko.org"
+      },
+      "nodeDescription": "Fedineko indexing service. See https://fedineko.org/about"
+    }
+  },
+  "error": null
+}

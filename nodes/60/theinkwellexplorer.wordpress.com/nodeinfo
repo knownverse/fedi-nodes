@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Inkwell Explorer",
+      "nodeDescription": "Passionate Amateur Translator",
+      "nodeIcon": "https://theinkwellexplorer.wordpress.com/wp-content/uploads/2024/02/cropped-screenshot-2024-02-24-130441-2.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "free@coolviruses.download",
+        "name": "@split"
+      },
+      "nodeDescription": "purrly meownaged mewstance by @split, purrimarily for friends. meow!",
+      "nodeName": "coolviruses.download 🔥🐟",
+      "proxyAccountName": "9jq2sm9batgx39fb",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FB405A"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 7051,
+      "users": {
+        "activeHalfyear": 19,
+        "activeMonth": 12,
+        "total": 30
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

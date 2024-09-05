@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Page professionnelle de services Free-lance",
+      "nodeDescription": "C’est tout à fait nécessaire d’écrire les ouvrages et d’accomplir les tâches thérapeutiques avec quintessence pour toi mon collègue.",
+      "nodeIcon": "https://muzezenet.wordpress.com/wp-content/uploads/2024/02/wp-1706964777757.jpg"
+    }
+  },
+  "error": null
+}

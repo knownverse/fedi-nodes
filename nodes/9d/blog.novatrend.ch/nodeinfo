@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": "7",
+        "activeHalfyear": "7"
+      },
+      "localPosts": 407,
+      "localComments": 864
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NOVATREND Blog",
+      "nodeDescription": "Schweizer Webhosting vom Feinsten für Privatpersonen und KMUs",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

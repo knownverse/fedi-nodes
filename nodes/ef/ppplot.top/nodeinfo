@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 1560,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "薯仔的自留地-Potato's Private Plot",
+      "nodeDescription": "私人茅厕，完全不保证可用性，北京时间每天5点备份，备份档案保留30天。实例中的一切都由实例主说了算，没有任何公平可言。",
+      "maintainer": {
+        "name": "自留地里的稻草人",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://ppplot.top",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

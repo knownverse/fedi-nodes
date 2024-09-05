@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3729,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みさっちぃ",
+      "nodeDescription": "みさっち専用のお一人様サーバ「みさっちぃ」です。<br>\nこれと言ってなにかするわけでも無いけど密かに活動していきますよ～<br>\n何か不具合等が有りましたら、<a href=\"mailto:misa@misachan.net\">こちらへ</a>メールか、<a href=\"https://misskey.io/@misachan\">@misachan@misskey.io</a>へ連絡をお願いします。",
+      "nodeAdmins": [
+        {
+          "name": "みさっち",
+          "email": "misachan.net"
+        }
+      ],
+      "maintainer": {
+        "name": "みさっち",
+        "email": "misachan.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://peing.net/ja/502afe38b1976c",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ffb8de"
+    }
+  },
+  "error": null
+}

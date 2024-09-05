@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 21,
+        "activeHalfyear": 19,
+        "activeMonth": 13
+      },
+      "localPosts": 6844,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "竜胆の庭",
+      "nodeDescription": "汎用鯖として小規模に開放中。登録はご自由に。何かあれば <a href=\"https://rindo.garden/@monon99\">@monon99@rindo.garden</a> まで。",
+      "maintainer": {
+        "name": "くげつ",
+        "email": "@monon99@rindo.garden"
+      },
+      "langs": [],
+      "tosUrl": "https://rindo.garden/@monon99/pages/1711754851819",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#6495ed"
+    }
+  },
+  "error": null
+}

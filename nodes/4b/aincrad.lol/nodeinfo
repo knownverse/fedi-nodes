@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 627,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Aincrad",
+      "nodeDescription": "Generalized Sharkey Anime instance, sister instance of <a href=\"https://esper.lol\" target=\"_blank\" rel=\"norefferer noopener\">Esper.lol</a>. Currently not accepting Laughing Coffin members.\n<br>\n<br>\n<center>Learn more about Aincrad.lol here: <a href=\"https://aincrad.lol/@Arataka/pages/info\" target=\"_blank\" rel=\"norefferer noopener\">About page</a> <br> See uptime status for all services: <a href=\"https://status.esper.lol/status/esper\" target=\"_blank\" rel=\"norefferer noopener\">Status page</a></center>",
+      "nodeAdmins": [
+        {
+          "name": "Arataka",
+          "email": "hello@spiritsandsuch.lol"
+        }
+      ],
+      "maintainer": {
+        "name": "Arataka",
+        "email": "hello@spiritsandsuch.lol"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": "https://esper.lol/privacy-policy",
+      "inquiryUrl": "https://aincrad.lol/@Arataka/pages/info",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00b6ea"
+    }
+  },
+  "error": null
+}

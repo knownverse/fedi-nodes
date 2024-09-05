@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2-taiyme-v1.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 30,
+        "activeHalfyear": 12,
+        "activeMonth": 6
+      },
+      "localPosts": 597,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "KCCT",
+      "nodeDescription": "試験運用中のKCCTインスタンスです。\n<br />\n内容はインターネットに公開されているので，<br />\n機密情報などの取扱にはご注意ください。\n<br />\n<br />\n連合は切ってあるので，\n今のところ別サーバーのアカウントを\nフォローすることはできません。\n<br />\n<br />\n<a href=\"https://d3bu.net/blog/2022-07-misskey/\">https://d3bu.net/blog/2022-07-misskey/</a>",
+      "maintainer": {
+        "name": "山D",
+        "email": "me@dyama.net"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#87cefa"
+    }
+  },
+  "error": null
+}

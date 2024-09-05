@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 31,
+        "activeHalfyear": 3,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.chosto.me/federation/actors/service",
+      "private": false,
+      "shortDescription": "Instance fourre-tout personnelle, mais ouverte à tou.te.s :)",
+      "longDescription": "J'utilise principalement cette instance pour me détacher en partie des plateformes commerciales, et pour profiter des contenus libres qui ne sont pas disponibles sur ces plateformes. L'inscription est ouverte à tou.te.s, mais je ne garantis aucune qualité de service, sinon que cette instance sera pérenne. :)\r\n\r\nBannière CC-BY 4.0, David Revoy.",
+      "contactEmail": "quentinduchemin@tuta.io",
+      "nodeName": "Céliglyphe",
+      "banner": "https://files.chosto.me/dynamic_preferences/instance__banner/2018-07-01_Adventure_by-David-Revoy_xeBvDYe.jpg",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "Je crois en une informatique libre et locale. Aussi, si vous utilisez Céliglyphe, n'hésitez pas à m'envoyer un petit message à l'adresse quentinduchemin@tuta.io pour toute question, ou tout simplement pour vous présenter. Le lien de confiance, dans un monde dominé par les géants du numérique, me semble un des constituants essentiels de l'émancipation.",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1371
+          }
+        },
+        "listenings": {
+          "total": 26454
+        },
+        "downloads": {
+          "total": 36740
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 11532
+        },
+        "artists": {
+          "total": 935
+        },
+        "albums": {
+          "total": 1135
+        },
+        "music": {
+          "hours": 3080.6375
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "Soyez bienveillant.e.s et respectueu.x.ses.",
+      "terms": "Vous pouvez utiliser les fonctionnalités de modération pour signaler des contenus offensants ; mais a priori, aucune règle supplémentaire n'est appliquées sur les contenus téléchargés, en particulier sur la musique.\r\n\r\nEn utilisant ce service, vous acceptez d'être lié par les conditions détaillées ci-après.\r\n\r\nCe document est inspiré des [conditions générales d'utilisation de l'association Picasoft](https://picasoft.net/co/cgu.html) et résulte d'une démarche militante inspirée du mouvement CHATONS.\r\n\r\n# Principes\r\n\r\n* Votre contenu vous appartient (et je vous encourage à le publier sous une licence libre) ;\r\n* Céliglyphe n'exploitera pas vos données personnelles\r\n* Céliglyphe ne revendra jamais vos données personnelles\r\n* Les données personnelles liées à l'utilisation de Céliglyphe restent sur l'infrastructure de Céliglyphe.\r\n* Ce service est proposé gratuitement et librement. Si vous perdez des données, par votre faute ou par la mienne, désolé, mais ça arrive. Je ferai ce que je peux pour les récupérer, mais je ne m'assigne aucune obligation de résultat. \r\n* Vous avez le droit d'aller ailleurs. Si Céliglyphe ne vous convient pas, libre à vous d'en trouver un équivalent (ou meilleur) ailleurs, de monter le vôtre ou même de venir participer pour m'aider à améliorer celui-ci.\r\n* Faites un usage équitable de Céliglype. Si un utilisateur abuse du service, par exemple en monopolisant des ressources machines partagées, son contenu ou son compte pourra être supprimé sans avertissement ni négociation.\r\n* Rien n'est éternel : Céliglyphe peut fermer (faute de fonds pour le maintenir, par exemple), il peut être victimes d'intrusion (le 100 % sécurisé n'existe pas). Je vous encourage donc à conserver une copie des données qui vous importent.\r\n\r\n# Conditions du service\r\n\r\n## Céliglyphe est fourni tel quel\r\n\r\nCéliglyphe est fourni tel quel, son utilisation se fait selon votre propre évaluation des risques liés à l'interruption des services ou la perte des données. Céliglyphe ne pourra pas être tenu responsable de pertes ou dommages résultant de l'utilisation de ses services.\r\n\r\nCéliglyphe ne garantit pas que :\r\n* Il répondra à vos besoins spécifiques ;\r\n* Il sera ininterrompu ou exempts de bugs ;\r\n* Les erreurs dans Céliglyphe seront corrigées.\r\n\r\nVous comprenez et acceptez que Céliglyphe ne peut pas être tenu responsable de tous dommages directs, indirects, ou fortuits, comprenant les dommages pour perte de profits, de clientèle, d'accès, de données ou d'autres pertes intangibles (même si Céliglyphe est informé de la possibilité de tels dommages) et qui résulteraient de :\r\n* L'utilisation ou de l'impossibilité d'utiliser le service ;\r\n* L''accès non autorisé ou altéré de la transmission des données ;\r\n* Les déclarations ou les agissements d'un tiers sur le service ;\r\n* La résiliation de votre compte ;\r\n* Toute autre question relative au service.\r\n\r\n## Vous êtes responsables de vos comptes\r\n\r\nVous êtes responsable de vos comptes et vos mots de passes et de l'activité qui se produit avec ceux-ci.\r\n\r\n * Vous devez vous assurer que vos mots de passe restent confidentiels et que vos comptes ne sont pas utilisés par des tiers en qui vous n'avez pas confiance.\r\n* Vous comprenez que la mise en ligne des services et des contenus associés implique une transmission (en clair ou chiffrée, suivant les services) sur divers réseaux.\r\n\r\n## Vous êtes propriétaire de votre contenu\r\n\r\nVous êtes propriétaire de votre contenu, Céliglyphe ne revendique aucun droit sur vos données et contenus.\r\n* Nous ne revendiquons aucun droit sur vos données : textes, images, son, vidéo, ou tout autre élément, que vous téléchargez ou transmettez depuis votre compte.\r\n* Nous n'utiliserons pas votre contenu pour un autre usage que celui de vous fournir le service.\r\n* Nous ne pratiquons aucune surveillance des actions des utilisateurs, autre qu'à des fins administratives, techniques, ou d'améliorations internes des services.\r\n* Nous ne pratiquons aucune censure a priori des contenus.\r\n\r\n## Vous ne pouvez pas utiliser le service à des fins illégales\r\n\r\n* Céliglyphe est un hébergeur, à ce titre il ne peut pas être tenu responsable pour les contenus publiés sur ses services, sauf en cas de non retrait sur signalement d'un contenu manifestement illégal, tel que le prévoit la loi.\r\n* Vous ne pouvez pas envoyer, télécharger, publier, distribuer, diffuser tout contenu illégal, diffamatoire, harcelant, abusif, frauduleux, contrefait...\r\n* Vous ne devez pas télécharger ou rendre disponible tout contenu qui porte atteinte aux droits de quelqu'un d'autre.\r\n* Vous ne devez pas transmettre des vers, des virus ou tout autre code de nature malveillante via les services Céliglyphe.\r\n\r\n## Céliglyphe se réserve le droit de modifier ses services\r\n\r\nCéliglyphe se réserve le droit de modifier ses services, de les interrompre, temporairement ou définitivement, avec ou sans préavis.\r\n\r\n* Céliglyphe ne sera pas responsable envers vous ou tout tiers pour toute modification, suspension ou interruption du service.\r\n* J'essayerai de vous prévenir et de vous aider à migrer dans la mesure de mes moyens.\r\n\r\n## Céliglyphe se réserve le droit d'interdire l'usage de ses services\r\n\r\nCéliglyphe se réserve le droit d'interdire l'usage de ses services s'il estime cet usage abusif, le compte sera désactivé et les données restituées.\r\n\r\n* Céliglyphe a le droit de suspendre ou de résilier votre compte et de refuser toute utilisation actuelle ou future du service. Cette décision est prise arbitrairement par Céliglyphe, dans la mesure où j'estime que votre usage est abusif et porte préjudice au bon fonctionnement des services.\r\n* Céliglyphe se réserve notamment le droit de résilier votre compte si vous ne vous connectez pas à votre compte pour une période supérieure à 6 mois.\r\n* Céliglyphe se réserve notamment le droit de résilier votre compte si vous abusez des ressources matérielles.\r\n\r\nL'échec de Céliglyphe à exercer ou à appliquer tout droit ou disposition des Conditions Générale d'Utilisation ne constitue pas une renonciation à ce droit ou à cette disposition. Les Conditions d'utilisation constituent l'intégralité de l'accord entre vous et Céliglyphe et régissent votre utilisation du service, remplaçant tous les accords antérieurs entre vous et Céliglyphe (y compris les versions précédentes des Conditions Générales d'Utilisation).\r\n\r\nLes questions sur les conditions de service doivent être envoyées à quentinduchemin@tuta.io\r\n\r\n# Données personnelles\r\n\r\nConformément à l'article 34 de la loi « Informatique et Libertés », Céliglypge garantit à l'utilisateur un droit d'opposition, d'accès et de rectification sur les données nominatives le concernant. L'utilisateur a la possibilité d'exercer ce droit en prenant contact à quentinduchemin@tuta.io\r\n\r\nPour utiliser ce service, Céliglyphe vous devez créer un compte. Céliglyphe demande certaines informations personnelles : une adresse e-mail valide et un mot de passe qui est utilisé pour protéger votre compte contre tout accès non autorisé. Les champs « Nom » et « Prénom » peuvent être requis pour le bon fonctionnement du logiciel, mais il n'est pas nécessaire qu'ils révèlent votre véritable identité.\r\n\r\nTout comme d'autres services en ligne, Céliglyphe enregistre automatiquement certaines informations concernant votre utilisation du service telles que l'activité du compte (exemple : espace de stockage occupé, date de connexion), les données affichées ou cliquées (exemple : liens, éléments de l'interface utilisateur), et d'autres informations pour vous identifier (exemple : type de navigateur, date et heure de l'accès, URL de référence).\r\n\r\nL'adresse IP des utilisateurs n'est jamais enregistrée.\r\n\r\nLes données personnelles liées à l'utilisation des services de Céliglyphe restent sur l'infrastructure de Céliglyphe.\r\n\r\n# Warrant Canary\r\n\r\nUn Warrant Canary est une déclaration, faite par un hébergeur ou un FAI, confirmant que ce dernier n'a pas reçu de requête judiciaire ou administrative secrète (avec interdiction de divulgation) ou subi de perquisition informatique légale (saisie de serveurs, mise en place de mouchard, etc.). Lorsque c'est le cas, le prestataire se contente de retirer la déclaration de son site. De la sorte, les utilisateurs sont informés mais le prestataire a respecté son obligation de ne pas divulguer d'information à propos d'une réquisition judiciaire. Le paragraphe qui suit est le Warrant Canary de Céliglyphe.\r\n\r\nCéliglyphe déclare n'avoir jamais reçu de requête judiciaire ou administrative visant à :\r\n* obtenir des informations sur les utilisateurs et leur utilisation Céliglyphe ;\r\n* introduire une porte dérobée dans son infrastructure ;\r\n* saisir un équipement informatique de son infrastructure.\r\n\r\nDans le cas contraire, Céliglyphe se verrait dans l'obligation de mettre à jour cette déclaration."
+    }
+  },
+  "error": null
+}

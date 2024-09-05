@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "Concurrent"
+    },
+    "protocols": [
+      "concurrentsub",
+      "activitypub"
+    ],
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Fコン(仮称)",
+      "nodeDescription": "えふこんと読んでください。ふぉのの建てたconcurrent鯖です(テスト中)",
+      "maintainer": {
+        "name": "ふぉの",
+        "email": "con-admin@fono.jp"
+      },
+      "themeColor": "#004f00"
+    },
+    "usage": {
+      "localPosts": 53445,
+      "users": {
+        "total": 6
+      }
+    }
+  },
+  "error": null
+}

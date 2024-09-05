@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 58,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Little Off Devotions",
+      "nodeDescription": "It&#039;s me that&#039;s a little off. God&#039;s Word is right on.",
+      "nodeIcon": "https://alittleoffdevotions.com/wp-content/uploads/2023/12/vecteezy_bible-cross-logo-concept-design-christine-church-cross-logo_11483305.jpg"
+    }
+  },
+  "error": null
+}

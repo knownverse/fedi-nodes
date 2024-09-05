@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "沐設計 mu Design",
+      "nodeDescription": "室內空間設計 商業辦公空間設計 室內裝潢設計",
+      "nodeIcon": "https://mudesign7.wordpress.com/wp-content/uploads/2024/02/5b8667c8-120x120-1.png"
+    }
+  },
+  "error": null
+}

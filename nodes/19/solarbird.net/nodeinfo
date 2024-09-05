@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 7431,
+      "localComments": 27979
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Solarbird{y|z|yz}, Collected",
+      "nodeDescription": "all of the problems, all of the time",
+      "nodeIcon": "https://solarbird.net/blog/wp-content/uploads/2023/02/stronk.jpeg"
+    }
+  },
+  "error": null
+}

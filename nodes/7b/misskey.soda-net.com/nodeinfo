@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 481,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 24147,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Coffee Break",
+      "nodeDescription": "参加は20才以上。「写真」「園芸・観葉植物」「食べ物・料理」「読書」「映画・ドラマ」「音楽」「日常の雑感、日記」「ゲーム」の中の2つ以上についてユルユルSNSをやりたい方、ブログ的に文章を書きたい方向けです。<br><br>\n\nMastodon版の珈琲休憩もどうぞ<br>\n『<a href=\"https://mastodon.coffee-break.cc/\" target=\"_blank\">珈琲休憩 \n https://mastodon.coffee-break.cc/</a>』<br><br>\n\n穏やかなLTLを重視してますので、以下のような方々は別サーバーをおすすめします<br>\n● 過度の連投、大量投稿、ROM専、情報収集<br> → もっと大きなサーバーへ<br>\n● 上記のうちひとつしか興味がない<br> → それ専用のサーバーへ<br>\n● 人と関わりたくない、壁打ち<br> → LTLがないサーバーへ<br>\n\n平穏なLTLを維持するため、管理者が子供と判断したアカウント(含精神年齢)、幼稚な短文投稿・連投などが続く場合は警告なくアカウント削除します。<br><br>\n\n特定の政治・宗教、社会問題、思想等の主義主張や議論は他のサーバーをお探しください。<br><br>\n\n<a href=\"https://www.coffee-break.cc/a/about-coffeebreak/\" target=\"_blank\">参加手順、利用規約<br> https://www.coffee-break.cc/a/about-coffeebreak/</a><br><br>\n＊＊＊ 参加の際のご注意 ＊＊＊<br>\n投稿等のデータの保証は一切できませんのでご了承ください。",
+      "nodeAdmins": [
+        {
+          "name": "ソーダ",
+          "email": "https://misskey.soda-net.com/@soda"
+        }
+      ],
+      "maintainer": {
+        "name": "ソーダ",
+        "email": "https://misskey.soda-net.com/@soda"
+      },
+      "langs": [],
+      "tosUrl": "https://www.coffee-break.cc/a/about-coffeebreak/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#6f4e37"
+    }
+  },
+  "error": null
+}

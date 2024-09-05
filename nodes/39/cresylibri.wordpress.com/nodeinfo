@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 31,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I LIBRI DI CRESCENZA CARADONNA",
+      "nodeDescription": "In un buon libro la cosa migliore è tra le righe.",
+      "nodeIcon": "https://cresylibri.wordpress.com/wp-content/uploads/2021/01/cropped-109632702_3646044608756426_6573508507024569733_o.jpg"
+    }
+  },
+  "error": null
+}

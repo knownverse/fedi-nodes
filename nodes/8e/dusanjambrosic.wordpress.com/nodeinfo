@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 113,
+      "localComments": 130
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ČRNO BELA SLIKA V BARVAH",
+      "nodeDescription": "Kritičen pogled na nekritičen svet",
+      "nodeIcon": "https://dusanjambrosic.wordpress.com/wp-content/uploads/2023/12/361839202_24311365405129524_8713910563993810530_n.jpeg"
+    }
+  },
+  "error": null
+}

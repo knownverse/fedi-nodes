@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "foundkey",
+      "version": "13.0.0-preview6",
+      "repository": "https://akkoma.dev/FoundKeyGang/FoundKey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 5752,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Not a cult",
+      "nodeDescription": "Fairly closed, only for people I know.",
+      "maintainer": {
+        "name": "@ignaloidas@not.acu.lt",
+        "email": "me@ignaskiela.eu"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://akkoma.dev/FoundKeyGang/FoundKey",
+      "feedbackUrl": "https://akkoma.dev/FoundKeyGang/FoundKey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 100000,
+      "enableEmail": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300",
+      "activeWebhooks": 0
+    }
+  },
+  "error": null
+}

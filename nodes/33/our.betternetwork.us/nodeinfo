@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2023.06-1518"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica"
+      ],
+      "outbound": [
+        "friendica"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Our Better Network",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

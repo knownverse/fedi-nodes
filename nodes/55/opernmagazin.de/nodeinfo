@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2855,
+      "localComments": 672
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DAS OPERNMAGAZIN",
+      "nodeDescription": "Das Opern - und Kulturmagazin im Internet von Detlef Obens",
+      "nodeIcon": "https://opernmagazin.de/wp-content/uploads/2019/07/cropped-48416339_2064191220270165_938678146356477952_o-1.jpg"
+    }
+  },
+  "error": null
+}

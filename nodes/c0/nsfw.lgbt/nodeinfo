@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 0,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "nsfw.lgbt",
+      "nodeDescription": "<small>NSFW.lgbt is a sex-worker and LGBTQ-friendly social network that allows all adults regardless of sexuality to share legal NSFW content. <strong>This is a SAFE SPACE for LGBTQ+ adults, although non-queer adults and allies are welcome.</strong> This site runs Sharkey, a fork of Misskey, and is part of the greater Fediverse/ ActivityPub network of servers. You must be at least 18 years old to register an account and to use this service. This server, and your data, is located in Europe.</small>\n<hr />\n<center><strong>The posting of CSAM/CSEM (real or not) will not be tolerated and inviduals posting such material will be immediately reported to the authorities and their accounts removed.</strong></center>\n",
+      "nodeAdmins": [
+        {
+          "name": "BOFH, LLC",
+          "email": "support@bofhllc.net"
+        }
+      ],
+      "maintainer": {
+        "name": "BOFH, LLC",
+        "email": "support@bofhllc.net"
+      },
+      "langs": [],
+      "tosUrl": "https://support.bofhllc.net/kb/faq.php?id=12",
+      "privacyPolicyUrl": "https://support.bofhllc.net/kb/faq.php?id=8",
+      "inquiryUrl": "https://support.bofhllc.net/open.php",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 5000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

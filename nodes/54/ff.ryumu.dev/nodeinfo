@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "dj.ryumu@gmail.com",
+        "name": "@djryumu"
+      },
+      "nodeDescription": "おひとり様サーバー。#SpaceHost さんで運用中。\n13歳未満はアクセス禁止です。\n\nMy personal server. Powered by #SpaceHost",
+      "nodeName": "ff.ryumu.dev",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 2301,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

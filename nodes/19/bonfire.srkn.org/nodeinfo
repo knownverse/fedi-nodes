@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "federation": true,
+      "nodeDescription": "This is a bonfire demo instance for testing purposes",
+      "nodeName": "An instance of Bonfire"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      }
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "bonfire; compatible: mastodon, akkoma",
+      "version": "0.9.10-beta.108"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1-ikaskey",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 495,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Minecraft Misskey",
+      "nodeDescription": "主にMinecraftプレイヤー向けのMisskeyサーバーです。\nMinecraftを軸にみんなで楽しく集まろう！\n\n兄弟サーバーの「いかすきー」向けに調整された、可能な限りMisskey本体の最新版に追従するIkaskeyフォークです。\n\n流速・サーバー負荷などを鑑みて招待制への移行or新規受付停止することがあります。\n個人運営のため、止まったりすることもあるかもしれません。\n\n利用規約により13歳未満の登録は禁止です。プロフィール上での年齢が規約違反となる場合、アカウントは凍結される場合があります。",
+      "nodeAdmins": [
+        {
+          "name": "さばかん",
+          "email": "bktsk@bktsk.com"
+        }
+      ],
+      "maintainer": {
+        "name": "さばかん",
+        "email": "bktsk@bktsk.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#00520a"
+    }
+  },
+  "error": null
+}

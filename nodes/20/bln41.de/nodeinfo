@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 173,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "bln41.de",
+      "nodeDescription": "Icke in Berlin-Friedenau",
+      "nodeIcon": "https://bln41.de/wp-content/uploads/2024/01/cropped-bln41-berlin-friedenau.png"
+    }
+  },
+  "error": null
+}

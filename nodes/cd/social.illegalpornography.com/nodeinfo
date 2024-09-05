@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 14,
+        "activeHalfyear": 14
+      },
+      "localPosts": 590945
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Princess Grace's Space Base Place",
+      "nodeDescription": "Don't let the name fool you. All the pornography here is legal, and much of it is hand-written. No fascists, no bigots."
+    }
+  },
+  "error": null
+}

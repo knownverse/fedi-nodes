@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1192,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Un P’tit Je Ne Sais Quoi",
+      "nodeDescription": "un p&#039;tit je ne sais quoi 🕮🎕 bohème 🕮🎕 poetic allusion 🕮🎕 poetic essences 🕮🎕",
+      "nodeIcon": "https://poeticessences.wordpress.com/wp-content/uploads/2024/08/poetic-essences-society.gif"
+    }
+  },
+  "error": null
+}

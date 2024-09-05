@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 618,
+      "localComments": 251
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Soul Doctor",
+      "nodeDescription": "Making the world a better place, one contact at a time",
+      "nodeIcon": "https://i0.wp.com/doctorofthesoul.blog/wp-content/uploads/2023/01/inner-truth-fancy.png?fit=250%2C250&ssl=1"
+    }
+  },
+  "error": null
+}

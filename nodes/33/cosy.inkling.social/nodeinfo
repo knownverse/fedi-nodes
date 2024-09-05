@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": 3,
+        "activeMonth": 2
+      },
+      "localPosts": 272,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Cosy Corner",
+      "nodeDescription": "Welcome to the Cosy Coner, a CalcKey instance for some friends. This is a semi-private instance that is \"kinda\" invite only if you know someone here already.  ",
+      "maintainer": {
+        "name": "@mal",
+        "email": "security@inkling.social"
+      },
+      "langs": [],
+      "tosUrl": "https://gist.github.com/vlee489/ccb53349e412c2d79ae773754b171c9f",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "themeColor": "#ddbdfc"
+    }
+  },
+  "error": null
+}

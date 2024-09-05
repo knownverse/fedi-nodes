@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.15.0-p1d098282"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 17472,
+        "activeHalfyear": 1493,
+        "activeMonth": 264
+      },
+      "localPosts": 20280,
+      "localComments": 10994
+    },
+    "metadata": {
+      "nodeName": "diaspora* G3L",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "podmaster"
+    }
+  },
+  "error": null
+}

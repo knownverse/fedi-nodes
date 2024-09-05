@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3714,
+        "activeMonth": 597,
+        "activeHalfyear": 834
+      },
+      "localPosts": 1149562
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Yiff.Life - It's not what you think...",
+      "nodeDescription": "Yiff.Life is oriented towards those in the furry and LGBTQA+ communities."
+    }
+  },
+  "error": null
+}

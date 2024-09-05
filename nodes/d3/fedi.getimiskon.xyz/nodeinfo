@@ -1,0 +1,460 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HellthreadPolicy",
+          "ForceBotUnlistedPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "yggdrasil.social",
+            "pleroma.nobodyhasthe.biz",
+            "posting.lolicon.rocks",
+            "the.asbestos.cafe",
+            "eientei.org",
+            "freespeechextremist.com",
+            "social.wherelinux.xyz",
+            "fedi.aroundthemilkyway.nohost.me",
+            "norwoodzero.net",
+            "ryona.agency",
+            "m.mxin.moe",
+            "friendsyu.me",
+            "dw.n1l.dev",
+            "social.cutefunny.net",
+            "misskey.tailc0bbe.ts.net",
+            "planetearth.social",
+            "mstdn.business",
+            "birdon.social",
+            "plume.pullopen.xyz",
+            "fediverse.blog"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "poa.st",
+            "nicecrew.digital",
+            "pieville.net",
+            "baraag.net",
+            "mapstodon.space",
+            "pawoo.net",
+            "freak.university",
+            "obo.sh",
+            "tastingtraffic.net",
+            "varishangout.net",
+            "misskey.io",
+            "social.lovingexpressions.net",
+            "feral.cafe",
+            "mapsupport.de",
+            "youjo.love",
+            "rot.gives",
+            "detroitriotcity.com",
+            "kyou.social",
+            "shotatube.xyz",
+            "aethy.com",
+            "mstdn.jp",
+            "mostr.pub",
+            "beefyboys.win",
+            "nnia.space",
+            "yandere.cc",
+            "eveningzoo.club",
+            "pouque.net",
+            "lolison.top",
+            "loli.exposed",
+            "hentai.baby",
+            "gameliberty.club",
+            "wolfgirl.bar",
+            "mirr0r.city",
+            "budmo.info",
+            "merovingian.club",
+            "banned.cafe",
+            "*.pibvt.net",
+            "lewdieheaven.com",
+            "social.vivaldi.net",
+            "mozilla.social",
+            "flipboard.social",
+            "cum.salon",
+            "threads.net",
+            "threads.instagram.com",
+            "bird.makeup",
+            "childlove.su",
+            "mastodon.social",
+            "annihilation.social",
+            "bae.st",
+            "cunnyborea.top"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "birdon.social": {
+              "reason": "Spam"
+            },
+            "dw.n1l.dev": {
+              "reason": "Spam"
+            },
+            "eientei.org": {
+              "reason": "Racism"
+            },
+            "fediverse.blog": {
+              "reason": "Spam"
+            },
+            "freespeechextremist.com": {
+              "reason": "Racism"
+            },
+            "friendsyu.me": {
+              "reason": "Spam"
+            },
+            "m.mxin.moe": {
+              "reason": "Spam"
+            },
+            "misskey.tailc0bbe.ts.net": {
+              "reason": "Spam"
+            },
+            "mstdn.business": {
+              "reason": "Spam"
+            },
+            "planetearth.social": {
+              "reason": "Spam"
+            },
+            "plume.pullopen.xyz": {
+              "reason": "Spam"
+            },
+            "social.cutefunny.net": {
+              "reason": "Spam"
+            },
+            "the.asbestos.cafe": {
+              "reason": "Excessive shitposting"
+            }
+          },
+          "reject": {
+            "mostr.pub": {
+              "reason": "Spam"
+            },
+            "pouque.net": {
+              "reason": "Spam bots"
+            },
+            "childlove.su": {
+              "reason": "Pedophilia"
+            },
+            "mstdn.jp": {
+              "reason": "Pedophilia"
+            },
+            "threads.net": {
+              "reason": "Corporate instance (owned by Meta)"
+            },
+            "mapsupport.de": {
+              "reason": "Pedophilia"
+            },
+            "nicecrew.digital": {
+              "reason": "Far-right instance"
+            },
+            "tastingtraffic.net": {
+              "reason": "Spam bots"
+            },
+            "cunnyborea.top": {
+              "reason": "Pedophilia"
+            },
+            "bird.makeup": {
+              "reason": "Twitter posts relay"
+            },
+            "budmo.info": {
+              "reason": "Spam bots"
+            },
+            "mozilla.social": {
+              "reason": "Corporate instance (owned by Mozilla)"
+            },
+            "cum.salon": {
+              "reason": "Harassment"
+            },
+            "nnia.space": {
+              "reason": "Pedophilia"
+            },
+            "obo.sh": {
+              "reason": "Lolicon"
+            },
+            "yandere.cc": {
+              "reason": "Lolicon"
+            },
+            "freak.university": {
+              "reason": "Pedophilia"
+            },
+            "gameliberty.club": {
+              "reason": "Lolicon"
+            },
+            "detroitriotcity.com": {
+              "reason": "Far-right instance"
+            },
+            "kyou.social": {
+              "reason": "Lolicon"
+            },
+            "beefyboys.win": {
+              "reason": "Far-right instance"
+            },
+            "lolison.top": {
+              "reason": "Lolicon"
+            },
+            "banned.cafe": {
+              "reason": "Spam bots"
+            },
+            "lewdieheaven.com": {
+              "reason": "Pedophilia"
+            },
+            "aethy.com": {
+              "reason": "Pedophilia"
+            },
+            "varishangout.net": {
+              "reason": "Lolicon"
+            },
+            "loli.exposed": {
+              "reason": "Lolicon"
+            },
+            "mirr0r.city": {
+              "reason": "Pedophilia"
+            },
+            "social.vivaldi.net": {
+              "reason": "Corporate instance (owned by Vivaldi)"
+            },
+            "eveningzoo.club": {
+              "reason": "Zoophilia"
+            },
+            "mapstodon.space": {
+              "reason": "Pedophilia"
+            },
+            "feral.cafe": {
+              "reason": "Zoophilia"
+            },
+            "misskey.io": {
+              "reason": "Lolicon"
+            },
+            "threads.instagram.com": {
+              "reason": "Corporate instance (owned by Meta)"
+            },
+            "wolfgirl.bar": {
+              "reason": "Far-right instance"
+            },
+            "shotatube.xyz": {
+              "reason": "Lolicon"
+            },
+            "bae.st": {
+              "reason": "Racism, spamming"
+            },
+            "poa.st": {
+              "reason": "Far-right instance"
+            },
+            "mastodon.social": {
+              "reason": "Spamming, poor moderation, openly federating with Threads"
+            },
+            "baraag.net": {
+              "reason": "Pedophilia"
+            },
+            "pawoo.net": {
+              "reason": "Pedophilia"
+            },
+            "merovingian.club": {
+              "reason": "Far-right instance"
+            },
+            "social.lovingexpressions.net": {
+              "reason": "Nazism"
+            },
+            "annihilation.social": {
+              "reason": "Racism, poor moderation"
+            },
+            "hentai.baby": {
+              "reason": "Lolicon"
+            },
+            "flipboard.social": {
+              "reason": "Corporate instance (owned by Flipboard)"
+            },
+            "rot.gives": {
+              "reason": "Pedophilia"
+            },
+            "youjo.love": {
+              "reason": "Pedophilia"
+            },
+            "*.pibvt.net": {
+              "reason": "Pedophilia"
+            },
+            "pieville.net": {
+              "reason": "Far-right instance"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "udongein.xyz",
+        "kafeneio.social",
+        "electricrequiem.com",
+        "libretooth.gr",
+        "fedi.charlie2alpha.org",
+        "shonk.phite.ro",
+        "hollow.raccoon.quest"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "Γκωμμουνηστικό Κώμα Φέντιβερς",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "uwu"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://fedi.getimiskon.xyz/users/getimiskon"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 67108864
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "usage": {
+      "localPosts": 26258,
+      "users": {
+        "activeHalfyear": 13,
+        "activeMonth": 10,
+        "total": 16
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

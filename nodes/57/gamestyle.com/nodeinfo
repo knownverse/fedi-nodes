@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 20,
+        "activeHalfyear": 20
+      },
+      "localPosts": 53,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gamestyle",
+      "nodeDescription": "Our word, your guide",
+      "nodeIcon": "https://gamestyle.com/wp-content/uploads/2023/09/cropped-gamestyle-logo-2023.png"
+    }
+  },
+  "error": null
+}

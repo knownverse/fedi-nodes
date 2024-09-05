@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hometown",
+      "version": "4.0.14+hometown-1.1.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2202,
+        "activeMonth": 438,
+        "activeHalfyear": 737
+      },
+      "localPosts": 192338
+    },
+    "openRegistrations": true,
+    "metadata": {}
+  },
+  "error": null
+}

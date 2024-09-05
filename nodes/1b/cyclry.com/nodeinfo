@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 1728,
+      "localComments": 22
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cyclry",
+      "nodeDescription": "Cycling news and humor from industry veterans",
+      "nodeIcon": "https://i0.wp.com/cyclry.com/wp-content/uploads/2019/12/faviconsq.png?fit=320%2C320&ssl=1"
+    }
+  },
+  "error": null
+}

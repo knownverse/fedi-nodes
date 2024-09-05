@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 34,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "モナコ広告",
+      "nodeDescription": "ニッチな情報系同人誌を制作する個人サークル",
+      "nodeIcon": "https://monaco.every-little.com/wp-content/uploads/2023/10/cropped-logo_512x512.png"
+    }
+  },
+  "error": null
+}

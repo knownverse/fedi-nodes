@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 83,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Grace Street Blog",
+      "nodeDescription": "where Jesus and community meet",
+      "nodeIcon": "https://thegracestreetblog.com/wp-content/uploads/2023/06/cropped-image-1.jpg"
+    }
+  },
+  "error": null
+}

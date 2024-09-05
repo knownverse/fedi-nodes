@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8488,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Smugly Cats Moe Moe",
+      "nodeDescription": "Bienvenue sur smugcat.moe ! \n<p>\nUne instance permettant d'avoir des discussions et des échanges sur la culture geek, nippone et la tech, avec des gens sympas et dans le plus grand respect possible. ",
+      "nodeAdmins": [
+        {
+          "name": "@grumpy",
+          "email": "grumpy@smugcat.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "@grumpy",
+        "email": "grumpy@smugcat.moe"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "feedbackUrl": "https://git.joinsharkey.org/Sharkey/Sharkey/issues/new/choose",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "u_animusic",
+      "themeColor": "#4d2425"
+    }
+  },
+  "error": null
+}

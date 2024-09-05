@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 191,
+      "localComments": 186
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Practical Distributism",
+      "nodeDescription": "Economics as though families matter",
+      "nodeIcon": "https://practicaldistributism.com/wp-content/uploads/2023/01/practical-distributism-avatar-email.png"
+    }
+  },
+  "error": null
+}

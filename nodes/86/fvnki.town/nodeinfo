@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "asbestos.cafe",
+            "ba*.st",
+            "bar***.net",
+            "chi******.su",
+            "cun*******.**ace",
+            "cun*******.top",
+            "cut******.net",
+            "freak.university",
+            "gea*******.*aus",
+            "genderheretics.xyz",
+            "h5*.*et",
+            "hen***.*aby",
+            "ignorelist.com",
+            "imo***.*ics",
+            "kur*****.moe",
+            "lew*********.com",
+            "lol****.**cks",
+            "lol****.****ork",
+            "lol****.top",
+            "map*******.de",
+            "mastinator.com",
+            "misskey-forkbomb.cf",
+            "mir***.*ity",
+            "nni*.**ace",
+            "noauthority.social",
+            "ob*.sh",
+            "odd*****.***ine",
+            "ped*.***ool",
+            "rap*.pet",
+            "rap*****.******ons",
+            "repl.co",
+            "ryo**.***ncy",
+            "sho**.**use",
+            "ski*********.com",
+            "you**.*ove",
+            "activitypub-proxy.cf",
+            "activitypub-troll.cf",
+            "aet**.com",
+            "neo******.com",
+            "paw**.net",
+            "twi.***ial",
+            "var*********.net"
+          ],
+          "media_removal": [],
+          "media_nsfw": [
+            "blob.cat",
+            "breastmilk.club",
+            "cum.camp",
+            "cum.salon",
+            "frennet.xyz"
+          ],
+          "federated_timeline_removal": [
+            "annihilation.social",
+            "clew.lol",
+            "clubcyberia.co",
+            "cryptodon.lol",
+            "cum.camp",
+            "cum.salon",
+            "decayable.ink",
+            "eveningzoo.club",
+            "federated.fun",
+            "fightthis.net",
+            "freesoftwareextremist.com",
+            "frennet.xyz",
+            "gameliberty.club",
+            "gleasonator.com",
+            "glee.li",
+            "intkos.link",
+            "kitsunemimi.club",
+            "kompost.cz",
+            "ligma.pro",
+            "mugicha.club",
+            "nicecrew.digital",
+            "noagendasocial.com",
+            "nyanide.com",
+            "parcero.bond",
+            "pkteerium.xyz",
+            "poa.st",
+            "pone.social",
+            "quanta.wiki",
+            "seal.cafe",
+            "shortstacksran.ch",
+            "shrimpposter.club",
+            "spinster.xyz",
+            "stereophonic.space",
+            "strelizia.net",
+            "theblab.org",
+            "whinge.town",
+            "wolfgirl.bar"
+          ],
+          "report_removal": [],
+          "followers_only": [
+            "brighteon.social",
+            "cachapa.xyz",
+            "cannibal.cafe",
+            "cawfee.club",
+            "detroitriotcity.com",
+            "eientei.org",
+            "fluf.club",
+            "freeatlantis.com",
+            "geofront.rocks",
+            "hidamari.apartments",
+            "husk.site",
+            "iddqd.social",
+            "merovingian.club",
+            "norwoodzero.net",
+            "pibvt.net",
+            "pieville.net",
+            "pisskey.io",
+            "poster.place",
+            "shitpost.cloud",
+            "skinheads.social",
+            "tastingtraffic.net",
+            "truthsocial.co.in",
+            "yggdrasil.social"
+          ],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "HellthreadPolicy",
+          "SimplePolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "gea*******.*aus": {
+              "reason": "minor-related illegal content (mostly lolicon), as well as hate-speech"
+            },
+            "neo******.com": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "bar***.net": {
+              "reason": "minor-related illegal content (mostly lolicon) and others"
+            },
+            "cun*******.top": {
+              "reason": "literally everything that can go wrong"
+            },
+            "mastinator.com": {
+              "reason": "bots, harassment, spam, probably unmoderated"
+            },
+            "rap*.pet": {
+              "reason": "minor-related illegal content and others"
+            },
+            "ignorelist.com": {
+              "reason": "spam"
+            },
+            "cut******.net": {
+              "reason": "literally everything that can go wrong"
+            },
+            "ob*.sh": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "nni*.**ace": {
+              "reason": "minor-related illegal content (MAP)"
+            },
+            "you**.*ove": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "freak.university": {
+              "reason": "inappropriate [alleged]"
+            },
+            "lew*********.com": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "ba*.st": {
+              "reason": "literally everything that can go wrong [alleged]"
+            },
+            "noauthority.social": {
+              "reason": "literally everything that can go wrong"
+            },
+            "imo***.*ics": {
+              "reason": "lolicon"
+            },
+            "lol****.****ork": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "twi.***ial": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "lol****.**cks": {
+              "reason": "minor-related illegal content (mostly lolicon), as well as hate-speech"
+            },
+            "sho**.**use": {
+              "reason": "minor-related illegal content (lolicon, shotacon, cub and others)"
+            },
+            "h5*.*et": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "chi******.su": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "repl.co": {
+              "reason": "spam"
+            },
+            "rap*****.******ons": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "mir***.*ity": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "kur*****.moe": {
+              "reason": "minor-related illegal content [alleged]"
+            },
+            "paw**.net": {
+              "reason": "minor-related illegal content (CSAM) [alleged]"
+            },
+            "lol****.top": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "hen***.*aby": {
+              "reason": "minor-related illegal content (CSAM)"
+            },
+            "activitypub-troll.cf": {
+              "reason": "spam"
+            },
+            "asbestos.cafe": {
+              "reason": "literally everything that can go wrong [alleged]"
+            },
+            "ski*********.com": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "ryo**.***ncy": {
+              "reason": "minor-related illegal content (lolicon), as well as hate-speech"
+            },
+            "ped*.***ool": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "genderheretics.xyz": {
+              "reason": "hate-speech/harassment"
+            },
+            "odd*****.***ine": {
+              "reason": "minor-related illegal content"
+            },
+            "map*******.de": {
+              "reason": "minor-related illegal content (MAP), as well as harassment"
+            },
+            "cun*******.**ace": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "spam"
+            },
+            "aet**.com": {
+              "reason": "minor-related illegal content and others"
+            },
+            "var*********.net": {
+              "reason": "minor-related illegal content (lolicon and CSAM), as well as hate speech"
+            }
+          },
+          "media_nsfw": {
+            "blob.cat": {
+              "reason": "porn/lewd"
+            },
+            "breastmilk.club": {
+              "reason": "porn/lewd"
+            },
+            "cum.camp": {
+              "reason": "porn (probably)"
+            },
+            "cum.salon": {
+              "reason": "porn (probably)"
+            },
+            "frennet.xyz": {
+              "reason": "porn/lewd/inappropriate"
+            }
+          },
+          "federated_timeline_removal": {
+            "parcero.bond": {
+              "reason": "hate-speech [alleged]"
+            },
+            "nyanide.com": {
+              "reason": "harassment, hate-speech, conspiracy [alleged]"
+            },
+            "spinster.xyz": {
+              "reason": "hate-speech [alleged]"
+            },
+            "freesoftwareextremist.com": {
+              "reason": "harassment/hate, hate-speech [alleged]"
+            },
+            "clew.lol": {
+              "reason": "hate-speech [alleged]"
+            },
+            "nicecrew.digital": {
+              "reason": "hate-speech [alleged]"
+            },
+            "cum.salon": {
+              "reason": "inappropriate"
+            },
+            "pone.social": {
+              "reason": "hate-speech, underage stuff [alleged]"
+            },
+            "ligma.pro": {
+              "reason": "hate-speech [alleged]"
+            },
+            "gameliberty.club": {
+              "reason": "bots/spam, hate-speech [alleged]"
+            },
+            "gleasonator.com": {
+              "reason": "hate-speech [alleged]"
+            },
+            "fightthis.net": {
+              "reason": "harassment/hate [alleged]"
+            },
+            "eveningzoo.club": {
+              "reason": "hate-speech, conspiracy [alleged]"
+            },
+            "seal.cafe": {
+              "reason": "hate-speech, harassment [alleged]"
+            },
+            "kompost.cz": {
+              "reason": "hate-speech [alleged], spam/unwanted content"
+            },
+            "whinge.town": {
+              "reason": "hate-speech [alleged]"
+            },
+            "shrimpposter.club": {
+              "reason": "hate-speech [alleged]"
+            },
+            "wolfgirl.bar": {
+              "reason": "hate-speech [alleged]"
+            },
+            "theblab.org": {
+              "reason": "hate-speech [alleged]"
+            },
+            "cum.camp": {
+              "reason": "inappropriate"
+            },
+            "stereophonic.space": {
+              "reason": "hate-speech, harassment [alleged]"
+            },
+            "noagendasocial.com": {
+              "reason": "no longer exists but cant be too sure"
+            },
+            "kitsunemimi.club": {
+              "reason": "hate-speech [alleged]"
+            },
+            "glee.li": {
+              "reason": "hate-speech, harassment [alleged]"
+            },
+            "decayable.ink": {
+              "reason": "hate-speech [alleged]"
+            },
+            "intkos.link": {
+              "reason": "hate-speech [alleged]"
+            },
+            "cryptodon.lol": {
+              "reason": "crypto"
+            },
+            "quanta.wiki": {
+              "reason": "hate-speech, AI"
+            },
+            "poa.st": {
+              "reason": "hate-speech [alleged]"
+            },
+            "frennet.xyz": {
+              "reason": "hate-speech [alleged]"
+            },
+            "annihilation.social": {
+              "reason": "hate-speech, harassment [alleged]"
+            },
+            "clubcyberia.co": {
+              "reason": "hate-speech, harassment [alleged]"
+            },
+            "shortstacksran.ch": {
+              "reason": "hate-speech [alleged]"
+            },
+            "federated.fun": {
+              "reason": "hate-speech [alleged]"
+            },
+            "pkteerium.xyz": {
+              "reason": "conspiracy [alleged]"
+            },
+            "strelizia.net": {
+              "reason": "hate-speech [alleged]"
+            },
+            "mugicha.club": {
+              "reason": "hate-speech [alleged]"
+            }
+          },
+          "followers_only": {
+            "brighteon.social": {
+              "reason": "conspiracy"
+            },
+            "cachapa.xyz": {
+              "reason": "hate-speech, racism"
+            },
+            "cannibal.cafe": {
+              "reason": "inappropriate"
+            },
+            "cawfee.club": {
+              "reason": "hate-speech"
+            },
+            "detroitriotcity.com": {
+              "reason": "hate-speech, harassment"
+            },
+            "eientei.org": {
+              "reason": "hate-speech, harassment"
+            },
+            "fluf.club": {
+              "reason": "hate-speech, harassment"
+            },
+            "freeatlantis.com": {
+              "reason": "conspiracy/misinformation, hate-speech"
+            },
+            "geofront.rocks": {
+              "reason": "hate-speech, spam"
+            },
+            "hidamari.apartments": {
+              "reason": "hate-speech, unmoderated"
+            },
+            "husk.site": {
+              "reason": "harassment/hate [alleged]"
+            },
+            "iddqd.social": {
+              "reason": "hate-speech, inappropriate spam"
+            },
+            "merovingian.club": {
+              "reason": "hate-speech, inappropriate, spam/unwanted content"
+            },
+            "norwoodzero.net": {
+              "reason": "hate-speech, conspiracy/misinformation"
+            },
+            "pibvt.net": {
+              "reason": "underage stuff [alleged]"
+            },
+            "pieville.net": {
+              "reason": "hate-speech, harassment"
+            },
+            "pisskey.io": {
+              "reason": "hate-speech, harassment/hate"
+            },
+            "poster.place": {
+              "reason": "hate-speech, conspiracy/misinformation"
+            },
+            "shitpost.cloud": {
+              "reason": "hate-speech, harassment"
+            },
+            "skinheads.social": {
+              "reason": "hate-speech"
+            },
+            "tastingtraffic.net": {
+              "reason": "spam, hate-speech"
+            },
+            "truthsocial.co.in": {
+              "reason": "hate-speech"
+            },
+            "yggdrasil.social": {
+              "reason": "hate-speech, uncomfortable/inappropriate topics"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "fvnki.town",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://fvnki.town/users/verarr"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

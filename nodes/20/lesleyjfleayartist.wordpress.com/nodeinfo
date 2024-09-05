@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lesley J Fleay",
+      "nodeDescription": "Artist",
+      "nodeIcon": "https://lesleyjfleayartist.wordpress.com/wp-content/uploads/2024/02/cropped-glider.websized-1.jpg"
+    }
+  },
+  "error": null
+}

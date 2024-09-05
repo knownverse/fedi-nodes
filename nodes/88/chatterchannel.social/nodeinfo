@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 432,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "chatterchannel.social",
+      "nodeDescription": "Welcome to our Sharkey instance! This is a general purpose instance.\n\nBefore signing up please take a look at our documentation portal https://chatterchannel.wikitide.org",
+      "nodeAdmins": [
+        {
+          "name": "@theo",
+          "email": "admin@chatterchannel.social"
+        }
+      ],
+      "maintainer": {
+        "name": "@theo",
+        "email": "admin@chatterchannel.social"
+      },
+      "langs": [],
+      "tosUrl": "https://chatterchannel.wikitide.org/wiki/Chatterchannel.social_Terms_Of_Service",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 100000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

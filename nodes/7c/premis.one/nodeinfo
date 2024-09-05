@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": null,
+      "repository": null
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 111,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 146128,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Premis",
+      "nodeDescription": "Premis（ぷれみす）は「楽しく過ごす」ことを主眼に置いたサーバーです。現状では新規登録は停止しています。",
+      "nodeAdmins": [
+        {
+          "name": "有理まこと",
+          "email": "メールアドレスは不正利用防止のため非公開です。 @yuri9000series@premis.one または https://y9ks.jp に記載のアカウントまで"
+        }
+      ],
+      "maintainer": {
+        "name": "有理まこと",
+        "email": "メールアドレスは不正利用防止のため非公開です。 @yuri9000series@premis.one または https://y9ks.jp に記載のアカウントまで"
+      },
+      "langs": [],
+      "tosUrl": "https://y9ks.jp/etc/premis-tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": null,
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#d03f30"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 3
+      },
+      "localPosts": 72
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon Glitch Edition",
+      "nodeDescription": "Ein-Nutzer-Instanz von Lili als Backup sollten andere Instanzen auf denen sie ist offline sein/gehen etc."
+    }
+  },
+  "error": null
+}

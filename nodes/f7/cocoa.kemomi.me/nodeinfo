@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/kemomimi-no-sato/misskey/kemomimi-pre",
+      "repository": "https://github.com/kemomimi-no-sato/misskey/kemomimi-pre"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 29,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 36234,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ここすきー",
+      "nodeDescription": "ちゃんとした鯖です！変な鯖ではありません！！",
+      "nodeAdmins": [
+        {
+          "name": "ここあ(@CoCoZaBs@cocoa.kemomi.me)",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ここあ(@CoCoZaBs@cocoa.kemomi.me)",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://cocoa.kemomi.me/@CoCoZaBs/pages/TOS_modoki",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kemomimi-no-sato/misskey/kemomimi-pre",
+      "feedbackUrl": "https://github.com/kemomimi-no-sato/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableLoginOnlyMode": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#15cf4c"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "agenda culturel indépendant // Toulouse et environs",
+      "nodeName": "not-quite-there-yet",
+      "nodeLabel": "",
+      "nodeTimezone": "Europe/Paris",
+      "nodeActor": "not-quite-there-yet"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.7.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 85,
+      "users": {
+        "total": 9
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0-beta.10-icy(2024.02.08.01)",
+      "homepage": "https://github.com/ISnow-Systems/icymisskey",
+      "repository": "https://github.com/ISnow-Systems/icymisskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1185,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "IcyMisskey!",
+      "nodeDescription": "ISnow Group 運営のオールジャンル Misskey サーバー！\nメールアドレス必須だけど、捨てメアドもOK！\nネチケットと法を守って楽しくノートしていきましょう！\n※データ破損のため2023年7月のデータにロールバックしました\n※法に反する行為などはミュートや凍結対象になります",
+      "nodeAdmins": [
+        {
+          "name": "秋雪 こおり",
+          "email": "kori@isnowgroup.net"
+        }
+      ],
+      "maintainer": {
+        "name": "秋雪 こおり",
+        "email": "kori@isnowgroup.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/ISnow-Systems/icymisskey",
+      "feedbackUrl": "https://github.com/ISnow-Systems/icymisskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#7FFFFF"
+    }
+  },
+  "error": null
+}

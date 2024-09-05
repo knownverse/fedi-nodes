@@ -1,0 +1,522 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "haeder.net",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "spinster.xyz",
+            "activitypub-troll.cf",
+            "seal.cafe",
+            "freak.university",
+            "fediversealmanac.com",
+            "veraciousnetwork.com",
+            "fedi.fazbear.lol",
+            "social.veraciousnetwork.com",
+            "kurry.social",
+            "truthsocial.co.in",
+            "mastodon.top",
+            "brighteon.social",
+            "pawoo.net",
+            "thewizardingworld.com",
+            "newsie.social",
+            "fluf.club",
+            "mirr0r.city",
+            "rubber.social",
+            "psimon.world",
+            "monads.online",
+            "lgbtfree.zone",
+            "nicecrew.digital",
+            "hunk.city",
+            "strelizia.net",
+            "freeatlantis.com",
+            "maston.grupotd.nat.cu",
+            "posting.lolicon.rocks",
+            "pooper.social",
+            "poa.st",
+            "varishangout.net",
+            "pleroma.nobodyhasthe.biz",
+            "ryona.agency",
+            "bae.st",
+            "eveningzoo.club",
+            "shortstackran.ch",
+            "gameliberty.club",
+            "freecumextremist.com",
+            "detroitriotcity.com",
+            "crucible.world",
+            "срёт.онлайн",
+            "wolfgirl.bar",
+            "sleepy.cafe",
+            "shitposter.club",
+            "ligma.pro",
+            "rojogato.com",
+            "cybercrusade.xyz",
+            "sneed.network",
+            "zetsubou.ryona.agency",
+            "rdrama.cc",
+            "chudbuds.lol",
+            "asbestos.cafe",
+            "cawfee.club",
+            "breastmilk.club",
+            "mugicha.club",
+            "poster.place",
+            "akko.disqordia.space",
+            "cybercriminal.eu",
+            "declin.eu",
+            "federated.fun",
+            "pleroma.narrativerry.xyz",
+            "shortstacksran.ch",
+            "pl.kitsunemimi.club",
+            "clew.lol",
+            "pl.starnix.network",
+            "berserker.town",
+            "weirder.earth",
+            "merovingian.club",
+            "mastodon.art",
+            "tsukihi.me",
+            "shitpost.cloud",
+            "cunnyborea.space",
+            "blackstar.cafe",
+            "ak.kyaruc.moe",
+            "mastodon.social",
+            "mastodon.online",
+            "noauthority.social",
+            "eientei.org",
+            "lab.nyanide.com",
+            "nightshift.social",
+            "threads.net",
+            "fediverse.blog",
+            "yggdrasil.social",
+            "pleroma.soykaf.com",
+            "heymaven.com",
+            "maven.ly",
+            "awakari.com",
+            "activitypub.awakari.com",
+            "journa.host",
+            "flipboard.com"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "NormalizeMarkup",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "pooper.social": {
+              "reason": "Transphobes."
+            },
+            "ak.kyaruc.moe": {
+              "reason": "Nazis."
+            },
+            "срёт.онлайн": {
+              "reason": "Transphobes."
+            },
+            "weirder.earth": {
+              "reason": "Frivolous reports."
+            },
+            "shortstackran.ch": {
+              "reason": "Transphobes."
+            },
+            "pleroma.soykaf.com": {
+              "reason": "Nazis."
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Belligerent web requests."
+            },
+            "spinster.xyz": {
+              "reason": "Run by transphobes."
+            },
+            "threads.net": {
+              "reason": "Unmoderated."
+            },
+            "clew.lol": {
+              "reason": "Transphobes."
+            },
+            "cybercrusade.xyz": {
+              "reason": "Nazis."
+            },
+            "nicecrew.digital": {
+              "reason": "Transphobes."
+            },
+            "rubber.social": {
+              "reason": "Unmoderated."
+            },
+            "shitpost.cloud": {
+              "reason": "Nazis."
+            },
+            "journa.host": {
+              "reason": "Unmoderated."
+            },
+            "tsukihi.me": {
+              "reason": "Harassment."
+            },
+            "maven.ly": {
+              "reason": "AI scraper."
+            },
+            "fediversealmanac.com": {
+              "reason": "Data scraping."
+            },
+            "crucible.world": {
+              "reason": "Transphobes."
+            },
+            "shitposter.club": {
+              "reason": "Nazis."
+            },
+            "ryona.agency": {
+              "reason": "Nazis."
+            },
+            "ligma.pro": {
+              "reason": "Transphobes."
+            },
+            "breastmilk.club": {
+              "reason": "Transphobes."
+            },
+            "pl.starnix.network": {
+              "reason": "Nazis."
+            },
+            "kurry.social": {
+              "reason": "Something borked here. Note to self: Look into this later?"
+            },
+            "freak.university": {
+              "reason": "Pedophiles."
+            },
+            "gameliberty.club": {
+              "reason": "Transphobes."
+            },
+            "detroitriotcity.com": {
+              "reason": "Transphobes."
+            },
+            "nightshift.social": {
+              "reason": "Transphobes."
+            },
+            "varishangout.net": {
+              "reason": "Transphobes."
+            },
+            "awakari.com": {
+              "reason": "Paid aggregate scraper."
+            },
+            "pl.kitsunemimi.club": {
+              "reason": "Transphobes."
+            },
+            "eveningzoo.club": {
+              "reason": "Transphobes."
+            },
+            "pleroma.narrativerry.xyz": {
+              "reason": "Transphobes."
+            },
+            "flipboard.com": {
+              "reason": "Unmoderated."
+            },
+            "seal.cafe": {
+              "reason": "Run by transphobes."
+            },
+            "sleepy.cafe": {
+              "reason": "Transphobes."
+            },
+            "freeatlantis.com": {
+              "reason": "Unmoderated."
+            },
+            "posting.lolicon.rocks": {
+              "reason": "Illegal content."
+            },
+            "freecumextremist.com": {
+              "reason": "Transphobes."
+            },
+            "cybercriminal.eu": {
+              "reason": "Block evasion."
+            },
+            "eientei.org": {
+              "reason": "Transphobes."
+            },
+            "rdrama.cc": {
+              "reason": "Transphobes."
+            },
+            "wolfgirl.bar": {
+              "reason": "Run by transphobes."
+            },
+            "zetsubou.ryona.agency": {
+              "reason": "Nazis."
+            },
+            "akko.disqordia.space": {
+              "reason": "Block evasion."
+            },
+            "heymaven.com": {
+              "reason": "AI scraper."
+            },
+            "mastodon.online": {
+              "reason": "Unmoderated."
+            },
+            "lab.nyanide.com": {
+              "reason": "Transphobes."
+            },
+            "mastodon.top": {
+              "reason": "Malicious bots."
+            },
+            "repl.co": {
+              "reason": "Belligerent web requests."
+            },
+            "bae.st": {
+              "reason": "Transphobes."
+            },
+            "yggdrasil.social": {
+              "reason": "Nazis."
+            },
+            "maston.grupotd.nat.cu": {
+              "reason": "Unmoderated."
+            },
+            "psimon.world": {
+              "reason": "Follow-bot."
+            },
+            "blackstar.cafe": {
+              "reason": "Suspicious web requests."
+            },
+            "poa.st": {
+              "reason": "Transphobes."
+            },
+            "poster.place": {
+              "reason": "Nazis."
+            },
+            "sneed.network": {
+              "reason": "Nazis."
+            },
+            "haeder.net": {
+              "reason": "Belligerent web requests."
+            },
+            "mastodon.social": {
+              "reason": "Unmoderated."
+            },
+            "pawoo.net": {
+              "reason": "Illegal content."
+            },
+            "activitypub-troll.cf": {
+              "reason": "Belligerent web requests."
+            },
+            "cawfee.club": {
+              "reason": "Nazis."
+            },
+            "rojogato.com": {
+              "reason": "Transphobes."
+            },
+            "merovingian.club": {
+              "reason": "Transphobes."
+            },
+            "cunnyborea.space": {
+              "reason": "Nazis."
+            },
+            "asbestos.cafe": {
+              "reason": "Nazis."
+            },
+            "chudbuds.lol": {
+              "reason": "Nazis."
+            },
+            "activitypub.awakari.com": {
+              "reason": "Paid aggregate scraper."
+            },
+            "brighteon.social": {
+              "reason": "Spam."
+            },
+            "mastodon.art": {
+              "reason": "Frivolous reports."
+            },
+            "hunk.city": {
+              "reason": "Spam."
+            },
+            "declin.eu": {
+              "reason": "Nazis."
+            },
+            "shortstacksran.ch": {
+              "reason": "Transphobes."
+            },
+            "federated.fun": {
+              "reason": "Nazis."
+            },
+            "newsie.social": {
+              "reason": "Journalists and nazis."
+            },
+            "fediverse.blog": {
+              "reason": "Unmoderated."
+            },
+            "pleroma.nobodyhasthe.biz": {
+              "reason": "Nazis."
+            },
+            "strelizia.net": {
+              "reason": "Block evasion."
+            },
+            "berserker.town": {
+              "reason": "Transphobes."
+            },
+            "mugicha.club": {
+              "reason": "Transphobes."
+            }
+          }
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 100,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "ak.angelstrapped.com",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": false,
+        "bubble": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://ak.angelstrapped.com/users/eviloatmeal",
+        "https://ak.angelstrapped.com/users/naln1",
+        "https://ak.angelstrapped.com/users/admin"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 16000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 5,
+        "activeMonth": 5
+      },
+      "localPosts": 11306
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.12.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

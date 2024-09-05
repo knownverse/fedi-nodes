@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Écologie, solidarités, démocratie, progrès social, vivant",
+      "nodeName": "Mobilizon Orléans"
+    },
+    "usage": {
+      "users": {
+        "total": 1239
+      },
+      "localComments": 5,
+      "localPosts": 1330
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

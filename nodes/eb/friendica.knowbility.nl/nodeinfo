@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "Friendica",
+      "version": "2019.12-1327"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "activitypub",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "activitypub",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Knowbility",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "activitypub",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "activitypub",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

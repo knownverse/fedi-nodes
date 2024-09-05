@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "",
+        "name": "t3mp"
+      },
+      "nodeDescription": "揮発性が高い",
+      "nodeName": "int 3",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#689d6a"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240523"
+    },
+    "usage": {
+      "localPosts": 7228,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

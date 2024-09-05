@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 182,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mas allá de Cuba",
+      "nodeDescription": "La mirada diferente a la Mayor de las Antillas",
+      "nodeIcon": "https://masalldecuba.wordpress.com/wp-content/uploads/2024/02/mac-logo.jpg"
+    }
+  },
+  "error": null
+}

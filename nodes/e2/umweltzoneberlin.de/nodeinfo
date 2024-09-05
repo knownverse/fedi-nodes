@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 52,
+        "activeMonth": "48",
+        "activeHalfyear": "48"
+      },
+      "localPosts": 290,
+      "localComments": 332
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Umweltzone Berlin",
+      "nodeDescription": "Umweltzone Berlin, Blog des BUND Berlin",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

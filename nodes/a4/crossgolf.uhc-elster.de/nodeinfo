@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 559,
+      "localComments": 60
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hook&amp;Slice",
+      "nodeDescription": "Wir leben Crossgolf",
+      "nodeIcon": "https://crossgolf.uhc-elster.de/wp-content/uploads/2019/04/cropped-HookSlice-1.png"
+    }
+  },
+  "error": null
+}

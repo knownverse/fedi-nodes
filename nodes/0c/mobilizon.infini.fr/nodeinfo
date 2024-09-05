@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 22
+      },
+      "localComments": 11,
+      "localPosts": 102
+    },
+    "metadata": {
+      "nodeDescription": null,
+      "nodeName": "Mobilizon Infini"
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

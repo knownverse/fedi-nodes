@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 283,
+      "localComments": 48
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Thinking about it",
+      "nodeDescription": "“You know what truth is? It&#039;s some crazy thing my neighbor believes. If I want to make friends with him, I ask him what he believes. He tells me, and I say, &quot;Yeah, yeah - ain&#039;t it the truth?”",
+      "nodeIcon": "https://i0.wp.com/www.bricetebbs.com/wp-content/uploads/2023/10/cropped-Avatar.jpeg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

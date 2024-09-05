@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "bkk.gravure.club",
+      "nodeDescription": "jpop gravure ぶっかけ cumtribute newjeans",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 3,
+      "publicReader": false,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.14.0"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 159
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

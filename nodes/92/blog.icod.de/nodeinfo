@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 307,
+      "localComments": 84
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "luketic.de",
+      "nodeDescription": "Webentwicklung und sonstiger Unsinn :) Web development and other nonsense :)",
+      "nodeIcon": "https://luketic.de/wp-content/uploads/2017/04/darko-luketic-foto.256x256.jpg"
+    }
+  },
+  "error": null
+}

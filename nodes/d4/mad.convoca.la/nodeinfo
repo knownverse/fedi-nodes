@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda activista y cultural autogestionada",
+      "nodeName": "Madrid",
+      "nodeTimezone": "Europe/Madrid",
+      "nodeActor": "madrid"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 5,
+      "localPosts": 16350,
+      "users": {
+        "total": 63
+      }
+    }
+  },
+  "error": null
+}

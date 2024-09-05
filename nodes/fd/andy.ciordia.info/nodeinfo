@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 376,
+      "localComments": 207
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "it&#039;s my island",
+      "nodeDescription": "andy.ciordia.info",
+      "nodeIcon": "https://andy.ciordia.info/wp-content/files/2024/03/its-my-island-removebg.png"
+    }
+  },
+  "error": null
+}

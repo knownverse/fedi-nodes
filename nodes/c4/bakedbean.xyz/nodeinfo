@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+qdon.glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 129,
+        "activeMonth": 34,
+        "activeHalfyear": 56
+      },
+      "localPosts": 117495
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "슈퍼마켙",
+      "nodeDescription": "동네 어디에나 있는 슈퍼마켓 입니다.\r\n개인 서버에서 운영되고 있습니다."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 70358,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Bluesky",
+      "nodeDescription": "楽しいね♪",
+      "nodeAdmins": [
+        {
+          "name": "蝉暮せせせ",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "蝉暮せせせ",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://tanoshii.site/@admin/pages/riyoukiyakudayo",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

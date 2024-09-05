@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 321,
+      "localComments": 210
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Liz Cultivates",
+      "nodeDescription": "Mountains don&#039;t need anchors.",
+      "nodeIcon": "https://lizcultivates.com/wp-content/uploads/2021/07/cropped-internet-gma-floppy-disk.png"
+    }
+  },
+  "error": null
+}

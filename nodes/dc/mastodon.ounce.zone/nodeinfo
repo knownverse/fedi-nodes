@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 417
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "ounce.zone",
+      "nodeDescription": "Just a cozy little den on the fediverse :3"
+    }
+  },
+  "error": null
+}

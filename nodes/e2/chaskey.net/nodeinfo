@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 63,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2744,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ちゃすきー",
+      "nodeDescription": "chaskey.net は お茶好きな人が集まる Misskey インスタンスです。茶種・産地は問わず、カメリアシネンシスに限らずハーブでもなんでも。",
+      "nodeAdmins": [
+        {
+          "name": "nemotea",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "nemotea",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://nemotea.notion.site/783a1f0b25c64830992ed5d3615c107a",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "chaskeyproxy",
+      "themeColor": "#ffadad"
+    }
+  },
+  "error": null
+}

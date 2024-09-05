@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4168,
+      "localComments": 20239
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Professional Moron",
+      "nodeDescription": "Daily Doses of Satire &amp; Culture",
+      "nodeIcon": "https://professionalmoron.com/wp-content/uploads/2020/04/cropped-a-yellow-blob-with-a-vacant-expression.jpg"
+    }
+  },
+  "error": null
+}

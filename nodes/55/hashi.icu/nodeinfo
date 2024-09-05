@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0~hashi",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 74,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3539,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "橋",
+      "nodeDescription": "连接你我，连接世界 -- Connecting you and me, connecting the world -- あなたと私をつなぎ、世界をつなぐ",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "admin@yatserver.com"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "admin@yatserver.com"
+      },
+      "langs": [],
+      "tosUrl": "https://hi.hashi.icu/@admin/pages/tos",
+      "privacyPolicyUrl": "https://hi.hashi.icu/@admin/pages/pp",
+      "inquiryUrl": "https://chat.hashi.sbs/#/room/#public:hashi.sbs",
+      "impressumUrl": "https://hi.hashi.icu/@admin/pages/impressum",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 8000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#00ffff"
+    }
+  },
+  "error": null
+}

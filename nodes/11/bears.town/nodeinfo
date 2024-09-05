@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 77,
+        "activeMonth": 31,
+        "activeHalfyear": 39
+      },
+      "localPosts": 19759
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "bears.town",
+      "nodeDescription": "A Mastodon instance for all ursine folk and friends. 🐻 Aimed at being an inclusive and cozy space for all, serving primarily the furry and LGBTQ communities."
+    }
+  },
+  "error": null
+}

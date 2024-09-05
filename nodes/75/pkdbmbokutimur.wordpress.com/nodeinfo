@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "PAGUYUBAN PETERNAK KAMBING DOMBA BERKAH MAJU BERSAMA",
+      "nodeDescription": "MENGUBAH SAMPAH MENJADI DAGING DALAM MENCAPAI SWASEMBADA DAGING KAMBING DOMBA DI INDONESIA",
+      "nodeIcon": "https://pkdbmbokutimur.wordpress.com/wp-content/uploads/2024/01/wp-1706234899720.jpg"
+    }
+  },
+  "error": null
+}

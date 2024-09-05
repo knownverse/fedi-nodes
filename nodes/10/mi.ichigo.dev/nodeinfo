@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 545,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mi.ichigo.dev",
+      "nodeDescription": "基本的に信頼できる人しか招待していないので, 日本国の法令を遵守して常識の範囲内で緩くやります. 念の為サーバールール見ておいてください. 何かあれば連絡ください.\n\nAPI利用も負荷が増大しない程度に好きにしてください. (Bot用ユーザ作りたい場合は招待コード渡します.)\n\n基本ちゃんと動かすつもりですが突然死しても許してください.",
+      "nodeAdmins": [
+        {
+          "name": "いちご",
+          "email": "petitstrawberry.dev@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "いちご",
+        "email": "petitstrawberry.dev@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#000000"
+    }
+  },
+  "error": null
+}

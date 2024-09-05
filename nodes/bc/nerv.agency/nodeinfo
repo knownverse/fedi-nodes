@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2382,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "第三新东京市",
+      "nodeDescription": "爱好自由的人类为了抗击使徒——指有权有钱的社会达尔文主义者——最后的庇护所，为完成星际移民Exelion飞船建设计划所设立的地表与地下都市。本市原则上不开放移民申请，特殊情况可联络 @neoatlantis@nerv.agency (Telegram: @neoatlantis) 询问邀请码。邀请码将由 MAGI 系统依个案审批发放。",
+      "maintainer": {
+        "name": "MAGI",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#5e81ac"
+    }
+  },
+  "error": null
+}

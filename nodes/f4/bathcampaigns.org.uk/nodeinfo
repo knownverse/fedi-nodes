@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 16,
+      "localComments": 45
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bath Campaigns Network",
+      "nodeDescription": "Local People. Local Power. Join us to find out what&#039;s going on and help make your voice heard!",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

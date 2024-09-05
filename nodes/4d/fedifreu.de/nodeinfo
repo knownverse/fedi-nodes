@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": 13,
+        "activeHalfyear": 14
+      },
+      "localPosts": 1103
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon",
+      "nodeDescription": "Diese Mastodon-Instanz wird von der netzaktivistischen Gruppe Datenfreude betrieben. Mehr über uns: https://datenfreu.de"
+    }
+  },
+  "error": null
+}

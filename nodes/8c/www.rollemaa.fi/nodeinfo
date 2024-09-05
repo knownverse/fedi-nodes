@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1628,
+      "localComments": 3967
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rollemaa",
+      "nodeDescription": "Rollen virtuaalinen paratiisi. Elämää, Internetiä, ilmiöitä.",
+      "nodeIcon": "https://www.rollemaa.fi/media/2023/08/rollemaa-favicon-2023.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "&lt;br&gt;StarNetCafeSB2012D3POYNagaworld2-Hotel-Casino-Phnom&lt;br&gt;My Sis &lt;br&gt;Nama Lain Dari Nagaworld MySisterD3POYccMuachhh&lt;br&gt;&lt;br&gt;",
+      "nodeDescription": "mysisd3poycc",
+      "nodeIcon": "https://mysisd3poyccxyz.wordpress.com/wp-content/uploads/2023/03/fb_img_1668306683570-3.jpg"
+    }
+  },
+  "error": null
+}

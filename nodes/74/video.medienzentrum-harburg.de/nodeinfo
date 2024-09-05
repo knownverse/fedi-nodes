@@ -1,0 +1,362 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "peertube",
+      "version": "6.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 1,
+        "activeHalfyear": 3
+      },
+      "localPosts": 3360,
+      "localComments": 1
+    },
+    "metadata": {
+      "taxonomy": {
+        "postsName": "Videos"
+      },
+      "nodeName": "ಠಠ - die kommunale Bildungs- und Videoplattform des Medienzentrum Landkreis Harburg - ಠಠ",
+      "nodeDescription": "Dies ist der VIDEOLAB Server. Das VIDEOLAB ist ein Audio- und Videostudio, welches zum DIGILAB des Medienzentrum Landkreis Harburg gehört. ",
+      "nodeConfig": {
+        "search": {
+          "remoteUri": {
+            "users": false,
+            "anonymous": false
+          }
+        },
+        "plugin": {
+          "registered": [
+            {
+              "npmName": "peertube-plugin-matomo",
+              "name": "matomo",
+              "version": "1.0.2",
+              "description": "Matomo plugin that tracks page views on a PeerTube instance.",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                },
+                "dist/embed-client-plugin.js": {
+                  "script": "dist/embed-client-plugin.js",
+                  "scopes": [
+                    "embed"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-auto-mute",
+              "name": "auto-mute",
+              "version": "0.0.6",
+              "description": "Auto mute plugin for PeerTube",
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-plugin-creative-commons",
+              "name": "creative-commons",
+              "version": "1.2.0",
+              "description": "Standardized display of Creative Commons licenses. Uses short identifiers like CC BY-SA 4.0 instead of descriptive text.",
+              "clientScripts": {
+                "client/video-watch-client-plugin.js": {
+                  "script": "client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-custom-links",
+              "name": "custom-links",
+              "version": "0.0.10",
+              "description": "PeerTube plugin that allows you to add custom links on the bottom of the menu",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-featured-page",
+              "name": "featured-page",
+              "version": "0.0.1",
+              "description": "Adds a page with featured channels and featured videos",
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-podcast2",
+              "name": "podcast2",
+              "version": "0.5.1",
+              "description": "PeerTube plugin for podcast support",
+              "clientScripts": {
+                "dist/common-client-plugin.js": {
+                  "script": "dist/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-plugin-chapters",
+              "name": "chapters",
+              "version": "1.1.3",
+              "description": "PeerTube chapter plugin",
+              "clientScripts": {
+                "dist/client/video-watch-client-plugin.js": {
+                  "script": "dist/client/video-watch-client-plugin.js",
+                  "scopes": [
+                    "video-watch",
+                    "embed"
+                  ]
+                },
+                "dist/client/video-edit-client-plugin.js": {
+                  "script": "dist/client/video-edit-client-plugin.js",
+                  "scopes": [
+                    "video-edit"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "theme": {
+          "registered": [
+            {
+              "npmName": "peertube-theme-noussommes",
+              "name": "noussommes",
+              "version": "1.0.2",
+              "description": "NousSommes theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-realitytube-light",
+              "name": "realitytube-light",
+              "version": "3.3.7",
+              "description": "Realitytube Light Theme",
+              "css": [
+                "assets/plugin.css",
+                "assets/style.css",
+                "assets/realitytube-light.css"
+              ],
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-theme-bittube-light-mode-no-background",
+              "name": "bittube-light-mode-no-background",
+              "version": "2.3.2",
+              "description": "BitTube light theme",
+              "css": [
+                "assets/style.css"
+              ],
+              "clientScripts": {
+                "client/common-client-plugin.js": {
+                  "script": "client/common-client-plugin.js",
+                  "scopes": [
+                    "common"
+                  ]
+                }
+              }
+            },
+            {
+              "npmName": "peertube-theme-pirate-stoertebeker",
+              "name": "pirate-stoertebeker",
+              "version": "1.1.1",
+              "description": "PeerTube Piratenpartei theme",
+              "css": [
+                "assets/style1.css",
+                "assets/style2.css"
+              ],
+              "clientScripts": {}
+            },
+            {
+              "npmName": "peertube-theme-kamerton-dark",
+              "name": "kamerton-dark",
+              "version": "3.5.0",
+              "description": "Kamerton dark theme",
+              "css": [
+                "assets/style.css",
+                "assets/plugin.css",
+                "assets/kamerton-dark.css"
+              ],
+              "clientScripts": {}
+            }
+          ],
+          "default": "pirate-stoertebeker"
+        },
+        "email": {
+          "enabled": true
+        },
+        "contactForm": {
+          "enabled": true
+        },
+        "transcoding": {
+          "hls": {
+            "enabled": true
+          },
+          "web_videos": {
+            "enabled": false
+          },
+          "enabledResolutions": [
+            720,
+            1080
+          ]
+        },
+        "live": {
+          "enabled": true,
+          "transcoding": {
+            "enabled": true,
+            "enabledResolutions": [
+              720,
+              1080
+            ]
+          }
+        },
+        "import": {
+          "videos": {
+            "http": {
+              "enabled": true
+            },
+            "torrent": {
+              "enabled": false
+            }
+          }
+        },
+        "autoBlacklist": {
+          "videos": {
+            "ofUsers": {
+              "enabled": true
+            }
+          }
+        },
+        "avatar": {
+          "file": {
+            "size": {
+              "max": 4194304
+            },
+            "extensions": [
+              ".png",
+              ".jpeg",
+              ".jpg",
+              ".gif",
+              ".webp"
+            ]
+          }
+        },
+        "video": {
+          "image": {
+            "extensions": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp"
+            ],
+            "size": {
+              "max": 4194304
+            }
+          },
+          "file": {
+            "extensions": [
+              ".webm",
+              ".ogv",
+              ".ogg",
+              ".mp4",
+              ".mkv",
+              ".mov",
+              ".qt",
+              ".mqv",
+              ".m4v",
+              ".flv",
+              ".f4v",
+              ".wmv",
+              ".avi",
+              ".3gp",
+              ".3gpp",
+              ".3g2",
+              ".3gpp2",
+              ".nut",
+              ".mts",
+              ".m2ts",
+              ".mpv",
+              ".m2v",
+              ".m1v",
+              ".mpg",
+              ".mpe",
+              ".mpeg",
+              ".vob",
+              ".mxf",
+              ".mp3",
+              ".wma",
+              ".wav",
+              ".flac",
+              ".aac",
+              ".m4a",
+              ".ac3"
+            ]
+          }
+        },
+        "videoCaption": {
+          "file": {
+            "size": {
+              "max": 20971520
+            },
+            "extensions": [
+              ".vtt",
+              ".srt"
+            ]
+          }
+        },
+        "user": {
+          "videoQuota": 0,
+          "videoQuotaDaily": 0
+        },
+        "trending": {
+          "videos": {
+            "intervalDays": 7
+          }
+        },
+        "tracker": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "error": null
+}

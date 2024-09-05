@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 38
+    },
+    "metadata": {
+      "nodeName": "kemitix",
+      "nodeDescription": "kemitix",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://mitra.kemitix.net/users/paul"
+      ]
+    }
+  },
+  "error": null
+}

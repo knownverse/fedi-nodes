@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9-dev-f14d8a7ea",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": 12,
+        "activeMonth": 6
+      },
+      "localPosts": 4519,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Gejuchowo",
+      "nodeDescription": "Polska instancja Fediverse, kierowana do ludzi LGBT+ i/lub fanatyków technologii, lecz wszyscy są mile widziani :)\n\nYou can speak english here, it's just more targetted towards Polish people",
+      "maintainer": {
+        "name": "MarkAssPandi",
+        "email": "me@markasspandi.pl"
+      },
+      "langs": [],
+      "tosUrl": "https://gejuchowo.pl/@admin/pages/1713130322921",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 100000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

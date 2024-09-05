@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Precision Crafted English",
+      "nodeDescription": "We Fix What You Wrote",
+      "nodeIcon": "https://precisioncraftedenglish.com/wp-content/uploads/2024/03/cropped-b789fd15-26e6-42e4-8aaa-616f3e7b6455.jpg"
+    }
+  },
+  "error": null
+}

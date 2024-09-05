@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.10.0-rc.4-engawa0.5.2",
+      "basedMisskeyVersion": "2024.7.0",
+      "homepage": "https://github.com/1673beta/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11253,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "縁側",
+      "nodeDescription": "とある人の縁側。\nフォークのフォークを利用しています。",
+      "nodeAdmins": [
+        {
+          "name": "Esurio",
+          "email": "discord: beta1673"
+        }
+      ],
+      "maintainer": {
+        "name": "Esurio",
+        "email": "discord: beta1673"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/1673beta/cherrypick",
+      "feedbackUrl": "https://github.com/1673beta/cherrypick/issues/new/choose",
+      "statusUrl": "",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 5120,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffbcdc"
+    }
+  },
+  "error": null
+}

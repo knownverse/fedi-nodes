@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "dolphin",
+      "version": "1.4.0-20230211123100"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "かにすきー",
+      "nodeDescription": null,
+      "maintainer": {
+        "name": "okitz",
+        "email": "okitzshi@gmail.com"
+      },
+      "maxNoteTextLength": 500,
+      "enableServiceWorker": "BIR0RdJVP3wvhoCPKGYqckdaz9WQssMmh38xFYxACRsLsGfsF8IAvb7SkgZMqGSTVVhgEyFI3aU-y_qS_sE4K6E"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fontanelle Marche",
+      "nodeDescription": "L&#039;acqua che ti dà l&#039;acqua",
+      "nodeIcon": "https://fontanellemarche.wordpress.com/wp-content/uploads/2024/04/cropped-fontanelle-marche-512px.png"
+    }
+  },
+  "error": null
+}

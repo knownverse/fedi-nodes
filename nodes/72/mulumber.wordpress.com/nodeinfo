@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "沐 原木板材 mu Lumber",
+      "nodeDescription": "mu Lumber  trade supplier 沐林原木板材貿易供應商",
+      "nodeIcon": "https://mulumber.wordpress.com/wp-content/uploads/2024/03/lumber-logo-1-200x200-1.png"
+    }
+  },
+  "error": null
+}

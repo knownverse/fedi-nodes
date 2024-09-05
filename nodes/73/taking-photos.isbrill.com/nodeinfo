@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 4
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Taking Photos",
+      "nodeDescription": "Taking photos is brill. Going outside and taking photos is brill especially when you have a good freind you can be a bit mad with.",
+      "nodeIcon": "https://taking-photos.isbrill.com/wp-content/uploads/sites/20/2024/07/cropped-251101455_10222300741001459_7068878567668636215_n.jpg"
+    }
+  },
+  "error": null
+}

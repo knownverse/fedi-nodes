@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda condivisa per Torino e dintorni",
+      "nodeName": "Gancio",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "gancio"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 15,
+      "localPosts": 4338,
+      "users": {
+        "total": 183
+      }
+    }
+  },
+  "error": null
+}

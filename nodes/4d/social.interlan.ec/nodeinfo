@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2023.12-1542"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Interlan Social Network",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp",
+          "tumblr",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

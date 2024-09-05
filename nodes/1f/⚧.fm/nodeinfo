@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "trashposs",
+      "version": "2024.04.1",
+      "repository": "https://iceshrimp.dev/Crimekillz/trashposs",
+      "homepage": "https://iceshrimp.dev/crimekillz/trashposs/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 553,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "⚧️.fm",
+      "nodeDescription": "⚧️.fm is the reference TrashPoss instance\nPress login to get redirected to the SSO where you can make a new account or sign in using your existing account.\n\nSponsored and hosted by Fire Systems Network",
+      "maintainer": {
+        "name": "Fire Systems Network",
+        "email": "support [at] ⚧️ [dot] fm"
+      },
+      "langs": [],
+      "tosUrl": "https://ecc.161.sh",
+      "repositoryUrl": "https://iceshrimp.dev/Crimekillz/trashposs",
+      "feedbackUrl": "https://iceshrimp.dev/Crimekillz/trashposs/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

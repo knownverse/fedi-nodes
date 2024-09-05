@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.12-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 15553
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "ゔぉっか: A part of the fediverse",
+      "nodeDescription": "マストドン・ドット・ヴォッカはアクティヴィティパブ・フェディヴァースのグローバルなコミュニケーションにコミットするソーシャル・ネットワーキング・サーヴィスです。"
+    }
+  },
+  "error": null
+}

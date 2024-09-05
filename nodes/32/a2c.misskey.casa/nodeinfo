@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1228,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みーくりあ！Ver.A2",
+      "nodeDescription": "みーくりあ！は常に最先端のMisskeyを使いたい人のための全自動更新サーバーです。アクセス不能にならない範囲で最新版のMisskeyが実行されます。毎日3時半頃にアップデートを確認します。",
+      "nodeAdmins": [
+        {
+          "name": "おきん",
+          "email": "https://www.okin-jp.net/contact"
+        }
+      ],
+      "maintainer": {
+        "name": "おきん",
+        "email": "https://www.okin-jp.net/contact"
+      },
+      "langs": [],
+      "tosUrl": "https://www.okin-jp.net/terms",
+      "privacyPolicyUrl": "https://www.okin-jp.net/pp",
+      "inquiryUrl": "https://www.okin-jp.net/contact",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

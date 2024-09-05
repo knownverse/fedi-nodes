@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 245,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "See Her See You Devotional",
+      "nodeDescription": "Everyday life with a Christian View",
+      "nodeIcon": "https://i0.wp.com/seeherseeyou.blog/wp-content/uploads/2024/01/cropped-img_0674.jpeg?fit=1463%2C1462&ssl=1"
+    }
+  },
+  "error": null
+}

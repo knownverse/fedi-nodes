@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 12,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ecotribe",
+      "nodeDescription": "A gathering of minds who think, work, live, learn, dream of ecology, permaculture, tread light, transition, self-sufficiency, ...",
+      "nodeIcon": "https://ecotri.be/wp-content/uploads/2024/05/cropped-ecotribe.jpg"
+    }
+  },
+  "error": null
+}

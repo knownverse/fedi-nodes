@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 34,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 26557,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "むらやきー",
+      "nodeDescription": "身内用サーバーです。村を焼きます。\n\n※むらやきーのサーバーアイコン画像は、CC BY-SA 4.0 のもとに配布されている原本(https://misskey-hub.net/ja/brand-assets/)を@Siodare_2@murayakey.comが改変して作成したものです。",
+      "nodeAdmins": [
+        {
+          "name": "しおだれ",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "しおだれ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#d03c0b"
+    }
+  },
+  "error": null
+}

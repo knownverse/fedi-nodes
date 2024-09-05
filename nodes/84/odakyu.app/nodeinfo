@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 280,
+        "activeMonth": 21,
+        "activeHalfyear": 36
+      },
+      "localPosts": 364604
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "小田急don",
+      "nodeDescription": "小田急donは小田急電鉄の利用者・周辺地域の居住者を始めとするあらゆる方にご利用頂けるMastodonインスタンスです。\r\nつまりルールを守る限りどなたでもご利用いただけます。"
+    }
+  },
+  "error": null
+}

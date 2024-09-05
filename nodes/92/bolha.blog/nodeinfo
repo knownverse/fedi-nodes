@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Bolhaverso",
+      "nodeDescription": "A plataforma de blogs da bolha.io",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 12,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": ""
+    },
+    "usage": {
+      "users": {
+        "total": 101,
+        "activeHalfyear": 22,
+        "activeMonth": 5
+      },
+      "localPosts": 552
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

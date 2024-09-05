@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 19,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "L&#039;Économiste Sceptique - Par Olivier Simard-Casanova",
+      "nodeDescription": "La science économique expliquée simplement, un article scientifique après l&#039;autre",
+      "nodeIcon": "https://economistesceptique.wordpress.com/wp-content/uploads/2023/12/ecosceptique-logo-cercle-v1.webp"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 257,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Vikkey",
+      "nodeDescription": "<h1>welcome to my personal instance! 🐺</h1>\n\n<p>idk what to put here as im still setting everything up but yeah.</p>\n\n<p>i can block any content, users or instances that don't abide by my rules or views since this is a semi-private instance<br>\nif you want to join the instance you can DM me on discord or tg for an invite i guess</p>\n\n<p>for extra maintenance info, <a href=\"https://social.itsvic.dev/@root\">see the root account</a>. uptime stats can be found on <a href=\"https://stats.uptimerobot.com/Jpl4phpGOK/797093286\" target=\"_blank\" rel=\"noreferer\">UptimeRobot</a>.</p>",
+      "nodeAdmins": [
+        {
+          "name": "it's vic!",
+          "email": "contact@itsvic.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "it's vic!",
+        "email": "contact@itsvic.dev"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://t.me/itsvicdev",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#4d0f99"
+    }
+  },
+  "error": null
+}

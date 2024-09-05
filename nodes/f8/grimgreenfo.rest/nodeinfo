@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 118,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 119779,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Fiend Folio Fan Club",
+      "nodeDescription": "We're a community built around anything and everything.\n\n100% very real distant cousin instance of wetdry.world no fake guys trust me ;]",
+      "nodeAdmins": [
+        {
+          "name": "limineow",
+          "email": "limineow@grimgreenfo.rest"
+        }
+      ],
+      "maintainer": {
+        "name": "limineow",
+        "email": "limineow@grimgreenfo.rest"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://grimgreenfo.rest/files/9622274b-c3af-487a-ba95-c89b46e82c5b",
+      "impressumUrl": null,
+      "donationUrl": "https://ko-fi.com/grimgreenforest",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#813d9c"
+    }
+  },
+  "error": null
+}

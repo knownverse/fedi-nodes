@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 333,
+        "activeHalfyear": 91,
+        "activeMonth": 17
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.qoto.org/federation/actors/service",
+      "private": false,
+      "shortDescription": "The QOTO Funkwhale Instance",
+      "longDescription": "The QOTO Funkwhale Instance",
+      "rules": "",
+      "contactEmail": "",
+      "terms": "",
+      "nodeName": "QOTO Funkwhale",
+      "banner": "https://s3.us-east-1.wasabisys.com/qoto-funkwhale/dynamic_preferences/instance__banner/lab-transparent.png",
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 26254
+        },
+        "artists": {
+          "total": 3751
+        },
+        "albums": {
+          "total": 3308
+        },
+        "music": {
+          "hours": 5934.501666666667
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 196
+          }
+        },
+        "listenings": {
+          "total": 1075
+        },
+        "downloads": {
+          "total": 74
+        }
+      }
+    }
+  },
+  "error": null
+}

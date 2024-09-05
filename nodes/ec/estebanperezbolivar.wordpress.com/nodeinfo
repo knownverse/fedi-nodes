@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Esteban Pérez Bolívar",
+      "nodeDescription": "Escritor. En su tiempo oficial de marina de guerra y podcaster en «Zafarrancho Pódcast».",
+      "nodeIcon": "https://estebanperezbolivar.wordpress.com/wp-content/uploads/2022/10/cropped-edpb-mas-pequena-para-fb.jpg"
+    }
+  },
+  "error": null
+}

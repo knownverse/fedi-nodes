@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Attention, ce site n’est pas modéré et les données que vous y rentrerez seront automatiquement détruites tous les jours à 00:01 CEST (UTC +2).",
+      "nodeName": "Demo Mobilizon"
+    },
+    "usage": {
+      "users": {
+        "total": 5
+      },
+      "localComments": 17,
+      "localPosts": 6
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

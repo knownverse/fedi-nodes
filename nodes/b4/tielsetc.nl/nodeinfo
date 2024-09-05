@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tielse Tafeltennisclub",
+      "nodeDescription": "Kom je ook spelen?",
+      "nodeIcon": "https://tielsetc.nl/wp-content/uploads/2024/01/cropped-ttc-logo.png"
+    }
+  },
+  "error": null
+}

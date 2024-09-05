@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 623,
+      "localComments": 764
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "noplasticshowers",
+      "nodeDescription": "essential hotel criteria for frequent travelers",
+      "nodeIcon": "https://i0.wp.com/noplasticshowers.com/wp-content/uploads/2021/06/cropped-nps.png?fit=1795%2C1795&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,477 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "baraag.net",
+            "threads.net",
+            "social.cutefunny.net",
+            "cunnyborea.top",
+            "m.mxin.moe",
+            "cunnyborea.top",
+            "smooth.guru",
+            "arvr.social",
+            "pawoo.net",
+            "anim*.****ite",
+            "baraag.net",
+            "chil*****.su",
+            "childpawn.shop",
+            "crypto-group-buy.com",
+            "cutefunny.net",
+            "fedichive.tk",
+            "nazi.social",
+            "socnet.softgirl.online",
+            "andrew.xyz",
+            "prf.me",
+            "m.qqs.tw",
+            "mstdn.at",
+            "odenwald.social",
+            "fpl.social",
+            "moth.social",
+            "forum-lucifer.com",
+            "meetbeauties.social",
+            "social.foederiert.de",
+            "cmm.fyi",
+            "forestver.se",
+            "cryptodon.lol",
+            "freesocial.co",
+            "scfzfilm.org",
+            "fusionpros.social",
+            "kokuusa.club",
+            "edusocial.it",
+            "educhat.social",
+            "cherryberry.pink",
+            "9kb.me",
+            "portside.social",
+            "kernkraft.social",
+            "kommunismus.social",
+            "bondsdogs.com",
+            "forum-lucifer.com",
+            "neuroscience-mastodon.com",
+            "mastodon.svgun.ru",
+            "witten.social",
+            "game-tecx.de",
+            "groupsebelah.com",
+            "phyrexia.ru",
+            "don.neet.co.jp",
+            "besties.com",
+            "electroverse.tech",
+            "lllsecurity.com",
+            "digitaldata.social",
+            "aether.run",
+            "mentalhealth-masto.com",
+            "mastodon.snmsoc.org",
+            "waterlily.tokyo",
+            "mastodon.integrata-stiftung.de",
+            "mastodon-ero.xyz",
+            "mastadon.astuto.cc",
+            "i.transmit.love",
+            "tootnet.nl",
+            "mastodon.education",
+            "niederbayern.social",
+            "social.tcpcat.net",
+            "m.corduba.tech",
+            "owo.town",
+            "toot.poedelwitz.de",
+            "neuss.social",
+            "cuyes.mooo.com",
+            "archaeology.social",
+            "digitaldata.social ",
+            "mastodon-ero.xyz",
+            "esglife.social",
+            "imouto.exposed"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "kokuusa.club": {
+              "reason": "SPAM"
+            },
+            "nazi.social": {
+              "reason": "spam"
+            },
+            "socnet.softgirl.online": {
+              "reason": "spam"
+            },
+            "meetbeauties.social": {
+              "reason": "SPAM and porn"
+            },
+            "mastadon.astuto.cc": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "mastodon.svgun.ru": {
+              "reason": "SPAM"
+            },
+            "threads.net": {
+              "reason": "... The Fediverse is not looking for market dominance or profit. The Fediverse is not looking for growth. It is offering a place for freedom. So Meta fuck off!"
+            },
+            "prf.me": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "archaeology.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "esglife.social": {
+              "reason": "spamming"
+            },
+            "9kb.me": {
+              "reason": "SPAM"
+            },
+            "m.qqs.tw": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "phyrexia.ru": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "cunnyborea.top": {
+              "reason": "spam"
+            },
+            "andrew.xyz": {
+              "reason": "spam and CSAM"
+            },
+            "anim*.****ite": {
+              "reason": "Illegal content"
+            },
+            "forum-lucifer.com": {
+              "reason": "SPAM"
+            },
+            "cuyes.mooo.com": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "mastodon.snmsoc.org": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "cutefunny.net": {
+              "reason": "spam"
+            },
+            "witten.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "arvr.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "forestver.se": {
+              "reason": "SPAM"
+            },
+            "social.foederiert.de": {
+              "reason": "SPAM and porn"
+            },
+            "mstdn.at": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "edusocial.it": {
+              "reason": "SPAM"
+            },
+            "kommunismus.social": {
+              "reason": "SPAM"
+            },
+            "i.transmit.love": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "mastodon.education": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "besties.com": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "educhat.social": {
+              "reason": "SPAM"
+            },
+            "mastodon.integrata-stiftung.de": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "cherryberry.pink": {
+              "reason": "SPAM"
+            },
+            "social.cutefunny.net": {
+              "reason": "CSAM content"
+            },
+            "neuss.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "cmm.fyi": {
+              "reason": "SPAM"
+            },
+            "tootnet.nl": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "childpawn.shop": {
+              "reason": "CSAM content"
+            },
+            "crypto-group-buy.com": {
+              "reason": "spam"
+            },
+            "digitaldata.social ": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "fusionpros.social": {
+              "reason": "SPAM"
+            },
+            "digitaldata.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "waterlily.tokyo": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "lllsecurity.com": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "fedichive.tk": {
+              "reason": "spam"
+            },
+            "aether.run": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "neuroscience-mastodon.com": {
+              "reason": "SPAM"
+            },
+            "fpl.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "niederbayern.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "cryptodon.lol": {
+              "reason": "SPAM"
+            },
+            "bondsdogs.com": {
+              "reason": "SPAM"
+            },
+            "poa.st": {
+              "reason": "Shitposting ton of racist content; too many user reports; not worth dealing with"
+            },
+            "owo.town": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "freesocial.co": {
+              "reason": "SPAM"
+            },
+            "baraag.net": {
+              "reason": "Illegal content"
+            },
+            "social.tcpcat.net": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "kernkraft.social": {
+              "reason": "SPAM"
+            },
+            "groupsebelah.com": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "pawoo.net": {
+              "reason": "Illegal content"
+            },
+            "mentalhealth-masto.com": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "m.mxin.moe": {
+              "reason": "spam"
+            },
+            "imouto.exposed": {
+              "reason": "Disturbing content; CSAM content"
+            },
+            "scfzfilm.org": {
+              "reason": "SPAM"
+            },
+            "m.corduba.tech": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "electroverse.tech": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "toot.poedelwitz.de": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "odenwald.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "chil*****.su": {
+              "reason": "spam"
+            },
+            "game-tecx.de": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "don.neet.co.jp": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "moth.social": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "mastodon-ero.xyz": {
+              "reason": "temporary blocked due to uncontroled SPAM activity"
+            },
+            "smooth.guru": {
+              "reason": "spam"
+            },
+            "portside.social": {
+              "reason": "SPAM"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "FEDIsroot - Federated social network powered by Pleroma (open beta)",
+      "nodeName": "FEDIsroot",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://fe.disroot.org/users/antilopa",
+        "https://fe.disroot.org/users/muppeth",
+        "https://fe.disroot.org/users/fede",
+        "https://fe.disroot.org/users/meaz"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 2124,
+        "activeHalfyear": 854,
+        "activeMonth": 342
+      },
+      "localPosts": 34534
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

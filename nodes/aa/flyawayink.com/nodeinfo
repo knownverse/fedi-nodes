@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Birdie Abroad Series",
+      "nodeDescription": "Magic. Mystery. Adventure.",
+      "nodeIcon": "https://flyawayink.com/wp-content/uploads/2024/01/flyaway-ink-creative-2-2463487724-e1704903403611.png"
+    }
+  },
+  "error": null
+}

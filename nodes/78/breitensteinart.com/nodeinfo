@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 21,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Marlene Breitenstein Art",
+      "nodeDescription": "Photographs, Paintings, Writing",
+      "nodeIcon": "https://breitensteinart.com/wp-content/uploads/2022/11/cropped-breitenstein_art_black_on_white_thumbnail_connector.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "創作館",
+      "nodeDescription": "創作活動録　袖振り合うも他生の縁",
+      "nodeIcon": "https://i0.wp.com/shinji-fukuyama.com/wp-content/uploads/2024/02/ロゴ.png?fit=600%2C600&ssl=1"
+    }
+  },
+  "error": null
+}

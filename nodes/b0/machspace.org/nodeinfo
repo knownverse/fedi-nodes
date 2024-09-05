@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 45,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Machynlleth Makerspace // Gofod Gwneud Machynlleth",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/machspace.org/wp-content/uploads/2022/06/cropped-Machspace-makerspace-logo.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

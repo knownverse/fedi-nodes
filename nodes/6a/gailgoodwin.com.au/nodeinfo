@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 444,
+      "localComments": 279
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gail Goodwin",
+      "nodeDescription": "no fluff soul stuff",
+      "nodeIcon": "https://gailgoodwin.com.au/wp-content/uploads/2015/02/here-and-now-by-benno-poeder.jpg"
+    }
+  },
+  "error": null
+}

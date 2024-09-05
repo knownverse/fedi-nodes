@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "fedi@dyne.link",
+        "name": "syl"
+      },
+      "nodeDescription": "generic single-user instance",
+      "nodeName": "dyne fediverse",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240613"
+    },
+    "usage": {
+      "localPosts": 115,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

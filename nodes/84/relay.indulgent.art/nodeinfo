@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.109-HEAD-1e05eb4f"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "17th.me",
+        "bcast.guru",
+        "catgirl.works",
+        "declin.eu",
+        "fadingstar.net",
+        "homo.1919810.space",
+        "indulgent.art",
+        "killer.academy",
+        "m.tripulse.link",
+        "mastdn.io",
+        "mastodon.thecrimsontint.com",
+        "miau.jeder.pl",
+        "mooose.org",
+        "netzkae.se",
+        "pleroma.0x68756773.moe",
+        "rewt.link",
+        "village.elrant.team",
+        "voxtek.enterprises"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 62,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Remedies Healthy",
+      "nodeDescription": "Remedies Healthy, Home Upchar,Gharelu Nukhse, Gharelu Tips,Home Remedies In Hindi Tips, weight gain, weight loss workout kaise kare,healthy kaise rahe,All Home Remedies",
+      "nodeIcon": "https://remedieshealthy.wordpress.com/wp-content/uploads/2023/12/wp-1701849780601.png"
+    }
+  },
+  "error": null
+}

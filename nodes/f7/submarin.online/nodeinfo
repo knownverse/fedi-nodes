@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-taiyme.0",
+      "homepage": "https://github.com/taiyme/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6503,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2484110,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Submarin",
+      "nodeDescription": "Submarin.onlineは分散連合マイクロブログSNSです。新規登録開放中！<br>\nMisskey、Mastodonなどのユーザーと相互にフォローできます。<br>\n<a href=\"https://submarin.online/explore\" style=\"color:#0a59f7\">【ユーザーを見つける】</a>",
+      "nodeAdmins": [
+        {
+          "name": "HiSubway",
+          "email": "hi@hisubway.online"
+        }
+      ],
+      "maintainer": {
+        "name": "HiSubway",
+        "email": "hi@hisubway.online"
+      },
+      "langs": [],
+      "tosUrl": "https://library.submarin.online/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://library.submarin.online/",
+      "impressumUrl": "https://hisubway.online",
+      "repositoryUrl": "https://github.com/taiyme/misskey",
+      "feedbackUrl": "https://github.com/taiyme/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#41adef"
+    }
+  },
+  "error": null
+}

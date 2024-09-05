@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 103,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tape 41 ... #uffjedreht!",
+      "nodeDescription": "Der Tape Blog aus Berlin-Friedenau",
+      "nodeIcon": "https://tape-41.de/wp-content/uploads/2021/10/cropped-tape-41-fav.png"
+    }
+  },
+  "error": null
+}

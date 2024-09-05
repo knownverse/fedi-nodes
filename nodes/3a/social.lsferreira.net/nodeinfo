@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.03-1557"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica"
+      ],
+      "outbound": [
+        "friendica"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "bluesky"
+      ],
+      "outbound": [
+        "bluesky",
+        "smtp",
+        "twitter",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Luis Ferreira",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "bluesky"
+        ],
+        "outbound": [
+          "bluesky",
+          "smtp",
+          "twitter",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

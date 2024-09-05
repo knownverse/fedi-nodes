@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 8,
+        "activeHalfyear": 4
+      },
+      "localPosts": 42,
+      "localComments": 35
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AllThingsTech",
+      "nodeDescription": "For all lovers of Tech",
+      "nodeIcon": "https://blog.allthingstech.social/wp-content/uploads/2024/02/att_favicon.jpg"
+    }
+  },
+  "error": null
+}

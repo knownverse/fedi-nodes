@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "https://g.dev/adsbygoogle",
+      "nodeDescription": "Google tag (gtag.js) &quot;https://www.googletagmanager.com/gtag/js?id=AW-11457368273&quot; window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag(&#039;js&#039;, new Date());   gtag(&#039;config&#039;, &#039;AW-11457368273&#039;);",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

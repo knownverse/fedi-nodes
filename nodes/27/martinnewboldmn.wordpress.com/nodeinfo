@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Martin Newbold Author",
+      "nodeDescription": "Author , Writer of Fiction and children&#039;s literature",
+      "nodeIcon": "https://martinnewboldmn.wordpress.com/wp-content/uploads/2024/03/me.jpg"
+    }
+  },
+  "error": null
+}

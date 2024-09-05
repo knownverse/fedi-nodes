@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2894,
+      "localComments": 2275
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WGB",
+      "nodeDescription": "Reviewing all the coolest, newest games for Xbox, Playstation, Switch &amp; PC!",
+      "nodeIcon": "https://wolfsgamingblog.com/wp-content/uploads/2023/03/cropped-wolfsgamingblog-logo.jpg"
+    }
+  },
+  "error": null
+}

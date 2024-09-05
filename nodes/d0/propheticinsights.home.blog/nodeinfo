@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 358,
+      "localComments": 352
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Insights into Bible Prophecy",
+      "nodeDescription": "The Last Days in light of the Death and Resurrection of Jesus",
+      "nodeIcon": "https://propheticinsights.home.blog/wp-content/uploads/2021/05/olympic-dawn-photo-by-stephen-kraakmo-on-unsplash.jpg"
+    }
+  },
+  "error": null
+}

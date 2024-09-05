@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1676,
+      "localComments": 617
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Scattered Thoughts",
+      "nodeDescription": "The oldest and most obscure weblog. Probably. Lovingly maintained and neglected by Shawn Kilburn.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

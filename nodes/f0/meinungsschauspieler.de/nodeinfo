@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeMonth": "7",
+        "activeHalfyear": "7"
+      },
+      "localPosts": 219,
+      "localComments": 134
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Meinungsschauspieler.de",
+      "nodeDescription": "Alles rund um die Politik",
+      "nodeIcon": "https://meinungsschauspieler.de/wp-content/uploads/2014/07/cropped-2013-06-05-08.55.24.jpg"
+    }
+  },
+  "error": null
+}

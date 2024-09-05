@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NF0.RU",
+      "nodeDescription": "nf0.ru",
+      "nodeIcon": "https://nf0.ru/wp-content/uploads/sites/4/2023/06/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

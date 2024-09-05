@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-minegumo.1",
+      "homepage": "https://github.com/Bymnet1845/zadankaiclub",
+      "repository": "https://github.com/Bymnet1845/zadankaiclub"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 248,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 66395,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "座談會俱樂部×江戸川",
+      "nodeDescription": "<strong>The Club for OTOMADers</strong><br />\n<strong>音MADみたいな人の集い</strong><br />\n<br />\n詳しい情報は<a href=\"https://guide.zadankai.club/\" target=\"_blank\">ガイドサイト</a>を見てね。<br />\n<br />\nスペシャルサンクス：なありさん、某同居人<br />\n<br />\n《正規表現のコーナー》<br />\n<code>座談(會|会)(俱|倶)(樂|楽)部</code>",
+      "nodeAdmins": [
+        {
+          "name": "ikeda",
+          "email": "contact@zadankai.club"
+        }
+      ],
+      "maintainer": {
+        "name": "ikeda",
+        "email": "contact@zadankai.club"
+      },
+      "langs": [],
+      "tosUrl": "https://www.haraheri5ro.com/others/zadankai-club_20240708/terms.html",
+      "privacyPolicyUrl": "https://www.haraheri5ro.com/others/zadankai-club_20240708/privacy-policy.html",
+      "inquiryUrl": "https://guide.zadankai.club/contact",
+      "impressumUrl": "https://guide.zadankai.club/",
+      "repositoryUrl": "https://github.com/Bymnet1845/zadankaiclub",
+      "feedbackUrl": "https://github.com/Bymnet1845/zadankaiclub/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "riri",
+      "themeColor": "#feeeed"
+    }
+  },
+  "error": null
+}

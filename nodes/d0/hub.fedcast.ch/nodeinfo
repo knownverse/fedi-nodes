@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "friendica",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 44,
+      "localComments": 75
+    },
+    "metadata": {
+      "nodeName": "Hikers Hubzilla"
+    }
+  },
+  "error": null
+}

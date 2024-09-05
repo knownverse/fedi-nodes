@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0+4",
+      "homepage": "https://github.com/karasugawasu/misskey",
+      "repository": "https://github.com/karasugawasu/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 50,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23406,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "きゅあすきー",
+      "nodeDescription": "\"きゅあすきー\"は、プリキュアシリーズファンの為の非公式Misskeyサーバーです。\n\nプリキュアへの愛がある方はどなたでも歓迎いたします。\n\n※スパム防止のため招待制とさせていただいております\n招待権限のあるユーザまたは管理者までご連絡ください。\n（たまに解除してます）\n\n@precure\n\nMastodonプリキュアインスタンスのキュアスタ！( https://precure.fun )もよろしくお願いします。",
+      "nodeAdmins": [
+        {
+          "name": "鴉河雛",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "鴉河雛",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://korako.notion.site/22f5739aa0d64c7a93465249ec553f29",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/karasugawasu/misskey",
+      "feedbackUrl": "https://github.com/karasugawasu/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#a0d8ef"
+    },
+    "mulukhiya": {
+      "package": {
+        "authors": [
+          "Tatsuya Koishi"
+        ],
+        "description": "各種ActivityPub対応インスタンスへの投稿に対して、内容の更新等を行うプロキシ。通称「モロヘイヤ」。",
+        "email": [
+          "tkoishi@b-shock.co.jp"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/pooza/mulukhiya-toot-proxy",
+        "version": "4.32.3"
+      },
+      "config": {
+        "controller": "misskey",
+        "status": {
+          "spoiler": {
+            "text": null,
+            "emoji": "netabare",
+            "shortcode": ":netabare:"
+          },
+          "default_hashtag": "#precure_fun"
+        }
+      }
+    }
+  },
+  "error": null
+}

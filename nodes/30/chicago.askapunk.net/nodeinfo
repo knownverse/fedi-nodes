@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Chicago's DIY punk and hardcore calendar",
+      "nodeName": "CHICAGO ASK A PUNK",
+      "nodeTimezone": "America/Chicago",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 6,
+      "localPosts": 92,
+      "users": {
+        "total": 4
+      }
+    }
+  },
+  "error": null
+}

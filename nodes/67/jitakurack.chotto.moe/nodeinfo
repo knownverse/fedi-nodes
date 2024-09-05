@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 58,
+        "activeMonth": 4,
+        "activeHalfyear": 6
+      },
+      "localPosts": 1759
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "自宅ラック Mastodon",
+      "nodeDescription": "自宅サーバーがあるような人たちの集まりです。"
+    }
+  },
+  "error": null
+}

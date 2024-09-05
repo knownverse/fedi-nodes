@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 86,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "B2B AI Agent Solution To Automate SMEs Processes",
+      "nodeDescription": "B2B AI Agent Solution To Automate SMEs Processes",
+      "nodeIcon": "https://i0.wp.com/aichatmakers.com/wp-content/uploads/2024/03/cropped-AIChatMakers_Black_Square.png?fit=99%2C99&ssl=1"
+    }
+  },
+  "error": null
+}

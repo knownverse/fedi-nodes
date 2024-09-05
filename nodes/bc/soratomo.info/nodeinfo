@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 528,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "そらとも.info",
+      "nodeDescription": "<strong>そらとも.infoといいます。<br>飛行機好きな方々のTwitterからの避難先です。</strong><br>\n<br>\n現時点では招待制としています。<br>\n参加希望の方は、管理者宛にメールかTwitterまでご連絡ください。<br>\n(いっぺんに利用者が増えるとサーバースペックが心配なので)<br>\nGDPRに対応していませんので、EU諸国を始めとする欧州経済地域在住の方の登録、それら地域へ旅行中のご利用は控えてください。<br>\n<br>\nTwitter : <a href=\"https://twitter.com/mps3speed\"target=\"_blank\" rel=\"noopener\">@mps3speed</a>\n          <a href=\"https://twitter.com/mps3speed2\"target=\"_blank\" rel=\"noopener\">@mps3speed2</a>\n<br>\nメール　info@soratomo.info<br>\n<br>\n<b>おすすめYoutubeチャンネル</b><br>\n<a href=\"https://www.youtube.com/@captainjoe6569\"target=\"_blank\" rel=\"noopener\">キャプテン ジョーCAPTAIN JOE</a><br>\n<a href=\"https://www.youtube.com/@CaptainRyu\"target=\"_blank\" rel=\"noopener\">空ぶらちゃんねる</a><br>\n<a href=\"https://www.youtube.com/@threefall_japan_aviation\"target=\"_blank\" rel=\"noopener\">Threefall Japan Aviation</a><br>\n<a href=\"https://www.youtube.com/@captainjoemusic\"target=\"_blank\" rel=\"noopener\">CAPTAIN JOE MUSIC</a><br>\n<br>\n<br>\n#J3R<br>\n",
+      "nodeAdmins": [
+        {
+          "name": "ロング",
+          "email": "info@soratomo.info"
+        }
+      ],
+      "maintainer": {
+        "name": "ロング",
+        "email": "info@soratomo.info"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#84caf5"
+    }
+  },
+  "error": null
+}

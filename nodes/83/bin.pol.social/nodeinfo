@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kbin",
+      "version": "0.10.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 185,
+        "activeHalfyear": 114,
+        "activeMonth": 58
+      },
+      "localPosts": 1154,
+      "localComments": 149
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

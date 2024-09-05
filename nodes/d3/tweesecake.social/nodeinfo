@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-20+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 453,
+        "activeMonth": 269,
+        "activeHalfyear": 343
+      },
+      "localPosts": 257869
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "TweeseCake",
+      "nodeDescription": "This server is for people to socialize and just generally have fun!"
+    }
+  },
+  "error": null
+}

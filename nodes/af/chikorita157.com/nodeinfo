@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.3",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 3463,
+      "localComments": 9071
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Chikorita157&#039;s Anime Blog",
+      "nodeDescription": "Anime blog that focuses on Yuri and School Girl Slice of Life Anime and Editorials",
+      "nodeIcon": "https://chikorita157.com/wp-content/uploads/2015/12/cropped-wptouchicon.png"
+    }
+  },
+  "error": null
+}

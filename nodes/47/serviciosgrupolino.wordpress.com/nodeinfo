@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GRUPO LINO (inicio)",
+      "nodeDescription": "SERVICIOS DE ASESORIAS CONTABLES,TRIBUTARIOS,FINANCIEROS &amp; COMERCIALES A NIVEL NACIONAL",
+      "nodeIcon": "https://serviciosgrupolino.wordpress.com/wp-content/uploads/2023/12/cropped-logo-gf-lacsac.jpeg"
+    }
+  },
+  "error": null
+}

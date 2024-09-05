@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 1002,
+      "localComments": 45
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lameazoid.com",
+      "nodeDescription": "Toys, Comics, Movies",
+      "nodeIcon": "https://i0.wp.com/lameazoid.com/wp-content/uploads/2023/04/cropped-lamefavicon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

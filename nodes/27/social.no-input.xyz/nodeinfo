@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 338
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "no-input",
+      "nodeDescription": "personal instance for the patchwork system, will probably post harsh noise and emotions"
+    }
+  },
+  "error": null
+}

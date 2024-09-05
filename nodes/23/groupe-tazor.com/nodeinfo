@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2953,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Groupe Tazor 2",
+      "nodeDescription": "Un réseau social québécois compatible avec Mastodon et le Fedivers qui rend hommage au Groupe Tazor original des années 2010. Geek, punk, progressiste, et communautaire: en gros, une place où on est bien d'y être.\n\nNote: On a pas rapport avec le Groupe Tazor original, on a juste récupéré le nom de domaine quand ils l'ont laissé expirer :)",
+      "nodeAdmins": [
+        {
+          "name": "@Yuki",
+          "email": "juju2143@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@Yuki",
+        "email": "juju2143@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

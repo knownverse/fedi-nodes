@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.th"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 19250
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "social.skewed.de",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

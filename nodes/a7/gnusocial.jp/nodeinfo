@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "gnusocial",
+      "version": "2.0.2-dev"
+    },
+    "protocols": [
+      "activitypub",
+      "ostatus"
+    ],
+    "services": {
+      "inbound": [
+        "gnusocial"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "gnusocial"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": -751,
+        "activeHalfyear": 71,
+        "activeMonth": 23
+      },
+      "localPosts": 9203,
+      "localComments": 6948
+    },
+    "metadata": {
+      "nodeName": "GNU social JP",
+      "software": {
+        "homepage": "https://gnusocial.rocks/",
+        "repository": "https://notabug.org/diogo/gnu-social/"
+      },
+      "uploadLimit": 1073741824,
+      "postFormats": [
+        "text/plain",
+        "text/html"
+      ],
+      "features": [
+        "polls"
+      ]
+    }
+  },
+  "error": null
+}

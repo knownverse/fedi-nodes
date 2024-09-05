@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 28,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Scènes de lit",
+      "nodeDescription": "Histoires ou poèmes, érotiques et sensuelles...",
+      "nodeIcon": "https://scenesdelit.com/wp-content/uploads/2024/01/cropped-8ed69705-f696-49aa-ad90-38b1713ea1e0-1.jpg"
+    }
+  },
+  "error": null
+}

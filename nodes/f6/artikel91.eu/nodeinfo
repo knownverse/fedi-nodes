@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 10,
+        "activeHalfyear": 10
+      },
+      "localPosts": 507,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Artikel 91",
+      "nodeDescription": "Datenschutz in Kirchen und Religionsgemeinschaften",
+      "nodeIcon": "https://artikel91.eu/wp-content/uploads/2020/06/cropped-artikel91logo-schloss-sterne.png"
+    }
+  },
+  "error": null
+}

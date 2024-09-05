@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Megha&#039;s Portfolio",
+      "nodeDescription": "Writing Portfolio of Megha Sharma",
+      "nodeIcon": "https://meghasharma5.wordpress.com/wp-content/uploads/2023/11/cropped-gray-minimalist-polaroid-film-frame-photo-lifestyle-aesthetic-instagram-story-3.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 368,
+      "localComments": 70
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jeffrey Harlan",
+      "nodeDescription": "Author",
+      "nodeIcon": "https://i0.wp.com/jeffreyharlan.com/wp-content/uploads/2024/02/cropped-logo.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 34,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "@b3poddyc",
+      "nodeDescription": "Brandon&#039;s Podcast",
+      "nodeIcon": "https://b3poddyc.com/wp-content/uploads/2024/05/copyofborderline_20240419_124123_00001178347618715563159.jpg"
+    }
+  },
+  "error": null
+}

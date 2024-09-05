@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Accounting and the Lump",
+      "nodeDescription": "Sharing my experiences in the accounting field, some humorous, some sad and to enlighten people about accounting concepts that will be useful in business and life.",
+      "nodeIcon": "https://accountingandthelump.blog/wp-content/uploads/2021/02/cropped-black-women-using-a-white-board-b-e1613499464371.jpg"
+    }
+  },
+  "error": null
+}

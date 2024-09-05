@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 46288,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "101号室",
+      "nodeDescription": "🐡( '-' 🐡  )",
+      "nodeAdmins": [
+        {
+          "name": "いないよ",
+          "email": "https://truthsocial.com/"
+        }
+      ],
+      "maintainer": {
+        "name": "いないよ",
+        "email": "https://truthsocial.com/"
+      },
+      "langs": [],
+      "tosUrl": "https://dlsoft.dmm.co.jp/",
+      "privacyPolicyUrl": "https://x.com/ja/privacy",
+      "inquiryUrl": "https://x.com/elonmusk",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ai",
+      "themeColor": "#2a273f"
+    }
+  },
+  "error": null
+}

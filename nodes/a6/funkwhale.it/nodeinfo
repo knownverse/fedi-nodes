@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1079,
+        "activeHalfyear": 147,
+        "activeMonth": 31
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.it/federation/actors/service",
+      "private": false,
+      "shortDescription": "Istanza italiana della community di Mastodon.uno, condividi e ascolta musica e podcast in Creative Commons",
+      "longDescription": "Funkwhale.it è un progetto open source di streaming audio della comunità di [mastodon.uno](https://mastodon.uno), permette di condividere musica e podcast con licenza creative commons, gli utenti di un sito possono ascoltare tutta la musica o i podcast, copiarli e condividerli liberamente. È un po' come Spotify, YouTube Music o il vecchio GrooveShark, ma decentralizzato e libero dagli interessi monopolistici delle grandi corporation e senza scopo di lucro. Funkwhale.it è federata con il [fediverso](https://fediverso.it) e quindi è possibile seguire un artista o un podcast anche da altre piattaforme come ad esempio [Mastodon](https://mastodon.it).\r\n\r\nFunkwhale Italia nasce nel 2020 in piena emergenza Covid-19, per l'esigenza di poter far ascoltare musica nuova in un mondo senza più concerti, nasce dal desiderio di promuovere realtà dell'underground musicale nella convinzione che dovrebbero essere conosciute da più persone possibile.\r\n\r\n[Funkwhale](https://mastodon.uno/@funkcastmusicwhale) è anche il tentativo di restituire al podcasting la dimensione libera che lo caratterizza sin dai suoi esordi. Siamo un gruppo di persone che registrano, ascoltano, producono contenuti audio usando software libero e ci piace condividere le nostre opere gratuitamente, senza limiti di banda e senza far ricorso a soluzioni con profilazione, abbonamenti, pubblicità e monetizzazione.\r\nCom'è possibile? Combinando l'hosting offerto dall'associazione [devol.it](https://devol.it) ed il codice libero di funkwhale fornito da [funkwhale.audio](https://funkwhale.audio) federato con le piattaforme del fediverso.\r\nPerché? Per liberarci dalla logica prestazionale e commerciale che caratterizza il business model della musica e dei podcast in streaming, ma specialmente per generare una comunità attorno ad un progetto aperto che punta a condividere risorse importanti per una libera circolazione delle parole e della musica.\r\n\r\n[Devol è un'associazione noprofit](https://mastodon.uno/@devol), si  autofinanzia esclusivamente attraverso le donazioni.  Se volete sostenerli è possibile [offrire un caffè virtuale](https://ko-fi.com/devol)\r\n\r\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G82N2NN)\r\n \r\nTutti i brani e i podcast su Funkwhale sono ascoltabili e scaricabili gratuitamente  secondo le Creative Commons perché crediamo che la musica debba essere gratuita e fruibile da tutti, come tutte le altre arti.\r\nI musicisti coinvolti non ricevono alcun compenso per le loro opere pubblicate su Funkwhale, ma continuano per passione e per far conoscere la loro musica. Tutti gli artisti sono però liberi di chiedere supporto con acquisti e donazioni.\r\nLo staff di Funkwhale Italia aspetta la vostra musica e podcast, i vostri demo ed i vostri album!\r\n\r\nFunkwhale Italia nasce e continua a svilupparsi nell’idea di poter dare una mano a artisti, band, etichette discografiche, collettivi o chiunque voglia esprimersi attraverso la musica e le parole.\r\nFunkwhale è totalmente slegata da logiche e dinamiche commerciali ed è legata a concetti dell’autoproduzione e dell’indipendenza.\r\nFunkwhale.it ha come unico scopo di diffondere la passione per la musica e e di saziare il bisogno comunicativo di far conoscere le proprie opere sia attraverso le canzoni che con i podcast..\r\n\r\nFunkwhale.it è un progetto di comunità per aggregare e supportare etichette discografiche indipendenti, collettivi, piccole distribuzioni, artisti e gruppi emergenti nel loro lavoro di portare alla luce nuova musica.\r\n\r\nIl catalogo inoltre non si limita alla sola musica: la piattaforma è estesa anche ai podcast.\r\n\r\nVogliamo veicolare progetti musicali ed etichette discografiche che portano avanti musica ed idee di qualità ed innovative, ma che faticano a trovare visibilità ed un pubblico fedele.\r\n\r\nPartiamo dal basso, con una sorta di beta sperimentale, in cui ci mettiamo in gioco (investendo tempo e risorse personali) e con questo spirito vorremmo che sia condiviso con chi deciderà di prenderne parte, condividendo idee, dubbi, ipotesi e progetti.\r\nCrediamo nella genuinità e nella forza della musica nel creare unione e crediamo negli strumenti digitali, che se da un lato hanno cambiato il mondo della musica, dall’altro ci hanno resi più indipendenti.\r\n\r\nNon abbiamo mire di grandi numeri. Sappiamo che andremo a soddisfare le nicchie di genere, di ascoltatori, di appassionati, quelle che esistevano già prima dei forum di discussione, fuori dai negozi di dischi.\r\nL’intento è di creare una comunità tra noi, gli artisti, i gruppi, le etichette, i collettivi ed il pubblico.\r\n\r\nCon Funkwhale ascolti podcast e la tua musica, ovunque, hai accesso alle tue liste di riproduzione, canzoni preferite, ed artisti, dalla nostra interfaccia web o da un'ampia gamma di applicazioni compatibili su ogni piattaforma.\r\n\r\n## App per Funkwhale\r\n\r\nCarica i tuoi podcast, la tua libreria musicale, condividila con amici e familiari, e scopri nuovi creatori.\r\nScarica l'[app ufficiale Funkwhale](https://gitea.it/Funkwhale/funkwhale-app-android) per poter utilizzare funkwhale su Android oppure su app libere come [AntennaPod per seguire i podcast](https://gitea.it/Funkwhale/AntennaPod-Android-Podcast-App) e [Ultrasonic](https://gitea.it/Funkwhale/ultrasonic-app-subsonic-android) o [Ardinaut](https://gitea.it/Funkwhale/Audinaut-subsonic-app-android) per ascoltare musica.\r\n\r\nFunkwhale supporta un sottoinsieme dell'API Subsonic, che lo rende compatibile con i client esistenti come [DSub](https://play.google.com/store/apps/details?id=github.daneren2005.dsub) e [Substreamer](https://substreamerapp.com/) per Android e iOS, o [Clementine](https://gitea.it/Funkwhale/Clementine-audio-player-Mac-Linux-Windows) e [Strawberry](https://gitea.it/Funkwhale/strawberry-audio-player-windows-mac-linux) per desktop.\r\n\r\nSi può ascoltare e scariare musica anche con Kodi usando il [plugin audio subsonic per Kodi](https://gitea.it/Funkwhale/Kodi.plugin.audio.subsonic)\r\n\r\n### Configurazione app Subsonic\r\n\r\nPer accedere al tuo account Funkwhale dai client Subsonic, è necessario impostare una password API Subsonic separata visitando la [pagina delle impostazioni](https://funkwhale.it/settings).\r\n\r\nPoi, prima di usare l'app, dovrai inserire alcune informazioni sul tuo server:\r\n\r\n* Il tuo URL di istanza Funkwhale: https://funkwhale.it\r\n\r\n* Il tuo nome utente su Funkwhale.it \r\n\r\n* La tua password API Subsonic (quella che hai impostato in precedenza nelle impostazioni)\r\n\r\nNella configurazione del tuo client, controlla che l'impostazione \"ID3\" o \"Browse with tags\" sia abilitata.\r\n\r\n## Cos'è Funkwhale\r\n\r\nFunkwhale è una piattaforma aperta e decentralizzata costituita da tanti siti/pod indipendenti che possono comunicare tra loro utilizzando tecnologie gratuite e libere.\r\n\r\nFunkwhale.it non è legato d alcuna Big Tech o entità commerciale, e questa indipendenza è il suo grande potere, per questo motivo, possiamo offrirti un esperienza libera focalizzata su quello che ti serve e priva da profilazione  commerciale.\r\n\r\nSiamo un server di audio in streaming che promuove i podcast e la musica libera di solito rilasciato sotto licenze Creative Commons.\r\n\r\nQuesta istanza è attualmente ospitata dall'[associazione devol](https://devol.it), l'organizzazione che promuove il progetto di rendere disponibili alternative libere e rispettose della privacy gestendo [oltre 30 progetti liberi](https://servizi.devol.it).\r\n\r\n## Supporta Funkwhale.it\r\n\r\nIl Web libero non significa sempre gratis, usufruire di contenuti senza condizionamenti e senza pubblicità, i cui autori vanno sostenuti appunto per la loro scelta di libertà.\r\n\r\nQuindi se usi funkwhale.it perché ti permette di caricare le tue opere senza condizionamenti, senza essere spiato e profilato e senza pubblicità o banner fastidiosi anche un piccolo gesto di gratitudine e riconoscenza, come donare il costo di un caffè, può essere utile.   **[Sostieni Funkwhale.it offrendo un caffè al collettivo devol](https://ko-fi.com/devol)** oppure donando con le criptomonete:\r\n\r\nUsando il browser [Brave](https://brave.com) potrete attivare gli annunci delle ricompense e donare parte delle criptomonete BAT a Funkwhale. \r\nAccettiamo anche donazioni con altre cripto:\r\n\r\n[BITCON, ETHEREUM. MONERO, BITCOIN CASH, STELLAR LUMENS, LITECOIN](https://coindrop.to/devol)\r\n\r\n<a href=\"https://coindrop.to/devol\" target=\"_blank\"><img src=\"https://coindrop.to/embed-button.png\" alt=\"Coindrop.to me\"></a>\r\n\r\nSe volete informazioni per caricare il vostro lavoro qui o per qualsiasi altra domanda potete contattare gli amministratori su [mastodon](https://mastodon.uno/@funkcastmusicwhale).\r\n\r\nSiamo presenti anche su un canale sulla piattaforma video Peertube: [Funkwhale](https://peertube.uno/accounts/funkwhale/video-channels)",
+      "contactEmail": "admin@devol.it",
+      "nodeName": "Funkwhale.It - Musica e Podcast Creative Commons",
+      "banner": null,
+      "defaultUploadQuota": 5000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "**[Funkwhale.it](https://mastodon.uno/@funkcastmusicwhale)** è una piattaforma che fornisce servizi di condivisione audio in streaming gratuiti basati su principi di libertà, privacy, federazione e decentralizzazione. Niente tracking, niente pubblicità, niente profilazione, niente raccolta dati! \r\n\r\nFunkwhale.it è ospitata dai server del ***[gruppo devol](https://devol.it)***, il servizio di manutenzione è offerto gratuitamente dai volontari ma il server che ospita funkwhale.it ha dei costi sempre crescenti con l'aumentare degli iscritti e delle canzoni o podcast caricati. E' quindi di vitale importanza ricevere piccoli contributi di sostegno da parte degli utilizatori per coprire le spese di hosting: \r\n\r\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G82N2NN)\r\n\r\n### E' POSSIBILE FARE UNA DONAZIONE ANCHE CON CRIPTOVALUTE.\r\n\r\nE' possibile donare anononimamente anche con Bitcoin, Ethereum, Monero, Bitcoin cash, Litecoin, Stellar Lumens qui: **[dona criptomonete a funkwhale](https://coindrop.to/devol)**\r\n\r\n<a href=\"https://coindrop.to/devol\" target=\"_blank\"><img src=\"https://coindrop.to/embed-button.png\" style=\"border-radius: 10px; height: 57px !important;width: 229px !important;\" alt=\"Coindrop.to me\"></a>\r\n\r\nSi può utilizzare il **[Browser Brave](https://brave.com)** attivandone gli annunci per ottenere criptomonete BAT, attraverso la quale sarà possibile donare a Funkwkwhale.it e agli altri servizi [devol](https://devol.it) ma anche a Wikipedia, EFF, Tor Browser. \r\n<br><a href=\"https://brave.com\"><img src=\"https://pixelfed.uno/storage/m/_v2/143756504128950272/e5f564f55-b772c0/1eFlGyiuZuAk/PkuPseLk3Etubs4Lbr8MswQMMzYlNwuqCiYK7HoP.png\" width=\"100%\"></a>",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 385
+          }
+        },
+        "listenings": {
+          "total": 5293
+        },
+        "downloads": {
+          "total": 88922
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 13019
+        },
+        "artists": {
+          "total": 2154
+        },
+        "albums": {
+          "total": 2659
+        },
+        "music": {
+          "hours": 1886.0905555555555
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "Sono vietate le seguenti azioni\r\n\r\n* Violazione del diritto d'autore.\r\n* Caricamento di un brano non protetto da copyright senza il permesso del compositore o dell'etichetta.\r\n* Pubblicazione di messaggi inappropriati senza l'aggiunta di [NSFW] al titolo.",
+      "terms": "Funkwhale Italia è una piattaforma di supporto alla distribuzione musicale digitale per piccole etichette discografiche, distribuzioni, artisti, gruppi e collettivi emergenti, in modalità aggregativa e federata.\r\n\r\nE' possibile ospitare gratuitamente podcast e musica libera fino a 20GB.\r\n\r\nL'istanza funkwhale.it non mostra pubblicità, vengono raccolte informazioni di tracciamento e non vengono creati cookie di tracciamento.\r\nIl copyright di ogni traccia è di proprietà dei rispettivi autori. In ogni altro caso la licenza da considerare come applicata è Creative Commons Attribuzione-CondividiAlike 4.0 International License."
+    }
+  },
+  "error": null
+}

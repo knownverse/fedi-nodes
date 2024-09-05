@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 629,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Quirky Cats Comics",
+      "nodeDescription": "Comic &amp; Manga Reviews",
+      "nodeIcon": "https://quirkycatscomics.com/wp-content/uploads/2019/12/cropped-quirky-cat.jpg"
+    }
+  },
+  "error": null
+}

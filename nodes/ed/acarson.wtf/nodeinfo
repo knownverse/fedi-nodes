@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 76236,
+      "localComments": 10580
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Amanda Unvarnished",
+      "nodeDescription": "This is what happens when the tefflon comes off",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

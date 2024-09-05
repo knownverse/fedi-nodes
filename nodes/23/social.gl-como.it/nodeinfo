@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2023.12-1542"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": 5,
+        "activeMonth": 4
+      },
+      "localPosts": 1644,
+      "localComments": 12268
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Social GL-Como",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

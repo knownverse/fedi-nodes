@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "",
+      "nodeName": "0mega's federated blogs"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.2"
+    },
+    "usage": {
+      "localComments": 1,
+      "localPosts": 6,
+      "users": {
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

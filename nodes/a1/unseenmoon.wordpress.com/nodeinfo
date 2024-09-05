@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2066,
+      "localComments": 36273
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Unseen Moon",
+      "nodeDescription": "Fact,  Fiction and Opinion Stirred in an Odd Pot",
+      "nodeIcon": "https://unseenmoon.wordpress.com/wp-content/uploads/2020/08/unseen-light-moon.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 304,
+      "localComments": 170
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rubiel  Montoya",
+      "nodeDescription": "En la Conquista No Hay Descanso, porque la conquista no es de los hombres sino del Señor.",
+      "nodeIcon": "https://rubielmontoya.wordpress.com/wp-content/uploads/2023/10/copia-de-perfil-wa-grupo-ecom.png"
+    }
+  },
+  "error": null
+}

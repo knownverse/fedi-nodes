@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 564,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "🐬 I&#039;M YourOnly.One ❄️ 🔏",
+      "nodeDescription": "https://im.youronly.one",
+      "nodeIcon": "https://youronlyoneofcl.wordpress.com/wp-content/uploads/2022/08/cropped-android-chrome-512x512-1-2.png"
+    }
+  },
+  "error": null
+}

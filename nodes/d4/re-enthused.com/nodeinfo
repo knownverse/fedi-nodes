@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 469,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Re-enthused: world of retro",
+      "nodeDescription": "The present is horrible, the future looks bleak.  Let&#039;s go back to the past",
+      "nodeIcon": "https://re-enthused.com/wp-content/uploads/2017/03/cropped-re-enthusedSquareLogo.jpg"
+    }
+  },
+  "error": null
+}

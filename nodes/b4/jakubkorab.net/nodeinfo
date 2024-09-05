@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5.5"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      },
+      "localPosts": 195,
+      "localComments": 129
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "jakub.korab@gmail.com"
+    }
+  },
+  "error": null
+}

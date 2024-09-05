@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 10527,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "にゅーじーらんど",
+      "nodeDescription": "あさってさんの個人サーバー\n※あくまで個人サーバーなので急にアクセス不可・公開停止・投稿内容の一部欠損が発生する可能性があります。<br>\nさぐりさぐり運営しています。がんばるね。<br>登録したい人は竹林キーウィにお声がけください",
+      "nodeAdmins": [
+        {
+          "name": "あさって",
+          "email": "kiwibird0816@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "あさって",
+        "email": "kiwibird0816@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://hello-kiwi.com/@asatte/pages/1706193033572",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/x31XJc6r5fcJ2gEH7",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy_kiwi",
+      "themeColor": "#b4db85"
+    }
+  },
+  "error": null
+}

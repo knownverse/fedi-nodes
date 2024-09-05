@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8373,
+        "activeMonth": 641,
+        "activeHalfyear": 1252
+      },
+      "localPosts": 554360
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "101010.pl",
+      "nodeDescription": "101010.pl czyli najstarszy polski serwer Mastodon. Posiadamy wpisy do 2048 znaków."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "John Joshua L. Bensig",
+      "nodeDescription": "Bachelor of Technology and Livelihood Education, Major in Industrial Arts",
+      "nodeIcon": "https://johnjoshuabensig.wordpress.com/wp-content/uploads/2024/03/cropped-325015440_1220332245220882_8269619597601134599_n-7.jpg"
+    }
+  },
+  "error": null
+}

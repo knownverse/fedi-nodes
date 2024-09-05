@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2986,
+        "activeMonth": 865,
+        "activeHalfyear": 1524
+      },
+      "localPosts": 871504
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Wet-Dry World",
+      "nodeDescription": "We are a community based around gaming, tech, entertainment, and more! Come join the Scuttlebug jamboree! (Signups currently undergoing manual review.)"
+    }
+  },
+  "error": null
+}

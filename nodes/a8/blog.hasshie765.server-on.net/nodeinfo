@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.3.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 116,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "はっシーのブログ",
+      "nodeDescription": "―暇人の備忘録―",
+      "nodeIcon": "https://blog.hasshie765.server-on.net/wp-content/uploads/2018/04/cropped-logo.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "আত্মার আলো",
+      "nodeDescription": "we love to spread dreams",
+      "nodeIcon": "https://attaralo.com/wp-content/uploads/2023/12/cropped-whatsapp-image-2023-05-18-at-11.57.30-am.jpeg"
+    }
+  },
+  "error": null
+}

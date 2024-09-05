@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 114,
+      "localComments": 96
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "RUN OR SMILE",
+      "nodeDescription": "Blog rund um Fotografie und Bildbearbeitung",
+      "nodeIcon": "https://runorsmile.de/wp-content/uploads/2021/04/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

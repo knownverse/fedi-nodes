@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "eana@1a23.studio",
+        "name": "1A23 Studio"
+      },
+      "nodeDescription": "leolo’ (adj.) social, of a society or clan.\n\nEana’s private Firefish instance that federates with other servers through ActivityPub.",
+      "nodeName": "Leolo’",
+      "proxyAccountName": "9puhhzuxf68wk58z",
+      "repositoryUrl": "https://firefish.dev/eana/firefish/-/tree/iceshrimp-mastodon-api",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/eana/firefish/-/tree/iceshrimp-mastodon-api",
+      "version": "20240729.fork"
+    },
+    "usage": {
+      "localPosts": 2829,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

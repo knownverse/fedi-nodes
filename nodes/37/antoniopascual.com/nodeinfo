@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 212,
+      "localComments": 203
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "antoniopascual",
+      "nodeDescription": "Reflexiones sobre Management, Liderazgo, Negociación y Marketing",
+      "nodeIcon": "https://antoniopascual.com/wp-content/uploads/2024/01/cropped-antonio.png"
+    }
+  },
+  "error": null
+}

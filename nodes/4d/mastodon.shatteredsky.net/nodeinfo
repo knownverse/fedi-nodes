@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch+cat+meow+1.0.2.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 31
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Shattered Sky",
+      "nodeDescription": "Welcome to Shattered Sky's Mastodon instance!"
+    }
+  },
+  "error": null
+}

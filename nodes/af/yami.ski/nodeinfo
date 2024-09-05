@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-yami-1.1.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 190,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 19920,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "やみすきー",
+      "nodeDescription": "やみのみすきー、やみすきー。病みと闇が好き。\n※告知は https://yami.ski/@yamiski で",
+      "nodeAdmins": [
+        {
+          "name": "@admin@yami.ski",
+          "email": "admin@yami.ski"
+        }
+      ],
+      "maintainer": {
+        "name": "@admin@yami.ski",
+        "email": "admin@yami.ski"
+      },
+      "langs": [],
+      "tosUrl": "https://hub.yami.ski/docs/term",
+      "privacyPolicyUrl": "https://hub.yami.ski/docs/privacy",
+      "inquiryUrl": "https://element.yami.ski",
+      "impressumUrl": "https://yami.ski/@admin",
+      "repositoryUrl": "https://github.com/yamisskey/yamisskey",
+      "feedbackUrl": "https://github.com/yamisskey/yamisskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#6a5dd8",
+      "reversiVersion": "1.0.0-yami"
+    }
+  },
+  "error": null
+}

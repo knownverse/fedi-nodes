@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 335,
+      "localComments": 153
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "went2thebridge.org",
+      "nodeDescription": "Organizing and actions to resist the moral and financial bankrupting of the U.S. through wars against the poor, at home and abroad.",
+      "nodeIcon": "https://i0.wp.com/went2thebridge.org/wp-content/uploads/2021/12/cropped-pentagonplanet_web.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

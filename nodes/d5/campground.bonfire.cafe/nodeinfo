@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "federation": true,
+      "nodeDescription": "This is a bonfire instance for testing purposes. Federation is disabled for this instance.\n        ",
+      "nodeName": "Campground"
+    },
+    "usage": {
+      "users": {
+        "total": 486
+      }
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "bonfire; compatible: mastodon, akkoma",
+      "version": "0.9.10-beta.141"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

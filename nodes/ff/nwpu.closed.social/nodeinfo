@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.closedsocial"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 48,
+        "activeMonth": 4,
+        "activeHalfyear": 9
+      },
+      "localPosts": 55
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "[闭社] - 西工大站",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

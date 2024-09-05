@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 26,
+        "activeMonth": 24,
+        "activeHalfyear": 29
+      },
+      "localPosts": 73341
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Fwoof Space 2.0!",
+      "nodeDescription": "The space for fwooves! Now with more characters and other fun stuff!"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TRACKAHOLICS",
+      "nodeDescription": "Champs Events Season Leaders",
+      "nodeIcon": "https://trackaholics.wordpress.com/wp-content/uploads/2023/01/cropped-cropped-track-a-holics-01.jpg"
+    }
+  },
+  "error": null
+}

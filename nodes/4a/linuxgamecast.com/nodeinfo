@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2458,
+      "localComments": 702
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Linux Game Cast",
+      "nodeDescription": "Morning zoo radio thinly disguised as a Linux gaming podcast.",
+      "nodeIcon": "https://linuxgamecast.com/wp-content/uploads/2024/07/cropped-favbig.webp"
+    }
+  },
+  "error": null
+}

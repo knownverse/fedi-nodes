@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "https://curtipoesia.com",
+      "nodeDescription": "Um blog essencial pra poetizar, astrologar, novelar, cinemar.....",
+      "nodeIcon": "https://curtipoesia.wordpress.com/wp-content/uploads/2023/04/cropped-cropped-screenshot_20230428-1448082-1.png"
+    }
+  },
+  "error": null
+}

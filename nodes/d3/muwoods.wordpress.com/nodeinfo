@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "沐林原木 mu`woods",
+      "nodeDescription": "沐霖木皮房 mL wood veneer",
+      "nodeIcon": "https://muwoods.wordpress.com/wp-content/uploads/2023/12/tree-logo-1-32x32-1.png"
+    }
+  },
+  "error": null
+}

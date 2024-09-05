@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 101,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "豊印",
+      "nodeDescription": "do not use my works.今豊太郎です。擬人化ならお任せあれ",
+      "nodeIcon": "https://toyotaro.org/wp-content/uploads/2024/05/cropped-toyojirusi-logo.webp"
+    }
+  },
+  "error": null
+}

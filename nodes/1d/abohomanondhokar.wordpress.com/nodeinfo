@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 485,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "আবহমান অন্ধকার",
+      "nodeDescription": "আলো হাতে চলিয়াছে আঁধারের যাত্রী",
+      "nodeIcon": "https://abohomanondhokar.wordpress.com/wp-content/uploads/2015/07/abohoman-ondhokar-5a1.png"
+    }
+  },
+  "error": null
+}

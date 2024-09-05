@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0-fluffysocial.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 228,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 63024,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "FluffySocial",
+      "nodeDescription": "<p>fluffy.socialは、「ケモノが好き！だけどそれはそれとして他の何かにも夢中！」という人たちがケモノの話をしたり趣味の話をしたりする、ケモノ好き雑談misskeyインスタンスです。</p>\n<p>\n現在はサーバー構成調整中なので、招待制となっています🙇‍♂️\n登録して一か月以上経過しているメンバーが招待権を持っているので、だれかを捕まえてもらえると話が早いです🙇‍♂️",
+      "nodeAdmins": [
+        {
+          "name": "ととがんま",
+          "email": "webmaster@gammalab.net"
+        }
+      ],
+      "maintainer": {
+        "name": "ととがんま",
+        "email": "webmaster@gammalab.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "onlineusers",
+      "themeColor": "#FFC715"
+    }
+  },
+  "error": null
+}

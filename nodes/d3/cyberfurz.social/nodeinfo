@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 425,
+        "activeMonth": 92,
+        "activeHalfyear": 152
+      },
+      "localPosts": 54106
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "CyberFurz",
+      "nodeDescription": "A Mastodon Instance open to all! That said we do have a minor focus on Tech, 3D Art, VRChat, Resonite, ChillOut, SecondLife, etc... Come chill with other CyberFurz!"
+    }
+  },
+  "error": null
+}

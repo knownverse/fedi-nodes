@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.6.0",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": 12,
+        "activeMonth": 3
+      },
+      "localPosts": 81,
+      "localComments": 9
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "책공장",
+      "nodeDescription": "컨텐츠수집, 컨텐츠투표, 페디버스, 토론용 마이크로블로그, fediverse"
+    }
+  },
+  "error": null
+}

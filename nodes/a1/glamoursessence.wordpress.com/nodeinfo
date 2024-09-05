@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 25,
+      "localComments": 59
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Glamour&#039;s Essence",
+      "nodeDescription": "Styles and Creativity.",
+      "nodeIcon": "https://glamoursessence.wordpress.com/wp-content/uploads/2021/09/wp-1632464558337.jpg"
+    }
+  },
+  "error": null
+}

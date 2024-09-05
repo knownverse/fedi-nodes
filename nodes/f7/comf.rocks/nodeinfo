@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.9"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://comf.rocks/federation/actors/service",
+      "private": true,
+      "shortDescription": "",
+      "longDescription": "",
+      "rules": "",
+      "contactEmail": "mario@comf.email",
+      "terms": "",
+      "nodeName": "ComfRocks",
+      "banner": "https://owo.pizza/funkwhale/dynamic_preferences/instance__banner/tweesee.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=comf%2F20240905%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240905T221026Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=99d1e272d9bdb172f945827fa22401be730737d6dafb42e04c7c7ab5d39a39a6",
+      "defaultUploadQuota": 10000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 19964
+        },
+        "artists": {
+          "total": 1514
+        },
+        "albums": {
+          "total": 1387
+        },
+        "music": {
+          "hours": 1061.9722222222222
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 133
+          }
+        },
+        "listenings": {
+          "total": 8885
+        },
+        "downloads": {
+          "total": 6892
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1",
+      "repository": "https://github.com/pfefferle/wordpress-nodeinfo"
+    },
+    "usage": {
+      "users": {
+        "total": 4
+      },
+      "localPosts": 68,
+      "localComments": 83
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": {
+      "inbound": [
+        "activitypub"
+      ],
+      "outbound": [
+        "activitypub"
+      ]
+    },
+    "metadata": {
+      "email": "max@altmax.com.au"
+    }
+  },
+  "error": null
+}

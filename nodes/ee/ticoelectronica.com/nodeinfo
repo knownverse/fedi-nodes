@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 164,
+      "localComments": 28
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Taller de Televisores y Smart Tv en Costa Rica.",
+      "nodeDescription": "Diagnóstico y reparación de pantallas de televisión.",
+      "nodeIcon": "https://ticoelectronica.com/wp-content/uploads/2024/06/cropped-taller-de-televisores-en-costa-rica-ticoelectronica.png"
+    }
+  },
+  "error": null
+}

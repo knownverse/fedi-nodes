@@ -1,0 +1,345 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "media_proxy",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "rejected_instances": {},
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "*.gretagangbang.biz",
+            "mastodon.city",
+            "video.nobodyhasthe.biz",
+            "peertube.sharivegas.com",
+            "videos.martinezperspective.org",
+            "clubcyberia.co",
+            "pt.pube.tk",
+            "libre.video",
+            "tube.querdenken-711.de",
+            "bitcoinhackers.org",
+            "gameliberty.club",
+            "*.lolicon.rocks",
+            "pl.thj.no",
+            "freecumextremist.com",
+            "freespeechextremist.com",
+            "*.shitposter.*",
+            "shitpost.cloud",
+            "activitypub-troll.cf",
+            "pouque.net",
+            "detroitriotcity.com",
+            "poster.place",
+            "poa.st",
+            "pawoo.net",
+            "baraag.net",
+            "mapsupport.de",
+            "nnia.space",
+            "threads.net",
+            "threads.instagram.com",
+            "bsky.brid.gy",
+            "social.cutefunny.net",
+            "m.mxin.moe",
+            "cunnyborea.top",
+            "misskey.kuromame048.net",
+            "awakari.com",
+            "Sub.club"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_keyword": {
+          "replace": [],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "KeywordPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "pouque.net": {
+              "reason": "nazi"
+            },
+            "tube.querdenken-711.de": {
+              "reason": "n/a"
+            },
+            "threads.net": {
+              "reason": "metablock"
+            },
+            "bitcoinhackers.org": {
+              "reason": "n/a"
+            },
+            "mapsupport.de": {
+              "reason": "fediblock"
+            },
+            "videos.martinezperspective.org": {
+              "reason": "n/a"
+            },
+            "shitpost.cloud": {
+              "reason": "n/a"
+            },
+            "cunnyborea.top": {
+              "reason": "SPAM"
+            },
+            "*.lolicon.rocks": {
+              "reason": "n/a"
+            },
+            "video.nobodyhasthe.biz": {
+              "reason": "n/a"
+            },
+            "Sub.club": {
+              "reason": "Commercial"
+            },
+            "nnia.space": {
+              "reason": "fediblock"
+            },
+            "*.shitposter.*": {
+              "reason": "n/a"
+            },
+            "pt.pube.tk": {
+              "reason": "n(a"
+            },
+            "freespeechextremist.com": {
+              "reason": "n/a"
+            },
+            "gameliberty.club": {
+              "reason": "n/a"
+            },
+            "detroitriotcity.com": {
+              "reason": "n/a"
+            },
+            "awakari.com": {
+              "reason": "SPAM"
+            },
+            "bsky.brid.gy": {
+              "reason": "Bluesky"
+            },
+            "peertube.sharivegas.com": {
+              "reason": "n/a"
+            },
+            "threads.instagram.com": {
+              "reason": "metablock"
+            },
+            "freecumextremist.com": {
+              "reason": "fediblock"
+            },
+            "social.cutefunny.net": {
+              "reason": "SPAM"
+            },
+            "pl.thj.no": {
+              "reason": "n/a"
+            },
+            "poa.st": {
+              "reason": "fediblock"
+            },
+            "poster.place": {
+              "reason": "n/a"
+            },
+            "mastodon.city": {
+              "reason": "n/a"
+            },
+            "baraag.net": {
+              "reason": "fediblock"
+            },
+            "pawoo.net": {
+              "reason": "fediblock"
+            },
+            "activitypub-troll.cf": {
+              "reason": "n/a"
+            },
+            "*.gretagangbang.biz": {
+              "reason": "n/a"
+            },
+            "misskey.kuromame048.net": {
+              "reason": "SPAM"
+            },
+            "m.mxin.moe": {
+              "reason": "SPAM"
+            },
+            "clubcyberia.co": {
+              "reason": "n/a"
+            },
+            "libre.video": {
+              "reason": "n/a"
+            }
+          }
+        }
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": true,
+      "nodeDescription": "Pleroma, ein Instanzen-Server für das Fediverse",
+      "nodeName": "Hikers Pleroma im Fediverse",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.fedcast.ch/users/Hiker"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 32000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": 3,
+        "activeMonth": 2
+      },
+      "localPosts": 33671
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.1",
+      "homepage": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "repository": "https://git.joinsharkey.org/Sharkey/Sharkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 810,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "SpikyHairClub",
+      "nodeDescription": "A SharKey instance with a mild focus on JRPG and anime fans, but here for nerds of all stripes.\n<br/>\nArt, fanart, fan fiction, essays and shitposting welcome. We're here as a shelter during the Internet Armageddon. \n<br/>\n<br/>\nClick here to see the rules before applying: https://blog.spikyhair.club/jessi/rules-of-engagement-for-spikyhairclub\n<br/>\n<br/>\n We also have a blog network via WriteFreely for more long-form content available here: https://blog.spikyhair.club - logins are shared, and you can use the same username/password on Sharkey as the blog.\n<br/>\n<br/>\nWelcome!\n<br/>",
+      "nodeAdmins": [
+        {
+          "name": "Jessi",
+          "email": "theoriginaloxymoron@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Jessi",
+        "email": "theoriginaloxymoron@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "feedbackUrl": "https://git.joinsharkey.org/Sharkey/Sharkey/issues/new/choose",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 1000000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

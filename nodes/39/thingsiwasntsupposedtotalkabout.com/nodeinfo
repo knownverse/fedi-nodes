@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 19,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Thoughts on Evolutions",
+      "nodeDescription": "Things I Wasn&#039;t Supposed to Talk About",
+      "nodeIcon": "https://thingsiwasntsupposedtotalkabout.com/wp-content/uploads/2023/04/cropped-cropped-3-time-around-holejpg.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 123,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "VIAGGIO IN VAN",
+      "nodeDescription": "Il diario di un esperienza che parte da un desiderio e finisce in esplorazione",
+      "nodeIcon": "https://viaggioinvan.com/wp-content/uploads/2022/08/cropped-wp_fav.jpg"
+    }
+  },
+  "error": null
+}

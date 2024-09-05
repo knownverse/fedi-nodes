@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 121,
+      "localComments": 324
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "小触手的书房",
+      "nodeDescription": "🍁艺用笔记存档🍁",
+      "nodeIcon": "https://i0.wp.com/heiheihei.ca/wp-content/uploads/2021/09/icon-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

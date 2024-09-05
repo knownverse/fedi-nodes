@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 74,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stephanvellora&#039;s Blog",
+      "nodeDescription": "Welcome, dear readers, to a journey of fascination and enlightenment. As we embark on this exploration together, my primary goal is to captivate your attention and deepen your understanding. I hope you&#039;ll find each post enriching and enjoyable, and I eagerly await your feedback.  Let&#039;s dive in and discover the wonders that await us!",
+      "nodeIcon": "https://stephanvellora.wordpress.com/wp-content/uploads/2024/04/cropped-download.jpeg"
+    }
+  },
+  "error": null
+}

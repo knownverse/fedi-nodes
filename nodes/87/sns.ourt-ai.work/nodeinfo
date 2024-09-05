@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 576,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 49154,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey Powered by アワートAI",
+      "nodeDescription": "2023/7/2始動\nAIにも寛容なコミュニティ。\n気軽に投稿しよう。\n\n運営：アワート合同会社",
+      "nodeAdmins": [
+        {
+          "name": "moto",
+          "email": "admin@ourt-ai.work"
+        }
+      ],
+      "maintainer": {
+        "name": "moto",
+        "email": "admin@ourt-ai.work"
+      },
+      "langs": [],
+      "tosUrl": "https://ourt-ai.work/terms",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

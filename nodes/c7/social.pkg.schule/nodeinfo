@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2022.06-1469"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica"
+      ],
+      "outbound": [
+        "friendica"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {},
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Las Kleegas",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

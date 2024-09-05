@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-mtn.3",
+      "homepage": "https://github.com/tobitti0/misskey",
+      "repository": "https://github.com/tobitti0/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 857,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.tobitti.net",
+      "nodeDescription": "1人ぼっちのインスタンスです。",
+      "nodeAdmins": [
+        {
+          "name": "tobitti",
+          "email": "下記運営者情報に記載のアカウントへご連絡ください"
+        }
+      ],
+      "maintainer": {
+        "name": "tobitti",
+        "email": "下記運営者情報に記載のアカウントへご連絡ください"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://misskey.tobitti.net/@tobitti",
+      "impressumUrl": "https://misskey.tobitti.net/@tobitti",
+      "repositoryUrl": "https://github.com/tobitti0/misskey",
+      "feedbackUrl": null,
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#333696"
+    }
+  },
+  "error": null
+}

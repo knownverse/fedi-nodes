@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7718,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ざぱぬそー",
+      "nodeDescription": "身内用承認制\nざっぴーが一人遊び(意味深)用に作ったが隠居サーバーになっている\nフォロー非推奨",
+      "nodeAdmins": [
+        {
+          "name": "ざっぴー",
+          "email": "zapiyome7@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ざっぴー",
+        "email": "zapiyome7@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://misskey.io/@zapiyome",
+      "impressumUrl": "https://misskey.io/@zapiyome",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#c563a1"
+    }
+  },
+  "error": null
+}

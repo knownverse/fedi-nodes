@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-p1.1",
+      "homepage": "https://github.com/tamaina/misskey/tree/p1",
+      "repository": "https://github.com/tamaina/misskey/tree/p1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 420,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 192727,
+      "localComments": 0
+    },
+    "metadata": {
+      "httpMessageSignaturesImplementationLevel": "01",
+      "nodeName": "p1.a9z.dev",
+      "nodeDescription": "個人用のインスタンスです。",
+      "nodeAdmins": [
+        {
+          "name": "aqz/tamaina",
+          "email": "https://p1.a9z.dev/@aqz or https://misskey.io/@tamaina"
+        }
+      ],
+      "maintainer": {
+        "name": "aqz/tamaina",
+        "email": "https://p1.a9z.dev/@aqz or https://misskey.io/@tamaina"
+      },
+      "langs": [],
+      "tosUrl": "https://p1.a9z.dev/@aqz/pages/1628915113926",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/tamaina/misskey/tree/p1",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "aqz",
+      "themeColor": "#06d80b"
+    }
+  },
+  "error": null
+}

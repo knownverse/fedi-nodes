@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.2",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7527,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "indulgent.art",
+      "nodeDescription": "This instance isn't really meant to have a lot of users. I might allow friends or those I like to use it but for now it's mostly a single user instance.\n\n</br>\n</br>\n<a href=\"https://www.flaticon.com/free-icons/otaku\" title=\"otaku icons\">Otaku icons created by Freepik - Flaticon</a>",
+      "nodeAdmins": [
+        {
+          "name": "@Overseer@indulgent.art",
+          "email": "admin@indulgent.art"
+        }
+      ],
+      "maintainer": {
+        "name": "@Overseer@indulgent.art",
+        "email": "admin@indulgent.art"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": null,
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Alister",
+      "themeColor": "#7851a9"
+    }
+  },
+  "error": null
+}

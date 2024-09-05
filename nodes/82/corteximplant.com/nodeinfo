@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.cortex"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 557,
+        "activeMonth": 224,
+        "activeHalfyear": 347
+      },
+      "localPosts": 190610
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "CORTEX IMPLANT — an LGBTQIA+ friendly cyberpunk'ish fediverse instance!",
+      "nodeDescription": "CORTEX IMPLANT - an international cyberpunk'ish LGBTQIA+ friendly Fediverse instance for edgerunners, netrunners and cyberpunks and all who want to become one."
+    }
+  },
+  "error": null
+}

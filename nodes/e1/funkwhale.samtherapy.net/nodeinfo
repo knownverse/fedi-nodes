@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.samtherapy.net/federation/actors/service",
+      "private": true,
+      "shortDescription": "Where the music is trash",
+      "longDescription": "\"Funkwhale is a community-driven project that lets you listen and share music and audio within a decentralized, open network.\"\r\n\r\nBasically a federated Plex/Jellyfin server dedicated for audio",
+      "contactEmail": "sam+funkwhale@samtherapy.net",
+      "nodeName": "Sam's Funky Whale",
+      "banner": null,
+      "defaultUploadQuota": 2000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "*I don't want your money.*",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 29
+          }
+        },
+        "listenings": {
+          "total": 523
+        },
+        "downloads": {
+          "total": 7085
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 2707
+        },
+        "artists": {
+          "total": 150
+        },
+        "albums": {
+          "total": 142
+        },
+        "music": {
+          "hours": 1139.0019444444445
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "Have fun.",
+      "terms": "I'm too stupid to collect data but ActivityPub isn't. For federation purposes, that is."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 359,
+      "localComments": 11
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sei Shin Ken Kai ry 誠心剣会 Kendo Seinäjoki",
+      "nodeDescription": "Seinäjoen Kendoseura",
+      "nodeIcon": "https://www.kendoseinajoki.fi/wp-content/uploads/2018/07/cropped-kendo-logo.png"
+    }
+  },
+  "error": null
+}

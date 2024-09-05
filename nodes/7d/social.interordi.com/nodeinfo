@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 104,
+        "activeHalfyear": 69,
+        "activeMonth": 12
+      },
+      "localPosts": 620,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Interordi Social",
+      "nodeDescription": "Fediverse Hub for the Internet network. Feel free to follow relevant accounts, or join yourself if you're looking for a cozy corner of the Internet!\n\nServer rules and core information: https://get2.io/fd/info",
+      "maintainer": {
+        "name": "Doctacosa",
+        "email": "interordi@interordi.com"
+      },
+      "langs": [],
+      "tosUrl": "https://www.interordi.com/termsofuse.php",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#008C28"
+    }
+  },
+  "error": null
+}

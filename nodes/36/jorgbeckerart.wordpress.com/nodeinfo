@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 102,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JB PHOTOART",
+      "nodeDescription": "FINE ART PHOTOGRAPHY",
+      "nodeIcon": "https://jorgbeckerart.wordpress.com/wp-content/uploads/2021/04/471ba-cropped-fineartphotographie.jpg"
+    }
+  },
+  "error": null
+}

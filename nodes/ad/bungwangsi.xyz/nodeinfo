@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 36,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1866,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "분광시",
+      "nodeDescription": "분광기로 돌아가는 서버",
+      "nodeAdmins": [
+        {
+          "name": "prism",
+          "email": "shinok@blobcat.me"
+        }
+      ],
+      "maintainer": {
+        "name": "prism",
+        "email": "shinok@blobcat.me"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.google.com/document/d/100YaeG7x3gqI7zrxh4ERpxgD2EcnA2FSAM4Hiwrb2ro/edit",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ed9af0"
+    }
+  },
+  "error": null
+}

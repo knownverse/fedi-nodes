@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeMonth": 32,
+        "activeHalfyear": 36
+      },
+      "localPosts": 7422
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Princeton-Plainsboro Teaching Hospital",
+      "nodeDescription": "Omnes te moriturum amant"
+    }
+  },
+  "error": null
+}

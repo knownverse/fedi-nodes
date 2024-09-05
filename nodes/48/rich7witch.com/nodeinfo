@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 68,
+      "localComments": 62
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rich7Witch",
+      "nodeDescription": "Uncovering the Hidden Mysteries of the Multiverse",
+      "nodeIcon": "https://rich7witch.com/wp-content/uploads/2022/12/cropped-cropped-oranum-2-1.jpg"
+    }
+  },
+  "error": null
+}

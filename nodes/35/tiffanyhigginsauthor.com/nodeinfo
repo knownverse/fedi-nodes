@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 213,
+      "localComments": 43
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ShldBWriting",
+      "nodeDescription": "short stories of all shapes and sizes from an award-winning creative storyteller; plus a peek into her creative recipe collection",
+      "nodeIcon": "https://tiffanyhigginsauthor.com/wp-content/uploads/2018/04/cropped-7c1373fe-3f77-4804-9c39-3755b0451c15.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 232,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ben Sahlmüller",
+      "nodeDescription": "May curiosity be your guide",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

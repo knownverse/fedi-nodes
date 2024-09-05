@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 270,
+      "localComments": 82
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Travel-See-Xperience",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/travel-see-xperience.com/wp-content/uploads/2023/07/simple-professional-name-introduction-linkedin-profile-picture.png?fit=800%2C800&ssl=1"
+    }
+  },
+  "error": null
+}

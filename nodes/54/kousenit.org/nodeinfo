@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 234,
+      "localComments": 535
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stuff I&#039;ve learned recently...",
+      "nodeDescription": "I teach this stuff.  I didn&#039;t say I could do it.",
+      "nodeIcon": "https://i0.wp.com/kousenit.org/wp-content/uploads/2019/11/cropped-KousenIT_LoRes.jpg?fit=142%2C142&ssl=1"
+    }
+  },
+  "error": null
+}

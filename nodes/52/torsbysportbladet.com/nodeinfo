@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1328,
+      "localComments": 33
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Torsby Sportbladet",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/torsbysportbladet.com/wp-content/uploads/2024/04/cropped-55f7f830-d825-4586-81bb-4bbebec4b9a3.jpeg?fit=720%2C720&ssl=1"
+    }
+  },
+  "error": null
+}

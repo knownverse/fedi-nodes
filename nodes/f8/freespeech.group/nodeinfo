@@ -1,0 +1,245 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "hentai.baby",
+            "freak.university",
+            "Solagg.com",
+            "youjo.love",
+            "mxtthxw.art"
+          ],
+          "media_removal": [
+            "baraag.net",
+            "pawoo.net"
+          ],
+          "media_nsfw": [
+            "neckbeard.xyz",
+            "shitposter.club",
+            "freespeechextremist.com",
+            "varishangout.net"
+          ],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "HellthreadPolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "ForceBotUnlistedPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "Solagg.com": {
+              "reason": "crypto scam site"
+            },
+            "freak.university": {
+              "reason": "pedo instance"
+            },
+            "hentai.baby": {
+              "reason": "pedo instance"
+            },
+            "mxtthxw.art": {
+              "reason": "temporary-this might be an error, google is reporting phishing from this site"
+            },
+            "youjo.love": {
+              "reason": "pedo instance"
+            }
+          },
+          "media_removal": {
+            "baraag.net": {
+              "reason": "highly dubious artwork possibly illegal in Canada"
+            },
+            "pawoo.net": {
+              "reason": "highly dubious artwork possibly illegal in Canada"
+            }
+          },
+          "media_nsfw": {
+            "freespeechextremist.com": {
+              "reason": "way too much uncensored porn"
+            },
+            "neckbeard.xyz": {
+              "reason": "way too much uncensored porn"
+            },
+            "shitposter.club": {
+              "reason": "way too much uncensored porn"
+            },
+            "varishangout.net": {
+              "reason": "way too much uncensored porn"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "boop.city",
+        "social.criminallycute.fi",
+        "Otr.rocks"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "A Free Speech (Canadian Rules) Fedi/Pleroma Server For Political and Philosophical Discussion.",
+      "nodeName": "FreeSpeech.Group",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://freespeech.group/users/shebang"
+      ],
+      "uploadLimits": {
+        "general": 186000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 202,
+        "activeHalfyear": 6,
+        "activeMonth": 5
+      },
+      "localPosts": 36431
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.1-0-gc02e343"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

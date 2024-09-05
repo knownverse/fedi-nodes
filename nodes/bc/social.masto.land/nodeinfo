@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 5296
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "masto.land",
+      "nodeDescription": "Development server for getting Radio3 and other apps to work with Mastodon. "
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1226,
+      "localComments": 1722
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Monsterlady&#039;s Diary",
+      "nodeDescription": "Here to unleash my imagination.",
+      "nodeIcon": "https://monsterladysdiary.com/wp-content/uploads/2022/04/wordpress.png"
+    }
+  },
+  "error": null
+}

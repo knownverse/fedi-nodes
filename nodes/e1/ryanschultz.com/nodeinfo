@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2677,
+      "localComments": 3272
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ryan Schultz",
+      "nodeDescription": "News and Views on Social VR, Virtual Worlds, and the Metaverse",
+      "nodeIcon": "https://i0.wp.com/ryanschultz.com/wp-content/uploads/2022/08/cropped-Ryan-Schultz-Site-Icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

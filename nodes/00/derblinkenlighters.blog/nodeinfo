@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Der Blinkenlighters",
+      "nodeDescription": "Retrocomputing at our finest",
+      "nodeIcon": "https://derblinkenlighters.blog/wp-content/uploads/2023/12/cropped-cropped-pxl_20231225_173830554.jpg"
+    }
+  },
+  "error": null
+}

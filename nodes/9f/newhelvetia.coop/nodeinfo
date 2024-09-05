@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "New Helvetia Brewing Company | Sacramento Craft Beer |",
+      "nodeDescription": "Hella Local",
+      "nodeIcon": "https://newhelvetia.coop/wp-content/uploads/2024/03/ff80b-0aece0_f2f548d64a1f454988f8e7863541d3a77emv2.jpg"
+    }
+  },
+  "error": null
+}

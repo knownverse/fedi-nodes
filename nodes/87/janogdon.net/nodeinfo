@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 352,
+        "activeMonth": 7,
+        "activeHalfyear": 23
+      },
+      "localPosts": 5488
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Janogdon",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

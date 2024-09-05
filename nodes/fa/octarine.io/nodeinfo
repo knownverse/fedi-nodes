@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 28,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Octarine.io",
+      "nodeDescription": "",
+      "nodeIcon": "https://octarine.io/wp-content/uploads/2020/04/2020_04_30_19_30_5SX_icon.ico"
+    }
+  },
+  "error": null
+}

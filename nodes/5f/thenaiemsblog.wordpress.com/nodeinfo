@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 40,
+      "localComments": 886
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Naiem Ur Rehman",
+      "nodeDescription": "Amidst the chaos of Kashmir and confusion of medical sciences, let&#039;s do something that we really love - write!",
+      "nodeIcon": "https://thenaiemsblog.wordpress.com/wp-content/uploads/2018/01/cropped-cropped-picsart_01-05-021830723748.jpg"
+    }
+  },
+  "error": null
+}

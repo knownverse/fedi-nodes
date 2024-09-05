@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 993,
+        "activeMonth": 253,
+        "activeHalfyear": 489
+      },
+      "localPosts": 168958
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "URUSAI! Social",
+      "nodeDescription": "A friendly and non-toxic English-first Mastodon community for anime, manga, and other otaku subjects."
+    }
+  },
+  "error": null
+}

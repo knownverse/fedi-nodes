@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 256,
+      "localComments": 70
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mostly Film Photography (GotFilm.org)",
+      "nodeDescription": "Film &amp; Digital Photography, Technology, Travel, and Other Things That Interest Me",
+      "nodeIcon": "https://gotfilm.org/wp-content/uploads/2019/12/wp-1576202548521.jpg"
+    }
+  },
+  "error": null
+}

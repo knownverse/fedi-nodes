@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1066,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "女子がまったりすきー",
+      "nodeDescription": "女子が好きな女子。という特別な制限はない汎用鯖。誰でも参加OK。男子禁制ではない。\nゆるふわ腐女子系ひとり言。その他なんでもあり。公序凌辱に触れなければ。百合に挟まる男は許さん。（BLに挟まる女も許さんよ）",
+      "nodeAdmins": [
+        {
+          "name": "女子すきー管理人",
+          "email": "info@hikikommori-happy.site"
+        }
+      ],
+      "maintainer": {
+        "name": "女子すきー管理人",
+        "email": "info@hikikommori-happy.site"
+      },
+      "langs": [],
+      "tosUrl": "https://hikikommori-happy.site/terms-of-use/",
+      "privacyPolicyUrl": "https://hikikommori-happy.site/privacy-policy/",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#e597b2"
+    }
+  },
+  "error": null
+}

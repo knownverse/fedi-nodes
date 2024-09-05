@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "microblogpub",
+      "version": "Microblog.pub de607e9e3946+"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 3
+    },
+    "metadata": {
+      "sourceCode": "https://github.com/tsileo/microblog.pub",
+      "nodeName": "@cwt@c3po.bashell.com"
+    }
+  },
+  "error": null
+}

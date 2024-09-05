@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 231,
+      "localComments": 532
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zuunzug",
+      "nodeDescription": "Zonards des grands Z&#039;espaces",
+      "nodeIcon": "https://zuunzug.com/wp-content/uploads/2020/06/cropped-logozz-pointillc3a9s-blanc.png"
+    }
+  },
+  "error": null
+}

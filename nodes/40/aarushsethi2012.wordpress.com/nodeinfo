@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Around the world with Aarush",
+      "nodeDescription": "Exploreee the world.......",
+      "nodeIcon": "https://aarushsethi2012.wordpress.com/wp-content/uploads/2024/01/cropped-screenshot-2024-01-21-210117.png"
+    }
+  },
+  "error": null
+}

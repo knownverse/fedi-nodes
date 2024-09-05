@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "2024",
+      "nodeName": "Termine: linXXnet & INTERIM",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.17.2"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 56,
+      "users": {
+        "total": 6
+      }
+    }
+  },
+  "error": null
+}

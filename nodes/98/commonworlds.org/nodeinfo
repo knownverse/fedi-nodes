@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "7.8.6"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 93,
+        "activeHalfyear": 37,
+        "activeMonth": 4
+      },
+      "localPosts": 265,
+      "localComments": 97
+    },
+    "metadata": {
+      "nodeName": "Common Worlds"
+    }
+  },
+  "error": null
+}

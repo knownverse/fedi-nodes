@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 457,
+      "localComments": 61
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AI Story Weavers",
+      "nodeDescription": "Where Imagination Meets Algorithms: Exploring AI Art and Fiction",
+      "nodeIcon": "https://aistoryweavers.studio/wp-content/uploads/2024/02/wp-1706857518208.jpg"
+    }
+  },
+  "error": null
+}

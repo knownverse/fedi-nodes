@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 39,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Syntax Legal Practitioners",
+      "nodeDescription": "Simplifying the law.",
+      "nodeIcon": "https://syntaxlaw.com/wp-content/uploads/2020/04/cropped-syntax-logo.jpg.jpg"
+    }
+  },
+  "error": null
+}

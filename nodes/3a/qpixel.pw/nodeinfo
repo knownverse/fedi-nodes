@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-03-30+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 0,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Pixeldon",
+      "nodeDescription": "A personal Mastodon server for qpixel\r\n\r\nstatus monitoring: https://status.qpixel.pw"
+    }
+  },
+  "error": null
+}

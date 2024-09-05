@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 144,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Robert",
+      "nodeDescription": "Dies und Das - Aktuelles, Politisches, Lustiges, Ernstes, ...",
+      "nodeIcon": "https://robertmeidling.blog/wp-content/uploads/2024/08/cropped-cropped-545254d0-1162-4a99-9cf9-1a7c4347aea5.jpg"
+    }
+  },
+  "error": null
+}

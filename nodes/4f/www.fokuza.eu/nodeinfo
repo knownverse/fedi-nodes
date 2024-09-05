@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 445,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FOKUZA",
+      "nodeDescription": "Actualités de notre Association",
+      "nodeIcon": "https://www.fokuza.eu/wp-content/uploads/2023/04/cropped-FOKUZA_Profil_2023_512.jpg"
+    }
+  },
+  "error": null
+}

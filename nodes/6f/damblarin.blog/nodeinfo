@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1560,
+      "localComments": 248
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DAMBLARIN: Pamflet, Caricatură, Miere și Venin",
+      "nodeDescription": "Lumea văzută prin ochi de Damblarin este o lume încărcată de un umor negru și acid, care sancționează anormalul și grotescul din societatea contemporană. Materie primă există din abundență în jurul nostru. Dar nu este vizibilă decât pentru un ochi antrenat. Ochi de Damblarin.  Cititorii mei dispun de un acut și rafinat simț al umorului. Iar tu ești unul dintre ei !",
+      "nodeIcon": "https://damblarin.blog/wp-content/uploads/2018/09/chiar-eu.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 555,
+        "activeHalfyear": 137,
+        "activeMonth": 76
+      },
+      "localPosts": 282547,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Snugly Moe Moe",
+      "nodeDescription": "snug fedi instance for snuggly beings<br/>\nVisit <a style=\"color: var(--accent);\" href=\"https://info.snug.moe/\">info.snug.moe</a> for more details",
+      "maintainer": {
+        "name": "@cheri",
+        "email": "admin@snug.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://info.snug.moe/pages/rules/",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#FFC4C4"
+    }
+  },
+  "error": null
+}

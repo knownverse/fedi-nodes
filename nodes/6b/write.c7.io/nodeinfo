@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "希奇！博客栈",
+      "nodeDescription": "象友们安静写长文的角落。",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 1,
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0-c7"
+    },
+    "usage": {
+      "users": {
+        "total": 34,
+        "activeHalfyear": 11,
+        "activeMonth": 4
+      },
+      "localPosts": 431
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

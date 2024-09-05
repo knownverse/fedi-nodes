@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2648
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon",
+      "nodeDescription": "A social network for you (if you are the guy)"
+    }
+  },
+  "error": null
+}

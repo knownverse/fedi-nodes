@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://uin.lertsenem.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "Instance privée pour amis & famille",
+      "longDescription": "",
+      "rules": "",
+      "contactEmail": "lertsenem@lertsenem.com",
+      "terms": "",
+      "nodeName": "Uin",
+      "banner": null,
+      "defaultUploadQuota": 20000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 11893
+        },
+        "artists": {
+          "total": 1252
+        },
+        "albums": {
+          "total": 827
+        },
+        "music": {
+          "hours": 723.5361111111112
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 271
+          }
+        },
+        "listenings": {
+          "total": 7900
+        },
+        "downloads": {
+          "total": 20183
+        }
+      }
+    }
+  },
+  "error": null
+}

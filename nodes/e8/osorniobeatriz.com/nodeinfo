@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 714,
+      "localComments": 2062
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "UNA LUZ MÁS",
+      "nodeDescription": "Ante los demás nos define lo que hacemos y  decimos, pero ante nosotros mismos nos define mejor lo que escribimos.",
+      "nodeIcon": "https://osorniobeatriz.com/wp-content/uploads/2017/07/1208317779_f.jpg"
+    }
+  },
+  "error": null
+}

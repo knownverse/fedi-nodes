@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+island"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2114,
+        "activeMonth": 324,
+        "activeHalfyear": 747
+      },
+      "localPosts": 195677
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Island 岛屿",
+      "nodeDescription": "这里是属于每一个人与众不同的岛屿，然而每座岛屿间却又紧密相连。来建设专属于你的岛屿吧！无论世界多么纷纷扰扰，这里总会有你所向往的一片宁静……"
+    }
+  },
+  "error": null
+}

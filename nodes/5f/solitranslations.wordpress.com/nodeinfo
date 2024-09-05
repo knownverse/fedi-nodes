@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Slow Life Translations",
+      "nodeDescription": "Tempat Baca LN/WN Bahasa Indonesia",
+      "nodeIcon": "https://solitranslations.wordpress.com/wp-content/uploads/2021/04/cropped-13_5.jpg"
+    }
+  },
+  "error": null
+}

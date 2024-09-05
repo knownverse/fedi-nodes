@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 137,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 26293,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "サマリー",
+      "nodeDescription": "サマリー（Summary）はTwitterやmixiといったSNSが大好きな方を対象とした汎用Misskeyサーバーです。\nSNSの疲れはSNSで癒すもの、限界オタクになりたい時や自分の考えをまとめたいときに避暑地としてご利用いただけます。18歳以上から登録可能です。",
+      "nodeAdmins": [
+        {
+          "name": "サマリー管理局",
+          "email": "https://form.nekonet.cyou/"
+        }
+      ],
+      "maintainer": {
+        "name": "サマリー管理局",
+        "email": "https://form.nekonet.cyou/"
+      },
+      "langs": [],
+      "tosUrl": "https://info.summary.ink/kiyaku.html",
+      "privacyPolicyUrl": "https://info.summary.ink/privacy.html",
+      "inquiryUrl": "https://form.summary.ink",
+      "impressumUrl": "https://nekonet.cyou",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#098269"
+    }
+  },
+  "error": null
+}

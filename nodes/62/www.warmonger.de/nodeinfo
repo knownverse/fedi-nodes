@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 445,
+      "localComments": 50
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Warmonger",
+      "nodeDescription": "Tabletop. Warhammer 40k, Celtos und co.",
+      "nodeIcon": "https://www.warmonger.de/wp-content/uploads/2023/11/cropped-00_HobbyHangout-YouTube-Thumbnail-3.jpg"
+    }
+  },
+  "error": null
+}

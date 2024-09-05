@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 71,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Taiyo Fujii, writing",
+      "nodeDescription": "science fiction writing, where to go",
+      "nodeIcon": "https://i0.wp.com/taiyolab.com/wp-content/uploads/2024/06/cropped-site-logo.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

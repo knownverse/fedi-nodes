@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 3,
+        "activeHalfyear": 4
+      },
+      "localPosts": 464
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Tucows Social",
+      "nodeDescription": "Tucows Social is part of the Mastodon network and is hosted in Toronto, Canada by the Tucows, the parent company of OpenSRS, Enom, Ascio and Hover, Ting and Wavelo."
+    }
+  },
+  "error": null
+}

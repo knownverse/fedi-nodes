@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeMonth": 10,
+        "activeHalfyear": 7
+      },
+      "localPosts": 2194,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TDN TODAY 善思新聞網",
+      "nodeDescription": "倡議新興媒體以多元思考角度進行報導，在事實的前提下，善加思考不同面向，結合社群、自媒體與影音呈現，盼閱聽眾擁有更多省思及發聲管道。",
+      "nodeIcon": "https://i0.wp.com/tdn.today/wp-content/uploads/2022/12/cropped-tdn-logo_f-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

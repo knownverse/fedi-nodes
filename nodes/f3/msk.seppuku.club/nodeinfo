@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2-taiyme-v1.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 59,
+        "activeHalfyear": 19,
+        "activeMonth": 11
+      },
+      "localPosts": 146806,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "切腹🔑",
+      "nodeDescription": "お",
+      "maintainer": {
+        "name": "山D",
+        "email": "me@dyama.net"
+      },
+      "langs": [],
+      "tosUrl": "https://msk.seppuku.club/@7/pages/about_seppuku",
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ff6400"
+    }
+  },
+  "error": null
+}

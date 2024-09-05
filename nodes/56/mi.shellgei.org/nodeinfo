@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5827,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しぇるげいすきー",
+      "nodeDescription": "シェル芸人のノアの方舟<br /><br />\n\n👇ついったの二の轍を踏まずにみんななかよく（あと正直に書くとサーバーの主がストレスなく）するためのルールです！👇\n\n<ul>\n<li>政治の話は基本しない（する場合はあくまで「と私は思います。」などと自分以外はそう信じなくてよいように作文する。</li>\n<li>冗談以外では演説口調や断定を避けましょう。（例: 「だ。」「である。」「でなければならない。」「これは良記事/必見。」等）</li>\n<li>自分のやってることや思っていることを書く。有名人をコンテキスト無視して話に出さない（自分を大きく見せることにつながるので）。深い親交のない限り有名人へのR.I.P.は禁止。</li>\n<li>自身の関わっていないニュースや動画のURLを貼って評論する行為（一言物申す系・驚き屋）も禁止です。内容について具体的な質問をするのは可です。 </li>\n<li>愚痴を吐き捨てるとみんなに心配されながら沈むことになるので、辛かったらちゃんとまわりに甘える。</li>\n</ul>\n\n以上です。うんこ！",
+      "nodeAdmins": [
+        {
+          "name": "Ryuichi Ueda",
+          "email": "ryuichiueda@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Ryuichi Ueda",
+        "email": "ryuichiueda@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

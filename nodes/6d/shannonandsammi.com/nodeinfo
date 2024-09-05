@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sammi Willden | Shannon Burke",
+      "nodeDescription": "Uncovering the Art of Invisible Learning",
+      "nodeIcon": "https://shannonandsammi.com/wp-content/uploads/2023/03/screenshot-2023-03-06-at-9.23.03-am.png"
+    }
+  },
+  "error": null
+}

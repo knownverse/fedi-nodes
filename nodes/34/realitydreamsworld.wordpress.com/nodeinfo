@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 127,
+      "localComments": 304
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "RealityandDreamsWorld",
+      "nodeDescription": "Imagination, is the art that runs the world, in Reality and Dreams.",
+      "nodeIcon": "https://realitydreamsworld.wordpress.com/wp-content/uploads/2019/09/cropped-20190927_073925.jpg"
+    }
+  },
+  "error": null
+}

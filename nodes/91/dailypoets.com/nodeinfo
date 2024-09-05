@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3574,
+      "localComments": 344
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Daily Poets",
+      "nodeDescription": "Find the Story Anywhere, Every Day.  Or Don&#039;t, We&#039;re Not the Boss of You.",
+      "nodeIcon": "https://dailypoets.com/wp-content/uploads/2020/03/cropped-daily-poets-favicon.png"
+    }
+  },
+  "error": null
+}

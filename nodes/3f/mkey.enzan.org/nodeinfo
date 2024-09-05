@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 86,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": " I・P・C ",
+      "nodeDescription": "🇹🇼 這是個人 Misskey 站</br>\n如果想要在這邊建帳號，請通過以下電郵地址聯絡管理員。\n</br></br>\n🇯🇵 プライベートミスキー鯖です。</br>\nここでアカウントを作成したい場合は、下記メールを通じて管理者に連絡してください。\n</br></br>\n🇬🇧 This is a personal misskey instance.</br>\nIf you want to create a account here, please contect administrator with the mail address below.</br>\n</br>\n📧 mkey.pm3pv@simplelogin.com",
+      "nodeAdmins": [
+        {
+          "name": "lanenzan",
+          "email": "mkey.pm3pv@simplelogin.com"
+        }
+      ],
+      "maintainer": {
+        "name": "lanenzan",
+        "email": "mkey.pm3pv@simplelogin.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

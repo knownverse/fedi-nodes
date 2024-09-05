@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 215,
+        "activeMonth": 52,
+        "activeHalfyear": 92
+      },
+      "localPosts": 18700
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Raphus Social",
+      "nodeDescription": "Raphus Social 🦤 is a better bird site, a safe and inclusive place for bringing together open minded people interested in technology, open source, tabletop games, and other general geekery."
+    }
+  },
+  "error": null
+}

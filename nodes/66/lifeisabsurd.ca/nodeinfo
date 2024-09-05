@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 75,
+      "localComments": 43
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lurching Toward Oblivion",
+      "nodeDescription": "... with much ado about something or other.",
+      "nodeIcon": "https://lifeisabsurd.ca/wp-content/uploads/2019/10/cropped-death-on-bike.jpg"
+    }
+  },
+  "error": null
+}

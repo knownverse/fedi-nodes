@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeMonth": 17,
+        "activeHalfyear": 27
+      },
+      "localPosts": 51876
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "The Cult of Shiv",
+      "nodeDescription": "Invite only Mastodon instance for the Cult of Shiv community."
+    }
+  },
+  "error": null
+}

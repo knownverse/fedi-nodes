@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 226,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zornhau - historische Fechtkunst",
+      "nodeDescription": "Schwertkampf &amp; historisches Fechten in Hessen, Rhein-Main-Gebiet",
+      "nodeIcon": "https://www.zornhau.de/wordpress/wp-content/uploads/2016/11/cropped-ZornhauWappen_mitRand.png"
+    }
+  },
+  "error": null
+}

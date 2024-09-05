@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "contact@sup39.dev",
+        "name": "サポミク"
+      },
+      "nodeDescription": "サポミクのFediverseでの居場所です。",
+      "nodeName": "サポミクキターン★",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#2ee5b8"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 6685,
+      "users": {
+        "activeHalfyear": 8,
+        "activeMonth": 7,
+        "total": 8
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 73,
+      "localComments": 81
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "notes on folk psychology + philosophy + music + more",
+      "nodeIcon": "https://kenyandjango.wordpress.com/wp-content/uploads/2024/05/cropped-photo_5938090924842271739_x.jpg"
+    }
+  },
+  "error": null
+}

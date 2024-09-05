@@ -1,0 +1,289 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 30,
+          "reject_threshold": 0
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": [
+            {
+              "pattern": "BIPOC",
+              "replacement": "fat stinky fucking nigger pavement ape coon"
+            },
+            {
+              "pattern": "women",
+              "replacement": "foids"
+            },
+            {
+              "pattern": "african american",
+              "replacement": "blackfrican blackmerican"
+            },
+            {
+              "pattern": "transgender",
+              "replacement": "tringletroon"
+            },
+            {
+              "pattern": "I HATE NIGGERS",
+              "replacement": "I, for one, love niggers #mutualaid"
+            },
+            {
+              "pattern": "white",
+              "replacement": "White"
+            },
+            {
+              "pattern": "black",
+              "replacement": "Black"
+            },
+            {
+              "pattern": "nigganuts",
+              "replacement": "<a class=\"u-url mention status-link\" data-user=\"AgSBkyVZhODimEXf4C\" href=\"https://mugicha.club/users/shedinja\" rel=\"nofollow noopener\" target=\"_blank\" title=\"shedinja@mugicha.club\">@<span>shedinja</span></a>"
+            }
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HellthreadPolicy",
+          "StealEmojiPolicy",
+          "KeywordPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "mostr.pub"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "spinster.xyz",
+            "journa.host",
+            "femboys.love",
+            "freak.university",
+            "rot.gives",
+            "*smat-app.com",
+            "idolheaven.org",
+            "baraag.net",
+            "misskey.io",
+            "rape.pet",
+            "lit.tlespace.xyz",
+            "pacsa.us"
+          ],
+          "reject_deletes": [
+            "ak.kyaruc.moe"
+          ],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "mostr.pub": {
+              "reason": "unfunny jpeg posting"
+            }
+          },
+          "reject": {
+            "*smat-app.com": {
+              "reason": "glowniggers"
+            },
+            "baraag.net": {
+              "reason": "excessive cunny"
+            },
+            "femboys.love": {
+              "reason": "children and pedophiles on the same instance. this will end well."
+            },
+            "freak.university": {
+              "reason": "pedofaggot(s)"
+            },
+            "idolheaven.org": {
+              "reason": "pedo"
+            },
+            "journa.host": {
+              "reason": "journonigger scum"
+            },
+            "lit.tlespace.xyz": {
+              "reason": "pedofaggot instance"
+            },
+            "misskey.io": {
+              "reason": "excessive cunny"
+            },
+            "pacsa.us": {
+              "reason": "pedos"
+            },
+            "rape.pet": {
+              "reason": "pedofaggot instance"
+            },
+            "rot.gives": {
+              "reason": "weird faggots"
+            },
+            "spinster.xyz": {
+              "reason": "women"
+            }
+          },
+          "reject_deletes": {
+            "ak.kyaruc.moe": {
+              "reason": "fuck you"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "An instance for men with perfect hairlines",
+      "nodeName": "Norwood Zero",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": true,
+        "federated": false,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://norwoodzero.net/users/rapist",
+        "https://norwoodzero.net/users/Normans_are_not_french",
+        "https://norwoodzero.net/users/burner"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 64000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.10.2-0-gba1ed37"
+    },
+    "usage": {
+      "localPosts": 39844,
+      "users": {
+        "activeHalfyear": 53,
+        "activeMonth": 26,
+        "total": 64
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

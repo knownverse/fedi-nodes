@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.3+egirls.0",
+      "homepage": "https://gitdab.com/heartles/egirlskey",
+      "repository": "https://gitdab.com/heartles/egirlskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 148,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 480560,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "eGirls Dot Gay",
+      "nodeDescription": "An allowlist-federating shitposting site for eGirls, eBoys, eEnbies, and eAnythingElse.\n\n<br />\n\nPlease tell us who you are (eg. friend of X, was @user@example.com, etc) in your application so we can process it.",
+      "nodeAdmins": [
+        {
+          "name": "@heartles@egirls.gay",
+          "email": "admin@heartles.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "@heartles@egirls.gay",
+        "email": "admin@heartles.xyz"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://gitdab.com/heartles/egirlskey",
+      "feedbackUrl": "https://gitdab.com/heartles/egirlskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 6969,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#b542a0"
+    }
+  },
+  "error": null
+}

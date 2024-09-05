@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 1747,
+      "localComments": 10405
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Acts of Volition",
+      "nodeDescription": "",
+      "nodeIcon": "https://actsofvolition.com/wp-content/uploads/2017/01/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

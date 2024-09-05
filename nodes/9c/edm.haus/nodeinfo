@@ -1,0 +1,876 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 16,
+          "reject_threshold": 16
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": []
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers",
+            "reject"
+          ],
+          "threshold": 7776000
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "HellthreadPolicy",
+          "StealEmojiPolicy",
+          "VocabularyPolicy",
+          "HashtagPolicy",
+          "KeywordPolicy",
+          "SimplePolicy",
+          "NoPlaceholderTextPolicy",
+          "AntiFollowbotPolicy",
+          "EnsureRePrepended",
+          "TagPolicy",
+          "NoEmptyPolicy",
+          "AntiLinkSpamPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "mirr0r.city",
+            "baraag.net",
+            "humblr.social",
+            "ligma.pro",
+            "my.dirtyhobby.xyz",
+            "neurodiver.ge",
+            "porn-k.com",
+            "sinblr.com",
+            "switter.at",
+            "twimblr.live",
+            "twimblr.xyz",
+            "xxtumblr.org",
+            "zeonet.xyz",
+            "milker.cafe",
+            "bgzashtita.es",
+            "brighteon.social",
+            "fr13nd5.com",
+            "freeatlantis.com",
+            "krdtube.org",
+            "noagendasocial.com",
+            "mstdn.foxfam.club",
+            "shitposter.club",
+            "bsd.moe",
+            "freezepeach.xyz",
+            "pawoo.net",
+            "toot.love"
+          ],
+          "followers_only": [],
+          "media_nsfw": [
+            "mirr0r.city",
+            "baraag.net",
+            "humblr.social",
+            "ligma.pro",
+            "my.dirtyhobby.xyz",
+            "neurodiver.ge",
+            "porn-k.com",
+            "sinblr.com",
+            "switter.at",
+            "twimblr.live",
+            "twimblr.xyz",
+            "xxtumblr.org",
+            "zeonet.xyz",
+            "milker.cafe",
+            "bgzashtita.es",
+            "brighteon.social",
+            "fr13nd5.com",
+            "freeatlantis.com",
+            "krdtube.org",
+            "noagendasocial.com",
+            "mstdn.foxfam.club",
+            "shitposter.club",
+            "bsd.moe",
+            "freezepeach.xyz",
+            "pawoo.net",
+            "toot.love"
+          ],
+          "media_removal": [
+            "mirr0r.city",
+            "baraag.net",
+            "humblr.social",
+            "ligma.pro",
+            "my.dirtyhobby.xyz",
+            "neurodiver.ge",
+            "porn-k.com",
+            "sinblr.com",
+            "switter.at",
+            "twimblr.live",
+            "twimblr.xyz",
+            "xxtumblr.org",
+            "zeonet.xyz",
+            "milker.cafe",
+            "bgzashtita.es",
+            "brighteon.social",
+            "fr13nd5.com",
+            "freeatlantis.com",
+            "krdtube.org",
+            "noagendasocial.com",
+            "mstdn.foxfam.club",
+            "shitposter.club",
+            "bsd.moe",
+            "freezepeach.xyz",
+            "pawoo.net",
+            "toot.love"
+          ],
+          "reject": [
+            "mirr0r.city",
+            "10minutepleroma.com",
+            "bae.st",
+            "beefyboys.win",
+            "beta.birdsite.live",
+            "bird.evilcyberhacker.net",
+            "bird.froth.zone",
+            "birdsite.b93.dece.space",
+            "birdsite.cloutier.co",
+            "birdsite.frog.fashion",
+            "birdsite.gred.al",
+            "birdsite.jemverse.xyz",
+            "birdsite.link",
+            "birdsitelive.loca.lt",
+            "birdsite.monster",
+            "birdsite.nytpu.com",
+            "birdsite.skye.cx",
+            "birdsite.slashdev.space",
+            "birdsite.spectreos.de",
+            "birdsite.toot.si",
+            "birdsite.vrparty.social",
+            "birdsite.wilde.cloud",
+            "bridge.birb.space",
+            "catgirl.life",
+            "cnet.site",
+            "coom.club",
+            "cum.desupost.soy",
+            "cum.salon",
+            "daffodil-11.org",
+            "detroitriotcity.com",
+            "dlf.social",
+            "eientei.org",
+            "eveningzoo.club",
+            "fedi.app",
+            "feminism.lgbt",
+            "freecumextremist.com",
+            "gab.ai",
+            "gab.com",
+            "getgle.org",
+            "gitmo.life",
+            "glindr.org",
+            "glowers.club",
+            "hunk.city",
+            "iddqd.social",
+            "jaeger.website",
+            "kiwifarms.cc",
+            "kiwifarms.is",
+            "kiwifarms.net",
+            "leafposter.club",
+            "mastodonhub.com",
+            "mouse.services",
+            "nicecrew.digital",
+            "ns.auction",
+            "paypig.org",
+            "pieville.net",
+            "pleroma.fun",
+            "poa.st",
+            "pooper.social",
+            "rakket.app",
+            "raplst.town",
+            "rdrama.cc",
+            "ryona.agency",
+            "shitpisscum.mooo.com",
+            "shortstackran.ch",
+            "social.projectsegfau.lt",
+            "solagg.com",
+            "spinster.xyz",
+            "switter.at",
+            "twitter.1d4.us",
+            "twitter.activitypub.actor",
+            "twtr.carnivore.social",
+            "twtr.plus",
+            "wtr.vrij.social",
+            "twtr.wappie.land",
+            "wagesofsinisdeath.com",
+            "waifuappreciation.club",
+            "waifu.social",
+            "weedis.life",
+            "workers.dev",
+            "yggdrasil.social",
+            "truthsocial.co.in",
+            "shitposter.club",
+            "gameliberty.club"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "baraag.net": {
+              "reason": "SPAM"
+            },
+            "bgzashtita.es": {
+              "reason": "SPAM"
+            },
+            "brighteon.social": {
+              "reason": "SPAM"
+            },
+            "bsd.moe": {
+              "reason": "SPAM"
+            },
+            "fr13nd5.com": {
+              "reason": "SPAM"
+            },
+            "freeatlantis.com": {
+              "reason": "SPAM"
+            },
+            "freezepeach.xyz": {
+              "reason": "SPAM"
+            },
+            "humblr.social": {
+              "reason": "SPAM"
+            },
+            "krdtube.org": {
+              "reason": "SPAM"
+            },
+            "ligma.pro": {
+              "reason": "SPAM"
+            },
+            "milker.cafe": {
+              "reason": "SPAM"
+            },
+            "mirr0r.city": {
+              "reason": "SPAM"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "SPAM"
+            },
+            "my.dirtyhobby.xyz": {
+              "reason": "SPAM"
+            },
+            "neurodiver.ge": {
+              "reason": "SPAM"
+            },
+            "noagendasocial.com": {
+              "reason": "SPAM"
+            },
+            "pawoo.net": {
+              "reason": "SPAM"
+            },
+            "porn-k.com": {
+              "reason": "SPAM"
+            },
+            "shitposter.club": {
+              "reason": "SPAM"
+            },
+            "sinblr.com": {
+              "reason": "SPAM"
+            },
+            "switter.at": {
+              "reason": "SPAM"
+            },
+            "toot.love": {
+              "reason": "SPAM"
+            },
+            "twimblr.live": {
+              "reason": "SPAM"
+            },
+            "twimblr.xyz": {
+              "reason": "SPAM"
+            },
+            "xxtumblr.org": {
+              "reason": "SPAM"
+            },
+            "zeonet.xyz": {
+              "reason": "SPAM"
+            }
+          },
+          "media_nsfw": {
+            "baraag.net": {
+              "reason": "SPAM"
+            },
+            "bgzashtita.es": {
+              "reason": "SPAM"
+            },
+            "brighteon.social": {
+              "reason": "SPAM"
+            },
+            "bsd.moe": {
+              "reason": "SPAM"
+            },
+            "fr13nd5.com": {
+              "reason": "SPAM"
+            },
+            "freeatlantis.com": {
+              "reason": "SPAM"
+            },
+            "freezepeach.xyz": {
+              "reason": "SPAM"
+            },
+            "humblr.social": {
+              "reason": "SPAM"
+            },
+            "krdtube.org": {
+              "reason": "SPAM"
+            },
+            "ligma.pro": {
+              "reason": "SPAM"
+            },
+            "milker.cafe": {
+              "reason": "SPAM"
+            },
+            "mirr0r.city": {
+              "reason": "SPAM"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "SPAM"
+            },
+            "my.dirtyhobby.xyz": {
+              "reason": "SPAM"
+            },
+            "neurodiver.ge": {
+              "reason": "SPAM"
+            },
+            "noagendasocial.com": {
+              "reason": "SPAM"
+            },
+            "pawoo.net": {
+              "reason": "SPAM"
+            },
+            "porn-k.com": {
+              "reason": "SPAM"
+            },
+            "shitposter.club": {
+              "reason": "SPAM"
+            },
+            "sinblr.com": {
+              "reason": "SPAM"
+            },
+            "switter.at": {
+              "reason": "SPAM"
+            },
+            "toot.love": {
+              "reason": "SPAM"
+            },
+            "twimblr.live": {
+              "reason": "SPAM"
+            },
+            "twimblr.xyz": {
+              "reason": "SPAM"
+            },
+            "xxtumblr.org": {
+              "reason": "SPAM"
+            },
+            "zeonet.xyz": {
+              "reason": "SPAM"
+            }
+          },
+          "media_removal": {
+            "baraag.net": {
+              "reason": "SPAM"
+            },
+            "bgzashtita.es": {
+              "reason": "SPAM"
+            },
+            "brighteon.social": {
+              "reason": "SPAM"
+            },
+            "bsd.moe": {
+              "reason": "SPAM"
+            },
+            "fr13nd5.com": {
+              "reason": "SPAM"
+            },
+            "freeatlantis.com": {
+              "reason": "SPAM"
+            },
+            "freezepeach.xyz": {
+              "reason": "SPAM"
+            },
+            "humblr.social": {
+              "reason": "SPAM"
+            },
+            "krdtube.org": {
+              "reason": "SPAM"
+            },
+            "ligma.pro": {
+              "reason": "SPAM"
+            },
+            "milker.cafe": {
+              "reason": "SPAM"
+            },
+            "mirr0r.city": {
+              "reason": "SPAM"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "SPAM"
+            },
+            "my.dirtyhobby.xyz": {
+              "reason": "SPAM"
+            },
+            "neurodiver.ge": {
+              "reason": "SPAM"
+            },
+            "noagendasocial.com": {
+              "reason": "SPAM"
+            },
+            "pawoo.net": {
+              "reason": "SPAM"
+            },
+            "porn-k.com": {
+              "reason": "SPAM"
+            },
+            "shitposter.club": {
+              "reason": "SPAM"
+            },
+            "sinblr.com": {
+              "reason": "SPAM"
+            },
+            "switter.at": {
+              "reason": "SPAM"
+            },
+            "toot.love": {
+              "reason": "SPAM"
+            },
+            "twimblr.live": {
+              "reason": "SPAM"
+            },
+            "twimblr.xyz": {
+              "reason": "SPAM"
+            },
+            "xxtumblr.org": {
+              "reason": "SPAM"
+            },
+            "zeonet.xyz": {
+              "reason": "SPAM"
+            }
+          },
+          "reject": {
+            "bird.froth.zone": {
+              "reason": "SPAM"
+            },
+            "beta.birdsite.live": {
+              "reason": "SPAM"
+            },
+            "mastodonhub.com": {
+              "reason": "SPAM"
+            },
+            "fedi.app": {
+              "reason": "SPAM"
+            },
+            "pleroma.fun": {
+              "reason": "SPAM"
+            },
+            "gameliberty.club": {
+              "reason": "SPAM"
+            },
+            "poa.st": {
+              "reason": "SPAM"
+            },
+            "bae.st": {
+              "reason": "SPAM"
+            },
+            "truthsocial.co.in": {
+              "reason": "SPAM"
+            },
+            "rakket.app": {
+              "reason": "SPAM"
+            },
+            "cum.desupost.soy": {
+              "reason": "SPAM"
+            },
+            "birdsite.monster": {
+              "reason": "SPAM"
+            },
+            "hunk.city": {
+              "reason": "SPAM"
+            },
+            "coom.club": {
+              "reason": "SPAM"
+            },
+            "kiwifarms.net": {
+              "reason": "SPAM"
+            },
+            "twitter.activitypub.actor": {
+              "reason": "SPAM"
+            },
+            "iddqd.social": {
+              "reason": "SPAM"
+            },
+            "birdsite.toot.si": {
+              "reason": "SPAM"
+            },
+            "birdsite.vrparty.social": {
+              "reason": "SPAM"
+            },
+            "birdsite.skye.cx": {
+              "reason": "SPAM"
+            },
+            "jaeger.website": {
+              "reason": "SPAM"
+            },
+            "birdsite.nytpu.com": {
+              "reason": "SPAM"
+            },
+            "birdsite.spectreos.de": {
+              "reason": "SPAM"
+            },
+            "nicecrew.digital": {
+              "reason": "SPAM"
+            },
+            "catgirl.life": {
+              "reason": "SPAM"
+            },
+            "gab.ai": {
+              "reason": "SPAM"
+            },
+            "birdsite.cloutier.co": {
+              "reason": "SPAM"
+            },
+            "raplst.town": {
+              "reason": "SPAM"
+            },
+            "birdsite.jemverse.xyz": {
+              "reason": "SPAM"
+            },
+            "twtr.carnivore.social": {
+              "reason": "SPAM"
+            },
+            "mirr0r.city": {
+              "reason": "SPAM"
+            },
+            "ryona.agency": {
+              "reason": "SPAM"
+            },
+            "glowers.club": {
+              "reason": "SPAM"
+            },
+            "yggdrasil.social": {
+              "reason": "SPAM"
+            },
+            "mouse.services": {
+              "reason": "SPAM"
+            },
+            "cnet.site": {
+              "reason": "SPAM"
+            },
+            "spinster.xyz": {
+              "reason": "SPAM"
+            },
+            "shitposter.club": {
+              "reason": "SPAM"
+            },
+            "feminism.lgbt": {
+              "reason": "SPAM"
+            },
+            "birdsite.slashdev.space": {
+              "reason": "SPAM"
+            },
+            "freecumextremist.com": {
+              "reason": "SPAM"
+            },
+            "beefyboys.win": {
+              "reason": "SPAM"
+            },
+            "weedis.life": {
+              "reason": "SPAM"
+            },
+            "birdsite.wilde.cloud": {
+              "reason": "SPAM"
+            },
+            "bird.evilcyberhacker.net": {
+              "reason": "SPAM"
+            },
+            "paypig.org": {
+              "reason": "SPAM"
+            },
+            "twtr.plus": {
+              "reason": "SPAM"
+            },
+            "detroitriotcity.com": {
+              "reason": "SPAM"
+            },
+            "birdsitelive.loca.lt": {
+              "reason": "SPAM"
+            },
+            "leafposter.club": {
+              "reason": "SPAM"
+            },
+            "switter.at": {
+              "reason": "SPAM"
+            },
+            "birdsite.b93.dece.space": {
+              "reason": "SPAM"
+            },
+            "birdsite.gred.al": {
+              "reason": "SPAM"
+            },
+            "bridge.birb.space": {
+              "reason": "SPAM"
+            },
+            "cum.salon": {
+              "reason": "SPAM"
+            },
+            "shitpisscum.mooo.com": {
+              "reason": "SPAM"
+            },
+            "waifu.social": {
+              "reason": "SPAM"
+            },
+            "eientei.org": {
+              "reason": "SPAM"
+            },
+            "workers.dev": {
+              "reason": "SPAM"
+            },
+            "getgle.org": {
+              "reason": "SPAM"
+            },
+            "gitmo.life": {
+              "reason": "SPAM"
+            },
+            "pieville.net": {
+              "reason": "SPAM"
+            },
+            "dlf.social": {
+              "reason": "SPAM"
+            },
+            "ns.auction": {
+              "reason": "SPAM"
+            },
+            "twitter.1d4.us": {
+              "reason": "SPAM"
+            },
+            "birdsite.link": {
+              "reason": "SPAM"
+            },
+            "eveningzoo.club": {
+              "reason": "SPAM"
+            },
+            "waifuappreciation.club": {
+              "reason": "SPAM"
+            },
+            "10minutepleroma.com": {
+              "reason": "SPAM"
+            },
+            "kiwifarms.is": {
+              "reason": "SPAM"
+            },
+            "shortstackran.ch": {
+              "reason": "SPAM"
+            },
+            "gab.com": {
+              "reason": "SPAM"
+            },
+            "wagesofsinisdeath.com": {
+              "reason": "SPAM"
+            },
+            "birdsite.frog.fashion": {
+              "reason": "SPAM"
+            },
+            "rdrama.cc": {
+              "reason": "SPAM"
+            },
+            "solagg.com": {
+              "reason": "SPAM"
+            },
+            "pooper.social": {
+              "reason": "SPAM"
+            },
+            "daffodil-11.org": {
+              "reason": "SPAM"
+            },
+            "glindr.org": {
+              "reason": "SPAM"
+            },
+            "social.projectsegfau.lt": {
+              "reason": "SPAM"
+            },
+            "kiwifarms.cc": {
+              "reason": "SPAM"
+            },
+            "wtr.vrij.social": {
+              "reason": "SPAM"
+            },
+            "twtr.wappie.land": {
+              "reason": "SPAM"
+            }
+          }
+        },
+        "mrf_vocabulary": {
+          "accept": [],
+          "reject": []
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": true,
+      "nodeDescription": "[M]usic [P]eople [C]rave",
+      "nodeName": "EDM Haus",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "admin",
+        "rewt",
+        "root",
+        "postmaster",
+        "hostmaster"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://edm.haus/users/music"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.2"
+    },
+    "usage": {
+      "localPosts": 39,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

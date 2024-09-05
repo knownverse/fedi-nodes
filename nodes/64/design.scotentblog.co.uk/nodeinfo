@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 16,
+        "activeHalfyear": 16
+      },
+      "localPosts": 115,
+      "localComments": 93
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Scottish Enterprise Design blog",
+      "nodeDescription": "Transforming public services to businesses in Scotland",
+      "nodeIcon": "https://i0.wp.com/design.scotentblog.co.uk/wp-content/uploads/2020/07/cropped-saltire.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

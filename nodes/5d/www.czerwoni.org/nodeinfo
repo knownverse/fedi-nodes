@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 116,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 171,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Czerwoni",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.czerwoni.org/wp-content/uploads/2023/01/cropped-Logo-Czerwoni-1.png"
+    }
+  },
+  "error": null
+}

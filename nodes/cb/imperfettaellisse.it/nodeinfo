@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 221,
+      "localComments": 48
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Imperfetta ellisse",
+      "nodeDescription": "blog di poesia e altro...",
+      "nodeIcon": "https://imperfettaellisse.it/wp-content/uploads/2019/12/favicon32.ico"
+    }
+  },
+  "error": null
+}

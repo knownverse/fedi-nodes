@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 53
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Living With Evidence",
+      "nodeDescription": "A constant search for science’s answers to life’s questions. A newsletter by Hilda Bastian, with some debunking and cartoons.",
+      "nodeIcon": "https://hildabastian.wordpress.com/wp-content/uploads/2023/04/site-logo.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 569,
+      "localComments": 763
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nick Jordan",
+      "nodeDescription": "Effortlessly uncool.",
+      "nodeIcon": "https://www.nickjordan.co.uk/wp-content/uploads/2017/05/cropped-tweed_cropped.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.0713_5464224"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 8,
+        "activeHalfyear": 8
+      },
+      "localPosts": 3700
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Art Crimes Dot Gay",
+      "nodeDescription": "We are a limited federation server, with a slight focus is art sorta but more than anything else, it is meant to be a safe place for Black and brown folks!"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://gitea.linfan.moe/mothmoon/misskey-nepeta"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 855,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": ":33 < nepeta.moe",
+      "nodeDescription": "instance fur :33 entitiesh",
+      "nodeAdmins": [
+        {
+          "name": "@mothmoon",
+          "email": "remilia@remilia.se"
+        }
+      ],
+      "maintainer": {
+        "name": "@mothmoon",
+        "email": "remilia@remilia.se"
+      },
+      "langs": [],
+      "tosUrl": "https://nepeta.moe/@mothmoon/pages/1719861803928",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://gitea.linfan.moe/mothmoon/misskey-nepeta",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#416600"
+    }
+  },
+  "error": null
+}

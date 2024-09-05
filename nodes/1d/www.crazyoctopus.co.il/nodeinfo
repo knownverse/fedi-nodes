@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 94,
+      "localComments": 11
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Crazyoctopus",
+      "nodeDescription": "מגזין טכנולוגיה בגובה העיניים",
+      "nodeIcon": "https://www.crazyoctopus.co.il/wp-content/uploads/2024/01/3.png"
+    }
+  },
+  "error": null
+}

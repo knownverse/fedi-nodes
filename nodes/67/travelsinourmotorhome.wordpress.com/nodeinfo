@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 117,
+      "localComments": 224
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Our motorhome adventures",
+      "nodeDescription": "As we start our retirement in January 2017, we have a new freedom.  Let&#039;s see where it leads us .....",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 73,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "柳瀬美由紀ちゃんのmisskey",
+      "nodeDescription": "柳瀬美由紀ちゃんを応援するmisskeyサーバー、略して美由紀ぃ(miyukey)です。\n現在試験運用中。\n・けんかはしない、売らない、買わない\n・他のmisskeyサーバーのアカウントもフォローできます\n・登録自由。メルアド不要(通知やアカウント復旧のため登録推奨)\n・素人による自宅サーバー+cloudflareでの運営です。\n\n・ロゴとかトップページとかもっと美由紀ちゃんな感じにしたい(やり方勉強中)\n・スタンプみんなで押そう！いい感じの画像ください。",
+      "nodeAdmins": [
+        {
+          "name": "えんたろう",
+          "email": "かにだよ！"
+        }
+      ],
+      "maintainer": {
+        "name": "えんたろう",
+        "email": "かにだよ！"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#c0f6ff"
+    }
+  },
+  "error": null
+}

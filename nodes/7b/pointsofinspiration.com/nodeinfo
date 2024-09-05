@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 89,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Points of Inspiration",
+      "nodeDescription": "Helping new Dungeon Masters Level Up",
+      "nodeIcon": "https://pointsofinspiration.com/wp-content/uploads/2023/10/cropped-new-banner-1.png"
+    }
+  },
+  "error": null
+}

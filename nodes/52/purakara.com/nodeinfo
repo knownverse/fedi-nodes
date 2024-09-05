@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 134,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "横須賀ぷらから通信",
+      "nodeDescription": "プラス1時間の三浦半島散歩",
+      "nodeIcon": "https://i0.wp.com/purakara.com/wp-content/uploads/2021/02/cropped-ぷ_スライス1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

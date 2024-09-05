@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 793,
+      "localComments": 853
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fumetti di Fam",
+      "nodeDescription": "Fumetti mannari e melanzane alla parmigiana",
+      "nodeIcon": "https://www.fumettidifam.com/wp/wp-content/uploads/2017/08/cropped-fam_bn.jpg"
+    }
+  },
+  "error": null
+}

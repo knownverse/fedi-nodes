@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Action Pack",
+      "nodeDescription": "All Things Philippine Action",
+      "nodeIcon": "https://i0.wp.com/actionpack.ph/wp-content/uploads/2023/09/Bold-Company-Name-Typography-Initials-Logo-1.png?fit=267%2C179&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 51,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12160,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MisskeyMint",
+      "nodeDescription": "特定のテーマを持たない汎用Misskeyサーバーです。\n安心して利用できるように心掛けて運営しています。",
+      "nodeAdmins": [
+        {
+          "name": "テトラ",
+          "email": "https://forms.gle/X5pekHzcJ3zH5M8w7"
+        }
+      ],
+      "maintainer": {
+        "name": "テトラ",
+        "email": "https://forms.gle/X5pekHzcJ3zH5M8w7"
+      },
+      "langs": [],
+      "tosUrl": "https://misskeymint.net/@aq_tetra/pages/TOS_Sim",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://github.com/misskey-dev/misskey",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#75e0d4"
+    }
+  },
+  "error": null
+}

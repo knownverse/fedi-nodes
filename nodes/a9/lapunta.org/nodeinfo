@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda condivisa del sottobosco autogestito toscano",
+      "nodeName": "LaPunta",
+      "nodeLabel": "toscana",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "lapunta"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.13.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 3981,
+      "users": {
+        "total": 50
+      }
+    }
+  },
+  "error": null
+}

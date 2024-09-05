@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 74,
+        "activeMonth": 3,
+        "activeHalfyear": 7
+      },
+      "localPosts": 13440
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "COMM.CX",
+      "nodeDescription": "Just another mastodon server."
+    }
+  },
+  "error": null
+}

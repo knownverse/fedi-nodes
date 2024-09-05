@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sitio de Patrimonio Digital en WordPress",
+      "nodeDescription": "Pruebas de concepto en Patrimonio Digital",
+      "nodeIcon": "https://unblogiaapinnova.wordpress.com/wp-content/uploads/2016/05/plantilla2d-1.png"
+    }
+  },
+  "error": null
+}

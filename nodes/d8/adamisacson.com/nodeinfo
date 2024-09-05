@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 3849,
+      "localComments": 140
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Adam Isacson",
+      "nodeDescription": "Defense, security, borders, migration, and human rights in Latin America and the United States. May not reflect my employer’s consensus view.",
+      "nodeIcon": "https://i0.wp.com/adamisacson.com/wp-content/uploads/2017/03/cropped-Untitled.001.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

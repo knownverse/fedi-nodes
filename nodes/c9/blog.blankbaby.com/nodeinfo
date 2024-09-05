@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 4923,
+      "localComments": 9427
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Blankbaby",
+      "nodeDescription": "Random Ramblings Regularly",
+      "nodeIcon": "https://i0.wp.com/blog.blankbaby.com/wp-content/uploads/2022/05/scotthead.png?fit=200%2C315&ssl=1"
+    }
+  },
+  "error": null
+}

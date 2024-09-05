@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-MA",
+      "homepage": "https://github.com/Otaku-Social/maniakey",
+      "repository": "https://github.com/Otaku-Social/maniakey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 155,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2096,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "CircleEvents",
+      "nodeDescription": "スパム防止のため承認制となっています。<br>\n以下からアカウント発行申請を行うことができます。<br>\n<a href=\"https://ssl.form-mailer.jp/fms/16c26ee8815490\" target=\"_blank\" style=\"color: #00bfff\"><b>アカウント作成（気軽にどうぞ！）</b></a><br>\n<br>\n「お一人様サーバーを建てるまではいかないけど、告知できる場所が欲しい...」そんな方向けの告知用サーバー「CircleEvents」です。<br>\n閲覧のみのアカウント作成も歓迎です！<br>\n流れる色々な告知を見て、新しいジャンルや世界を開拓してみませんか？",
+      "nodeAdmins": [
+        {
+          "name": "Otaku Social - Morikapu",
+          "email": "お問い合わせフォームまで（https://otaku-social.com/contact.php）"
+        }
+      ],
+      "maintainer": {
+        "name": "Otaku Social - Morikapu",
+        "email": "お問い合わせフォームまで（https://otaku-social.com/contact.php）"
+      },
+      "langs": [],
+      "tosUrl": "https://otaku-social.com/tos.php",
+      "privacyPolicyUrl": "https://otaku-social.com/tos.php",
+      "inquiryUrl": "https://otaku-social.com/contact.php",
+      "impressumUrl": "https://otaku-social.com",
+      "repositoryUrl": "https://github.com/Otaku-Social/maniakey",
+      "feedbackUrl": "https://github.com/Otaku-Social/maniakey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

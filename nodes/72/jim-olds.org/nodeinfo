@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2002,
+      "localComments": 102
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Discoverers and Discoveries",
+      "nodeDescription": "What the scientific ecosystem makes possible",
+      "nodeIcon": "https://jim-olds.org/wp-content/uploads/2018/07/cropped-img_1187.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2412,
+      "localComments": 1581
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Desperate Living",
+      "nodeDescription": "Cultural Chaos and Forgotten Stories",
+      "nodeIcon": "https://i0.wp.com/desperate-living.com/wp-content/uploads/2019/07/image.jpg?fit=640%2C640&ssl=1"
+    }
+  },
+  "error": null
+}

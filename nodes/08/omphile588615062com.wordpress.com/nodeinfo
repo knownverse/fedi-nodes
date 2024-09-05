@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 34,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Molemane&#039;s Blog",
+      "nodeDescription": "Lifestyle and Wellness",
+      "nodeIcon": "https://omphile588615062com.wordpress.com/wp-content/uploads/2024/01/white-black-bold-minimalist-beauty-blogger-logo.jpg"
+    }
+  },
+  "error": null
+}

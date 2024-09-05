@@ -1,0 +1,397 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "peertube.se",
+            "norden.media",
+            "bittube.video",
+            "video.pure-isp.eu",
+            "video.nobodyhasthe.biz",
+            "nocensoring.net",
+            "libre.tube",
+            "videos.lukesmith.xyz",
+            "controverse.tube",
+            "troo.tube",
+            "open.tube",
+            "lanceur-alerte.tv",
+            "katiehopkinspolitical.icu",
+            "voicenews.icu",
+            "antivaxxer.icu",
+            "theduran.icu",
+            "censorship.icu",
+            "political.icu",
+            "runtube.re",
+            "plandemic.icu",
+            "tube.kenfm.de",
+            "oursocialism.today",
+            "thecitizen.icu",
+            "ourchristian.icu",
+            "kenfm.inter21.net",
+            "tcode.kenfm.de",
+            "peertube.devinstance.de",
+            "tube.querdenken-711.de",
+            "videos.martinezperspective.org",
+            "peertube.rage.lol",
+            "whitepositive.media",
+            "gegenstimme.tv",
+            "tv.poa.st",
+            "libre.video",
+            "gorf.tube",
+            "neogenesis.tv",
+            "tv.mattchristiansenmedia.com",
+            "peertube.narrativerry.xyz",
+            "auf1.eu",
+            "tube.apolut.net",
+            "tube2.apolut.net",
+            "tube4.apolut.net",
+            "wiki-tube.de",
+            "serv1.wiki-tube.de",
+            "serv2.wiki-tube.de",
+            "serv3.wiki-tube.de",
+            "maindreieck-tv.de",
+            "mp-tube.de",
+            "peertube.it",
+            "wuwox.com",
+            "poast.tv"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "RejectNewlyCreatedAccountNotesPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "tv.mattchristiansenmedia.com": {
+              "reason": "Peertube isolation List"
+            },
+            "tube.apolut.net": {
+              "reason": "Peertube isolation List"
+            },
+            "tube.querdenken-711.de": {
+              "reason": "Peertube isolation List"
+            },
+            "peertube.devinstance.de": {
+              "reason": "Peertube isolation List"
+            },
+            "peertube.narrativerry.xyz": {
+              "reason": "Peertube isolation List"
+            },
+            "runtube.re": {
+              "reason": "Peertube isolation List"
+            },
+            "videos.martinezperspective.org": {
+              "reason": "Peertube isolation List"
+            },
+            "ourchristian.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "serv2.wiki-tube.de": {
+              "reason": "Peertube isolation List"
+            },
+            "nocensoring.net": {
+              "reason": "Peertube isolation List"
+            },
+            "political.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "voicenews.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "maindreieck-tv.de": {
+              "reason": "Peertube isolation List"
+            },
+            "video.nobodyhasthe.biz": {
+              "reason": "Peertube isolation List"
+            },
+            "lanceur-alerte.tv": {
+              "reason": "Peertube isolation List"
+            },
+            "norden.media": {
+              "reason": "Peertube isolation List"
+            },
+            "wuwox.com": {
+              "reason": "Peertube isolation List"
+            },
+            "tube2.apolut.net": {
+              "reason": "Peertube isolation List"
+            },
+            "peertube.rage.lol": {
+              "reason": "Peertube isolation List"
+            },
+            "troo.tube": {
+              "reason": "Peertube isolation List"
+            },
+            "theduran.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "controverse.tube": {
+              "reason": "Peertube isolation List"
+            },
+            "gegenstimme.tv": {
+              "reason": "Peertube isolation List"
+            },
+            "plandemic.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "videos.lukesmith.xyz": {
+              "reason": "Peertube isolation List"
+            },
+            "libre.tube": {
+              "reason": "Peertube isolation List"
+            },
+            "gorf.tube": {
+              "reason": "Peertube isolation List"
+            },
+            "oursocialism.today": {
+              "reason": "Peertube isolation List"
+            },
+            "neogenesis.tv": {
+              "reason": "Peertube isolation List"
+            },
+            "bittube.video": {
+              "reason": "Peertube isolation List"
+            },
+            "kenfm.inter21.net": {
+              "reason": "Peertube isolation List"
+            },
+            "wiki-tube.de": {
+              "reason": "Peertube isolation List"
+            },
+            "tube.kenfm.de": {
+              "reason": "Peertube isolation List"
+            },
+            "peertube.it": {
+              "reason": "Peertube isolation List"
+            },
+            "serv3.wiki-tube.de": {
+              "reason": "Peertube isolation List"
+            },
+            "tcode.kenfm.de": {
+              "reason": "Peertube isolation List"
+            },
+            "mp-tube.de": {
+              "reason": "Peertube isolation List"
+            },
+            "video.pure-isp.eu": {
+              "reason": "Peertube isolation List"
+            },
+            "katiehopkinspolitical.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "serv1.wiki-tube.de": {
+              "reason": "Peertube isolation List"
+            },
+            "auf1.eu": {
+              "reason": "Peertube isolation List"
+            },
+            "censorship.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "libre.video": {
+              "reason": "Peertube isolation List"
+            },
+            "thecitizen.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "tv.poa.st": {
+              "reason": "Peertube isolation List"
+            },
+            "poast.tv": {
+              "reason": "Peertube isolation List"
+            },
+            "tube4.apolut.net": {
+              "reason": "Peertube isolation List"
+            },
+            "peertube.se": {
+              "reason": "PeerTube Isolation list"
+            },
+            "open.tube": {
+              "reason": "Peertube isolation List"
+            },
+            "antivaxxer.icu": {
+              "reason": "Peertube isolation List"
+            },
+            "whitepositive.media": {
+              "reason": "Peertube isolation List"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "mastodon.gamedev.place",
+        "mstdn.games",
+        "peoplemaking.games",
+        "gamedev.lgbt",
+        "ludosphere.fr",
+        "indiepocalypse.social",
+        "gamemaking.social"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "NIGHTEN's personal instance",
+      "nodeName": "NIGHTEN's Network",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://hi.nighten.fr/users/NIGHTEN"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 4,
+        "activeMonth": 3
+      },
+      "localPosts": 599
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.1-0-gc02e343"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

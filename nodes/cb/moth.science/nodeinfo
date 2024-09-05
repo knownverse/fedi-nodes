@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 423,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Moth Science",
+      "nodeDescription": "It's not social media, it's moth science!<br />\n<br />\nAdmin Contact: <a href=\"https://moth.science/@luna\" rel=\"me\">@luna@moth.science</a><br />\nBackup Admin Contact: <a href=\"https://mastoadmin.io/@mothscience\" rel=\"me\">@MothScience@mastoadmin.io</a><br />",
+      "maintainer": {
+        "name": "Luna",
+        "email": "luna@moth.science"
+      },
+      "langs": [],
+      "tosUrl": "https://moth.science/tos",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

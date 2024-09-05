@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2,
+      "localComments": 75
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nerd, Nerd, Nerd &amp; Uli",
+      "nodeDescription": "3 Nerds - und eine Nicht-Nerdin",
+      "nodeIcon": "https://nnnuu.de/wp-content/uploads/sites/3/2018/12/cropped-NNNUU-cover.jpg"
+    }
+  },
+  "error": null
+}

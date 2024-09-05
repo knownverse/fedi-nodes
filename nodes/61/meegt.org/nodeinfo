@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 12,
+        "activeHalfyear": 12
+      },
+      "localPosts": 47,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Movimiento Ecológico Estudiantil",
+      "nodeDescription": "",
+      "nodeIcon": "https://meegt.org/wp-content/uploads/2020/07/cropped-mee-icon.png"
+    }
+  },
+  "error": null
+}

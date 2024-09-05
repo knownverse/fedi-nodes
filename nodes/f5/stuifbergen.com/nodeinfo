@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 37,
+      "localComments": 211
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stuifbergen.com",
+      "nodeDescription": "Analytics &amp; Growth Hacking",
+      "nodeIcon": "https://stuifbergen.com/wp-content/uploads/sites/4/2018/06/s-128.png"
+    }
+  },
+  "error": null
+}

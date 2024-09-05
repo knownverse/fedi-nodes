@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "honk",
+      "version": "develop/git-409c85aa9450+"
+    },
+    "usage": {
+      "localPosts": 495,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

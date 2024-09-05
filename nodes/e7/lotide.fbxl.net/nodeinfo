@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {},
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "lotide",
+      "version": "0.15.0-dev"
+    },
+    "usage": {
+      "localComments": 1124,
+      "localPosts": 257,
+      "users": {
+        "total": 264
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

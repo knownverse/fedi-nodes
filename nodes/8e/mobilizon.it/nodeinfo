@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Istanza mobilizon dedicata agli eventi italiani ",
+      "nodeName": "Mobilizon Italia"
+    },
+    "usage": {
+      "users": {
+        "total": 4407
+      },
+      "localComments": 141,
+      "localPosts": 1558
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

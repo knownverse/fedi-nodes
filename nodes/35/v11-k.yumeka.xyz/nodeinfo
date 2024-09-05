@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "11.37.1-20240430023339"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "Yumeka v11 Keys",
+      "nodeDescription": "Yumeka Keys의 v11 변종",
+      "maintainer": {
+        "name": "유메카",
+        "email": "yumeka@yumeka.xyz"
+      },
+      "langs": [
+        "ko"
+      ],
+      "ToSUrl": null,
+      "repositoryUrl": "https://github.com/Lastorder-DC/misskey-v11",
+      "feedbackUrl": "https://github.com/Lastorder-DC/misskey-v11/issues/new/choose",
+      "announcements": [
+        {
+          "text": "그냥 엄청 느린거니 기다리시면 메일이 갈겁니다",
+          "image": null,
+          "title": "이메일 발송이 느립니다"
+        },
+        {
+          "text": "그냥 심심해서 해보는중",
+          "image": null,
+          "title": "미스키 v11 시범 운영중"
+        }
+      ],
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 2000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true
+    }
+  },
+  "error": null
+}

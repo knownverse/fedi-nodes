@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 105,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ân Thịnh",
+      "nodeDescription": "Chuyên viết về Snarry, hoặc couple với thầy Snape",
+      "nodeIcon": "https://anthinhsnape.wordpress.com/wp-content/uploads/2024/04/cropped-d4b57b3da3868c13b54251c2a02c7d94.jpg"
+    }
+  },
+  "error": null
+}

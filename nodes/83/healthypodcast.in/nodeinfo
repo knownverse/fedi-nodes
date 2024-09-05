@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 41,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Healthy Podcast",
+      "nodeDescription": "Embark on a well-being journey with Healthy Podcast, your ultimate destination for health, fitness, and happiness.",
+      "nodeIcon": "https://healthypodcast.in/wp-content/uploads/2024/03/cropped-whatsapp-image-2024-03-05-at-16.52.42.jpeg"
+    }
+  },
+  "error": null
+}

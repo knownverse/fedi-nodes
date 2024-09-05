@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+types"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 855,
+        "activeMonth": 302,
+        "activeHalfyear": 428
+      },
+      "localPosts": 350030
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "types.pl",
+      "nodeDescription": "A queer, leftist instance for programming languages enthusiasts and friends."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-26+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 49,
+        "activeMonth": 5,
+        "activeHalfyear": 9
+      },
+      "localPosts": 5196
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "coolmathgam.es",
+      "nodeDescription": "coolmathgam.es is a parody Mastodon instance that is NOT AFFILIATED with that one site you all know and love. Please no sue this is a joke."
+    }
+  },
+  "error": null
+}

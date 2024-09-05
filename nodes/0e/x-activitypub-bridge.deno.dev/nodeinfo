@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "x-activitypub-bridge",
+      "version": "0.5.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 0
+      }
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "X ActivityPub Bridge",
+      "nodeDescription": "X ActivityPub Bridge"
+    }
+  },
+  "error": null
+}

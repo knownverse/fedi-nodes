@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "NodeBB",
+      "version": "4.0.0-alpha"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 115,
+        "activeMonth": 4,
+        "activeHalfyear": 12
+      },
+      "localPosts": 17463
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "매일매일 책공장",
+      "nodeDescription": "매일매일 책공장"
+    }
+  },
+  "error": null
+}

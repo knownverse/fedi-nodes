@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Veranstaltungsplattform für Wien und darüber hinaus - in der Selbstfindungsphase 😆",
+      "nodeName": "events.cudy.org"
+    },
+    "usage": {
+      "users": {
+        "total": 340
+      },
+      "localComments": 0,
+      "localPosts": 1207
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

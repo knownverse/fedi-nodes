@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.110.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeHalfyear": 3,
+        "activeMonth": 0
+      },
+      "localPosts": 733,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みすしーどっとこむ",
+      "nodeDescription": "お寿司が好きなしーが建てたMisskeyサーバーだからみすしー\n(テスト運用中）",
+      "maintainer": {
+        "name": "しー",
+        "email": "question-mi@shi-jk.com"
+      },
+      "langs": [],
+      "tosUrl": "https://mainblog.shi-jk.com/%e3%81%bf%e3%81%99%e3%81%97%e3%83%bc%e3%81%a9%e3%81%a3%e3%81%a8%e3%81%93%e3%82%80%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null
+    }
+  },
+  "error": null
+}

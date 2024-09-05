@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 168,
+      "localComments": 60
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The JaP Code - A Journal",
+      "nodeDescription": "A Journal filled with Real life experience, fictional stories, abstract philosophical discussion along with Informative knowledge.",
+      "nodeIcon": "https://thejapcode.wordpress.com/wp-content/uploads/2024/02/1706801074938.jpg"
+    }
+  },
+  "error": null
+}

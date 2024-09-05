@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1569,
+        "activeMonth": 326,
+        "activeHalfyear": 589
+      },
+      "localPosts": 185133
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Pawb.Fun - Pawbs, beans, and all things fluffy",
+      "nodeDescription": "This instance aimed at any and all within the furry fandom, though anyone is welcome! We're friendly towards members of the LGBTQ+ community and aiming to offer a safe space for our users."
+    }
+  },
+  "error": null
+}

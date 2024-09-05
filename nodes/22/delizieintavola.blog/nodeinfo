@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 74,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Delizie in Tavola",
+      "nodeDescription": "Creiamo insieme momenti indimenticabili con le delizie in tavola",
+      "nodeIcon": "https://delizieintavola.blog/wp-content/uploads/2024/01/cropped-logo-antonio.jpg"
+    }
+  },
+  "error": null
+}

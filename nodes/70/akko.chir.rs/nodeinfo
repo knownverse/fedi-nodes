@@ -1,0 +1,331 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 8,
+          "reject_threshold": 20
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [
+            "usdtenm.com",
+            "~r/Hi \\w+! New account: .* Do not share with anyone, official website:/i",
+            "dogeai.farm",
+            "ARB Doge",
+            "new meme token created by the latest neural network",
+            "~r/dogecoin.*airdrop/i",
+            "~r/airdrop.*dogecoin/i"
+          ],
+          "replace": []
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "EnsureRePrepended",
+          "ForceBotUnlistedPolicy",
+          "AntiFollowbotPolicy",
+          "ObjectAgePolicy",
+          "KeywordPolicy",
+          "TagPolicy",
+          "RequireImageDescription",
+          "HellthreadPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_sample": {
+          "content": "<br/><emph>This post contained media without content description. Offending media has been removed from this post.</emph>"
+        },
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "mastodon.online",
+            "mastodon.social",
+            "tumblr.com",
+            "vivaldi.net"
+          ],
+          "followers_only": [
+            "bird.makeup"
+          ],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "activitypub-proxy.cf",
+            "bae.st",
+            "baraag.net",
+            "beefyboys.win",
+            "disqordia.space",
+            "eientei.org",
+            "feral.cafe",
+            "freespeechextremist.com",
+            "howlr.me",
+            "kiwifarms.cc",
+            "mapsupport.de",
+            "mastodon.cloud",
+            "moth.zone",
+            "mstdn.jp",
+            "nicecrew.digital",
+            "pawoo.net",
+            "pedo.school",
+            "pmth.us",
+            "poa.st",
+            "qoto.org",
+            "rdrama.cc",
+            "ryona.agency",
+            "threads.net",
+            "xhais.love"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "mastodon.online": {
+              "reason": "Too large to be moderated well"
+            },
+            "mastodon.social": {
+              "reason": "Too large to be moderated well"
+            },
+            "tumblr.com": {
+              "reason": "Too large to be moderated well, corporate instance"
+            },
+            "vivaldi.net": {
+              "reason": "Corporate instance; Registers nonconsensual accounts for Vivaldi Sync users"
+            }
+          },
+          "followers_only": {
+            "bird.makeup": {
+              "reason": "Birdsite scraper with removed limitations and privacy considerations"
+            }
+          },
+          "reject": {
+            "activitypub-proxy.cf": {
+              "reason": "Block circumvention tool"
+            },
+            "bae.st": {
+              "reason": "freeze peach"
+            },
+            "baraag.net": {
+              "reason": "porn involving (fictional) underage characters"
+            },
+            "beefyboys.win": {
+              "reason": "freeze peach; hosts neonazis"
+            },
+            "disqordia.space": {
+              "reason": "No snooping!"
+            },
+            "eientei.org": {
+              "reason": "fash"
+            },
+            "feral.cafe": {
+              "reason": "Zoophilia"
+            },
+            "freespeechextremist.com": {
+              "reason": "Freeze Peach"
+            },
+            "howlr.me": {
+              "reason": "Run by verified kiwifarms user"
+            },
+            "kiwifarms.cc": {
+              "reason": "Targeted Harassment"
+            },
+            "mapsupport.de": {
+              "reason": "Pedophile instance"
+            },
+            "mastodon.cloud": {
+              "reason": "Corporate instance; Owner engaged in scams"
+            },
+            "moth.zone": {
+              "reason": "racism/antiblackness; owner self-admitted pedophile"
+            },
+            "mstdn.jp": {
+              "reason": "Corporate instance; Owner engaged in scams"
+            },
+            "nicecrew.digital": {
+              "reason": "TERF Instance"
+            },
+            "pawoo.net": {
+              "reason": "Corporate instance; Owner engaged in scams"
+            },
+            "pedo.school": {
+              "reason": "Pedophile instance"
+            },
+            "pmth.us": {
+              "reason": "Harassment"
+            },
+            "poa.st": {
+              "reason": "Hosting neonazis"
+            },
+            "qoto.org": {
+              "reason": "Freeze Peach; Admin harasses other server admins; sends unsolicited emails"
+            },
+            "rdrama.cc": {
+              "reason": "smells like Kiwifarms shit"
+            },
+            "ryona.agency": {
+              "reason": "Freeze Peach"
+            },
+            "threads.net": {
+              "reason": "there is so much wrong with facebook it would just fill up the whole page"
+            },
+            "xhais.love": {
+              "reason": "Zoophile instance"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 69,
+        "maxRemoteFields": 621,
+        "nameLength": 621,
+        "valueLength": 58913
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "Small Akkoma Instance",
+      "nodeName": "Raccoon Noises",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://akko.chir.rs/users/charlotte"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 268435456
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.11.0"
+    },
+    "usage": {
+      "localPosts": 12646,
+      "users": {
+        "activeHalfyear": 8,
+        "activeMonth": 7,
+        "total": 14
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

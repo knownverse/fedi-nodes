@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 10958,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "リアクションするだけのお仕事",
+      "nodeDescription": "誰かからあったかーいリアクションがもらえる場所\n絵文字どんどん増やしていきましょう",
+      "nodeAdmins": [
+        {
+          "name": "ゆば屋宗次郎 @yuba@reax.work",
+          "email": "http://twitter.com/yuba"
+        }
+      ],
+      "maintainer": {
+        "name": "ゆば屋宗次郎 @yuba@reax.work",
+        "email": "http://twitter.com/yuba"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "http://twitter.com/yuba",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "listproxy",
+      "themeColor": "#3CADF9"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": "14",
+        "activeHalfyear": "14"
+      },
+      "localPosts": 4021,
+      "localComments": 2175
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Rants, Raves, and Rhetoric v4",
+      "nodeDescription": "Commentary about those things I find interesting.",
+      "nodeIcon": "https://i0.wp.com/www.ezrasf.com/wplog/wp-content/uploads/2010/01/1-6894428894_bffdd5e4d0_o.jpg?fit=560%2C560&ssl=1"
+    }
+  },
+  "error": null
+}

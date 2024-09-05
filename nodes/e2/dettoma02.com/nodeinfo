@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 28,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dettoma 02",
+      "nodeDescription": "Studio di architettura e ingegneria in Val di Susa, con sede a Sant&#039;Ambrogio di Torino",
+      "nodeIcon": "https://dettoma02.com/wp-content/uploads/2018/09/cropped-dettoma02.png"
+    }
+  },
+  "error": null
+}

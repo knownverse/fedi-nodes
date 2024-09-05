@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 89357,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "さんせすきー",
+      "nodeDescription": "サンセットのインスタンス\n登録はサンセットに要相談",
+      "nodeAdmins": [
+        {
+          "name": "サンセット",
+          "email": "sunset0916[@]fascode.net"
+        }
+      ],
+      "maintainer": {
+        "name": "サンセット",
+        "email": "sunset0916[@]fascode.net"
+      },
+      "langs": [],
+      "tosUrl": "https://sunset0916.net/sunsesskey-policy/",
+      "privacyPolicyUrl": "https://sunset0916.net/sunsesskey-policy/",
+      "inquiryUrl": "https://sunset0916.net/about/",
+      "impressumUrl": "https://sunset0916.net",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffb76d"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2264,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ヒラみす",
+      "nodeDescription": "お一人様サーバー<br>\n素のmisskeyなので特にめぼしい機能はありません<br>\n<br>\n完全初心者なのでご容赦ください。意図的に爆破する場合は12時間以上前に連絡します。\n<br>\nここが死んだら <a href=\"https://mkkey.net/@hirasu\">hirasu@mkkey.net</a> または hirasu@misskey.io からご連絡します。",
+      "nodeAdmins": [
+        {
+          "name": "生わさび伝説",
+          "email": "hiriasu@hirasu.com"
+        }
+      ],
+      "maintainer": {
+        "name": "生わさび伝説",
+        "email": "hiriasu@hirasu.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://mkkey.net/@hirasu",
+      "impressumUrl": "https://mkkey.net/@hirasu",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#00995b"
+    }
+  },
+  "error": null
+}

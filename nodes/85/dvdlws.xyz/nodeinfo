@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 142,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "dvdlws",
+      "nodeDescription": "Scribblings on film, music, books and education.",
+      "nodeIcon": "https://i0.wp.com/dvdlws.xyz/wp-content/uploads/2020/06/dvdlws-3.png?fit=500%2C500&ssl=1"
+    }
+  },
+  "error": null
+}

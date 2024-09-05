@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1157,
+      "localComments": 1157
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "artiss.blog",
+      "nodeDescription": "My 15GB of fame",
+      "nodeIcon": "https://i0.wp.com/artiss.blog/wp-content/uploads/2022/11/cropped-ProfilePictureMaker-3.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

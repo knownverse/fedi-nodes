@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1131,
+        "activeHalfyear": 236,
+        "activeMonth": 65
+      },
+      "localPosts": 15257,
+      "localComments": 29362
+    },
+    "metadata": {
+      "nodeName": "Hubzilla.de"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 920,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Unity Lodge No. 146",
+      "nodeDescription": "Front Royal, Virginia",
+      "nodeIcon": "https://unity146.org/wp-content/uploads/2023/05/unity-masonic-lodge-146-front-royal-va.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Quả dứa có gai",
+      "nodeDescription": "Kể lại những câu chuyện của người khác ...",
+      "nodeIcon": "https://tornpineapple.wordpress.com/wp-content/uploads/2024/04/wp-1712568837415.jpg"
+    }
+  },
+  "error": null
+}

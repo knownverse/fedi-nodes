@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "microblogpub",
+      "version": "Microblog.pub 669fec0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 24
+    },
+    "metadata": {
+      "sourceCode": "https://notabug.org/nipos/nikisoftblog",
+      "nodeName": "@blog@nikisoft.one"
+    }
+  },
+  "error": null
+}

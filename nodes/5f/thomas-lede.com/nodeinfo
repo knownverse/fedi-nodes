@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 146,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nobilitas Obligat",
+      "nodeDescription": "Exploring Nobility in the Post-Modern Era",
+      "nodeIcon": "https://thomas-lede.com/wp-content/uploads/2024/03/nobilitas-obligat.png"
+    }
+  },
+  "error": null
+}

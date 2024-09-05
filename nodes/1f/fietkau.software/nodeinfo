@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "instance": {
+      "description": "An instance with a single bot account that posts daily voice lines from the game Bastion (2011) as audio attachments.",
+      "name": "Daily Rucks"
+    },
+    "metadata": {},
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "homepage": "https://fietkau.software/daily_rucks",
+      "name": "dailyrucks",
+      "repository": "https://fietkau.software/DailyRucks.git",
+      "version": "0.1-nightly"
+    },
+    "usage": {
+      "localPosts": 5,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "activeWeek": 1,
+        "total": 1
+      }
+    },
+    "version": "2.2"
+  },
+  "error": null
+}

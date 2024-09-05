@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 483,
+      "localComments": 31
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Carl Atteniese",
+      "nodeDescription": "XESL &amp; Cradle of the Universe",
+      "nodeIcon": "https://xesl.wordpress.com/wp-content/uploads/2024/05/436271194_7710197952372075_7890118847310521349_n.jpg"
+    }
+  },
+  "error": null
+}

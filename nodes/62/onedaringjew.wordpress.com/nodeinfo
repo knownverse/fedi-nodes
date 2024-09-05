@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 856,
+      "localComments": 3554
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "OneDaring     Jew",
+      "nodeDescription": "“The legend of the Wandering Jew.”  The Jew flees the cross and spends, this is no legend, all of time wandering, wondering, not daring to consider that he might have been wrong about the man called Yeshua.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

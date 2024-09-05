@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "八咫烏シリーズwiki",
+      "nodeDescription": "阿部智里先生の八咫烏シリーズ小説の非公式まとめwikiです。このwikiはファンの運営するものであり小説作者様並びに発行元の公式団体とは一切関係ありません。",
+      "nodeIcon": "https://ytgrs-fan.com/wp-content/uploads/2023/11/cropped-43df9b745482c63c6326ac4abd975497.png"
+    }
+  },
+  "error": null
+}

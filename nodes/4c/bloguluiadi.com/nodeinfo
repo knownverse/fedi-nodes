@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 151,
+      "localComments": 489
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BLOGUL LUI ADI",
+      "nodeDescription": "Mergi înainte!",
+      "nodeIcon": "https://bloguluiadi.com/wp-content/uploads/2022/10/cropped-thumbnail.jpg888.jpg"
+    }
+  },
+  "error": null
+}

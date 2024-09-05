@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 148,
+      "localComments": 65
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BJ Sikes, author",
+      "nodeDescription": "Fantastical histories for modern feminists",
+      "nodeIcon": "https://bjsikesauthor.com/wp-content/uploads/2018/02/cropped-fleur-de-lys-plus-phi-hires.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1449,
+      "localComments": 1611
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Christian Åhs Grevsjö",
+      "nodeDescription": "en blogg om cancer, diabetes, att vara pappa och livet",
+      "nodeIcon": "https://www.snowracer.se/wp-content/uploads/2018/03/cropped-18582561_10154644891433951_1094260679582005805_n-1.jpg"
+    }
+  },
+  "error": null
+}

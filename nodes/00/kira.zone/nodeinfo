@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1242,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "星光領域✨Kira.Zone",
+      "nodeDescription": "🌏 星光領域·分享今日的KiraKira和DokiDoki 🌏  <br>\n  <br>\n⭐ 星光領域是一个联邦式社交网络，这类似于微博或X(前身爲Twitter)，运行Misskey开源项目。但是每个感兴趣的服务器运营者都可运行一个Misskey实例。  <br>\n  <br>\n<a href=\"https://kira.zone/@lilybouquet/pages/kirazone-TOS\">→→→TOS←←←</a> <br>\n  <br>\n本實例隸由 Lily Network 運營<br>\n感謝 萌卿網絡(MoeQing Network, LLC) 提供計算與存儲資源<br>\nPowered by Misskey  ",
+      "maintainer": {
+        "name": "Lily Ellenvia",
+        "email": "contact@lilynet.work"
+      },
+      "langs": [],
+      "tosUrl": "https://kira.zone/@lilybouquet/pages/kirazone-TOS",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "YekongChan",
+      "themeColor": "#786d88"
+    }
+  },
+  "error": null
+}

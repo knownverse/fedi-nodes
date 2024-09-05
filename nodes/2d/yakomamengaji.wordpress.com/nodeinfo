@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 705,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "YAKOMA MENGAJI",
+      "nodeDescription": "Membumikan Tauhid",
+      "nodeIcon": "https://yakomamengaji.wordpress.com/wp-content/uploads/2023/11/cropped-f4aac-104800992_1443166525885191_3449190582542472998_n.jpg"
+    }
+  },
+  "error": null
+}

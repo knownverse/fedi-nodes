@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 42,
+      "localComments": 60
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Musings of the Kevin",
+      "nodeDescription": "A Variety of Thoughts and Ponderings",
+      "nodeIcon": "https://kevinwherron.com/wp-content/uploads/2023/08/cropped-2023-05-27-12.19.31-cropped.png"
+    }
+  },
+  "error": null
+}

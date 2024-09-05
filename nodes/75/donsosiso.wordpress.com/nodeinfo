@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Дон Сосисон",
+      "nodeDescription": "Дон Сосисон - это блог для обсуждения игр, кино, разработки и технологий. Только самые интересные новости без воды.",
+      "nodeIcon": "https://donsosiso.wordpress.com/wp-content/uploads/2023/12/sosisson.png"
+    }
+  },
+  "error": null
+}

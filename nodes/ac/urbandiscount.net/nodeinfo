@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "protocols": {
+      "0": "activitypub",
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "urbandiscount",
+      "nodeDescription": "",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

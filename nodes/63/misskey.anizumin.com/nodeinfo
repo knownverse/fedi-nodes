@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1114,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ズミミミーン！",
+      "nodeDescription": "ノリと勢いで建てたサーバー<br>\nさくらVPSを使用しています。<br>\n<a href=\"https://status.anizumin.com/\" target=\"_blank\"><font color=”#99d609”><u>サーバーステータス及び過去のサーバー障害情報はこちら</a></font></u>\n<br>\n<br>\n〜新規登録開放中〜",
+      "nodeAdmins": [
+        {
+          "name": "ズミン！(@anizumi_0206@misskey.anizumin.com)",
+          "email": "Google formsをご利用ください。"
+        }
+      ],
+      "maintainer": {
+        "name": "ズミン！(@anizumi_0206@misskey.anizumin.com)",
+        "email": "Google formsをご利用ください。"
+      },
+      "langs": [],
+      "tosUrl": "https://support.anizumin.com/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84teams-of-use",
+      "privacyPolicyUrl": "https://support.anizumin.com/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC",
+      "inquiryUrl": "https://forms.gle/8jQPZAHoM4YcDsGQ8",
+      "impressumUrl": "https://support.anizumin.com",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "anizumin_proxy_user",
+      "themeColor": "#99ff00"
+    }
+  },
+  "error": null
+}

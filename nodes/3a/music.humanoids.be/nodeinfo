@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+673db74d"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.humanoids.be/federation/actors/service",
+      "private": false,
+      "shortDescription": "Private Funkwhale instance",
+      "longDescription": "The interesting bits on this pod:\r\n\r\n- [Shareable Music library](https://music.humanoids.be/library/3ff3b2ce-c856-4137-98bb-21410d9a3dac/)\r\n- [framazic library](https://music.humanoids.be/library/96ca5644-1da9-4a49-af73-6484e53c4290/)\r\n- [DJ iD3ot channel](https://music.humanoids.be/channels/djid3ot/)",
+      "contactEmail": "martin@humanoids.be",
+      "nodeName": "humanoids beMusic",
+      "banner": null,
+      "defaultUploadQuota": 1000000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 19
+          }
+        },
+        "listenings": {
+          "total": 7111
+        },
+        "downloads": {
+          "total": 40019
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 20510
+        },
+        "artists": {
+          "total": 2371
+        },
+        "albums": {
+          "total": 842
+        },
+        "music": {
+          "hours": 11939.45388888889
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": "This instance is hosted on private hardware. Any data on it is only accessible to the administrator and the utmost care to not publish non-public data will be taken, but no guarantees are made.\r\n\r\nThere are no guarantees for availability or such, either. So enjoy the music that is available as-is.\r\n\r\nAll music published as public is licensed so that redistribution is allowed. If a license on a track is not accurate, please contact the instance administration, so the license can be cleaned up. All licenses are according to the source of the music (CD booklet/digital store)"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 172,
+        "activeMonth": 66,
+        "activeHalfyear": 94
+      },
+      "localPosts": 15395
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "HSNL Social",
+      "nodeDescription": "A fediverse server for the community of Dutch hackerspaces (HSNL)\r\ncontact: admin@hsnl.social"
+    }
+  },
+  "error": null
+}

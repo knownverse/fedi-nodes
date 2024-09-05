@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "hi@nekoq.top",
+        "name": "TaraNeko"
+      },
+      "nodeDescription": "一个自用的 FireFish 实例<br>\n看起来不想被打扰于是就关闭了新用户注册<br>\n<span class=\"_blur_text\">（怎么感觉就像偌大的屋子就自己一个人住）</span><br>\n其他的嘛......以后再写吧，嗯<br><hr>\n有一说一，服务器名称啊还有 logo 啊什么的还没想好，就先这样吧，嗯<br>\n<span class=\"_blur_text\">冷知识：服务器简介似乎只能用传统的 HTML 代码来写（</span>",
+      "nodeName": "Hanayori",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240607"
+    },
+    "usage": {
+      "localPosts": 158,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

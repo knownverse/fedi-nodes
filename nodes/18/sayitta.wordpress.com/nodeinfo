@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 43,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "S.A. Yitta",
+      "nodeDescription": "Poetry, short stories, quotes, contests",
+      "nodeIcon": "https://sayitta.wordpress.com/wp-content/uploads/2023/05/cropped-sayitta-1.jpeg"
+    }
+  },
+  "error": null
+}

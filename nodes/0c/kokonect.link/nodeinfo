@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.1",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://github.com/kokonect-link/cherrypick",
+      "repository": "https://github.com/kokonect-link/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 410,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 76746,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "_KOKONECT_",
+      "nodeDescription": "<b>ここ(여기)</b> + <b>Connect</b>의 합성어에요!<br>\n<s><small>우와 소개 너무 어렵다...</small></s><br><br>\n<b>여기</b>에서 모두 <b>연결</b>된다 같은 느낌의 인스턴스에요!<br>\n주제 무관! 여러분이 원하는 주제로 소통해보세요!\n<hr>\n<b>ここ</b> + <b>Connect</b>の合成語です！<br>\n<s><small>うわぁ、紹介がすごく難しい...</small></s><br><br>\n<b>ここ</b>で皆<b>つながる</b>な感じのインスタンスです！<br>\nテーマは無関係！皆さんが好きなテーマでコミュニケーションしましょう！\n<hr>\n<a href=\"https://kokonect.link/@noridev/pages/rules\"><b>인스턴스 이용 약관 | インスタンスの利用約款</b></a><br>\n<a href=\"https://status.kokonect.link\" target='_blank'><b>서버 상태 확인 | サーバーステータス確認</b></a><br><br><br>\nPowered by <a href=\"https://github.com/kokonect-link/cherrypick\" target='_blank'><span style=\"color: #ffbcdc;\">Cherry</span><span style=\"color: #b1d3ff\">Pick</span></a>",
+      "nodeAdmins": [
+        {
+          "name": "CherryPick HQ",
+          "email": "support@kokonect.link"
+        }
+      ],
+      "maintainer": {
+        "name": "CherryPick HQ",
+        "email": "support@kokonect.link"
+      },
+      "langs": [],
+      "tosUrl": "https://kokonect.link/@noridev/pages/rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffa9c3"
+    }
+  },
+  "error": null
+}

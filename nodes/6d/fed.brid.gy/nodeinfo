@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {},
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub",
+      "atproto",
+      "webmention"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "homepage": "https://fed.brid.gy/",
+      "name": "bridgy-fed",
+      "repository": "https://github.com/snarfed/bridgy-fed",
+      "version": "20240905t202842"
+    },
+    "usage": {
+      "users": {
+        "total": 21860
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

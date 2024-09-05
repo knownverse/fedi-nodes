@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 104,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "かえぴのもと",
+      "nodeDescription": "アラフィフ女子可愛いをあきらめないブログ",
+      "nodeIcon": "https://kaepinomoto.wordpress.com/wp-content/uploads/2023/04/e696b0e3818be38188e381b4e381aee38282e381a8e38389e383a9e382a4e38395e383a9e383afe383bce38395e382a3e383abe382bfe383bc-1.jpg"
+    }
+  },
+  "error": null
+}

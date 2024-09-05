@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 67,
+      "localComments": 82
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Musings of a Cloud",
+      "nodeDescription": "Blog by Aaditi Dhyani",
+      "nodeIcon": "https://chaoticmusingsbyaaditi.com/wp-content/uploads/2023/09/cropped-image-from-rawpixel-id-11729171-jpeg.jpg"
+    }
+  },
+  "error": null
+}

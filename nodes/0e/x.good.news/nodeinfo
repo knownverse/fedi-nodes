@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "good news",
+      "version": "1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 232,
+        "activeMonth": 232,
+        "activeHalfyear": 232
+      },
+      "localPosts": 2323
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "goodNews",
+      "nodeDescription": "good news"
+    }
+  },
+  "error": null
+}

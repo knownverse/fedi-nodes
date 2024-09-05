@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2606,
+      "localComments": 5089
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Panethos",
+      "nodeDescription": "All cultures, all inclusive.   TM",
+      "nodeIcon": "https://panethos.wordpress.com/wp-content/uploads/2020/05/wp-1588385283338.jpg"
+    }
+  },
+  "error": null
+}

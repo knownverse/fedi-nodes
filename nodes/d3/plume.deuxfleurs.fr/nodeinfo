@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Deuxfleurs est une association loi 1901 enregistrée en France.\nNos serveurs sont également hébergés sur le territoire français.\nPour en savoir plus, rendez-vous sur notre site web : [deuxfleurs.fr](https://deuxfleurs.fr).\n",
+      "nodeName": "deuxfleurs"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 5,
+      "localPosts": 34,
+      "users": {
+        "total": 18
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

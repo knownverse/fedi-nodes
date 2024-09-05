@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Bogotá",
+      "nodeName": "Agenda Autónoma",
+      "nodeTimezone": "America/Bogota",
+      "nodeActor": "agenda"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 143,
+      "users": {
+        "total": 8
+      }
+    }
+  },
+  "error": null
+}

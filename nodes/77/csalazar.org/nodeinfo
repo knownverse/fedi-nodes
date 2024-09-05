@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 460,
+      "localComments": 52
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Teología Historia fe y pensamiento",
+      "nodeDescription": "Un espacio para el crecimiento espiritual, la reflexión crítica y el intercambio de ideas.",
+      "nodeIcon": "https://csalazar.org/wp-content/uploads/2024/03/logo-marzo-1-1.png"
+    }
+  },
+  "error": null
+}

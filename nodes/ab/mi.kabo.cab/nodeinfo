@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1-kabocab1",
+      "homepage": "https://github.com/kabo2468/misskey",
+      "repository": "https://github.com/kabo2468/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 382,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みかぼ",
+      "nodeDescription": "テスト兼自分専用鯖",
+      "nodeAdmins": [
+        {
+          "name": "kabo",
+          "email": "mi@kabo.cab"
+        }
+      ],
+      "maintainer": {
+        "name": "kabo",
+        "email": "mi@kabo.cab"
+      },
+      "langs": [],
+      "tosUrl": "https://mi.kabo.cab/@admin/pages/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kabo2468/misskey",
+      "feedbackUrl": "https://github.com/kabo2468/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#815cab"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 854,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 172819,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "お嬢様達のお茶会",
+      "nodeDescription": "お嬢様ロールプレイお屋敷ですの。</BR>\nごきげんよう～ですわ。</BR>\n15歳以上且つGDPR対象国外在住で、心がお嬢様なら誰でもOK!</BR>\n</BR>\n</BR>\n利用規約 簡略版：</BR>\n1. 日本の法律の範囲で使うようにしてください。</BR>\n2. 15歳未満/GDPR対象国からの申請は登録不可とします。</BR>\n3. R-18コンテンツは2D/3Dともに投稿およびRenoteを不可とします。リンク先にもご注意ください。</BR>\n4.重要な情報はここを唯一の保存先にしないでください。</BR>\n（ドライブ、DB双方とも吹っ飛ぶ可能性があります）</BR>\n5.利用規約はセバスチャンが予告なくいつでも変更することがあります。</BR>\n6.セバスチャンが面倒を見切れなくなったら予告なく募集を停止したり、お屋敷を閉鎖することがあります。",
+      "nodeAdmins": [
+        {
+          "name": "セバスチャン",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "セバスチャン",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://ojousama-tea.party/@sebastian/pages/1677510192872",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost_maid",
+      "themeColor": "#FF9999"
+    }
+  },
+  "error": null
+}

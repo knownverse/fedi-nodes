@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-shrn-2e5a5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 65,
+        "activeMonth": 37,
+        "activeHalfyear": 46
+      },
+      "localPosts": 450736
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Sharlayan",
+      "nodeDescription": "북해에 존재하는 외딴 섬나라 샬레이안.\r\n살리아크의 비호 아래 학자들은 여러 지식과 비밀을 보관하고 있다...\r\n"
+    }
+  },
+  "error": null
+}

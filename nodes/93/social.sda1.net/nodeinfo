@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "nexkey",
+      "version": "12.24Q3.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 106,
+        "activeHalfyear": 44,
+        "activeMonth": 21
+      },
+      "localPosts": 24188,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "りなっくすきー",
+      "nodeDescription": "Linuxが好きな人もそうじゃない人も楽しめる、ゆるめのインスタンスです",
+      "maintainer": {
+        "name": "nexryai",
+        "email": "@nexryai"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.nexryai.me/s/659df0fa-86b5-42d2-a2da-5915ccb93a2f",
+      "repositoryUrl": "https://github.com/nexryai/nexkey",
+      "feedbackUrl": "https://github.com/nexryai/nexkey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

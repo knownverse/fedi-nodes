@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "沐の原木 muWood",
+      "nodeDescription": "木香精 原木 木皮 木紋面飾 天然木皮 不織布 塗裝板 實木板材",
+      "nodeIcon": "https://muwood7.wordpress.com/wp-content/uploads/2023/11/muwood-logo-1-100x100-1.png"
+    }
+  },
+  "error": null
+}

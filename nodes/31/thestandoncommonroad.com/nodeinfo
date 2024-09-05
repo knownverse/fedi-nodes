@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Garlic Stand on Common Road",
+      "nodeDescription": "We sell seven varieties of hardneck culinary and seedstock garlic and one variety of softneck hardy to the area",
+      "nodeIcon": "https://thestandoncommonroad.com/wp-content/uploads/2023/12/cropped-img_1512-1.jpg"
+    }
+  },
+  "error": null
+}

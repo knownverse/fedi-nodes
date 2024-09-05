@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "A agenda de eventos de cultura pop em Portugal, sejam eles pequenos, médios ou grandes. Uma forma da comunidade estar a par do que vai acontecer!",
+      "nodeName": "Eventos - ConHubPT",
+      "nodeLabel": "",
+      "nodeTimezone": "Europe/Lisbon",
+      "nodeActor": "eventos-conventionhub"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.6.13"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 39,
+      "users": {
+        "total": 5
+      }
+    }
+  },
+  "error": null
+}

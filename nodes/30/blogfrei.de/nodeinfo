@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 382,
+      "localComments": 74
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Blogfrei",
+      "nodeDescription": "Hier bloggt Erik H. - aus Hamburg-Altona.",
+      "nodeIcon": "https://blogfrei.de/wp-content/uploads/2023/11/5-logo.png"
+    }
+  },
+  "error": null
+}

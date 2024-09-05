@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 565
+    },
+    "metadata": {
+      "nodeName": "Mitra of 0ut0f.space",
+      "nodeDescription": "instance of the world",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://mitra.0ut0f.space/users/project26"
+      ]
+    }
+  },
+  "error": null
+}

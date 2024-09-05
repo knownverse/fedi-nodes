@@ -1,0 +1,432 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "blockers_visible",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "email_list",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "events"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": [
+            {
+              "pattern": "~r/(FA[G]{1,2})/",
+              "replacement": "CHÍC"
+            },
+            {
+              "pattern": "~r/(?i)(fa[g]{1,2})/",
+              "replacement": "chíc"
+            },
+            {
+              "pattern": "~r/(N[IOUYE][G]{2}ER)/",
+              "replacement": "POPINJAY"
+            },
+            {
+              "pattern": "~r/(?i)(n[^a][g]{2}er)/",
+              "replacement": "popinjay"
+            },
+            {
+              "pattern": "windmill_of_friendship",
+              "replacement": "🤡"
+            },
+            {
+              "pattern": "~r/(KIKE)/",
+              "replacement": "OCTOTHORPE"
+            },
+            {
+              "pattern": "~r/(?i)(kike)/",
+              "replacement": "octothorpe"
+            },
+            {
+              "pattern": "windmilloffriendship",
+              "replacement": "🤡"
+            },
+            {
+              "pattern": "~r/(:nv:)/",
+              "replacement": "🤡"
+            }
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "KeywordPolicy",
+          "TagPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "poa.st",
+            "bae.st",
+            "nicecrew.digital",
+            "breastmilk.club",
+            "mugicha.club",
+            "iddqd.social",
+            "decayable.ink",
+            "annihilation.social",
+            "sacred.harpy.faith",
+            "milker.cafe",
+            "theblab.org"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "childlove.space",
+            "femboys.love",
+            "freak.university",
+            "youjo.love",
+            "kowelenz.social",
+            "hentai.baby",
+            "childlove.su",
+            "social.quodverum.com",
+            "weedis.life",
+            "solagg.com",
+            "mastodon.eunomia.social",
+            "etiketi.de",
+            "fr13nd5.com",
+            "lewdieheaven.com",
+            "helix.cafe",
+            "fv.reveca.es",
+            "emmaverse.void.rehab",
+            "pedo.school",
+            "cum.salon",
+            "cum.camp",
+            "lolison.network",
+            "maptodon.space",
+            "cannibal.cafe",
+            "ghetti.monster",
+            "cunnyborea.space",
+            "lit.tlspace.xyz",
+            "pawoo.net",
+            "baraag.net",
+            "rape.pet",
+            "mapsupport.de",
+            "detroitriotcity.com",
+            "loli.church",
+            "varishangout.net",
+            "misskey.io",
+            "tummy.town",
+            "imouto.pics"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "annihilation.social": {
+              "reason": "Flamboyant edgelording"
+            },
+            "bae.st": {
+              "reason": "Flamboyant edgelording"
+            },
+            "breastmilk.club": {
+              "reason": "Flamboyant edgelording"
+            },
+            "decayable.ink": {
+              "reason": "Flamboyant edgelording"
+            },
+            "iddqd.social": {
+              "reason": "Flamboyant edgelording"
+            },
+            "milker.cafe": {
+              "reason": "Wifu bot farm"
+            },
+            "mugicha.club": {
+              "reason": "Flamboyant edgelording"
+            },
+            "nicecrew.digital": {
+              "reason": "Flamboyant edgelording"
+            },
+            "poa.st": {
+              "reason": "Flamboyant edgelording"
+            },
+            "sacred.harpy.faith": {
+              "reason": "Flamboyant edgelording"
+            },
+            "theblab.org": {
+              "reason": "Flamboyant edgelording"
+            }
+          },
+          "reject": {
+            "maptodon.space": {
+              "reason": "NA"
+            },
+            "kowelenz.social": {
+              "reason": "NA"
+            },
+            "childlove.su": {
+              "reason": "NA"
+            },
+            "childlove.space": {
+              "reason": "NA"
+            },
+            "mapsupport.de": {
+              "reason": "NA"
+            },
+            "solagg.com": {
+              "reason": "NA"
+            },
+            "helix.cafe": {
+              "reason": "NA"
+            },
+            "social.quodverum.com": {
+              "reason": "NA"
+            },
+            "femboys.love": {
+              "reason": "NA"
+            },
+            "imouto.pics": {
+              "reason": "MAP/Pedophile instance"
+            },
+            "cum.salon": {
+              "reason": "NA"
+            },
+            "freak.university": {
+              "reason": "NA"
+            },
+            "detroitriotcity.com": {
+              "reason": "NA"
+            },
+            "etiketi.de": {
+              "reason": "NA"
+            },
+            "lewdieheaven.com": {
+              "reason": "NA"
+            },
+            "varishangout.net": {
+              "reason": "NA"
+            },
+            "weedis.life": {
+              "reason": "NA"
+            },
+            "misskey.io": {
+              "reason": "Loli"
+            },
+            "tummy.town": {
+              "reason": "MAP/Pedophile instance"
+            },
+            "fv.reveca.es": {
+              "reason": "NA"
+            },
+            "emmaverse.void.rehab": {
+              "reason": "NA"
+            },
+            "loli.church": {
+              "reason": "NA"
+            },
+            "cum.camp": {
+              "reason": "NA"
+            },
+            "cannibal.cafe": {
+              "reason": "NA"
+            },
+            "lit.tlspace.xyz": {
+              "reason": "NA"
+            },
+            "rape.pet": {
+              "reason": "NA"
+            },
+            "ghetti.monster": {
+              "reason": "NA"
+            },
+            "baraag.net": {
+              "reason": "NA"
+            },
+            "pawoo.net": {
+              "reason": "NA"
+            },
+            "mastodon.eunomia.social": {
+              "reason": "NA"
+            },
+            "pedo.school": {
+              "reason": "NA"
+            },
+            "cunnyborea.space": {
+              "reason": "NA"
+            },
+            "hentai.baby": {
+              "reason": "NA"
+            },
+            "lolison.network": {
+              "reason": "NA"
+            },
+            "youjo.love": {
+              "reason": "NA"
+            },
+            "fr13nd5.com": {
+              "reason": "NA"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": true,
+      "nodeDescription": "Alaska's premiere social network of libertarians, by libertarians, for libertarians",
+      "nodeName": "AKLP Club",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://aklp.club/users/nicholas"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.50-888-g1d941583.main+soapbox"
+    },
+    "usage": {
+      "localPosts": 1565,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

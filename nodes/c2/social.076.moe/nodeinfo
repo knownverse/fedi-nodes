@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "gnusocial",
+      "version": "2.0.2-beta0"
+    },
+    "protocols": [
+      "ostatus",
+      "xmpp",
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "gnusocial"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "gnusocial"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 173,
+        "activeHalfyear": 47,
+        "activeMonth": 12
+      },
+      "localPosts": 5708,
+      "localComments": 3504
+    },
+    "metadata": {
+      "nodeName": "０７６萌ＳＮＳ",
+      "software": {
+        "homepage": "https://gnusocial.rocks/",
+        "repository": "https://notabug.org/diogo/gnu-social/"
+      },
+      "uploadLimit": 94371840,
+      "postFormats": [
+        "text/plain",
+        "text/html"
+      ],
+      "features": [
+        "polls"
+      ]
+    }
+  },
+  "error": null
+}

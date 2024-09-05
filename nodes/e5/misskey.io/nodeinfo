@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-io.2d",
+      "homepage": "https://github.com/MisskeyIO/misskey",
+      "repository": "https://github.com/MisskeyIO/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 566775,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 85766831,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey.io",
+      "nodeDescription": "Misskey.io は、株式会社MisskeyHQが運営する地球で生まれた分散マイクロブログSNSです。<br>\nFediverse（様々なSNSで構成される宇宙）の中に存在するため、他のSNSと相互に繋がっています。\n<br>\n暫し都会の喧騒から離れて、新しいインターネットにダイブしてみませんか。<br>\n<br>\n<span style=\"color:#eb6363\">※VPNや捨てメアドを利用しての登録は出来ません</span>",
+      "nodeAdmins": [
+        {
+          "name": "MisskeyHQ",
+          "email": "https://go.misskey.io/support"
+        }
+      ],
+      "maintainer": {
+        "name": "MisskeyHQ",
+        "email": "https://go.misskey.io/support"
+      },
+      "langs": [
+        "ja",
+        "en",
+        "zh",
+        "ko",
+        "fr",
+        "de"
+      ],
+      "tosUrl": "http://go.misskey.io/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/MisskeyIO/misskey",
+      "feedbackUrl": "https://go.misskey.io/support",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

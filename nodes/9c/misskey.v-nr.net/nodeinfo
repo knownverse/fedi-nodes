@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "仮想国有鉄道 VRC運輸区 Misskey支部",
+      "nodeDescription": "架空の組織、仮想国有鉄道(VirtualNationalRailway)VRC運輸区のMisskey支部(Misskeyサーバー)です。\n\nVRC運輸区のDiscordサーバーはこちら : https://discord.gg/vx54kqUd3t",
+      "nodeAdmins": [
+        {
+          "name": "Yuu",
+          "email": "yuu@m.yuu.cam"
+        }
+      ],
+      "maintainer": {
+        "name": "Yuu",
+        "email": "yuu@m.yuu.cam"
+      },
+      "langs": [],
+      "tosUrl": "https://md.yuu198.net/s/CBF9LoD-R",
+      "privacyPolicyUrl": "https://md.yuu198.net/s/9kr_YVwic",
+      "inquiryUrl": null,
+      "impressumUrl": "http://yuu198.net",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

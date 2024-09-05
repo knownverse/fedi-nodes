@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 976,
+      "localComments": 105
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jon Dron&#039;s home page",
+      "nodeDescription": "Aggregated musings, news and stories, mostly about learning and technology",
+      "nodeIcon": "https://i0.wp.com/jondron.ca/wp-content/uploads/2023/09/cropped-512head.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

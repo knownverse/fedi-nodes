@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-buiso.2",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3052,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 630832,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぶいちゃ.social",
+      "nodeDescription": "VRChatをやっている人であれば誰でも歓迎です、ようこそ〜 #Misskey #VRChat",
+      "nodeAdmins": [
+        {
+          "name": "i544c",
+          "email": "https://status.buicha.social/"
+        }
+      ],
+      "maintainer": {
+        "name": "i544c",
+        "email": "https://status.buicha.social/"
+      },
+      "langs": [],
+      "tosUrl": "https://i544c.notion.site/3b613070559c45a5b4603d125451c58e",
+      "privacyPolicyUrl": "https://i544c.notion.site/3ed73e98e21f45269b397f31a8caa8ce",
+      "inquiryUrl": null,
+      "impressumUrl": "https://notion.i544c.me/",
+      "repositoryUrl": "https://github.com/i544c-me/buicha-social-misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "vmimiRelayTimelineImplemented": true,
+      "disableVmimiRelayTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#c8e4b2"
+    }
+  },
+  "error": null
+}

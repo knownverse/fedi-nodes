@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "pixelfed.de",
+      "software": {
+        "homepage": "https://pixelfed.org",
+        "repo": "https://github.com/pixelfed/pixelfed"
+      },
+      "config": {
+        "features": {
+          "timelines": {
+            "local": true,
+            "network": true
+          },
+          "mobile_apis": true,
+          "stories": true,
+          "video": true,
+          "import": {
+            "instagram": false,
+            "mastodon": false,
+            "pixelfed": false
+          },
+          "label": {
+            "covid": {
+              "enabled": true,
+              "org": "visit the WHO website",
+              "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+            }
+          },
+          "hls": {
+            "enabled": false
+          },
+          "groups": true
+        }
+      }
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pixelfed",
+      "version": "0.12.3"
+    },
+    "usage": {
+      "localPosts": 13708026,
+      "localComments": 0,
+      "users": {
+        "total": 45786,
+        "activeHalfyear": 16415,
+        "activeMonth": 5351
+      }
+    },
+    "version": "2.0",
+    "openRegistrations": true
+  },
+  "error": null
+}

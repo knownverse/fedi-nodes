@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch.0825_ccd7eb3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1886
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mastodon Glitch Edition",
+      "nodeDescription": "Just a self-hosted single user instance."
+    }
+  },
+  "error": null
+}

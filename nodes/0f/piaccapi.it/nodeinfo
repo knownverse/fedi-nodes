@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WordPress e PHP",
+      "nodeDescription": "I piccoli segreti di WordPress, il CMS più amato e odiato del Web.",
+      "nodeIcon": "https://piaccapi.it/wp-content/uploads/2023/10/cropped-piaccapi-logo.png"
+    }
+  },
+  "error": null
+}

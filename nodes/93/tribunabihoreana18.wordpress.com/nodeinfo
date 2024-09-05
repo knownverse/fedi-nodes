@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tribuna Bihoreana",
+      "nodeDescription": "Fotbalul este pentru suporteri! Iubeste-ti echipa, iubeste-ti clubul, iubeste fotbalul!",
+      "nodeIcon": "https://tribunabihoreana18.wordpress.com/wp-content/uploads/2024/01/cropped-emblema-tribuna-bihoreana_a.jpg"
+    }
+  },
+  "error": null
+}

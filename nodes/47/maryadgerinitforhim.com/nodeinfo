@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 189,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "&quot;The MOrning WOrd&quot;",
+      "nodeDescription": "Looped Around God ",
+      "nodeIcon": "https://maryadgerinitforhim.com/wp-content/uploads/2022/08/cropped-the-eleventh-hour-disaster-alarm-clock-clock.jpg"
+    }
+  },
+  "error": null
+}

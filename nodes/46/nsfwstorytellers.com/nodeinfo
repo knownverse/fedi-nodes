@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 84,
+      "localComments": 440
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "  🫦 Nsfw Storytellers 🫦",
+      "nodeDescription": "Empowering Girls In The Adult Industry With NSFW (Not Safe For Work) Tips, Follow Trains, Advice, Motivation, Quizzes, Stories &amp; More! I am delighted to announce that I will be giving away $100 to my 300th subscriber as a token of appreciation for their support.",
+      "nodeIcon": "https://i0.wp.com/nsfwstorytellers.com/wp-content/uploads/2024/03/cropped-20240322_232843_0000-2.png?fit=512%2C512&quality=80&ssl=1"
+    }
+  },
+  "error": null
+}

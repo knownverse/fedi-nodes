@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1+birb4",
+      "homepage": "https://git.skeh.site/skeh/misskey",
+      "repository": "https://git.skeh.site/skeh/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 81,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 27328,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "birb space",
+      "nodeDescription": "a small internet for avians and avionts <3",
+      "nodeAdmins": [
+        {
+          "name": "skeh",
+          "email": "im@skeh.site"
+        }
+      ],
+      "maintainer": {
+        "name": "skeh",
+        "email": "im@skeh.site"
+      },
+      "langs": [],
+      "tosUrl": "https://birb.space/@admin/pages/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.skeh.site/skeh/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#99c1f1"
+    }
+  },
+  "error": null
+}

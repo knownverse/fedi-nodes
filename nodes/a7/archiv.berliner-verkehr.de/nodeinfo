@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 24300,
+      "localComments": 32
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Archiv von: Berlin:Verkehr",
+      "nodeDescription": "- aus diversen Quellen zum Verkehr in Berlin, schauen Sie herein -",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

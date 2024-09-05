@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 153,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 32739,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Derg Social",
+      "nodeDescription": "Derg Social provides a home for the dragons of the Fediverse and the furry fandom. Open for registrations :) ",
+      "nodeAdmins": [
+        {
+          "name": "Nila The Dragon",
+          "email": "nilathedragon@pm.me"
+        }
+      ],
+      "maintainer": {
+        "name": "Nila The Dragon",
+        "email": "nilathedragon@pm.me"
+      },
+      "langs": [
+        "en"
+      ],
+      "tosUrl": "https://derg.social/@admin/pages/ToS",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": "https://ko-fi.com/nilathedragon",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

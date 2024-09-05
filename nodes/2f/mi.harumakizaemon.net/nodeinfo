@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-harumakey",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 18110,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "はるまきー / harumakey",
+      "nodeDescription": "ハルマキざえもんがひとりごとを呟くサーバーです。よろしくお願いします！\n<br>お使いのMisskey・FireFish・Mastodon・Pleromaサーバーから <a href=\"https://mi.harumakizaemon.net/@harumaki021\">@harumaki021</a> をフォローしてね！\n<br>このサーバーでの新規登録は受け付けていません。\n管理者→\n<a href=\"https://mi.harumakizaemon.net/@harumaki021\">@harumaki021</a>\n<br>\n現在外部にメールアドレスを公開していません。サーバーに関してのお問い合わせは以下のフォームからお願いします。\n<br><a href=\"https://forms.gle/Z4bGt2Qt7saqN9qE8\">https://forms.gle/Z4bGt2Qt7saqN9qE8</a>",
+      "nodeAdmins": [
+        {
+          "name": "harumaki021",
+          "email": "harumaki021 @Discord"
+        }
+      ],
+      "maintainer": {
+        "name": "harumaki021",
+        "email": "harumaki021 @Discord"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/Z4bGt2Qt7saqN9qE8",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/harumaki021/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "admin",
+      "themeColor": "#79C3BA"
+    }
+  },
+  "error": null
+}

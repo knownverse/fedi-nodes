@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Événements et actualités de la CAE Ouvre-Boites, c'est aussi le lieu pour s'inscrire aux événements.",
+      "nodeName": "Mobilizon Ouvre-Boites : Actus et Événements"
+    },
+    "usage": {
+      "users": {
+        "total": 510
+      },
+      "localComments": 438,
+      "localPosts": 598
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

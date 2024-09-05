@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2954,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Google Discovery en Español",
+      "nodeDescription": "¡Todo sobre Google!",
+      "nodeIcon": "https://cdn-es.googlediscovery.com/wp-content/uploads/2023/05/cropped-toolbar-eyes.png"
+    }
+  },
+  "error": null
+}

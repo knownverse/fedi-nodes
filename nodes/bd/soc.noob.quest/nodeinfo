@@ -1,0 +1,387 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 25
+        },
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "pawoo.net",
+            "baraag.net",
+            "youjo.love",
+            "lolison.top",
+            "nnia.space",
+            "freak.university",
+            "cubhub.social",
+            "lolison.network",
+            "eientei.org",
+            "varishangout.net",
+            "eveningzoo.club",
+            "hentai.baby",
+            "childpawn.shop",
+            "mirr0r.city",
+            "lewdieheaven.com",
+            "poa.st",
+            "spinster.xyz",
+            "yggdrasil.social",
+            "detroitriotcity.com",
+            "beefyboys.win",
+            "nicecrew.digital",
+            "rot.gives",
+            "pieville.net",
+            "poster.place",
+            "*.repl.co",
+            "000delete.this.line.if.you.have.read.the.documentation.on.seirdy.one",
+            "canary.tier8.example.com",
+            "cannibal.cafe",
+            "childlove.space",
+            "youjo.observer",
+            "rapemeat.express",
+            "cunnyborea.space",
+            "loli.church",
+            "childlove.su",
+            "cunnyborea.top",
+            "social.cutefunny.net"
+          ],
+          "media_removal": [
+            "cum.salon"
+          ],
+          "media_nsfw": [
+            "social.bbc"
+          ],
+          "federated_timeline_removal": [
+            "femboys.love",
+            "threads.net",
+            "tumblr.com",
+            "cum.salon"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_keyword": {
+          "replace": [
+            {
+              "pattern": "~r/america/i",
+              "replacement": "amerikkka"
+            },
+            {
+              "pattern": "~r/canada/i",
+              "replacement": "kkklanada"
+            },
+            {
+              "pattern": "~r/canadian/i",
+              "replacement": "kkklanadian"
+            }
+          ],
+          "reject": [
+            "https://荒らし.com/",
+            "https://ctkpaarr.org/"
+          ],
+          "federated_timeline_removal": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [
+            "lolicon",
+            "shotacon",
+            "loli",
+            "shota"
+          ],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "SimplePolicy",
+          "HellthreadPolicy",
+          "KeywordPolicy",
+          "HashtagPolicy",
+          "NormalizeMarkup",
+          "NoOpPolicy",
+          "TagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "*.repl.co": {
+              "reason": "lol"
+            },
+            "000delete.this.line.if.you.have.read.the.documentation.on.seirdy.one": {
+              "reason": "you guys ever listen to bladee"
+            },
+            "baraag.net": {
+              "reason": "rapist pedophile"
+            },
+            "canary.tier8.example.com": {
+              "reason": "just like the west, i have fallen... for you ♥"
+            },
+            "cannibal.cafe": {
+              "reason": "stop jacking off to cartoon characters"
+            },
+            "childlove.space": {
+              "reason": "stop jacking off to cartoon characters"
+            },
+            "childlove.su": {
+              "reason": "FortNite gooner  Memes part #18"
+            },
+            "childpawn.shop": {
+              "reason": "rapist pedophile"
+            },
+            "cubhub.social": {
+              "reason": "rapist pedophile"
+            },
+            "cunnyborea.space": {
+              "reason": "stop jacking off to cartoon characters"
+            },
+            "cunnyborea.top": {
+              "reason": "spam + pedophile"
+            },
+            "eientei.org": {
+              "reason": "rapist pedophile"
+            },
+            "eveningzoo.club": {
+              "reason": "rapist pedophile"
+            },
+            "freak.university": {
+              "reason": "rapist pedophile"
+            },
+            "hentai.baby": {
+              "reason": "rapist pedophile"
+            },
+            "lewdieheaven.com": {
+              "reason": "rapist pedophile"
+            },
+            "loli.church": {
+              "reason": "FortNite gooner  Memes part #18"
+            },
+            "lolison.network": {
+              "reason": "rapist pedophile"
+            },
+            "lolison.top": {
+              "reason": "rapist pedophile"
+            },
+            "mirr0r.city": {
+              "reason": "rapist pedophile"
+            },
+            "nnia.space": {
+              "reason": "rapist pedophile"
+            },
+            "pawoo.net": {
+              "reason": "rapist pedophile"
+            },
+            "poa.st": {
+              "reason": "victoire totale du québec, tuer tous les ontarienes pédophiles"
+            },
+            "rapemeat.express": {
+              "reason": "stop jacking off to cartoon characters"
+            },
+            "social.cutefunny.net": {
+              "reason": "spam + pedophile"
+            },
+            "varishangout.net": {
+              "reason": "rapist pedophile"
+            },
+            "youjo.love": {
+              "reason": "rapist pedophile"
+            },
+            "youjo.observer": {
+              "reason": "stop jacking off to cartoon characters"
+            }
+          },
+          "media_removal": {
+            "cum.salon": {
+              "reason": "gem alarm"
+            }
+          },
+          "media_nsfw": {
+            "social.bbc": {
+              "reason": "raceplay"
+            }
+          },
+          "federated_timeline_removal": {
+            "cum.salon": {
+              "reason": "gem alarm"
+            },
+            "femboys.love": {
+              "reason": "nazi.social alt"
+            },
+            "threads.net": {
+              "reason": "facebook, 100% of 99.9GB"
+            },
+            "tumblr.com": {
+              "reason": "100% of 99.9GB"
+            }
+          }
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 100,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "lethallava.land",
+        "wetdry.world",
+        "social.xenofem.me",
+        "akko.disqordia.space",
+        "seafoam.space",
+        "tech.lgbt",
+        "mastodon.gamedev.place",
+        "stop.voring.me",
+        "akko.wtf",
+        "fedi.fazbear.lol",
+        "kitsunes.club",
+        "mk.absturztau.be",
+        "brands.town",
+        "comp.lain.la",
+        "brain.worm.pink",
+        "shrike.club"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "a safe haven for the teabagged and booted",
+      "nodeName": "noob.quest",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": true,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://soc.noob.quest/users/noob"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 25000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": 6,
+        "activeMonth": 4
+      },
+      "localPosts": 14124
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

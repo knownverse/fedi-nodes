@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-1.1.0",
+      "homepage": "https://github.com/aya-0p/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 135,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 145,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "aya's misskey",
+      "nodeDescription": "aya-0pが運営する自分のための鯖\n新規登録も受け付けてます",
+      "nodeAdmins": [
+        {
+          "name": "aya-0p",
+          "email": "misskey@4587-aya-0p.work"
+        }
+      ],
+      "maintainer": {
+        "name": "aya-0p",
+        "email": "misskey@4587-aya-0p.work"
+      },
+      "langs": [],
+      "tosUrl": "https://4587-aya-0p.work/tos",
+      "privacyPolicyUrl": "https://4587-aya-0p.work/tos",
+      "inquiryUrl": "https://4587-aya-0p.work/aboutme",
+      "impressumUrl": "https://4587-aya-0p.work/aboutme",
+      "repositoryUrl": "https://github.com/aya-0p/misskey",
+      "feedbackUrl": "https://github.com/aya-0p/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "aya_0p",
+      "themeColor": "#ffff00"
+    }
+  },
+  "error": null
+}

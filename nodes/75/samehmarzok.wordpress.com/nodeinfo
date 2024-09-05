@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sameh marzok&#039;s Technical Blog",
+      "nodeDescription": "مرحبًا، اسمي سامح، صانع محتوى عربى ومرحبًا بكم في مدونتى  👋 هدفي من هذه المدونة هو نقل المعرفة ومشاركة معرفتي بـ .NET وC# معكم. أقوم بإنشاء مقاطع فيديو ومقالات حول هندسة وتطوير البرمجيات، حلول ذكاء الأعمال، المهارات الأخرى الضرورية لتطوير البرمجيات، وأي موضوع متعلق بالبرمجيات أجده مثيرًا للاهتمام.",
+      "nodeIcon": "https://samehmarzok.wordpress.com/wp-content/uploads/2023/12/my-photo-photoaidcom-cropped.png"
+    }
+  },
+  "error": null
+}

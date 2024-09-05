@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+59687b2f"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 151,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.graz.social/federation/actors/service",
+      "private": true,
+      "shortDescription": "",
+      "longDescription": "",
+      "contactEmail": "graz.social@posteo.at",
+      "nodeName": "",
+      "banner": "https://audio.graz.social/media/dynamic_preferences/instance__banner/logo-fefefe_wide.jpg",
+      "defaultUploadQuota": 100,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": true,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1
+          }
+        },
+        "listenings": {
+          "total": 140
+        },
+        "downloads": {
+          "total": 2477
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 89
+        },
+        "artists": {
+          "total": 7
+        },
+        "albums": {
+          "total": 15
+        },
+        "music": {
+          "hours": 29.530277777777776
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "https://graz.social/terms",
+      "terms": "https://info.graz.social/datenschutzhinweis/"
+    }
+  },
+  "error": null
+}

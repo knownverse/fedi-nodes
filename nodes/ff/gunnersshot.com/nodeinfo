@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1374,
+      "localComments": 3523
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gunners Shot",
+      "nodeDescription": "All about defence and strategic affairs",
+      "nodeIcon": "https://gunnersshot.com/wp-content/uploads/2019/02/cropped-11acf-7e479e4e-a650-4eb4-b34b-d01f8a1c8f1e.jpeg"
+    }
+  },
+  "error": null
+}

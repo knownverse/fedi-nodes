@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.03-1557"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Schmidham.net",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

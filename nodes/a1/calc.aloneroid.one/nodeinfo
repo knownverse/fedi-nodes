@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240228",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 26227,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ボッチロイド",
+      "nodeDescription": "ボッチロイドのサーバ",
+      "maintainer": {
+        "name": "神楽坂 凪",
+        "email": "Nadja@vivaldi.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "feedbackUrl": "https://firefish.dev/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

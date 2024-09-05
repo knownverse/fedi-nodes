@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.4-beta",
+      "repository": "https://git.joinfirefish.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 277,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "scream today!!!",
+      "nodeDescription": "scream all day every day. queer cozy calckey instance for friends and fam :)\n\ngeneral guidelines: don't be racist, homphobic, transphobic, or any kind of bullshit like that. don't post dicks on the TL. don't harass people. CW nsfw things.\n\nif you need a big list of rules pls see meemu.org's: https://meemu.org/about\n",
+      "maintainer": {
+        "name": "scream",
+        "email": "admin@meemu.org"
+      },
+      "langs": [],
+      "tosUrl": "https://meemu.org/about",
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

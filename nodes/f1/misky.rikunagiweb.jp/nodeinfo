@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-rk-build1",
+      "homepage": "https://github.com/4rkng/nagisky/tree/14.x_2023.x",
+      "repository": "https://github.com/4rkng/nagisky/tree/14.x_2023.x"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 66420,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "凪すky",
+      "nodeDescription": "現状お一人様インスタンスです。現状登録は受け付けていません。（実験場を兼ねています）\nイワシのようなサーバなので、よく止まります。\nまた、このサーバは管理人の諸事情により不定期に再起動、休止等を行う場合があります\nThis instance is currently only one person operating by Hiragi Rikunagi.\nりぽじとり⇒\nhttps://github.com/4rkng/nagisky",
+      "nodeAdmins": [
+        {
+          "name": "柊　陸凪",
+          "email": "しばらくの間、諸般の情勢を踏まえ非公開としています。急用はDMでお願いします"
+        }
+      ],
+      "maintainer": {
+        "name": "柊　陸凪",
+        "email": "しばらくの間、諸般の情勢を踏まえ非公開としています。急用はDMでお願いします"
+      },
+      "langs": [],
+      "tosUrl": "https://misky.rikunagiweb.jp/@rk/pages/eura",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://blog.rikunagiweb.jp/about/",
+      "repositoryUrl": "https://github.com/4rkng/nagisky/tree/14.x_2023.x",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#cc7eb1"
+    }
+  },
+  "error": null
+}

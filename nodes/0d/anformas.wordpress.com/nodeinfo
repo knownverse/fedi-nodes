@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 109,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ANF + AS NOVAS FORMAS",
+      "nodeDescription": "Um mundo em mudança",
+      "nodeIcon": "https://anformas.wordpress.com/wp-content/uploads/2024/03/design-anf3.jpg"
+    }
+  },
+  "error": null
+}

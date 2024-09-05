@@ -1,0 +1,494 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "media_proxy",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_keyword": {
+          "replace": [],
+          "reject": [
+            "womenarestupid.site",
+            "WomenAreStupid"
+          ],
+          "federated_timeline_removal": []
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "*.10minutepleroma.com",
+            "101010.pl",
+            "10minutepleroma.com",
+            "13bells.com",
+            "2ar.xyz",
+            "ahhhhhh.social",
+            "albin.social",
+            "anime.website",
+            "antivaxxer.icu",
+            "baraag.net",
+            "beehub.org",
+            "bikeshed.party",
+            "bitcoinhackers.org",
+            "brave.cafe",
+            "brighteon.social",
+            "brokenmirror.cc",
+            "bwzone.xyz",
+            "cawfee.club",
+            "censorship.icu",
+            "counter.fedi.live",
+            "counter.social",
+            "cyzed.eu",
+            "daffodil-11.org",
+            "degenerates.fail",
+            "degooglization.icu",
+            "develop.gab.com",
+            "dingdash.com",
+            "dirtytrans.club",
+            "enigmatic.observer",
+            "exited.eu",
+            "expired.mentality.rip",
+            "fedi.valkyrie.world",
+            "fightbig.tech",
+            "freak.university",
+            "freecumextremist.com",
+            "freespeech.firedragonstudios.com",
+            "freespeech.icu",
+            "freespeechextremist.com",
+            "freezepeach.xyz",
+            "frennet.link",
+            "gab.ai",
+            "gab.com",
+            "gab.polaris-1.work",
+            "gab.sleeck.eu",
+            "gabfed.com",
+            "gameliberty.club",
+            "gameloberty.com",
+            "gellerreport.com",
+            "genitalia.observer",
+            "gleasonator.com",
+            "glindr.social",
+            "glowers.club",
+            "goyim.app",
+            "hagra.net",
+            "hentai.baby",
+            "humblr.com",
+            "husk.site",
+            "katiehopkinspolitical.icu",
+            "kiwifarms.cc",
+            "kneegrows.top",
+            "liberdon.com",
+            "marchgenso.me",
+            "melalandia.tk",
+            "midnightride.rs",
+            "minds.com",
+            "mst.vsta.org",
+            "mstdn.io",
+            "nazi.social",
+            "neckbeard.xyz",
+            "neo.hongeipii.com",
+            "nerdica.net",
+            "netzsphaere.xyz",
+            "newjack.city",
+            "noagendasocial.com",
+            "not-develop.gab.com",
+            "p.bilb.info",
+            "p.mr64.net",
+            "pawoo.net",
+            "phreedom.tk",
+            "pieville.net",
+            "pl.gamers.exposed",
+            "pl.panoply.cx",
+            "pl.smuglo.li",
+            "pl.spiderden.net",
+            "plandemic.icu",
+            "pleroma.cucked.me",
+            "pleroma.flussence.eu",
+            "pleroma.freespeech.host",
+            "pleroma.kiwifarms.net",
+            "pleroma.nobodyhasthe.biz",
+            "pleroma.xmanifesto.club",
+            "poa.st",
+            "podcastindex.social",
+            "political.icu",
+            "posting.lolicon.rocks",
+            "povertypimps.xyz",
+            "preteengirls.biz",
+            "projectveritas.icu",
+            "prout.social",
+            "pub.minds.com",
+            "qoto.org",
+            "rino.icu",
+            "sealion.club",
+            "shigusegubu.club",
+            "shitasstits.life",
+            "shitposter.club",
+            "shpposter.club",
+            "sinblr.com",
+            "social.danksquad.org",
+            "social.here.blue",
+            "social.jesuislibre.net",
+            "social.librem.one",
+            "social.louisoft01.moe",
+            "social.lovingexpressions.net",
+            "social.quodverum.com",
+            "social.sakamoto.gq",
+            "social.thisisjoes.site",
+            "social.ufeff.club",
+            "societal.co",
+            "society.kalli.st",
+            "socnet.supes.com",
+            "spinster.xyz",
+            "stalin.rocks",
+            "the.hedgehoghunter.club",
+            "thechad.zone",
+            "thecitizen.icu",
+            "theduran.icu",
+            "thefediverse.space",
+            "thejoyo.com",
+            "thepopulist.icu",
+            "toot.love",
+            "tootsocial.com",
+            "tweety.icu",
+            "unsafe.space",
+            "verityweekly.com",
+            "voicenews.icu",
+            "we.1being.org",
+            "weeaboo.space",
+            "westernconnect.org",
+            "wxw.moe",
+            "yggdrasil.social",
+            "nicecrew.digital",
+            "ryona.agency",
+            "sleepy.cafe",
+            "freeatlantis.com",
+            "lain.com",
+            "iddqd.social",
+            "bae.st",
+            "mulmeyun.church",
+            "silkhe.art",
+            "zetamu.club",
+            "glibre.org",
+            "librosphere.fr",
+            "theosis.church",
+            "bbs.kawa-kun.com",
+            "chudbuds.lol",
+            "eatthebugs.social",
+            "*.activitypub-troll.cf",
+            "*.misskey-forkbomb.cf",
+            "*.repl.co",
+            "truthsocial.co.in",
+            "truthsocial.com",
+            "notbird.site",
+            "breastmilk.club",
+            "fe.disroot.org",
+            "universeodon.com",
+            "poster.place",
+            "alpaca.gold",
+            "threads.net",
+            "oddballs.online",
+            "mastodon.launay.org",
+            "*.yesmap.net",
+            "rqd2.net",
+            "cottoncandy.cafe",
+            "*.imirhil.fr",
+            "imouto.pics",
+            "linuxrocks.online"
+          ],
+          "media_removal": [
+            "baraag.net",
+            "pawoo.net"
+          ],
+          "media_nsfw": [
+            "abdl.link",
+            "artalley.porn",
+            "genitalia.observer",
+            "kinky.business",
+            "kinkyelephant.com",
+            "loadaverage.org",
+            "mastodon.xyz",
+            "mstdn.fr",
+            "nudie.social",
+            "pl.kotobank.ch",
+            "rubber.social",
+            "switter.at"
+          ],
+          "federated_timeline_removal": [
+            "botsin.space",
+            "*.imirhil.fr"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "EnsureRePrepended",
+          "HellthreadPolicy",
+          "KeywordPolicy",
+          "MediaProxyWarmingPolicy",
+          "NormalizeMarkup",
+          "ObjectAgePolicy",
+          "StealEmojiPolicy",
+          "TagPolicy",
+          "UserAllowListPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "*.activitypub-troll.cf": {
+              "reason": "DoS"
+            },
+            "*.imirhil.fr": {
+              "reason": "Fascist instance"
+            },
+            "*.misskey-forkbomb.cf": {
+              "reason": "DoS"
+            },
+            "*.repl.co": {
+              "reason": "DoS"
+            },
+            "*.yesmap.net": {
+              "reason": "CSAM"
+            },
+            "bbs.kawa-kun.com": {
+              "reason": "queerphobia, n-word, shitposting on fediblock tag"
+            },
+            "breastmilk.club": {
+              "reason": "transphobic harassment, no enforced rules whatsoever"
+            },
+            "chudbuds.lol": {
+              "reason": "the instance description makes it clear that it's adjacent to kiwifarms"
+            },
+            "cottoncandy.cafe": {
+              "reason": "MAP, pedo content"
+            },
+            "eatthebugs.social": {
+              "reason": "antisemitism and general \"freespeech\" garbage"
+            },
+            "fe.disroot.org": {
+              "reason": "Failure to moderate, specifically neonazis instances"
+            },
+            "freeatlantis.com": {
+              "reason": "far-right instance"
+            },
+            "glibre.org": {
+              "reason": "conspiracism"
+            },
+            "iddqd.social": {
+              "reason": "hosting Nazis and far-right discourse"
+            },
+            "imouto.pics": {
+              "reason": "map"
+            },
+            "lain.com": {
+              "reason": "transphobia"
+            },
+            "librosphere.fr": {
+              "reason": "sexism"
+            },
+            "linuxrocks.online": {
+              "reason": "Harbors and protect transphobic and fascist-leaning people"
+            },
+            "mastodon.launay.org": {
+              "reason": "Transphobic biggot"
+            },
+            "mulmeyun.church": {
+              "reason": "transphobia"
+            },
+            "nicecrew.digital": {
+              "reason": "Free Hate Speech"
+            },
+            "oddballs.online": {
+              "reason": "CSA content"
+            },
+            "poster.place": {
+              "reason": "racist, homophobic and transphobic users"
+            },
+            "rqd2.net": {
+              "reason": "MAP, pedo content"
+            },
+            "ryona.agency": {
+              "reason": "Nazism"
+            },
+            "silkhe.art": {
+              "reason": "transphobia"
+            },
+            "sleepy.cafe": {
+              "reason": "racism and transphobia"
+            },
+            "theosis.church": {
+              "reason": "hosting Nazis"
+            },
+            "threads.net": {
+              "reason": "Meta Extinguish Instance"
+            },
+            "universeodon.com": {
+              "reason": "Meta collaborator"
+            },
+            "zetamu.club": {
+              "reason": "pedophilia"
+            }
+          },
+          "federated_timeline_removal": {
+            "*.imirhil.fr": {
+              "reason": "Fascist instance"
+            }
+          }
+        },
+        "mrf_user_allowlist": {},
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 128,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "A nice Pleroma instance with nya and meows",
+      "nodeName": "VA-11 Hall-A Cafe",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://va-11-hall-a.cafe/users/jill"
+      ],
+      "uploadLimits": {
+        "general": 100000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 3,
+        "activeMonth": 3
+      },
+      "localPosts": 15604
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

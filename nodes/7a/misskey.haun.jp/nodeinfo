@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 15466,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "はうンみすきー",
+      "nodeDescription": "misskey.haun.jpはゆるく運用されるmisskey鯖です。\n現在暫定運用中ステータスとなり、メンテナンスやバージョンアップが予告なく行われる場合があります。\n\n参加希望の方は管理者方面にご連絡ください。",
+      "nodeAdmins": [
+        {
+          "name": "junjun",
+          "email": "root@misskey.haun.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "junjun",
+        "email": "root@misskey.haun.jp"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

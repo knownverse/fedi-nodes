@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Quotes from Nichiren Daishonin&#039;s Gosho",
+      "nodeDescription": "Hand picked excerpts from the Gosho, grouped by daily life theme such as on filial piety, on illness, on death, on being a women, on our mindset, etc",
+      "nodeIcon": "https://nichiren.home.blog/wp-content/uploads/2024/01/cropped-the-ignorant-trio-logo-2-1400x1400-yellow.png"
+    }
+  },
+  "error": null
+}

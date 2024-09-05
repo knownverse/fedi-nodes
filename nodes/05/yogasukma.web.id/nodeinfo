@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 173,
+      "localComments": 124
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Yoga Sukma",
+      "nodeDescription": "Code, notes, and logs",
+      "nodeIcon": "https://i0.wp.com/photos-yogasukma.s3.ap-southeast-3.amazonaws.com/blog/2022/12/avatar.jpeg?fit=511%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "squidcity",
+      "version": "0.1-eel",
+      "homepage": "https://code.lag.net/robey/squidcity"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4
+      },
+      "localPosts": 0
+    },
+    "metadata": {}
+  },
+  "error": null
+}

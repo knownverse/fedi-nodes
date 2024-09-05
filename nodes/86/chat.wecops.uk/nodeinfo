@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 13,
+        "activeHalfyear": 18
+      },
+      "localPosts": 80
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "WeCops Chat",
+      "nodeDescription": "A Mastodon instance for police & public sector users participating in the regular #WeCops events, and who want to be recognised as such. We aim to foster a friendly and respectful discussion space."
+    }
+  },
+  "error": null
+}

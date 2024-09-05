@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Plume instance hosted by atsuchan",
+      "nodeName": "Atsu Plume"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.2"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 7,
+      "users": {
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

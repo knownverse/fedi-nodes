@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-22+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14013
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Compucorp",
+      "nodeDescription": "A personal Mastodon instance for me, friends, and close associates. Kind of a work in progress."
+    }
+  },
+  "error": null
+}

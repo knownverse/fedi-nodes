@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1681,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "VTuber Life News",
+      "nodeDescription": "VTuberが好きな全ての人へ贈るニュースサイト",
+      "nodeIcon": "https://i0.wp.com/vtuber-life.jp/wp-content/uploads/2023/08/cropped-vtuberlife512x512icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Collin Donnell",
+      "nodeDescription": "Freelance software developer from Portland Oregon.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "tumblr",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 11
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

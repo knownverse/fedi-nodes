@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 102,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stalteri Consulting LLC &amp; Alls Fair In Love and War",
+      "nodeDescription": "A space to tie together your mind, body, and soul",
+      "nodeIcon": "https://tommystalteri.wordpress.com/wp-content/uploads/2024/08/9927b4c1-85e3-4842-922f-20d0abb596a6.jpeg"
+    }
+  },
+  "error": null
+}

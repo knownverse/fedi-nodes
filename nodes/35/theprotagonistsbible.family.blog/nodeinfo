@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 82,
+      "localComments": 38
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "the Protagonists Bible",
+      "nodeDescription": "The Self-Help Blog for People Who Want to Get their Sh*t Together, Eventually",
+      "nodeIcon": "https://theprotagonistsbible.family.blog/wp-content/uploads/2024/01/wp-1704190483152.jpg"
+    }
+  },
+  "error": null
+}

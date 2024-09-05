@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 563,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 292179,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "暫定よぽすき",
+      "nodeDescription": "シンプルで素直な汎用インスタンスです。<br>\n小さく安定的に運営していこうと思います。<br>\n<br>\n注意！パスワードは絶対に使いまわさないでください！オプションとして2FA認証の利用が可能です。<br>\n<br>\n運営者の仲の良い姉妹インスタンス→\nhttps://msk.ilnk.info/<br>\n<br>\nリスペクト→\nhttps://sushi.ski/<br>\n<br>\n各種ファイル(画像その他)を投稿することができますが、システム上アクセスコントロールはなくURLを知っていればだれでもアクセスすることができますので、秘密の情報とかは上げないように注意してください。<br>\nまたみすきーの機能として、管理者は管理画面から投稿されたファイルの一覧を閲覧することができます。<br>\n<br>\n技術的問題からEAAユーザーの登録を禁止しています。\n<br>\nバナーとロゴは@remon @youth0530  @raindrops さんの応募していただいた投票から@youth0530さんのものに決定しました。ありがとうございました。",
+      "nodeAdmins": [
+        {
+          "name": "@amaiyo",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "@amaiyo",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "http://doc.yopo.work/Terms_and_PrivacyPolicy.txt",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://mk.yopo.work/@amaiyo",
+      "impressumUrl": "https://mk.yopo.work/@amaiyo",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#FFC0CB"
+    }
+  },
+  "error": null
+}

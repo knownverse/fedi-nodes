@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": "9",
+        "activeHalfyear": "9"
+      },
+      "localPosts": 4240,
+      "localComments": 3297
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ARGO - Cento occhi su Catania",
+      "nodeDescription": "Cento occhi su Catania",
+      "nodeIcon": false
+    }
+  },
+  "error": null
+}

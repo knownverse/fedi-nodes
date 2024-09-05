@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 92,
+      "localComments": 77
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sam Steiner",
+      "nodeDescription": "Online-Marketing",
+      "nodeIcon": "https://samsteiner.net/wp-content/uploads/2022/11/cropped-B4_08431-scaled-1.jpg"
+    }
+  },
+  "error": null
+}

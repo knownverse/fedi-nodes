@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 49,
+      "localComments": 688
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jayargonaut",
+      "nodeDescription": "Freelance 3D-modelling, design and rendering: I am Jason Garth Edwards; a product designer and 3D visual artist with 18 years of design experience in the luxury &amp; bespoke watch industry. I have designed watches for private individuals and corporate clients from around the world.",
+      "nodeIcon": "https://jayargonaut.com/wp-content/uploads/2024/07/cropped-jayargonaut_logo_badge_512x512-1.png"
+    }
+  },
+  "error": null
+}

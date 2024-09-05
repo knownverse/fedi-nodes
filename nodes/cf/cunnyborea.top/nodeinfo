@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 71,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 155,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Cunnyborea.top",
+      "nodeDescription": "THIS IS NOT A PEDIVERSE INSTANCE. I WILL BAN THOSE PEDOPHILE FAGGOTS IF THEY JOIN THIS INSTANCE. What the fuck, can you actually do research before broadly making baseless claims against me?\n\nCunnyborea.top is a low-moderation instance managed by @nunnun, unrelated to cunnyborea.space. Despite being low-moderation, it does not tolerate spam or illegal content per U.S. laws. \n\nThe instance faced a significant spam attack in February, leading to widespread blocking. These issues have been resolved, and apologies are extended for any inconvenience caused. \n\nUsers are encouraged to self-moderate, as the instance does not guarantee moderation of offensive content. The instance is primarily funded out-of-pocket by the administrator, with donations welcome but not necessary.\n\nWe do not block many instances, and I do not consider Lolicon to be CP.\n",
+      "nodeAdmins": [
+        {
+          "name": "@nunnun",
+          "email": "N/a"
+        }
+      ],
+      "maintainer": {
+        "name": "@nunnun",
+        "email": "N/a"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

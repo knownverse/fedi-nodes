@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "CHAVEZ COMPUTACION TECNICO PC COMPUTADOR NOTEBOOK LEX DOCTOR ARGENTINA",
+      "nodeDescription": "Servicio tecnico reparacion solucion de problemas LEX DOCTOR pc computadoras notebook netbook Laptop en San Martin Buenos Aires Argentina el: 7721-5615 Movil (Whatsapp): 115-727-2369 https://www.chavezcomputacion.com https://chavezcomputacion2.negocio.site/",
+      "nodeIcon": "https://chavezcomputacionpc.wordpress.com/wp-content/uploads/2024/03/01-tecnico-pc-computadoras-a-domicilio-chavez-computacion-grande.jpg"
+    }
+  },
+  "error": null
+}

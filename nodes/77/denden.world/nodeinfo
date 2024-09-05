@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.2+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 235,
+        "activeMonth": 124,
+        "activeHalfyear": 178
+      },
+      "localPosts": 45284
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Denden",
+      "nodeDescription": "A queer and kink-friendly den for creatures and furries. 18+ only."
+    }
+  },
+  "error": null
+}

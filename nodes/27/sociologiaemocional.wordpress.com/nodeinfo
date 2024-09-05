@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "PLATAFORMA EDUCATIVA DE ACCIÓN SOCIAL",
+      "nodeDescription": "LA INTELIGENCIA EMOCIONAL COMO HERRAMIENTA EDUCATIVA CONTRA LA VIOLENCIA INFANTIL",
+      "nodeIcon": "https://sociologiaemocional.wordpress.com/wp-content/uploads/2023/09/cropped-imagen-logo-sin-titulo.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 50,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "NyaOne Dev",
+      "nodeDescription": "喵窝的测试用实例",
+      "nodeAdmins": [
+        {
+          "name": "喵窝 开发团队",
+          "email": "请参见 https://docs.nya.one/contact/"
+        }
+      ],
+      "maintainer": {
+        "name": "喵窝 开发团队",
+        "email": "请参见 https://docs.nya.one/contact/"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.nya.one/tos/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://docs.nya.one",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/nyaone/misskey",
+      "feedbackUrl": "https://github.com/nyaone/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#62b6e7"
+    }
+  },
+  "error": null
+}

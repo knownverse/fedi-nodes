@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tempo",
+      "nodeDescription": "Keep Up With The Tempo",
+      "nodeIcon": "https://keepupwthetempo.com/wp-content/uploads/2023/11/dfb9f18d-b2b7-4cf5-a33c-4c7f62e0a54c.png"
+    }
+  },
+  "error": null
+}

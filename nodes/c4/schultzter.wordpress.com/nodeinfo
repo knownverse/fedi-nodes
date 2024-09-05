@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 497,
+      "localComments": 25
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Schultzter",
+      "nodeDescription": "All things Schultzter",
+      "nodeIcon": "https://schultzter.wordpress.com/wp-content/uploads/2022/08/cropped-weemee_250x277.jpg"
+    }
+  },
+  "error": null
+}

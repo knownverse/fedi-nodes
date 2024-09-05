@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 15,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Unkai.blog",
+      "nodeDescription": "📷 Photoblogging on the go",
+      "nodeIcon": "https://i0.wp.com/unkai.blog/wp-content/uploads/2023/12/logo.png?fit=260%2C260&ssl=1"
+    }
+  },
+  "error": null
+}

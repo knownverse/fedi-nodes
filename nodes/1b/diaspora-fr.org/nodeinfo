@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "1.0.0-dev-p74c79676"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 59098,
+        "activeHalfyear": 10140,
+        "activeMonth": 2106
+      },
+      "localPosts": 311114,
+      "localComments": 324171
+    },
+    "metadata": {
+      "nodeName": "diaspora-fr*",
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": true
+      },
+      "adminAccount": "podmin"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1170,
+      "localComments": 571
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Aaltomies",
+      "nodeDescription": "I believe you are in league with the butcher",
+      "nodeIcon": "https://aaltomies.wordpress.com/wp-content/uploads/2019/02/cropped-asd.jpg"
+    }
+  },
+  "error": null
+}

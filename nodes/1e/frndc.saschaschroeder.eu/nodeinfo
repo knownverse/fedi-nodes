@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2020.03-1338"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {},
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "FRNDC (Federated R00g Network & Distributed Community) [BETA]",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

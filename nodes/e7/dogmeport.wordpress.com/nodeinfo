@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GlobalHomeConnect",
+      "nodeDescription": "GlobalHomeConnect: Your Gateway to Worldwide Real Estate Discover a world of possibilities with GlobalHomeConnect. We offer a variety of homes, including single-family houses, apartments, townhomes, and luxury properties, in diverse regions across the United States and neighboring countries such as France, Canada, the United Kingdom, Germany, Russia, Dubai, and more.  What sets our platform apart from other real estate sites is our focus on direct connection between individuals seeking to rent or buy a home and the actual property owners. We provide a user-friendly and secure platform that facilitates this direct interaction, enabling clients to quickly find accommodations that meet their needs while offering property owners increased visibility for their listings.  Furthermore, our extensive geographic reach allows us to offer a wide variety of real estate options in multiple countries, providing clients with greater freedom of choice. Whether you&#039;re searching for a cozy apartment in Paris, a lakeside cottage in Canada, or a luxurious villa in Dubai, GlobalHomeConnect is here to help you find your perfect home, wherever it may be. Start your journey with us today and discover the home of your dreams.",
+      "nodeIcon": "https://dogmeport.wordpress.com/wp-content/uploads/2024/02/cropped-cropped-cropped-cropped-blue-modern-luxury-real-estate-logo.png"
+    }
+  },
+  "error": null
+}

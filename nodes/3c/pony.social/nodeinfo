@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-19+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 423,
+        "activeMonth": 86,
+        "activeHalfyear": 107
+      },
+      "localPosts": 44453
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Ponies on Mastodon",
+      "nodeDescription": "Ponies on the Fediverse, Ponies on the Timeline, Ponies Everywhere.\r\n\r\nNo horsing around.\r\n\r\nFor nerds, LGBTQ+ or just people looking for a comfy place to call a home in this wild internet."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 1380
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Trout Garden",
+      "nodeDescription": "Trout Garden is a small instance for friends to hang out; somewhere we can talk about our interests, lives, projects, and more. Registrations require an invitation from an existing member."
+    }
+  },
+  "error": null
+}

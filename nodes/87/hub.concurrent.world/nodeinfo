@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "Concurrent"
+    },
+    "protocols": [
+      "concurrentsub",
+      "activitypub"
+    ],
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "concurrent.world",
+      "nodeDescription": "totegammaが運営している一般公開concurrentドメインです。自宅サーバー運用のため安定性はあまり高くありません。悪しからず。",
+      "maintainer": {
+        "name": "@totegamma",
+        "email": "@totegamma@fluffy.social"
+      },
+      "themeColor": "#20193b"
+    },
+    "usage": {
+      "localPosts": 198015,
+      "users": {
+        "total": 287
+      }
+    }
+  },
+  "error": null
+}

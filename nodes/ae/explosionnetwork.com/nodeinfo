@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "9",
+        "activeHalfyear": "9"
+      },
+      "localPosts": 3450,
+      "localComments": 86
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Explosion Network",
+      "nodeDescription": "Independent Australian Reviews, News &amp; Podcasts",
+      "nodeIcon": "https://i0.wp.com/explosionnetwork.com/wp-content/uploads/2023/10/EN-Logo-For-Website-2023-418165163-e1696373932107.jpg?fit=212%2C212&ssl=1"
+    }
+  },
+  "error": null
+}

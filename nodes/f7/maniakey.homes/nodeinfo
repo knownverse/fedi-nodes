@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-MA",
+      "homepage": "https://github.com/Otaku-Social/maniakey",
+      "repository": "https://github.com/Otaku-Social/maniakey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 244,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 92884,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Maniakey Homes",
+      "nodeDescription": "趣味の話～日常、一次・二次創作などいつでも好きな時に幅広い話題を投稿できるサーバーです。<br>\nまにあきーのLTLなし版サービスです。<br>\n<br>\n<a href=\"https://ssl.form-mailer.jp/fms/16c26ee8815490\" style=\"text-decoration: none;\">\n<button class=\"_button xbaFh xze7V xlA8v xdt0l xsTzy\" data-cy-signup=\"\" style=\"margin-right: 12px;\">\n<div class=\"xDPWR\" data-children-class=\"x4uZY\"></div>\n<div class=\"xossv\">アカウント発行申請はこちら！</div>\n</button>\n</a>",
+      "nodeAdmins": [
+        {
+          "name": "Otaku Social (@Morikapu)",
+          "email": "お問い合わせフォームまで（https://otaku-social.com/contact.php）"
+        }
+      ],
+      "maintainer": {
+        "name": "Otaku Social (@Morikapu)",
+        "email": "お問い合わせフォームまで（https://otaku-social.com/contact.php）"
+      },
+      "langs": [],
+      "tosUrl": "https://otaku-social.com/tos.php",
+      "privacyPolicyUrl": "https://otaku-social.com/tos.php",
+      "inquiryUrl": "https://otaku-social.com/contact.php",
+      "impressumUrl": "https://otaku-social.com",
+      "repositoryUrl": "https://github.com/Otaku-Social/maniakey",
+      "feedbackUrl": "https://github.com/Otaku-Social/maniakey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

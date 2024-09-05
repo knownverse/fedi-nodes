@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 750,
+      "localComments": 610
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "We Live in the Natural World",
+      "nodeDescription": "A Bioregional Perspective",
+      "nodeIcon": "https://malanlewis.wordpress.com/wp-content/uploads/2019/08/cropped-yin-yang-green.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-beta.1+kmyblue.14.0-dev"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2333,
+        "activeMonth": 638,
+        "activeHalfyear": 1112
+      },
+      "localPosts": 497087
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "kmyblue",
+      "nodeDescription": "同人（一般・成人・一次・二次・漫画・小説・立体など不問）のためのサーバー。作家もファンもオタクもそれ以外の方もご自由にどうぞ。",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-beta.1"
+      }
+    }
+  },
+  "error": null
+}

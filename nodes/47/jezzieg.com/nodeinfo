@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11143,
+      "localComments": 11261
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "From the Back of the Wardrobe",
+      "nodeDescription": "in front of the garden gate - JezzieG",
+      "nodeIcon": "https://jezzieg.com/wp-content/uploads/2023/03/cropped-writer.jpg"
+    }
+  },
+  "error": null
+}

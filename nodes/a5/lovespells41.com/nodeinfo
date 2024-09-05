@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1832,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Marriage Spells are supposed to be very strong and effective",
+      "nodeDescription": "love spells, marriage spells , reunite with your ex partner,misfortune, misunderstanding,mistrust, financial problems, work , job, suffering, cheating,disrespect ,miscarriage,depression, stressed,infedelity,save your marriage, divorce, voodoo, witchcraft, cleansing of witchcraft,healing, psychic,palm reading,values and beliefs,jealous,communication problems,lack of attention,attraction spells,lack of appreciation,trust issues,selfishness in marriage,Anger issues,overreacting,lying,over expectations,emotional infidelity,division of labour,power inequality,difference expression,miscommunication,dishonesty,win your partners heart,Money Problems,Childcare Issues,Daily Stress,Busy Schedules,Poor Communication,Harmful Behaviors,being tolerant in marriage,prioritize your partner,respect your marriage,",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3200,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ララすきー",
+      "nodeDescription": "光の戦士(ff14プレイヤー)向けミスキーインスタンス。\n<br>\nララフェル歓迎\n<br>\nですが、別にララフェル専用ではないです。\n<br>\nエレでもルガでもヒュムでもミコでもアウラでもOK!\n<br>\nFFの話もFF関係ない話も、別ゲーの話でも、晩御飯の話でも、 ララフェルの話でも、ララフェルを愛でてもなんでもOK\n<br>\nゆるーい感じで。\n<br>\n<br>\n■関連サービス\n<br>\nララフェル丼（mastodon)\n<br>\nhttps://mstdn.lalafell.org/\n<br>\nlalastagram(pixelfed インスタみたいなやつ)\n<br>\nhttps://pix.lalafell.org/\n<br><br>\n記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。\nCopyright (C) 2010 - 2023 SQUARE ENIX CO., LTD. All Rights Reserved.",
+      "nodeAdmins": [
+        {
+          "name": "finene",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "finene",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://wiki.lalafell.org/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "http",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#030202"
+    }
+  },
+  "error": null
+}

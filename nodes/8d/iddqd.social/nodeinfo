@@ -1,0 +1,298 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "TagPolicy",
+          "SimplePolicy",
+          "InlineQuotePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [
+            "varishangout.net",
+            "lolison.top",
+            "kinkyelephant.com",
+            "bae.st",
+            "rot.gives",
+            "detroitriotcity.com",
+            "pettanko.art"
+          ],
+          "reject": [
+            "baraag.net",
+            "pawoo.net",
+            "humblr.social",
+            "anime.website",
+            "hentai.baby",
+            "loli.pizza",
+            "pleroma.miria.love",
+            "contrapointsfan.club",
+            "sinblr.com",
+            "my.dirtyhobby.xyz",
+            "xxxtumblr.org",
+            "disqordia.space",
+            "switter.at",
+            "youjo.love",
+            "cunny.finance",
+            "nnia.space",
+            "queer.party",
+            "freak.university",
+            "*.mastodonhub.com",
+            "kitty.social",
+            "pl.nulled.red",
+            "truthsocial.st",
+            "rape.pet",
+            "*.mxin.moe",
+            "*.cunnyborea.top",
+            "*.cutefunny.net",
+            "*.kuromame048.net",
+            "*.friendsyu.me"
+          ],
+          "reject_deletes": [
+            "poa.st",
+            "glittersluts.club",
+            "freespeechextremist.com",
+            "pleroma.nobodyhasthe.biz",
+            "clubcyberia.co",
+            "the.asbestos.cafe"
+          ],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "media_removal": {
+            "bae.st": {
+              "reason": "lolicon, pedophilia, child pornography"
+            },
+            "detroitriotcity.com": {
+              "reason": "lolicon, pedophilia, child pornography"
+            },
+            "kinkyelephant.com": {
+              "reason": "tranny selfies"
+            },
+            "lolison.top": {
+              "reason": "child pornography"
+            },
+            "pettanko.art": {
+              "reason": "lolicon"
+            },
+            "rot.gives": {
+              "reason": "allows pedophiles"
+            }
+          },
+          "reject": {
+            "*.cunnyborea.top": {
+              "reason": "spam"
+            },
+            "*.cutefunny.net": {
+              "reason": "spam"
+            },
+            "*.friendsyu.me": {
+              "reason": "spam"
+            },
+            "*.kuromame048.net": {
+              "reason": "spam"
+            },
+            "*.mastodonhub.com": {
+              "reason": "block/unblock spam"
+            },
+            "*.mxin.moe": {
+              "reason": "spam"
+            },
+            "kitty.social": {
+              "reason": "BLM"
+            },
+            "pl.nulled.red": {
+              "reason": "getting raided"
+            },
+            "truthsocial.st": {
+              "reason": "spam"
+            }
+          },
+          "reject_deletes": {
+            "clubcyberia.co": {
+              "reason": "Can't backpedal on self-owns"
+            },
+            "freespeechextremist.com": {
+              "reason": "Can't backpedal on self-owns"
+            },
+            "glittersluts.club": {
+              "reason": "Can't backpedal on self-owns"
+            },
+            "pleroma.nobodyhasthe.biz": {
+              "reason": "Can't backpedal on self-owns"
+            },
+            "poa.st": {
+              "reason": "Can't backpedal on self-owns"
+            },
+            "the.asbestos.cafe": {
+              "reason": "Can't backpedal on self-owns"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "IDDQD: Instance For /vr/, /tg/, /g/, etc.",
+      "nodeName": "IDDQD Social",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://iddqd.social/users/NEETzsche"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 50000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.52-2-g4a753cec-rng"
+    },
+    "usage": {
+      "localPosts": 199006,
+      "users": {
+        "activeHalfyear": 71,
+        "activeMonth": 26,
+        "total": 403
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

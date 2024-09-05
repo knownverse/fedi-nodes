@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "1.0.0-dev-p8526416d"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "diaspora*",
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": false
+      },
+      "adminAccount": "mrzyx"
+    }
+  },
+  "error": null
+}

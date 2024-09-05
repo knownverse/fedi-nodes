@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 4
+      },
+      "localPosts": 129
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "TactyVerse",
+      "nodeDescription": "The TactyVerse - open and unrestricted access to the fediverse."
+    }
+  },
+  "error": null
+}

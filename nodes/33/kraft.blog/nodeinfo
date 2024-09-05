@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1465,
+      "localComments": 1701
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Journeyman",
+      "nodeDescription": "Musings from Brandon Kraft",
+      "nodeIcon": "https://i0.wp.com/kraft.blog/uploads/IMG_20190715_153625.jpg?fit=3264%2C2448&quality=89&ssl=1"
+    }
+  },
+  "error": null
+}

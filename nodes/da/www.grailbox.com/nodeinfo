@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 257,
+      "localComments": 177
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Grailbox",
+      "nodeDescription": "Grailbox &mdash; software development and where it takes me",
+      "nodeIcon": "https://www.grailbox.com/wp-content/uploads/2010/09/cropped-grailbox_favicon.png"
+    }
+  },
+  "error": null
+}

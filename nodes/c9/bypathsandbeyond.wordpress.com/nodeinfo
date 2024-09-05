@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 119,
+      "localComments": 81
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bypaths and Beyond",
+      "nodeDescription": "",
+      "nodeIcon": "https://bypathsandbeyond.wordpress.com/wp-content/uploads/2021/03/image.jpg"
+    }
+  },
+  "error": null
+}

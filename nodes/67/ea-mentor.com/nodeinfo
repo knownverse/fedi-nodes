@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "EA Mentor",
+      "nodeDescription": "It&#039;s time to put your oxygen mask on first",
+      "nodeIcon": "https://ea-mentor.com/wp-content/uploads/2023/12/cropped-cropped-large-ea-mentor-logo-25.png"
+    }
+  },
+  "error": null
+}

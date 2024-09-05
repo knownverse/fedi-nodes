@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "fomobremen.info ist ein Kalender zum bewerben alternativer, emanzipatorischer, kultureller Veranstaltungen und Ereignisse für unkommerzielle Projekte und Gruppen. Account anlegen ⋅ Veranstaltung eintragen ⋅ Folgen ⋅ Erinnert werden ⋅ Oder einfach nur vorbeischauen.",
+      "nodeName": "FomoBremen"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "2.1.0-68-g74af5b74-dirty"
+    },
+    "usage": {
+      "localComments": 23,
+      "localPosts": 2270,
+      "users": {
+        "total": 746
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

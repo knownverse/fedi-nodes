@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "wasgeht.kassel.social soll die zentrale Anlaufstelle für spontane und spannende Events im Kasseler Nachtleben sein. Diese Mobilizon-Instanz bietet eine öffentlich zugängliche Alternative zu den herkömmlichen Ankündigungen in geschlossenen sozialen Medien wie Instagram und Facebook. Hier findest du aktuelle Programme und Veranstaltungen von Clubs, Kulturräumen, Bars und Kneipen. Entdecke neue Events, bleibe über kurzfristige Änderungen informiert und vernetze dich mit Gleichgesinnten – alles ohne die Notwendigkeit, in geschlossenen Netzwerken aktiv zu sein. Tauche ein in das pulsierende Nachtleben Kassels mit wasgeht.kassel.social!",
+      "nodeName": "Was geht Kassel?"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localComments": 1,
+      "localPosts": 9
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

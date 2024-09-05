@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "takahe",
+      "version": "0.12.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 7
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "quiet.social"
+    }
+  },
+  "error": null
+}

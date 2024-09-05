@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 5,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BJMendelson.com",
+      "nodeDescription": "The Internet&#039;s Third of Fourth Favorite Marketing Professor",
+      "nodeIcon": "https://i0.wp.com/bjmendelson.com/wp-content/uploads/2021/12/CoVatar-December-2021.png?fit=1000%2C1000&ssl=1"
+    }
+  },
+  "error": null
+}

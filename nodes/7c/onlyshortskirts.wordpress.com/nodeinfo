@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15149,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "onlyshortskirts",
+      "nodeDescription": "",
+      "nodeIcon": "https://onlyshortskirts.wordpress.com/wp-content/uploads/2017/12/cropped-tumblr_p0vvmhpley1qkooc4o1_400.jpg"
+    }
+  },
+  "error": null
+}

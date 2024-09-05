@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 417
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Generic Social Media Page",
+      "nodeDescription": "A general purpose server for errbufferoverfl & their friends. Open to folks errbufferoverfl has known pretty well for years."
+    }
+  },
+  "error": null
+}

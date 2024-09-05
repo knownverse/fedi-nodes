@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.0.9"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1298,
+      "localComments": 189
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "EduINAF",
+      "nodeDescription": "Il magazine di didattica e divulgazione dell&#039;Istituto Nazionale di Astrofisica",
+      "nodeIcon": "https://edu.inaf.it/wp-content/uploads/2020/09/cropped-logo150x150_canale.png"
+    }
+  },
+  "error": null
+}

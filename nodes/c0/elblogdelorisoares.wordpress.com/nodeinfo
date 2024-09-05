@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mi propia habitación",
+      "nodeDescription": "&quot;Una mujer debe tener dinero y una habitación propia si desea escribir ficción&quot; Virginia Woolf",
+      "nodeIcon": "https://elblogdelorisoares.wordpress.com/wp-content/uploads/2023/09/wp-1696068443027.jpg"
+    }
+  },
+  "error": null
+}

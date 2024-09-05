@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bee Hanson Design",
+      "nodeDescription": "Exploring the Artistry of Life: A Graphic Designer&#039;s Journey",
+      "nodeIcon": "https://2beehanson.wordpress.com/wp-content/uploads/2022/10/image-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-focalorus.1.0.3",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 139,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 184663,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Focalorus.io",
+      "nodeDescription": "2023/10/24開設！\n原神がテーマのサーバーです。\n原神をプレイしているユーザーやそうでないユーザーもぜひ遊びに来てください。\n\n",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "https://focalorus.io/@admin"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "https://focalorus.io/@admin"
+      },
+      "langs": [],
+      "tosUrl": "https://eth0.jp/focalorus/rule/",
+      "privacyPolicyUrl": "https://eth0.jp/focalorus/privacy/",
+      "inquiryUrl": "https://docs.google.com/forms/d/1tVRP4Zz8Qea9GJbuxfAg_SnQ7cVFgWrwLck0egY3Q70/",
+      "impressumUrl": "https://eth0.jp/about/",
+      "repositoryUrl": "https://github.com/umipu/misskey",
+      "feedbackUrl": "https://github.com/umipu/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#002642",
+      "reversiVersion": "1.0.0-focalorus"
+    }
+  },
+  "error": null
+}

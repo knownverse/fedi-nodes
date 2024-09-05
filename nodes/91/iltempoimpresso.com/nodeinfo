@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 144,
+      "localComments": 90
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Il tempo impresso",
+      "nodeDescription": "Il cinema è un mosaico fatto di tempo",
+      "nodeIcon": "https://iltempoimpresso.com/wp-content/uploads/2023/02/cropped-291816839_461462729317106_779315505685730516_n.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,2001 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "076.moe",
+            "076.ne.jp",
+            "101010.pl",
+            "10minutepleroma.com",
+            "13bells.com",
+            "1611.social",
+            "4aem.com",
+            "5dollah.click",
+            "80percent.social",
+            "8777.ch",
+            "activitypub-proxy.cf",
+            "activitypub-troll.cf",
+            "adachi.party",
+            "addy.gg",
+            "adtension.com",
+            "aethy.com",
+            "agdersam.no",
+            "ai.wiki",
+            "alteregocreations.com",
+            "alterracloud.com",
+            "ancreport.com",
+            "ancreport.xyz",
+            "angrytoday.com",
+            "annihilation.social",
+            "anon-kenkai.com",
+            "asbestos.cafe",
+            "asimon.org",
+            "asteroidm.space",
+            "ating.press",
+            "badly.co",
+            "bae.st",
+            "banepo.st",
+            "baraag.net",
+            "bassam.social",
+            "battlepenguin.video",
+            "beefyboys.club",
+            "beefyboys.win",
+            "beepboop.ga",
+            "berserker.town",
+            "bgzashtita.es",
+            "bikeshed.party",
+            "birds.garden",
+            "bitcointv.com",
+            "blob.cat",
+            "blockedur.mom",
+            "boks.moe",
+            "boymoder.biz",
+            "brainsoap.net",
+            "breastmilk.club",
+            "brid.gy",
+            "brighteon.social",
+            "bungle.online",
+            "burger.rodeo",
+            "cachapa.xyz",
+            "calobar.club",
+            "campduffel.social",
+            "cannibal.cafe",
+            "carnivore.social",
+            "catgirl.life",
+            "catposter.club",
+            "cawfee.club",
+            "cdrom.tokyo",
+            "childlove.space",
+            "childlove.su",
+            "childpawn.shop",
+            "chudbuds.lol",
+            "ckpg.space",
+            "clew.lol",
+            "clubcyberia.co",
+            "clube.social",
+            "collapsitarian.io",
+            "comfyboy.club",
+            "contrapointsfan.club",
+            "coolsite.win",
+            "cottoncandy.cafe",
+            "crlf.ninja",
+            "crucible.world",
+            "cryptodon.lol",
+            "cryptotooter.com",
+            "cum.camp",
+            "cum.salon",
+            "cunnyborea.space",
+            "cunnyborea.top",
+            "cutefunny.net",
+            "cybercriminal.eu",
+            "cyberretards.xyz",
+            "cyberstorm.one",
+            "d-fens.systems",
+            "danksquad.org",
+            "daspr.io",
+            "decayable.ink",
+            "declin.eu",
+            "dembased.xyz",
+            "detroitriotcity.com",
+            "dev-wiki.de",
+            "dickkickextremist.xyz",
+            "dingdash.com",
+            "disqordia.space",
+            "djsumdog.com",
+            "dobbs.town",
+            "dotnet00.dev",
+            "dragonpsi.xyz",
+            "drow.be",
+            "dtzbts.xyz",
+            "eatthebugs.social",
+            "ebin.club",
+            "eientei.org",
+            "emacs.ch",
+            "endtimebelievers.com",
+            "enjoyer.network",
+            "epenguin.com",
+            "epsilon.social",
+            "eskimo.com",
+            "esmailelbob.xyz",
+            "eveningzoo.club",
+            "ey.business",
+            "fbxl.net",
+            "federated.fun",
+            "fedposters.club",
+            "femboys.love",
+            "feral.cafe",
+            "fightthis.net",
+            "firedragonstudios.com",
+            "firefaithfellowship.com",
+            "fluf.club",
+            "foxgirl.lol",
+            "fr13nd5.com",
+            "freak.university",
+            "freeatlantis.com",
+            "freesoftwareextremist.com",
+            "freespeech.club",
+            "freespeech.group",
+            "freespeechextremist.com",
+            "freetalklive.com",
+            "freethinkers.lgbt",
+            "freezepeach.xyz",
+            "frennet.xyz",
+            "froth.zone",
+            "gab.ai",
+            "gab.com",
+            "gabe.rocks",
+            "gameliberty.club",
+            "gamers.exposed",
+            "gangstalking.services",
+            "gearlandia.haus",
+            "genderheretics.xyz",
+            "gensokyo.club",
+            "gentoo.live",
+            "geofront.rocks",
+            "gh0st.live",
+            "ghetti.monster",
+            "gleasonator.com",
+            "glee.li",
+            "glindr.org",
+            "glowers.club",
+            "gorf.pub",
+            "goyim.app",
+            "greenish.red",
+            "h5q.net",
+            "haeder.net",
+            "hallsofamenti.io",
+            "handholding.io",
+            "handicapped.tk",
+            "hedgehoghunter.club",
+            "helladoge.com",
+            "hendrixgames.com",
+            "hentai.baby",
+            "hidamari.apartments",
+            "hirad.it",
+            "hitchhiker.social",
+            "homd.xyz",
+            "honkwerx.tech",
+            "hornyjail.pro",
+            "husk.site",
+            "icod.de",
+            "iddqd.social",
+            "ignorelist.com",
+            "imirhil.fr",
+            "inferencium.net",
+            "intkos.link",
+            "inumbra.xyz",
+            "ironbug.org",
+            "justbros.xyz",
+            "kawa-kun.com",
+            "kelarima.com",
+            "kenhbit.com",
+            "kitsunemimi.club",
+            "kiwifarms.cc",
+            "kiwifarms.is",
+            "kiwifarms.net",
+            "kompost.cz",
+            "krackhou.se",
+            "kurosawa.moe",
+            "kyaruc.moe",
+            "kys.moe",
+            "lain.gay",
+            "lain.la",
+            "lain.sh",
+            "leafposter.club",
+            "letsalllovela.in",
+            "lewdieheaven.com",
+            "lgbtfree.zone",
+            "liberdon.com",
+            "librem.one",
+            "librenet.co.za",
+            "librosphere.fr",
+            "ligma.pro",
+            "logografos.com",
+            "loli.church",
+            "lolicon.rocks",
+            "lolicon.win",
+            "lolison.network",
+            "lolison.top",
+            "longyap.name.my",
+            "loveforlandlords.com",
+            "lovingexpressions.net",
+            "lucasvl.nl",
+            "makemysarcophagus.com",
+            "maladaptive.art",
+            "mapsupport.de",
+            "marsey.club",
+            "masochi.st",
+            "mastertibbles.co.uk",
+            "masthead.social",
+            "mastinator.com",
+            "mastodon.cf",
+            "mastodon.la",
+            "mastodon.se",
+            "mastodong.lol",
+            "meatbag.app",
+            "meld.de",
+            "meme.moe",
+            "merovingian.club",
+            "midnightride.rs",
+            "midwaytrades.com",
+            "miku-enthusiast.club",
+            "milker.cafe",
+            "minds.com",
+            "minidisc.tokyo",
+            "mirr0r.city",
+            "misono-ya.info",
+            "misskey-forkbomb.cf",
+            "mitra.social",
+            "moa.st",
+            "monads.online",
+            "mooo.com",
+            "morale.ch",
+            "mostr.pub",
+            "mouse.services",
+            "mrhands.horse",
+            "mstdn.jp",
+            "mugicha.club",
+            "mulmeyun.church",
+            "nalocal519.social",
+            "narrativerry.xyz",
+            "natehiggers.online",
+            "nationalist.social",
+            "nazi.social",
+            "needs.vodka",
+            "neenster.org",
+            "nekocave.xyz",
+            "neomobius.com",
+            "newsie.social",
+            "nicecrew.digital",
+            "nightshift.social",
+            "niscii.xyz",
+            "nixnet.social",
+            "nnia.cc",
+            "nnia.space",
+            "noagendasocial.com",
+            "noagendasocial.nl",
+            "noagendatube.com",
+            "noauthority.social",
+            "nobodyhasthe.biz",
+            "normie.cafe",
+            "norwoodzero.net",
+            "novoa.nagoya",
+            "nyanide.com",
+            "obo.sh",
+            "occultist.space",
+            "oddballs.online",
+            "onionfarms.org",
+            "otakufarms.com",
+            "oti.st",
+            "outerkosm.us",
+            "outpoa.st",
+            "outrnat.nl",
+            "paradigm-x.tokyo",
+            "paravielfalt.zone",
+            "parcero.bond",
+            "pawlicker.com",
+            "pawoo.net",
+            "paypig.org",
+            "pedo.school",
+            "peervideo.club",
+            "pettanko.art",
+            "piazza.today",
+            "pibvt.net",
+            "pieville.net",
+            "pirateradio.social",
+            "pisskey.io",
+            "pizzaf.art",
+            "pkteerium.xyz",
+            "plagu.ee",
+            "poa.st",
+            "poast.org",
+            "poast.tv",
+            "polaris-1.work",
+            "pone.social",
+            "pooper.social",
+            "poridge.club",
+            "porntoot.com",
+            "poster.place",
+            "pouque.net",
+            "poweredbycocaine.com",
+            "press.coop",
+            "preteengirls.biz",
+            "privex.social",
+            "prospeech.space",
+            "pseudo-whiskey.bar",
+            "psion.co",
+            "pube.tk",
+            "qoto.org",
+            "quanta.wiki",
+            "quodverum.com",
+            "r18.social",
+            "raccoon.quest",
+            "rage.lol",
+            "rakket.app",
+            "rape.pet",
+            "rapefeminists.network",
+            "rapemeat.express",
+            "rapemeat.solutions",
+            "raspberrypi.social",
+            "rayci.st",
+            "rcsocial.net",
+            "rdrama.cc",
+            "rebelbase.site",
+            "redplanetlabs.com",
+            "refusal.biz",
+            "refusal.llc",
+            "repl.co",
+            "republic.red",
+            "rojogato.com",
+            "rot.gives",
+            "roysbeer.place",
+            "rqd2.net",
+            "ruinouspowe.rs",
+            "ryona.agency",
+            "sad.cab",
+            "satoshishop.de",
+            "saynoto.lgbt",
+            "schwartzwelt.xyz",
+            "scots.network",
+            "seal.cafe",
+            "servernerds.net",
+            "shadowsocial.org",
+            "sharivegas.com",
+            "shaw.app",
+            "sheep.network",
+            "shigusegubu.club",
+            "shitpost.cloud",
+            "shitposter.club",
+            "shortstackran.ch",
+            "shortstacksran.ch",
+            "shota.house",
+            "shota.social",
+            "shotatube.xyz",
+            "shpposter.club",
+            "shrimpcam.pw",
+            "shrimpposter.club",
+            "silliness.observer",
+            "skinheads.eu",
+            "skinheads.io",
+            "skinheads.social",
+            "skinheads.uk",
+            "skippers-bin.com",
+            "skyshanty.xyz",
+            "slash.cl",
+            "sleepy.cafe",
+            "smuglo.li",
+            "sneak.berlin",
+            "sneed.social",
+            "someotherguy.xyz",
+            "sonichu.com",
+            "soykaf.com",
+            "sperg.city",
+            "spinster.xyz",
+            "springbo.cc",
+            "squid.kids",
+            "starnix.network",
+            "staycuriousandkeepsmil.in",
+            "stereophonic.space",
+            "strelizia.net",
+            "supernets.social",
+            "taihou.website",
+            "takesama.com",
+            "tastingtraffic.net",
+            "teci.world",
+            "terrible.place",
+            "theapex.social",
+            "thebag.social",
+            "thechimp.zone",
+            "thenobody.club",
+            "thepostearthdestination.com",
+            "theres.life",
+            "thisisjoes.site",
+            "threads.net",
+            "tkammer.de",
+            "toot.pt",
+            "tooters.fun",
+            "touha.me",
+            "troll.cafe",
+            "trumpislovetrumpis.life",
+            "truthsocial.co.in",
+            "tummy.town",
+            "turturea.online",
+            "twi.social",
+            "tyil.nl",
+            "ua-fediland.de",
+            "umbrellix.org",
+            "unbound.social",
+            "unperson.us",
+            "unsafe.space",
+            "urchan.org",
+            "ursal.zone",
+            "urspringer.de",
+            "usualsuspects.lol",
+            "uwu.social",
+            "vampiremaid.cafe",
+            "varishangout.net",
+            "vladtepesblog.com",
+            "vrij.social",
+            "vtuberfan.social",
+            "wagesofsinisdeath.com",
+            "waifuism.life",
+            "wake.st",
+            "weeaboo.space",
+            "whinge.house",
+            "whinge.town",
+            "whitewomen.dog",
+            "wideboys.org",
+            "wikileaks2.org",
+            "willtrade.org",
+            "wolfgirl.bar",
+            "workers.dev",
+            "worm.pink",
+            "writehere.is",
+            "wxw.moe",
+            "xhais.love",
+            "xmrposter.club",
+            "xn--p1abe3d.xn--80asehdb",
+            "xscape.top",
+            "yggdrasil.social",
+            "youjo.love",
+            "zhub.link",
+            "zztails.gay"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "lain.gay": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gentoo.live": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "parcero.bond": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mostr.pub": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "collapsitarian.io": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nyanide.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "foxgirl.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "raccoon.quest": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "imirhil.fr": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pooper.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "satoshishop.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "076.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nnia.cc": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cryptotooter.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "masthead.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "worm.pink": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pouque.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "childlove.su": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "disqordia.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "honkwerx.tech": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shortstackran.ch": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "childlove.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nazi.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sad.cab": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "poridge.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "1611.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mstdn.jp": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "d-fens.systems": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "starnix.network": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "norwoodzero.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mastinator.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "spinster.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freesoftwareextremist.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pibvt.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "bikeshed.party": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "bassam.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "threads.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "addy.gg": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "beefyboys.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "clew.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "staycuriousandkeepsmil.in": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "trumpislovetrumpis.life": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "outrnat.nl": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "endtimebelievers.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mapsupport.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "tkammer.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "5dollah.click": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "refusal.biz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "moa.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "handicapped.tk": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "librosphere.fr": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nicecrew.digital": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "letsalllovela.in": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rayci.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ignorelist.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cyberstorm.one": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "tastingtraffic.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "emacs.ch": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "waifuism.life": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gensokyo.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "neenster.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rage.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "poweredbycocaine.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "esmailelbob.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "makemysarcophagus.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "101010.pl": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hornyjail.pro": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gearlandia.haus": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "goyim.app": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sneed.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shitpost.cloud": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mastodon.cf": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hirad.it": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "supernets.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "thepostearthdestination.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sneak.berlin": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kurosawa.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "fluf.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "epenguin.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freespeech.group": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cunnyborea.top": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "bgzashtita.es": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "onionfarms.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lain.sh": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "comfyboy.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ancreport.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "niscii.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "handholding.io": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "saynoto.lgbt": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "porntoot.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "coolsite.win": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "femboys.love": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "oti.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nalocal519.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mooo.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pizzaf.art": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ai.wiki": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "eatthebugs.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "midwaytrades.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shaw.app": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "alteregocreations.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kawa-kun.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shrimpcam.pw": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "monads.online": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "minidisc.tokyo": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "polaris-1.work": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "whinge.house": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "crucible.world": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shitposter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "bungle.online": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shadowsocial.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "troll.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "helladoge.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rapemeat.express": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ryona.agency": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mastodong.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hallsofamenti.io": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cum.salon": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "usualsuspects.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "eskimo.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ruinouspowe.rs": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "076.ne.jp": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pone.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kenhbit.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hedgehoghunter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cutefunny.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "asimon.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "misono-ya.info": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mitra.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nnia.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "privex.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "logografos.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "blob.cat": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pirateradio.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "paradigm-x.tokyo": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dingdash.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "taihou.website": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "xmrposter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lain.la": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "leafposter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ligma.pro": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "obo.sh": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "raspberrypi.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freethinkers.lgbt": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hitchhiker.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "boymoder.biz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gh0st.live": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "vampiremaid.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "bitcointv.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "uwu.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "boks.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "skinheads.uk": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freespeechextremist.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "breastmilk.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "wxw.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rapemeat.solutions": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "squid.kids": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sonichu.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "minds.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "inumbra.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "agdersam.no": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "vtuberfan.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "thisisjoes.site": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rapefeminists.network": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "beepboop.ga": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "krackhou.se": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freak.university": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "otakufarms.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nixnet.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "meld.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gameliberty.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "detroitriotcity.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nightshift.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "beefyboys.win": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lolison.top": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "servernerds.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "calobar.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "unperson.us": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gleasonator.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "thechimp.zone": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "republic.red": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rakket.app": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "tyil.nl": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "fightthis.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lewdieheaven.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mrhands.horse": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "soykaf.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "aethy.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lucasvl.nl": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "skinheads.io": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freetalklive.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "noauthority.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "varishangout.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "wake.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mastodon.se": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ebin.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dev-wiki.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "campduffel.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "danksquad.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mirr0r.city": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kiwifarms.is": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "slash.cl": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nekocave.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "oddballs.online": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "blockedur.mom": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "weeaboo.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "clube.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "eveningzoo.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gorf.pub": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "80percent.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "feral.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dotnet00.dev": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "tummy.town": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "smuglo.li": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "meme.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "liberdon.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "psion.co": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "preteengirls.biz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "seal.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "outerkosm.us": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pseudo-whiskey.bar": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kompost.cz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "twi.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "tooters.fun": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "whinge.town": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kelarima.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "vladtepesblog.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freespeech.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "narrativerry.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sleepy.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "silliness.observer": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freeatlantis.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dragonpsi.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shrimpposter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ancreport.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shigusegubu.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kiwifarms.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "loli.church": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cdrom.tokyo": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "skinheads.eu": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "battlepenguin.video": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lolicon.rocks": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nationalist.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gab.ai": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "10minutepleroma.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "13bells.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "anon-kenkai.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "terrible.place": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kys.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cybercriminal.eu": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "eientei.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "touha.me": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "maladaptive.art": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "thenobody.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rdrama.cc": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "brainsoap.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "wolfgirl.bar": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shotatube.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "plagu.ee": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "urspringer.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "midnightride.rs": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "piazza.today": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "masochi.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cum.camp": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pube.tk": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "glindr.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "springbo.cc": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "neomobius.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "stereophonic.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "childpawn.shop": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sheep.network": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cannibal.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "noagendasocial.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "paypig.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "quodverum.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "fedposters.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dobbs.town": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mastertibbles.co.uk": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "longyap.name.my": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gabe.rocks": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "turturea.online": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "natehiggers.online": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "epsilon.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hidamari.apartments": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "adtension.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sharivegas.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "teci.world": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "contrapointsfan.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "8777.ch": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "writehere.is": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mouse.services": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shota.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "drow.be": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kitsunemimi.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "repl.co": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "bae.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "skyshanty.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "banepo.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "glee.li": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "yggdrasil.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dtzbts.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "decayable.ink": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "catgirl.life": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "intkos.link": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lgbtfree.zone": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "husk.site": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cryptodon.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "quanta.wiki": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "zztails.gay": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "urchan.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "marsey.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "poa.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ua-fediland.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rape.pet": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "takesama.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "umbrellix.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "frennet.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "xhais.love": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "needs.vodka": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "redplanetlabs.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "poster.place": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "froth.zone": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ey.business": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "burger.rodeo": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kyaruc.moe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "thebag.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pettanko.art": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "morale.ch": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cyberretards.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "haeder.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gamers.exposed": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ghetti.monster": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "poast.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "unsafe.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "badly.co": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "firedragonstudios.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "baraag.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "paravielfalt.zone": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "sperg.city": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "roysbeer.place": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "crlf.ninja": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pawoo.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "daspr.io": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "icod.de": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "activitypub-troll.cf": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "someotherguy.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lolicon.win": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "asteroidm.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shpposter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "wideboys.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "kiwifarms.cc": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cawfee.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "press.coop": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ating.press": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "glowers.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pedo.school": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "toot.pt": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rojogato.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "merovingian.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "vrij.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "noagendasocial.nl": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "theres.life": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "brid.gy": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "occultist.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "geofront.rocks": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "refusal.llc": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cunnyborea.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "asbestos.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "carnivore.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "chudbuds.lol": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "annihilation.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "xscape.top": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mastodon.la": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "clubcyberia.co": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pawlicker.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "truthsocial.co.in": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "angrytoday.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "wagesofsinisdeath.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shota.house": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "justbros.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hentai.baby": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gab.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ursal.zone": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "djsumdog.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "librem.one": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lovingexpressions.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cachapa.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "gangstalking.services": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rebelbase.site": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "brighteon.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "milker.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "willtrade.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "noagendatube.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "miku-enthusiast.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "prospeech.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "homd.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "firefaithfellowship.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rcsocial.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "iddqd.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "catposter.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "alterracloud.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ironbug.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "librenet.co.za": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "poast.tv": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "declin.eu": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "r18.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "fbxl.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pisskey.io": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rot.gives": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "shortstacksran.ch": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "cottoncandy.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "genderheretics.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "federated.fun": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "scots.network": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "lolison.network": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "whitewomen.dog": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "rqd2.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "normie.cafe": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "zhub.link": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dickkickextremist.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "nobodyhasthe.biz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "unbound.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "outpoa.st": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "newsie.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "birds.garden": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "meatbag.app": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mulmeyun.church": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "4aem.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "novoa.nagoya": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "skippers-bin.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "skinheads.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "dembased.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "youjo.love": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "schwartzwelt.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pkteerium.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "greenish.red": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "strelizia.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "qoto.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "inferencium.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "freezepeach.xyz": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "enjoyer.network": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "h5q.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "workers.dev": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "peervideo.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "berserker.town": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "adachi.party": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "mugicha.club": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "wikileaks2.org": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "loveforlandlords.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "ckpg.space": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "theapex.social": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "hendrixgames.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "fr13nd5.com": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            },
+            "pieville.net": {
+              "reason": "Oliphant Unified Blocklist - Tier 0"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "Social server for Curious Cabbit",
+      "nodeName": "Curious Cabbit",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://curiouscabbit.social/users/admin",
+        "https://curiouscabbit.social/users/tsade"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "usage": {
+      "localPosts": 158,
+      "users": {
+        "activeHalfyear": 4,
+        "activeMonth": 2,
+        "total": 7
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

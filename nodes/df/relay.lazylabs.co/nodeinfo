@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "activityrelay",
+      "version": "0.2.4 bbdc151ed301c9de82d18fecd8af4ba0061b635f"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "localPosts": 0,
+      "localComments": 0,
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "peers": [
+        "kopiti.am",
+        "mastodon.hackerdrinks.social",
+        "mastodon.sg"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 37,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Henry J. Holland&#039;s Blog",
+      "nodeDescription": "not going to lie, I&#039;m a writer of fiction",
+      "nodeIcon": "https://hjholland.wordpress.com/wp-content/uploads/2019/03/cropped-books.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial",
+        "friendica",
+        "pumpio",
+        "redmatrix",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 13,
+      "localComments": 35
+    },
+    "metadata": {
+      "nodeName": "Hubzilla da teia"
+    }
+  },
+  "error": null
+}

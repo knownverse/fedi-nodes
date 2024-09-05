@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 131,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Winter Rant",
+      "nodeDescription": "... now that Twitter is dead.",
+      "nodeIcon": "https://rant.vpalepu.com/wp-content/uploads/2022/11/winter-rant-logo.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.4+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3316
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Lovelace Social",
+      "nodeDescription": "A small instance for the Haus of Lovelace. We're very queer."
+    }
+  },
+  "error": null
+}

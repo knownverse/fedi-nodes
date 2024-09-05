@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda condivisa per l'appennino bolognese",
+      "nodeName": "Agenda Rete Appenninica",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "gancio"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 1,
+      "localPosts": 372,
+      "users": {
+        "total": 16
+      }
+    }
+  },
+  "error": null
+}

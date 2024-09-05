@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 476,
+      "localComments": 367
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "thatfilmbloguk",
+      "nodeDescription": "Film reviews, news, and features",
+      "nodeIcon": "https://thatfilmblog.uk/wp-content/uploads/2020/09/cropped-1-1.jpg"
+    }
+  },
+  "error": null
+}

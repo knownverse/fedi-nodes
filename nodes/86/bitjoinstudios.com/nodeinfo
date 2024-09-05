@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 193,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bitjoin Studios",
+      "nodeDescription": "Creating a Cult of Content",
+      "nodeIcon": "https://bitjoinstudios.com/wp-content/uploads/2023/10/cropped-untitled1.png"
+    }
+  },
+  "error": null
+}

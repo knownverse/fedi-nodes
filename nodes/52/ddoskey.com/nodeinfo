@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "ddmatsu.kino@gmail.com",
+        "name": "木野どど松"
+      },
+      "nodeDescription": "四畳半の休憩所 🍵 </br>おひとり様と見せかけて一応登録もできる汎用インスタンスです。",
+      "nodeName": "㐂五亭",
+      "proxyAccountName": "9edw63y3u1",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#44475f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 47377,
+      "users": {
+        "activeHalfyear": 74,
+        "activeMonth": 53,
+        "total": 87
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

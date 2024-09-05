@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/kussy-tessy/misskey/tree/kussy",
+      "repository": "https://github.com/kussy-tessy/misskey/tree/kussy"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 70,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12641,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "着ぐるみすきー！",
+      "nodeDescription": "人型着ぐるみ・美少女着ぐるみが好きな人が集うサーバー。<br/>\nスパム対策のため招待制となっていますが、鯖缶(@kussy_tessy@d.kg-misskey.net)の固定ノートに招待コードが少し置いてあります。<br/>\n着ぐるみさんが好き！って人はお気軽にご登録ください。<br/>\n<br/>\n※登録時のメールがスパムとして判定されることがあります。メールが届かないときは迷惑メールフォルダもご確認ください。",
+      "nodeAdmins": [
+        {
+          "name": "くっしー",
+          "email": "@kussy_tessy@fedibird.com"
+        }
+      ],
+      "maintainer": {
+        "name": "くっしー",
+        "email": "@kussy_tessy@fedibird.com"
+      },
+      "langs": [],
+      "tosUrl": "https://d.kg-misskey.net/@kussy_tessy/pages/1705729753573",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kussy-tessy/misskey/tree/kussy",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#febef2"
+    }
+  },
+  "error": null
+}

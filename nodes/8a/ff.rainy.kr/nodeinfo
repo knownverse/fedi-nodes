@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {},
+      "nodeDescription": "[ 이곳에 서버 소개 입력 ]",
+      "nodeName": "i/2024A1",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#F2B2EC"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 102,
+      "users": {
+        "activeHalfyear": 10,
+        "activeMonth": 8,
+        "total": 10
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

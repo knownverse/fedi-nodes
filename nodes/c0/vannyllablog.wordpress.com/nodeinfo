@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 46,
+      "localComments": 143
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "joy of nana",
+      "nodeDescription": "life logs and snippets",
+      "nodeIcon": "https://vannyllablog.wordpress.com/wp-content/uploads/2024/02/cropped-pexels-photo-1130626.jpeg"
+    }
+  },
+  "error": null
+}

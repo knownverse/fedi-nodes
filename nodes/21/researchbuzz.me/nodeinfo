@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8807,
+      "localComments": 1915
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ResearchBuzz",
+      "nodeDescription": "News and resources covering social media, search engines, databases, archives, and other such information collections. Since 1998.",
+      "nodeIcon": "https://i0.wp.com/researchbuzz.me/wp-content/uploads/2021/11/cropped-RBv2-01-1.png?fit=123%2C122&ssl=1"
+    }
+  },
+  "error": null
+}

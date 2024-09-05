@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 38,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Krea TV",
+      "nodeDescription": "Televisión colaborativa, social, independiente, autogestionada para España y América latina",
+      "nodeIcon": "https://kreatv.org/wp-content/uploads/2020/03/cropped-krea-4-mini.png"
+    }
+  },
+  "error": null
+}

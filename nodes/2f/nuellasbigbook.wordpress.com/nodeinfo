@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 13
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nuella&#039;s Big Book - Read Short Stories, Poems, and POVs",
+      "nodeDescription": "Read short stories, poems, and POVs of a Nigerian girl living life one chapter at a time",
+      "nodeIcon": "https://nuellasbigbook.wordpress.com/wp-content/uploads/2020/04/wp-1587138838443.png"
+    }
+  },
+  "error": null
+}

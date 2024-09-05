@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4746,
+      "localComments": 694
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "We Have Issues",
+      "nodeDescription": "We&#039;re fans of genre film and television but we do have some issues.  We mainly review old stuff because nobody will give us press credentials.",
+      "nodeIcon": "https://wevegotbackissues.com/wp-content/uploads/2024/03/cropped-cropped-sketch-17110988355042064546283532607783.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 36,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11034,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ろぐすきー🪵",
+      "nodeDescription": "にゃんぷっぷーの遊び場です<br />\nBigQueryと連携予定です。\n<hr />\nbeta版misskey採用中<img class=\"xeJ4G\" src=\"https://mi.ap-log.net/proxy/image.webp?url=https%3A%2F%2Fstatic-mi.ap-log.net%2Fblob%2Fa5d02020-aaf2-40ec-b7f6-8faed0319d34.png&emoji=1\" alt=\":blobcatfluffhappy:\" title=\":blobcatfluffhappy:\" decoding=\"async\" />\n<hr />\n\n相互リンク<img class=\"xeJ4G\" src=\"https://mi.ap-log.net/proxy/image.webp?url=https%3A%2F%2Fstatic-mi.ap-log.net%2Fblob%2F05eea981-ed55-42cf-8c10-19626491fc45.png&amp;emoji=1\" alt=\":blobcathearthug:\" title=\":blobcathearthug:\" decoding=\"async\">: <a href=\"https://misskey.7ka.org/\">かんなすきー</a>",
+      "nodeAdmins": [
+        {
+          "name": "m77",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "m77",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://static-mi.ap-log.net/tos.txt?t=230709",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://mi.ap-log.net/@m77",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#0080c0"
+    }
+  },
+  "error": null
+}

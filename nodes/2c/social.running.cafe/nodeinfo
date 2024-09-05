@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-26+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 9,
+        "activeHalfyear": 13
+      },
+      "localPosts": 955
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Running Café",
+      "nodeDescription": "A friendly, inclusive instance for runners and members of the running community."
+    }
+  },
+  "error": null
+}

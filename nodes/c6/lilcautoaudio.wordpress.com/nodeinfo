@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lil C&#039;s Mechanic and Audio Services",
+      "nodeDescription": "Audio and Automotive, all in one.",
+      "nodeIcon": "https://lilcautoaudio.wordpress.com/wp-content/uploads/2024/03/cropped-car-beat-outline-luxury-music-260nw-1536857078.jpg"
+    }
+  },
+  "error": null
+}

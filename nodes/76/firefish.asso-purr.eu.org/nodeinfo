@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {},
+      "nodeName": "Association P·U·R·R (Pour Un RGPD Respecté)",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 97,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

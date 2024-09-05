@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 53,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bandhan&#039;s World of Imagination",
+      "nodeDescription": "Advancing Human Civilization",
+      "nodeIcon": "https://bandhangoyal.com/wp-content/uploads/2020/06/cropped-bandhan-goyal-passportphoto-1.jpg"
+    }
+  },
+  "error": null
+}

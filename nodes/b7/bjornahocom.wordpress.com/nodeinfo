@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 55,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Björn Aho Artist",
+      "nodeDescription": "UNDER CONSTRUCTION: But you find something here; https://bjornahoorg.wordpress.com/",
+      "nodeIcon": "https://bjornahocom.wordpress.com/wp-content/uploads/2018/09/cropped-anne-tykkacc88acc88.jpg"
+    }
+  },
+  "error": null
+}

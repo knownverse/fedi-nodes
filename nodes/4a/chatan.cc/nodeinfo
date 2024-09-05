@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "admin@chatan.cc",
+        "name": "Dâng David"
+      },
+      "nodeDescription": "这里是Firefish实例。Firefish支持ActivityPub协议，能够与Mastodon、Misskey等站点往来。如想要体验Firefish，欢迎前往oCoooooo站（https://ocooo.ooo/），注册事宜洽询 @dylan@ocooo.ooo 如想要体验Friendica，欢迎查看列表，选择心仪实例：https://dir.friendica.social/servers",
+      "nodeName": "茶攤 Dà-tăng",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240728"
+    },
+    "usage": {
+      "localPosts": 2289,
+      "users": {
+        "activeHalfyear": 13,
+        "activeMonth": 13,
+        "total": 13
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

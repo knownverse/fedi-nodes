@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 26,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2625,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "鸟白岛Torishiro",
+      "nodeDescription": "这里是鸟白岛，希望你有个美好的回忆。<br>\nCiallo～(∠・ω< )⌒★！<br>\nHave fun & Good luck :D",
+      "nodeAdmins": [
+        {
+          "name": "Hikurn_Xi",
+          "email": "help@torishiro.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Hikurn_Xi",
+        "email": "help@torishiro.com"
+      },
+      "langs": [],
+      "tosUrl": "/@admin/pages/tos",
+      "privacyPolicyUrl": "https://torishiro.com/@admin/pages/tos",
+      "inquiryUrl": "mailto:help@torishiro.com",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ffa8c5"
+    }
+  },
+  "error": null
+}

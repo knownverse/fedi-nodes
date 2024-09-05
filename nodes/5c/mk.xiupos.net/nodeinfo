@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/xiupos/misskey",
+      "repository": "https://github.com/xiupos/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 94958,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぽすポラス海峡🐇",
+      "nodeDescription": "xiupos のおひとり鯖。小アジアではなくシアトルにあります",
+      "nodeAdmins": [
+        {
+          "name": "xiupos",
+          "email": "me at my name dot net"
+        }
+      ],
+      "maintainer": {
+        "name": "xiupos",
+        "email": "me at my name dot net"
+      },
+      "langs": [],
+      "tosUrl": "https://xiupos.net/about/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/xiupos/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ebc859"
+    }
+  },
+  "error": null
+}

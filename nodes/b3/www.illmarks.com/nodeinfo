@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 163,
+      "localComments": 27
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "illmarks",
+      "nodeDescription": "this is what it feels like   [CW: illness, body horror illustration]",
+      "nodeIcon": "https://www.illmarks.com/wp-content/uploads/2024/01/cropped-IMG_5989.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 111,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The American Centrist",
+      "nodeDescription": "Moving forward without furthering the divide",
+      "nodeIcon": "https://americancentrist.net/wp-content/uploads/2019/01/976b6318-b984-4ea8-981f-00722fb1c146.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 44,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Blog de viajes Tour Monde",
+      "nodeDescription": "No te pierdas un contenido único de calidad DISFRUTA AL MÁXIMO DE LA EXPERIENCIA DE SER SUSCRIPTOR.",
+      "nodeIcon": "https://planetator5.car.blog/wp-content/uploads/2024/04/wp-1713425776104.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 777,
+      "localComments": 3126
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BLAST YOUR PROJECT RESEARCH CENTER",
+      "nodeDescription": "We give you the best support you need for your final year Project topics | Project materials | Masters project topics |  Undergraduate project topics | Project Virtual Assistant | Project Survey Administration | Thesis | Diploma Courses | Business Proposal | Business Ideas | Diploma courses | Youth and women empoerment programs and business opportunities",
+      "nodeIcon": "https://blastyourproject.wordpress.com/wp-content/uploads/2023/08/cropped-1645372602325.jpg"
+    }
+  },
+  "error": null
+}

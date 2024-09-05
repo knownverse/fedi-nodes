@@ -1,0 +1,924 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "bsky.brid.gy",
+            "elekk.xyz",
+            "shitpost.cloud",
+            "срёт.онлайн",
+            "zetamu.club",
+            "youjo.love",
+            "yggdrasil.social",
+            "www.bigguys.club",
+            "wurm.host",
+            "wolfgirl.bar",
+            "wintermute.fr.to",
+            "wiki-tube.de",
+            "videos.martinezperspective.org",
+            "video.nobodyhasthe.biz",
+            "varishangout.net",
+            "uwu.social",
+            "unholy-lair.69.mu",
+            "tube.querdenken-711.de",
+            "tube.kenfm.de",
+            "truthsocial.com",
+            "truthsocial.co.in",
+            "traboone.com",
+            "toot.canberrasocial.net",
+            "theres.life",
+            "thecitadel.social",
+            "tcode.kenfm.de",
+            "stupid.moe",
+            "strelizia.net",
+            "springbo.cc",
+            "spinster.xyz",
+            "solagg.com",
+            "socnet.supes.com",
+            "societal.co",
+            "social.urspringer.de",
+            "social.teci.world",
+            "social.redxen.eu",
+            "social.quodverum.com",
+            "social.lovingexpressions.net",
+            "social.handholding.io",
+            "social.freetalklive.com",
+            "social.fbxl.net",
+            "social.beepboop.ga",
+            "social.ancreport.com",
+            "social.076.ne.jp",
+            "sleepy.cafe",
+            "skins.gay",
+            "silkhe.art",
+            "shortstackran.ch",
+            "seal.cafe",
+            "sayit.world",
+            "santsenques.cat",
+            "ryona.agency",
+            "rusoc.xyz",
+            "rojogato.com",
+            "rdrama.cc",
+            "rayn.bo",
+            "raygungothic.xyz",
+            "rapemeat.solutions",
+            "rakket.app",
+            "rage.lol",
+            "quanta.wiki",
+            "pt.pube.tk",
+            "posting.lolicon.rocks",
+            "pooper.social",
+            "poa.st",
+            "pmth.us",
+            "pleroma.us",
+            "pleroma.soykaf.com",
+            "pleroma.skyshanty.xyz",
+            "pleroma.nobodyhasthe.biz",
+            "pleroma.narrativerry.xyz",
+            "pleroma.kitsunemimi.club",
+            "pleroma.eientei.org",
+            "pl.wysteriary.art",
+            "pl.thj.no",
+            "pl.smugloli.net",
+            "pl.smuglo.li",
+            "pl.slash.cl",
+            "pl.i2p.rocks",
+            "pl.anon-kenkai.com",
+            "pieville.net",
+            "peertube.sharivegas.com",
+            "pedo.school",
+            "paypig.org",
+            "pawoo.net",
+            "oursocialism.today",
+            "ns.auction",
+            "noagendasocial.com",
+            "NoAgenda.social",
+            "nicecrew.digital",
+            "neckbeard.xyz",
+            "nazi.social",
+            "mulmeyun.church",
+            "mstdn.jp",
+            "milker.cafe",
+            "midnightride.rs",
+            "meta-tube.de",
+            "memehub.eu",
+            "mastodon.city",
+            "masochi.st",
+            "lush.moelc.imexile.moe",
+            "lush.moe",
+            "loli.pizza",
+            "ligma.pro",
+            "libre.video",
+            "liberdon.com",
+            "leafposter.club",
+            "lain.sh",
+            "lain.com",
+            "kiwifarms.cc",
+            "kisslolis.moe",
+            "kcl.academy",
+            "justicewarrior.social",
+            "jojo.singleuser.club",
+            "iddqd.social",
+            "hunk.city",
+            "honkwerx.tech",
+            "hitchhiker.social",
+            "hentai.baby",
+            "helladoge.com",
+            "goyim.app",
+            "gorf.pub",
+            "godspeed.moe",
+            "glowers.club",
+            "gleasonator.com",
+            "gitmo.life",
+            "genitalia.observer",
+            "gearlandia.haus",
+            "gameliberty.club",
+            "frennet.link",
+            "freewahaextremist.wtf",
+            "freewahaextremist.soy",
+            "freethinkers.lgbt",
+            "freethinkers.host",
+            "freespeechextremist.com",
+            "freespeech.group",
+            "freespeech.firedragonstudios.com",
+            "freemarketbastard.theburning.world",
+            "freedomofpress.rocks",
+            "freecumextremist.com",
+            "freeatlantis.com",
+            "freak.university",
+            "fluf.club",
+            "fiume.club",
+            "fedi.murky.club",
+            "fedi.anti-degeneracy.club",
+            "fans.sonichu.com",
+            "eveningzoo.club",
+            "etiketi.de",
+            "eatthebugs.social",
+            "devtube.dev-wiki.de",
+            "detroitriotcity.com",
+            "desupost.soy",
+            "degenerates.fail",
+            "daishouri.moe",
+            "cyberfuck.club",
+            "cybercrusade.xyz",
+            "cunny.finance",
+            "cum.salon",
+            "cum.desupost.soy",
+            "counter.fedi.live",
+            "clubcyberia.co",
+            "club.darknight-coffee.org",
+            "childpawn.shop",
+            "cawfee.club",
+            "cachapa.moe",
+            "buildthatwallandmakeamericagreatagain.trumpislovetrumpis.life",
+            "brighteon.social",
+            "bittube.video",
+            "bitcoinhackers.org",
+            "bestgore.fun",
+            "beefyboys.win",
+            "beefyboys.club",
+            "bea.st",
+            "based.directory",
+            "baraag.net",
+            "banana.dog",
+            "bae.st",
+            "app.kenhbit.com",
+            "anime.website",
+            "animalliberation.social",
+            "alive.bar",
+            "2021-11-18. wolfgirl.bar",
+            "10minutepleroma.com",
+            "101010.pl",
+            "*.activitypub-troll.cf",
+            "mastodon.technology"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "quarantined_instances": [],
+        "exclusions": false,
+        "mrf_policies": [
+          "MediaProxyWarmingPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "pleroma.skyshanty.xyz": {
+              "reason": "no reason provided"
+            },
+            "pooper.social": {
+              "reason": "no reason provided"
+            },
+            "stupid.moe": {
+              "reason": "no reason provided"
+            },
+            "срёт.онлайн": {
+              "reason": "no reason provided"
+            },
+            "pleroma.us": {
+              "reason": "no reason provided"
+            },
+            "honkwerx.tech": {
+              "reason": "no reason provided"
+            },
+            "shortstackran.ch": {
+              "reason": "no reason provided"
+            },
+            "desupost.soy": {
+              "reason": "no reason provided"
+            },
+            "nazi.social": {
+              "reason": "no reason provided"
+            },
+            "tube.querdenken-711.de": {
+              "reason": "no reason provided"
+            },
+            "pleroma.soykaf.com": {
+              "reason": "no reason provided"
+            },
+            "mstdn.jp": {
+              "reason": "no reason provided"
+            },
+            "social.teci.world": {
+              "reason": "no reason provided"
+            },
+            "spinster.xyz": {
+              "reason": "no reason provided"
+            },
+            "beefyboys.club": {
+              "reason": "no reason provided"
+            },
+            "cybercrusade.xyz": {
+              "reason": "no reason provided"
+            },
+            "daishouri.moe": {
+              "reason": "no reason provided"
+            },
+            "freemarketbastard.theburning.world": {
+              "reason": "no reason provided"
+            },
+            "pl.anon-kenkai.com": {
+              "reason": "no reason provided"
+            },
+            "bitcoinhackers.org": {
+              "reason": "no reason provided"
+            },
+            "nicecrew.digital": {
+              "reason": "no reason provided"
+            },
+            "counter.fedi.live": {
+              "reason": "no reason provided"
+            },
+            "rayn.bo": {
+              "reason": "no reason provided"
+            },
+            "societal.co": {
+              "reason": "no reason provided"
+            },
+            "rage.lol": {
+              "reason": "no reason provided"
+            },
+            "101010.pl": {
+              "reason": "no reason provided"
+            },
+            "gearlandia.haus": {
+              "reason": "no reason provided"
+            },
+            "goyim.app": {
+              "reason": "no reason provided"
+            },
+            "videos.martinezperspective.org": {
+              "reason": "no reason provided"
+            },
+            "shitpost.cloud": {
+              "reason": "griefing in mentions"
+            },
+            "solagg.com": {
+              "reason": "no reason provided"
+            },
+            "fluf.club": {
+              "reason": "no reason provided"
+            },
+            "animalliberation.social": {
+              "reason": "no reason provided"
+            },
+            "freespeech.group": {
+              "reason": "no reason provided"
+            },
+            "lain.sh": {
+              "reason": "no reason provided"
+            },
+            "pmth.us": {
+              "reason": "no reason provided"
+            },
+            "social.quodverum.com": {
+              "reason": "no reason provided"
+            },
+            "video.nobodyhasthe.biz": {
+              "reason": "no reason provided"
+            },
+            "eatthebugs.social": {
+              "reason": "no reason provided"
+            },
+            "lush.moelc.imexile.moe": {
+              "reason": "no reason provided"
+            },
+            "devtube.dev-wiki.de": {
+              "reason": "no reason provided"
+            },
+            "NoAgenda.social": {
+              "reason": "no reason provided"
+            },
+            "helladoge.com": {
+              "reason": "no reason provided"
+            },
+            "ryona.agency": {
+              "reason": "no reason provided"
+            },
+            "cum.salon": {
+              "reason": "no reason provided"
+            },
+            "social.redxen.eu": {
+              "reason": "no reason provided"
+            },
+            "raygungothic.xyz": {
+              "reason": "no reason provided"
+            },
+            "freedomofpress.rocks": {
+              "reason": "no reason provided"
+            },
+            "kisslolis.moe": {
+              "reason": "no reason provided"
+            },
+            "leafposter.club": {
+              "reason": "no reason provided"
+            },
+            "memehub.eu": {
+              "reason": "no reason provided"
+            },
+            "ligma.pro": {
+              "reason": "no reason provided"
+            },
+            "freethinkers.lgbt": {
+              "reason": "no reason provided"
+            },
+            "hitchhiker.social": {
+              "reason": "no reason provided"
+            },
+            "pt.pube.tk": {
+              "reason": "no reason provided"
+            },
+            "uwu.social": {
+              "reason": "no reason provided"
+            },
+            "mastodon.technology": {
+              "reason": "zombie instance causing a lot of fetch errors"
+            },
+            "*.activitypub-troll.cf": {
+              "reason": "actively spamming AP instances"
+            },
+            "freespeechextremist.com": {
+              "reason": "no reason provided"
+            },
+            "2021-11-18. wolfgirl.bar": {
+              "reason": "no reason provided"
+            },
+            "rapemeat.solutions": {
+              "reason": "no reason provided"
+            },
+            "freewahaextremist.wtf": {
+              "reason": "no reason provided"
+            },
+            "jojo.singleuser.club": {
+              "reason": "no reason provided"
+            },
+            "freak.university": {
+              "reason": "no reason provided"
+            },
+            "lush.moe": {
+              "reason": "no reason provided"
+            },
+            "gitmo.life": {
+              "reason": "no reason provided"
+            },
+            "gameliberty.club": {
+              "reason": "no reason provided"
+            },
+            "detroitriotcity.com": {
+              "reason": "no reason provided"
+            },
+            "beefyboys.win": {
+              "reason": "no reason provided"
+            },
+            "gleasonator.com": {
+              "reason": "no reason provided"
+            },
+            "etiketi.de": {
+              "reason": "no reason provided"
+            },
+            "rakket.app": {
+              "reason": "no reason provided"
+            },
+            "pl.smugloli.net": {
+              "reason": "no reason provided"
+            },
+            "santsenques.cat": {
+              "reason": "no reason provided"
+            },
+            "cum.desupost.soy": {
+              "reason": "no reason provided"
+            },
+            "varishangout.net": {
+              "reason": "no reason provided"
+            },
+            "fedi.anti-degeneracy.club": {
+              "reason": "no reason provided"
+            },
+            "elekk.xyz": {
+              "reason": "no reason provided"
+            },
+            "kcl.academy": {
+              "reason": "no reason provided"
+            },
+            "pl.i2p.rocks": {
+              "reason": "no reason provided"
+            },
+            "eveningzoo.club": {
+              "reason": "no reason provided"
+            },
+            "rusoc.xyz": {
+              "reason": "no reason provided"
+            },
+            "justicewarrior.social": {
+              "reason": "no reason provided"
+            },
+            "gorf.pub": {
+              "reason": "no reason provided"
+            },
+            "www.bigguys.club": {
+              "reason": "no reason provided"
+            },
+            "liberdon.com": {
+              "reason": "no reason provided"
+            },
+            "pleroma.narrativerry.xyz": {
+              "reason": "no reason provided"
+            },
+            "seal.cafe": {
+              "reason": "no reason provided"
+            },
+            "bsky.brid.gy": {
+              "reason": "bridging to Bluesky without consent"
+            },
+            "app.kenhbit.com": {
+              "reason": "no reason provided"
+            },
+            "social.ancreport.com": {
+              "reason": "no reason provided"
+            },
+            "sleepy.cafe": {
+              "reason": "no reason provided"
+            },
+            "freeatlantis.com": {
+              "reason": "no reason provided"
+            },
+            "peertube.sharivegas.com": {
+              "reason": "no reason provided"
+            },
+            "posting.lolicon.rocks": {
+              "reason": "no reason provided"
+            },
+            "banana.dog": {
+              "reason": "no reason provided"
+            },
+            "meta-tube.de": {
+              "reason": "no reason provided"
+            },
+            "ns.auction": {
+              "reason": "no reason provided"
+            },
+            "neckbeard.xyz": {
+              "reason": "no reason provided"
+            },
+            "socnet.supes.com": {
+              "reason": "no reason provided"
+            },
+            "10minutepleroma.com": {
+              "reason": "no reason provided"
+            },
+            "freecumextremist.com": {
+              "reason": "no reason provided"
+            },
+            "lain.com": {
+              "reason": "no reason provided"
+            },
+            "oursocialism.today": {
+              "reason": "no reason provided"
+            },
+            "toot.canberrasocial.net": {
+              "reason": "no reason provided"
+            },
+            "truthsocial.com": {
+              "reason": "no reason provided"
+            },
+            "rdrama.cc": {
+              "reason": "no reason provided"
+            },
+            "bittube.video": {
+              "reason": "no reason provided"
+            },
+            "bestgore.fun": {
+              "reason": "no reason provided"
+            },
+            "wolfgirl.bar": {
+              "reason": "no reason provided"
+            },
+            "social.076.ne.jp": {
+              "reason": "no reason provided"
+            },
+            "midnightride.rs": {
+              "reason": "no reason provided"
+            },
+            "based.directory": {
+              "reason": "no reason provided"
+            },
+            "pl.slash.cl": {
+              "reason": "no reason provided"
+            },
+            "masochi.st": {
+              "reason": "no reason provided"
+            },
+            "skins.gay": {
+              "reason": "no reason provided"
+            },
+            "wiki-tube.de": {
+              "reason": "no reason provided"
+            },
+            "springbo.cc": {
+              "reason": "no reason provided"
+            },
+            "childpawn.shop": {
+              "reason": "no reason provided"
+            },
+            "noagendasocial.com": {
+              "reason": "no reason provided"
+            },
+            "social.beepboop.ga": {
+              "reason": "no reason provided"
+            },
+            "paypig.org": {
+              "reason": "no reason provided"
+            },
+            "zetamu.club": {
+              "reason": "no reason provided"
+            },
+            "godspeed.moe": {
+              "reason": "no reason provided"
+            },
+            "pleroma.kitsunemimi.club": {
+              "reason": "no reason provided"
+            },
+            "bae.st": {
+              "reason": "no reason provided"
+            },
+            "yggdrasil.social": {
+              "reason": "no reason provided"
+            },
+            "loli.pizza": {
+              "reason": "no reason provided"
+            },
+            "pl.thj.no": {
+              "reason": "no reason provided"
+            },
+            "fans.sonichu.com": {
+              "reason": "no reason provided"
+            },
+            "social.fbxl.net": {
+              "reason": "no reason provided"
+            },
+            "wurm.host": {
+              "reason": "no reason provided"
+            },
+            "quanta.wiki": {
+              "reason": "no reason provided"
+            },
+            "degenerates.fail": {
+              "reason": "no reason provided"
+            },
+            "tube.kenfm.de": {
+              "reason": "no reason provided"
+            },
+            "unholy-lair.69.mu": {
+              "reason": "no reason provided"
+            },
+            "poa.st": {
+              "reason": "no reason provided"
+            },
+            "anime.website": {
+              "reason": "no reason provided"
+            },
+            "traboone.com": {
+              "reason": "no reason provided"
+            },
+            "pl.wysteriary.art": {
+              "reason": "no reason provided"
+            },
+            "social.urspringer.de": {
+              "reason": "no reason provided"
+            },
+            "alive.bar": {
+              "reason": "no reason provided"
+            },
+            "wintermute.fr.to": {
+              "reason": "no reason provided"
+            },
+            "freethinkers.host": {
+              "reason": "no reason provided"
+            },
+            "mastodon.city": {
+              "reason": "no reason provided"
+            },
+            "pleroma.eientei.org": {
+              "reason": "no reason provided"
+            },
+            "baraag.net": {
+              "reason": "no reason provided"
+            },
+            "pawoo.net": {
+              "reason": "no reason provided"
+            },
+            "tcode.kenfm.de": {
+              "reason": "no reason provided"
+            },
+            "kiwifarms.cc": {
+              "reason": "no reason provided"
+            },
+            "cawfee.club": {
+              "reason": "no reason provided"
+            },
+            "cachapa.moe": {
+              "reason": "no reason provided"
+            },
+            "silkhe.art": {
+              "reason": "no reason provided"
+            },
+            "glowers.club": {
+              "reason": "no reason provided"
+            },
+            "pedo.school": {
+              "reason": "no reason provided"
+            },
+            "rojogato.com": {
+              "reason": "no reason provided"
+            },
+            "social.handholding.io": {
+              "reason": "no reason provided"
+            },
+            "cyberfuck.club": {
+              "reason": "no reason provided"
+            },
+            "theres.life": {
+              "reason": "no reason provided"
+            },
+            "social.lovingexpressions.net": {
+              "reason": "no reason provided"
+            },
+            "social.freetalklive.com": {
+              "reason": "no reason provided"
+            },
+            "clubcyberia.co": {
+              "reason": "no reason provided"
+            },
+            "freewahaextremist.soy": {
+              "reason": "no reason provided"
+            },
+            "truthsocial.co.in": {
+              "reason": "no reason provided"
+            },
+            "freespeech.firedragonstudios.com": {
+              "reason": "no reason provided"
+            },
+            "hentai.baby": {
+              "reason": "no reason provided"
+            },
+            "frennet.link": {
+              "reason": "no reason provided"
+            },
+            "buildthatwallandmakeamericagreatagain.trumpislovetrumpis.life": {
+              "reason": "no reason provided"
+            },
+            "brighteon.social": {
+              "reason": "no reason provided"
+            },
+            "milker.cafe": {
+              "reason": "no reason provided"
+            },
+            "hunk.city": {
+              "reason": "no reason provided"
+            },
+            "club.darknight-coffee.org": {
+              "reason": "no reason provided"
+            },
+            "genitalia.observer": {
+              "reason": "no reason provided"
+            },
+            "libre.video": {
+              "reason": "no reason provided"
+            },
+            "fedi.murky.club": {
+              "reason": "no reason provided"
+            },
+            "iddqd.social": {
+              "reason": "no reason provided"
+            },
+            "pl.smuglo.li": {
+              "reason": "no reason provided"
+            },
+            "thecitadel.social": {
+              "reason": "no reason provided"
+            },
+            "bea.st": {
+              "reason": "no reason provided"
+            },
+            "sayit.world": {
+              "reason": "no reason provided"
+            },
+            "fiume.club": {
+              "reason": "no reason provided"
+            },
+            "mulmeyun.church": {
+              "reason": "no reason provided"
+            },
+            "pleroma.nobodyhasthe.biz": {
+              "reason": "no reason provided"
+            },
+            "cunny.finance": {
+              "reason": "no reason provided"
+            },
+            "youjo.love": {
+              "reason": "no reason provided"
+            },
+            "strelizia.net": {
+              "reason": "no reason provided"
+            },
+            "pieville.net": {
+              "reason": "no reason provided"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "single user instance, anti-fascist, anti-TERF, ACAB!!",
+      "nodeName": "dood.net",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 400,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://dood.net/users/rossgrady"
+      ],
+      "uploadLimits": {
+        "general": 220000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 3251
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.1-0-gc02e343"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

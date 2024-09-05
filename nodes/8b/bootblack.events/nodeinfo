@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Community Calendar for Bootblack Events in Europe",
+      "nodeName": "Bootblack Events",
+      "nodeTimezone": "Europe/Berlin",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.9"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 17,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 914,
+      "localComments": 1875
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Smashing Frames",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/tante.cc/wp-content/uploads/2021/01/cropped-avatar.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

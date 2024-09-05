@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 57,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 35415,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "노트(Knot)",
+      "nodeDescription": "자유주제 서버 노트(Knot)입니다.\n본 서버는 서버운영과 관련된 국내법을 지키지만 표현의 자유를 최대한 보장합니다.<br/>\n自由テーマのサーバーノート(Knot)です。\n本サーバーはサーバー運営に関連する国内法を守りますが、表現の自由を最大限に保障します。",
+      "nodeAdmins": [
+        {
+          "name": "@server_destroyer",
+          "email": "knot_manager@proton.me"
+        }
+      ],
+      "maintainer": {
+        "name": "@server_destroyer",
+        "email": "knot_manager@proton.me"
+      },
+      "langs": [],
+      "tosUrl": "https://iqhina.org/@server_destroyer/pages/termsofuse",
+      "privacyPolicyUrl": "https://iqhina.org/@server_destroyer/pages/privacyprotection",
+      "inquiryUrl": "https://github.com/cygnus6960",
+      "impressumUrl": "https://github.com/cygnus6960",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#481679"
+    }
+  },
+  "error": null
+}

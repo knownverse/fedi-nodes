@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "속삭임이 고이는 별",
+      "nodeDescription": "속삭임이 고이는 낮은 별. 이 속삭임들은 또 어딘가로 흘러가게 될까요?",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 10,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.14.0-126-g7a74b51"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": 7,
+        "activeMonth": 5
+      },
+      "localPosts": 68
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

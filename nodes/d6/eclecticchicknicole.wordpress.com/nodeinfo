@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 179,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Eclectic Chick",
+      "nodeDescription": "Variety of videos from driving to who knows what. Pictures will also be included.",
+      "nodeIcon": "https://eclecticchicknicole.wordpress.com/wp-content/uploads/2023/10/image.jpg"
+    }
+  },
+  "error": null
+}

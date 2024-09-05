@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Royal Scale",
+      "nodeDescription": "a dedicated space for all things related to my 1:72 scale modeling",
+      "nodeIcon": "https://royalscale.blog/wp-content/uploads/2024/01/ab672537-6823-4e57-b32c-369b1958cba3-1.jpg"
+    }
+  },
+  "error": null
+}

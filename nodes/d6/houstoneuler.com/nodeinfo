@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 63
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Houston Euler Postulates",
+      "nodeDescription": "Theories on designing a better world wide web.",
+      "nodeIcon": "https://houstoneuler.com/wp-content/uploads/2024/01/cropped-houston_euler_square.png"
+    }
+  },
+  "error": null
+}

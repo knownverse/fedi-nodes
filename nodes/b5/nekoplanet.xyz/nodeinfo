@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0+neko-rc",
+      "homepage": "https://github.com/laonmofu/nekoplanet",
+      "repository": "https://github.com/laonmofu/nekoplanet"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 85,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 119610,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ねこ・ぷらねっと",
+      "nodeDescription": "어딘가의 소행성, 2023 QW₈(K23QM2W).<br>\n고즈넉한 분위기의 잔잔한 미스키 인스턴스.<br>\n<b>가입 문의는 촌장(@mofu)에게 부탁한다냥!</b>\n<hr>\n로고: 블랙치이 / 그림: @nezu",
+      "nodeAdmins": [
+        {
+          "name": "@staff",
+          "email": "mofu@laon.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "@staff",
+        "email": "mofu@laon.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://nekoplanet.xyz/@staff/pages/terms-of-use",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/laonmofu/nekoplanet",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "MeowBot",
+      "themeColor": "#d0ced9"
+    }
+  },
+  "error": null
+}

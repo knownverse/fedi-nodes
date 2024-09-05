@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 38189,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Kyanos",
+      "nodeDescription": "Kyanos is small misskey server created to share \"fun\" and \"curiosity\".<br>\n<br>\nKyanosは\"楽しい\"と\"好奇心\"を共有するために作られた、小さなMisskeyサーバーです。<br>\n\t\n<center><img src=\"https://mi.kyanos.one/files/44c3e33a-68a1-4b6f-b522-4d10a628ce54\" alt=\"Kyanos banner\"></center>\n<br>\n登録希望者はサーバールールおよび以下のガイドラインを確認の上、<a href=\"https://forms.gle/8mNiSkLNNun5wBkLA\"><u>こちらのフォーム</u></a>にお問い合わせください。招待コードをお伝えいたします。<br>\n<a href=\"https://mi.kyanos.one/@rector/pages/1706429557275\"><u>Barca&Kyanos 利用ガイドライン</u></a><br>\n<br>\nKyanos operates with the following sister project servers.<br>\nKyanosは以下の姉妹プロジェクトのサーバーとともに運営されています。<br>\n-<a href=\"https://barca.dix.asia\"><u>Barca(Mastodon)</u></a><br>\n-<a href=\"https://biblio.barca.dix.asia\"><u>Barca Biblio(Bookwyrm)</u></a><br>\n-<a href=\"https://cast.kyanos.one\"><u>鋼鉄放送局(Owncast)</u></a><br>\n-<a href=\"https://write.blue0a6m5c.yokohama\"><u>blue note. (Writefreely)</u></a><br>",
+      "nodeAdmins": [
+        {
+          "name": "Rector",
+          "email": "https://forms.gle/8mNiSkLNNun5wBkLA"
+        }
+      ],
+      "maintainer": {
+        "name": "Rector",
+        "email": "https://forms.gle/8mNiSkLNNun5wBkLA"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": "https://barca.dix.asia/privacy-policy",
+      "inquiryUrl": "https://mbin.kyanos.one/contact",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "diplomat",
+      "themeColor": "#0721e4"
+    }
+  },
+  "error": null
+}

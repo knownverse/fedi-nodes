@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 583,
+      "localComments": 215
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "D3",
+      "nodeDescription": "",
+      "nodeIcon": "https://www.dnddeutsch.de/wp-content/uploads/2018/03/cropped-cropped-d3_logo.png"
+    }
+  },
+  "error": null
+}

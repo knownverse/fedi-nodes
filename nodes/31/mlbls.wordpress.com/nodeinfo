@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MLB | Learning Solutions",
+      "nodeDescription": "Enabling people to achieve their goals (Business, Career &amp; Personal)",
+      "nodeIcon": "https://mlbls.wordpress.com/wp-content/uploads/2021/02/cropped-mlb.logo_base.jpg"
+    }
+  },
+  "error": null
+}

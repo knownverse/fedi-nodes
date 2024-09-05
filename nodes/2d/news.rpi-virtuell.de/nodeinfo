@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 36,
+        "activeMonth": "37",
+        "activeHalfyear": "37"
+      },
+      "localPosts": 3984,
+      "localComments": 686
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "relinews",
+      "nodeDescription": "Neues und Wissenswertes aus dem religionspädagogischen Bildungsbereich",
+      "nodeIcon": "https://news.rpi-virtuell.de/wp-content/uploads/2023/06/cropped-rpi-virtuell-Logo-2021-offiziell1.png"
+    }
+  },
+  "error": null
+}

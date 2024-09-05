@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 59,
+      "localComments": 71
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sebastian Malloy",
+      "nodeDescription": "Ad Victoriam!",
+      "nodeIcon": "https://www.sebastianmalloy.com/wp-content/uploads/2023/01/cropped-Sebastian-Hat-Site-Icon.jpg"
+    }
+  },
+  "error": null
+}

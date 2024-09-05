@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Muvon Mortgages Ltd",
+      "nodeDescription": "We search the whole market for mortgage and insurance protection products just for you, as we are not tied to a specific lender. Some lenders even work exclusively with mortgage brokers. We will only recommend products that are most suited to you and your circumstances.",
+      "nodeIcon": "https://muvonmortgages.blog/wp-content/uploads/2023/12/cropped-gfd.jpg"
+    }
+  },
+  "error": null
+}

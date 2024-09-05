@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 95,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "estrella.misskey",
+      "nodeDescription": "とりあえず、たててみました。",
+      "nodeAdmins": [
+        {
+          "name": "Masato",
+          "email": "server@estrella.misskey.masato.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "Masato",
+        "email": "server@estrella.misskey.masato.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://estrella.misskey.masato.jp/@estrella_admin/pages/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "estrella_proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

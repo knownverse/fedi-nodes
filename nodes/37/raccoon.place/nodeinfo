@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 55,
+        "activeMonth": 10,
+        "activeHalfyear": 16
+      },
+      "localPosts": 21749
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Raccoon Place",
+      "nodeDescription": "I like da raccoons. They are soft fluffy babie. General use mastodon instance with a very heavy block policy (i block instances on vibes mostly (definitely not a \"freeze peach zone\"))"
+    }
+  },
+  "error": null
+}

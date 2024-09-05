@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 270,
+        "activeMonth": 41,
+        "activeHalfyear": 74
+      },
+      "localPosts": 57362
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Fandom Garden",
+      "nodeDescription": "Fandom Garden is a queer instance where you are free to gush about the content you like, whether it's books, comics, TV shows, movies or music. This is an LGBT+, anti-racist, anti-ableist space."
+    }
+  },
+  "error": null
+}

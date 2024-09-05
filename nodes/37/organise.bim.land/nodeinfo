@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Plateforme événementielle offerte par le BIM, fruit de la collaboration de 3 associations promouvant les Logiciels Libres et la Neutralité du net",
+      "nodeName": "Bim!Organise"
+    },
+    "usage": {
+      "users": {
+        "total": 134
+      },
+      "localComments": 30,
+      "localPosts": 40
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

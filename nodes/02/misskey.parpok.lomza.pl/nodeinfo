@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2533,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "4 52 21",
+      "nodeDescription": "instancja stworzona bardziej do zabawy\ngłownie dla siebie i moich znajomych\nHostowana na Oraclowym VPSie na ARMach :-)\n",
+      "nodeAdmins": [
+        {
+          "name": "parpok",
+          "email": "me@parpok.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "parpok",
+        "email": "me@parpok.xyz"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#00f900"
+    }
+  },
+  "error": null
+}

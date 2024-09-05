@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2-pf042f5d4"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3306,
+        "activeHalfyear": 350,
+        "activeMonth": 91
+      },
+      "localPosts": 38059,
+      "localComments": 17473
+    },
+    "metadata": {
+      "nodeName": "▿iviv",
+      "xmppChat": true,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "zombee"
+    }
+  },
+  "error": null
+}

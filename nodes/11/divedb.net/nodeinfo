@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "divedb",
+      "version": "0.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": null,
+    "openRegistrations": true
+  },
+  "error": null
+}

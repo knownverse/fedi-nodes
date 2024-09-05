@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 14,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kevin&#039;s Blog",
+      "nodeDescription": "Thoughts from Kevin Veen-Birkenbach",
+      "nodeIcon": "https://blog.veen.world/wp-content/uploads/2022/12/cropped-cropped-pixelized-logo.png"
+    }
+  },
+  "error": null
+}

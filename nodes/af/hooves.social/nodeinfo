@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "mail@interru.io",
+        "name": "interru"
+      },
+      "nodeDescription": "A Fediverse stable for ponies and other creatures built upon the magic of Firefish!\nUse your hooves and trot in to experience the Fediverse with friendship and ponies.",
+      "nodeName": "Hooves.social",
+      "proxyAccountName": "9iyaecztl1035hsk",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 17513,
+      "users": {
+        "activeHalfyear": 37,
+        "activeMonth": 23,
+        "total": 52
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

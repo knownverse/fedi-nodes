@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 355,
+      "localComments": 1308
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dan Gillmor",
+      "nodeDescription": "Just in case you were still wondering&hellip;",
+      "nodeIcon": "https://dangillmor.com/wp-content/uploads/2014/03/danpicpr.png"
+    }
+  },
+  "error": null
+}

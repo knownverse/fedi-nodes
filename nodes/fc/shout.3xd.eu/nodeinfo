@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 248
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Shout",
+      "nodeDescription": "Herzlich Willkommen bei Shout ein deutsches Microblogging & soziales Netzwerk basierend auf Mastodon.\r\n\r\nHabe viel Spaß beim erkunden & verknüpfen von Kontakten & tausche dich gern mit Text, sowie Medieninhalten aus, um viel Vielfalt in unsere kleine Plattform zu bringen."
+    }
+  },
+  "error": null
+}

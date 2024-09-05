@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": 13,
+        "activeMonth": 8
+      },
+      "localPosts": 266,
+      "localComments": 1088
+    },
+    "metadata": {
+      "nodeName": "rusX.org"
+    }
+  },
+  "error": null
+}

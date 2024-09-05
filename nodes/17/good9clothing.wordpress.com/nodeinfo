@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2122,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "guild mortgage payment of money&#039;s",
+      "nodeDescription": "Glenda",
+      "nodeIcon": "https://good9clothing.wordpress.com/wp-content/uploads/2022/08/wp-1659645617355.jpg"
+    }
+  },
+  "error": null
+}

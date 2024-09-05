@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "14.0.0-rc3",
+      "repository": "https://codeberg.org/calckey/calckey",
+      "homepage": "https://calckey.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 2158,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Replicants Cafe",
+      "nodeDescription": "Personal instance of @LunaRogue@replicants.cafe, your friendly neighborhood replicant.",
+      "maintainer": {
+        "name": "Luna Rogue",
+        "email": "luna@replicants.cafe"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://codeberg.org/calckey/calckey",
+      "feedbackUrl": "https://codeberg.org/calckey/calckey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

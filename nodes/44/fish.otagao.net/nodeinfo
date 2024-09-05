@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "",
+        "name": "オオタガオ"
+      },
+      "nodeDescription": "https://ronin.hostdon.ne.jp/ を引き継ぐ形で設立したfirefishサーバーです\n現状、ほぼ身内用として運用しています",
+      "nodeName": "otafish",
+      "proxyAccountName": "9m0qcw5ek12509yc",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FFEC5C"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 1057,
+      "users": {
+        "activeHalfyear": 5,
+        "activeMonth": 5,
+        "total": 6
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

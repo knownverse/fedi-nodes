@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Das Veranstaltungsnetzwerk für die Rhein-Neckar-Region im Fediverse. Mannheim, Heidelberg, Ludwigshafen und alles drumherum.",
+      "nodeName": "rheinneckar.events"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "usage": {
+      "localComments": 1,
+      "localPosts": 329,
+      "users": {
+        "total": 255
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

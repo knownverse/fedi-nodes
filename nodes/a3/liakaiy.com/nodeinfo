@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Liakaiy",
+      "nodeDescription": "Auf der Suche nach Freiheit und mir selbst. Ticks und Trips aus meinem Leben.",
+      "nodeIcon": "https://liakaiy.com/wp-content/uploads/2020/02/img_20200116_235037_290.jpg"
+    }
+  },
+  "error": null
+}

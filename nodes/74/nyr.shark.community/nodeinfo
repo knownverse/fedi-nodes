@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.50-main-10777c32abd34520cc11d024bea8f9f8f94b6fde"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "batchats.net",
+        "cackl.io",
+        "charr.engineer",
+        "derg.social",
+        "dragon.navy",
+        "furries.club",
+        "furry.engineer",
+        "glitch.gaycookie.dev",
+        "pawb.fun",
+        "shark.community",
+        "social.furry.nz",
+        "twipped.social"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

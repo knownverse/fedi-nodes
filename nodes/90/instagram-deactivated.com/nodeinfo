@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 31,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Instagram and Facebook reactivation",
+      "nodeDescription": "Reactivation of Instagram and Facebook accounts. Returning hacked Instagram and Facebook accounts",
+      "nodeIcon": "https://instagram-deactivated.com/wp-content/uploads/2024/02/img-kac6gwvz8pvddclfo0wtvhcz.png"
+    }
+  },
+  "error": null
+}

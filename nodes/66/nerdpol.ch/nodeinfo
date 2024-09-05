@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "1.0.0-dev-pb503a7bc"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6360,
+        "activeHalfyear": 96,
+        "activeMonth": 51
+      },
+      "localPosts": 124161,
+      "localComments": 182691
+    },
+    "metadata": {
+      "nodeName": "nerdpol.ch*",
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": true
+      },
+      "adminAccount": "supertux"
+    }
+  },
+  "error": null
+}

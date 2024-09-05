@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "owl-blogs",
+      "repository": "https://github.com/H4kor/owl-blogs",
+      "version": "0.3.6"
+    },
+    "usage": {
+      "users": {}
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 49,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Venib",
+      "nodeDescription": "Verein Nicht-Binär",
+      "nodeIcon": "https://venib.at/wp-content/uploads/2021/05/cropped-logo-evo.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 199,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The DBA Hub",
+      "nodeDescription": "Your Ultimate Resource for Database Insights.",
+      "nodeIcon": "https://i0.wp.com/thedbahub.com/wp-content/uploads/2024/02/img-jhegeky5r2qe9lffifbaxfw1-3603320096-e1710061397796.png?fit=772%2C770&ssl=1"
+    }
+  },
+  "error": null
+}

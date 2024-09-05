@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5.4"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 9,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "D&amp;m0m0d&amp;",
+      "nodeDescription": "D3m0m0D3 - Modalità D3M0",
+      "nodeIcon": "/favicon.ico"
+    }
+  },
+  "error": null
+}

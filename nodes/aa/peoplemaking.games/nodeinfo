@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2878,
+        "activeMonth": 410,
+        "activeHalfyear": 692
+      },
+      "localPosts": 221008
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "People Making Games",
+      "nodeDescription": "We're a community of folks who celebrate the craft of creating interactive experiences, whether they're working in games or around them! This is a space for games folks and creatives to call home!"
+    }
+  },
+  "error": null
+}

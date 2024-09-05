@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2023.01-1502"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "gnusocial",
+        "pumpio"
+      ],
+      "outbound": [
+        "blogger",
+        "dreamwidth",
+        "gnusocial",
+        "insanejournal",
+        "libertree",
+        "livejournal",
+        "pumpio",
+        "smtp",
+        "tumblr",
+        "twitter",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 392,
+        "activeHalfyear": 134,
+        "activeMonth": 20
+      },
+      "localPosts": 5682,
+      "localComments": 4619
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "OutsourcedMath Social Network",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "gnusocial",
+          "pumpio",
+          "twitter"
+        ],
+        "outbound": [
+          "blogger",
+          "dreamwidth",
+          "gnusocial",
+          "insanejournal",
+          "libertree",
+          "livejournal",
+          "pumpio",
+          "smtp",
+          "tumblr",
+          "twitter",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

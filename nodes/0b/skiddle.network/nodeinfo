@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "lizsnowy+skiddlenet@pm.me",
+        "name": "@jeff@skiddle.network"
+      },
+      "nodeDescription": "Private Instance of @skiddle@skiddle.network",
+      "nodeName": "Skiddle Network",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 369,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

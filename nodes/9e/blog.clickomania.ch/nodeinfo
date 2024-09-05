@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 3792,
+      "localComments": 2443
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Clickomania",
+      "nodeDescription": "Beobachtungen aus einer technologisierten Welt.",
+      "nodeIcon": "https://blog.clickomania.ch/wp-content/uploads/2023/02/cropped-181015-Favicon-Version-2-1.png"
+    }
+  },
+  "error": null
+}

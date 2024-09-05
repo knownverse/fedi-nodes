@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "admin@peaceful.social",
+        "name": "Adrian und Gisela Dymorz"
+      },
+      "nodeDescription": "Die Instanz wurde von Adrian und Gisela Dymorz initiiert.\n\nWir setzen uns für einen friedlichen Umgang miteinander ein.\n\nDas Hosting erfolgt durch einen Partner, der mit seinem Wissen und einer Überwachung den stabilen Betrieb sicherstellt.\n\nDie Instanz steht allen Menschen offen, die an einem freundlichen und bereichernden Austausch interessiert sind.",
+      "nodeName": "firefish.peaceful.social",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 3742,
+      "users": {
+        "activeHalfyear": 7,
+        "activeMonth": 4,
+        "total": 12
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

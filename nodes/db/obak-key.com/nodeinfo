@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.3",
+      "repository": "https://git.joinfirefish.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 25,
+        "activeHalfyear": 14,
+        "activeMonth": 12
+      },
+      "localPosts": 64215,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "オバケやしきー",
+      "nodeDescription": "Si-rubberの個人インスタンスです。\n大体同世代くらいの成人済フォロワーさんをご招待した身内鯖です。\n",
+      "maintainer": {
+        "name": "Si-rubber",
+        "email": "https://si-rubber.rip"
+      },
+      "langs": [],
+      "tosUrl": "https://obak-key.com/@si_rubber/pages/manual",
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "hollow",
+      "themeColor": "#D7DCE0"
+    }
+  },
+  "error": null
+}

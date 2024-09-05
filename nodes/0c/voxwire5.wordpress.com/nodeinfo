@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vox Wire",
+      "nodeDescription": "Stay Informed, Stay Ahead: Your Source for Breaking News and Insights!",
+      "nodeIcon": "https://voxwire5.wordpress.com/wp-content/uploads/2024/03/cropped-vox-img.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,364 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": [
+            {
+              "pattern": "~r/https:\\/\\/(\\w*\\.)?twitter\\.com/",
+              "replacement": "https://nitter.net"
+            }
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "AntiFollowbotPolicy",
+          "SimplePolicy",
+          "KeywordPolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "shitposters.club"
+          ],
+          "followers_only": [],
+          "media_nsfw": [
+            "shitposters.club"
+          ],
+          "media_removal": [],
+          "reject": [
+            "kiwifarms.cc",
+            "spinster.xyz",
+            "sweet.succubi.services",
+            "bae.st",
+            "poa.st",
+            "cum.salon",
+            "awscommunity.social",
+            "posting.lolicon.rocks",
+            "lolison.top",
+            "gameliberty.club",
+            "varishangout.net",
+            "pieville.net",
+            "detroitriotcity.com",
+            "shota.house",
+            "skippers-bin.com",
+            "eientei.org",
+            "shortstackran.ch",
+            "shitpost.cloud",
+            "nicecrew.digital",
+            "threads.net",
+            "seal.cafe",
+            "baraag.net",
+            "rape.pet",
+            "youjo.love",
+            "cannibal.cafe",
+            "monk.ey.business",
+            "freak.university",
+            "ghetti.monster",
+            "m.ating.press",
+            "masturb.ating.press",
+            "snarfed.org",
+            "brid.gy",
+            "friendsyu.me",
+            "m.mxin.moe",
+            "cunnyborea.top",
+            "social.cutefunny.net",
+            "contentnation.net"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "shitposters.club": {
+              "reason": "i have seen too much vile stuff to not take action against it but too many great posts to fully defederate"
+            }
+          },
+          "media_nsfw": {
+            "shitposters.club": {
+              "reason": "i have seen too much vile stuff to not take action against it but too many great posts to fully defederate"
+            }
+          },
+          "reject": {
+            "friendsyu.me": {
+              "reason": "spam"
+            },
+            "shortstackran.ch": {
+              "reason": "Lolicon, Alt-Right Mods/Admins"
+            },
+            "spinster.xyz": {
+              "reason": "TERFS and RadFems"
+            },
+            "threads.net": {
+              "reason": "lmfao imagine having to explain this one"
+            },
+            "m.ating.press": {
+              "reason": "see above"
+            },
+            "nicecrew.digital": {
+              "reason": "Racism, Fascism, Bigotry, basically YAARSI"
+            },
+            "shitpost.cloud": {
+              "reason": "Yet Another Alt Right Soapbox Instance (YAARSI)"
+            },
+            "cunnyborea.top": {
+              "reason": "spam"
+            },
+            "cum.salon": {
+              "reason": "N-Word sluring everywhere"
+            },
+            "masturb.ating.press": {
+              "reason": "see above"
+            },
+            "freak.university": {
+              "reason": "see above"
+            },
+            "gameliberty.club": {
+              "reason": "Shota/Lolicon, unironic stonetoss, general alt-right hell"
+            },
+            "detroitriotcity.com": {
+              "reason": "\"Free speech advocats\" and loli supporters. Ludwig von Mises would be proud of you."
+            },
+            "lolison.top": {
+              "reason": "Lolicon"
+            },
+            "varishangout.net": {
+              "reason": "YALI (Yet Another Lolicon Instance)"
+            },
+            "seal.cafe": {
+              "reason": "YAARSI"
+            },
+            "snarfed.org": {
+              "reason": "bridging posts to the big bird and the alligatorman"
+            },
+            "awscommunity.social": {
+              "reason": "Instance run by amazon, incredibly cringe. wouldn't federate again"
+            },
+            "posting.lolicon.rocks": {
+              "reason": "Lolicon and N-Words"
+            },
+            "social.cutefunny.net": {
+              "reason": "spam & cp"
+            },
+            "eientei.org": {
+              "reason": "Lolicon, \"No Rules Instance\", Fascists"
+            },
+            "contentnation.net": {
+              "reason": "dude wtf"
+            },
+            "cannibal.cafe": {
+              "reason": "see above"
+            },
+            "bae.st": {
+              "reason": "Admin pins loli hentai and anti-LGBTQ+ dogwhistles"
+            },
+            "monk.ey.business": {
+              "reason": "see above"
+            },
+            "poa.st": {
+              "reason": "Shitposting and unironic StoneToss posts"
+            },
+            "rape.pet": {
+              "reason": "Glorification of CSAM, Lolicon."
+            },
+            "ghetti.monster": {
+              "reason": "see above"
+            },
+            "baraag.net": {
+              "reason": "Lolicon"
+            },
+            "kiwifarms.cc": {
+              "reason": "Transphobia"
+            },
+            "m.mxin.moe": {
+              "reason": "spam"
+            },
+            "brid.gy": {
+              "reason": "bridging posts to the big bird and the alligatorman"
+            },
+            "shota.house": {
+              "reason": "Shota"
+            },
+            "sweet.succubi.services": {
+              "reason": "lewd instance with underage users"
+            },
+            "skippers-bin.com": {
+              "reason": "Lolicon, Nazi's, Transphobia"
+            },
+            "youjo.love": {
+              "reason": "see above"
+            },
+            "pieville.net": {
+              "reason": "White Supremacists, Racism, Antisemitism, basically nazis in a pie"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "ak.zweitekassabitte.jetzt",
+        "akko.cuddlegirls.cafe",
+        "chaos.social",
+        "catcatnya.com"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "larkspur",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://larkspur.one/users/muxelplexer"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 50000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-617-gfbf051e4-larkspur"
+    },
+    "usage": {
+      "localPosts": 4299,
+      "users": {
+        "activeHalfyear": 10,
+        "activeMonth": 7,
+        "total": 17
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

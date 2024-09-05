@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 105,
+        "activeHalfyear": 105
+      },
+      "localPosts": 4428,
+      "localComments": 1121
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cultuurpers",
+      "nodeDescription": "Want er wordt al genoeg onzin verteld over kunst",
+      "nodeIcon": "https://cultureelpersbureau.nl/wp-content/uploads/2023/10/dodobird1.png"
+    }
+  },
+  "error": null
+}

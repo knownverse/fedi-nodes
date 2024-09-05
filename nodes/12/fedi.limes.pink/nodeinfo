@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+pink-soc"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1537
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "limes",
+      "nodeDescription": "A single-user self-hosted glitch-soc server, engineered to let me commit limes against humanity."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 16,
+        "activeHalfyear": 16
+      },
+      "localPosts": 170,
+      "localComments": 44
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "50+ Bloggers",
+      "nodeDescription": "Creative older people behaving digitally",
+      "nodeIcon": "https://blog.50pd.uk/wp-content/uploads/2023/06/cropped-blog-logo-from-1451784265-b-0512x0512-1.jpg"
+    }
+  },
+  "error": null
+}

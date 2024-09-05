@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Statüko Dergisi",
+      "nodeDescription": "Sosyoloji, Psikoloji, Antropoloji, Ekonomi, Tarih Politika Bilimi, İletişim Bilimleri, Eğitim Bilimleri, Hukuk Bilimi",
+      "nodeIcon": "https://statukodergisi.wordpress.com/wp-content/uploads/2024/02/cropped-sunu_003-1.jpg"
+    }
+  },
+  "error": null
+}

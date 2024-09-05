@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-mashiro.8",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 902,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 754242,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みすほわいと",
+      "nodeDescription": "『みすほわいと』は、ユーザーが自由に利用できる、汎用Misskeyサーバーです。\nローカルTLが無効化されており、身内感なく利用できます。\n\nみすほわいとで思い思いのMisskeyライフを過ごしてください！",
+      "nodeAdmins": [
+        {
+          "name": "AyumuNekozuki",
+          "email": "https://prof.nekozuki.me/"
+        }
+      ],
+      "maintainer": {
+        "name": "AyumuNekozuki",
+        "email": "https://prof.nekozuki.me/"
+      },
+      "langs": [],
+      "tosUrl": "https://mi-mashiro-site.notion.site/f2b403563fcf41949875808e81647f58",
+      "privacyPolicyUrl": "https://mi-mashiro-site.notion.site/01804be7e1a5437381ce0b2040aadbcb",
+      "inquiryUrl": "https://prof.nekozuki.me",
+      "impressumUrl": "https://prof.nekozuki.me/",
+      "repositoryUrl": "https://github.com/AyumuNekozuki/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy2",
+      "themeColor": "#ae9c9b"
+    }
+  },
+  "error": null
+}

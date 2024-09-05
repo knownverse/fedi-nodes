@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 44,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kit Author &amp; Charmed Chicken",
+      "nodeDescription": "a multi-genre author of fantasy, queer equestrian, and YA + they make soap &amp; jewelry",
+      "nodeIcon": "https://kitauthor.com/wp-content/uploads/2023/06/cropped-muse-happens-pegasus-transparent.png"
+    }
+  },
+  "error": null
+}

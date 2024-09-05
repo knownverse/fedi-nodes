@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3652,
+      "localComments": 1735
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "PUGLIA D&#039;AMARE QUOTIDIANO  ",
+      "nodeDescription": "Diretto da Crescenza Caradonna",
+      "nodeIcon": "https://daamarepuglia.wordpress.com/wp-content/uploads/2022/10/img_20221027_205700_872.webp"
+    }
+  },
+  "error": null
+}

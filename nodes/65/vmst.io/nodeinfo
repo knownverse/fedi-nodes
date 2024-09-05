@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2351,
+        "activeMonth": 376,
+        "activeHalfyear": 619
+      },
+      "localPosts": 292929
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "vmst·io",
+      "nodeDescription": "vmst·io is Mastodon for technologists, geeks, and nerds of every type and stripe. Highly available, well federated, and community minded."
+    }
+  },
+  "error": null
+}

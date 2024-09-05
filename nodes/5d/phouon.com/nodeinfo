@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 32,
+        "activeMonth": 0,
+        "activeHalfyear": 2
+      },
+      "localPosts": 240
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Phouon",
+      "nodeDescription": "PHỐ UÔN: TIỀN KHÔNG NGỦ\r\n#Phouon chào đón những người tìm hiểu kiến thức tài chính, thích đầu tư, đam mê đầu tư và tất cả những gì liên quan đến đầu tư tài chính."
+    }
+  },
+  "error": null
+}

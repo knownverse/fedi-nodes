@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 1018
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "MBE.tv Microblog",
+      "nodeDescription": "This is the official Markley Bros. Entertainment microblog. Check out our web site at MBE.tv!"
+    }
+  },
+  "error": null
+}

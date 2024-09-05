@@ -1,0 +1,81 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.700-m544",
+      "repository": "https://github.com/leies-202/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeHalfyear": 6,
+        "activeMonth": 4
+      },
+      "localPosts": 171324,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "れいすきー",
+      "nodeDescription": "※招待コードは知人(Discordとかでよくお話する人)やニコ厨なら多分投げます。\n\n\n[メンテ時とかはこの垢](https://fedibird.com/@lei202)　[Uptime](https://status.lei202.com/)\n\n\n規約≒管理者",
+      "name": "れいすきー",
+      "description": "※招待コードは知人(Discordとかでよくお話する人)やニコ厨なら多分投げます。\n\n\n[メンテ時とかはこの垢](https://fedibird.com/@lei202)　[Uptime](https://status.lei202.com/)\n\n\n規約≒管理者",
+      "maintainer": {
+        "name": "lei202",
+        "email": ""
+      },
+      "langs": [
+        "Japanese"
+      ],
+      "announcements": [
+        {
+          "title": "パスワードリセット(メールアドレス設定)について",
+          "text": "適当アドレスだからか高確率で迷惑メール行きになるので届いていないと思ったら迷惑メールフォルダをご確認ください。"
+        },
+        {
+          "title": "新サーバー！",
+          "text": "遂にストレージがどうあがいても足りない状況になってしまったので、ConoHaに別れを告げ突貫作業でさくらのVPSに移行しました。"
+        },
+        {
+          "title": "りようきやく",
+          "text": "少なくとも日本の法律は守ってください。<br>見るからに変なこと(スパムとかスパムとかスパムとかスパムとかスパムとか)しなければまずは管理者からツッコミが入るのでそこで初めてあ～ダメなんだなと思っといてください。"
+        },
+        {
+          "title": "MFMチートシート",
+          "text": "<a href=\"https://mk.lei202.com/mfm-cheat-sheet/\"><font face=\"cursive\">https://mk.lei202.com/mfm-cheat-sheet/</font></a>"
+        },
+        {
+          "title": "要望関係",
+          "text": "管理者○○してくれよって案件あったら直でDMか #れいすきー要望 タグでも使ってください。<br>\nMisskey改造関係はテーマ以外はめいすきーから手を付けてないので、私に言っても(よほど軽微な改造内容でもない限り)意味無いです。すまん。"
+        }
+      ],
+      "relayActor": "https://mk.lei202.com/users/5f812e227deef672d7dd5975",
+      "relays": [
+        "masmis-search.ja-jp.org",
+        "hashtag-relay.dtp-mstdn.jp"
+      ],
+      "disableRegistration": true,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 5000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Proxy"
+    }
+  },
+  "error": null
+}

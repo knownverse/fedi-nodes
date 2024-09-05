@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 37,
+        "activeHalfyear": 36
+      },
+      "localPosts": 567,
+      "localComments": 75
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Madison Bikes",
+      "nodeDescription": "... where anyone can ride a bicycle conveniently and comfortably to any place year round.",
+      "nodeIcon": "https://i0.wp.com/www.madisonbikes.org/wp-content/uploads/2020/05/cropped-MB_favicon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

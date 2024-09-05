@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 69,
+      "localComments": 119
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fahrradstadt.ms",
+      "nodeDescription": "Damit Münster sich dreht",
+      "nodeIcon": "https://fahrradstadt.ms/wp-content/uploads/2018/01/cropped-Logo_Quadrat_schwarz.png"
+    }
+  },
+  "error": null
+}

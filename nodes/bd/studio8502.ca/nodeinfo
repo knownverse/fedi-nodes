@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20675
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Studio 8502",
+      "nodeDescription": "The Mastodon instance of Studio 8502"
+    }
+  },
+  "error": null
+}

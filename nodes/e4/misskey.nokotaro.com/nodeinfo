@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.9.3",
+      "homepage": "https://github.com/syuilo/misskey",
+      "repository": "https://github.com/syuilo/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 502834,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "のこたろハウス",
+      "nodeDescription": "@takenoko@misskey.nokotaro.com の個人用サーバー。新規登録は受け付けていませんが、リモートサーバーからのフォローは大歓迎です。",
+      "maintainer": {
+        "name": "takenoko",
+        "email": "dummy@mail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#c9cc14"
+    }
+  },
+  "error": null
+}

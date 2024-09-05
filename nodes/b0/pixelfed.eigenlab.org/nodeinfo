@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "pixelfed.eigenlab.org",
+      "software": {
+        "homepage": "https://pixelfed.org",
+        "repo": "https://github.com/pixelfed/pixelfed"
+      },
+      "config": {
+        "open_registration": false,
+        "uploader": {
+          "max_photo_size": "50000",
+          "max_caption_length": "150",
+          "album_limit": "4",
+          "image_quality": 80,
+          "max_collection_length": 18,
+          "optimize_image": true,
+          "optimize_video": true,
+          "media_types": "image/jpeg,image/png,video/mp4",
+          "enforce_account_limit": true
+        },
+        "activitypub": {
+          "enabled": true,
+          "remote_follow": true
+        },
+        "ab": {
+          "lc": false,
+          "rec": false,
+          "loops": false,
+          "top": false
+        },
+        "site": {
+          "name": "eigenPixelfed",
+          "domain": "pixelfed.eigenlab.org",
+          "url": "https://pixelfed.eigenlab.org",
+          "description": null
+        },
+        "username": {
+          "remote": {
+            "formats": [
+              "@",
+              "from",
+              "custom"
+            ],
+            "format": "@",
+            "custom": null
+          }
+        },
+        "features": {
+          "mobile_apis": false,
+          "circles": false,
+          "stories": false,
+          "video": true,
+          "import": {
+            "instagram": false,
+            "mastodon": false,
+            "pixelfed": false
+          },
+          "label": {
+            "covid": {
+              "enabled": true,
+              "org": "visit the WHO website",
+              "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+            }
+          }
+        }
+      }
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pixelfed",
+      "version": "0.10.10"
+    },
+    "usage": {
+      "localPosts": 165,
+      "localComments": 0,
+      "users": {
+        "total": 5,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "version": "2.0",
+    "openRegistrations": false
+  },
+  "error": null
+}

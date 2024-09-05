@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 39,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ramblings of a Stoner",
+      "nodeDescription": "Shit I say when stoned",
+      "nodeIcon": "https://i0.wp.com/stonerramblings.com/wp-content/uploads/2024/05/img-weehaazjzwljxfmlqefgscdt.png?fit=1024%2C1024&ssl=1"
+    }
+  },
+  "error": null
+}

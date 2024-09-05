@@ -1,0 +1,224 @@
+{
+  "success": true,
+  "data": {
+    "uri": "mstdn.delmulin.com",
+    "title": "デルムリン丼",
+    "short_description": "「ドラゴンクエスト ダイの大冒険」のファンの為のサーバーです。\r\n（電気通信事業者 A-01-17291）\r\n",
+    "description": "デルムリン丼は、「ドラゴンクエスト ダイの大冒険」のファンの為の非公式Mastodonインスタンスです。<br>\r\n同作品のファンであればどなたでも参加することが出来ますので、お気軽にご利用ください。<br>\r\n<br>\r\n参加する前に、以下を確認してください。<br>\r\n<a href=\"https://blog.delmulin.com/categories/新規さん向け\" target=\"_blank\">https://blog.delmulin.com/categories/新規さん向け</a><br>\r\n<br>Since: 2021/03/14",
+    "email": "support@delmulin.com",
+    "version": "2.0",
+    "urls": {
+      "streaming_api": "wss://mstdn.delmulin.com"
+    },
+    "stats": {
+      "user_count": 17,
+      "status_count": 32355,
+      "domain_count": 7026
+    },
+    "thumbnail": "https://mstdn.delmulin.com/packs/media/images/preview-6399aebd96ccf025654e2977454f168f.png",
+    "languages": [
+      "en"
+    ],
+    "registrations": true,
+    "approval_required": true,
+    "invites_enabled": true,
+    "configuration": {
+      "accounts": {
+        "max_featured_tags": 10
+      },
+      "statuses": {
+        "max_characters": 2000,
+        "max_media_attachments": 4,
+        "characters_reserved_per_url": 23
+      },
+      "media_attachments": {
+        "supported_mime_types": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/heic",
+          "image/heif",
+          "image/webp",
+          "image/avif",
+          "video/webm",
+          "video/mp4",
+          "video/quicktime",
+          "video/ogg",
+          "audio/wave",
+          "audio/wav",
+          "audio/x-wav",
+          "audio/x-pn-wave",
+          "audio/vnd.wave",
+          "audio/ogg",
+          "audio/vorbis",
+          "audio/mpeg",
+          "audio/mp3",
+          "audio/webm",
+          "audio/flac",
+          "audio/aac",
+          "audio/m4a",
+          "audio/x-m4a",
+          "audio/mp4",
+          "audio/3gpp",
+          "video/x-ms-asf"
+        ],
+        "image_size_limit": 16777216,
+        "image_matrix_limit": 33177600,
+        "video_size_limit": 103809024,
+        "video_frame_rate_limit": 120,
+        "video_matrix_limit": 8294400
+      },
+      "polls": {
+        "max_options": 10,
+        "max_characters_per_option": 50,
+        "min_expiration": 300,
+        "max_expiration": 2629746
+      }
+    },
+    "contact_account": {
+      "id": "1",
+      "username": "pooza",
+      "acct": "pooza",
+      "display_name": "ぷーざ＠デルムリン丼",
+      "locked": false,
+      "bot": false,
+      "discoverable": true,
+      "group": false,
+      "created_at": "2021-03-13T00:00:00.000Z",
+      "note": "<p>デルパ！イルイル！初回から原作最終回まで、リアルタイムに追い続けた者です。</p><p>■推し<br />連載当時は <a href=\"https://mstdn.delmulin.com/tags/%E3%83%9E%E3%82%A1%E3%83%A0\" class=\"mention hashtag\" rel=\"tag\">#<span>マァム</span></a> の色香にまどわされていました。特に転職後。<br />一方、新アニメは <a href=\"https://mstdn.delmulin.com/tags/%E3%83%AC%E3%82%AA%E3%83%8A\" class=\"mention hashtag\" rel=\"tag\">#<span>レオナ</span></a> の美少女っぷりがやばいですね。早見さんがすごいはまり役。<br />推しはこの二人ということにしておきます。</p><p>■当面のダイ活</p><p>- エア番組実況<br />「番組の放送が継続していた」テイで、土曜日9:30のあの時間に、独自の実況を行っています。<br />-  <a href=\"https://mstdn.delmulin.com/tags/%E7%8D%84%E7%82%8E%E3%81%AE%E9%AD%94%E7%8E%8B\" class=\"mention hashtag\" rel=\"tag\">#<span>獄炎の魔王</span></a> は当然追いかけています。<br />- <span class=\"h-card\" translate=\"no\"><a href=\"https://mstdn.delmulin.com/@hadlarbot\" class=\"u-url mention\">@<span>hadlarbot</span></a></span> の調教。現在進捗、75%程度。<br />- <a href=\"https://mstdn.delmulin.com/tags/DQ%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF\" class=\"mention hashtag\" rel=\"tag\">#<span>DQウォーク</span></a> ダイ大コラボは終わってしまいましたが、てんさいろうという名前で遊んでいます。（低浮上気味）</p><p>このアカウントからは原則的に、ダイ大の話題がある方をフォローします。<br />フォローを頂いた場合、フォローバックは美食丼の本垢から行う場合があります。</p><p>最後ですが、このインスタンスの鯖缶です。<br />どうぞよろしく。<br /><a href=\"https://mstdn.delmulin.com/tags/%E5%AE%9F%E6%B3%81%E9%83%A8\" class=\"mention hashtag\" rel=\"tag\">#<span>実況部</span></a> <a href=\"https://mstdn.delmulin.com/tags/%E6%AD%A6%E9%97%98%E5%AE%B6%E3%81%AB%E8%BB%A2%E8%81%B7%E3%81%97%E3%81%9F%E3%83%9E%E3%82%A1%E3%83%A0%E3%81%AB%E3%81%B6%E3%82%93%E6%AE%B4%E3%82%89%E3%82%8C%E9%9A%8A\" class=\"mention hashtag\" rel=\"tag\">#<span>武闘家に転職したマァムにぶん殴られ隊</span></a></p>",
+      "url": "https://mstdn.delmulin.com/@pooza",
+      "uri": "https://mstdn.delmulin.com/users/pooza",
+      "avatar": "https://mstdn.delmulin.com/accounts/avatars/000/000/001/original/143cac8b150188c6.jpeg",
+      "avatar_static": "https://mstdn.delmulin.com/accounts/avatars/000/000/001/original/143cac8b150188c6.jpeg",
+      "header": "https://mstdn.delmulin.com/accounts/headers/000/000/001/original/cb9776b9db1197b8.jpeg",
+      "header_static": "https://mstdn.delmulin.com/accounts/headers/000/000/001/original/cb9776b9db1197b8.jpeg",
+      "followers_count": 53,
+      "following_count": 27,
+      "statuses_count": 10860,
+      "last_status_at": "2024-09-02",
+      "noindex": false,
+      "emojis": [],
+      "roles": [
+        {
+          "id": "3",
+          "name": "Admin",
+          "color": "#000000"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Keyoxide",
+          "value": "<a href=\"https://keyoxide.org/hkp/D7467BB6F293BDF51E738BD97D1F5AE8185B9045\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">keyoxide.org/hkp/D7467BB6F293B</span><span class=\"invisible\">DF51E738BD97D1F5AE8185B9045</span></a>",
+          "verified_at": "2021-09-21T02:42:38.189+00:00"
+        },
+        {
+          "name": "美食丼（本垢）",
+          "value": "<a href=\"https://mstdn.b-shock.org/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mstdn.b-shock.org/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2021-03-23T23:54:44.086+00:00"
+        },
+        {
+          "name": "キュアスタ！",
+          "value": "<a href=\"https://precure.ml/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">precure.ml/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2021-03-23T23:58:15.011+00:00"
+        },
+        {
+          "name": "Annict",
+          "value": "<a href=\"https://annict.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">annict.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "DQウォーク",
+          "value": "てんさいろう 0ohy a5s8 zr1f",
+          "verified_at": null
+        },
+        {
+          "name": "GitHub",
+          "value": "<a href=\"https://github.com/pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-02-02T03:03:23.595+00:00"
+        },
+        {
+          "name": "ダイスキー",
+          "value": "<a href=\"https://misskey.delmulin.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.delmulin.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-02-28T23:19:38.245+00:00"
+        },
+        {
+          "name": "きゅあすきー",
+          "value": "<a href=\"https://mk.precure.fun/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mk.precure.fun/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-05-07T09:38:43.180+00:00"
+        },
+        {
+          "name": "lit.link",
+          "value": "<a href=\"https://lit.link/pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">lit.link/pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        }
+      ]
+    },
+    "rules": [
+      {
+        "id": "1",
+        "text": "「ドラゴンクエスト ダイの大冒険」への愛があることは、参加のそもそもの前提とさせて頂きます。"
+      },
+      {
+        "id": "3",
+        "text": "規約にもある通り、投稿の著作権は本人にあります。当然ながら、不適切な投稿の責任も本人が持つものとします。"
+      },
+      {
+        "id": "5",
+        "text": "大事なお知らせを伝えることがある「お知らせボット」へのフォローを外すことは出来ません。外しても、数分後にフォローが復活します。"
+      }
+    ],
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.12"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeMonth": 9,
+        "activeHalfyear": 12
+      },
+      "localPosts": 32355
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "デルムリン丼",
+      "maintainer": {
+        "name": "ぷーざ＠デルムリン丼",
+        "email": "support@delmulin.com"
+      }
+    },
+    "mulukhiya": {
+      "package": {
+        "authors": [
+          "Tatsuya Koishi"
+        ],
+        "description": "各種ActivityPub対応インスタンスへの投稿に対して、内容の更新等を行うプロキシ。通称「モロヘイヤ」。",
+        "email": [
+          "tkoishi@b-shock.co.jp"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/pooza/mulukhiya-toot-proxy",
+        "version": "4.32.3"
+      },
+      "config": {
+        "controller": "mastodon",
+        "status": {
+          "spoiler": {
+            "text": null,
+            "emoji": "netabare",
+            "shortcode": ":netabare:"
+          },
+          "default_hashtag": "#delmulin"
+        }
+      }
+    }
+  },
+  "error": null
+}

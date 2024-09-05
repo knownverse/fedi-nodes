@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Westhampton Beach St. Patrick&#039;s Day Parade",
+      "nodeDescription": "Saturday, March 15, 2025! Erin go Braugh!",
+      "nodeIcon": "https://whbstpats.com/wp-content/uploads/2022/02/cropped-xyz.png"
+    }
+  },
+  "error": null
+}

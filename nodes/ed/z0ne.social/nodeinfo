@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "foundkey",
+      "version": "13.0.0-preview6",
+      "repository": "https://akkoma.dev/FoundKeyGang/FoundKey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 20141,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "z0ne social",
+      "nodeDescription": "My soviet yunun",
+      "maintainer": {
+        "name": "Kura",
+        "email": "me@kurabloodlust.eu"
+      },
+      "langs": [],
+      "tosUrl": "https://z0ne.social/@kura/pages/1643050595748",
+      "repositoryUrl": "https://akkoma.dev/FoundKeyGang/FoundKey",
+      "feedbackUrl": "https://akkoma.dev/FoundKeyGang/FoundKey/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300",
+      "activeWebhooks": 0
+    }
+  },
+  "error": null
+}

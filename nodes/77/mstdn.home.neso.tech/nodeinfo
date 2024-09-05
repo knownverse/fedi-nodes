@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+nesotech-20240805"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 1,
+        "activeHalfyear": 3
+      },
+      "localPosts": 123101
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "ホムテチ🏠",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

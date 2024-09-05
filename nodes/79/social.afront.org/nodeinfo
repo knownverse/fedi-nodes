@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeMonth": 24,
+        "activeHalfyear": 29
+      },
+      "localPosts": 35057
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "A Social Front Organization",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

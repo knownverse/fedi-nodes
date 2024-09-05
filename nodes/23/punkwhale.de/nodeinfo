@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://punkwhale.de/federation/actors/service",
+      "private": true,
+      "shortDescription": "Für Punks, Hörer und Menschen.",
+      "longDescription": "Idee\r\n\r\nVon Punks - für Punks, Hörer & Menschen.\r\nEine Idee von Funkfabrik B (RIP?), bekannt von früher (2006-?) und aus Funk (Podcasts) & Radio ([Pi Radio – Freies Radio Berlin](https://piradio.de/)).\r\n\r\nBandcamp [schafft sich ab](https://archive.ph/vkj58), spotify [beutet (dich) aus](https://www.heise.de/news/Spotify-schliesst-kleine-Kuenstler-und-White-Noise-von-Einnahmen-aus-9344679.html). \r\nSiehe auch: [BR Doku-Reihe](https://www.ardmediathek.de/serie/dirty-little-secrets/staffel-1/Y3JpZDovL2JyLmRlL2Jyb2FkY2FzdFNlcmllcy85N2Q4ZmY0YS0yNDczLTRjYmItOTZhYi02Y2Q2NzQzY2NhMWE/1), [ARTE Tracks](https://yewtu.be/watch?v=Kqlc8LUEq00) \r\n\r\nDie Idee ist es, dass sich Bands und Fans über eine gemeinsame Funkwhale-Instanz vernetzen (und mit anderen, hallo Fediverse). Songs oder Podcasts hochladen, Songs oder Podcasts hören, Playlists erstellen und allen alles zeigen.\r\n\r\nIn unserer Welt wären dann Links auf Flyern, Newslettern und Chats zu bandcamp, spotify, Meta (Instagram, Facebook, Threads, WhatsApp), 𝕏chan, Bluesky (\"Twitter2\" in blau) etc. Geschichte und wesentlich datenschutzfreundlicher und unabhängiger von den kapitalistischen Plattformen. 🚬\r\n\r\nDie GEMA hat Hausverbot. Aus diversen Gründen (Geld) können wir nur Bands aufnehmen, die keine GEMA-Mitglieder o.ä. sind. Auch wenn dann ggf. \"headliner\" für die allgemeine Verbreitung fehlen.\r\n\r\nGeld wird hier allerdings kein Mensch verdienen - weder die Plattformbetreibenden, noch die Bands durch Verkäufe von mp3s. Das bietet Funkwhale (leider noch(?)) nicht.",
+      "contactEmail": "punk@punkwhale.de",
+      "nodeName": "Punkwhale",
+      "banner": "https://punkwhale.de/media/dynamic_preferences/instance__banner/janabanner_Vn6xBQZ.png",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": true,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "Du hast auch etwas Ahnung von Punk, Auflagen (GEMA), Funkwhale, Linux-Server oder sonstiger Moderation? Und auch Lust? Schreib an punk@punkwhale.de",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1
+          }
+        },
+        "listenings": {
+          "total": 16
+        },
+        "downloads": {
+          "total": 109
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 6
+        },
+        "artists": {
+          "total": 2
+        },
+        "albums": {
+          "total": 3
+        },
+        "music": {
+          "hours": 0.16666666666666666
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "### 1 Gegen Hassrede\r\nPunkwhale ist ein Raum gegen Sexismus, LGBT-Q-Phobie, Rassismus, Faschismus, Nationalismus und Antisemitismus! No flags, no masters, no Mackers!\r\n\r\n### 2 GEMA Hausverbot\r\nKein Platz für GEMA-Mitglieder, sorry zu teuer. \r\nKeine Werke, die unter eine kommerziellen Lizenz angemeldet sind.\r\nAlle Songs und Podcasts auf Funkwhale sind laut Creative Commons oder ohne Lizenz hörbar und kostenlos herunterladbar, weil wir glauben, dass Musik für alle anderen Künste kostenlos und zugänglich sein muss.\r\n\r\n### 3 Kein Kommerzpunk\r\nKein gewerblicher Inhalt: Werbung ist verboten. Spenden- oder Kreationen, die durch Zuschüsse oder Crowdfunding finanziert werden, werden geduldet.\r\n\r\n### 4 Rücksicht\r\n\"Not Safe For Work\" (NSFW) sensibler Inhalt soll entsprechend markiert werden. Bitte beachtet den Punkt 1.\r\n\r\n### 5 Datenschutz\r\nKeine Erhebung oder Analyse persönlicher Daten.\r\n\r\n### 6 Eigenverantwortung\r\nAlle KünstlerInnen von Punkwhale sind für den veröffentlichten Inhalt verantwortlich.\r\n\r\n### 7 Moderation\r\nAlle Entscheidungen über den veröffentlichten Inhalt bleiben dem Ermessen der Administratoren und Moderatoren von Punkwhale überlassen.\r\n\r\n+++ +++ +++\r\nenglish:\r\n\r\n### 1 Against hate speech\r\nPunkwhale is a space against sexism, LGBT-Q-phobia, racism, fascism, nationalism, and antisemitism! No flags, no masters, no Mackers!\r\n\r\n### 2 GEMA go home\r\nNo place for GEMA members, sorry, too expensive. No works registered under a commercial license. All songs and podcasts on Funkwhale are accessible and free to download under Creative Commons or without any license because we believe that music, like all other arts, should be free and accessible to everyone.\r\n\r\n### 3 no sell out\r\nNo commercial content: Advertising is prohibited. Donations or creations funded through grants or crowdfunding are tolerated.\r\n\r\n### 4 considerate\r\n\"Not Safe For Work\" (NSFW) sensitive content should be appropriately marked. Please consider point 1.\r\n\r\n### 5 privacy\r\nNo collection or analysis of personal data.\r\n\r\n### 6 responsibility\r\nAll artsits of Punkwhale are responsible for the content they publish.\r\n\r\n### 7 moderation\r\nAll decisions regarding published content are at the discretion of Punkwhale administrators and moderators.",
+      "terms": "Punkwhale ist eine Plattform zur Unterstützung der digitalen Musikverteilung für kleine Plattenfirmen, Distributionen, KünstlerInnen, Gruppen und aufstrebende Kollektive im Aggregat- und Verbundmodus.\r\n\r\nEs ist möglich, Podcasts und freie Musik bis zu 1 GB (vorerst) kostenlos hochzuladen.\r\n\r\nDie Instanz punkwhale.de zeigt keine Werbung an, erstellt keine Tracking-Informationen und Tracking-Cookies.\r\nDas Copyright jedes Tracks ist Eigentum der jeweiligen KünstlerInnen. In jedem anderen Fall ist die Lizenz, die als angewandt zu gelten gilt, Creative Commons  [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de).\r\n\r\nPunkwhale moderiert diese Seite und behält sich jedes Recht vor, Inhalte zurückzuziehen, die nicht dem Verhaltenskodex und den Nutzungsbedingungen entsprechen.\r\n\r\nBitte kontaktiert die Mods bei Anfragen oder Meldungen von Inhalten (geistiges Eigentumsrecht, Bildrecht, Urheberrechtsverletzung oder Konflikte mit Regel 1),\r\n\r\nAlle Kommentare oder Inhalte, die gegen unsere Nutzungsbedingungen oder Verhaltenskodex verstoßen, werden eventuell ohne vorherige Mitteilung gelöscht. Zögert nicht, die Mods zu kontaktieren, um problematische Inhalte zu melden. Das hilft uns und der Punkrockgemeinde.\r\n\r\nBanner von [Jana Borsche](https://janaborsche.1100101.de/)"
+    }
+  },
+  "error": null
+}

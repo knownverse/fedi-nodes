@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 102,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ponnuki Paderborn",
+      "nodeDescription": "Go spielen in Paderborn",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

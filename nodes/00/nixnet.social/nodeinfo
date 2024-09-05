@@ -1,0 +1,549 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_hellthread": {
+          "delist_threshold": 50,
+          "reject_threshold": 100
+        },
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "helladoge.com",
+            "solagg.com",
+            "poa.st",
+            "kiwifarms.cc",
+            "gleasonator.com",
+            "hunk.city",
+            "monads.online",
+            "ryona.agency",
+            "threads.net",
+            "spinster.xyz",
+            "freespeechextremist.com",
+            "rage.lol",
+            "pisskey.io",
+            "detroitriotcity.com",
+            "chudbuds.lol",
+            "shortstackran.ch",
+            "eientei.org",
+            "yggdrasil.social",
+            "sho**.**use",
+            "pos****.*******.**cks",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "mastodong.lol",
+            "activitypub-troll.cf",
+            "seal.cafe",
+            "bae.st",
+            "activitypub-proxy.cf",
+            "mastinator.com",
+            "pl.kitsunemimi.club",
+            "nicecrew.digital",
+            "mostr.pub",
+            "pleroma.nobodyhasthe.biz",
+            "workers.dev",
+            "github.dev",
+            "leafposter.club",
+            "noagendasocial.com",
+            "clew.lol",
+            "decayable.ink",
+            "banepo.st",
+            "poast.org",
+            "poster.place",
+            "cum.salon",
+            "sneed.social",
+            "toot.vinzant.me",
+            "var*********.net",
+            "pleroma.mercurial.blog",
+            "boymoder.biz",
+            "starnix.network",
+            "shitpost.cloud",
+            "ak.kyaruc.moe",
+            "iddqd.social",
+            "furcel.club",
+            "frennet.xyz",
+            "beefyboys.win",
+            "write.allships.run",
+            "gam********.*lub",
+            "clubcyberia.co",
+            "moa*.*******.xyz",
+            "strelizia.net",
+            "cum.camp",
+            "pleroma.adachi.party",
+            "fluf.club",
+            "glee.li",
+            "you**.*ove",
+            "fre**.*******ity",
+            "ped*.***ool",
+            "wolfgirl.bar",
+            "срёт.онлайн",
+            "lol****.top",
+            "lol****.****ork",
+            "ghe***.****ter",
+            "rot.**ves",
+            "whi*******.dog",
+            "nni*.**ace",
+            "mon*.**.*****ess",
+            "nya.********.moe",
+            "rap*****.****ess",
+            "bar***.net",
+            "umbrellix.org",
+            "cas*****.**use"
+          ],
+          "media_removal": [
+            "paw**.net"
+          ],
+          "media_nsfw": [
+            "sinblr.com",
+            "my.dirtyhobby.xyz",
+            "xxxtumblr.org",
+            "anime.website"
+          ],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances": [],
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "AntiFollowbotPolicy",
+          "EnsureRePrepended",
+          "ForceBotUnlistedPolicy",
+          "HellthreadPolicy",
+          "NoPlaceholderTextPolicy",
+          "SimplePolicy",
+          "RejectNewlyCreatedAccountNotesPolicy",
+          "AntiLinkSpamPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "mostr.pub": {
+              "reason": "Nostr (ew) relay, no moderation"
+            },
+            "ak.kyaruc.moe": {
+              "reason": "Toxic userbase"
+            },
+            "срёт.онлайн": {
+              "reason": "Admin is overtly transphobic"
+            },
+            "shortstackran.ch": {
+              "reason": "Lack of moderation, racism"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Malicious ActivityPub activities"
+            },
+            "bar***.net": {
+              "reason": "Lolicon violates rule 5"
+            },
+            "starnix.network": {
+              "reason": "Harassment"
+            },
+            "mastinator.com": {
+              "reason": "Republishes posts"
+            },
+            "spinster.xyz": {
+              "reason": "Transphobia is \"being a jerk\" which violates rule 4"
+            },
+            "threads.net": {
+              "reason": "Fuck Zuck"
+            },
+            "clew.lol": {
+              "reason": "Toxic userbase"
+            },
+            "toot.vinzant.me": {
+              "reason": "Harassment"
+            },
+            "nicecrew.digital": {
+              "reason": "Racism"
+            },
+            "rage.lol": {
+              "reason": "Toxic userbase"
+            },
+            "sneed.social": {
+              "reason": "Toxic userbase"
+            },
+            "shitpost.cloud": {
+              "reason": "Toxic userbase"
+            },
+            "solagg.com": {
+              "reason": "Copious spam is \"being a jerk\" which violates rule 4"
+            },
+            "pleroma.adachi.party": {
+              "reason": "Explicitly advocates for racism, fascism, homophobia, transphobia, etc."
+            },
+            "fluf.club": {
+              "reason": "Transphobia"
+            },
+            "pleroma.mercurial.blog": {
+              "reason": "Transphobia"
+            },
+            "nni*.**ace": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "pos****.*******.**cks": {
+              "reason": "Lolicon violates rule 5"
+            },
+            "you**.*ove": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "monads.online": {
+              "reason": "Incessant harassment violates rule 4"
+            },
+            "github.dev": {
+              "reason": "Can be used for copious abuse"
+            },
+            "helladoge.com": {
+              "reason": "Copious spam is \"being a jerk\" which violates rule 4"
+            },
+            "ryona.agency": {
+              "reason": "Toxic userbase"
+            },
+            "mastodong.lol": {
+              "reason": "Malicious ActivityPub activities"
+            },
+            "cum.salon": {
+              "reason": "Toxic userbase"
+            },
+            "furcel.club": {
+              "reason": "Toxic userbase"
+            },
+            "leafposter.club": {
+              "reason": "Racism"
+            },
+            "boymoder.biz": {
+              "reason": "Toxic userbase"
+            },
+            "mon*.**.*****ess": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "freespeechextremist.com": {
+              "reason": "Lack of moderation, toxic userbase"
+            },
+            "rot.**ves": {
+              "reason": "Pro-pedophilia"
+            },
+            "moa*.*******.xyz": {
+              "reason": "Lolicon violates rule 5, racism"
+            },
+            "detroitriotcity.com": {
+              "reason": "Lack of moderation, toxic userbase"
+            },
+            "beefyboys.win": {
+              "reason": "Toxic userbase"
+            },
+            "gleasonator.com": {
+              "reason": "Transphobia and racism is \"being a jerk\" which violates rule 4"
+            },
+            "ghe***.****ter": {
+              "reason": "Pro-pedophilia"
+            },
+            "fre**.*******ity": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "pl.kitsunemimi.club": {
+              "reason": "Racism"
+            },
+            "lol****.****ork": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "gam********.*lub": {
+              "reason": "Lolicon violates rule 5, toxic userbase"
+            },
+            "seal.cafe": {
+              "reason": "Transphobia, extremely toxic userbase"
+            },
+            "sho**.**use": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "eientei.org": {
+              "reason": "Lack of moderation, racism"
+            },
+            "wolfgirl.bar": {
+              "reason": "Admin is overtly racist"
+            },
+            "rap*****.****ess": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "cum.camp": {
+              "reason": "Run by cum.salon admin after domain suspended"
+            },
+            "noagendasocial.com": {
+              "reason": "Toxic userbase"
+            },
+            "write.allships.run": {
+              "reason": "AI-generated spam"
+            },
+            "repl.co": {
+              "reason": "Can be used for copious abuse"
+            },
+            "bae.st": {
+              "reason": "Lack of moderation, toxic userbase"
+            },
+            "banepo.st": {
+              "reason": "Harassment"
+            },
+            "glee.li": {
+              "reason": "Racism"
+            },
+            "yggdrasil.social": {
+              "reason": "Racism, toxic userbase"
+            },
+            "decayable.ink": {
+              "reason": "Toxic userbase"
+            },
+            "whi*******.dog": {
+              "reason": "Pro-pedophilia"
+            },
+            "poa.st": {
+              "reason": "Repeated harassment targetting specific users violates rule 4"
+            },
+            "umbrellix.org": {
+              "reason": "Harassment and severe emotional abuse"
+            },
+            "frennet.xyz": {
+              "reason": "Toxic userbase"
+            },
+            "poster.place": {
+              "reason": "Toxic userbase"
+            },
+            "lol****.top": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "poast.org": {
+              "reason": "Toxic userbase"
+            },
+            "activitypub-troll.cf": {
+              "reason": "Malicious ActivityPub activities"
+            },
+            "kiwifarms.cc": {
+              "reason": "Repeated harassment targetting specific users violates rule 4"
+            },
+            "cas*****.**use": {
+              "reason": "Pedophilia"
+            },
+            "chudbuds.lol": {
+              "reason": "Trolls"
+            },
+            "clubcyberia.co": {
+              "reason": "Transphobia"
+            },
+            "ped*.***ool": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "hunk.city": {
+              "reason": "Copious spam is \"being a jerk\" which violates rule 4"
+            },
+            "iddqd.social": {
+              "reason": "Homophobia/transphobia"
+            },
+            "pisskey.io": {
+              "reason": "Run by poa.st admin"
+            },
+            "pleroma.nobodyhasthe.biz": {
+              "reason": "Racism"
+            },
+            "strelizia.net": {
+              "reason": "Racism"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "Block circumvention"
+            },
+            "nya.********.moe": {
+              "reason": "Openly pro-pedophilia"
+            },
+            "workers.dev": {
+              "reason": "Can be used for copious abuse"
+            },
+            "var*********.net": {
+              "reason": "Lolicon violates rule 5"
+            }
+          },
+          "media_removal": {
+            "paw**.net": {
+              "reason": "lolicon violates rule 5"
+            }
+          },
+          "media_nsfw": {
+            "anime.website": {
+              "reason": "NSFW content not marked as sensitive violates rule 1"
+            },
+            "my.dirtyhobby.xyz": {
+              "reason": "NSFW content not marked as sensitive violates rule 1"
+            },
+            "sinblr.com": {
+              "reason": "NSFW content not marked as sensitive violates rule 1"
+            },
+            "xxxtumblr.org": {
+              "reason": "NSFW content not marked as sensitive violates rule 1"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "merveilles.town",
+        "akko.wtf",
+        "fedi.absturztau.be",
+        "mk.absturztau.be",
+        "hat-eine.entenbru.st",
+        "mk.igwigg.space",
+        "mk.toast.cafe"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Friendly and moderated instance open to anyone as long as they're not an ass! Just don't forget to read the rules  😉",
+      "nodeName": "NixNet Social",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://nixnet.social/users/amolith"
+      ],
+      "uploadLimits": {
+        "general": 24000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 323,
+        "activeHalfyear": 52,
+        "activeMonth": 29
+      },
+      "localPosts": 28946
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

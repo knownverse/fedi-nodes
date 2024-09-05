@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 285,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Embrace Your Inner Light",
+      "nodeDescription": "Welcome to The Insightful Wanderer (Formerly Esoteric Echo), a sanctuary for seekers, dreamers, and those on a path of self-discovery. Here, we explore the mysteries of the universe, delve into the depths of our own consciousness, and uncover the transformative power of spiritual practices. Join us as we navigate the interconnectedness of mind, body, and spirit, and awaken to our true potential.",
+      "nodeIcon": "https://theesotericecho.com/wp-content/uploads/2024/06/image-1-2.png"
+    }
+  },
+  "error": null
+}

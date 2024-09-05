@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 634,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "pwp.space",
+      "nodeDescription": "这里是隶属于 pwp.app 的交流圈，内容以简体中文为主。\n我们欢迎您在和谐、平等、合规的基础上发表任何你想发表的内容。\n日常、技术、游戏、音乐、二次元...，主题不限，自由发挥。",
+      "nodeAdmins": [
+        {
+          "name": "BackRunner",
+          "email": "contact@pwp.space"
+        }
+      ],
+      "maintainer": {
+        "name": "BackRunner",
+        "email": "contact@pwp.space"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://github.com/backrunner/pwp.space",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/backrunner/pwp.space",
+      "feedbackUrl": "https://github.com/backrunner/pwp.space/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#3771ae"
+    }
+  },
+  "error": null
+}

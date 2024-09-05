@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1711,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1970564,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みすてむず　いず　みすきーしすてむず",
+      "nodeDescription": "主にITエンジニアを中心に人が集まるサーバー。話題はテーマフリーです。晩ごはんから仕事の話（NDAには注意）まで。<br>\n主な話題はプログラミングと仕事の悲喜こもごも、デバッグ、サーバー(物理)、ITニュース、大喜利、ごはん、もふもふ、ﾋﾟｷﾞﾓﾝｺﾞなど<br>\nチャンネル隔離の話題として賑わっているのは社会情勢、恋愛、ガキンチョ、おあーなどです。\n<br>\n<br>\nこのサーバーはおよそMisskeyのdevelop最新を追従します<br>\n<a href=\"https://misskey.systems/@nekokan/pages/1698475493592\">利用規約 Link</a>",
+      "nodeAdmins": [
+        {
+          "name": "ネコ缶",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ネコ缶",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.systems/@nekokan/pages/1698475493592",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#5D86DA"
+    }
+  },
+  "error": null
+}

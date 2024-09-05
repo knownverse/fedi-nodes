@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 34,
+        "activeMonth": 8,
+        "activeHalfyear": 12
+      },
+      "localPosts": 4899
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Catharsis",
+      "nodeDescription": "Cette instance est principalement destinée aux personnes intéressé⋅es par l'écriture, en priorité francophone"
+    }
+  },
+  "error": null
+}

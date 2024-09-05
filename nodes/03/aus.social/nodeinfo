@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 25271,
+        "activeMonth": 2790,
+        "activeHalfyear": 5236
+      },
+      "localPosts": 2571544
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Aus.Social",
+      "nodeDescription": "Welcome to thundertoot! A Mastodon Instance for the People."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 3,
+        "activeHalfyear": 5
+      },
+      "localPosts": 13471
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "meerjungfrauengrotte.de",
+      "nodeDescription": "Eine queerfreundliche Mastodon-Instanz für alle, die das Meer lieben."
+    }
+  },
+  "error": null
+}

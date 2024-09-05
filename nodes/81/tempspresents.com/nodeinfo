@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1066,
+      "localComments": 1057
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fragments sur les Temps Présents",
+      "nodeDescription": "#FTP ",
+      "nodeIcon": "https://tempspresents.com/wp-content/uploads/2023/04/cropped-ftp-1-e1682877009813.png"
+    }
+  },
+  "error": null
+}

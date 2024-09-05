@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 36,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pushakar Gaikwad",
+      "nodeDescription": "Software Developer, Blogger, Tech enthusiast",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

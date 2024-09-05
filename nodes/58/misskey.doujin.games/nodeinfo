@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0-doujin.1",
+      "homepage": "https://github.com/doujin-games/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1196,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 14813,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.doujin.games",
+      "nodeDescription": "misskey.doujin.games は同人ゲーム制作者と同人ゲーム愛好者のためのサーバーです。\n\nパブリック投稿はクリエイターにのみ許可されます。\n18歳未満の登録は禁止となっています。\n\nクリエイターロールの申請は下記にコメントをお願いします\n\n\nhttps://ci-en.net/creator/12715/article/993763\n",
+      "nodeAdmins": [
+        {
+          "name": "shun",
+          "email": "inazuma.assist@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "shun",
+        "email": "inazuma.assist@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.doujin.games/@root/pages/1698756448912",
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://ci-en.net/creator/12715",
+      "repositoryUrl": "https://github.com/doujin-games/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 101,
+      "localComments": 46
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mercurial Mind",
+      "nodeDescription": "The Sailor of thoughts",
+      "nodeIcon": "https://sriram711.wordpress.com/wp-content/uploads/2024/02/wp-1709026456453.jpg"
+    }
+  },
+  "error": null
+}

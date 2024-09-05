@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "project-alice",
+      "version": "0.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 32
+    },
+    "metadata": {
+      "siteName": "Project Alice",
+      "compatibleMastodonVersion": "2.0.0 (compatible; Project Alice 0.1.0)"
+    }
+  },
+  "error": null
+}

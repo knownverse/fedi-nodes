@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.700-m544",
+      "repository": "https://github.com/takusan23/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 504,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "たくさんの日記帳",
+      "nodeDescription": "右も左も分からないお一人様インスタンス。\n2023/07/08 から。いつまで続くかな。。。\n\nLTL の流れに乗れないのでお一人様を立てました・・・",
+      "name": "たくさんの日記帳",
+      "description": "右も左も分からないお一人様インスタンス。\n2023/07/08 から。いつまで続くかな。。。\n\nLTL の流れに乗れないのでお一人様を立てました・・・",
+      "maintainer": {
+        "name": "takusan_23",
+        "email": ""
+      },
+      "langs": [],
+      "announcements": [
+        {
+          "title": "右も左も分からないです、よろしくお願いいたします",
+          "text": "https://github.com/takusan23/misskey"
+        }
+      ],
+      "relayActor": null,
+      "relays": [],
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "maxNoteTextLength": 1000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null
+    }
+  },
+  "error": null
+}

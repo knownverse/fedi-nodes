@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "",
+        "name": "ちゃこる"
+      },
+      "nodeDescription": "✦ちゃこるの個人SNSサーバーです",
+      "nodeName": "Charcotte",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#66cdaa"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 7437,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 2,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

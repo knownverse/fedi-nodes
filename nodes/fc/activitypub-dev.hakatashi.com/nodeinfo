@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "activitypub-firebase",
+      "version": "1.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "nodeName": "博多市",
+      "name": "博多市"
+    }
+  },
+  "error": null
+}

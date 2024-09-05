@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 104,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "VRC CREATOR LOUNGE",
+      "nodeDescription": "VRC CREATOR LOUNGE에 오신 여러분 환영합니다!\nVRChat에서 이야기 하는 것도‚ 만드는 것도‚ 노는 것까지!\n이세계 크리에이터들과 함께 재밌게 즐겨주세요ǃ",
+      "nodeAdmins": [
+        {
+          "name": "ripLiNT",
+          "email": "creatorrin@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ripLiNT",
+        "email": "creatorrin@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://twitter.com/riplint",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "riplint",
+      "themeColor": "#1fa9ff"
+    }
+  },
+  "error": null
+}

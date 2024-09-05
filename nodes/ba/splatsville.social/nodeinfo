@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240405",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "homepage": "https://firefish.dev/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 64,
+        "activeHalfyear": 42,
+        "activeMonth": 21
+      },
+      "localPosts": 2509,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "splatsville.social",
+      "nodeDescription": "A Fediverse instance for Splatoon players to hang out, make friends, and talk about the game (or anything else they might like)!",
+      "maintainer": {
+        "name": "soap",
+        "email": "admin@splatsville.social"
+      },
+      "langs": [],
+      "tosUrl": "https://splatsville.social/@administrator/pages/rules",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "feedbackUrl": "https://firefish.dev/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "instance.actor",
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

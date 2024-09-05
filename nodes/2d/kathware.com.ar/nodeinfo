@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 55,
+      "localComments": 48
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KathWare",
+      "nodeDescription": "Entre algunos de los tipos de virus informáticos más conocidos se encuentran los Malware, Spyware, Adware y Ransomware. A continuación, les presentamos un nuevo tipo: el Kathware. A través de cuentos, canciones, historias, y otros tipos de contenidos literarios, y entre realidades, fantasías, sueños, y el enorme poder de la imaginación, este nuevo tipo de virus trastoca los discos rígidos de las mentes que se atreven a mirar más allá, utilizando el lenguaje de programación más poderoso de todos: La Palabra.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

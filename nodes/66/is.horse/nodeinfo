@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "name": ""
+      },
+      "nodeDescription": "horse",
+      "nodeName": "is.horse",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 3178,
+      "users": {
+        "activeHalfyear": 6,
+        "activeMonth": 3,
+        "total": 7
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

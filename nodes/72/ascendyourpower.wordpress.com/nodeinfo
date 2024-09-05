@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stacy Gutierrez",
+      "nodeDescription": "ascend your power and create your masterpiece.",
+      "nodeIcon": "https://ascendyourpower.wordpress.com/wp-content/uploads/2023/07/kin-kashi-owl-transparent-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kath Ede",
+      "nodeDescription": "Take Heed! You are now stepping into the alternate world of Kath Ede. Dystopian fiction, delving into society, culture, technology and law.",
+      "nodeIcon": "https://kathede.blog/wp-content/uploads/2024/06/kath-ede-watermark.jpg"
+    }
+  },
+  "error": null
+}

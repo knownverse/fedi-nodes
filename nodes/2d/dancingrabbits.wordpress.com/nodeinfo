@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Musings of the Chief Rabbit: Bonnie Parrish-Kell",
+      "nodeDescription": "Thoughts &amp; Opinions about Marketing, Branding, Social Media, and More from a Retired MarComm Professional",
+      "nodeIcon": "https://dancingrabbits.wordpress.com/wp-content/uploads/2024/06/cropped-wordpress-banner-for-misty-look-2-copy1.jpg"
+    }
+  },
+  "error": null
+}

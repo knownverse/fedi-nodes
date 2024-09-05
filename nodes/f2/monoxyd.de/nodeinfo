@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 211,
+      "localComments": 1741
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "monoxyd",
+      "nodeDescription": "saving the world, one mob at a time",
+      "nodeIcon": "https://monoxyd.de/wp-content/uploads/2023/01/cropped-lampe.quad_.jpg"
+    }
+  },
+  "error": null
+}

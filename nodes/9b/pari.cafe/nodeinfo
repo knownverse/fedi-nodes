@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0~pari",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 502,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 44342,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Pari ♥ Cafe",
+      "nodeDescription": "歡迎蒞臨Pari ♥ Cafe. <br />\nWelcome to Pari ♥ Cafe. <br />\nHave fun & Good luck  :D <br />\nPrefer ZH / EN",
+      "nodeAdmins": [
+        {
+          "name": "fly_mc",
+          "email": "i@pari.network"
+        }
+      ],
+      "maintainer": {
+        "name": "fly_mc",
+        "email": "i@pari.network"
+      },
+      "langs": [],
+      "tosUrl": "https://pari.cafe/@announcement/pages/1724557458281",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://pari.cafe/@fly_mc",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/paricafe/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "agent",
+      "themeColor": "#ffaac6"
+    }
+  },
+  "error": null
+}

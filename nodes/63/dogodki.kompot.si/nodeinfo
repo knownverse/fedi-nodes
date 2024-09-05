@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": " Prosto programska federirana storitev za objavljanje (antikapitalističnih) dogodkov, ki nadomešča zaprte platforme, kakršni sta meetup.com in facebookovi dogodki.",
+      "nodeName": "Dogodki kompot.si"
+    },
+    "usage": {
+      "users": {
+        "total": 47
+      },
+      "localComments": 67,
+      "localPosts": 191
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

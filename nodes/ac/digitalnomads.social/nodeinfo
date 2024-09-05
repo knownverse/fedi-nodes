@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.03-1557"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeHalfyear": 10,
+        "activeMonth": 8
+      },
+      "localPosts": 258,
+      "localComments": 124
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The Digital Nomads Fediverse Community",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

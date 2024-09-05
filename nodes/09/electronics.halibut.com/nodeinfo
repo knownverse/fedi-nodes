@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 18,
+      "localComments": 25
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Halibut Electronics",
+      "nodeDescription": "Makers of Fine Amateur Radio, and Audiophile, Electronics Since 2022",
+      "nodeIcon": "https://electronics.halibut.com/wp-content/uploads/2022/07/cropped-Fish-512x512-clear.gif"
+    }
+  },
+  "error": null
+}

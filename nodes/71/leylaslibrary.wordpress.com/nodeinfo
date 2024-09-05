@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Leyla&#039;s Library",
+      "nodeDescription": "Join Leyla in her book blog where she posts honest reviews about timeless fantasies, romance hits, gripping thrillers, and more!",
+      "nodeIcon": "https://leylaslibrary.wordpress.com/wp-content/uploads/2024/04/freelance-freelance-website-in-pink-white-blue-gradients-style.png"
+    }
+  },
+  "error": null
+}

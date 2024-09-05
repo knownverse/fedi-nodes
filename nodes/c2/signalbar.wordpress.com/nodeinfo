@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 93,
+      "localComments": 13
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SIGNAL BAR",
+      "nodeDescription": "trading dope from the mind of a speculator",
+      "nodeIcon": "https://signalbar.wordpress.com/wp-content/uploads/2023/10/signal-bar.jpeg"
+    }
+  },
+  "error": null
+}

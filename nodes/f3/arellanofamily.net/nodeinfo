@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Arellano Family Murders.",
+      "nodeDescription": "A blog about the 1968 massacre of the Arellano family in Edwards County, Texas. ",
+      "nodeIcon": "https://arellanofamily.net/wp-content/uploads/2023/12/cropped-f673b523c5430154b19f5b5391885dbf-1.jpg"
+    }
+  },
+  "error": null
+}

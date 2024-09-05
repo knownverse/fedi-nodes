@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Meill&#039;s Imprint: Leaving Words Behind",
+      "nodeDescription": "The journey through Technopreneurship",
+      "nodeIcon": "https://icblog81.wordpress.com/wp-content/uploads/2024/02/cropped-wallpapersden.com_small-memory_1920x1080.jpg"
+    }
+  },
+  "error": null
+}

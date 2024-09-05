@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KrautPress",
+      "nodeDescription": "KrautPress is a community project all about WordPress. Besides news about the content management system, connected software projects, especially projects of fellow community members, Meetups and WordCamps find a stage here.",
+      "nodeIcon": "https://kraut.press/wp-content/uploads/sites/2/2024/03/kp_favicon.png"
+    }
+  },
+  "error": null
+}

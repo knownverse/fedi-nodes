@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 132,
+      "localComments": 268
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FULLFLAME! Apenas para servir a Jesus Cristo!",
+      "nodeDescription": "Lagoinha Morro Alto | Vespasiano | Minas Gerais",
+      "nodeIcon": "https://fullflame.wordpress.com/wp-content/uploads/2024/01/logo_fullflame.png"
+    }
+  },
+  "error": null
+}

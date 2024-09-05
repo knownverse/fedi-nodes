@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Boogaloo Investigator",
+      "nodeDescription": "A music blog, focusing on 7&quot; records.",
+      "nodeIcon": "https://boogalooinvestigator.com/wp-content/uploads/2018/10/cropped-exotics_ren_label.jpg"
+    }
+  },
+  "error": null
+}

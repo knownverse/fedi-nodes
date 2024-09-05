@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mytinybookshelfs/ Reina Diaz illustrations",
+      "nodeDescription": "A cozy little nook for your everyday reads and art needs",
+      "nodeIcon": "https://i0.wp.com/mytinybookshelfs.com/wp-content/uploads/2023/10/cropped-cropped-copy-of-reinadiazlogotemplate-2.png?fit=300%2C300&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.badhouseplants.net/federation/actors/service",
+      "private": false,
+      "shortDescription": "...by allanger",
+      "longDescription": "Oi!\r\n\r\nThis is a Funkwhale pod managed by allanger. \r\n\r\nI'm aiming to create a public indie non-profit music library. If you were ever thinking that it sucks depending on big corporations like labels, distributors and streaming platforms, and you just want your music to be heard, email me, and we can figure out how to get your music released here",
+      "contactEmail": "allanger@zohomail.com",
+      "nodeName": "Bad Houseplants",
+      "banner": "https://funkwhale.badhouseplants.net/media/dynamic_preferences/instance__banner/header.png",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 172
+        },
+        "downloads": {
+          "total": 2519
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 139
+        },
+        "artists": {
+          "total": 13
+        },
+        "albums": {
+          "total": 40
+        },
+        "music": {
+          "hours": 8.558055555555555
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

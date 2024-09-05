@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 174,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3790,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "bsd.port.mk",
+      "nodeDescription": "Daemon-loving misskey instance.",
+      "nodeAdmins": [
+        {
+          "name": "rand",
+          "email": "random@chars.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "rand",
+        "email": "random@chars.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://misc.port.mk/terms",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#c378b9"
+    }
+  },
+  "error": null
+}

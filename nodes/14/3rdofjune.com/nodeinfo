@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 56
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "3rd of June",
+      "nodeDescription": "Releasing the splendor of June. Yes, again. Sue me.",
+      "nodeIcon": "https://3rdofjune.com/wp-content/uploads/2023/12/cropped-screenshot-2023-12-13-at-6.14.27e280afpm-2.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 591,
+      "localComments": 247
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vapolitique",
+      "nodeDescription": "Informations et réflexions sur la réduction des risques face au tabagisme",
+      "nodeIcon": "https://vapolitique.com/wp-content/uploads/2018/11/omega.png"
+    }
+  },
+  "error": null
+}

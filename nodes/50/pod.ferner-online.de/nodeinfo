@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.9.0.0-p94a72e11"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "Diaspora* Ferner",
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      }
+    }
+  },
+  "error": null
+}

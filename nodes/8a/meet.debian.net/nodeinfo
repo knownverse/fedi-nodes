@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "L'endroit idéal pour organiser des évènements autour de Debian France !",
+      "nodeName": "Mobilizon Debian France"
+    },
+    "usage": {
+      "users": {
+        "total": 885
+      },
+      "localComments": 0,
+      "localPosts": 710
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

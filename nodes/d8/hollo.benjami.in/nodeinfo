@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "$schema": "http://nodeinfo.diaspora.software/ns/schema/2.1#",
+    "version": "2.1",
+    "software": {
+      "name": "hollo",
+      "version": "0.1.0",
+      "repository": "https://github.com/dahlia/hollo"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {}
+  },
+  "error": null
+}

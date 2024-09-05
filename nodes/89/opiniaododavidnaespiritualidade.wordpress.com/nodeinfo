@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 51,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Opinião do David - Espiritualidade",
+      "nodeDescription": "Blog sem fins monetários em que David Telio Duarte posta estudos, interpretações e assuntos relacionados à espiritualidade em geral, tendo como base o Evangelho de Jesus Cristo sob a luz do Espiritismo. Em constante atualização.",
+      "nodeIcon": "https://opiniaododavidnaespiritualidade.wordpress.com/wp-content/uploads/2024/03/cropped-img_20220130_200955.jpg"
+    }
+  },
+  "error": null
+}

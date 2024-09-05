@@ -1,0 +1,137 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "media_proxy",
+        "chat",
+        "relay"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "humblr.social"
+          ],
+          "report_removal": []
+        },
+        "quarantined_instances": []
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "A Pleroma instance, an alternative fediverse server",
+      "nodeName": "ソーシャル／ゲロチンチン",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "amefuri",
+        "amefurifuri",
+        "ahe",
+        "gero",
+        "admin",
+        "idaox",
+        "aox"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.gerotintin.com/users/amane_natsuko",
+        "https://social.gerotintin.com/users/gerotintin",
+        "https://social.gerotintin.com/users/aheahead"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 500000,
+        "background": 1500000,
+        "banner": 1500000,
+        "general": 8000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.0.6-stable"
+    },
+    "usage": {
+      "localPosts": 811,
+      "users": {
+        "total": 7
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

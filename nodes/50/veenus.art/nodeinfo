@@ -1,0 +1,330 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "blockers_visible",
+        "media_proxy",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 10
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "HellthreadPolicy",
+          "AntiFollowbotPolicy",
+          "ObjectAgePolicy",
+          "StealEmojiPolicy",
+          "TagPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [
+            "switter.at",
+            "pawoo.net"
+          ],
+          "banner_removal": [
+            "switter.at"
+          ],
+          "federated_timeline_removal": [
+            "switter.at",
+            "tabletop.social",
+            "hellsite.site",
+            "mstdn.foxfam.club",
+            "mastodon.bida.im",
+            "mythago.space",
+            "pleroma.aspie.freemyip.com",
+            "lgbt.io",
+            "neurodiver.ge",
+            "rage.love",
+            "weirder.earth"
+          ],
+          "followers_only": [],
+          "media_nsfw": [
+            "baraag.net",
+            "anime.website",
+            "pawoo.net",
+            "stereophonic.space",
+            "mstdn.jp",
+            "poa.st",
+            "artalley.social",
+            "detroitriotcity.com"
+          ],
+          "media_removal": [],
+          "reject": [
+            "mapsupport.de",
+            "nnia.space",
+            "pedo.school",
+            "feral.cafe",
+            "childlove.space"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "avatar_removal": {
+            "pawoo.net": {
+              "reason": "CP avatars"
+            },
+            "switter.at": {
+              "reason": "NSFW avatars"
+            }
+          },
+          "banner_removal": {
+            "switter.at": {
+              "reason": "NSFW banners"
+            }
+          },
+          "federated_timeline_removal": {
+            "hellsite.site": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "lgbt.io": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "mastodon.bida.im": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "mythago.space": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "neurodiver.ge": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "pleroma.aspie.freemyip.com": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "rage.love": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "switter.at": {
+              "reason": "Untagged NSFW, spamminess"
+            },
+            "tabletop.social": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            },
+            "weirder.earth": {
+              "reason": "Instance blocked us, so we can't interact with their posts"
+            }
+          },
+          "media_nsfw": {
+            "anime.website": {
+              "reason": "Untagged NSFW"
+            },
+            "artalley.social": {
+              "reason": "Untagged NSFW"
+            },
+            "baraag.net": {
+              "reason": "Untagged NSFW"
+            },
+            "detroitriotcity.com": {
+              "reason": "Untagged NSFW"
+            },
+            "mstdn.jp": {
+              "reason": "Untagged NSFW"
+            },
+            "pawoo.net": {
+              "reason": "Untagged NSFW"
+            },
+            "poa.st": {
+              "reason": "Untagged NSFW"
+            },
+            "stereophonic.space": {
+              "reason": "Untagged NSFW"
+            }
+          },
+          "reject": {
+            "childlove.space": {
+              "reason": "fuck pedos lol"
+            },
+            "feral.cafe": {
+              "reason": "fuck zoophiles lol"
+            },
+            "mapsupport.de": {
+              "reason": "fuck pedos lol"
+            },
+            "nnia.space": {
+              "reason": "fuck pedos lol"
+            },
+            "pedo.school": {
+              "reason": "fuck pedos lol"
+            }
+          }
+        },
+        "quarantined_instances": [
+          "sunbeam.city"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {
+            "sunbeam.city": {
+              "reason": "Doxxing threats"
+            }
+          }
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": true,
+      "nodeDescription": "A Pleroma instance for artists and art lovers",
+      "nodeName": "Veenus.art - For artists and art lovers",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/bbcode",
+        "text/markdown",
+        "text/html",
+        "text/plain"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://veenus.art/users/charlie",
+        "https://veenus.art/users/modlog",
+        "https://veenus.art/users/lottev"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.5.52-235-g589301ce-develop"
+    },
+    "usage": {
+      "localPosts": 12897,
+      "users": {
+        "activeHalfyear": 9,
+        "activeMonth": 5,
+        "total": 79
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 164
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Пошлые рассказы",
+      "nodeDescription": "Эротические рассказы для взрослых",
+      "nodeIcon": "https://seksistorii.home.blog/wp-content/uploads/2022/12/cropped-favicon.jpg"
+    }
+  },
+  "error": null
+}

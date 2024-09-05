@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 83,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La tribu de los vientos",
+      "nodeDescription": "Apasionados por el turismo, en este blog compartimos nuestras experiencias y encontrarás información que seguro te inspirará a descubrir nuevos lugares.",
+      "nodeIcon": "https://latribudelosvientos.wordpress.com/wp-content/uploads/2024/02/cropped-logo-web-interior.jpg"
+    }
+  },
+  "error": null
+}

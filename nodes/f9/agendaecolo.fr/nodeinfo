@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Carnet de bal des initiatives et mobilisations du mouvement écologiste… géré par le compte mastodon @BassinesNon@social.tmprs.net",
+      "nodeName": "Agenda Ecolo",
+      "nodeTimezone": "Europe/Paris",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.16.2"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 15,
+      "localPosts": 22,
+      "users": {
+        "total": 1
+      }
+    }
+  },
+  "error": null
+}

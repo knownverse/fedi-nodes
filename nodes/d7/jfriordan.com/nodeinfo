@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 394,
+      "localComments": 5006
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "J.F. Riordan",
+      "nodeDescription": "Reflections On A Life in Exile",
+      "nodeIcon": "https://jfriordan.com/wp-content/uploads/2020/08/cropped-aseq.png"
+    }
+  },
+  "error": null
+}

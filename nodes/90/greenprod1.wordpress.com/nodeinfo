@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Green ProD",
+      "nodeDescription": "Site d&#039;information spécialisé sur les question des Objectifs de Développement Durable.",
+      "nodeIcon": "https://greenprod1.wordpress.com/wp-content/uploads/2024/03/cropped-419044630_390034790639142_1138061087319113628_n.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 23,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Immer Autonom",
+      "nodeDescription": "Tongues like Fusillades! Eyes like Fire!",
+      "nodeIcon": "https://immerautonom.noblogs.org/files/2022/05/cropped-site-icon-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 512,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tero Kankaanperä",
+      "nodeDescription": "Äreä yhdistystoiminnan moniosaaja joka uskoo vain yhdenvertaisuuteen.",
+      "nodeIcon": "https://terokankaanpera.fi/wp-content/uploads/2021/07/Teron_malja_valkoinen_tausta.webp"
+    }
+  },
+  "error": null
+}

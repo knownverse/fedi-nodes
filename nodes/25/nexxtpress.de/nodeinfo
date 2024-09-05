@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 5,
+        "activeHalfyear": 4
+      },
+      "localPosts": 269,
+      "localComments": 252
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NexxtPress",
+      "nodeDescription": "Eine Wordpress-Blog-Plattform für das Fediverse. (*BETA)",
+      "nodeIcon": "https://nexxtpress.de/wp-content/uploads/cropped-NexxtPress_Logo-e1719492971692.png"
+    }
+  },
+  "error": null
+}

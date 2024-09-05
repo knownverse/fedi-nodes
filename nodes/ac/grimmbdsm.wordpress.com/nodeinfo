@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 802,
+      "localComments": 289
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Grimm_BDSM",
+      "nodeDescription": "BDSM is niet voor perverten",
+      "nodeIcon": "https://grimmbdsm.wordpress.com/wp-content/uploads/2020/08/grimm3.jpg"
+    }
+  },
+  "error": null
+}

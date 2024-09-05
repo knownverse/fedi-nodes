@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1127,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DormanthinkZ",
+      "nodeDescription": "Deep Into the Truth!",
+      "nodeIcon": "https://dormanthink.wordpress.com/wp-content/uploads/2024/04/e5beaee4bfa1e59bbee78987_20240402111623.jpg"
+    }
+  },
+  "error": null
+}

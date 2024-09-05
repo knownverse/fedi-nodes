@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 343,
+        "activeMonth": 175,
+        "activeHalfyear": 241
+      },
+      "localPosts": 246331
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Chaosfem",
+      "nodeDescription": "Another transfem server.\r\n\r\nRules:\r\n\r\n1. No buttheads"
+    }
+  },
+  "error": null
+}

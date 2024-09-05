@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 326,
+      "localComments": 198
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Dissociated Press",
+      "nodeDescription": "Open Source, Technology, Indieweb",
+      "nodeIcon": "https://i0.wp.com/dissociatedpress.net/wp-content/uploads/2023/07/cropped-jzb_bear_DJ_psychedelic_dance_party_music_3d3887b8-24ed-45dd-ac2c-0523882b79e9.png?fit=933%2C933&ssl=1"
+    }
+  },
+  "error": null
+}

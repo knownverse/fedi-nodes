@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SINCLEAR",
+      "nodeDescription": "Mehr als nur Zinnchlorid.",
+      "nodeIcon": "https://i0.wp.com/sinclear.de/wp-content/uploads/2021/11/Standard_x.png?fit=500%2C500&ssl=1"
+    }
+  },
+  "error": null
+}

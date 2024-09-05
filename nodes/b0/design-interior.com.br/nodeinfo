@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 79,
+      "localComments": 116
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Arquitetura e Design",
+      "nodeDescription": "Projetos Arquitetônicos e Design de Interiores",
+      "nodeIcon": "https://design-interior.com.br/wp-content/uploads/2023/09/cropped-logo-design-1.png"
+    }
+  },
+  "error": null
+}

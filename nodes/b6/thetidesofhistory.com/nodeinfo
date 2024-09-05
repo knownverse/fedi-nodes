@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 514,
+      "localComments": 283
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fair Winds &amp; Following Seas",
+      "nodeDescription": "Moving with the tides of history",
+      "nodeIcon": "https://thetidesofhistory.com/wp-content/uploads/2019/05/cropped-fwfs-blog.jpg"
+    }
+  },
+  "error": null
+}

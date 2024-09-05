@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.0803_a31ab56"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": 6,
+        "activeHalfyear": 9
+      },
+      "localPosts": 23581
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "flyovercountry.social",
+      "nodeDescription": "flyovercountry.social is a general interest, regional Mastodon instance, ostensibly focused on the United States heartland, but everyone is welcome here, as long as you adhere to the rules. "
+    }
+  },
+  "error": null
+}

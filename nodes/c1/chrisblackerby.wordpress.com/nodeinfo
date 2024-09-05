@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 49,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Chris Blackerby",
+      "nodeDescription": "Writer at Heart, Lost for the Most Part.",
+      "nodeIcon": "https://chrisblackerby.wordpress.com/wp-content/uploads/2023/12/cropped-aaaaauthorbiopic.png"
+    }
+  },
+  "error": null
+}

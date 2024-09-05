@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 33959,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "かさこそ(lol)",
+      "nodeDescription": "みうちオンリーのサーバです。<br><br>\n\n【よそのサーバー管理者さん、絵文字管理者さんへ】ここで利用している絵文字をインポートしたい場合は次のURLをご参照ください。<br>\nhttps://kasakoso.lol/@admin/pages/1692410352359",
+      "nodeAdmins": [
+        {
+          "name": "SMEEEEEEEEESHI",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "SMEEEEEEEEESHI",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "admin",
+      "themeColor": "#e0e8ff"
+    }
+  },
+  "error": null
+}

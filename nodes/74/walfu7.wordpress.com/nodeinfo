@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "渥富木業 Walfu Wood",
+      "nodeDescription": "",
+      "nodeIcon": "https://walfu7.wordpress.com/wp-content/uploads/2024/02/cropped-63c7fbd0-cc93-46d4-b314-d4b0e6fc606d.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 543,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23499,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "海螺肉",
+      "nodeDescription": "这里是海螺肉站(〃'▽'〃)\n是因乙女游戏「时空中的绘旅人」而生的misskey站点。\n是绘旅人站但不止于绘旅人~欢迎大家来玩，无论您想碎碎念什么，这里都欢迎您~\n",
+      "nodeAdmins": [
+        {
+          "name": "foralltime@foralltime.icu",
+          "email": "brigitta2022@tutanota.com"
+        }
+      ],
+      "maintainer": {
+        "name": "foralltime@foralltime.icu",
+        "email": "brigitta2022@tutanota.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#F7C4D3"
+    }
+  },
+  "error": null
+}

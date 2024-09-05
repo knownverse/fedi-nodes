@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 13
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SOOZART",
+      "nodeDescription": "Digital &amp; traditional hobby artist",
+      "nodeIcon": "https://soozart.wordpress.com/wp-content/uploads/2020/10/cropped-business-as-usual-by-susan-wright-boucher-2.jpg"
+    }
+  },
+  "error": null
+}

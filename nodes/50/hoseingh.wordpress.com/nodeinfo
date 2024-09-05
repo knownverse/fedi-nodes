@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 170,
+      "localComments": 63
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "بلاگ سایه",
+      "nodeDescription": "تاریخنگاری در وردپرس",
+      "nodeIcon": "https://hoseingh.wordpress.com/wp-content/uploads/2020/11/img_20201126_0541102714084601307517538.jpg"
+    }
+  },
+  "error": null
+}

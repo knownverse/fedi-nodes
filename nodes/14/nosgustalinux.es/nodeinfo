@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 45,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nos Gusta Linux",
+      "nodeDescription": "GNU/Linux, software, tutoriales, noticias y reviews",
+      "nodeIcon": "https://nosgustalinux.es/wp-content/uploads/2023/07/cropped-Avatar2024.png"
+    }
+  },
+  "error": null
+}

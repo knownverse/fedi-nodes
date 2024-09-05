@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1328,
+      "localComments": 315
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "dotNetTips.com",
+      "nodeDescription": "Improving Code Quality... One Developer at a Time",
+      "nodeIcon": "https://dotnettips.wordpress.com/wp-content/uploads/2020/08/cropped-2020-rock-your-code-logo-large400.3x.png"
+    }
+  },
+  "error": null
+}

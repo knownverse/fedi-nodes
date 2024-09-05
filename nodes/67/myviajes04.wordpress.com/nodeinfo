@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rutas sin fronteras",
+      "nodeDescription": "&quot;Ruta Sin Fronteras&quot; es un blog de viajes que te lleva a descubrir destinos exóticos, culturas fascinantes y aventuras inolvidables. Únete a nosotros en este recorrido por el mundo para explorar horizontes fuera de lo común. ¡Prepárate para inspirarte y planificar tus propias travesías sin límites!",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

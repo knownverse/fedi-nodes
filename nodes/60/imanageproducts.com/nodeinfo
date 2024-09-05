@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 432,
+      "localComments": 179
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I Manage Products",
+      "nodeDescription": "A product management blog by Jock Busuttil",
+      "nodeIcon": "https://imanageproducts.com/wp-content/uploads/2017/08/i-manage-products-logo.png"
+    }
+  },
+  "error": null
+}

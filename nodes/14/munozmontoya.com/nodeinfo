@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 607,
+      "localComments": 16975
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Abogado Juan Carlos Muñoz Montoya",
+      "nodeDescription": "Abogado. Universidad Javeriana",
+      "nodeIcon": "https://munozmontoya.com/wp-content/uploads/2018/12/cropped-cropped-jc_lawyerssmall-1.jpg"
+    }
+  },
+  "error": null
+}

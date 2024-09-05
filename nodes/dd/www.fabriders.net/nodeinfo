@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 174,
+      "localComments": 278
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FabRiders",
+      "nodeDescription": "Facilitating Collective Power",
+      "nodeIcon": "https://i0.wp.com/www.fabriders.net/wp-content/uploads/2017/02/FR400x400icon.png?fit=400%2C400&ssl=1"
+    }
+  },
+  "error": null
+}

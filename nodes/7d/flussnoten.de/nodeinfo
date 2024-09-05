@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 144,
+      "localComments": 640
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Flussnoten",
+      "nodeDescription": "Flusswandern &amp; Flussradeln",
+      "nodeIcon": "https://flussnoten.de/wp-content/uploads/2016/08/cropped-Flussnoten-4.-Nachtrag_5a.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "旅ブログ",
+      "nodeDescription": "日本Introducing Japan&#039;s wonderful experiences of nature, hot springs, inns, and more!",
+      "nodeIcon": "https://wonderfuljapan9.wordpress.com/wp-content/uploads/2024/04/22322495.jpg"
+    }
+  },
+  "error": null
+}

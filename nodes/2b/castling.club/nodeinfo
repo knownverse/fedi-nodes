@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "castling.club",
+      "version": "n/a"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "description": "A custom server in the fediverse that hosts games of chess. See https://castling.club/ for how to play!",
+      "admin": "https://mastodon.social/@kosinus",
+      "email": "fediverse@stephank.nl"
+    }
+  },
+  "error": null
+}

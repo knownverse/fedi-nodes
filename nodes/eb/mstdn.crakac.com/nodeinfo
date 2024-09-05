@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 527
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "1024MB丼",
+      "nodeDescription": "1024MB(=1GB)メモリを搭載したVPS上で動いています。"
+    }
+  },
+  "error": null
+}

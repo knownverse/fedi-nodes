@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 63,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 31001,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "pasokey",
+      "nodeDescription": "パソコニスタン Misskey 自治区  <br/>\n\n概要: <u><strong><font color=\"#00bfff\"><a href=\"https://github.com/pasokonistan/pasokey.net#readme\">README</a></font></strong></u> <- 読んで！！！",
+      "nodeAdmins": [
+        {
+          "name": "sksat",
+          "email": "sksat@pasokey.net"
+        }
+      ],
+      "maintainer": {
+        "name": "sksat",
+        "email": "sksat@pasokey.net"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/pasokonistan/pasokey.net#readme",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#99c1f1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 22,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Atelier Johannes Schweighofer",
+      "nodeDescription": "Coming from architecture, I work with design, sculpture and jewelry art.",
+      "nodeIcon": "https://atelier-schweighofer.at/wp-content/uploads/2020/04/cropped-ikosaeder-modellfoto-sm-1.png"
+    }
+  },
+  "error": null
+}

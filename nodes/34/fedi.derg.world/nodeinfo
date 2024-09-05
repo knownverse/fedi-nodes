@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.1",
+      "homepage": "https://github.com/transfem-org/sharkey",
+      "repository": "https://github.com/transfem-org/sharkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4110,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Derg.World",
+      "nodeDescription": null,
+      "nodeAdmins": [
+        {
+          "name": "@zoranu@derg.world",
+          "email": "noreply@derg.world"
+        }
+      ],
+      "maintainer": {
+        "name": "@zoranu@derg.world",
+        "email": "noreply@derg.world"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/transfem-org/sharkey",
+      "feedbackUrl": "https://github.com/transfem-org/sharkey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

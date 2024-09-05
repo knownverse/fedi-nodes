@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Life Theorist",
+      "nodeDescription": "Better in Theory - Better in Practice",
+      "nodeIcon": "https://lifetheorymedia.wordpress.com/wp-content/uploads/2023/11/life-theorist-logo-without-text-1.png"
+    }
+  },
+  "error": null
+}

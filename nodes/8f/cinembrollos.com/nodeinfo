@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6181,
+      "localComments": 1296
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cinembrollos",
+      "nodeDescription": "",
+      "nodeIcon": "https://cinembrollos.com/wp-content/uploads/2022/02/foto-cinembrollos-facebook-2022-2.png"
+    }
+  },
+  "error": null
+}

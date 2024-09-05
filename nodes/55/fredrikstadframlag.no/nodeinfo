@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FREDRIKSTAD FRAMLAG",
+      "nodeDescription": "Fredrikstad framlag har laga gjenbrukskart for Fredrikstad. Vi deler også ut barnas reparatørmedalje til alle som reparerer ting i byen.",
+      "nodeIcon": "https://fredrikstadframlag.no/wp-content/uploads/2024/03/cropped-img_5313-svijern-3.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 37,
+      "localComments": 32
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Raw Data Studies",
+      "nodeDescription": "Visual explorations of found data",
+      "nodeIcon": "https://i0.wp.com/rawdatastudies.com/wp-content/uploads/2021/03/orangegreencurve.png?fit=328%2C328&ssl=1"
+    }
+  },
+  "error": null
+}

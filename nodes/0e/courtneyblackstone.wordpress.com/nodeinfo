@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 76,
+      "localComments": 87
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Courtney Autumn",
+      "nodeDescription": "embracing the season of change",
+      "nodeIcon": "https://courtneyblackstone.wordpress.com/wp-content/uploads/2024/04/cropped-aesthetic-elegant-minimalist-guide-jewelry-brand-kit-presentation-3.png"
+    }
+  },
+  "error": null
+}

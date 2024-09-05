@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 55,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "oi汰デザイン室",
+      "nodeDescription": "渡邊野乃香｜design/illustration/art",
+      "nodeIcon": "https://oita-pikapika.net/wp-content/uploads/2023/09/cropped-33e2f57fe7a43b60259cc1ffbd35dbdd.png"
+    }
+  },
+  "error": null
+}

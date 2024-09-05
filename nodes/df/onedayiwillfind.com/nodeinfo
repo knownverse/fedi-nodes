@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "One Day I Will Find",
+      "nodeDescription": "One Day I Will Find is the personal blog of an aspiring author and non-profit professional from Portland, OR. Come along as we try to find the right words.",
+      "nodeIcon": "https://i0.wp.com/onedayiwillfind.com/wp-content/uploads/2024/02/cropped-Site-Icon-Photoroom.png-Photoroom.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

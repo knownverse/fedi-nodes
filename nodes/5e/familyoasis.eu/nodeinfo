@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 17,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "China European Family Oasis - 中国欧洲家庭绿洲",
+      "nodeDescription": "",
+      "nodeIcon": "https://familyoasis.eu/wp-content/uploads/2023/10/family-oasis-logo-site-icon.png"
+    }
+  },
+  "error": null
+}

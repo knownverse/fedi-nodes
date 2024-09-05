@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Les épluchures de Claude",
+      "nodeDescription": "Les épluchures de Claude est un projet de roman que je vous propose de découvrir tout au long de sa construction. Dans cette oeuvre littéraire, je présente mes réflexions à travers le regard d'Eloïse et d'Ilyas. Libre à vous de suivre votre propre chemin en lisant chaque histoire dans l'ordre de votre choix, l'une puis l'autre, ou les deux en parallèle. Chaque publication peut être lue et partagée indépendamment.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "publicReader": false,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.14.0"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      },
+      "localPosts": 29
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 65,
+      "localComments": 87
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Flighting To The Night Side",
+      "nodeDescription": "",
+      "nodeIcon": "https://annarisite.wordpress.com/wp-content/uploads/2018/02/cropped-consp-22fe4.jpg"
+    }
+  },
+  "error": null
+}

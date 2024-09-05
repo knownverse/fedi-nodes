@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 340,
+      "localComments": 111
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Shirley&#039;s Scribbles",
+      "nodeDescription": "Thoughts on God, life and family.",
+      "nodeIcon": "https://scribblingshirley.wordpress.com/wp-content/uploads/2015/08/admin-ajax-php.jpg"
+    }
+  },
+  "error": null
+}

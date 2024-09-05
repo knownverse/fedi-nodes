@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.7.1-rc5",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 47,
+        "activeHalfyear": 31,
+        "activeMonth": 14
+      },
+      "localPosts": 94,
+      "localComments": 467
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "GehirnEimer",
+      "nodeDescription": "ein Ort um dein Hirn zu entladen"
+    }
+  },
+  "error": null
+}

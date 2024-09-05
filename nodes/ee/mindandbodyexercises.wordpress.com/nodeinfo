@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 447,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mind and Body Exercises -  whole health wisdom blog &amp; resources",
+      "nodeDescription": "Assets for the pursuit of navigating holistic wellness - instruction &amp; education offered by Jim Moltzan",
+      "nodeIcon": "https://mindandbodyexercises.wordpress.com/wp-content/uploads/2018/07/cropped-mind-and-body-artwork-image.jpg"
+    }
+  },
+  "error": null
+}

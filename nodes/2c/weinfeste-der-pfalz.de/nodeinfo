@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 114,
+      "localComments": 22
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Weinfeste der Pfalz",
+      "nodeDescription": "Ob Weinfest oder Weinkerwe: Hier feiert die Pfalz",
+      "nodeIcon": "https://weinfeste-der-pfalz.de/wp-content/uploads/2020/07/cropped-weinfeste-der-pfalz-1.gif"
+    }
+  },
+  "error": null
+}

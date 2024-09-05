@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 262,
+        "activeMonth": 65,
+        "activeHalfyear": 114
+      },
+      "localPosts": 122673
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "TuiterRocks Fake, Parodia",
+      "nodeDescription": "Bienvenidos a la instancia más simpática de Mastodon. Somos tuiter.rocks y volamos libres como los pájaros. Instancia generalista. Humor y debate.No tenemos nada que ver con Twitter.com."
+    }
+  },
+  "error": null
+}

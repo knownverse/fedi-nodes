@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6603,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ええんよえ♪",
+      "nodeDescription": "What is Happening?! 今日も何かが起きている？！",
+      "nodeAdmins": [
+        {
+          "name": "ふに",
+          "email": "魚〜╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ"
+        }
+      ],
+      "maintainer": {
+        "name": "ふに",
+        "email": "魚〜╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ-╰( ⍢ )╯ｳｵ"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "Proxy",
+      "themeColor": "#f9d3e0"
+    }
+  },
+  "error": null
+}

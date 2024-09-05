@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "federation": false,
+      "nodeDescription": "An instance of Bonfire (https://bonfirenetworks.org) for Social.coop to gather round :)\n\nThis is in testing, may disappear at any time, do not trust it with critical data yet -- but enjoy!",
+      "nodeName": "Social.coop"
+    },
+    "usage": {
+      "users": {
+        "total": 22
+      }
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "bonfire",
+      "version": "0.9.5-beta.27"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

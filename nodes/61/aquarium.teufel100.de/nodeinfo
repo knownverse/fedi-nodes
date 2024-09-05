@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1405,
+      "localComments": 4137
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Svens kleiner Blog",
+      "nodeDescription": "Hier schreibt nur ein erwachsenes kleines Arbeiterkind, welches ins Aquarium voll mit Gedanken, Erlebten und anderen Bildern schaut und das Gesehene wiedergibt. Für Fakten sind die schlauen Menschen zuständig!",
+      "nodeIcon": "https://aquarium.teufel100.de/wp-content/uploads/2014/05/cropped-cappuccino.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 3,
+        "activeHalfyear": 5
+      },
+      "localPosts": 709
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Nebula",
+      "nodeDescription": "This is a self-hosted instance for my personal/family/friends use.\r\nThe instance content mostly revolves around Brazilian/Canadian politics, left-wing content, LGBTQIAP+ content, furries, pets, tech."
+    }
+  },
+  "error": null
+}

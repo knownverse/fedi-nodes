@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 43,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Transport for New Homes",
+      "nodeDescription": "Bringing transport and planning together",
+      "nodeIcon": "https://i0.wp.com/www.transportfornewhomes.org.uk/wp-content/uploads/2022/12/image-1.jpg?fit=640%2C640&ssl=1"
+    }
+  },
+  "error": null
+}

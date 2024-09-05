@@ -1,0 +1,350 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw",
+            "r18",
+            "lewd",
+            "hentai",
+            "butthole"
+          ]
+        },
+        "mrf_policies": [
+          "MediaProxyWarmingPolicy",
+          "SupSlashB",
+          "SupSlashPOL",
+          "SupSlashMLP",
+          "SupSlashX",
+          "SupSlashG",
+          "AntiHellthreadPolicy",
+          "HashtagPolicy",
+          "EnsureRePrepended",
+          "RemoteReportPolicy",
+          "StealEmojiPolicy",
+          "SimplePolicy",
+          "TagPolicy",
+          "NoPlaceholderTextPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_remote_report": {
+          "reject_empty_message": true
+        },
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "climatejustice.social",
+            "fv.reveca.es",
+            "social.kitsi.biz",
+            "true.kawi.fr",
+            "childlove.su",
+            "m.mxin.moe",
+            "social.cutefunny.net",
+            "misskey.tailc0bbe.ts.net",
+            "cherryberry.pink",
+            "game-tecx.de",
+            "cmm.fyi",
+            "mentalhealth-masto.com",
+            "mastodon.svgun.ru",
+            "mastodon-ero.xyz",
+            "estrogen.cat",
+            "nafo.uk",
+            "neuss.social",
+            "thewiring.com",
+            "mastodon.mg",
+            "masto.foederiert.de",
+            "cannibal.cafe",
+            "pacsa.us",
+            "eepy.express",
+            "imouto.exposed",
+            "mastodon.cubsex.lol"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "cannibal.cafe": {
+              "reason": "Pedos"
+            },
+            "cherryberry.pink": {
+              "reason": "Spam"
+            },
+            "childlove.su": {
+              "reason": "Pedos"
+            },
+            "climatejustice.social": {
+              "reason": "I was sending too much http traffic (federation) and my ISP thought it was a DDoS attack."
+            },
+            "cmm.fyi": {
+              "reason": "Spam"
+            },
+            "eepy.express": {
+              "reason": "Pedos"
+            },
+            "estrogen.cat": {
+              "reason": "Spam"
+            },
+            "fv.reveca.es": {
+              "reason": "spam"
+            },
+            "game-tecx.de": {
+              "reason": "Spam"
+            },
+            "imouto.exposed": {
+              "reason": "Pedos"
+            },
+            "m.mxin.moe": {
+              "reason": "Spam"
+            },
+            "masto.foederiert.de": {
+              "reason": "Spam"
+            },
+            "mastodon-ero.xyz": {
+              "reason": "Spam"
+            },
+            "mastodon.cubsex.lol": {
+              "reason": "Pedos"
+            },
+            "mastodon.mg": {
+              "reason": "Spam"
+            },
+            "mastodon.svgun.ru": {
+              "reason": "Spam"
+            },
+            "mentalhealth-masto.com": {
+              "reason": "Spam"
+            },
+            "misskey.tailc0bbe.ts.net": {
+              "reason": "Spam"
+            },
+            "nafo.uk": {
+              "reason": "Spam"
+            },
+            "neuss.social": {
+              "reason": "Spam"
+            },
+            "pacsa.us": {
+              "reason": "Globohomo"
+            },
+            "social.cutefunny.net": {
+              "reason": "Spam"
+            },
+            "social.kitsi.biz": {
+              "reason": "spam"
+            },
+            "thewiring.com": {
+              "reason": "Spam"
+            },
+            "true.kawi.fr": {
+              "reason": "same spammer as above probably"
+            }
+          }
+        },
+        "quarantined_instances": [
+          "youjo.love",
+          "obo.sh"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {
+            "obo.sh": {
+              "reason": "Lots of questionable content on here. With what they post publicly, I'd rather not have to deal with moderating what they post as followers only or DMs."
+            },
+            "youjo.love": {
+              "reason": "An instance for pedophiles by a pedphile"
+            }
+          }
+        },
+        "rejected_instances": {}
+      },
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 50,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": true,
+      "nodeDescription": "The flagship Akkoma instance where anyone is welcome to share their waifu, argue about who's best girl, and be baest and redpilled af.",
+      "nodeName": "Baest",
+      "pollLimits": {
+        "max_expiration": 3155760000,
+        "max_option_chars": 4096,
+        "max_options": 50,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/markdown",
+        "text/plain",
+        "text/html",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "users",
+        "web",
+        "yeet",
+        "captain",
+        "netdata",
+        "pages",
+        "prometheus",
+        "grafana",
+        "check_password",
+        "user_exists",
+        "external-content",
+        "goatse",
+        "kenoma",
+        "kenoma-fe",
+        "soapbox",
+        "soapbox-fe",
+        "bloat-fe",
+        "fedi",
+        "fedi-fe",
+        "tips-fedora",
+        "admins",
+        "admin"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "emoji_manage_emoji",
+          "announcements_manage_announcements"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://bae.st/users/FBI",
+        "https://bae.st/users/jasonl8446",
+        "https://bae.st/users/roboneko",
+        "https://bae.st/users/Elfie",
+        "https://bae.st/users/RedTechEngineer",
+        "https://bae.st/users/redneonglow",
+        "https://bae.st/users/zemichi",
+        "https://bae.st/users/nosleep",
+        "https://bae.st/users/mactonite",
+        "https://bae.st/users/j",
+        "https://bae.st/users/get",
+        "https://bae.st/users/Awoo",
+        "https://bae.st/users/ChristiJunior",
+        "https://bae.st/users/siinclaiir",
+        "https://bae.st/users/p",
+        "https://bae.st/users/Terry",
+        "https://bae.st/users/McMongoose"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 8000000,
+        "banner": 4000000,
+        "general": 469762048
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0-10326-g76dd9933-neckbeard"
+    },
+    "usage": {
+      "localPosts": 4429579,
+      "users": {
+        "activeHalfyear": 768,
+        "activeMonth": 422,
+        "total": 8391
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

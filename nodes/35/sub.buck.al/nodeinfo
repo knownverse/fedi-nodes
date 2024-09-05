@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.3.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 1
+    },
+    "metadata": {
+      "nodeName": "SUB Buck Al",
+      "nodeDescription": "Fediverse entrance point for Buck Al",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://sub.buck.al/users/henry"
+      ]
+    }
+  },
+  "error": null
+}

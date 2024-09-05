@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "unsocial",
+      "version": "1.0.1",
+      "repository": "https://github.com/mkizka/unsocial.git",
+      "homepage": "https://github.com/mkizka/unsocial"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 2
+    },
+    "metadata": {
+      "nodeName": "beta.unsocial.dev",
+      "nodeDescription": "beta.unsocial.devはUnsocialによって構築されたActivityPubサーバーです。",
+      "themeColor": "#d3d9de"
+    }
+  },
+  "error": null
+}

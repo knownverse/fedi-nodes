@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 86,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Does God Exist?",
+      "nodeDescription": "Keeping score for the big-man for more than a decade.",
+      "nodeIcon": "https://does-god-exist.org/wp-content/uploads/2023/12/cropped-doesgodsexist.png"
+    }
+  },
+  "error": null
+}

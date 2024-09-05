@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 28880
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "ligmadon",
+      "nodeDescription": "\"pissed everyone off in literally record time\" - Recommended by 10 out of 10 people who, for some sad reason, have a dedicated column up to watch #fediblock. "
+    }
+  },
+  "error": null
+}

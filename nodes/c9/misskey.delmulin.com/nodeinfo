@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+0",
+      "homepage": "https://github.com/pooza/misskey/tree/daisskey",
+      "repository": "https://github.com/pooza/misskey/tree/daisskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 19839,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ダイスキー",
+      "nodeDescription": "ダイスキーは「ドラゴンクエスト ダイの大冒険」のファンの為の、非公式なMisskeyサーバーです。<br>\n電気通信事業者 A-01-17291\n\n",
+      "nodeAdmins": [
+        {
+          "name": "ぷーざ",
+          "email": "support@delmulin.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ぷーざ",
+        "email": "support@delmulin.com"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": "https://mstdn.delmulin.com/privacy-policy",
+      "inquiryUrl": "https://docs.google.com/forms/d/16nB-ZyUKlDYbxdNqedDbZp1ef2OHWyuwylzjOmOdwNk/edit",
+      "impressumUrl": "https://lit.link/pooza",
+      "repositoryUrl": "https://github.com/pooza/misskey/tree/daisskey",
+      "feedbackUrl": "https://github.com/pooza/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    },
+    "mulukhiya": {
+      "package": {
+        "authors": [
+          "Tatsuya Koishi"
+        ],
+        "description": "各種ActivityPub対応インスタンスへの投稿に対して、内容の更新等を行うプロキシ。通称「モロヘイヤ」。",
+        "email": [
+          "tkoishi@b-shock.co.jp"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/pooza/mulukhiya-toot-proxy",
+        "version": "4.32.3"
+      },
+      "config": {
+        "controller": "misskey",
+        "status": {
+          "spoiler": {
+            "text": null,
+            "emoji": "netabare",
+            "shortcode": ":netabare:"
+          },
+          "default_hashtag": "#delmulin"
+        }
+      }
+    }
+  },
+  "error": null
+}

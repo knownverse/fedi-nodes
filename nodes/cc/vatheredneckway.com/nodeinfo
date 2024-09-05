@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 40,
+      "localComments": 34
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "VA THE REDNECK WAY, YOU DON&#039;T HAVE TO GO IT ALONE!",
+      "nodeDescription": "WELCOME TO MY WORLD!  This site is constantly under construction, Please pardon the mess. ",
+      "nodeIcon": "https://vatheredneckway.com/wp-content/uploads/2023/12/cropped-20230711_194430-1.jpg"
+    }
+  },
+  "error": null
+}

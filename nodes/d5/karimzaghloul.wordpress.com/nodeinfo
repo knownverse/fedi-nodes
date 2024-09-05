@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KARIM ZAGHLOUL",
+      "nodeDescription": "Karim Zaghloul Graphic designer",
+      "nodeIcon": "https://karimzaghloul.wordpress.com/wp-content/uploads/2024/02/cropped-images-1-7-942272547-e1708866449300.jpeg"
+    }
+  },
+  "error": null
+}

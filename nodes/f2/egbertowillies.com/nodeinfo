@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": "44",
+        "activeHalfyear": "44"
+      },
+      "localPosts": 12321,
+      "localComments": 7703
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "EgbertoWillies.com",
+      "nodeDescription": "Political involvement should be a requirement for citizenship",
+      "nodeIcon": "https://egbertowillies.com/wp-content/uploads/2016/02/cropped-67014_EgbertoWillies_RB2-1200X1200.png"
+    }
+  },
+  "error": null
+}

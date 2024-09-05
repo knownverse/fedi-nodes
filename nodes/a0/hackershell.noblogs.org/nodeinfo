@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 108,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "hackershell",
+      "nodeDescription": "anarchistischer hackerspace @ nowhere",
+      "nodeIcon": "https://hackershell.noblogs.org/files/2016/10/cropped-thumb_large_1e7c572863b9789d1a1c.png"
+    }
+  },
+  "error": null
+}

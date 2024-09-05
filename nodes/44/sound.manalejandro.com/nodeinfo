@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+4a74c2f5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 0,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "http://sound.manalejandro.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "manalejandro's funkwhale",
+      "longDescription": "",
+      "contactEmail": "funkwhale@manalejandro.com",
+      "nodeName": "manalejandro's funkwhale",
+      "banner": "https://sound.manalejandro.com/media/dynamic_preferences/instance__banner/ae88-518a-4dab-b608-f882aa1a2f1f_oMm6W4M.jpg",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "usage": null,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 0
+        },
+        "artists": {
+          "total": 0
+        },
+        "albums": {
+          "total": 0
+        },
+        "music": {
+          "hours": 0
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": true
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": true
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": true
+        }
+      ],
+      "endpoints": {
+        "knownNodes": null,
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

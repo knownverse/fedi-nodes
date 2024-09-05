@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "kookie",
+      "version": "2024.8.2",
+      "homepage": "https://kookie.app",
+      "repository": "https://kookie.app"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6145,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 185504,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Kookie",
+      "nodeDescription": "Kookie é onde as comunidades se encontram para trocar ideias - sempre com respeito - sobre tudo, desde assuntos essenciais do momento até as próximas tendências. Não importa qual seja o seu interesse, aqui você pode seguir e se conectar com amigos, influenciadores e tópicos favoritos.",
+      "nodeAdmins": [
+        {
+          "name": "Kookie",
+          "email": "suporte@kookie.app"
+        }
+      ],
+      "maintainer": {
+        "name": "Kookie",
+        "email": "suporte@kookie.app"
+      },
+      "langs": [],
+      "tosUrl": "https://kookie.app/@kookie/pages/termos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://kookie.app",
+      "feedbackUrl": "https://kookie.app/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

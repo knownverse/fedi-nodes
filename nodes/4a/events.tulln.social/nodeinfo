@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Veranstaltungen mit Hauptaugenmerkt auf Tulln und verschiedene Vereinsaktivitäten.\nEs können aber auch österreichweit Veranstaltungen gepostet werden, deren Einzugsgebiet oder Interessentenherkunft Tulln ist oder sein könnte.\n",
+      "nodeName": "Mobilizon - Veranstaltungen tulln.social"
+    },
+    "usage": {
+      "users": {
+        "total": 6
+      },
+      "localComments": 2,
+      "localPosts": 35
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

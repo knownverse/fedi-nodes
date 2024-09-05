@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I A N U A R I U S",
+      "nodeDescription": "Florian Janner // Flori Kreidler",
+      "nodeIcon": "https://florianjanner.net/wp-content/uploads/2021/05/cropped-ianuarius-3.png"
+    }
+  },
+  "error": null
+}

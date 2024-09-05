@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 101,
+      "localComments": 68
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Retire Young Travel Smart",
+      "nodeDescription": "Budget Slow Travel in Retirement",
+      "nodeIcon": "https://i0.wp.com/retireyoungtravelsmart.com/wp-content/uploads/2024/03/cropped-Gemini_Generated_Image-6.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

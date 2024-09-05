@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "activityrelay",
+      "version": "0.2.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "localPosts": 0,
+      "localComments": 0,
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "peers": [
+        "mastodon.adtension.com",
+        "f.haeder.net",
+        "soc.zhcode.fun",
+        "ciechom.eu",
+        "matts.network",
+        "mastodon.naturalorder.me",
+        "brotkru.me",
+        "minidon.nylarea.com",
+        "mastodon.greatvoid.org",
+        "troetmund.de",
+        "mcw.social",
+        "micro.srvr.dev",
+        "social.beaware.live",
+        "mstdn.jmrp.io",
+        "bolha.us",
+        "musician.social",
+        "mastodon.li",
+        "friends.johalla.org",
+        "mas.aifeel.top",
+        "globalskywatch.social",
+        "thewalkingdeaf.social",
+        "mastodon.adamazing.de",
+        "makai.chaotic.ninja",
+        "collins-corner.cc",
+        "mk.nworm.icu",
+        "veoh.social",
+        "misskey.chrisco.me",
+        "visegrad24.social",
+        "masto.terabyte-computing.com"
+      ]
+    }
+  },
+  "error": null
+}

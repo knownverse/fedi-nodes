@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 93,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ekeldema: The Way of Resurrection; An Armory for Spiritual Warfare",
+      "nodeDescription": "God! We&#039;re getting crucified on a Christian poetry blog.",
+      "nodeIcon": "https://ekeldema.wordpress.com/wp-content/uploads/2024/02/cropped-52c93484-fc2e-4fc5-a678-53bcae997733-0-2714043256-e1708548028503.jpg"
+    }
+  },
+  "error": null
+}

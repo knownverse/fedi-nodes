@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 8495,
+      "localComments": 347
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Swansea Bay News",
+      "nodeDescription": "All the latest news from Swansea Bay",
+      "nodeIcon": "https://i0.wp.com/swanseabaynews.com/wp-content/uploads/2020/11/swansea-bay-news-logo-icon.png?fit=818%2C818&ssl=1"
+    }
+  },
+  "error": null
+}

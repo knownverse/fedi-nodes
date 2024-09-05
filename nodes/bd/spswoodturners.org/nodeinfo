@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 594,
+      "localComments": 36
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "South Puget Sound Woodturners",
+      "nodeDescription": "Learning about Turning",
+      "nodeIcon": "https://i0.wp.com/spswoodturners.org/wp-content/uploads/2019/09/SPSW_Logo-73x75.jpg?fit=52%2C51&ssl=1"
+    }
+  },
+  "error": null
+}

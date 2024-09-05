@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Let's take back control of our events! | Unabhängige Veranstaltungsplattform für das Rhein-Main-Gebiet.\nDies ist ein allgemeiner Terminkalender welcher für alle offen steht welche sich an die Instanzregeln halten.",
+      "nodeName": "RheinMain.social"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.1.0"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 90,
+      "users": {
+        "total": 71
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 24,
+        "activeMonth": 6,
+        "activeHalfyear": 12
+      },
+      "localPosts": 4781
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Green Hill Zone",
+      "nodeDescription": "SPA: Instancia multilingüe para fans de Sonic el Erizo.\r\n\r\nENG: Multilingual instance for fans of Sonic the Hedgehog.\r\n\r\nEPO: Plurlingva instanco por fan-oj de Sonic la Erinaco."
+    }
+  },
+  "error": null
+}

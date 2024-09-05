@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 100,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "the Infinite",
+      "nodeDescription": "queer identity, death, hope, praxis, &amp; song lyrics",
+      "nodeIcon": "https://www.nixkelley.com/wp-content/uploads/2024/01/cropped-tasos-mansour-jHMQHLP05RQ-unsplash-scaled-1.jpg"
+    }
+  },
+  "error": null
+}

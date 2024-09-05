@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "I transform my ideas into art and put them into everyday objects. My goal is to make art accessible and present in people&#039;s lives.",
+      "nodeIcon": "https://padartscom.wordpress.com/wp-content/uploads/2024/01/cropped-twitter_profile_image.png"
+    }
+  },
+  "error": null
+}

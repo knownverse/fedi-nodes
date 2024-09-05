@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4422,
+      "localComments": 90
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Set the Bar",
+      "nodeDescription": "",
+      "nodeIcon": "https://setthebarlifestyle.wordpress.com/wp-content/uploads/2024/01/stb-icon-new.jpg"
+    }
+  },
+  "error": null
+}

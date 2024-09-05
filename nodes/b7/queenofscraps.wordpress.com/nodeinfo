@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 181,
+      "localComments": 481
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Queen of scraps: a paper trail",
+      "nodeDescription": "colourful scraps of papers, fabrics and fibres enrich my life",
+      "nodeIcon": "https://queenofscraps.wordpress.com/wp-content/uploads/2024/01/picture1.png"
+    }
+  },
+  "error": null
+}

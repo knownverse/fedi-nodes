@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5226,
+      "localComments": 5111
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "speak no evil",
+      "nodeDescription": "hobbim a szóborsó",
+      "nodeIcon": "https://lipilee.hu/wp-content/uploads/sites/5/2020/04/cropped-lipilee.hu_frogicon.png"
+    }
+  },
+  "error": null
+}

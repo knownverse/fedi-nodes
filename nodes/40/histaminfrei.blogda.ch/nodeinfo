@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 125,
+      "localComments": 97
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vegetarisch leben mit Histamin-Unverträglichkeit",
+      "nodeDescription": "Histaminfreie Rezepte",
+      "nodeIcon": false
+    }
+  },
+  "error": null
+}

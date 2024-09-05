@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "catodon",
+      "version": "24.04-dev.4",
+      "repository": "https://codeberg.org/catodon/catodon",
+      "homepage": "https://codeberg.org/catodon/catodon"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 7875,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "工月邸",
+      "nodeDescription": "くげつてい。くげつのおひとり様。",
+      "maintainer": {
+        "name": "くげつ",
+        "email": "@monon99@fedi.kugetsu.blog"
+      },
+      "langs": [],
+      "tosUrl": "https://fedi.kugetsu.blog/@monon99/pages/1704956668028",
+      "repositoryUrl": "https://codeberg.org/catodon/catodon",
+      "feedbackUrl": "https://codeberg.org/catodon/catodon/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 8000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

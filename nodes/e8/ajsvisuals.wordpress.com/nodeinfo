@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AJ&#039;s Visuals",
+      "nodeDescription": "Capturing Moments, Crafting Stories: AJ&#039;s Visuals - Your Premier Destination for Stunning Photography and Videography! In the Florida Keys",
+      "nodeIcon": "https://ajsvisuals.wordpress.com/wp-content/uploads/2023/12/ajs-visuals.png"
+    }
+  },
+  "error": null
+}

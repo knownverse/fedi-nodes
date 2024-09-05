@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 157,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "1001xannemiek",
+      "nodeDescription": "ik bezorg je een zetje &amp; jij schiet verder dan je kan inbeelden",
+      "nodeIcon": "https://1001xannemiek.com/wp-content/uploads/2021/11/1001xannemiekverrastlogo.jpg"
+    }
+  },
+  "error": null
+}

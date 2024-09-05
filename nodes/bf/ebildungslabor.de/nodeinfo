@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1091,
+      "localComments": 152
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "eBildungslabor",
+      "nodeDescription": "Impulse, Beratung und Unterstützung für gutes Lernen in einer digital geprägten Gesellschaft von Nele Hirsch",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

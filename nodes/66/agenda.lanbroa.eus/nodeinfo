@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Ekimen autonomoen agenda irekia",
+      "nodeName": "Lanbroa",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "lanbroa"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 385,
+      "users": {
+        "total": 21
+      }
+    }
+  },
+  "error": null
+}

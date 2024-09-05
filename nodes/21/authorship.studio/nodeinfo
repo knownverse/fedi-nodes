@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.0"
+    },
+    "protocols": [
+      "zot",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 3,
+        "activeMonth": 3
+      },
+      "localPosts": 66,
+      "localComments": 511
+    },
+    "metadata": {
+      "nodeName": "Authorship Studio"
+    }
+  },
+  "error": null
+}

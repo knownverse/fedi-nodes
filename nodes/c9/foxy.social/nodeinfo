@@ -1,0 +1,560 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "outpoa.st",
+            "activitypub-proxy.cf",
+            "activitypub-troll.cf",
+            "bae.st",
+            "youjo.love",
+            "obo.sh",
+            "banepo.st",
+            "beefyboys.win",
+            "beefyboys.club",
+            "brighteon.social",
+            "freak.university",
+            "ghetti.monster",
+            "hen***.*aby",
+            "lolison.network",
+            "lolison.top",
+            "pedo.school",
+            "rapemeat.solutions",
+            "nnia.space",
+            "childpawn.shop",
+            "club.darknight-coffee.eu",
+            "clubcyberia.co",
+            "loli.pizza",
+            "cum.camp",
+            "cum.salon",
+            "detroitriotcity.com",
+            "eientei.org",
+            "eveningzoo.club",
+            "f.haeder.net",
+            "freecumextremist.com",
+            "freefedifollowers.ga",
+            "freespeechextremist.com",
+            "genderheretics.xyz",
+            "gegenstimme.tv",
+            "kiwifarms.cc",
+            "lgbtfree.zone",
+            "lolicon.rocks",
+            "paypig.org",
+            "yggdrasil.social",
+            "mastinator.com",
+            "mastodong.lol",
+            "noagendasocial.com",
+            "noagendasocial.nl",
+            "noagendatube.com",
+            "podcastindex.social",
+            "iddqd.social",
+            "shota.house",
+            "varishangout.net",
+            "misskey-forkbomb.cf",
+            "myxoz.port0.org",
+            "repl.co",
+            "soc.ua-fediland.de",
+            "poster.place",
+            "ryona.agency",
+            "liberdon.com",
+            "pl.serialmay.link",
+            "pl.tkammer.de",
+            "social.lovingexpressions.net",
+            "pravda.me"
+          ],
+          "media_removal": [],
+          "media_nsfw": [
+            "pawoo.net"
+          ],
+          "federated_timeline_removal": [
+            "baraag.net",
+            "aethy.com",
+            "pawoo.net",
+            "m.cmx.im",
+            "dvd.chat",
+            "me.ns.ci",
+            "toot.mantyke.icu",
+            "social.slat.org",
+            "alive.bar",
+            "hyan.ink",
+            "bgme.me",
+            "douchi.space",
+            "nya.one",
+            "twi.48.club",
+            "kemonodon.club",
+            "o3o.ca",
+            "fedi.moegirl.live",
+            "pullopen.xyz",
+            "wxw.moe",
+            "ai.wiki",
+            "misskey.bootjp.me",
+            "fairy.id",
+            "moresci.sale",
+            "go5.dev",
+            "misskey.io",
+            "mstdn.busines"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_keyword": {
+          "replace": [],
+          "reject": [],
+          "federated_timeline_removal": [
+            "~r/\\p{Han}/iu",
+            "~r/\\p{Katakana}/iu",
+            "~r/\\p{Hiragana}/iu",
+            "~r/\\p{Hangul}/iu",
+            "~r/\\p{Hebrew}/iu",
+            "~r/\\p{Arabic}/iu"
+          ]
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "KeywordPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "pl.serialmay.link": {
+              "reason": "Literally NSFW male rectum picture on homepage"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Spam"
+            },
+            "mastinator.com": {
+              "reason": "Ban evasion"
+            },
+            "beefyboys.club": {
+              "reason": "Permits hate speech"
+            },
+            "f.haeder.net": {
+              "reason": "Permits hate speech"
+            },
+            "soc.ua-fediland.de": {
+              "reason": "Spam"
+            },
+            "ryona.agency": {
+              "reason": "Permits hate speech"
+            },
+            "mastodong.lol": {
+              "reason": "Malicious instance"
+            },
+            "cum.salon": {
+              "reason": "Illegal content, hate speech and illegal content on the \"about\" page"
+            },
+            "nnia.space": {
+              "reason": "Illegal content"
+            },
+            "obo.sh": {
+              "reason": "Illegal content"
+            },
+            "freespeechextremist.com": {
+              "reason": "Permits hate speech"
+            },
+            "freefedifollowers.ga": {
+              "reason": "Spam"
+            },
+            "rapemeat.solutions": {
+              "reason": "Illegal content"
+            },
+            "freak.university": {
+              "reason": "Illegal content"
+            },
+            "detroitriotcity.com": {
+              "reason": "Permits hate speech"
+            },
+            "beefyboys.win": {
+              "reason": "Permits hate speech"
+            },
+            "lolison.top": {
+              "reason": "Illegal content"
+            },
+            "varishangout.net": {
+              "reason": "Unmoderated instance"
+            },
+            "gegenstimme.tv": {
+              "reason": "Permits hate speech"
+            },
+            "eveningzoo.club": {
+              "reason": "Permits hate speech"
+            },
+            "myxoz.port0.org": {
+              "reason": "Spam"
+            },
+            "liberdon.com": {
+              "reason": "Permits hate speech"
+            },
+            "lolicon.rocks": {
+              "reason": "Illegal content"
+            },
+            "podcastindex.social": {
+              "reason": "Unmoderated instance"
+            },
+            "freecumextremist.com": {
+              "reason": "Permits hate speech"
+            },
+            "eientei.org": {
+              "reason": "Focused on hate speech"
+            },
+            "pl.tkammer.de": {
+              "reason": "Unmoderated instance"
+            },
+            "cum.camp": {
+              "reason": "Unmoderated instance"
+            },
+            "childpawn.shop": {
+              "reason": "Illegal content"
+            },
+            "noagendasocial.com": {
+              "reason": "Permits hate speech"
+            },
+            "paypig.org": {
+              "reason": "Permits hate speech"
+            },
+            "repl.co": {
+              "reason": "Spam"
+            },
+            "bae.st": {
+              "reason": "Permits hate speech"
+            },
+            "banepo.st": {
+              "reason": "Unmoderated instance"
+            },
+            "yggdrasil.social": {
+              "reason": "Focused on hate speech, hate speech on the \"about\" page"
+            },
+            "loli.pizza": {
+              "reason": "Illegal content"
+            },
+            "club.darknight-coffee.eu": {
+              "reason": "Permits hate speech"
+            },
+            "lgbtfree.zone": {
+              "reason": "Permits hate speech"
+            },
+            "poa.st": {
+              "reason": "Permits hate speech"
+            },
+            "poster.place": {
+              "reason": "Permits hate speech"
+            },
+            "pravda.me": {
+              "reason": "Misinformation, Russian state propaganda"
+            },
+            "ghetti.monster": {
+              "reason": "\"Instance for true american patriots\" (Illegal content)"
+            },
+            "hen***.*aby": {
+              "reason": "Illegal content"
+            },
+            "activitypub-troll.cf": {
+              "reason": "Spam"
+            },
+            "kiwifarms.cc": {
+              "reason": "Literally kiwifarms"
+            },
+            "pedo.school": {
+              "reason": "Illegal content"
+            },
+            "noagendasocial.nl": {
+              "reason": "Permits hate speech"
+            },
+            "social.lovingexpressions.net": {
+              "reason": "Permits hate speech"
+            },
+            "clubcyberia.co": {
+              "reason": "Permits hate speech"
+            },
+            "shota.house": {
+              "reason": "Illegal content"
+            },
+            "brighteon.social": {
+              "reason": "Permits hate speech"
+            },
+            "noagendatube.com": {
+              "reason": "Permits hate speech"
+            },
+            "iddqd.social": {
+              "reason": "Permits hate speech"
+            },
+            "genderheretics.xyz": {
+              "reason": "Focused on hate speech (hate speech on the main page)"
+            },
+            "lolison.network": {
+              "reason": "Illegal content"
+            },
+            "outpoa.st": {
+              "reason": "Permits hate speech"
+            },
+            "youjo.love": {
+              "reason": "Illegal content"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "Ban evasion"
+            }
+          },
+          "media_nsfw": {
+            "pawoo.net": {
+              "reason": "Unmarked NSFW content"
+            }
+          },
+          "federated_timeline_removal": {
+            "aethy.com": {
+              "reason": "Potentially questionable content"
+            },
+            "ai.wiki": {
+              "reason": "Unsolicited advertisement"
+            },
+            "alive.bar": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "baraag.net": {
+              "reason": "Potentially questionable content"
+            },
+            "bgme.me": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "douchi.space": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "dvd.chat": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "fairy.id": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "fedi.moegirl.live": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "go5.dev": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "hyan.ink": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "kemonodon.club": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "m.cmx.im": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "me.ns.ci": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "misskey.bootjp.me": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "misskey.io": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "moresci.sale": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "mstdn.busines": {
+              "reason": "Unsolicited advertisement"
+            },
+            "nya.one": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "o3o.ca": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "pawoo.net": {
+              "reason": "Potentially questionable content"
+            },
+            "pullopen.xyz": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "social.slat.org": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "toot.mantyke.icu": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "twi.48.club": {
+              "reason": "Instance in a language moderators don't speak"
+            },
+            "wxw.moe": {
+              "reason": "Instance in a language moderators don't speak"
+            }
+          }
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 50,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "pony.social",
+        "meow.social",
+        "yiff.life",
+        "equestria.social",
+        "tech.lgbt",
+        "furry.engineer",
+        "furries.club",
+        "pawb.fun"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "A friendly and inclusive instance centered around the furry fandom, but anyone is welcome to join! We're affiliated with furbooru.org, a furry-centric imageboard.",
+      "nodeName": "Foxy Social - a fediverse instance for furries",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": true,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": true,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://foxy.social/users/Februa",
+        "https://foxy.social/users/fox",
+        "https://foxy.social/users/TSP",
+        "https://foxy.social/users/Fletch",
+        "https://foxy.social/users/nighty"
+      ],
+      "uploadLimits": {
+        "background": 4194304,
+        "avatar": 1048576,
+        "general": 104857600,
+        "banner": 4194304
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 46,
+        "activeHalfyear": 14,
+        "activeMonth": 6
+      },
+      "localPosts": 275
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

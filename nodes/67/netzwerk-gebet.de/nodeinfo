@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 35,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Netzwerk Gebet",
+      "nodeDescription": "Das Netzwerk für Christen in Mitteldeutschland",
+      "nodeIcon": "https://i0.wp.com/netzwerk-gebet.de/wp-content/uploads/2021/01/Logo.jpeg?fit=350%2C350&ssl=1"
+    }
+  },
+  "error": null
+}

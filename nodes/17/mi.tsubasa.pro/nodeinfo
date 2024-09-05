@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5620,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mi.tsubasa.pro",
+      "nodeDescription": "エアバスの個人用インスタンスです。新規ユーザーの登録は受け付けていません。<br>\n「アイドルマスター シャイニーカラーズ」及びバンダイナムコエンターテインメントとは一切の関係がありません。<br><br>\n本サーバーのアイコンは<br>\n<a href=\"https://civitai.com/models/51057/aice-or-kawaice\" target=\"_blank\" rel=”noopener noreferrer”>KawAICE https://civitai.com/models/51057/aice-or-kawaice</a><br>\nを使って生成されました。<br><br>\nThis is a1r3us's personal instance. <br>\nNew user registrations are not accepted.",
+      "nodeAdmins": [
+        {
+          "name": "a1r3us",
+          "email": "admin@tsubasa.pro"
+        }
+      ],
+      "maintainer": {
+        "name": "a1r3us",
+        "email": "admin@tsubasa.pro"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_user",
+      "themeColor": "#91c5fd"
+    }
+  },
+  "error": null
+}

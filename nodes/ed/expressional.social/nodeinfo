@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-25+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3233,
+        "activeMonth": 322,
+        "activeHalfyear": 709
+      },
+      "localPosts": 125681
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon server hosted in Copenhagen, Denmark. ",
+      "nodeDescription": "Mastodon server hosted in Copenhagen, Denmark, by a dane. \r\n\r\nAll languages are welcome, Federated with other Danish servers. Focus on safety, transparency and security."
+    }
+  },
+  "error": null
+}

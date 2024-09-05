@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 23,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 29897,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ちかすきー",
+      "nodeDescription": "鯖缶の地下さんポンコツすぎて、いつも6人のモデレーターと2人の管理者に助けられてます。\n\nちかすきーは地下@channo と仲良い人限定の鯖です。仲良い人なら招待コード渡すのでDMしてきてね🫶\n\n",
+      "nodeAdmins": [
+        {
+          "name": "地下",
+          "email": "chanmo28.net@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "地下",
+        "email": "chanmo28.net@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://lit.link/chanmo28",
+      "impressumUrl": "https://lit.link/chanmo28",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "follow",
+      "themeColor": "#f9d3e0"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 734,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6947,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Burggit: Sharkey Edition!",
+      "nodeDescription": "Free expression, including the Loli/Shota/Cub variety, are welcome here!",
+      "nodeAdmins": [
+        {
+          "name": "Burger",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "Burger",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://dill.burggit.moe/rules",
+      "privacyPolicyUrl": "https://dill.burggit.moe/privacy",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": "https://trocador.app/en/anonpay/?ticker_to=xmr&network_to=Mainnet&address=892ajXvfr1LbCgT2Jv52ZKHgK3ZHd2gED7ay9NnrGPWsP4wNsUT38b1TEd3tnQB8MjTNGSwKhfA9ugnPrRmxTaXX9yzc92W&donation=True&simple_mode=True&amount=120.0&name=Burggit&email=ssdono@fedora.email&ref=4uZmhEiRZS&ticker_from=doge&network_from=Mainnet&bgcolor=True",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

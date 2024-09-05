@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hace un siglo",
+      "nodeDescription": "Los artículos de La Revista Blanca 100 años después",
+      "nodeIcon": "https://haceunsiglo.wordpress.com/wp-content/uploads/2024/02/cropped-revista-blanca.jpg"
+    }
+  },
+  "error": null
+}

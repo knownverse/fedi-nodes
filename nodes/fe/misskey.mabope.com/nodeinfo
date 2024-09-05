@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 762,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "maboskey",
+      "nodeDescription": "Fediverseを航行する一人乗りの宇宙船(鯖)です。\n本当は全員招待したいところですがスペックや技術の問題上ユーザーの募集は行っておりません。\n鯖缶ioアカ（@0natsuha0@misskey.io）\n鯖缶Twitter(https://twitter.com/0natsuha0)",
+      "nodeAdmins": [
+        {
+          "name": "サワラ",
+          "email": "contact@mabope.com"
+        }
+      ],
+      "maintainer": {
+        "name": "サワラ",
+        "email": "contact@mabope.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#968abd"
+    }
+  },
+  "error": null
+}

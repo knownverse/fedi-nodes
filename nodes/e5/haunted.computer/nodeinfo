@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 49,
+        "activeMonth": 28,
+        "activeHalfyear": 42
+      },
+      "localPosts": 21665
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "haunted computer",
+      "nodeDescription": "This Mastodon instance is for ghosts."
+    }
+  },
+  "error": null
+}

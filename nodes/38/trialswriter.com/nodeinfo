@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 139,
+      "localComments": 112
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Duke&#039;s Place",
+      "nodeDescription": "Living Life Through Faith",
+      "nodeIcon": "https://trialswriter.com/wp-content/uploads/2024/02/cropped-167880.jpg"
+    }
+  },
+  "error": null
+}

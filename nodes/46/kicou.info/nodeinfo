@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3661
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "kicou.info",
+      "nodeDescription": "This is a one-person personal Fediverse instance.\r\nSorry, it does not accept new account registrations.\r\n\r\n** IT DOES NOT FEDERATE WITH META'S THREADS.net **"
+    }
+  },
+  "error": null
+}

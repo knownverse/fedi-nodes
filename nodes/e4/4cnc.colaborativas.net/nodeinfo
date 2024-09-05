@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cobertura Colaborativa da 4ª CNC",
+      "nodeDescription": "Ação de Mídia Livre da Rede da Cultura Digital",
+      "nodeIcon": "https://4cnc.colaborativas.net/wp-content/uploads/2024/03/cropped-cropped-avatar_cobertura.png"
+    }
+  },
+  "error": null
+}

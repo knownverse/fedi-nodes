@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 690,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 41889,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "いぬすきー",
+      "nodeDescription": "犬による犬のためのSNSです。\n犬好きの人間の方や猫さんや鳥さんウサギさんなど他の生き物、ロボットやぬいぐるみやイラストの犬も大歓迎です。\n犬の話題以外の雑談もOKです。",
+      "nodeAdmins": [
+        {
+          "name": "古道京紗",
+          "email": "https://misskey.dog/inquiry"
+        }
+      ],
+      "maintainer": {
+        "name": "古道京紗",
+        "email": "https://misskey.dog/inquiry"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.dog/@info/pages/1687622058206",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://misskey.dog/inquiry",
+      "impressumUrl": "https://kazeki.net",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#aa7942"
+    }
+  },
+  "error": null
+}

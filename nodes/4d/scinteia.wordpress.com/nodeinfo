@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 209,
+      "localComments": 125
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "f-zoom magazine",
+      "nodeDescription": "“Take time to deliberate, but when the time for action comes, stop thinking and go in.” ― Napoleon Bonaparte",
+      "nodeIcon": "https://scinteia.wordpress.com/wp-content/uploads/2024/01/cropped-screenshot_20240102_202551_gallery.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1268,
+      "localComments": 3193
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cowboy of Bottrop",
+      "nodeDescription": "Thank God I&#039;m a country boy",
+      "nodeIcon": "https://www.cowboy-of-bottrop.de/wp-content/uploads/2010/10/adler_avatar_140.png"
+    }
+  },
+  "error": null
+}

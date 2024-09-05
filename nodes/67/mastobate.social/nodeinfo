@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 421,
+        "activeMonth": 100,
+        "activeHalfyear": 237
+      },
+      "localPosts": 28959
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastobate",
+      "nodeDescription": "Mastobate is a Mastodon jack-off club: An NSFW community for adult men who love and share male masturbation with other adult men. 18+ only. Male-identified only. No ads. No hate. No trolls. No anal."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 96,
+      "localComments": 55
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ADSEI - Teaching Kids to Change the World ",
+      "nodeDescription": "ADSEI recognises that we operate on what always was and always will be Aboriginal land",
+      "nodeIcon": "https://i0.wp.com/adsei.org/wp-content/uploads/2018/01/cropped-adsei-logo3.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

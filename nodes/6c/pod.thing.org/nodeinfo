@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2-pf042f5d4"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "THE THING*",
+      "xmppChat": true,
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": false
+      },
+      "adminAccount": "team"
+    }
+  },
+  "error": null
+}

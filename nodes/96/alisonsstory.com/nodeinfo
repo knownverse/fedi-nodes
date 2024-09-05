@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Alison&#039;s Story",
+      "nodeDescription": "A JOURNEY OF BROKEN TRUST AND WILFUL BLINDNESS",
+      "nodeIcon": "https://alisonsstory.com/wp-content/uploads/2019/02/cropped-border-tv-images-capture-1.png"
+    }
+  },
+  "error": null
+}

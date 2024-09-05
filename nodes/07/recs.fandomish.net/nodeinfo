@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1359,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sharing the Shiny",
+      "nodeDescription": "Shirasade&#039;s recs collection",
+      "nodeIcon": "https://recs.fandomish.net/wp-content/uploads/2019/02/cropped-shira-recs-2.gif"
+    }
+  },
+  "error": null
+}

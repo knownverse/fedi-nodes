@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 330,
+      "localComments": 533
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tsukasa no Hibi",
+      "nodeDescription": "Cloudy Sky. Occasional Rain.",
+      "nodeIcon": "https://i0.wp.com/static.tsukasa.io/blog/2022/05/cropped-site_icon_tsu-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

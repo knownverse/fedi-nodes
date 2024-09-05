@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitchcity"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 8,
+        "activeHalfyear": 9
+      },
+      "localPosts": 53997
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Jubilife Global Terminal",
+      "nodeDescription": "An invite-only Mastodon instance geared towards nerdiness and geekery with a mind for social justice. Slightly Pokémon themed. Has a Phanpy mascot!"
+    }
+  },
+  "error": null
+}

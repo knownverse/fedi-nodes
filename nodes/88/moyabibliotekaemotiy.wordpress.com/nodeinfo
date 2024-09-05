@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 342,
+      "localComments": 1753
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My library of feelings",
+      "nodeDescription": "Обсуждаем книги, растём и развиваемся вместе",
+      "nodeIcon": "https://moyabibliotekaemotiy.wordpress.com/wp-content/uploads/2018/04/cropped-pwitldheqrw.jpg"
+    }
+  },
+  "error": null
+}

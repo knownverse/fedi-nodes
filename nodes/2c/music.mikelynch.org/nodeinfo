@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.8"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.mikelynch.org/federation/actors/service",
+      "private": false,
+      "shortDescription": "the federated sounds of now",
+      "longDescription": "Funkwhale pod broadcasting from Wattumattagal lands, Sydney, Australia",
+      "rules": "",
+      "contactEmail": "mike@mikelynch.org",
+      "terms": "",
+      "nodeName": "Electroacoustic",
+      "banner": "https://music.mikelynch.org/media/dynamic_preferences/instance__banner/funkwhale_banner_osko3zv.png",
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 456
+        },
+        "artists": {
+          "total": 2
+        },
+        "albums": {
+          "total": 30
+        },
+        "music": {
+          "hours": 61.94111111111111
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://music.mikelynch.org/api/v1/federation/domains",
+        "channels": "https://music.mikelynch.org/federation/index/channels",
+        "libraries": "https://music.mikelynch.org/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 2054
+        },
+        "downloads": {
+          "total": 1710
+        }
+      }
+    }
+  },
+  "error": null
+}

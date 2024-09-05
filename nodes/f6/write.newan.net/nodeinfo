@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Écrivez vos histoires, celle des autres... peu importe, écrivez !\nVos écrits sont, par défaut, sous licence CC-BY-NC-ND, pour attribution, pas d'utilisation commerciale, pas de modification (plus d'information sur [Wikipedia](https://fr.wikipedia.org/wiki/Licence_Creative_Commons)). ",
+      "nodeName": "write.newan.net"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.2"
+    },
+    "usage": {
+      "localComments": 1,
+      "localPosts": 3,
+      "users": {
+        "total": 9
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

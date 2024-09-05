@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0-cc.c-0.1.0",
+      "homepage": "https://github.com/clockcrockwork/clockcrock.click",
+      "repository": "https://github.com/clockcrockwork/clockcrock.click"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12919,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "clockcrock.click",
+      "nodeDescription": "個人用のMisskeyサーバーです。",
+      "nodeAdmins": [
+        {
+          "name": "clockcrockwork",
+          "email": "clockcrockwork@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "clockcrockwork",
+        "email": "clockcrockwork@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://clockcrock.click/@clockcrockwork",
+      "repositoryUrl": "https://github.com/clockcrockwork/clockcrock.click",
+      "feedbackUrl": "https://clockcrock.click/@clockcrockwork",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 6000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "remoteproxy",
+      "themeColor": "#443a31"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/uec23/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 53,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5608,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "UEC23 Misskey",
+      "nodeDescription": "大学非公認のMisskeyサーバーです。電気通信大学の23生が生息しています。",
+      "nodeAdmins": [
+        {
+          "name": "いーちゃん",
+          "email": "echan041007@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "いーちゃん",
+        "email": "echan041007@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/uec23/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "e_chan1007",
+      "themeColor": "#1b288b"
+    }
+  },
+  "error": null
+}

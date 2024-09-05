@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "takesama",
+      "version": "2023-06-26"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": true,
+    "usage": {},
+    "metadata": {
+      "private": false,
+      "nodeName": "takesama",
+      "nodeDescription": "explore the digital world",
+      "maintainer": {
+        "name": "takesama",
+        "email": "support@takesama.com"
+      },
+      "langs": [
+        "en",
+        "ja"
+      ],
+      "tosUrl": "https://takesama.com/docs/terms-of-service",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 1000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "themeColor": "#a29bfe"
+    }
+  },
+  "error": null
+}

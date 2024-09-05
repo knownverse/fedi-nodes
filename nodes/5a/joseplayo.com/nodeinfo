@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 102,
+      "localComments": 81
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "José Playo",
+      "nodeDescription": "Aventuras textuales",
+      "nodeIcon": "https://joseplayo.com/wp-content/uploads/2024/01/cropped-339742250_761644028676120_4006940587698615990_n.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 16,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "roaming-horizons ",
+      "nodeDescription": "Your passport to endless adventures !",
+      "nodeIcon": "https://mlbq5el2pu9r.i.optimole.com/cb:EGtn.40540/w:auto/h:auto/q:mauto/f:best/https://roaming-horizons.com/wp-content/uploads/2023/12/cropped-cropped-cropped-pexels-photo-346885.jpeg"
+    }
+  },
+  "error": null
+}

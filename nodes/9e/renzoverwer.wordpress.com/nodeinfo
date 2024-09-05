@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2895,
+      "localComments": 5821
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Renzo Verwer, blogger/auteur",
+      "nodeDescription": "Site van Renzo voor ... van alles wat.",
+      "nodeIcon": "https://renzoverwer.wordpress.com/wp-content/uploads/2018/08/cropped-liefdesm.jpg"
+    }
+  },
+  "error": null
+}

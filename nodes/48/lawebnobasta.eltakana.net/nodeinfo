@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1339,
+      "localComments": 1580
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Web No Basta",
+      "nodeDescription": "Blog de UnOsoRojo (César Flores Huallpa), de libros, gatos, anime, política, películas, opiniones y yerbas surtidas",
+      "nodeIcon": "https://lawebnobasta.eltakana.net/wp-content/uploads/sites/4/2023/01/cropped-993784_cat_maneki_neko_icon.png"
+    }
+  },
+  "error": null
+}

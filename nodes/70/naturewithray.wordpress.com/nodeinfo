@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 27,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "nature with ray",
+      "nodeDescription": "Take a journey through African nature #nature #naturephotography #wildlife",
+      "nodeIcon": "https://naturewithray.wordpress.com/wp-content/uploads/2023/03/img-20230303-wa0002-2.jpg"
+    }
+  },
+  "error": null
+}

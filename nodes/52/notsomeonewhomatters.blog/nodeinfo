@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 281,
+      "localComments": 3017
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ordinary Person",
+      "nodeDescription": "Poetry, Essays, Short Stories, Flash Fiction, Creative writing ",
+      "nodeIcon": "https://i0.wp.com/notsomeonewhomatters.blog/wp-content/uploads/2024/06/img-p9LmvkvKvNNfOz7gGjG8v63C.png?fit=1024%2C1024&ssl=1"
+    }
+  },
+  "error": null
+}

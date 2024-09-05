@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 274,
+      "localComments": 139
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "OopsOkinTP",
+      "nodeDescription": "おきんの備忘録的ブログ",
+      "nodeIcon": "https://www.okin-jp.net/wp-content/uploads/2018/09/cropped-logo_sqe.png"
+    }
+  },
+  "error": null
+}

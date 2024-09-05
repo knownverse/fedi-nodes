@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 7,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "jesse@bergerball.com",
+      "nodeDescription": "Sports analysis where data is the secret sauce",
+      "nodeIcon": "https://i0.wp.com/bergerball.com/wp-content/uploads/2024/02/bergerball-with-wordmark-and-arrow.jpg?fit=497%2C427&ssl=1"
+    }
+  },
+  "error": null
+}

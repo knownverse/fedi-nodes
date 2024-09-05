@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "support@sekaiproject.com",
+        "name": "Sekai Project, Inc"
+      },
+      "nodeDescription": "A visual novel instance, let's try out this decentralized thing out! We want to invite anyone who's a visual novel developer, publisher, localizer, or a fan to join us on this experiment! Although even if you're just kinda related to visual novels it's probably fine, we're not picky!\n\nSekai Project is committed to run this instance for free and without ads. \n\nPlease request for a invite by DMing @sekaiproject on twitter, requesting one though our support portal: https://support.sekaiproject.com, or DMing @dovac on discord",
+      "nodeName": "visualnovels.social",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 519,
+      "users": {
+        "activeHalfyear": 22,
+        "activeMonth": 5,
+        "total": 200
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

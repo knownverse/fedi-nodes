@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 41,
+      "localComments": 128
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MI AZOTEA",
+      "nodeDescription": "",
+      "nodeIcon": "https://miazotea.com/wp-content/uploads/2022/05/cropped-cropped-pexels-photo-6192337-3.jpeg"
+    }
+  },
+  "error": null
+}

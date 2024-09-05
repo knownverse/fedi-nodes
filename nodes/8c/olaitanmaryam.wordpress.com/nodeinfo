@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "M A R Y A M  O L A I T A N",
+      "nodeDescription": "… a slice of my imagination.",
+      "nodeIcon": "https://olaitanmaryam.wordpress.com/wp-content/uploads/2023/06/image.jpg"
+    }
+  },
+  "error": null
+}

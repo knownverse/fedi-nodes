@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cosmic Creator",
+      "nodeDescription": "Consciousness, Reiki, Plants, Art &amp; Design",
+      "nodeIcon": "https://katieshupe.com/wp-content/uploads/2024/03/bio-photo-katie-shupe-2024_1000x1000.jpg"
+    }
+  },
+  "error": null
+}

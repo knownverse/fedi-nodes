@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 40,
+      "localComments": 122
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gerald Michael Anderson",
+      "nodeDescription": "Gerry Anderson radio and television broadcaster for BBC Northern Ireland, writer and musician",
+      "nodeIcon": "https://geraldmichaelanderson.com/wp-content/uploads/2022/09/screenshot-2022-09-22-at-10.19.35.png"
+    }
+  },
+  "error": null
+}

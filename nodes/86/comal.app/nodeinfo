@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {},
+    "usage": {
+      "users": {
+        "total": 0,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 0
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "software": {
+      "name": "Comal",
+      "version": "1.0.0"
+    }
+  },
+  "error": null
+}

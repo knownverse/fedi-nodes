@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 94,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anti-Imperialist Struggle Committee",
+      "nodeDescription": "Blog of Anti-Imperialist Struggle Committee from Berlin. We are in solidarity with everyone who are affected by Isolation and Solitary Confinement. Down with the prison system of Imperialists.",
+      "nodeIcon": "https://antiimperialiststruggle.noblogs.org/files/2022/11/cropped-cropped-logo5.png"
+    }
+  },
+  "error": null
+}

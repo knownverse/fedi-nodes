@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Alle unsere Treffen und Lieblingsveranstaltungen.",
+      "nodeName": "Dresden Beer Friends",
+      "nodeTimezone": "Europe/Berlin",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 16,
+      "users": {
+        "total": 5
+      }
+    }
+  },
+  "error": null
+}

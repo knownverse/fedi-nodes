@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "0.1.3-beta",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2786,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "秘境の花園",
+      "nodeDescription": "（サーバー名は、ALI PROJECTの「幻想庭園」より）\n\nこれは、黒雪のお一人様インスタンスです。\n\n花庭厳峻、不容著作権従門入\n遮莫、促進知識共享的途徑進一歩来",
+      "nodeAdmins": [
+        {
+          "name": "黒雪",
+          "email": "Squatters_mark"
+        }
+      ],
+      "maintainer": {
+        "name": "黒雪",
+        "email": "Squatters_mark"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://kuroyuki-server.misskey.one/@Admin",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#292929"
+    }
+  },
+  "error": null
+}

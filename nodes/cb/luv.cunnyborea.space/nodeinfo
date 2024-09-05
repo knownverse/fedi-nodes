@@ -1,0 +1,419 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": true,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "InlineQuotePolicy",
+          "SimplePolicy",
+          "NormalizeMarkup",
+          "HellthreadPolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [
+            "ryona.agency",
+            "*.raccoon.quest",
+            "plagu.ee"
+          ],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "*.raccoon.quest",
+            "mastodon.social",
+            "shitposter.world"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "kiwifarms.cc",
+            "seal.club",
+            "*.asbestos.cafe",
+            "cum.salon",
+            "*.ey.business",
+            "*.transfem.social",
+            "freespeechextremist.com",
+            "fsebugoutzone.org",
+            "m.mxin.moe",
+            "social.cutefunny.net",
+            "misskey.tailc0bbe.ts.net",
+            "cherryberry.pink",
+            "game-tecx.de",
+            "cmm.fyi",
+            "mentalhealth-masto.com",
+            "mastodon.svgun.ru",
+            "mastodon-ero.xyz",
+            "estrogen.cat",
+            "nafo.uk",
+            "neuss.social",
+            "thewiring.com",
+            "mastodon.mg",
+            "masto.foederiert.de",
+            "gaygeek.social",
+            "*.ating.press",
+            "blackqueer.life",
+            "gaysex.cloud",
+            "*.fediversealmanac.com",
+            "*.boyter.org",
+            "*.fedichive.cf",
+            "*.gangstalking.services",
+            "*.searchtodon.social",
+            "*.mastinator.com",
+            "*.kazar.ma",
+            "*.peopl.social",
+            "*.awakari.com",
+            "*.heymaven.com",
+            "*.maven.ly",
+            "*.archivefedifor.fun",
+            "*.noc.social",
+            "*.northwestern.edu",
+            "*.fedichive.tk",
+            "seal.cafe",
+            "*.voltrina.net",
+            "nsfw.social",
+            "qaf.men"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "avatar_removal": {
+            "*.raccoon.quest": {
+              "reason": "Fun"
+            },
+            "plagu.ee": {
+              "reason": "Tit for tat"
+            },
+            "ryona.agency": {
+              "reason": "Tit for tat"
+            }
+          },
+          "federated_timeline_removal": {
+            "*.raccoon.quest": {
+              "reason": "Fun"
+            },
+            "mastodon.social": {
+              "reason": "They're spamming faggot porn now"
+            },
+            "shitposter.world": {
+              "reason": "Fun"
+            }
+          },
+          "reject": {
+            "seal.club": {
+              "reason": "Fun"
+            },
+            "*.fediversealmanac.com": {
+              "reason": "Data scraping"
+            },
+            "mastodon.svgun.ru": {
+              "reason": "Spam"
+            },
+            "*.mastinator.com": {
+              "reason": "Data scraping"
+            },
+            "qaf.men": {
+              "reason": "Faggot posting"
+            },
+            "*.voltrina.net": {
+              "reason": "Faggot admin"
+            },
+            "fsebugoutzone.org": {
+              "reason": "FSE"
+            },
+            "cum.salon": {
+              "reason": "Fun"
+            },
+            "gaygeek.social": {
+              "reason": "Faggots"
+            },
+            "blackqueer.life": {
+              "reason": "Negros de mierda, parecen cucarachas que se amontonan en la basura."
+            },
+            "misskey.tailc0bbe.ts.net": {
+              "reason": "Spam"
+            },
+            "nafo.uk": {
+              "reason": "Spam"
+            },
+            "*.searchtodon.social": {
+              "reason": "Data scraping"
+            },
+            "freespeechextremist.com": {
+              "reason": "Spam"
+            },
+            "estrogen.cat": {
+              "reason": "Spam"
+            },
+            "*.transfem.social": {
+              "reason": "Troons"
+            },
+            "*.archivefedifor.fun": {
+              "reason": "Data scraping"
+            },
+            "*.kazar.ma": {
+              "reason": "Data scraping"
+            },
+            "seal.cafe": {
+              "reason": "Fun"
+            },
+            "*.peopl.social": {
+              "reason": "Data scraping"
+            },
+            "nsfw.social": {
+              "reason": "Faggot posting"
+            },
+            "cherryberry.pink": {
+              "reason": "Spam"
+            },
+            "social.cutefunny.net": {
+              "reason": "Spam"
+            },
+            "neuss.social": {
+              "reason": "Spam"
+            },
+            "cmm.fyi": {
+              "reason": "Spam"
+            },
+            "thewiring.com": {
+              "reason": "Spam"
+            },
+            "*.ating.press": {
+              "reason": "Negros de mierda, parecen cucarachas que se amontonan en la basura."
+            },
+            "*.heymaven.com": {
+              "reason": "Data scraping"
+            },
+            "*.asbestos.cafe": {
+              "reason": "Fun"
+            },
+            "gaysex.cloud": {
+              "reason": "Faggots"
+            },
+            "*.gangstalking.services": {
+              "reason": "Data scraping"
+            },
+            "*.ey.business": {
+              "reason": "Subsaharian filth"
+            },
+            "masto.foederiert.de": {
+              "reason": "Spam"
+            },
+            "kiwifarms.cc": {
+              "reason": "Fun"
+            },
+            "mentalhealth-masto.com": {
+              "reason": "Spam"
+            },
+            "m.mxin.moe": {
+              "reason": "Spam"
+            },
+            "*.fedichive.cf": {
+              "reason": "Data scraping"
+            },
+            "*.fedichive.tk": {
+              "reason": "Data scraping"
+            },
+            "game-tecx.de": {
+              "reason": "Spam"
+            },
+            "*.maven.ly": {
+              "reason": "Data scraping"
+            },
+            "*.boyter.org": {
+              "reason": "Data scraping"
+            },
+            "*.awakari.com": {
+              "reason": "Data scraping"
+            },
+            "mastodon-ero.xyz": {
+              "reason": "Spam"
+            },
+            "*.noc.social": {
+              "reason": "Data scraping"
+            },
+            "*.northwestern.edu": {
+              "reason": "Data scraping"
+            },
+            "mastodon.mg": {
+              "reason": "Spam"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": false,
+      "nodeDescription": "A place for based cnnuy lovers ToT",
+      "nodeName": "CVNNYBOREA",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://luv.cunnyborea.space/users/Illyarespecter1488",
+        "https://luv.cunnyborea.space/users/YanoPettanko",
+        "https://luv.cunnyborea.space/users/goylita1488",
+        "https://luv.cunnyborea.space/users/solitar"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2097152,
+        "background": 4194304,
+        "banner": 4194304,
+        "general": 67108864
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.2"
+    },
+    "usage": {
+      "localPosts": 2566,
+      "users": {
+        "activeHalfyear": 26,
+        "activeMonth": 21,
+        "total": 25
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

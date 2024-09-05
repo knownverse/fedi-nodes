@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {},
+      "nodeDescription": "엔트리 관련 firefish 서버입니다.",
+      "nodeName": "둣스키",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#34a1c9"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

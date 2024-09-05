@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 10,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Manu Viciano",
+      "nodeDescription": "Traduzco cosas. Reviso cosas. Escribo en sitios. Segundo mejor amante del mundo. Mentiroso profesional. Se reparan escalerillas.",
+      "nodeIcon": "https://manuviciano.com/wp-content/uploads/2021/09/cropped-favicon_negro.png"
+    }
+  },
+  "error": null
+}

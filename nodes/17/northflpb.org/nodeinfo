@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Proud Boys of North Florida",
+      "nodeDescription": "Spiritual, Cultural, and Political Action - Brotherhood Above All!",
+      "nodeIcon": "https://northflpb.org/wp-content/uploads/2021/01/cropped-tmp-cam-428984151585714547.jpg"
+    }
+  },
+  "error": null
+}

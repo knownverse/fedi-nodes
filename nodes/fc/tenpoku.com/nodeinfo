@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 761,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "天北部屋",
+      "nodeDescription": "少し昔＆最近の北海道の鉄道がメイン<br>\n鉄道同人ゲーム『[新・]北海道4,n00km』『札幌駅シリーズ』の情報発信はこちら【試行中】<br>\n（情報発信用おひとり様サーバのため、ユーザ登録は開放していません。<br>\n他の任意のサーバから、「https://tenpoku.com/@tempoku」を検索・フォローしてください）",
+      "maintainer": {
+        "name": "てんぽく",
+        "email": "y-tempoku@yos.ne.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#001800"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "4",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 3506,
+      "localComments": 3860
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "K-Squared Ramblings",
+      "nodeDescription": "Sci-fi, comics, humor, photos...it&#039;s all fair game.",
+      "nodeIcon": "https://hyperborea.org/journal/wp-content/uploads/2019/05/cropped-Modjeska-Grade.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "fedi@intron014.com",
+        "name": "Intron014"
+      },
+      "nodeDescription": "FediMe! A Firefish instance for intron",
+      "nodeName": "The FedIntron",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240905"
+    },
+    "usage": {
+      "localPosts": 61,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

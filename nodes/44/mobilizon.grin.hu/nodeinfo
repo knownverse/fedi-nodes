@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Magyar nyelvű, nyílt, közösségi események",
+      "nodeName": "gribilizon"
+    },
+    "usage": {
+      "users": {
+        "total": 20
+      },
+      "localComments": 22,
+      "localPosts": 35
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

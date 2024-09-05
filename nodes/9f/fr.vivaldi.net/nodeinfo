@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": "6",
+        "activeHalfyear": "6"
+      },
+      "localPosts": 276,
+      "localComments": 349
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vivaldi en français",
+      "nodeDescription": "Ce site vous propose une compilation des meilleurs articles de notre blog anglophone",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

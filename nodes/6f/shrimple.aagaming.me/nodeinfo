@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "aagaming@riseup.net",
+        "name": "aa"
+      },
+      "nodeDescription": "Shrimpkey, aa's firefish instance",
+      "nodeName": "Shrimpkey",
+      "proxyAccountName": "9hs2n676v1457lng",
+      "repositoryUrl": "https://git.catvibers.me/shrimpkey/shrimpkey",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://git.catvibers.me/shrimpkey/shrimpkey",
+      "name": "shrimpkey",
+      "repository": "https://git.catvibers.me/shrimpkey/shrimpkey",
+      "version": "1.3.2"
+    },
+    "usage": {
+      "localPosts": 10101,
+      "users": {
+        "activeHalfyear": 9,
+        "activeMonth": 6,
+        "total": 12
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Toolbox of tools",
+      "nodeDescription": "本网站用于收集各类实用便捷的小工具，大大提升工作和学习效率，同时设有论坛，欢迎大家积极发表言论，分享经验……",
+      "nodeIcon": "https://toolboxoftools.wordpress.com/wp-content/uploads/2024/01/site-logo.png"
+    }
+  },
+  "error": null
+}

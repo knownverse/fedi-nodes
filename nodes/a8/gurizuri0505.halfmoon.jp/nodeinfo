@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 37191,
+      "localComments": 28884
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "吟遊詩人の戯言",
+      "nodeDescription": "愛あふれる独り言",
+      "nodeIcon": "https://gurizuri0505.halfmoon.jp/wp-content/uploads/2017/08/cropped-bb3ad1343c482add16f8cda8152bf6d7-1.jpg"
+    }
+  },
+  "error": null
+}

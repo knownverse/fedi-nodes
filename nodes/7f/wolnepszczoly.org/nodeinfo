@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 77,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Wolne Pszczoły",
+      "nodeDescription": "Stowarzyszenie Pszczelarstwa Naturalnego.",
+      "nodeIcon": "https://wolnepszczoly.org/wp-content/uploads/2024/08/cropped-wp_logo_solo.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+qdon.glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 538
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Old Sharlayan",
+      "nodeDescription": "Ensconced in a lonely northern archipelago and ever blessed by the wise auspices of Thaliak, the gleaming white edifices of this city stand at the center of Sharlayan society."
+    }
+  },
+  "error": null
+}

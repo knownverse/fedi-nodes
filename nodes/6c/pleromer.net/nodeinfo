@@ -1,0 +1,424 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "blockers_visible",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "email_list",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "events"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "TagPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [
+            "fedi.cpluspatch.com",
+            "eientei.org",
+            "federated.fun",
+            "freespeechextremist.com",
+            "noagendasocial.com",
+            "shitposter.club",
+            "the.asbestos.cafe"
+          ],
+          "media_removal": [],
+          "reject": [
+            "activitypub-troll.cf",
+            "aethy.com",
+            "bae.st",
+            "baraag.net",
+            "cannibal.cafe",
+            "cassilda.house",
+            "childlove.space",
+            "cloudflare.social",
+            "clubcyberia.co",
+            "cum.salon",
+            "cutiecluster.cc",
+            "cunnyborea.space",
+            "decayable.ink",
+            "detroitriotcity.com",
+            "emmaverse.void.rehab",
+            "f.haeder.net",
+            "freak.university",
+            "gameliberty.club",
+            "glee.li",
+            "ghetti.monster",
+            "imouto.pics",
+            "mirr0r.city",
+            "moar.cachapa.xyz",
+            "nicecrew.digital",
+            "nnia.space",
+            "norwoodzero.net",
+            "pawoo.net",
+            "pedo.school",
+            "pieville.net",
+            "poa.st",
+            "poast.org",
+            "rapemeat.express",
+            "rape.pet",
+            "rapemeat.solutions",
+            "rot.gives",
+            "ryona.agency",
+            "seal.cafe",
+            "shitpisscum.mooo.com",
+            "shitpost.cloud",
+            "shota.house",
+            "sleepy.cafe",
+            "spinster.xyz",
+            "threads.net",
+            "ubiqueros.com",
+            "varishangout.net",
+            "xn--p1abe3d.xn--80asehdb",
+            "youjo.love"
+          ],
+          "reject_deletes": [],
+          "report_removal": [
+            "mastodon.art"
+          ]
+        },
+        "mrf_simple_info": {
+          "media_nsfw": {
+            "eientei.org": {
+              "reason": "Unmarked content that is debatably NSFW."
+            },
+            "federated.fun": {
+              "reason": "Potentially hateful content; downgraded from defederation."
+            },
+            "fedi.cpluspatch.com": {
+              "reason": "Unmarked NSFW content."
+            },
+            "freespeechextremist.com": {
+              "reason": "Unmoderated instance, can get toxic quickly."
+            },
+            "noagendasocial.com": {
+              "reason": "These people need to learn about the CW button, and badly. Oh well, I suppose that you can't teach libertarians to think critically."
+            },
+            "shitposter.club": {
+              "reason": "Unmarked NSFW content."
+            },
+            "the.asbestos.cafe": {
+              "reason": "Unmarked NSFW content."
+            }
+          },
+          "reject": {
+            "childlove.space": {
+              "reason": "Pedophilia, suspicious behaviour, keeps sending me images of children."
+            },
+            "moar.cachapa.xyz": {
+              "reason": "Hatred of all varieties."
+            },
+            "cloudflare.social": {
+              "reason": "It's Cloudflare, it's broken, and it's a shitty Mastodon clone."
+            },
+            "norwoodzero.net": {
+              "reason": "Racism, transphobia."
+            },
+            "spinster.xyz": {
+              "reason": "It's basically the TERF instance, and I can't be bothered to deal with that."
+            },
+            "threads.net": {
+              "reason": "Facebook can fuck right off, thank you very much."
+            },
+            "f.haeder.net": {
+              "reason": "Transphobia, homophobia; this guy is not okay."
+            },
+            "nicecrew.digital": {
+              "reason": "Immense amounts of Nazism and white supremacy."
+            },
+            "shitpost.cloud": {
+              "reason": "Racism, transphobia."
+            },
+            "imouto.pics": {
+              "reason": "CSAM."
+            },
+            "rapemeat.express": {
+              "reason": "CSAM, pedophilia."
+            },
+            "ryona.agency": {
+              "reason": "Racism and transphobia."
+            },
+            "cum.salon": {
+              "reason": "Discussion and promotion of illegal activities. Ironic or not, that isn't something that I will allow here."
+            },
+            "nnia.space": {
+              "reason": "Pedophilia, illegal content (CSAM)."
+            },
+            "rapemeat.solutions": {
+              "reason": "CSAM, pedophilia."
+            },
+            "freak.university": {
+              "reason": "Pedophilia."
+            },
+            "gameliberty.club": {
+              "reason": "A lot of libertarianism, encouraging some terrible things."
+            },
+            "detroitriotcity.com": {
+              "reason": "Calling the pride flag some horrible things, immense amounts of transphobia."
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "They asked for defedration, so defederation they shall get. The instance has nothing of value anyways."
+            },
+            "aethy.com": {
+              "reason": "Pedophilia, illegal content."
+            },
+            "varishangout.net": {
+              "reason": "Pedophilia, illegal content."
+            },
+            "mirr0r.city": {
+              "reason": "Pedophilia."
+            },
+            "seal.cafe": {
+              "reason": "Transphobia, white supremacism, overall not a great place."
+            },
+            "cassilda.house": {
+              "reason": "Pedophilia."
+            },
+            "sleepy.cafe": {
+              "reason": "Transphobia, questionable content."
+            },
+            "emmaverse.void.rehab": {
+              "reason": "mia is doing some fedi things that I can't be bothered to deal with."
+            },
+            "cannibal.cafe": {
+              "reason": "Pedophilia."
+            },
+            "cutiecluster.cc": {
+              "reason": "Serial harassment."
+            },
+            "ubiqueros.com": {
+              "reason": "Abusive behaviour, oppression."
+            },
+            "bae.st": {
+              "reason": "It's like if Poast couldn't commit to being Nazis, so instead of being edgy, it's just sad. It's still terrible, though."
+            },
+            "glee.li": {
+              "reason": "Antisemitism, slurs."
+            },
+            "decayable.ink": {
+              "reason": "Transphobia, calls for anti-queer violence."
+            },
+            "poa.st": {
+              "reason": "It's Poast. Nazism, transphobia, everything that makes an instance insufferable."
+            },
+            "rape.pet": {
+              "reason": "Pedophilia, gore; the domain says enough."
+            },
+            "ghetti.monster": {
+              "reason": "Pedophilia."
+            },
+            "poast.org": {
+              "reason": "It's Poast yet again."
+            },
+            "baraag.net": {
+              "reason": "Pedophilia, illegal content."
+            },
+            "pawoo.net": {
+              "reason": "Pedophilia, illegal content."
+            },
+            "activitypub-troll.cf": {
+              "reason": "Malicious server implementation, DoS attacks."
+            },
+            "pedo.school": {
+              "reason": "Pedophilia."
+            },
+            "cunnyborea.space": {
+              "reason": "Racism, Nazism, pedophilia; not a fun time."
+            },
+            "clubcyberia.co": {
+              "reason": "Transphobia."
+            },
+            "shota.house": {
+              "reason": "Pedophilia."
+            },
+            "rot.gives": {
+              "reason": "Pedophilia."
+            },
+            "shitpisscum.mooo.com": {
+              "reason": "Unmarked NSFW, harassment."
+            },
+            "youjo.love": {
+              "reason": "Pedophilia."
+            },
+            "pieville.net": {
+              "reason": "Very open Nazism; advocating for genocide."
+            }
+          },
+          "report_removal": {
+            "mastodon.art": {
+              "reason": "Report spamming; see https://void.rehab/notes/9jnqkdsuaa569fp6 for more information."
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 100,
+        "maxRemoteFields": 512,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "Pleroma, with 🏳️‍⚧️️ and ☭",
+      "nodeName": "The Pleromer",
+      "pollLimits": [
+        [
+          "max_options",
+          50
+        ]
+      ],
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://pleromer.net/users/usernameswift"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.50-888-g1d941583.main+soapbox"
+    },
+    "usage": {
+      "localPosts": 9387,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

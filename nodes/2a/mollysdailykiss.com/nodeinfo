@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 2524,
+      "localComments": 25957
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Molly&#039;s Daily Kiss",
+      "nodeDescription": "A Kiss is Just a Kiss -",
+      "nodeIcon": "https://mollysdailykiss.com/wp-content/uploads/2017/10/BlackLipsMarkLogoFinal200.png"
+    }
+  },
+  "error": null
+}

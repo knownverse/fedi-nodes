@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-02-17-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 36
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "social.tobiasm.dev",
+      "nodeDescription": "Tobias Marschner's self-hosted single-user Mastodon instance"
+    }
+  },
+  "error": null
+}

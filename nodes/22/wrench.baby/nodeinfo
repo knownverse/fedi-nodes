@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.6.0-dev",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 40,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "When a Neocat meets a Wrench it loves very much...",
+      "nodeDescription": ":3",
+      "nodeAdmins": [
+        {
+          "name": "Amber",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "Amber",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://www.youtube.com/watch?v=y6120QOlsfU",
+      "privacyPolicyUrl": "https://www.youtube.com/watch?v=y6120QOlsfU",
+      "inquiryUrl": "https://www.youtube.com/watch?v=y6120QOlsfU",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

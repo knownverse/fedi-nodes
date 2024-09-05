@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 415,
+      "localComments": 63
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tiller",
+      "nodeDescription": "Your finances in a spreadsheet, automatically",
+      "nodeIcon": "https://i0.wp.com/www.tillerhq.com/wp-content/uploads/2022/11/cropped-tiller-icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 171,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Choza de Crinlorite",
+      "nodeDescription": "Conoce mi día a día, guías, tutoriales y más",
+      "nodeIcon": "https://i0.wp.com/crinlorite.com/wp-content/uploads/2024/02/cropped-La-Choza-de-Crinlorite-512x.png?fit=450%2C450&quality=20&ssl=1"
+    }
+  },
+  "error": null
+}

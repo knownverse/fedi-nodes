@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "31",
+        "activeHalfyear": "31"
+      },
+      "localPosts": 5497,
+      "localComments": 60909
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "David Boles, Blogs",
+      "nodeDescription": "Founded 1983: Liberal Mindset; Conservative Morality",
+      "nodeIcon": "https://i0.wp.com/bolesblogs.com/wp-content/uploads/2017/08/bolesblogs-logo-WHITE-ORG-800-SQUARE-Google.jpg?fit=800%2C800&ssl=1"
+    }
+  },
+  "error": null
+}

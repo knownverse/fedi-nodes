@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1679,
+      "localComments": 2928
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mars Will Send No More",
+      "nodeDescription": "Comic books, art, writing, and other obsessions",
+      "nodeIcon": "https://marswillsendnomore.wordpress.com/wp-content/uploads/2024/02/cropped-fantastic-four-184-00.jpg"
+    }
+  },
+  "error": null
+}

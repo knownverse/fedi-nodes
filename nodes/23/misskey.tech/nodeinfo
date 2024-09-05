@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.9.3",
+      "homepage": "https://github.com/syuilo/misskey",
+      "repository": "https://github.com/syuilo/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 39,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13959,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey.tech",
+      "nodeDescription": "",
+      "maintainer": {
+        "name": "takenoko",
+        "email": "dummy@mail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/MisskeyTech/policy/blob/main/tos.md",
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#4a69d0"
+    }
+  },
+  "error": null
+}

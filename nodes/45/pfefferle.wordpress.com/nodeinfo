@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Matthias Pfefferle",
+      "nodeDescription": "maunz!",
+      "nodeIcon": "https://pfefferle.wordpress.com/wp-content/uploads/2023/10/337b3d7a89119c55a1a4c13bf5dd9332.jpeg"
+    }
+  },
+  "error": null
+}

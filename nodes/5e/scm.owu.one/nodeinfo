@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 4,
+        "activeMonth": 1
+      },
+      "localPosts": 1
+    },
+    "metadata": {
+      "nodeName": "Owu Social-M",
+      "nodeDescription": "一般通过中文 Mitra 实例，由 Owu One! 运营。",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://scm.owu.one/users/admin"
+      ]
+    }
+  },
+  "error": null
+}

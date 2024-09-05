@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 2757
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Wir. Müssen Reden",
+      "nodeDescription": "Gruselpodcast",
+      "nodeIcon": "https://wir.muessenreden.de/wp-content/uploads/sites/3/2023/09/cropped-DALL·E-2023-09-17-09.50.04-Two-men-blowing-their-minds-while-podcasting-as-a-Hieronymus-Bosch-painting.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jasa angkutan pickup banjarbaru",
+      "nodeDescription": "Pickup angkutan melayani transportasi darat",
+      "nodeIcon": "https://jasaangkutanpickupbanjarbaru.wordpress.com/wp-content/uploads/2022/09/cropped-img_20210615_084352.jpg"
+    }
+  },
+  "error": null
+}

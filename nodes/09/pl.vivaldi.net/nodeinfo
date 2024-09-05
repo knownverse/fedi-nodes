@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 139,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Przeglądarka Vivaldi",
+      "nodeDescription": "Przejmij kontrolę z Vivaldi",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

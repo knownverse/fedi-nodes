@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 938,
+      "localComments": 74
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Is This Pop?",
+      "nodeDescription": "The home of melody",
+      "nodeIcon": "https://isthispop9.wordpress.com/wp-content/uploads/2024/03/wp-1710057377695.jpg"
+    }
+  },
+  "error": null
+}

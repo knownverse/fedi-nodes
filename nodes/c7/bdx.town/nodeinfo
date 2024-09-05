@@ -1,0 +1,459 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "poa.st",
+            "kiwifarms.cc",
+            "freespeechextremist.com",
+            "mig5.social",
+            "fedi.pawlicker.com",
+            "nicecrew.digital",
+            "outpoa.st",
+            "xn--p1abe3d.xn--80asehdb",
+            "iddqd.social",
+            "bajax.us",
+            "pleroma.elementality.org",
+            "eientei.org",
+            "amala.schwartzwelt.xyz",
+            "zov.oti.st",
+            "shitpost.cloud",
+            "chudbuds.lol",
+            "sleepy.cafe",
+            "gameliberty.club",
+            "beefyboys.win",
+            "leafposter.club",
+            "wreck.rocks",
+            "smittenkittens.xyz",
+            "soangrytoday.com",
+            "soanime.website",
+            "bikeshed.party",
+            "birdsite.link",
+            "bofh.social",
+            "bruh.homd.xyz",
+            "charlestown.social",
+            "cofe.moe",
+            "comm.network",
+            "community.highlandarrow.com",
+            "dirtytrans.club",
+            "ecurie.social",
+            "explosion.party",
+            "flauschig.social",
+            "freeatlantis.com",
+            "freethinkers.lgbt",
+            "freezepeach.xyz",
+            "goldandblack.xyz",
+            "gorf.club",
+            "gs.archae.me",
+            "gs.kawa-kun.com",
+            "gs.m0n5t3r.info",
+            "hellsite.site",
+            "hitchhiker.social",
+            "honey.church",
+            "ika.moe",
+            "jabb.in",
+            "justicewarrior.social",
+            "karolat.press",
+            "kinky.business",
+            "kyot.me",
+            "liberdon.com",
+            "libertarianism.club",
+            "manx.social",
+            "pl.smuglo.li",
+            "megamast.io",
+            "donotban.com",
+            "activitypub-troll.cf",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "mastinator.com",
+            "noagendasocial.com",
+            "soc.ua-fediland.de",
+            "mxtthxw.art",
+            "fedirelay.xyz",
+            "blobfox.coffee",
+            "poster.place",
+            "the.asbestos.cafe",
+            "pawoo.net",
+            "lemmy.world",
+            "lemmy.dbzer0.com",
+            "slrpnk.net",
+            "dubvee.org",
+            "notdigg.com",
+            "infosec.pub",
+            "lemm.ee",
+            "lemmy.pe1uca.dev",
+            "feddit.de",
+            "lemmy.ca",
+            "programming.dev",
+            "lemmy.tgnx.net",
+            "threads.net",
+            "lemmy.nl",
+            "beehaw.org",
+            "gleasonator.com",
+            "annihilation.social",
+            "eveningzoo.club",
+            "noauthority.social",
+            "rebased.social",
+            "rebelbase.site",
+            "shitposter.world"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "quarantined_instances": [],
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "slrpnk.net": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Spam"
+            },
+            "mastinator.com": {
+              "reason": "Aggregation service"
+            },
+            "threads.net": {
+              "reason": "Threat to privacy"
+            },
+            "nicecrew.digital": {
+              "reason": "Freezepeach"
+            },
+            "soc.ua-fediland.de": {
+              "reason": "Propagande pro-russe"
+            },
+            "shitpost.cloud": {
+              "reason": "\"Shitpost\""
+            },
+            "lemmy.nl": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "blobfox.coffee": {
+              "reason": "Admin is an asshole"
+            },
+            "leafposter.club": {
+              "reason": "\"Free speech\""
+            },
+            "zov.oti.st": {
+              "reason": "Toxic"
+            },
+            "freespeechextremist.com": {
+              "reason": "\"Free Speech\""
+            },
+            "pleroma.elementality.org": {
+              "reason": "Toxic"
+            },
+            "beehaw.org": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "gameliberty.club": {
+              "reason": "Freezepeach"
+            },
+            "beefyboys.win": {
+              "reason": "Unsafe space"
+            },
+            "gleasonator.com": {
+              "reason": "Admin works for truth.social"
+            },
+            "lemmy.dbzer0.com": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "Toxic"
+            },
+            "noauthority.social": {
+              "reason": "Freezepeach"
+            },
+            "rebased.social": {
+              "reason": "Freezepeach"
+            },
+            "eveningzoo.club": {
+              "reason": "Freezepeach"
+            },
+            "sleepy.cafe": {
+              "reason": "\"Shitpot\""
+            },
+            "donotban.com": {
+              "reason": "Allows personal attacks (in their rules)"
+            },
+            "infosec.pub": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "eientei.org": {
+              "reason": "Toxic"
+            },
+            "mig5.social": {
+              "reason": "Generates errors"
+            },
+            "notdigg.com": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "fedi.pawlicker.com": {
+              "reason": "Entretien des relations avec KiwiFarms"
+            },
+            "noagendasocial.com": {
+              "reason": "Faf"
+            },
+            "fedirelay.xyz": {
+              "reason": "Attack by fake relay"
+            },
+            "repl.co": {
+              "reason": "Spam"
+            },
+            "lemmy.pe1uca.dev": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "poa.st": {
+              "reason": "\"Shitpost\" est une excuse pour se poster des trucs atroces."
+            },
+            "poster.place": {
+              "reason": "Racists and biggots"
+            },
+            "wreck.rocks": {
+              "reason": "Troll"
+            },
+            "pawoo.net": {
+              "reason": "Pedophilia"
+            },
+            "activitypub-troll.cf": {
+              "reason": "Spam"
+            },
+            "megamast.io": {
+              "reason": "\"Free speech\""
+            },
+            "kiwifarms.cc": {
+              "reason": "Rassemble des personnes horribles autour du concept de lolcows"
+            },
+            "amala.schwartzwelt.xyz": {
+              "reason": "Toxic"
+            },
+            "chudbuds.lol": {
+              "reason": "\"Shitpost\""
+            },
+            "annihilation.social": {
+              "reason": "Freezepeach"
+            },
+            "lemmy.ca": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "lemmy.world": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "shitposter.world": {
+              "reason": "Freezepeach"
+            },
+            "rebelbase.site": {
+              "reason": "Freezepeach"
+            },
+            "smittenkittens.xyz": {
+              "reason": "Admin is an asshole"
+            },
+            "feddit.de": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "dubvee.org": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "the.asbestos.cafe": {
+              "reason": "\"Edgelords\""
+            },
+            "bajax.us": {
+              "reason": "Toxic"
+            },
+            "iddqd.social": {
+              "reason": "Toxic"
+            },
+            "mxtthxw.art": {
+              "reason": "Fail to answer correctly"
+            },
+            "programming.dev": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "outpoa.st": {
+              "reason": "Toxic"
+            },
+            "lemmy.tgnx.net": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            },
+            "lemm.ee": {
+              "reason": "Akkoma does not handle Lemmy for now"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "merveilles.town",
+        "pipou.academy",
+        "biscuit.town",
+        "oslo.town",
+        "boitam.eu",
+        "typo.social",
+        "imaginair.es",
+        "dice.camp",
+        "handmade.social",
+        "toulouse.social",
+        "toot.paris",
+        "montpellier.buzz",
+        "savoie.social",
+        "craftopi.art",
+        "quoli.bet"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Bdx.town est un réseau social local ouvert sur le reste du monde.  Un espace d’échange et de partage à destination première des esprits créatifs (artistes, artisanes & artisans, créateurs & créatrices, concepteurs & conceptrices, militantes et militants…) de Bordeaux et ses alentours. 🛠️",
+      "nodeName": "Bdx.town",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://bdx.town/users/annonce",
+        "https://bdx.town/users/clovis"
+      ],
+      "uploadLimits": {
+        "general": 100000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 100,
+        "activeHalfyear": 94,
+        "activeMonth": 43
+      },
+      "localPosts": 25376
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.12.0-0-ga57c57f"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

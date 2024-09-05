@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 37,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rich Darkness",
+      "nodeDescription": "One does not become enlightened by imagining figures of light, but by making the darkness conscious – Carl Jung",
+      "nodeIcon": "https://richdarkness.wordpress.com/wp-content/uploads/2024/01/image.jpg"
+    }
+  },
+  "error": null
+}

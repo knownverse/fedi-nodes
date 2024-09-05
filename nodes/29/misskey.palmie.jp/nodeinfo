@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 881,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 24755,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "パルミー公式Misskey",
+      "nodeDescription": "【2024年3月 正式オープン！】\nお絵かき講座パルミーの公式Misskeyです。\n\n<p>「初心者さんにもやさしいイラスト練習SNS」として運営していますので、練習、落描き、途中経過、ボツ絵、つぶやきメモなど、何でも気軽に投稿してみてください！ 誰でも自由に登録できます！</p>\n\n<p>\n<b><a href=\"https://misskey.palmie.jp/@palmie/pages/guidelines\">【ご利用ガイドラインはこちら】</a></b>\n</p>\n<hr />\n<a href=\"https://www.palmie.jp/subscriptions/lp?aff_id=misskey_top\">パルミー公式サイト（無料お試し実施中♪）</a>",
+      "maintainer": {
+        "name": "お絵かき講座パルミー",
+        "email": "support@palmie.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://www.palmie.jp",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#fac02d"
+    }
+  },
+  "error": null
+}

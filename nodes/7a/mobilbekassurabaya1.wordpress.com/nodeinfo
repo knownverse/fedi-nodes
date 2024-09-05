@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "mobilbekassurabaya",
+      "nodeDescription": "Temukan mobil bekas Surabaya berkualitas tinggi dengan harga yang terjangkau. Buktikan bahwa kendaraan bekas juga bisa tampil prima dan awet. Kunjungi sekarang!",
+      "nodeIcon": "https://mobilbekassurabaya1.wordpress.com/wp-content/uploads/2024/01/cropped-20230914_115156.png"
+    }
+  },
+  "error": null
+}

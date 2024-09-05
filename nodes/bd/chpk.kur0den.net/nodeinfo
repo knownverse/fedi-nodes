@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.10.0-beta.1",
+      "basedMisskeyVersion": "2024.7.0-beta.2",
+      "homepage": "https://github.com/kokonect-link/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 34870,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しゃきしゃきなにがし",
+      "nodeDescription": "おひとり様インスタンス的な何か",
+      "nodeAdmins": [
+        {
+          "name": "Kur0den0010",
+          "email": "Discord: kur0den0010"
+        }
+      ],
+      "maintainer": {
+        "name": "Kur0den0010",
+        "email": "Discord: kur0den0010"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#2a5b32"
+    }
+  },
+  "error": null
+}

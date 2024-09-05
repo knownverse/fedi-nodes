@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 84,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Mercuring",
+      "nodeDescription": "지구에서 살다보니 좀 피곤하고, 화성은 머스크 씨가 올 것 같아서 싫은 분을 위한 연합우주 속 수성 정착촌입니다.<br>...라고 적어놨지만 수은덩이가 취미로 운영하는 개인 인스턴스입니다.<br>(머큐링이라고 불러주시면 됩니다!)<hr><img src=\"https://img.shields.io/endpoint?url=https://uptime.lemmings.world/mercur.ing.json\">",
+      "nodeAdmins": [
+        {
+          "name": "수은덩이",
+          "email": "droplet@mercury.kr"
+        }
+      ],
+      "maintainer": {
+        "name": "수은덩이",
+        "email": "droplet@mercury.kr"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "@HgDroplet",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#2e063d"
+    }
+  },
+  "error": null
+}

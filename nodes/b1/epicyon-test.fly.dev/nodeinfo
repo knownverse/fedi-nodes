@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "epicyon",
+      "version": "0.0.0"
+    },
+    "documents": {
+      "about": "https://epicyon-test.fly.dev/about",
+      "terms": "https://epicyon-test.fly.dev/terms"
+    },
+    "usage": {
+      "localPosts": 1,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

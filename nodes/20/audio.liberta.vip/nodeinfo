@@ -1,0 +1,142 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.3.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1473,
+        "activeHalfyear": 182,
+        "activeMonth": 38
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.liberta.vip/federation/actors/service",
+      "private": false,
+      "shortDescription": "Liberta Audio est un service de diffusion audio ouvert et gratuit à vocation généraliste.",
+      "longDescription": "Liberta Audio est un service de stockage et de diffusion audio gratuit et ouvert à tous (et qui entend le rester). Il se base sur le logiciel libre de diffusion audio Funkwhale, un grand merci à eux. \r\nSite officiel : https://funkwhale.audio\r\n\r\nCe service se veut une alternative libre, crédible et décentralisée aux services connus de diffusion audio comme Mixcloud, Soundcloud, Youtube Music, etc.\r\n\r\nVous pouvez faire un don, ponctuel ou récurrent, pour montrer votre soutien à la plateforme Liberta et pour qu'elle continue d'exister via notre LiberaPay.\r\n\r\nDonner sur LiberaPay : https://liberapay.com/Libertadmin\r\n\r\nLiberta Audio est édité, maintenu et administré par la société SILICS, située en Occitanie, dans le Tarn (81). Ce service n'est pas à but lucratif et n'a pour ambition de l'être.",
+      "rules": "**Pas de contenu illégal** : tout contenu violant la loi est formellement interdit. Cela concerne tout autant la diffusion de matériel audio soumis à licence de diffusion, la violation du droit d'auteur, l'échantillonnage (sampling) sauvage ou ne respectant pas les quota de durée en vigueur, les violations de copyright, l'atteinte au droit à l'image, la pédopornographie que le matériel décrivant des scènes réelles d'actes illégaux (crimes, délits, violence, etc.). Tout manquement sera signalé.\r\n\r\n**Pas de contenu commercial** : la publicité est interdite. Les appels aux dons ou les créations financées par des dons ou du financement participatif sont tolérées.\r\n\r\n**Pas de contenu fasciste ou d'appel à la haine** : cela inclut, mais pas seulement, l'utilisation de matériel symbolisant toute idéologie fasciste et/ou nazie ainsi que tout contenu montrant un soutien ou adhérant aux idées véhiculées par ce type d'organisations ou régimes.\r\n\r\n**Pas de prosélytisme religieux ou spirituel**\r\n\r\n**Pas de sexisme, de racisme, d'antisémitisme, d'antisionisme, de LGBTQI+-phobie, de xénophobie, de discrimination ou de haine envers tout type d'être vivant, qu'il soit humain, animal, végétal, minéral, et même d'origine extraterrestre.**\r\n\r\nTout contenu critiquant tout prosélytisme ou discours de haine doit fournir suffisamment d'avertissements dans les créations audio ou les descriptions afin de rester le/la plus correct.e et consensuel.le qui soit.\r\n\r\n**Pas de Spam** : l'envoi en très grande quantité régulière de matériel audio ou de commentaires a des chances d'être considéré comme du spam et est interdit.\r\n\r\n**Contenu sensible \"Not Safe For Work\" (NSFW)** : le contenu sensible dit \"NSFW\" est toléré mais fait l'objet d'une modération bien plus sévère. La violence extrême ou la pornographie ont également plus de chances d'être modérées et supprimées par les administrateurs et doivent obligatoirement être marquées NSFW pour protéger les autres utilisateurs. Utilisez plutôt un autre hébergeur pour ce type de contenu, internet en regorge.\r\n\r\n**Pas de collecte ou d'analyse de données personnelles**\r\n\r\n**Pas d'atteinte au droit à l'image, de délation ou d'atteinte à la vie privée**\r\n\r\nTous les utilisateurs.trices de Liberta Audio sont responsables du contenu publié.\r\n\r\nToutes les décisions quant aux contenus publiés sont laissées à la discrétion des administrateurs et modérateurs de Liberta Audio.",
+      "contactEmail": "libertadmin@liberta.vip",
+      "terms": "Conditions d'utilisation\r\n\r\nEn utilisant Liberta Audio sur audio.liberta.vip, vous acceptez sans réserve de suivre nos Conditions d'utilisation. Elles peuvent être amenées à changer dans le temps et vous êtes tenu.e.s de vérifier régulièrement tout changement dans ces dites Conditions d'utilisation.\r\n\r\nLiberta modère ce site et se réserve tout droit de retrait de contenus ne correspondant pas au Code de conduite et aux Conditions d'utilisation que nous vous invitons à lire et à respecter scrupuleusement.\r\n\r\nMerci de contacter l'administrateur pour toute demande de retrait de contenus qui violerait un droit de propriété intellectuelle, un droit à l'image, une violation de copyright ou pour toute autre demande d'information.\r\n\r\nTout commentaire ou contenu violant nos Conditions d'utilisation ou notre Code de conduite seront effacés sans avis préalable et définitivement perdus. N'hésitez pas contacter l'administrateur du site pour signaler tout contenu problématique.\r\n\r\nMerci de nous signalez toute violation de nos règles. N'étant pas omniscient.e.s, nous pouvons rater ou ne pas identifier des contenus problématiques. Merci donc d'améliorer la communauté en restant vigilant.e.s.",
+      "nodeName": "Liberta Audio",
+      "banner": "https://audio.liberta.vip/media/dynamic_preferences/instance__banner/audioliberta-banner.png",
+      "defaultUploadQuota": 5000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 8220
+        },
+        "artists": {
+          "total": 2405
+        },
+        "albums": {
+          "total": 2735
+        },
+        "music": {
+          "hours": 4385.870277777778
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": true,
+        "domains": [
+          "audio.gafamfree.party",
+          "audio.konsumsyndik.at",
+          "audio.liberta.vip",
+          "audio.oplibris.com",
+          "audio.qoto.org",
+          "baleine.id-libre.org",
+          "channels.tests.funkwhale.audio",
+          "funkwhale.duckdns.org",
+          "funkwhale.eliotberriot.com",
+          "funkwhale.mastodon.host",
+          "funkwhale.net",
+          "funkwhale.raylyon.info",
+          "funkwhale.wivodaim.net",
+          "fw.neko.bar",
+          "klingtwie.derhof.eu",
+          "music.calculate.social",
+          "music.casually.cat",
+          "music.librepunk.club",
+          "music.psylodrumean.fr",
+          "musique.durieux.ovh",
+          "open.audio",
+          "piaille.fr",
+          "pigsty.silksow.com",
+          "sounds.neckbeard.xyz",
+          "tanukitunes.com",
+          "zik.openalgeria.org"
+        ]
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": true
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": true
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "Vous pouvez faire un don, ponctuel ou récurrent, pour montrer votre soutien à la plateforme Liberta et pour qu'elle continue d'exister via notre LiberaPay.\r\n\r\nSoutenir sur LiberaPay : https://liberapay.com/Libertadmin\r\nSoutenir sur Open Collective : https://opencollective.com/liberta",
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 518
+          }
+        },
+        "listenings": {
+          "total": 9595
+        },
+        "downloads": {
+          "total": 57527
+        }
+      }
+    }
+  },
+  "error": null
+}

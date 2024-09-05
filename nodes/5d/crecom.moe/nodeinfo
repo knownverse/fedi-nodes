@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.9.3",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 29,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1682,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "크리콤",
+      "nodeDescription": "디즈웍스의 게임과 서비스를 테마로 운영되는 Misskey기반의 분산형 SNS <크리콤> 에 오신 것을 환영합니다! 저희 인스턴스는 테마 외에도 서브컬쳐와 크리에이터 친화적으로 운영하고 있으니 편하게 이용해주세요~ \n\n<시범 운행 기간동안 가입된 일반 계정에는 '알파테스터' 역할이 영구 부여됩니다!>",
+      "maintainer": {
+        "name": "reco",
+        "email": "contact@filmyu.ch"
+      },
+      "langs": [],
+      "tosUrl": "https://crecom.moe/@reco/pages/1696651828420",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "roxy",
+      "themeColor": "#ff8800"
+    }
+  },
+  "error": null
+}

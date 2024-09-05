@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Making Money Real",
+      "nodeDescription": "This time, we&#039;re going to have to do more than just OCCUPY Wall Street",
+      "nodeIcon": "https://firstmakeitwork.org/wp-content/uploads/2023/09/cropped-logo2.jpg"
+    }
+  },
+  "error": null
+}

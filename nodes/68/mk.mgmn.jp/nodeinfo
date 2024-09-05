@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "11.37.1-20240721044611@fb6620ddd"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "2DS",
+      "nodeDescription": "<p>第二電気所 (2DS) です。 LTL と GTL のない ActivityPub powered microblog です。</p>\n\n<p>登録する場合は<a href=\"https://wiki.mgmn.jp/?:mkmgmn/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84\" target=\"_blank\">利用規約</a>に同意してから<a href=\"https://docs.google.com/forms/d/e/1FAIpQLScddhDxtEPyPqLC-JeYJklHmEl1eY2xsGD3GsgyeGmNyytgzg/viewform\">こちら</a>を埋めて送信してください。メールアドレス宛に登録に必要な情報が届くはずです。</p>\n",
+      "maintainer": {
+        "name": "mgmn",
+        "email": "f6l3twi6h@mozmail.com"
+      },
+      "langs": [
+        "ja"
+      ],
+      "ToSUrl": "https://wiki.mgmn.jp/?:mkmgmn/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84",
+      "repositoryUrl": "https://github.com/mgmn/misskey-v11",
+      "feedbackUrl": "https://github.com/mgmn/misskey-v11/issues/new",
+      "announcements": [
+        {
+          "text": "[🪪 アイコン設定方法](https://mk.mgmn.jp/notes/818ad6ad140f551b52de3f2d) / [📍 公開範囲の留め置き](https://mk.mgmn.jp/notes/818b6ded6254290c0236703f) / [✋ 被検索性](https://mk.mgmn.jp/notes/818b6df56d1f6c1880004b34)",
+          "image": null,
+          "title": "2DS"
+        },
+        {
+          "text": "落ちたときは: [Status](https://wiki.mgmn.jp/?:mkmgmn/Status)",
+          "image": null,
+          "title": "Resources"
+        }
+      ],
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 4096,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true
+    }
+  },
+  "error": null
+}

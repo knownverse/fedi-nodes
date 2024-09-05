@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1719,
+        "activeHalfyear": 569,
+        "activeMonth": 164
+      },
+      "localPosts": 1605,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Fet Bar",
+      "nodeDescription": "【一个恋物和字母等NSFW主题的小站】Yet another Misskey server, for kinksters, excursively! BDSM & fetish themed instance. NO HATE SPEECH! NO POLITICAL REMARKS! NO CHILD PRONOGRAPHY! Read \n<a href=\"https://fet.bar/@admin/pages/1720808980157\"><b>SERVER RULES</b></a>\n",
+      "maintainer": {
+        "name": "admin",
+        "email": "cu8i2q02@anonaddy.me"
+      },
+      "langs": [],
+      "tosUrl": "@admin/pages/1720808980157",
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

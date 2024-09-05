@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "ostatus",
+      "version": "0.2"
+    },
+    "protocols": {
+      "inbound": [
+        "gnusocial"
+      ],
+      "outbound": [
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "gnusocial"
+      ],
+      "outbound": [
+        "gnusocial"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 8
+    },
+    "metadata": {
+      "nodeName": "Folkse",
+      "xmppChat": true,
+      "protocols": {
+        "inbound": [
+          "gnusocial"
+        ],
+        "outbound": [
+          "gnusocial"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "gnusocial"
+        ],
+        "outbound": [
+          "gnusocial"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

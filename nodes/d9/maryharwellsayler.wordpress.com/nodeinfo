@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 38,
+      "localComments": 28
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mary Harwell Sayler",
+      "nodeDescription": "Christian poet, writer, and lifelong student of the Bible",
+      "nodeIcon": "https://maryharwellsayler.wordpress.com/wp-content/uploads/2023/07/cropped-marys-books.jpg"
+    }
+  },
+  "error": null
+}

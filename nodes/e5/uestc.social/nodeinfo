@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch.cs.usocial"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 52,
+        "activeMonth": 6,
+        "activeHalfyear": 12
+      },
+      "localPosts": 482
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "你电 Social",
+      "nodeDescription": "面向成电学子，建立在开放式网络协议和自由、开源软件之上的社区。"
+    }
+  },
+  "error": null
+}

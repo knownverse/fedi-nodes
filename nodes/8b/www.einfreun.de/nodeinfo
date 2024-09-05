@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 365,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "wwW.einfreun.de",
+      "nodeDescription": "nicht nur flüssiger Hedonismus",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 520
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Crabstodon",
+      "nodeDescription": "Private instance for crabs (and future crabs)"
+    }
+  },
+  "error": null
+}

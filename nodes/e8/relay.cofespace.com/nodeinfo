@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.1 1e8acd3c0b474725df1c19f67eeddfed34cd079d"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0",
+    "metadata": {
+      "peers": [
+        "bot.cofespace.com",
+        "jojo.singleuser.club",
+        "hug.fedi.live",
+        "foundation.fedi.live",
+        "trioworld.fedi.live",
+        "lain.sh",
+        "counter.fedi.live",
+        "social.planamag.com",
+        "red.fedi.live",
+        "testomat.singleuser.club",
+        "sierra.fedi.live",
+        "unexpected.singleuser.club",
+        "kappa161.fedi.live",
+        "stupidclown.fedi.live",
+        "moomoofarm.theburning.world",
+        "mhp.singleuser.club",
+        "phoneboy.fedi.live",
+        "atlas.fedi.live",
+        "germany.presentdaypresenttime.com",
+        "bakabakufu.nsfw.cafe",
+        "multiverse.fedi.live",
+        "freemarketbastard.theburning.world",
+        "ferem.fedi.live",
+        "duckgang.fedi.live",
+        "think.freespeech.institute",
+        "jeffery.singleuser.club",
+        "fly.singleuser.club",
+        "social.bemrose.us",
+        "misskey.seediqbale.xyz",
+        "screamshitter.club",
+        "jpop.space",
+        "relay.national-defence.network",
+        "mastodon.li",
+        "astoundingteam.com",
+        "social.ancelade.com",
+        "astoundingteam.com",
+        "relay.fedi.buzz",
+        "relay.fedi.buzz"
+      ]
+    }
+  },
+  "error": null
+}

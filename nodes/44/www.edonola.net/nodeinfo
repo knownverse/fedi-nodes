@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 1583,
+      "localComments": 255
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Edonola",
+      "nodeDescription": "Kafepintxo batekin bizi(tz)az hausnartzen",
+      "nodeIcon": "https://www.edonola.net/wp-content/uploads/2023/08/cropped-favico.png"
+    }
+  },
+  "error": null
+}

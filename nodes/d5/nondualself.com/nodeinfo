@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 114,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nondual State",
+      "nodeDescription": "Nonduality: Knowing the Unity in Diversity",
+      "nodeIcon": "https://nondualstate.com/wp-content/uploads/2024/01/512px-lotus_jewel_sahasrara.svg_.png"
+    }
+  },
+  "error": null
+}

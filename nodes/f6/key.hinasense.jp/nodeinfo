@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "hinasskey@hinasense.jp",
+        "name": "雛野綾桜"
+      },
+      "nodeDescription": "ひなのあいらのさーばーです。\n招待制ですが、基本的に新規登録は受け付けていません。",
+      "nodeName": "Hinasskey",
+      "proxyAccountName": "9bzeqfsh4g",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#88ffff"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://git.hinasense.jp/hinanoaira/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818-hinasense.jp.2"
+    },
+    "usage": {
+      "localPosts": 999,
+      "users": {
+        "activeHalfyear": 11,
+        "activeMonth": 7,
+        "total": 13
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

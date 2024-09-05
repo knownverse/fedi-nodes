@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "software": {
+      "name": "smithereen",
+      "version": "0.8.1-dev.71.dirty+402f1fed",
+      "repository": "https://github.com/grishka/Smithereen",
+      "homepage": "https://smithereen.software"
+    },
+    "usage": {
+      "localPosts": 2002,
+      "localComments": 8686,
+      "users": {
+        "total": 262,
+        "activeMonth": 25,
+        "activeHalfyear": 64
+      }
+    },
+    "metadata": {
+      "nodeDescription": "Тестовый сервер того fediverse-проекта, пытающегося быть похожим на ВКонтакте. \n\nTest instance for that fediverse project that tries to be like VK. \n\nSource code & issue tracker",
+      "nodeName": "Gregory's Server"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 463,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 19578,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "さけすきー",
+      "nodeDescription": "お酒やご飯が好きな人向けのMisskeyサーバーです。<br>\n週末の夜に顔を出す場末の居酒屋のような場でありたい。\n<br><hr><br>\nさけすきーは<a href=\"https://anahibi.7ka.org\" style=\"color:var(--accent);\">アナヒビソーシャル</a>の関連サービスです。",
+      "nodeAdmins": [
+        {
+          "name": "なっかあ(@nakkaa)",
+          "email": "https://anahibi.7ka.org/"
+        }
+      ],
+      "maintainer": {
+        "name": "なっかあ(@nakkaa)",
+        "email": "https://anahibi.7ka.org/"
+      },
+      "langs": [],
+      "tosUrl": "https://anahibi.7ka.org/rule/tos-sake",
+      "privacyPolicyUrl": "https://anahibi.7ka.org/privacy",
+      "inquiryUrl": "https://anahibi.7ka.org/contact",
+      "impressumUrl": "https://anahibi.7ka.org/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#f5b1aa"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 358,
+      "localComments": 697
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Știri pe web",
+      "nodeDescription": "Știri noi din toată lumea, discutate pe blog, încadrate printre reduceri, oferte și sfaturi.",
+      "nodeIcon": "https://stiripeweb.xyz/wp-content/uploads/2021/09/cropped-Stiri-noi-de-ultima-ora-1.png"
+    }
+  },
+  "error": null
+}

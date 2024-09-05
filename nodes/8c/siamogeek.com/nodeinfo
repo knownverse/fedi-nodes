@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "16",
+        "activeHalfyear": "16"
+      },
+      "localPosts": 1923,
+      "localComments": 6317
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SIAMO GEEK",
+      "nodeDescription": "Sperimentatori, entusiasti della tecnologia",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1451,
+      "localComments": 201
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Musings from the Manhut",
+      "nodeDescription": "Where the ebb and flow of life creates a cascade of words down the paper&#039;s face",
+      "nodeIcon": "https://jimmorgan.wordpress.com/wp-content/uploads/2024/02/carpentersmall.png"
+    }
+  },
+  "error": null
+}

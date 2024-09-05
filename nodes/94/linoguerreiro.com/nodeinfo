@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 154,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lino Guerreiro",
+      "nodeDescription": "🇵🇹 O músico que somos, (tentamos ser), é reflexo do que a música nos faz, de como chega a nós. 🇬🇧 The musician we are (or try to be) is a reflection of what music does to us, of how it reaches us.",
+      "nodeIcon": "https://linoguerreiro.com/wp-content/uploads/2018/12/lglogo3.png"
+    }
+  },
+  "error": null
+}

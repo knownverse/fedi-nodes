@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 75,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Instituto Idade Mídia ",
+      "nodeDescription": "Comunicação para Cidadania",
+      "nodeIcon": "https://idademidia.org/wp-content/uploads/2024/01/idade_midia__1_-removebg-preview.png"
+    }
+  },
+  "error": null
+}

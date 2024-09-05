@@ -1,0 +1,260 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "clubcyberia.co",
+            "repl.co",
+            "misskey-forkbomb.cf",
+            "activitypub-troll.cf",
+            "nicecrew.digital",
+            "kiwifarms.cc",
+            "bae.st",
+            "freespeechextremist.com",
+            "poa.st",
+            "pisskey.io",
+            "rdrama.cc",
+            "baraag.net",
+            "pawoo.net",
+            "youjo.love",
+            "pieville.net",
+            "moar.cachapa.xyz",
+            "fediverse.dotnet00.dev"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "quarantined_instances": [],
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "NormalizeMarkup",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy",
+          "StealEmojiPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "activitypub-troll.cf": {
+              "reason": "Spam"
+            },
+            "bae.st": {
+              "reason": "Content is generally against the rules of this instance"
+            },
+            "baraag.net": {
+              "reason": "Content is generally against the rules of this instance (CSAM/Lolicon)"
+            },
+            "clubcyberia.co": {
+              "reason": "Content is generally against the rules of this instance"
+            },
+            "fediverse.dotnet00.dev": {
+              "reason": "Content is generally against the rules of this instance (CSAM/Lolicon)"
+            },
+            "freespeechextremist.com": {
+              "reason": "Content is generally against the rules of this instance"
+            },
+            "kiwifarms.cc": {
+              "reason": "Do I even need to say why? Google it."
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Spam"
+            },
+            "moar.cachapa.xyz": {
+              "reason": "Content is generally against the rules of this instance (CSAM/Lolicon)"
+            },
+            "nicecrew.digital": {
+              "reason": "Run by a literal nazi loool"
+            },
+            "pawoo.net": {
+              "reason": "Content is generally against the rules of this instance (CSAM/Lolicon)"
+            },
+            "pieville.net": {
+              "reason": "Content is generally against the rules of this instance (CSAM/Lolicon)"
+            },
+            "pisskey.io": {
+              "reason": "Content is generally against the rules of this instance"
+            },
+            "poa.st": {
+              "reason": "Content is generally against the rules of this instance"
+            },
+            "rdrama.cc": {
+              "reason": "Content is generally against the rules of this instance"
+            },
+            "repl.co": {
+              "reason": "Spam"
+            },
+            "youjo.love": {
+              "reason": "Content is generally against the rules of this instance (CSAM/Lolicon)"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "akko.wtf",
+        "mk.absturztau.be",
+        "blob.cat",
+        "snug.moe"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "I am the Great Archdemon Satanichia, Queen of all Hell! Why wouldn't you join my Akkoma instance? Nyahaha!",
+      "nodeName": "satania.social",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "satania"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://satania.social/users/dwari",
+        "https://satania.social/users/nucleus"
+      ],
+      "uploadLimits": {
+        "general": 200000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": 8,
+        "activeMonth": 5
+      },
+      "localPosts": 1533
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

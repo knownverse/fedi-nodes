@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://musica.3toques.es/federation/actors/service",
+      "private": true,
+      "shortDescription": "",
+      "longDescription": "Instancia de Funkwhale para dar soporte a aquellas grupos, radios y podcast que quieran independizarse de redes privativas y busquen una transición por una cultura libre.",
+      "rules": "",
+      "contactEmail": "alex@berbel.es",
+      "terms": "Sigamos la netiqueta y no incumplamos las licencias libres salvo que haya una causa específica y clara.\r\n\r\nEsto es lo que llamamos copyfight.",
+      "nodeName": "MUSICA Y RADIOS LIBRES",
+      "banner": null,
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 70
+        },
+        "artists": {
+          "total": 9
+        },
+        "albums": {
+          "total": 13
+        },
+        "music": {
+          "hours": 78.33666666666667
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://musica.3toques.es/api/v1/federation/domains",
+        "channels": "https://musica.3toques.es/federation/index/channels",
+        "libraries": "https://musica.3toques.es/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 2
+        },
+        "downloads": {
+          "total": 1208
+        }
+      }
+    }
+  },
+  "error": null
+}

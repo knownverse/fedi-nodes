@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "NodeBB",
+      "version": "4.0.0-alpha"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": "5",
+        "activeMonth": 1,
+        "activeHalfyear": 5
+      },
+      "localPosts": "2849"
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "NodeBB-ActivityPub Bridge Test Instance",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

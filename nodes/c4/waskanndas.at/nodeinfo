@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 43,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Was kann das?",
+      "nodeDescription": "Stephan testest Software, Online-Tools, Wordpress-Plugins und anderes!",
+      "nodeIcon": "https://files.waskanndas.at/uploads/2024/01/cropped-cropped-android-chrome-512x512-1.png"
+    }
+  },
+  "error": null
+}

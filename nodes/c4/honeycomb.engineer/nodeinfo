@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 5
+      },
+      "localPosts": 4893
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Honeycomb Engineer",
+      "nodeDescription": "A tiny instance for a bee 🐝"
+    }
+  },
+  "error": null
+}

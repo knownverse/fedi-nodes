@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lance G Marshall",
+      "nodeDescription": "A personal blog about joy, self-directed learning, data, and being United Methodist.",
+      "nodeIcon": "https://lancegmarshall.wordpress.com/wp-content/uploads/2024/03/50aa67d0-ef4d-441f-b027-e73c50ec954f.jpg"
+    }
+  },
+  "error": null
+}

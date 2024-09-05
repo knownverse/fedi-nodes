@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1900,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Gazete 24",
+      "nodeDescription": "24/7 Real News Portal",
+      "nodeIcon": "https://thegazete24.news.blog/wp-content/uploads/2023/01/image.jpg"
+    }
+  },
+  "error": null
+}

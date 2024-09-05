@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "garden",
+      "version": "0.1.0",
+      "homepage": "https://ap.hotwaru.com/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "中庭ほたるポータル hotwaru.com",
+      "nodeDescription": "<p>同人サークル中庭ほたるの情報発信サーバーです</p><p>サークル公式とメンバーのアカウントを開設予定です</p>",
+      "nodeAdmins": [
+        {
+          "name": "はるか（中庭ほたる）",
+          "email": "hogehoge"
+        }
+      ],
+      "maintainer": {
+        "name": "はるか（中庭ほたる）",
+        "email": "hogehoge"
+      }
+    }
+  },
+  "error": null
+}

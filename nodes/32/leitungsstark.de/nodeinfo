@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 12,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Leitungsstark",
+      "nodeDescription": "Positive Impact",
+      "nodeIcon": "https://leitungsstark.de/wp-content/uploads/sites/9/2023/07/Leitungsstark-1-1-e1689609926541.png"
+    }
+  },
+  "error": null
+}

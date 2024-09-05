@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13571,
+      "localComments": 675
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "American Buddhist Net",
+      "nodeDescription": "Do your best. Speak the truth.",
+      "nodeIcon": "https://americanbuddhist.net/wp-content/uploads/2019/01/cropped-dharmawheel2.png"
+    }
+  },
+  "error": null
+}

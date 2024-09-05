@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "رؤيتي",
+      "nodeDescription": "مدونة شخصية تتحتوى على الفوائد التي تعرض لى اثناء قراءتي",
+      "nodeIcon": "https://roaiy.wordpress.com/wp-content/uploads/2024/04/cropped-pexels-photo-316466.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 151,
+      "localComments": 147
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "lektoren",
+      "nodeDescription": "Dansk og historie i gymnasiet (stx)",
+      "nodeIcon": "https://lektoren.dk/wp-content/uploads/2013/10/cropped-books_md_wht-1.gif"
+    }
+  },
+  "error": null
+}

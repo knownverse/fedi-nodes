@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 169,
+      "localComments": 175
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Quick Fixes",
+      "nodeDescription": "Free Software, Writing and other Stuff",
+      "nodeIcon": "https://quickfix.es/wp-content/uploads/2018/03/cropped-horse.png"
+    }
+  },
+  "error": null
+}

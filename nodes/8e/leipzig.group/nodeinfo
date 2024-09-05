@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Veranstaltungen entdecken, einstellen und organisieren.",
+      "nodeName": "Leipzig Group"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localComments": 0,
+      "localPosts": 5
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

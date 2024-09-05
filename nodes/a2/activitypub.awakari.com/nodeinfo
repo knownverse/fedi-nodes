@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "awakari.com",
+      "nodeDescription": "Awakari Fediverse Integration",
+      "software": {
+        "homepage": "https://awakari.com",
+        "github": "https://github.com/awakari/int-activitypub",
+        "follow": "https://github.com/awakari/int-activitypub"
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "telegram"
+      ],
+      "outbound": [
+        "rss2.0",
+        "telegram"
+      ]
+    },
+    "software": {
+      "name": "Awakari",
+      "version": "1.0.0"
+    },
+    "usage": {
+      "users": {
+        "total": 45,
+        "activeHalfyear": 45,
+        "activeMonth": 45
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

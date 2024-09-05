@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "YUUKIの趣味ブログ",
+      "nodeDescription": "noterによるきままなブログ",
+      "nodeIcon": "https://yuuki1365.wordpress.com/wp-content/uploads/2024/04/img_20240325_193054_308.jpg"
+    }
+  },
+  "error": null
+}

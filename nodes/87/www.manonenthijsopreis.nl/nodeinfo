@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 9,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Manon &amp; Thijs | Impressions",
+      "nodeDescription": "Where we share updates on our travels and photography",
+      "nodeIcon": "https://www.manonenthijsopreis.nl/wp-content/uploads/2023/07/cropped-Screenshot-2023-07-26-at-14.05.58.png"
+    }
+  },
+  "error": null
+}

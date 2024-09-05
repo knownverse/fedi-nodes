@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeMonth": "8",
+        "activeHalfyear": "8"
+      },
+      "localPosts": 422,
+      "localComments": 46
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Blinkfire Blog",
+      "nodeDescription": "AI-Based Sponsorship Optimization for Sports, Entertainment, and Influencers",
+      "nodeIcon": "https://analyticsblog.blinkfire.com/wp-content/uploads/2022/11/android-chrome-192x192-1.png"
+    }
+  },
+  "error": null
+}

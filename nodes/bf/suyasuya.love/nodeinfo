@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 263,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 175083,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ESkey",
+      "nodeDescription": "ESkeyはあんスタファン向けの非公式ファンサーバーです。<br>\n<br>\n<a href=\"https://eskey.click/emoji#2\"><font color=\"red\">※絵文字のインポートに関して</font></a><br>\n<br>\nCP要素を含む内容についてはワンクッション必須と規約で定めているため、夢思考のある方、キャラ同士のCPを好む方、CP関連や二次創作は一切手を出さない方などどなたでもご利用いただけます。<br>\n<b>なお、12歳未満の方は利用出来ません。</b><br>\n<br>\n登録前に<a href=\"https://eskey.click/rule.html\"><b>利用規約</b></a>をご確認ください。<br>\n<br>\n当ページは、Happy Elements株式会社「あんさんぶるスターズ!!」の画像を利用しております。<br>\n該当画像の転載・配布等は禁止しております。<br>\n©Happy Elements K.K",
+      "nodeAdmins": [
+        {
+          "name": "（つо‐）…ооО",
+          "email": "https://eskey.click/"
+        }
+      ],
+      "maintainer": {
+        "name": "（つо‐）…ооО",
+        "email": "https://eskey.click/"
+      },
+      "langs": [],
+      "tosUrl": "https://eskey.click/rule.html",
+      "privacyPolicyUrl": "https://eskey.click/privacy.html",
+      "inquiryUrl": "https://eskey.click/",
+      "impressumUrl": "https://eskey.click/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#18aacc"
+    }
+  },
+  "error": null
+}

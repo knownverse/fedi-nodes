@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 558,
+      "localComments": 1119
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Masse Critique",
+      "nodeDescription": "Collectif pour l&#039;essor du vélo à Toulon",
+      "nodeIcon": "https://lamassecritique.fr/wp/wp-content/uploads/2017/10/cropped-icon_MC.png"
+    }
+  },
+  "error": null
+}

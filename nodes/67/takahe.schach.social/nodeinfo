@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "takahe",
+      "version": "0.9.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 241
+      },
+      "localPosts": 2171
+    },
+    "openRegistrations": false,
+    "metadata": {}
+  },
+  "error": null
+}

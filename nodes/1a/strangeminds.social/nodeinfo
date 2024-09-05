@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 466
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Strange minds",
+      "nodeDescription": "Ideally suited to geeky, a bit nerdy and slightly wordy types, but open to all"
+    }
+  },
+  "error": null
+}

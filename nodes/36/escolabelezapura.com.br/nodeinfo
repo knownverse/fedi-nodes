@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 31,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Beleza Pura",
+      "nodeDescription": "Dicas de beleza e cuidados com a pele para recuperar sua auto confiança e ficar de bem com a vida",
+      "nodeIcon": "https://escolabelezapura.com.br/wp-content/uploads/2023/07/beleza-pura.png"
+    }
+  },
+  "error": null
+}

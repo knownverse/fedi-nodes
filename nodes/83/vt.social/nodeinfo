@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.th"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1066,
+        "activeMonth": 209,
+        "activeHalfyear": 358
+      },
+      "localPosts": 129570
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "VT Social",
+      "nodeDescription": "The biggest VTuber instance, by VTubers for VTubers and adjacent content creators."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeMonth": "18",
+        "activeHalfyear": "17"
+      },
+      "localPosts": 385,
+      "localComments": 182
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "CoffeeGeek",
+      "nodeDescription": "The World&#039;s Most Read Coffee and Espresso Resource",
+      "nodeIcon": "https://coffeegeek.com/wp-content/uploads/2023/05/cropped-faveicons2021white.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1206,
+      "localComments": 56
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Der Pendler",
+      "nodeDescription": "Mit dem öV unterwegs",
+      "nodeIcon": "https://derpendler.ch/wp-content/uploads/2018/11/cropped-railroad-615404_1920.jpg"
+    }
+  },
+  "error": null
+}

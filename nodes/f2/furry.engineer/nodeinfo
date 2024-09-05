@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1485,
+        "activeMonth": 515,
+        "activeHalfyear": 791
+      },
+      "localPosts": 347227
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Furry.Engineer - Duct tape, hotfixes, and poor soldering!",
+      "nodeDescription": "An instance aimed at techies and engineers of all types within the furry fandom, but anyone is welcome. We're an LGBTQ+ friendly community and aiming to offer a safe space for our users."
+    }
+  },
+  "error": null
+}

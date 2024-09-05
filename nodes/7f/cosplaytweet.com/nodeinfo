@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "CosplayTweet",
+      "nodeDescription": "#cosplaytweet Werde Teil unserer Misskey-Instanz und werde Teil der Cosplay-Community! Join our Misskey-Instance and become part of the Cosplay-Community!\n\nYou can also join our Mastodon-Instance:\nhttps://eva.cosplaytweet.com",
+      "nodeAdmins": [
+        {
+          "name": "marciifee",
+          "email": "webmaster@cosplaytweet.com"
+        }
+      ],
+      "maintainer": {
+        "name": "marciifee",
+        "email": "webmaster@cosplaytweet.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://cosplaygif.com/imprint.html",
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

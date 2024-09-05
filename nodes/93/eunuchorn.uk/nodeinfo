@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 261,
+      "localComments": 104
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Eunuchorn",
+      "nodeDescription": "Becoming complete by subtracting something",
+      "nodeIcon": "https://eunuchorn.uk/wp-content/uploads/2024/05/cropped-dabbing_unicorn_non_binary-1.png"
+    }
+  },
+  "error": null
+}

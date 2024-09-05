@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda activista i cultural",
+      "nodeName": "Convoca-la BCN",
+      "nodeTimezone": "Europe/Andorra",
+      "nodeActor": "agenda"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 37,
+      "localPosts": 5839,
+      "users": {
+        "total": 85
+      }
+    }
+  },
+  "error": null
+}

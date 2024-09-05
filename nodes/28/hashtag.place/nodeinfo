@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hashtag.place",
+      "version": "0.0.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "openRegistrations": false,
+    "metadata": {}
+  },
+  "error": null
+}

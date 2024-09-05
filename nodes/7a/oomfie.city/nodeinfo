@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+chuckya+oomfcity"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 62,
+        "activeMonth": 37,
+        "activeHalfyear": 58
+      },
+      "localPosts": 33401
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Oomfie ☆ City!!",
+      "nodeDescription": "\"Typical twitter users, only interested in consumerist pleasure and being totally unprincipled.\"\r\nRuns on Chuckya!"
+    }
+  },
+  "error": null
+}

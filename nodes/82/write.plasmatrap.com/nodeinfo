@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "PlasmaTrap Blog",
+      "nodeDescription": "Minimal, federated blogging platform.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 3,
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.14.0"
+    },
+    "usage": {
+      "users": {
+        "total": 896
+      },
+      "localPosts": 573
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

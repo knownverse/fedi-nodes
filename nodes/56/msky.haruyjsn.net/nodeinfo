@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 45,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 68451,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "HaruYJSN.net",
+      "nodeDescription": "<p>Misskeyを使用した汎用Misskeyインスタンスです.<br>お気軽にご登録ください.<br>個人運用かつサーバの性能があまり高くないため,故障時のデータの保証は致しかねます.</p>\n<br>\n<u><a href=\"https://status.haruyjsn.net/\">サーバ稼働状況</a><br></u><br><A href=\"//www.cman.jp/network/\" target=\"_blank\"><IMG src=\"//www.cman.jp/network/logo/CmanSvNetS.gif\" width=\"88\" height=\"31\" alt=\"株式会社シーマン　サーバー監視サービス\"></A>",
+      "nodeAdmins": [
+        {
+          "name": "HaruYJSN",
+          "email": "contact@haruyjsn.net"
+        }
+      ],
+      "maintainer": {
+        "name": "HaruYJSN",
+        "email": "contact@haruyjsn.net"
+      },
+      "langs": [],
+      "tosUrl": "https://haruyjsn.notion.site/8874773c673142dcbe774807fe5ad1bf",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "mailto:contact@haruyjsn.net",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#e2e3e2"
+    }
+  },
+  "error": null
+}

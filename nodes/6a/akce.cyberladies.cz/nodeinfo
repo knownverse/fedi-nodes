@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Komunitní kalendář (nejen) cybersecurity událostí / Community calendar of (not only) cybersecurity events",
+      "nodeName": "Community Calendar by CyberLadies",
+      "nodeTimezone": "Europe/Prague",
+      "nodeActor": "skynet"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 59,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

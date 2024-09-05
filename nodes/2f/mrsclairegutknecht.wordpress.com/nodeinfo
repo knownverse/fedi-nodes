@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 270,
+      "localComments": 822
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mrs. Claire Gutknecht",
+      "nodeDescription": "Wife-of-all-Trades",
+      "nodeIcon": "https://mrsclairegutknecht.wordpress.com/wp-content/uploads/2024/05/cropped-mrs.-claire-gutknecht-1.png"
+    }
+  },
+  "error": null
+}

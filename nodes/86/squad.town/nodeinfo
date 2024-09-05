@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 8,
+        "activeHalfyear": 8
+      },
+      "localPosts": 10739
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "squad.town",
+      "nodeDescription": "Fediverse server for a handful of friends who call themselves \"squad\"."
+    }
+  },
+  "error": null
+}

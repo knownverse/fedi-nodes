@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.700-m544",
+      "repository": "https://github.com/mei23/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1212,
+        "activeHalfyear": 258,
+        "activeMonth": 82
+      },
+      "localPosts": 324075,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "meisskey.one",
+      "nodeDescription": "ローカルタイムラインのないインスタンスなのだわ\n\n\n[通報・報告 (Report)](https://forms.gle/FHBsBMsYbuBmTsE17)",
+      "name": "meisskey.one",
+      "description": "ローカルタイムラインのないインスタンスなのだわ\n\n\n[通報・報告 (Report)](https://forms.gle/FHBsBMsYbuBmTsE17)",
+      "maintainer": {
+        "name": "めいめい",
+        "email": "https://forms.gle/FHBsBMsYbuBmTsE17"
+      },
+      "langs": [],
+      "announcements": [
+        {
+          "title": "問題・要望など",
+          "text": "問題・要望などは <a href=\"https://meisskey.one/tags/meisskeyone%E8%A6%81%E6%9C%9B\">#meisskeyone要望</a> で投稿してなのだわ"
+        }
+      ],
+      "relayActor": "https://meisskey.one/users/5eb6b1a06325ef4089c10581",
+      "relays": [],
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 5000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 163,
+        "activeMonth": 54,
+        "activeHalfyear": 132
+      },
+      "localPosts": 11074
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Burningboard.net  🇩🇪",
+      "nodeDescription": "Willkommen bei Burningboard.net, der Mastodon Instanz für alle Technikbegeisterten! Wir sind eine offene und freundliche Community von Nerds."
+    }
+  },
+  "error": null
+}

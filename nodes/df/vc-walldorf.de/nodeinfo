@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 526,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Volleyball-Club Walldorf e.V.",
+      "nodeDescription": "Sport. Spaß. Volleyball.",
+      "nodeIcon": "https://vc-walldorf.de/wp-content/uploads/2018/05/cropped-VCW-Logo-100x100-1.jpg"
+    }
+  },
+  "error": null
+}

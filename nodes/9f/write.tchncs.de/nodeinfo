@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "A Plume-instance by tchncs.de, from Germany, preferring german or english posts. You can support this instance [with a donation](//tchncs.de/donate). User-demand and software-reliability will define the outcome of this testing-phase. \n<a href=\"//tchncs.de/impressum\" rel=\"noopener noreferrer\">`(Imprint)`</a>",
+      "nodeName": "Plume"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 307,
+      "localPosts": 174,
+      "users": {
+        "total": 772
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

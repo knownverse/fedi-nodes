@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Style-list",
+      "nodeDescription": "Esta es la página perfecta para aquellos que no encuentran esa ropa que ven por redes sociales en las diferentes tiendas online. Aquí puedes encontrar y dejar referencias de las últimas tendencias y de las prendas menos accesibles y más exclusivas del mercado.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

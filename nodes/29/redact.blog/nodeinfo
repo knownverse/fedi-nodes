@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 181,
+      "localComments": 47
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "re·dact",
+      "nodeDescription": "Masters of the Universe, BBQ, and Hot Sauce Hub",
+      "nodeIcon": "https://redact.blog/wp-content/uploads/2023/02/cropped-cropped-wizard.jpg"
+    }
+  },
+  "error": null
+}

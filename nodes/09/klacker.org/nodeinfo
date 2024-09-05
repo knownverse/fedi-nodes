@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "friendica",
+        "redmatrix",
+        "xmpp"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeHalfyear": 22,
+        "activeMonth": 7
+      },
+      "localPosts": 372,
+      "localComments": 557
+    },
+    "metadata": {
+      "nodeName": "Klackerhub"
+    }
+  },
+  "error": null
+}

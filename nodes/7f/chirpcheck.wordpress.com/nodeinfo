@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ChirpCheck",
+      "nodeDescription": "Counting Birds In Tasmania",
+      "nodeIcon": "https://chirpcheck.wordpress.com/wp-content/uploads/2024/02/cute-and-colourful-blue-wren-2.jpg"
+    }
+  },
+  "error": null
+}

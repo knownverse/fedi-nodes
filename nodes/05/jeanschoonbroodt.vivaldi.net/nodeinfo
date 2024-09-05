@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 913,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Voice of GOD YHVH-Elohim ... in Ruach Hakodesh / Holy Breath / Holy Wind / Holy Ghost / Holy Fire...",
+      "nodeDescription": "Prophecies to reveal GOD... and reality...",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

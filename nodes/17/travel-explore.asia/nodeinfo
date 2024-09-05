@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 62,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Travel &amp; Explore Asia",
+      "nodeDescription": "A Swiss in Hong Kong explores Asia (and the rest of the world)",
+      "nodeIcon": "https://i0.wp.com/travel-explore.asia/wp-content/uploads/2023/03/cropped-cropped-cropped-Daniel-Cartoon-1-scaled-1.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

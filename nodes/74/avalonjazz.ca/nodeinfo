@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "\"One thing about which fish know exactly nothing is water, since they have no anti-environment which would enable them to perceive the element they live in.\" - Marshall McLuhan, War and Peace in the Global Village ",
+      "nodeName": "Avalon Jazz"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localComments": 2,
+      "localPosts": 5
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

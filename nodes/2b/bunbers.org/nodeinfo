@@ -1,0 +1,942 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "ForceBotUnlistedPolicy",
+          "AntiFollowbotPolicy",
+          "SimplePolicy",
+          "NormalizeMarkup",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [
+            "blahaj.zone"
+          ],
+          "media_removal": [
+            "pawoo.net",
+            "pos****.*******.**cks"
+          ],
+          "reject": [
+            "10minutepleroma.com",
+            "2.distsn.org",
+            "434.earth",
+            "7td.org",
+            "80percent.social",
+            "accela.online",
+            "afterlife.masto.host",
+            "albin.social",
+            "anime.website",
+            "archivefedifor.fundefinitely-not-archivefedifor.funfuck-man-i-just-want-like-one-friend.xyz",
+            "aria.company",
+            "beefyboys.club",
+            "beefyboys.win",
+            "beehub.org",
+            "berserker.town",
+            "bigguys.club",
+            "bikeshed.party",
+            "bitcoinhackers.org",
+            "brighteon.social",
+            "buckeye.social",
+            "cawfee.club",
+            "cliterati.club",
+            "coc*.*ish",
+            "coom.club",
+            "crypto-group-buy.com",
+            "daffodil-11.org",
+            "daishouri.moe",
+            "deepnexus.link",
+            "detroitriotcity.com",
+            "disarray.nof.st",
+            "eientei.org",
+            "eveningzoo.club",
+            "exited.eu",
+            "fedichive.tk",
+            "feminism.lgbt",
+            "freecumextremist.com",
+            "freefedifollowers.ga",
+            "freesoftwareextremist.com",
+            "freespeechextremist.com",
+            "freespeech.firedragonstudios.com",
+            "freespeech.host",
+            "freezepeach.xyz",
+            "friendica.eskimo.com",
+            "froth.zone",
+            "functor.pro",
+            "gab.com",
+            "gab.ai",
+            "gabfed.com",
+            "gab.sleeck.eu",
+            "gameliberty.club",
+            "gasthe.lgbt",
+            "gearlandia.haus",
+            "gendercritical.club",
+            "gendercritical.space",
+            "gitmo.life",
+            "gleasonator.com",
+            "glindr.org",
+            "glittersluts.club",
+            "glowers.club",
+            "honey.church",
+            "honkwerx.tech",
+            "husk.site",
+            "ihatebeinga.live",
+            "inex.rocks",
+            "jpop.club",
+            "juche.town",
+            "justicewarrior.social",
+            "kis******.com",
+            "kiwifarms.cc",
+            "ky*.*oe",
+            "lain.sh",
+            "leafposter.club",
+            "leftlibertarian.club",
+            "lets.bemoe.online",
+            "lets.saynoto.lgbt",
+            "liberdon.com",
+            "ligma.pro",
+            "liveview.cf",
+            "mastodon.starrevolution.org",
+            "mentality.rip",
+            "mobile.co",
+            "mobile.tmediatech.io",
+            "mstdn.foxfam.club",
+            "naz*.***ial",
+            "neckbeard.xyz",
+            "neenster.org",
+            "nicecrew.digital",
+            "nnia.space",
+            "noagendasocial.com",
+            "nomoresha.me",
+            "oneway.masto.host",
+            "ost.social",
+            "ped*.***ool",
+            "pieville.net",
+            "pl.765racing.com",
+            "pleroma.comfy.moe",
+            "pleroma.kitsunemimi.club",
+            "pleroma.kiwifarms.net",
+            "pleroma.mouse.services",
+            "pleroma.nobodyhasthe.biz",
+            "pleroma.rareome.ga",
+            "pl.***.moe",
+            "pl.lifeweb.cc",
+            "pl.smuglo.li",
+            "pl.tkammer.de",
+            "pl.valkyrie.world",
+            "poa.st",
+            "pos****.*******.**cks",
+            "princess.cat",
+            "qoto.org",
+            "quey.org",
+            "rakket.app",
+            "rap**********.****ork",
+            "rawr-xd.club",
+            "rayn.bo",
+            "rdrama.cc",
+            "rightmastodon.com",
+            "robo.super-niche.club",
+            "ryona.agency",
+            "sealion.club",
+            "search.fedi.app",
+            "shigusegubu.club",
+            "shitposter.club",
+            "shortstackran.ch",
+            "sinblr.com",
+            "skippers-bin.com",
+            "sneak.berlin",
+            "sneed.social",
+            "soc.h4x.group",
+            "social.culturewar.us",
+            "social.foxfam.club",
+            "social.getgle.org",
+            "social.handholding.io",
+            "social.librem.onelibrem.one",
+            "social.quodverum.com",
+            "social.snopyta.org",
+            "social.sphere.com.ai",
+            "societal.co",
+            "soc.mahodou.moe",
+            "socnet.supes.com",
+            "solagg.com",
+            "speakfree.world",
+            "spinster.xyz",
+            "springbo.cc",
+            "stereophonic.space",
+            "sylveon.club",
+            "take.iteasy.club",
+            "terrible.place",
+            "the9thcircle.club",
+            "thebag.social",
+            "thechad.zone",
+            "the.hedgehoghunter.club",
+            "traboone.com",
+            "truthsocial.com",
+            "twitter.activitypub.actor",
+            "unsafe.space",
+            "wagesofsinisdeath.com",
+            "waifuappreciation.club",
+            "weedis.life",
+            "wetfish.space",
+            "wolfgirl.bar",
+            "wurm.host",
+            "x0f.org",
+            "xn--xn6r8h-xg0c.tk",
+            "yggdrasil.social",
+            "twitshelter.hostdon.ne.jp",
+            "seal.cafe",
+            "cryptotalks.social",
+            "newsie.social",
+            "greenfield.masto.host",
+            "pp.dembased.xyz",
+            "www.writehere.is",
+            "lolison.top",
+            "lolison.network",
+            "mirr0r.city",
+            "rot.gives",
+            "affiliates.social",
+            "social.here.blue",
+            "waskuisland.com",
+            "expression.social",
+            "breastmilk.club",
+            "conchrepublic.social",
+            "sleepy.cafe",
+            "f.haeder.net",
+            "chat.manalejandro.com"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "media_nsfw": {
+            "blahaj.zone": {
+              "reason": "incompatible nsfw policy"
+            }
+          },
+          "media_removal": {
+            "pawoo.net": {
+              "reason": "Incompaatible law (청소년성보호법)"
+            },
+            "pos****.*******.**cks": {
+              "reason": "Incompaatible law (청소년성보호법)"
+            }
+          },
+          "reject": {
+            "mentality.rip": {
+              "reason": "imported from hachyderm"
+            },
+            "coc*.*ish": {
+              "reason": "imported from hachyderm"
+            },
+            "wetfish.space": {
+              "reason": "imported from hachyderm"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "imported from hachyderm"
+            },
+            "honkwerx.tech": {
+              "reason": "imported from hachyderm"
+            },
+            "shortstackran.ch": {
+              "reason": "imported from hachyderm"
+            },
+            "robo.super-niche.club": {
+              "reason": "imported from hachyderm"
+            },
+            "oneway.masto.host": {
+              "reason": "imported from hachyderm"
+            },
+            "spinster.xyz": {
+              "reason": "imported from hachyderm"
+            },
+            "freesoftwareextremist.com": {
+              "reason": "imported from hachyderm"
+            },
+            "bikeshed.party": {
+              "reason": "imported from hachyderm"
+            },
+            "beefyboys.club": {
+              "reason": "imported from hachyderm"
+            },
+            "daishouri.moe": {
+              "reason": "imported from hachyderm"
+            },
+            "accela.online": {
+              "reason": "imported from hachyderm"
+            },
+            "bitcoinhackers.org": {
+              "reason": "imported from hachyderm"
+            },
+            "liveview.cf": {
+              "reason": "imported from hachyderm"
+            },
+            "f.haeder.net": {
+              "reason": "transphobic"
+            },
+            "nicecrew.digital": {
+              "reason": "imported from hachyderm"
+            },
+            "conchrepublic.social": {
+              "reason": "newsie.social clone"
+            },
+            "thechad.zone": {
+              "reason": "imported from hachyderm"
+            },
+            "rayn.bo": {
+              "reason": "imported from hachyderm"
+            },
+            "neenster.org": {
+              "reason": "imported from hachyderm"
+            },
+            "gasthe.lgbt": {
+              "reason": "imported from hachyderm"
+            },
+            "7td.org": {
+              "reason": "imported from hachyderm"
+            },
+            "societal.co": {
+              "reason": "imported from hachyderm"
+            },
+            "gearlandia.haus": {
+              "reason": "imported from hachyderm"
+            },
+            "sneed.social": {
+              "reason": "imported from hachyderm"
+            },
+            "ost.social": {
+              "reason": "imported from hachyderm"
+            },
+            "solagg.com": {
+              "reason": "imported from hachyderm"
+            },
+            "2.distsn.org": {
+              "reason": "imported from hachyderm"
+            },
+            "gendercritical.space": {
+              "reason": "imported from hachyderm"
+            },
+            "sylveon.club": {
+              "reason": "imported from hachyderm"
+            },
+            "sneak.berlin": {
+              "reason": "imported from hachyderm"
+            },
+            "leftlibertarian.club": {
+              "reason": "imported from hachyderm"
+            },
+            "lain.sh": {
+              "reason": "imported from hachyderm"
+            },
+            "sinblr.com": {
+              "reason": "imported from hachyderm"
+            },
+            "social.librem.onelibrem.one": {
+              "reason": "imported from hachyderm"
+            },
+            "social.quodverum.com": {
+              "reason": "imported from hachyderm"
+            },
+            "pos****.*******.**cks": {
+              "reason": "imported from hachyderm"
+            },
+            "waskuisland.com": {
+              "reason": "\"free-speech\", queerphobic"
+            },
+            "lets.saynoto.lgbt": {
+              "reason": "imported from hachyderm"
+            },
+            "social.sphere.com.ai": {
+              "reason": "imported from hachyderm"
+            },
+            "social.culturewar.us": {
+              "reason": "imported from hachyderm"
+            },
+            "shitposter.club": {
+              "reason": "imported from hachyderm"
+            },
+            "ryona.agency": {
+              "reason": "imported from hachyderm"
+            },
+            "pl.valkyrie.world": {
+              "reason": "imported from hachyderm"
+            },
+            "the9thcircle.club": {
+              "reason": "imported from hachyderm"
+            },
+            "mobile.tmediatech.io": {
+              "reason": "imported from hachyderm"
+            },
+            "nnia.space": {
+              "reason": "imported from hachyderm"
+            },
+            "www.writehere.is": {
+              "reason": "anti-vaccine hoax"
+            },
+            "leafposter.club": {
+              "reason": "imported from hachyderm"
+            },
+            "ligma.pro": {
+              "reason": "imported from hachyderm"
+            },
+            "freespeech.host": {
+              "reason": "imported from hachyderm"
+            },
+            "kis******.com": {
+              "reason": "imported from hachyderm"
+            },
+            "soc.mahodou.moe": {
+              "reason": "imported from hachyderm"
+            },
+            "juche.town": {
+              "reason": "imported from hachyderm"
+            },
+            "inex.rocks": {
+              "reason": "imported from hachyderm"
+            },
+            "freespeechextremist.com": {
+              "reason": "imported from hachyderm"
+            },
+            "breastmilk.club": {
+              "reason": "incompatible policy"
+            },
+            "freefedifollowers.ga": {
+              "reason": "imported from hachyderm"
+            },
+            "mastodon.starrevolution.org": {
+              "reason": "imported from hachyderm"
+            },
+            "cliterati.club": {
+              "reason": "imported from hachyderm"
+            },
+            "gitmo.life": {
+              "reason": "imported from hachyderm"
+            },
+            "gameliberty.club": {
+              "reason": "imported from hachyderm"
+            },
+            "detroitriotcity.com": {
+              "reason": "\"free-speech\" instance"
+            },
+            "beefyboys.win": {
+              "reason": "imported from hachyderm"
+            },
+            "lolison.top": {
+              "reason": "pedophilla materials due to compliance risks (청소년성보호법)"
+            },
+            "gleasonator.com": {
+              "reason": "imported from hachyderm"
+            },
+            "coom.club": {
+              "reason": "imported from hachyderm"
+            },
+            "rakket.app": {
+              "reason": "imported from hachyderm"
+            },
+            "albin.social": {
+              "reason": "imported from hachyderm"
+            },
+            "speakfree.world": {
+              "reason": "imported from hachyderm"
+            },
+            "the.hedgehoghunter.club": {
+              "reason": "imported from hachyderm"
+            },
+            "functor.pro": {
+              "reason": "imported from hachyderm"
+            },
+            "weedis.life": {
+              "reason": "imported from hachyderm"
+            },
+            "mirr0r.city": {
+              "reason": "pedophilla materials due to compliance risks (청소년성보호법)"
+            },
+            "social.snopyta.org": {
+              "reason": "imported from hachyderm"
+            },
+            "exited.eu": {
+              "reason": "imported from hachyderm"
+            },
+            "feminism.lgbt": {
+              "reason": "imported from hachyderm"
+            },
+            "expression.social": {
+              "reason": "\"free-speech\", white supremacists"
+            },
+            "eveningzoo.club": {
+              "reason": "imported from hachyderm"
+            },
+            "justicewarrior.social": {
+              "reason": "imported from hachyderm"
+            },
+            "sealion.club": {
+              "reason": "imported from hachyderm"
+            },
+            "gabfed.com": {
+              "reason": "imported from hachyderm"
+            },
+            "archivefedifor.fundefinitely-not-archivefedifor.funfuck-man-i-just-want-like-one-friend.xyz": {
+              "reason": "imported from hachyderm"
+            },
+            "80percent.social": {
+              "reason": "imported from hachyderm"
+            },
+            "mobile.co": {
+              "reason": "imported from hachyderm"
+            },
+            "gendercritical.club": {
+              "reason": "imported from hachyderm"
+            },
+            "liberdon.com": {
+              "reason": "imported from hachyderm"
+            },
+            "gab.sleeck.eu": {
+              "reason": "imported from hachyderm"
+            },
+            "seal.cafe": {
+              "reason": "Transphobia"
+            },
+            "sleepy.cafe": {
+              "reason": "transphobic"
+            },
+            "shigusegubu.club": {
+              "reason": "imported from hachyderm"
+            },
+            "pleroma.rareome.ga": {
+              "reason": "imported from hachyderm"
+            },
+            "neckbeard.xyz": {
+              "reason": "imported from hachyderm"
+            },
+            "socnet.supes.com": {
+              "reason": "imported from hachyderm"
+            },
+            "gab.ai": {
+              "reason": "imported from hachyderm"
+            },
+            "chat.manalejandro.com": {
+              "reason": "block bot"
+            },
+            "deepnexus.link": {
+              "reason": "imported from hachyderm"
+            },
+            "glittersluts.club": {
+              "reason": "imported from hachyderm"
+            },
+            "xn--xn6r8h-xg0c.tk": {
+              "reason": "imported from hachyderm"
+            },
+            "10minutepleroma.com": {
+              "reason": "imported from hachyderm"
+            },
+            "waifuappreciation.club": {
+              "reason": "imported from hachyderm"
+            },
+            "freecumextremist.com": {
+              "reason": "imported from hachyderm"
+            },
+            "social.getgle.org": {
+              "reason": "imported from hachyderm"
+            },
+            "terrible.place": {
+              "reason": "imported from hachyderm"
+            },
+            "truthsocial.com": {
+              "reason": "imported from hachyderm"
+            },
+            "eientei.org": {
+              "reason": "규칙 비호환"
+            },
+            "pl.tkammer.de": {
+              "reason": "imported from hachyderm"
+            },
+            "rdrama.cc": {
+              "reason": "imported from hachyderm"
+            },
+            "wolfgirl.bar": {
+              "reason": "imported from hachyderm"
+            },
+            "soc.h4x.group": {
+              "reason": "imported from hachyderm"
+            },
+            "pleroma.comfy.moe": {
+              "reason": "imported from hachyderm"
+            },
+            "x0f.org": {
+              "reason": "imported from hachyderm"
+            },
+            "glindr.org": {
+              "reason": "imported from hachyderm"
+            },
+            "springbo.cc": {
+              "reason": "imported from hachyderm"
+            },
+            "stereophonic.space": {
+              "reason": "imported from hachyderm"
+            },
+            "crypto-group-buy.com": {
+              "reason": "imported from hachyderm"
+            },
+            "pl.***.moe": {
+              "reason": "imported from hachyderm"
+            },
+            "noagendasocial.com": {
+              "reason": "imported from hachyderm"
+            },
+            "twitshelter.hostdon.ne.jp": {
+              "reason": "규칙 비호환"
+            },
+            "pl.765racing.com": {
+              "reason": "imported from hachyderm"
+            },
+            "pleroma.kitsunemimi.club": {
+              "reason": "imported from hachyderm"
+            },
+            "daffodil-11.org": {
+              "reason": "imported from hachyderm"
+            },
+            "fedichive.tk": {
+              "reason": "imported from hachyderm"
+            },
+            "friendica.eskimo.com": {
+              "reason": "imported from hachyderm"
+            },
+            "rightmastodon.com": {
+              "reason": "imported from hachyderm"
+            },
+            "afterlife.masto.host": {
+              "reason": "imported from hachyderm"
+            },
+            "yggdrasil.social": {
+              "reason": "imported from hachyderm"
+            },
+            "twitter.activitypub.actor": {
+              "reason": "imported from hachyderm"
+            },
+            "honey.church": {
+              "reason": "imported from hachyderm"
+            },
+            "husk.site": {
+              "reason": "imported from hachyderm"
+            },
+            "wurm.host": {
+              "reason": "imported from hachyderm"
+            },
+            "take.iteasy.club": {
+              "reason": "imported from hachyderm"
+            },
+            "poa.st": {
+              "reason": "imported from hachyderm"
+            },
+            "434.earth": {
+              "reason": "imported from hachyderm"
+            },
+            "quey.org": {
+              "reason": "imported from hachyderm"
+            },
+            "anime.website": {
+              "reason": "imported from hachyderm"
+            },
+            "froth.zone": {
+              "reason": "imported from hachyderm"
+            },
+            "traboone.com": {
+              "reason": "imported from hachyderm"
+            },
+            "thebag.social": {
+              "reason": "imported from hachyderm"
+            },
+            "naz*.***ial": {
+              "reason": "imported from hachyderm"
+            },
+            "greenfield.masto.host": {
+              "reason": "관리자 권한 오남용"
+            },
+            "rap**********.****ork": {
+              "reason": "imported from hachyderm"
+            },
+            "unsafe.space": {
+              "reason": "imported from hachyderm"
+            },
+            "social.foxfam.club": {
+              "reason": "imported from hachyderm"
+            },
+            "kiwifarms.cc": {
+              "reason": "imported from hachyderm"
+            },
+            "cawfee.club": {
+              "reason": "imported from hachyderm"
+            },
+            "buckeye.social": {
+              "reason": "imported from hachyderm"
+            },
+            "princess.cat": {
+              "reason": "imported from hachyderm"
+            },
+            "glowers.club": {
+              "reason": "imported from hachyderm"
+            },
+            "bigguys.club": {
+              "reason": "imported from hachyderm"
+            },
+            "cryptotalks.social": {
+              "reason": "follow bot"
+            },
+            "social.handholding.io": {
+              "reason": "imported from hachyderm"
+            },
+            "beehub.org": {
+              "reason": "imported from hachyderm"
+            },
+            "affiliates.social": {
+              "reason": "spam"
+            },
+            "freespeech.firedragonstudios.com": {
+              "reason": "imported from hachyderm"
+            },
+            "wagesofsinisdeath.com": {
+              "reason": "imported from hachyderm"
+            },
+            "ped*.***ool": {
+              "reason": "imported from hachyderm"
+            },
+            "gab.com": {
+              "reason": "imported from hachyderm"
+            },
+            "social.here.blue": {
+              "reason": "climate change denial"
+            },
+            "search.fedi.app": {
+              "reason": "imported from hachyderm"
+            },
+            "pleroma.mouse.services": {
+              "reason": "imported from hachyderm"
+            },
+            "brighteon.social": {
+              "reason": "imported from hachyderm"
+            },
+            "lets.bemoe.online": {
+              "reason": "imported from hachyderm"
+            },
+            "rawr-xd.club": {
+              "reason": "imported from hachyderm"
+            },
+            "jpop.club": {
+              "reason": "imported from hachyderm"
+            },
+            "aria.company": {
+              "reason": "imported from hachyderm"
+            },
+            "nomoresha.me": {
+              "reason": "imported from hachyderm"
+            },
+            "ky*.*oe": {
+              "reason": "imported from hachyderm"
+            },
+            "pleroma.kiwifarms.net": {
+              "reason": "imported from hachyderm"
+            },
+            "pp.dembased.xyz": {
+              "reason": "little-to-none moderation"
+            },
+            "rot.gives": {
+              "reason": "pedophilla materials due to compliance risks (청소년성보호법)"
+            },
+            "ihatebeinga.live": {
+              "reason": "imported from hachyderm"
+            },
+            "pl.smuglo.li": {
+              "reason": "imported from hachyderm"
+            },
+            "lolison.network": {
+              "reason": "pedophilla materials due to compliance risks (청소년성보호법)"
+            },
+            "pl.lifeweb.cc": {
+              "reason": "imported from hachyderm"
+            },
+            "newsie.social": {
+              "reason": "Tolerating Transphobia"
+            },
+            "pleroma.nobodyhasthe.biz": {
+              "reason": "imported from hachyderm"
+            },
+            "skippers-bin.com": {
+              "reason": "imported from hachyderm"
+            },
+            "qoto.org": {
+              "reason": "imported from hachyderm"
+            },
+            "freezepeach.xyz": {
+              "reason": "imported from hachyderm"
+            },
+            "berserker.town": {
+              "reason": "imported from hachyderm"
+            },
+            "disarray.nof.st": {
+              "reason": "imported from hachyderm"
+            },
+            "pieville.net": {
+              "reason": "imported from hachyderm"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "Bunbers.org",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": true,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://bunbers.org/users/admin",
+        "https://bunbers.org/users/basix"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "usage": {
+      "localPosts": 678,
+      "users": {
+        "activeHalfyear": 11,
+        "activeMonth": 7,
+        "total": 72
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

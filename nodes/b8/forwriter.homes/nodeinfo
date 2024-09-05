@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.12.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 240,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13935,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "咕咕",
+      "nodeDescription": "欢迎来到写手之家forwriter.homes！别名又叫咕站（大雾）。祝写手朋友们玩得愉快~该实例还有可爱小熊猫表情包，请千万不要错过噢！",
+      "maintainer": {
+        "name": "@frrrsdsuud@forwriter.homes",
+        "email": "frrrsdsuud@duck.com"
+      },
+      "langs": [],
+      "tosUrl": "https://therapeutic-equinox-860.notion.site/940286efda934e33a1023b82568b8d2a",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

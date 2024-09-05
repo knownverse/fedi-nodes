@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "EssentialOffGrid.wordpress.com - Your Hub for Off-Grid Living Tools &amp; Self-Sufficiency Gear",
+      "nodeDescription": "Empowering Your Off-Grid Lifestyle: Tools, Gear, and Green Solutions for Sustainable Living!",
+      "nodeIcon": "https://essentialoffgrid.wordpress.com/wp-content/uploads/2024/01/android-chrome-512x512-1.png"
+    }
+  },
+  "error": null
+}

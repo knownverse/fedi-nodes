@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/mochaworks/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 27701,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "NagoCAMP∆",
+      "nodeDescription": "not locate in nagoya. running in korea. <br /> <br />\n\n[warning]: this instance currently not running any of backup solution.\nunexpected termination of service of this instance can be possible.",
+      "nodeAdmins": [
+        {
+          "name": "@maka",
+          "email": "maka8926jp@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@maka",
+        "email": "maka8926jp@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://stella.place/@maka",
+      "repositoryUrl": "https://github.com/mochaworks/misskey",
+      "feedbackUrl": "https://github.com/mochaworks/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#e9f19b"
+    }
+  },
+  "error": null
+}

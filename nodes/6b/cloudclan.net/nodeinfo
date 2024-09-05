@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "cloudclan.net",
+      "nodeDescription": "Let&#039;s navigate the Clouds together!",
+      "nodeIcon": "https://i0.wp.com/cloudclan.net/wp-content/uploads/2024/03/cropped-cloudclan-net_1.webp?fit=808%2C808&ssl=1"
+    }
+  },
+  "error": null
+}

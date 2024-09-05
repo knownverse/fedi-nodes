@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cotswold Installation of Solar Panels and Solar Storage Pay Off Case Study",
+      "nodeDescription": "Recording the payoff period for a solar panel installation comprizing solar panels and solar batteries.",
+      "nodeIcon": "https://cotswoldcasestudyofsolarandsolarstorage.wordpress.com/wp-content/uploads/2024/03/witcherleybooksuk_a_website_icon_for_the_website_cotswold_case__3b4ac665-6433-4cfb-a6ea-4691fd8aed26.png"
+    }
+  },
+  "error": null
+}

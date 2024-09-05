@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 698,
+      "localComments": 474
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bob Mueller",
+      "nodeDescription": "Writer | Unfocused",
+      "nodeIcon": "https://www.bobmuellerwriter.com/wp-content/uploads/2016/12/cropped-mstile-310x310.png"
+    }
+  },
+  "error": null
+}

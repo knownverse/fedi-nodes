@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 114,
+      "localComments": 1680
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HA CHE RETÃ PY",
+      "nodeDescription": "PARAGUAYOS, REPÚBLICA O MUERTE! NUESTRO BRÍO NOS DIO LIBERTAD; NI OPRESORES, NI SIERVOS ALIENTAN, DONDE REINA UNIÓN, E IGUALDAD.",
+      "nodeIcon": "https://jotaefeb.wordpress.com/wp-content/uploads/2024/03/ojo.webp"
+    }
+  },
+  "error": null
+}

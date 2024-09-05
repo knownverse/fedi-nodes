@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 599,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tecnologias a la ultima ",
+      "nodeDescription": "Noticias sobre tecnologia y productos",
+      "nodeIcon": "https://tecnologiasalaultima.wordpress.com/wp-content/uploads/2018/06/cropped-web_791.jpg"
+    }
+  },
+  "error": null
+}

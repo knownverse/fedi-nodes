@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1326,
+      "localComments": 2793
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Delete Bin",
+      "nodeDescription": "A music blog about pop and jazz from the 20th Century to today - Rob Jones, Editor-in-Chief",
+      "nodeIcon": "https://thedeletebin.com/wp-content/uploads/2024/04/delete-bin-logo-2024-6.jpg"
+    }
+  },
+  "error": null
+}

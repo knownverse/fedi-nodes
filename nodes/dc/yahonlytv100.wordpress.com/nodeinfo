@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 173,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "𝐘𝐀𝐇 𝐎𝐍𝐋𝐘 𝐓𝐕 100% Video Streaming",
+      "nodeDescription": "Old Testament Only",
+      "nodeIcon": "https://yahonlytv100.wordpress.com/wp-content/uploads/2024/05/wp-1716362087416.jpg"
+    }
+  },
+  "error": null
+}

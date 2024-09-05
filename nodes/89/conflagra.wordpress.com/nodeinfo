@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sevilla y la conflagración cósmica",
+      "nodeDescription": "Una mininovela de Jorge Vernieri",
+      "nodeIcon": "https://conflagra.wordpress.com/wp-content/uploads/2021/10/cropped-cropped-conflagra-logo.png"
+    }
+  },
+  "error": null
+}

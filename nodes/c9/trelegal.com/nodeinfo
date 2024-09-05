@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 33,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TRE LEGAL PRACTICE",
+      "nodeDescription": "We&#039;re a law firm fighting for the rights of disabled people.",
+      "nodeIcon": "https://trelegal.com/wp-content/uploads/2018/07/cropped-tre_legal_logo_icon-PNG-512x512.png"
+    }
+  },
+  "error": null
+}

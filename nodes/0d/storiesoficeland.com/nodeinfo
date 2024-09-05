@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stories of Iceland",
+      "nodeDescription": "Tales of History, Culture and Folkore",
+      "nodeIcon": "https://storiesoficeland.com/wp-content/uploads/sites/59/2017/08/cropped-fanalitir-stories-1.png"
+    }
+  },
+  "error": null
+}

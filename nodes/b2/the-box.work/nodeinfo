@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 228090,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "The BOX",
+      "nodeDescription": "人外の為の 人外好きの為の場所<br>\n手動で新規受付中<br>\n加入希望の方は <a href=\"https://the-box.work/@WhiteMen\">@WhiteMen</a> までご一報くださいませ",
+      "nodeAdmins": [
+        {
+          "name": "白い人(@WhiteMen)",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "白い人(@WhiteMen)",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://the-box.work/@master_box/pages/1624585738883",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#666666"
+    }
+  },
+  "error": null
+}

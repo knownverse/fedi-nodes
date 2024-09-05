@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Passable Gardener",
+      "nodeDescription": "Just a middle aged Dad that loves gardening. Sometimes I stumble. Sometimes I do well. Just documenting the fails &amp; successes.",
+      "nodeIcon": "https://i0.wp.com/passablegardener.com/wp-content/uploads/2023/07/cropped-877F9A95-CDF8-4D88-8954-3546792CC062_1_201_a.jpeg?fit=857%2C857&ssl=1"
+    }
+  },
+  "error": null
+}

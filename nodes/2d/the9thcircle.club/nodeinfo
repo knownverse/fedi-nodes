@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 394,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 19292,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "The 9th Circle Club",
+      "nodeDescription": "Welcome to our little comfy slice of digital Hell! We're pretty laid back shitposters here. We are fans of music, anime, and general internet weirdness. It originally started as a pleroma instance but misskey ended up being a better fit. Come on in and say hello!",
+      "nodeAdmins": [
+        {
+          "name": "@shadowferret@the9thcircle.club",
+          "email": "the9thcircle.admin@fedora.email"
+        }
+      ],
+      "maintainer": {
+        "name": "@shadowferret@the9thcircle.club",
+        "email": "the9thcircle.admin@fedora.email"
+      },
+      "langs": [
+        "English"
+      ],
+      "tosUrl": "https://the9thcircle.club/@shadowferret/pages/1597182210924",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "This is the contact page for the admin. https://the9thcircle.club/@shadowferret/pages/1719123660628",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ec4c2e"
+    }
+  },
+  "error": null
+}

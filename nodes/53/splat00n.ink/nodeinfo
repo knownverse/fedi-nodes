@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch.splatter"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 76,
+        "activeMonth": 27,
+        "activeHalfyear": 35
+      },
+      "localPosts": 57144
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Splatter",
+      "nodeDescription": "스플래툰 시리즈 한국 팬들을 위한 마스토돈 서버, 스플래터입니다. 스플래툰 시리즈를 사랑하시는 모든 분들의 가입을 환영합니다!"
+    }
+  },
+  "error": null
+}

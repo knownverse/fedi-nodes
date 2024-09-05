@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.2"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 3111,
+      "localComments": 9831
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Irgendlink",
+      "nodeDescription": "Artist in Motion",
+      "nodeIcon": "https://irgendlink.de/wp-content/uploads/2022/09/logo-schweden-sonne-baum.png"
+    }
+  },
+  "error": null
+}

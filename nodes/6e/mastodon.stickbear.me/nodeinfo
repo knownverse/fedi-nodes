@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeMonth": 24,
+        "activeHalfyear": 29
+      },
+      "localPosts": 54990
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The Bear's den",
+      "nodeDescription": "This instance is ran by a couple of admins, with a wapping 8000 character limit! this server is a drama free zone, follow the rules and you'll be fine."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 864,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Who is Nick?",
+      "nodeDescription": "Asking all my life.",
+      "nodeIcon": "https://whoisnick.com/wp-content/uploads/favicon.png"
+    }
+  },
+  "error": null
+}

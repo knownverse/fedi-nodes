@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 56,
+      "localComments": 197
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ginny Mooy",
+      "nodeDescription": "Antropoloog - Schrijfster",
+      "nodeIcon": "https://i0.wp.com/www.ginnymooy.com/wp-content/uploads/2021/11/gmpicto.png?fit=438%2C438&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "aterapriey@gmail.com",
+        "name": "Klarkatze"
+      },
+      "nodeDescription": "연합우주 한구석 작은 얼음별의 대피소",
+      "nodeName": "Fluffyshelter",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#e0ffff"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 36788,
+      "users": {
+        "activeHalfyear": 9,
+        "activeMonth": 8,
+        "total": 10
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

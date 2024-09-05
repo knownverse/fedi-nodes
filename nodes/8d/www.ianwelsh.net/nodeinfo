@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3433,
+      "localComments": 99579
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ian Welsh",
+      "nodeDescription": "The horizon is not so far as we can see, but as far as we can imagine",
+      "nodeIcon": "https://www.ianwelsh.net/wp-content/uploads/2016/10/cropped-Yukon-raven-by-gavatron-1.jpg"
+    }
+  },
+  "error": null
+}

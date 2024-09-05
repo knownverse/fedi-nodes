@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.7.1-rc5",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 191,
+        "activeHalfyear": 181,
+        "activeMonth": 100
+      },
+      "localPosts": 334,
+      "localComments": 6027
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "kbin.earth",
+      "nodeDescription": "content aggregator and micro-blogging platform for the fediverse"
+    }
+  },
+  "error": null
+}

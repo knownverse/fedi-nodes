@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 58,
+      "localComments": 34
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Soothing Strolls",
+      "nodeDescription": "A blog about walking for happiness. \n\nExploring the soothing properties of going for a walk, hike or stroll.",
+      "nodeIcon": "https://soothingstrolls.com/wp-content/uploads/2024/05/wp-1714766573677.png"
+    }
+  },
+  "error": null
+}

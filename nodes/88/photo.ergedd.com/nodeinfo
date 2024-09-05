@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Pixelfed",
+      "software": {
+        "homepage": "https://pixelfed.org",
+        "repo": "https://github.com/pixelfed/pixelfed"
+      },
+      "config": {
+        "open_registration": true,
+        "uploader": {
+          "max_photo_size": "60000",
+          "max_caption_length": "150",
+          "album_limit": "4",
+          "image_quality": "100",
+          "max_collection_length": 1000,
+          "optimize_image": false,
+          "optimize_video": true,
+          "media_types": "image/jpeg,image/png,image/gif",
+          "enforce_account_limit": true
+        },
+        "activitypub": {
+          "enabled": false,
+          "remote_follow": false
+        },
+        "ab": {
+          "lc": false,
+          "rec": false,
+          "loops": false,
+          "top": false
+        },
+        "site": {
+          "name": "Pixelfed",
+          "domain": "photo.ergedd.com",
+          "url": "https://photo.ergedd.com",
+          "description": "Pixelfed is an image sharing platform, an ethical alternative to centralized platforms."
+        },
+        "username": {
+          "remote": {
+            "formats": [
+              "@",
+              "from",
+              "custom"
+            ],
+            "format": "@",
+            "custom": null
+          }
+        },
+        "features": {
+          "mobile_apis": false,
+          "circles": false,
+          "stories": true,
+          "video": false,
+          "import": {
+            "instagram": null,
+            "mastodon": false,
+            "pixelfed": false
+          },
+          "label": {
+            "covid": {
+              "enabled": true,
+              "org": "visit the WHO website",
+              "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+            }
+          }
+        }
+      }
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pixelfed",
+      "version": "0.11.0"
+    },
+    "usage": {
+      "localPosts": 1065,
+      "localComments": 0,
+      "users": {
+        "total": 30,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "version": "2.0",
+    "openRegistrations": true
+  },
+  "error": null
+}

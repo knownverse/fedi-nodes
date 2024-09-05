@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "A friendly general purpose Mobilizon instance from germany.",
+      "nodeName": "Mobilizon"
+    },
+    "usage": {
+      "users": {
+        "total": 75
+      },
+      "localComments": 16,
+      "localPosts": 90
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-dirty"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

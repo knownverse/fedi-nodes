@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 44,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Medical Sociology on Wheels",
+      "nodeDescription": "Comments on Health Beliefs, Risk, Mitigation, and Sociological Research Methods, a Disabled Perspective",
+      "nodeIcon": "https://i0.wp.com/medsocionwheels.com/wp-content/uploads/2023/04/tumblr_e65f10e5dd31d24be53937b6b232d7e5_1184832c_2048-1-edited.jpeg?fit=700%2C700&ssl=1"
+    }
+  },
+  "error": null
+}

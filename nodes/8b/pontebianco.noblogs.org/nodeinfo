@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2795,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "_ ponte bianco",
+      "nodeDescription": "&gt; materiali, scritture, ricerca, entropia &gt; a cura di marco giovenale e roberto cavallera",
+      "nodeIcon": "https://pontebianco.noblogs.org/files/2024/06/pb_n.png"
+    }
+  },
+  "error": null
+}

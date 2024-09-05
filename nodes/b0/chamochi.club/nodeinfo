@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7816,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ちゃもち～くらぶ",
+      "nodeDescription": "ちゃもち～くらぶ（chamochi.club）は、お茶とお餅が似合う軒下のようなふんわりまったり雰囲気が運営方針のMisskeyサーバーです。\n\n試験運用中のため突発的にメンテナンスに入る場合があります。",
+      "nodeAdmins": [
+        {
+          "name": "みーちゃそ",
+          "email": "mimizuku.private@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "みーちゃそ",
+        "email": "mimizuku.private@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ffe3f2"
+    }
+  },
+  "error": null
+}

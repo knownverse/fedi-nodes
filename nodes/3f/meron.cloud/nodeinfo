@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.0",
+      "homepage": "https://github.com/meronmks/misskey",
+      "repository": "https://github.com/meronmks/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 253,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "meron.cloud",
+      "nodeDescription": "meronのお遊び用Misskeyインスタンス。\nおそらくよく壊れる。\n現在一般開放はしてませんが知っている方なら何らかの手段で連絡もらえれば。",
+      "nodeAdmins": [
+        {
+          "name": "meron",
+          "email": "https://vrchat.com/home/user/usr_9ea5e495-6738-4bef-a94a-e98b30757ac2"
+        }
+      ],
+      "maintainer": {
+        "name": "meron",
+        "email": "https://vrchat.com/home/user/usr_9ea5e495-6738-4bef-a94a-e98b30757ac2"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/meronmks/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

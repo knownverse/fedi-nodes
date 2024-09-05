@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.dftba"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 286,
+        "activeMonth": 64,
+        "activeHalfyear": 102
+      },
+      "localPosts": 80611
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "DFTBA.club",
+      "nodeDescription": "Mastodon Instance for Nerdfighers. dftba!\r\nGet more information at https://info.dftba.club\r\nCheck service status at https://status.dftba.club"
+    }
+  },
+  "error": null
+}

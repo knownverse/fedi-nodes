@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 364,
+      "localComments": 1009
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Una volta ho suonato il sassofono",
+      "nodeDescription": "Speaking in tongues / It&#039;s worth a broken lip",
+      "nodeIcon": "https://unavoltahosuonatoilsassofono.wordpress.com/wp-content/uploads/2023/12/71ev244io2l._uf10001000_ql80_-e1702937902456.jpeg"
+    }
+  },
+  "error": null
+}

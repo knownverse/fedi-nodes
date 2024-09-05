@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 35,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Codehouse",
+      "nodeDescription": "My Digital Life",
+      "nodeIcon": "https://i0.wp.com/codehouse.digfish.org/wp-content/uploads/2023/06/wp-1686529921489.jpg?fit=157%2C157&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 851,
+      "localComments": 1421
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Fusion Patrol",
+      "nodeDescription": "Come join the conversation...",
+      "nodeIcon": "https://i0.wp.com/fusionpatrol.com/wp-content/uploads/2018/11/cropped-WP-Site-Icon-Initials-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

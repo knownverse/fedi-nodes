@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9-dev-f14d8a7ea",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 5714,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "The PolarBear µBlog ",
+      "nodeDescription": "This is Hamish The PolarBear's Fediverse Instance.\n\n\nI am anti-corporate and anti-fascist. I enforce blocklisting with regard to bad actors in the Fediverse. As a result you may find many larger servers blocked to some extent. In some cases this will mean you cannot have a relationship with anyone on that server. In other cases this will mean only people you follow will show up. If you find this instance not to your liking then the beauty of the Fediverse is that you can migrate whenever you like but I hope you will enjoy it here and stay.\n\n\nThe simple fact is that I am not here to moderate other people's users and I will first and foremost protect my own users when I can. The point of this server is to be a friendly, open and fun space.\n\n\nALL reports will be investigated and dealt with as necessary, please do not be afraid to use the reporting tools and never be afraid to call me out if you think I am doing something wrong.",
+      "maintainer": {
+        "name": "Hamish The PolarBear",
+        "email": "paul@pbmm.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

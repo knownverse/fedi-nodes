@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 697,
+      "localComments": 109
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "Mali Müşavir Ahmet GÜLŞEN tarafından hazırlanmaktadır.",
+      "nodeIcon": "https://smmmahmetgulsen.wordpress.com/wp-content/uploads/2018/04/cropped-girisimcinedir.jpg"
+    }
+  },
+  "error": null
+}

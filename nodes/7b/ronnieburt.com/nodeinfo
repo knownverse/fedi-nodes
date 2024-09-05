@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 27,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ronnie Burt",
+      "nodeDescription": "EdTech, WordPress, and Austin, Texas",
+      "nodeIcon": "https://i0.wp.com/ronnieburt.com/wp-content/uploads/2022/11/cropped-out-14.jpeg?fit=512%2C512&quality=89&ssl=1"
+    }
+  },
+  "error": null
+}

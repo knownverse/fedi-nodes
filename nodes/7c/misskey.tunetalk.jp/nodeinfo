@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 100,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "tunetalk",
+      "nodeDescription": "音声SNSのtunetalk内 Misskeyサーバーです。\n楽曲制作、イラスト制作、開発などなどクリエイティブな色々を雑多に取り扱うサーバーです。\nhttps://tunetalk.jp",
+      "maintainer": {
+        "name": "issei",
+        "email": "tunetalk-support@monophilia.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

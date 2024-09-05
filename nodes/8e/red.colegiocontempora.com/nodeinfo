@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2020.03-1338"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp"
+      ]
+    },
+    "usage": {},
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Red Contémpora",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

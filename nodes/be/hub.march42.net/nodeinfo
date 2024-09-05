@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.3.7"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial",
+        "friendica",
+        "libertree",
+        "pumpio"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 9,
+      "localComments": 5
+    },
+    "metadata": {
+      "nodeName": "hub.march42.net Hubzilla"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.4+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 2,
+        "activeHalfyear": 4
+      },
+      "localPosts": 481
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Geek.gay",
+      "nodeDescription": "Launched for Pride 2021, Geek.gay is a community for LGBT geeks by LGBT geeks. A community designed from the ground up to allow its members to be themselves while exploring their most geeky obsessions"
+    }
+  },
+  "error": null
+}

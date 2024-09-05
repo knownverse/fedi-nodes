@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.115-HEAD-a23b30cc"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "ak.sabross.xyz",
+        "key.sabross.xyz",
+        "mast.sabross.xyz"
+      ],
+      "blocks": [
+        "declin.eu"
+      ]
+    }
+  },
+  "error": null
+}

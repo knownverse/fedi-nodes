@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 38,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jeff James",
+      "nodeDescription": "Reader, writer, grower of artisanal beards",
+      "nodeIcon": "https://i0.wp.com/unsquare.com/wp-content/uploads/2022/07/charlies-dickens-g4f15e28e9_640.png?fit=417%2C640&ssl=1"
+    }
+  },
+  "error": null
+}

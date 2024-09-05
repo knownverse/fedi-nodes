@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "3.4.10+glitch+atsu1125"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeMonth": 2,
+        "activeHalfyear": 3
+      },
+      "localPosts": 135
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "themeColor": "#41adef",
+      "maintainer": {
+        "name": "maintenance",
+        "email": "example@example.com"
+      }
+    }
+  },
+  "error": null
+}

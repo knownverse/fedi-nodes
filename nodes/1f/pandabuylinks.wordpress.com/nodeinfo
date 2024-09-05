@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "PANDA BUY LINKS",
+      "nodeDescription": "TODOS LOS PRODUCTOS (LINKS) DE PANDA BUY",
+      "nodeIcon": "https://pandabuylinks.wordpress.com/wp-content/uploads/2024/01/cropped-51df55d0-a417-4a13-ba4c-9f53f8759d1f.jpeg"
+    }
+  },
+  "error": null
+}

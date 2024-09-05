@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Rejoignez nous sur Mobilizon Linux07, une instance Mobilizon Ardéchoise !",
+      "nodeName": "Mobilizon Linux07"
+    },
+    "usage": {
+      "users": {
+        "total": 33
+      },
+      "localComments": 19,
+      "localPosts": 138
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

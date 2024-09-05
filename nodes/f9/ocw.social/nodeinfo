@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 5,
+        "activeHalfyear": 8
+      },
+      "localPosts": 6918
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "OneClick Wi-Fi",
+      "nodeDescription": "The cool kids from the totally famous Nintendo Wi-Fi Connection community, OneClick Wi-Fi."
+    }
+  },
+  "error": null
+}

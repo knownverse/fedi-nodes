@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1184,
+      "localComments": 274
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rugby Prime",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/rugbyprime.com/wp-content/uploads/2024/08/cropped-RUGBY-PRIME-LOGO-BLANC.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

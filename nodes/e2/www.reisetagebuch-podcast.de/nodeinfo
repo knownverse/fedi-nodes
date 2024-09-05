@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 143,
+      "localComments": 32
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Reisetagebuch Podcast",
+      "nodeDescription": "Ich erzähle euch meine Reisen - CC-BY-NC",
+      "nodeIcon": "https://www.reisetagebuch-podcast.de/wordpress/wp-content/uploads/2016/04/cropped-Logo01-Kopie-1410.png"
+    }
+  },
+  "error": null
+}

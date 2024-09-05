@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Destinos sin explorar",
+      "nodeDescription": "El mundo mas allá de lo convencional, donde cada destino revela su magia y misterio",
+      "nodeIcon": "https://destinossinexplorar.wordpress.com/wp-content/uploads/2024/04/cropped-default_crea_una_ilustracion_de_una_ciudad_colonial_con_colore_2.jpg"
+    }
+  },
+  "error": null
+}

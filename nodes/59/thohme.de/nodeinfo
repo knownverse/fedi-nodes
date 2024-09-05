@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.2",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Thies' Instance",
+      "nodeDescription": "Dies ist eine Sharkey Instanz, welche als ein Hobbyprojekt ins Leben gerufen wurde. Hier werden Projekte von @Minecodes@sueden.social bzw. @thies@social.minecodes.de gehostet. Diese Instanz ist im Moment im Aufbau. Für Informationen bitte per E-Mail, Mastodon (@Minecodes@sueden.social), XMPP/Jabber (thies@minecodes.de) oder Discord (@minecodes) anschreiben. Persönliche Daten werden nicht verarbeitet. Tracking und Werbung werden nicht verwendet und sind auch nicht erwünscht. Werbung wird nur als unbezahlte Promotion mit Absprache vom Admin (@thies@social.minecodes.de / @Minecodes@sueden.social) zugelassen, wenn diese im Interesse der Allgemeinheit und den Bedingungen des Admins gedacht ist. Open Source Projekte sind erwünscht.",
+      "nodeAdmins": [
+        {
+          "name": "@thies@thohme.de",
+          "email": "contact@minecodes.de"
+        }
+      ],
+      "maintainer": {
+        "name": "@thies@thohme.de",
+        "email": "contact@minecodes.de"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

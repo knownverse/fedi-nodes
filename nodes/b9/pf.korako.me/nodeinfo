@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "PieFed",
+      "version": "0.1"
+    },
+    "usage": {
+      "localComments": 17,
+      "localPosts": 29,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

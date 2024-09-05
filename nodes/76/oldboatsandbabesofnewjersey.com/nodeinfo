@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Old Boats &amp; Babes of New Jersey",
+      "nodeDescription": "125 yesteryears of old boats made in New Jersey and the nostalgic babes of the era to be featured in a series of books!",
+      "nodeIcon": "https://oldboatsandbabesofnewjersey.com/wp-content/uploads/2024/03/270837670_5195346847155652_1752377360766547870_n-copy.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 45,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3127,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "KCSkey",
+      "nodeDescription": "慶應義塾大学公認学生団体 KCS::Computer SocietyのMisskey！",
+      "nodeAdmins": [
+        {
+          "name": "Computer Society",
+          "email": "support@misskey.kcs1959.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "Computer Society",
+        "email": "support@misskey.kcs1959.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://www.kcs1959.jp/",
+      "impressumUrl": "https://www.kcs1959.jp/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#f7a340"
+    }
+  },
+  "error": null
+}

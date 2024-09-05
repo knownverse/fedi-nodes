@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "0.1.3-beta",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 60388,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "翔太すきー",
+      "nodeDescription": "ﾌﾟﾛﾃﾞｭｰｻｰさんって､僕と会うために生まれてきてくれたの? だよねー!?きっとそうだよ!だって…へへっ♪<br>\n ",
+      "nodeAdmins": [
+        {
+          "name": "チヤマ ヨシテル",
+          "email": "shotasuki0420@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "チヤマ ヨシテル",
+        "email": "shotasuki0420@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": " https://chamacha.misskey.one/@Chamacha/pages/kiyakuchama",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://chamacha.misskey.one/@shotaoshi",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "shotaoshi",
+      "themeColor": "#a1db9c"
+    }
+  },
+  "error": null
+}

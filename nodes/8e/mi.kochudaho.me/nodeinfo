@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2-taiyme-v1.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": 10,
+        "activeMonth": 9
+      },
+      "localPosts": 38206,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "【2023年夏登場版】比較的新しい🧿ぁほすきー",
+      "nodeDescription": "一応、こちゅだぁほのおひとり様サーバーです。<br>\nまた建てました。<br>\n<br>\n今後、復旧不可能な状態にならない限り、動かし続ける所存です。はい。",
+      "maintainer": {
+        "name": "こちゅだぁほ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#701d23"
+    }
+  },
+  "error": null
+}

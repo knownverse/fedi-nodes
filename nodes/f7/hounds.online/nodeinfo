@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2493,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "hounds.online",
+      "nodeDescription": "A general fediverse instance for furries of any kind!",
+      "nodeAdmins": [
+        {
+          "name": "overseer",
+          "email": "overseer@hounds.online"
+        }
+      ],
+      "maintainer": {
+        "name": "overseer",
+        "email": "overseer@hounds.online"
+      },
+      "langs": [],
+      "tosUrl": "https://hounds.online/@overseer/pages/instance_rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "overseer@hounds.online",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "follower",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

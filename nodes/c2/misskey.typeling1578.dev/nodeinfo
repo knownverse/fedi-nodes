@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/typeling1578/misskey",
+      "repository": "https://github.com/typeling1578/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12898,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "たいぷりんぐのおへや",
+      "nodeDescription": "お一人様サーバー (知っている人™なら招待コード渡すかも)\nこのインスタンスはMisskeyに若干の改変をして運用されています。\nソースコード: https://github.com/typeling1578/misskey",
+      "nodeAdmins": [
+        {
+          "name": "たいぷりんぐ",
+          "email": "REDACTED FOR PRIVACY"
+        }
+      ],
+      "maintainer": {
+        "name": "たいぷりんぐ",
+        "email": "REDACTED FOR PRIVACY"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://typeling1578.dev",
+      "impressumUrl": "https://typeling1578.dev",
+      "repositoryUrl": "https://github.com/typeling1578/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#e84d83"
+    }
+  },
+  "error": null
+}

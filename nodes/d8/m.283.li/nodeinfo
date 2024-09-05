@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 70,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Project 283",
+      "nodeDescription": "配信者「tsubasa83」のために建てたMisskeyインスタンス。\n専用インスタンスなので、ユーザー登録が無効です。\nMisskey instance set up for the streamer \"tsubasa83.\"\nRegistration is disabled.",
+      "nodeAdmins": [
+        {
+          "name": "Fish & Bird Virtual Planning",
+          "email": "tsubasaoribe22@gmx.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Fish & Bird Virtual Planning",
+        "email": "tsubasaoribe22@gmx.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#7ec331"
+    }
+  },
+  "error": null
+}

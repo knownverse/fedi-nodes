@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.112.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 78,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "阿托小镇",
+      "nodeDescription": "阿托城中，阿托小镇 | atto town in atto city",
+      "maintainer": {
+        "name": "@oott123@atto.town",
+        "email": "misskey@public.oott123.com"
+      },
+      "langs": [],
+      "tosUrl": "https://atto.town/announcements",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null
+    }
+  },
+  "error": null
+}

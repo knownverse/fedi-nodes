@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Event Federation",
+      "nodeDescription": "We are working on a proper federation of events managed on a WordPress site. With support from @NGIZero@mastodon.xyz",
+      "nodeIcon": "https://event-federation.eu/wp-content/uploads/2023/09/icon.png"
+    }
+  },
+  "error": null
+}

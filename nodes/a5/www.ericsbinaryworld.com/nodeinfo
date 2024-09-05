@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 3941,
+      "localComments": 2334
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "It&#039;s A Binary World 2.0",
+      "nodeDescription": "Insights on fatherhood, technology, culture, photography, and politics",
+      "nodeIcon": "https://www.ericsbinaryworld.com/wp-content/uploads/2016/04/cropped-site-icon-Twenty-Sixteen.png"
+    }
+  },
+  "error": null
+}

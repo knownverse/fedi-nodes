@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "",
+      "nodeName": "Pate Family Social"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "Emissary",
+      "version": "0.4.0"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 0,
+      "users": {
+        "activeHalfYear": 0,
+        "activeMonth": 0,
+        "total": 0
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

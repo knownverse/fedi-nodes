@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-alpha.5+kmyblue.13.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 50,
+        "activeMonth": 45,
+        "activeHalfyear": 61
+      },
+      "localPosts": 3615
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "珈琲休憩",
+      "nodeDescription": "珈琲休憩\r\nCoffee BreakのMastodon (kmyblue) 版姉妹サイトです。絵文字リアクション有＆3000文字まで投稿可能。テーマ無しの汎用サーバーですが、大人向けの穏やかな雰囲気で雑多な話題を安心気軽にできる場所にしていきたい所存です。\r\n\r\nCoffee Break: https://misskey.soda-net.com/\r\n",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-alpha.5"
+      }
+    }
+  },
+  "error": null
+}

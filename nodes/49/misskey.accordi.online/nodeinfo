@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.9.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 692,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.accordi.online",
+      "nodeDescription": "Microsoft AzureのPaaSのみで構成されたフルマネージドMisskeyインスタンスです。\n・Azure App Service Linux\n・Azure Container Registry\n・Azure Database for PostgreSQL\n・Azure Cache for Redis\n・Azure Storage",
+      "maintainer": {
+        "name": "Recumbented",
+        "email": "misskeyadmin@accordi.online"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#48020E"
+    }
+  },
+  "error": null
+}

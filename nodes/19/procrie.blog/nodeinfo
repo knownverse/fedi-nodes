@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 604,
+      "localComments": 2126
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "@procrie.blog",
+      "nodeDescription": "Estamos próximo de atingir nossa meta de 1 mil artigos para deleite dos internautas interessados em Metodologias de Ensino - Escolar e Desportiva. O que não desmerece qualquer ensino de habilidade humana.",
+      "nodeIcon": "https://procrie.blog/wp-content/uploads/2024/04/cropped-logo-novo-blog-procrie.png"
+    }
+  },
+  "error": null
+}

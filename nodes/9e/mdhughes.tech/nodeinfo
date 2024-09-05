@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1208,
+      "localComments": 348
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mark writes",
+      "nodeDescription": "Mark Damon Hughes blogs about tech and everything else",
+      "nodeIcon": "https://mdhughes.tech/wp-content/uploads/2017/07/cropped-ff7-midgar-cloud.png"
+    }
+  },
+  "error": null
+}

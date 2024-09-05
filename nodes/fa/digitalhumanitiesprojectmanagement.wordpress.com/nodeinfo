@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 58,
+      "localComments": 143
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Digital Humanities Project Management",
+      "nodeDescription": "Introduction to Digital Humanities and Project Management, UCLA winter 2024 Cindy Nguyen",
+      "nodeIcon": "https://digitalhumanitiesprojectmanagement.wordpress.com/wp-content/uploads/2024/01/les-monts-play-1.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 345,
+      "localComments": 1319
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La MACCHINA MAIEUTICA",
+      "nodeDescription": "la Blogosfera di Vittorio Dublino | Attivista di Conoscenza |  Provocatore Culturale | Motivational (Life) Coach",
+      "nodeIcon": "https://vittoriodublinoblog.org/wp-content/uploads/2022/03/401103_10151245338349744_123744294_n.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 41,
+        "activeMonth": "45",
+        "activeHalfyear": "45"
+      },
+      "localPosts": 303,
+      "localComments": 1001
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jewdas",
+      "nodeDescription": "Radical Voices for the alternative diaspora",
+      "nodeIcon": "https://jewdas.org/wp-content/uploads/2020/04/cropped-thatwhichcomesafter.png"
+    }
+  },
+  "error": null
+}

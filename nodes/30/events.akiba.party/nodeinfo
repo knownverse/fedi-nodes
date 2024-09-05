@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Anime, game, and net culture events on the west coast",
+      "nodeName": "Akiba Party Events",
+      "nodeTimezone": "America/Los_Angeles",
+      "nodeActor": "events"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 170,
+      "users": {
+        "total": 4
+      }
+    }
+  },
+  "error": null
+}

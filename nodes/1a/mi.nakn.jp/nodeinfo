@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11465,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3915216,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "なすきー",
+      "nodeDescription": "メールアドレス不要で使えるMisskeyインスタンスです。\n名前は「なすきー」ですが、なすが嫌いな方でも登録できます！\n（鯖管はなすが食べれません。）",
+      "nodeAdmins": [
+        {
+          "name": "なりかくん (@narikakun@mi.nakn.jp)",
+          "email": "nasskey.support@nakn.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "なりかくん (@narikakun@mi.nakn.jp)",
+        "email": "nasskey.support@nakn.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://mi.nakn.jp/@notify/pages/terms",
+      "privacyPolicyUrl": "https://nakn.jp/privacy/",
+      "inquiryUrl": "https://nakn.jp/support-misskey/",
+      "impressumUrl": "https://nakn.jp/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": null,
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "nasskey",
+      "themeColor": "#cc80ff"
+    }
+  },
+  "error": null
+}

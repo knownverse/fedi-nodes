@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 217,
+      "localComments": 107
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "APCSX GROUP",
+      "nodeDescription": "THE NEW VISION BUSINESS ENTREPRENEURSHIP AND TRANING. Unión de Sinergias, Estructuras más Fléxibles y Participativas, Fortalecimiento de Empresas y Asociados, Empoderamiento y Responsabilidad. Descubrir, Desarrollar y Potenciar Habilidades, Construyendo Puentes de Excelencia entre lo Personal y lo Profesional, Creando y Edificando Empresas LIDERES y LIDERES SABIOS con Comunicaciones claras de la mano de Cristina Barcelona &amp; Asociados.",
+      "nodeIcon": "https://cristinabarcelonayasociados.wordpress.com/wp-content/uploads/2021/05/apcsxgroup.png"
+    }
+  },
+  "error": null
+}

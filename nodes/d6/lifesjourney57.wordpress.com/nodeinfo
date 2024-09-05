@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Miranda&#039;s Personal Blog",
+      "nodeDescription": "Blogging ",
+      "nodeIcon": "https://lifesjourney57.wordpress.com/wp-content/uploads/2024/01/img_20231221_164137_012.jpg"
+    }
+  },
+  "error": null
+}

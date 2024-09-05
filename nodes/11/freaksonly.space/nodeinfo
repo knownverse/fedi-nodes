@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 162,
+        "activeHalfyear": 70,
+        "activeMonth": 27
+      },
+      "localPosts": 72770,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "FREAKS ONLY",
+      "nodeDescription": "Finally, social media for FREAKS* ONLY**<P>\n\n(*freak is defined here as anyone who doesn't fit into societal norms.)<br>\n(**allies to the freaks are also allowed.)",
+      "maintainer": {
+        "name": "chives",
+        "email": "chives@freaksonly.space"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.freaksonly.space/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

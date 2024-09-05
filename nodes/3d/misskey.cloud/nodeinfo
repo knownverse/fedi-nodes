@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/fedibird/misskey",
+      "repository": "https://github.com/fedibird/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3810,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1172242,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.cloud",
+      "nodeDescription": "ローカルタイムラインのない、連合志向の汎用Misskeyサーバです。Fedibirdの関連サービスとして運用されます。",
+      "nodeAdmins": [
+        {
+          "name": "noellabo / Fedibird Project",
+          "email": "support@misskey.cloud"
+        }
+      ],
+      "maintainer": {
+        "name": "noellabo / Fedibird Project",
+        "email": "support@misskey.cloud"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.cloud/@noellabo/pages/terms_of_service",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/fedibird/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

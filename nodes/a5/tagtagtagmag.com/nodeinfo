@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 459,
+      "localComments": 42
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TAGTAGTAG",
+      "nodeDescription": "A journal of influence and creativity.",
+      "nodeIcon": "https://i0.wp.com/tagtagtagmag.com/wp-content/uploads/2021/09/ttt-favico-1.png?fit=250%2C250&ssl=1"
+    }
+  },
+  "error": null
+}

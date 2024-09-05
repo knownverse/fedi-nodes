@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 9352,
+      "localComments": 6489
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Movie Reviews 101",
+      "nodeDescription": "Daily Movie Reviews",
+      "nodeIcon": "https://i0.wp.com/moviesreview101.com/wp-content/uploads/2023/08/cropped-Screenshot-2023-08-17-154729.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

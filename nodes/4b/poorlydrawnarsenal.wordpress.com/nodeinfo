@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 155,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Poorly Drawn Arsenal",
+      "nodeDescription": "I have questionable artistic skills and a love of Arsenal. Here is where I combine the two.",
+      "nodeIcon": "https://poorlydrawnarsenal.wordpress.com/wp-content/uploads/2023/12/img_3910.jpeg"
+    }
+  },
+  "error": null
+}

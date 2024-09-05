@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-3dcg-love.3",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 437,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23094,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "3DCGすきー!",
+      "nodeDescription": "3DCGをこよなく愛する人々の交流や情報交換のためのサーバー！\nUV展開から晩御飯の献立まで！初心者～上級者まで大歓迎！！\nGLBファイルの3Dビュワー搭載！ 略称：CGすきー",
+      "nodeAdmins": [
+        {
+          "name": "akiRAM",
+          "email": "misskey.3dcg.love/@akiRAM"
+        }
+      ],
+      "maintainer": {
+        "name": "akiRAM",
+        "email": "misskey.3dcg.love/@akiRAM"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.3dcg.love/@admin/pages/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#002f3d"
+    }
+  },
+  "error": null
+}

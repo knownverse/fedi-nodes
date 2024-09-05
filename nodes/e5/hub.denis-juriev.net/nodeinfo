@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "4.0.3"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "ostatus",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "dreamwidth",
+        "gnusocial",
+        "friendica",
+        "pumpio",
+        "redmatrix",
+        "wordpress",
+        "xmpp"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 32,
+      "localComments": 5
+    },
+    "metadata": {
+      "nodeName": "Hubzilla @ Hub.Denis-Juriev.Net"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 125,
+      "localComments": 511
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Le Blog de Fanny H",
+      "nodeDescription": "Mes lectures et rencontres littéraires",
+      "nodeIcon": "https://leblogdefannyh.com/wp-content/uploads/2022/11/wp-1668957717314.jpg"
+    }
+  },
+  "error": null
+}

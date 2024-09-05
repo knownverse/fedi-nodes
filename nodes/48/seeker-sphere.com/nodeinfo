@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Seeker Sphere",
+      "nodeDescription": "Exploring Life&#039;s Little Wonders in Our Lifestyle Blog",
+      "nodeIcon": "https://seeker-sphere.com/wp-content/uploads/2024/02/dallc2b7e-2024-02-25-10.14.08-a-cartoon-sheep-with-white-fur-in-black-background-looking-towards-the-screen-and-walking-towards-left.png"
+    }
+  },
+  "error": null
+}

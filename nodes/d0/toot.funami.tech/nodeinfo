@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+YRYRi"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5649,
+        "activeMonth": 131,
+        "activeHalfyear": 366
+      },
+      "localPosts": 156392
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "YuruToot",
+      "nodeDescription": "Safe and free-for-all hang out space without hate, discrimination, operated by YuruVerse / YuruVerse에 의해 운영되는 혐오와 차별이 없는 자유로운 대화 공간."
+    }
+  },
+  "error": null
+}

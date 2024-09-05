@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 34,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Valley Community",
+      "nodeDescription": "Connecting People Of The Valley",
+      "nodeIcon": "https://valleycommunity.co.za/wp-content/uploads/2021/09/cropped-Valley-Community.png"
+    }
+  },
+  "error": null
+}

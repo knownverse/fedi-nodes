@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "PICT CLIP",
+      "version": "2.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "PICT CLIP",
+      "nodeDescription": "PICT CLIP",
+      "maintainer": {
+        "name": "Ada Yahn",
+        "email": "https://pictclip.com"
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ViolVaio",
+      "nodeDescription": "Blog di piante, giardinaggio e home design",
+      "nodeIcon": "https://violvaio.home.blog/wp-content/uploads/2019/02/cropped-img_20180316_095612_205-1.jpg"
+    }
+  },
+  "error": null
+}

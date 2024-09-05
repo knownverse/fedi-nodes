@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 138,
+      "localComments": 393
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "blog::zjuul",
+      "nodeDescription": "If the questions don&#039;t make sense, neither will the answers",
+      "nodeIcon": "https://zjuul.succesvol-online.nl/wp-content/uploads/sites/5/2017/09/download.png"
+    }
+  },
+  "error": null
+}

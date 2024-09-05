@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda de Eventos do Laboratório Hacker de Campinas",
+      "nodeName": "Laboratório Hacker de Campinas",
+      "nodeTimezone": "America/Sao_Paulo",
+      "nodeActor": "agenda"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 103,
+      "users": {
+        "total": 13
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-enma",
+      "homepage": "https://github.com/sweshelo/misskey",
+      "repository": "https://github.com/sweshelo/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 38,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 73079,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "閻魔帳 Misskey支部",
+      "nodeDescription": "Swesheloのサーバです",
+      "nodeAdmins": [
+        {
+          "name": "Sweshelo",
+          "email": "sweshelo@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Sweshelo",
+        "email": "sweshelo@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.sweshelo.jp/@sweshelo/pages/term-of-service",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/sweshelo/misskey",
+      "feedbackUrl": "https://github.com/sweshelo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "maxReactionsPerAccount": 128,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

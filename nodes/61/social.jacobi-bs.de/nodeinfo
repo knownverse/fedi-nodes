@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 0,
+        "activeHalfyear": 0
+      },
+      "localPosts": 0
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "social.jacobi-bs.de",
+      "nodeDescription": "Personal Mastodon server of Felix Jacobi (felix@social.jacobi-bs.de)."
+    }
+  },
+  "error": null
+}

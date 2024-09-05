@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 469,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "#旅する審神者",
+      "nodeDescription": "刀とその周辺の物語を愛するカメラを持った旅人",
+      "nodeIcon": "https://swordtrip.wordpress.com/wp-content/uploads/2019/03/cropped-mgk3_21j_400x400.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,227 @@
+{
+  "success": true,
+  "data": {
+    "uri": "precure.ml",
+    "title": "キュアスタ！",
+    "short_description": "プリキュアファンの為のサーバーです。\r\n（電気通信事業者 A-01-17291）",
+    "description": "キュアスタ！は、プリキュアシリーズのファンの為の非公式Mastodonインスタンスです。<br>\r\nプリキュアファンであればどなたでも参加することが出来ますので、お気軽にご利用ください。<br>\r\n<br>\r\n参加する前に、以下を確認してください。<br>\r\n<a href=\"https://blog.precure.ml/categories/新規さん向け\" target=\"_blank\">https://blog.precure.ml/categories/新規さん向け</a><br>\r\n<br>Since: 2017/04/23",
+    "email": "support@precure.ml",
+    "version": "2.0",
+    "urls": {
+      "streaming_api": "wss://precure.ml"
+    },
+    "stats": {
+      "user_count": 360,
+      "status_count": 328724,
+      "domain_count": 9980
+    },
+    "thumbnail": "https://precure.ml/site_uploads/files/000/000/001/@1x/927f9c8f554ec2fa.png",
+    "languages": [
+      "en"
+    ],
+    "registrations": true,
+    "approval_required": true,
+    "invites_enabled": true,
+    "configuration": {
+      "accounts": {
+        "max_featured_tags": 10
+      },
+      "statuses": {
+        "max_characters": 2000,
+        "max_media_attachments": 4,
+        "characters_reserved_per_url": 23
+      },
+      "media_attachments": {
+        "supported_mime_types": [
+          "image/jpeg",
+          "image/png",
+          "image/gif",
+          "image/heic",
+          "image/heif",
+          "image/webp",
+          "image/avif",
+          "video/webm",
+          "video/mp4",
+          "video/quicktime",
+          "video/ogg",
+          "audio/wave",
+          "audio/wav",
+          "audio/x-wav",
+          "audio/x-pn-wave",
+          "audio/vnd.wave",
+          "audio/ogg",
+          "audio/vorbis",
+          "audio/mpeg",
+          "audio/mp3",
+          "audio/webm",
+          "audio/flac",
+          "audio/aac",
+          "audio/m4a",
+          "audio/x-m4a",
+          "audio/mp4",
+          "audio/3gpp",
+          "video/x-ms-asf"
+        ],
+        "image_size_limit": 16777216,
+        "image_matrix_limit": 33177600,
+        "video_size_limit": 103809024,
+        "video_frame_rate_limit": 120,
+        "video_matrix_limit": 8294400
+      },
+      "polls": {
+        "max_options": 10,
+        "max_characters_per_option": 50,
+        "min_expiration": 300,
+        "max_expiration": 2629746
+      }
+    },
+    "contact_account": {
+      "id": "2641",
+      "username": "pooza",
+      "acct": "pooza",
+      "display_name": "ぷーざ@キュアスタ！",
+      "locked": false,
+      "bot": false,
+      "discoverable": true,
+      "group": false,
+      "created_at": "2017-05-09T00:00:00.000Z",
+      "note": "<p>弊鯖の2代目鯖缶です。</p><p>■プリキュア自己紹介シート<br /><a href=\"https://precure.ml/@pooza/109808984625467521\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">precure.ml/@pooza/109808984625</span><span class=\"invisible\">467521</span></a></p><p>■推し<br />今期の推しキュアは <a href=\"https://precure.ml/tags/%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%AA%E3%82%A2%E3%83%B3\" class=\"mention hashtag\" rel=\"tag\">#<span>キュアリリアン</span></a> 。<br />最推しキュアは <a href=\"https://precure.ml/tags/%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%BD%E3%83%BC%E3%83%89\" class=\"mention hashtag\" rel=\"tag\">#<span>キュアソード</span></a> と <a href=\"https://precure.ml/tags/%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B9\" class=\"mention hashtag\" rel=\"tag\">#<span>キュアグレース</span></a> です。</p><p>■プリキュア歴<br />毎週欠かさず観るようになったのは、スマイルプリキュアの途中ぐらいから。その後後追いで、全シリーズ全話、全劇場版を観ました。<br />全ての映像作品をリピートしているはずです。</p><p>■宮本佳那子さん<br />プリキュア全シリーズを足したのと同じぐらい、 <a href=\"https://precure.ml/tags/%E5%AE%AE%E6%9C%AC%E4%BD%B3%E9%82%A3%E5%AD%90\" class=\"mention hashtag\" rel=\"tag\">#<span>宮本佳那子</span></a> さん個人のファンです。<br />原則的には、国内の全てのイベントに顔を出すことを前提に活動しています。</p><p>■フォロー関係<br />このアカウントからは原則的に、プリキュアの話題がある方をフォローします。<br />フォローを頂いた場合、フォローバックは美食丼の本垢から行う場合があります。<br /><a href=\"https://precure.ml/tags/%E5%AE%9F%E6%B3%81%E9%83%A8\" class=\"mention hashtag\" rel=\"tag\">#<span>実況部</span></a></p>",
+      "url": "https://precure.ml/@pooza",
+      "uri": "https://precure.ml/users/pooza",
+      "avatar": "https://precure.ml/accounts/avatars/000/002/641/original/8ef71de13eacee7d.jpeg",
+      "avatar_static": "https://precure.ml/accounts/avatars/000/002/641/original/8ef71de13eacee7d.jpeg",
+      "header": "https://precure.ml/accounts/headers/000/002/641/original/abd5bf16fa7f8b87.jpg",
+      "header_static": "https://precure.ml/accounts/headers/000/002/641/original/abd5bf16fa7f8b87.jpg",
+      "followers_count": 160,
+      "following_count": 57,
+      "statuses_count": 117095,
+      "last_status_at": "2024-09-05",
+      "noindex": false,
+      "emojis": [],
+      "roles": [
+        {
+          "id": "3",
+          "name": "Admin",
+          "color": "#000000"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Keyoxide",
+          "value": "<a href=\"https://keyoxide.org/hkp/D7467BB6F293BDF51E738BD97D1F5AE8185B9045\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">keyoxide.org/hkp/D7467BB6F293B</span><span class=\"invisible\">DF51E738BD97D1F5AE8185B9045</span></a>",
+          "verified_at": "2021-09-21T02:41:58.451+00:00"
+        },
+        {
+          "name": "きゅあすきー",
+          "value": "<a href=\"https://mk.precure.fun/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mk.precure.fun/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-02-27T18:19:53.598+00:00"
+        },
+        {
+          "name": "美食丼（本垢）",
+          "value": "<a href=\"https://mstdn.b-shock.org/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mstdn.b-shock.org/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2018-11-02T21:40:28.483+00:00"
+        },
+        {
+          "name": "デルムリン丼",
+          "value": "<a href=\"https://mstdn.delmulin.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mstdn.delmulin.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2021-03-23T23:57:12.380+00:00"
+        },
+        {
+          "name": "ダイスキー",
+          "value": "<a href=\"https://misskey.delmulin.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">misskey.delmulin.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-05-07T09:39:19.398+00:00"
+        },
+        {
+          "name": "Annict",
+          "value": "<a href=\"https://annict.com/@pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">annict.com/@pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        },
+        {
+          "name": "GitHub",
+          "value": "<a href=\"https://github.com/pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": "2023-02-02T03:00:43.760+00:00"
+        },
+        {
+          "name": "lit.link",
+          "value": "<a href=\"https://lit.link/pooza\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">lit.link/pooza</span><span class=\"invisible\"></span></a>",
+          "verified_at": null
+        }
+      ]
+    },
+    "rules": [
+      {
+        "id": "1",
+        "text": "プリキュアシリーズへの愛があることは、参加のそもそもの前提とさせて頂きます。"
+      },
+      {
+        "id": "2",
+        "text": "ネタバレを含む投稿にはCW機能の使用をお願いします。その際、注釈（タイトル）は必ず、ネタバレを含むという意図がわかるものにしてください。"
+      },
+      {
+        "id": "3",
+        "text": "規約にもある通り、投稿の著作権は本人にあります。当然ながら、不適切な投稿の責任も本人が持つものとします。"
+      },
+      {
+        "id": "4",
+        "text": "いかなる理由があっても、東映公式やおもちゃ業界等の守秘事項の投稿はしないでください。（なお、商標の出願公開は守秘事項に含みません）"
+      },
+      {
+        "id": "6",
+        "text": "大事なお知らせを伝えることがある「お知らせボット」へのフォローを外すことは出来ません。外しても、数分後にフォローが復活します。"
+      }
+    ],
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.12"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 360,
+        "activeMonth": 26,
+        "activeHalfyear": 38
+      },
+      "localPosts": 328724
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "キュアスタ！",
+      "maintainer": {
+        "name": "ぷーざ@キュアスタ！",
+        "email": "support@precure.ml"
+      }
+    },
+    "mulukhiya": {
+      "package": {
+        "authors": [
+          "Tatsuya Koishi"
+        ],
+        "description": "各種ActivityPub対応インスタンスへの投稿に対して、内容の更新等を行うプロキシ。通称「モロヘイヤ」。",
+        "email": [
+          "tkoishi@b-shock.co.jp"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/pooza/mulukhiya-toot-proxy",
+        "version": "4.32.3"
+      },
+      "config": {
+        "controller": "mastodon",
+        "status": {
+          "spoiler": {
+            "text": null,
+            "emoji": "netabare",
+            "shortcode": ":netabare:"
+          },
+          "default_hashtag": "#precure_fun"
+        }
+      }
+    }
+  },
+  "error": null
+}

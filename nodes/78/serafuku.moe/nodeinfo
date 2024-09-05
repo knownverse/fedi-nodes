@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+munochi.7",
+      "homepage": "https://github.com/serafuku/misskey",
+      "repository": "https://github.com/serafuku/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12823,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "세라복.모에",
+      "nodeDescription": "콘세라! 세라복에 모에하는 (또는 세라복이 잘 어울리는) 사람들이 모이는 인스턴스입니다!",
+      "nodeAdmins": [
+        {
+          "name": "Yozumina",
+          "email": "admin@serafuku.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "Yozumina",
+        "email": "admin@serafuku.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://mixed-cerise-8a4.notion.site/02bd4fd2011c4140a7845ca21c28df58",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/serafuku/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#3a87fe"
+    }
+  },
+  "error": null
+}

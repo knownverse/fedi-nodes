@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 543,
+      "localComments": 266
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Justin Simoni as: THE LONG RANGER",
+      "nodeDescription": "mountain runner, bikepacker, fastpacker, climber, writer, based in Colorado",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

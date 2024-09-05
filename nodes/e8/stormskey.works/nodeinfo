@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 449,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 418983,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "すとーむすきー",
+      "nodeDescription": "Stormworks: Build and Rescueが好きな人のためのMisskeyサーバです。<br>\n<br>\nこのサーバは @rocamisakitohko@stormskey.works が管理しています。<br>\n\n\n\n多く質問が寄せられた内容をFAQとして公開しております。お困りの事がある際にご活用ください。<br>\nまた、ここに無い質問等あればadminやモデレーターまでいただけると幸いです。<br>\n<br>\nhttps://stormskey.works/@moko256/pages/1688563697699<br>\n<br>\nまた、このサーバーで推奨するハッシュタグの一覧も公開します。ご一読いただけると幸いです。<br>\n<br>\nhttps://stormskey.works/@moko256/pages/1688561534627<br>",
+      "nodeAdmins": [
+        {
+          "name": "路加岬塔子",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "路加岬塔子",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://x.com/rocamisakitohko",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

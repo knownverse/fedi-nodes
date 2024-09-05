@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 962,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "信号機研究所",
+      "nodeDescription": "羽井出の個人用サーバー\n<br>\n<p>\n<b>6/25 再構築しました</b><br>\nmi.sv209.com -> m.sv209.com<br>\nお手数をおかけしますが、旧ドメインの方のフォロー解除や連合解除をお願いいたします。\n</p>",
+      "nodeAdmins": [
+        {
+          "name": "羽井出",
+          "email": "shingokikenkyujo@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "羽井出",
+        "email": "shingokikenkyujo@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://m.sv209.com/@a/pages/terms",
+      "privacyPolicyUrl": "https://m.sv209.com/@a/pages/privacy_policy",
+      "inquiryUrl": "https://m.sv209.com/@209",
+      "impressumUrl": "https://trafficsignal.jp/~signalvvvf209/profile.html",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00ffff"
+    }
+  },
+  "error": null
+}

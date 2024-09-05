@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 57,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 14137,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "맛소스통",
+      "nodeDescription": "맛소스통 인민공화국에 오신 걸 환영합니다!<br>\n미미(美味)1년 (2023) 05.31 건국.<br>\n미미(美味)사상과 민주집중제에 따라,<br>\n민주적이고 자유로운 터전을 보장합니다.",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "president@masost.one"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "president@masost.one"
+      },
+      "langs": [],
+      "tosUrl": "https://masost.one/@admin/pages/rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "@admin",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": true,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ca2300"
+    }
+  },
+  "error": null
+}

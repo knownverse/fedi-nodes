@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.4-beta31",
+      "repository": "https://git.joinfirefish.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 304,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "RIP Sun Microsystems",
+      "nodeDescription": "A self-hosted activitypub server for Lucy Vin.\nWhat to expect CWs for:\n- Mentions of racism, transphobia, homophobia, ableism, etc.\n- Commonly triggering topics such as Mental Health\n- Mentions of explicitly NSFW content\n\nDo not expect CWs for:\n- Selfies\n- Politics unless above CW expectations pertain to the topic at hand\n- Expression of queer identity and experience\n- Curse words",
+      "maintainer": {
+        "name": "Totooria",
+        "email": "totooria@totori.moe"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 7500,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

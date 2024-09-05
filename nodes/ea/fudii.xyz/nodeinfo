@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.10.0-beta.2",
+      "basedMisskeyVersion": "2024.7.0-rc.8",
+      "homepage": "https://git.fudii.xyz/hijiki/cherrypick-z",
+      "repository": "https://git.fudii.xyz/hijiki/cherrypick-z"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 944,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "無名",
+      "nodeDescription": "テスト中。何かあっても責任取らないよー",
+      "nodeAdmins": [
+        {
+          "name": "カス",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "カス",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://fudii.xyz/@IZK",
+      "repositoryUrl": "https://git.fudii.xyz/hijiki/cherrypick-z",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#77767b"
+    }
+  },
+  "error": null
+}

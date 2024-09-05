@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 72,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dosojin",
+      "nodeDescription": "Stay informed, stay ahead",
+      "nodeIcon": "https://dsojin.wordpress.com/wp-content/uploads/2023/10/cropped-img_20200616_102300-2-1080x810-1.jpg"
+    }
+  },
+  "error": null
+}

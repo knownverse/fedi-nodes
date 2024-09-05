@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch+AGATHA+AGATHA"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 24970
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Agatha's Coven",
+      "nodeDescription": "A single user instance hosted by https://eldritch.cafe/@AgathaSorceress"
+    }
+  },
+  "error": null
+}

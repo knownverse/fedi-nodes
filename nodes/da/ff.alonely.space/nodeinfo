@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "@take",
+        "name": "take"
+      },
+      "nodeDescription": "管理者がFirefishを試すために建てたテスト用のサーバーです。</br>\naloneでlonelyにやってくためのサーバーです。</br>\nおひとり様ですが、登録したい人は連絡いただければご招待はします。</br>\n※当面の間は頑張って運用します。</br>",
+      "nodeName": "あろんりーすぺーす（あろすぺ）",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 1878,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

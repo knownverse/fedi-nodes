@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 46,
+      "localComments": 31
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Bingeful",
+      "nodeDescription": "",
+      "nodeIcon": "https://thebingeful.com/wp-content/uploads/2023/06/cropped-The-Bingeful-favicon-1.png"
+    }
+  },
+  "error": null
+}

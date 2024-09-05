@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 2642,
+      "localComments": 6163
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TwisterMc",
+      "nodeDescription": "Thomas McMahon aka TwisterMc",
+      "nodeIcon": "https://i0.wp.com/www.twistermc.com/blog-u/wp-content/uploads/2014/01/twistermc-logo-anew.png?fit=200%2C200&ssl=1"
+    }
+  },
+  "error": null
+}

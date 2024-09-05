@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 171,
+        "activeHalfyear": 105,
+        "activeMonth": 26
+      }
+    },
+    "metadata": {
+      "actorId": "https://stereo.kenobit.it/federation/actors/service",
+      "private": false,
+      "shortDescription": "Lo stereo ribelle della musica italiana",
+      "longDescription": "**STEREO** è una piattaforma di streaming indipendente, autogestita, senza pubblicità, senza scopo di lucro.\r\n\r\nSi tratta di un'istanza Funkwhale gestita da Kenobit e FDA. Se vuoi dare una mano con le spese del server, puoi donare su [Liberapay](https://it.liberapay.com/Kenobit/).",
+      "contactEmail": "kenobit@protonmail.com",
+      "nodeName": "STEREO",
+      "banner": "https://stereo.kenobit.it/media/dynamic_preferences/instance__banner/placeholderbanner2.png",
+      "defaultUploadQuota": 1,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "Se vuoi dare una mano con le spese del server, puoi donare su [Liberapay](https://it.liberapay.com/Kenobit/).",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 120
+          }
+        },
+        "listenings": {
+          "total": 3265
+        },
+        "downloads": {
+          "total": 21066
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 1107
+        },
+        "artists": {
+          "total": 81
+        },
+        "albums": {
+          "total": 136
+        },
+        "music": {
+          "hours": 107.02472222222222
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "Se pubblichi musica su STEREO ti impegni a rispettare i valori della comunità. Non pubblicare brani con titoli/testi che contengono:\r\n\r\nSessismo\r\nMachismo\r\nBullismo\r\nOmofobia, bifobia, lesbofobia, transfobia, afobia\r\nAbilismo\r\nRazzismo\r\nPubblicità e/o agli annunci commerciali",
+      "terms": "STEREO non si arroga alcun diritto o licenza sulla tua musica. Se carichi un disco o un brano, manterrai tutti i diritti di cui sei già in possesso.\r\n\r\nSTEREO non ha pubblicità e quindi non ha un sistema di monetizzazione. In compenso, permette al pubblico di entrare in contatto con lǝ artistǝ, per supportarlǝ direttamente.\r\n\r\nSu STEREO la tua musica è tua e sempre lo rimarrà. Se per qualsiasi motivo cambi idea e vuoi toglierla, puoi farlo senza problemi."
+    }
+  },
+  "error": null
+}

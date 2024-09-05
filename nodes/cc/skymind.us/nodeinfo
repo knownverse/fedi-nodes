@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 53,
+      "localComments": 41
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SKYMIND",
+      "nodeDescription": "Pieter Oosthuizen : Charlotte Rotterdam",
+      "nodeIcon": "https://skymind.us/wp-content/uploads/2022/07/cropped-original-logo-1.png"
+    }
+  },
+  "error": null
+}

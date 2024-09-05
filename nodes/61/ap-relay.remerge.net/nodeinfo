@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.1 b5e2a05e48e46a1fcf94e355ae79910a2f14f22d"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0",
+    "metadata": {
+      "peers": []
+    }
+  },
+  "error": null
+}

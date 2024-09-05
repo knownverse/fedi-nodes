@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-nade.1.5.7",
+      "homepage": "https://github.com/nadesskey/nadesskey",
+      "repository": "https://github.com/nadesskey/nadesskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 233,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 113370,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "なですきー",
+      "nodeDescription": "なでなでされたいひと、そうでもないひと、おだやかでいたい人などにおすすめのMisskeyサーバーです\n\n<br>\n最新版Misskeyから大きな体験を変えず、少しだけ改善を加えた汎用サーバーです！！！<br>\n\n<h2>なですきーの特徴</h3>\n<ul style=\"text-align: left;\">\n<li>デフォルトテーマがkawaii</li>\n<li>安定稼働している</li>\n<li>性的・暴力・ショッキングな内容に対してゾーニングの規定がある</li>\n<li>管理者は1人（モデレーション基準に揺れがない）</li>\n</ul>\n<br>\n\nお問い合わせは<a href=\"https://forms.gle/VLf7PHbLxcL3sj198\" style=\"color: #6498ed;\">こちら</a>のフォームよりお願いいたします。\n",
+      "nodeAdmins": [
+        {
+          "name": "taichan",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "taichan",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://docs.nadesskey.com/terms",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/VLf7PHbLxcL3sj198",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/nadesskey/nadesskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ff39c8"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": 5,
+        "activeMonth": 3
+      },
+      "localPosts": 199753,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "miwkey",
+      "nodeDescription": "「みうきー」とよみます。数あるmisskeyサーバの一つで、miwpayouによるmiwpayouのmiwpayouが居る場所。\n",
+      "maintainer": {
+        "name": "miwpayou",
+        "email": "TBD"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/syuilo/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "miwpayou0808",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

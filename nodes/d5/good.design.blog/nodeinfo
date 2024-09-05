@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 809,
+      "localComments": 752
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "野果CC",
+      "nodeDescription": "野路子才有好果子吃",
+      "nodeIcon": "https://good.design.blog/wp-content/uploads/2024/03/image.jpg"
+    }
+  },
+  "error": null
+}

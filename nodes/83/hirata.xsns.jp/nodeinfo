@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 479,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "hirata.xsns.jp",
+      "nodeDescription": "ソロサーバーです。\nファン活動絡みの独り言が多いです。\n\n--------------------------------------------\n\n以下、絵文字ライセンス関連のリンク。\n不足があればお知らせください。\n\nhttps://github.com/ZoeBijl/QueerCats\n\nhttps://blobs.gg/\n\nHeather horns emoji page\n\nwarpday.net\n\notofu.uk\n\nhttps://misskey.io/emojis/sacabambaspis",
+      "nodeAdmins": [
+        {
+          "name": "ひらた(hirata_)",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "ひらた(hirata_)",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#fefcdd"
+    }
+  },
+  "error": null
+}

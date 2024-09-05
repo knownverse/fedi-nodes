@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 101,
+      "localComments": 39
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pranav Prakash&#039;s",
+      "nodeDescription": "My thoughts on various topics",
+      "nodeIcon": "https://i0.wp.com/pranavprakash.in/wp-content/uploads/2024/02/cropped-454d60edf8286f106fbb8275f9caf98c.png?fit=618%2C618&ssl=1"
+    }
+  },
+  "error": null
+}

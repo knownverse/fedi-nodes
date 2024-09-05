@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+007fe3b1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 779,
+        "activeHalfyear": 32,
+        "activeMonth": 12
+      }
+    },
+    "metadata": {
+      "actorId": "https://tanukitunes.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "Do the shapeshifter shimmy",
+      "longDescription": "Welcome traveler! This is Tanuki tunes, where the Hyakki Yagyō is nothing more than a conga line.\r\n\r\n---\r\n\r\nIf you would like to help out with hosting costs and a growing library of creative commons music please consider donating.\r\n\r\n<div class=\"two ui buttons\">\r\n<a class=\"ui primary button\" href=\"https://paypal.me/cdainsworth\" target=\"_blank\">PayPal</a>\r\n<div class=\"or\"></div>\r\n<a class=\"ui success button\" href=\"https://liberapay.com/CiaranAinsworth/\" target=\"_blank\">Liberapay</a>\r\n</div>",
+      "contactEmail": "sporiff@funkwhale.audio",
+      "nodeName": "Tanuki tunes",
+      "banner": "https://fra1.digitaloceanspaces.com/tanukitunes/dynamic_preferences/instance__banner/parade%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO00XUXPWGFJLE43LLH2%2F20240905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240905T222054Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=70ed924aefdadf2e22687434c506d2dfe50d6d272bc2479ffefa4e201243909c",
+      "defaultUploadQuota": 10000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "Tanuki tunes is provided to all users free of charge. If you'd like to help us keep the lights on around here, consider throwing some money our way.\r\n\r\nIf we receive more than needed for hosting costs, we'll use it to buy some creative commons music for everyone to enjoy.\r\n\r\n<div class=\"two ui buttons\">\r\n<a class=\"ui primary button\" href=\"https://paypal.me/cdainsworth\" target=\"_blank\">PayPal</a>\r\n<div class=\"or\"></div>\r\n<a class=\"ui success button\" href=\"https://liberapay.com/CiaranAinsworth/\" target=\"_blank\">Liberapay</a>\r\n</div>",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1701
+          }
+        },
+        "listenings": {
+          "total": 57018
+        },
+        "downloads": {
+          "total": 143481
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 61723
+        },
+        "artists": {
+          "total": 4335
+        },
+        "albums": {
+          "total": 6172
+        },
+        "music": {
+          "hours": 28564.475833333334
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": true
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": true
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": true
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "This pod abides by the [code of conduct as set out by the Funkwhale project](https://funkwhale.audio/code-of-conduct).\r\n\r\nThis pod is hosted in Germany. All content must conform to European law. Any hateful content will be immediately removed and the associated user(s) banned. Harassment of users is taken very seriously and will result in a ban. Please treat each other respectfully and have fun!\r\n\r\nAll communications are in English.",
+      "terms": "Tanuki tunes runs on the develop branch of Funkwhale. This means that new changes made upstream are pushed soon after they are merged. This can cause instability and a buggy experience. If you want a more stable experience, this might not be the place for you. If you like to live on the edge, however, read on.\r\n\r\nThe admins make reasonable efforts to keep downtime to a minimum. We maintain backups every two days for disaster recovery purposes. Content published on this pod is stored securely by [Digital Ocean](https://digitalocean.com). Any takedown requests will be assessed and carried out if the content is found to violate the law/code of conduct.\r\n\r\nPlease keep any material not released under permissive licenses private. The moderators reserve the right to make any libraries private if content is found to be in violation of this rule. This helps protect us from copyright violations.\r\n\r\nAny non-permissive content hosted publicly on other pods must be reported to the pod's owner. If the pod owner doesn't take steps to remedy this, we reserve the right to add them to our denylist."
+    }
+  },
+  "error": null
+}

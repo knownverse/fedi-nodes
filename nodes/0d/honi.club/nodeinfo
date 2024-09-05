@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 326,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 593320,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ほにクラブ",
+      "nodeDescription": "<p><i>初夏の季節になりました。</i></p><p>少しツンとした香りのする妹のお小水流しそうめんをお楽しみいただけます。</p><hr><p>新規登録は<a href=\"https://forms.gle/WGHEazjmQdD1BD48A\">こちら</a>からお申し込みできます。</p>",
+      "nodeAdmins": [
+        {
+          "name": "しなちくシステム",
+          "email": "https://forms.gle/BQvsm3BojiUpviHS8"
+        }
+      ],
+      "maintainer": {
+        "name": "しなちくシステム",
+        "email": "https://forms.gle/BQvsm3BojiUpviHS8"
+      },
+      "langs": [],
+      "tosUrl": "https://gist.github.com/ThinaticSystem/0209c0786f8e83111acffd134496f9c5",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://forms.gle/BQvsm3BojiUpviHS8",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#77b58c"
+    }
+  },
+  "error": null
+}

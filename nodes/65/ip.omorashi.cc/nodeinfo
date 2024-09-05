@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.696-m544"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": 6,
+        "activeMonth": 3
+      },
+      "localPosts": 97899,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "恋心が奪われたまま永遠に帰ってこないので無限に働きたい",
+      "nodeDescription": "当インスタンスはご利用は抽選です。最終抽選に落選した場合はアカウントの運用・投稿が無効になります。抽選結果は告知しません。最新のログイン環境でご確認ください。",
+      "name": "恋心が奪われたまま永遠に帰ってこないので無限に働きたい",
+      "description": "当インスタンスはご利用は抽選です。最終抽選に落選した場合はアカウントの運用・投稿が無効になります。抽選結果は告知しません。最新のログイン環境でご確認ください。",
+      "maintainer": {
+        "name": "にょんへら",
+        "email": "clarinet"
+      },
+      "langs": [],
+      "announcements": [
+        {
+          "title": "エクソシストを堕とせないがおすすめです",
+          "text": "おにょんへらちょうおすすめにゃんですけど\n\n<a href=\"https://shonenjumpplus.com/episode/3269754496649675685\">https://shonenjumpplus.com/episode/3269754496649675685</a>"
+        },
+        {
+          "title": "おすすめアニメ",
+          "text": "<a href=\"https://animestore.docomo.ne.jp/animestore/ci_pc?workId=25962\">https://animestore.docomo.ne.jp/animestore/ci_pc?workId=25962</a>"
+        },
+        {
+          "title": "当インスタンスは回し者です",
+          "text": "よろしくお願いいたします。\n<a href=\"https://www.burgerking.co.jp/#/campaign/all\">https://www.burgerking.co.jp/#/campaign/all</a>"
+        },
+        {
+          "title": "hi,all!",
+          "text": "当インスタンスはご利用は抽選です。最終抽選に落選した場合はアカウントの運用・投稿が無効になります。抽選結果は告知しません。最新のログイン環境でご確認ください。"
+        }
+      ],
+      "relayActor": null,
+      "relays": [],
+      "disableRegistration": true,
+      "maxNoteTextLength": 8080,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null
+    }
+  },
+  "error": null
+}

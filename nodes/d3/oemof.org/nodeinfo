@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeMonth": 13,
+        "activeHalfyear": 13
+      },
+      "localPosts": 107,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "A modular open source framework to model energy supply systems",
+      "nodeIcon": "https://oemof.org/wp-content/uploads/2021/01/cropped-cropped-oemof_logo_small.png"
+    }
+  },
+  "error": null
+}

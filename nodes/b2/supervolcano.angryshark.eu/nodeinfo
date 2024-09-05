@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 5,
+        "activeHalfyear": 8
+      },
+      "localPosts": 3395
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Supervolcano Mastodon Instance!",
+      "nodeDescription": "FRIENDS ONLY: Twitter refuge for cool friends and mutuals of the server admin. If you know me, please say how in your request, including username at wherever. Thanks! \r\n"
+    }
+  },
+  "error": null
+}

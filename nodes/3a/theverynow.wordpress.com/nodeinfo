@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 35,
+      "localComments": 12
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Very Now",
+      "nodeDescription": "Things I&#039;ve enjoyed in the last 7 days",
+      "nodeIcon": "https://theverynow.wordpress.com/wp-content/uploads/2024/01/the-very-now-2.png"
+    }
+  },
+  "error": null
+}

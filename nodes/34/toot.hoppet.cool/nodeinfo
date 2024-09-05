@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 22532
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "toot.hoppet.cool",
+      "nodeDescription": "This is a small self-hosted server just for me. If you want to know more about me check out my profile at holly@toot.hoppet.cool"
+    }
+  },
+  "error": null
+}

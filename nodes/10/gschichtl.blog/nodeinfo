@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 9
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gschichtl",
+      "nodeDescription": "Gscheites aus Wien",
+      "nodeIcon": "https://gschichtl.blog/wp-content/uploads/2024/04/cropped-gschichtlogo.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "VIVOO SPORT",
+      "nodeDescription": "Vivoo Sport: Votre destination ultime pour tout l&#039;univers du sport!&quot;",
+      "nodeIcon": "https://vivoostream.wordpress.com/wp-content/uploads/2023/12/img_20231109_210343_742.jpg"
+    }
+  },
+  "error": null
+}

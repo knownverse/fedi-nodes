@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 683
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "凸樽",
+      "nodeDescription": "<em>動作試験目的のサーバーです。<br />\r\n予告なく停止させたりテスト用コードを導入することがあります。</em>\r\nつんつん"
+    }
+  },
+  "error": null
+}

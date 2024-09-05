@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LupusLighthouse",
+      "nodeDescription": "&quot;Guiding you through the storm, illuminating your path in the fight against Lupus&quot;",
+      "nodeIcon": "https://lupuslighthouse.wordpress.com/wp-content/uploads/2023/12/f7f64009-0555-4865-9a4b-c5257dcd7f80.jpg"
+    }
+  },
+  "error": null
+}

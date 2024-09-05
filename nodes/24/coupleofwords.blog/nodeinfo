@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 28
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Couple of Words",
+      "nodeDescription": "Not today ...",
+      "nodeIcon": "https://coupleofwords.blog/wp-content/uploads/2023/12/cropped-self-portraits-bw-tafe-about-section-1.jpg"
+    }
+  },
+  "error": null
+}

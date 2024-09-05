@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 27
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "VeteriAmar PDFs",
+      "nodeDescription": "Site com intuito de ajudar acadêmicos e profissionais dá área da Medicina Veterinária e Zootecnia",
+      "nodeIcon": "https://veteriamarpdfs.wordpress.com/wp-content/uploads/2019/04/cropped-site-png-1-2.png"
+    }
+  },
+  "error": null
+}

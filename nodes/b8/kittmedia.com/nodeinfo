@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 301,
+      "localComments": 507
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KittMedia",
+      "nodeDescription": "Das volle Portfolio von Webdesign bis Webentwicklung für deine professionelle Website",
+      "nodeIcon": "https://kittmedia.com/wp-content/uploads/sites/6/2018/10/cropped-kittmedia-600-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 32,
+      "localComments": 57
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Crowe, Rail, Wren",
+      "nodeDescription": "Birds of a feather blog together (about books and other fascinations)",
+      "nodeIcon": "https://i0.wp.com/crowerailwren.com/wp-content/uploads/2022/01/cropped-cropped-WIP-logo-cropped-1-1682811784-1666300353218.jpg?fit=559%2C559&ssl=1"
+    }
+  },
+  "error": null
+}

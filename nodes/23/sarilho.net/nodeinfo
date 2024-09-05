@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.2.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 66,
+      "localComments": 1925
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [],
+    "metadata": {
+      "email": "shizamura@gmail.com",
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.1.0",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      }
+    }
+  },
+  "error": null
+}

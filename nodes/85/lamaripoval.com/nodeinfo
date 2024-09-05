@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 945,
+      "localComments": 1040
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "El racó de Mechas",
+      "nodeDescription": "Los relatos son los protagonistas",
+      "nodeIcon": "https://lamaripoval.com/wp-content/uploads/2023/12/cropped-mechas.png"
+    }
+  },
+  "error": null
+}

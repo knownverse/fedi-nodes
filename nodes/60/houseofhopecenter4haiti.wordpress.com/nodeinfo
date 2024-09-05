@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "House of Hope Center-Haiti",
+      "nodeDescription": "Loving God. Loving People",
+      "nodeIcon": "https://houseofhopecenter4haiti.wordpress.com/wp-content/uploads/2024/04/house-of-hope-copy.png"
+    }
+  },
+  "error": null
+}

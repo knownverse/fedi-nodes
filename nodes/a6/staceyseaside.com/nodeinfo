@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 33,
+      "localComments": 57
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stacey Seaside",
+      "nodeDescription": "Living on a land of liquid borders",
+      "nodeIcon": "https://staceyseaside.com/wp-content/uploads/2023/11/cropped-stacey-seaside.jpg"
+    }
+  },
+  "error": null
+}

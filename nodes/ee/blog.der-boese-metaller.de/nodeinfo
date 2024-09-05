@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 791,
+      "localComments": 543
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Der böse Metaller! ;)",
+      "nodeDescription": "Aus dem Leben eines sehr seltsamen Menschen",
+      "nodeIcon": "https://blog.der-boese-metaller.de/wp-content/uploads/2017/11/cropped-lionhead-512x512.jpg"
+    }
+  },
+  "error": null
+}

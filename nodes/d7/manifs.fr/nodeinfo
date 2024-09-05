@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Partage ton événement militant en protégeant les libertés fondamentales.",
+      "nodeName": "manifs.fr"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localComments": 0,
+      "localPosts": 26
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Estudantes pela Palestina U.Minho",
+      "nodeDescription": "Em defesa da Palestina.",
+      "nodeIcon": "https://ocupauminho.noblogs.org/files/2024/06/Ocupa.Um_-1-edited.png"
+    }
+  },
+  "error": null
+}

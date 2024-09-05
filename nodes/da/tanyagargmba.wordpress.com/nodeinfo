@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 58
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Visionary Ventures: Dr. Sapan Garg&#039;s Ophthalmology Odyssey",
+      "nodeDescription": "Illuminating the Path of Healthcare Innovation and Community Empowerment",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "gotosocial",
+      "version": "0.12.2 git-096c517"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7
+      },
+      "localPosts": 2
+    },
+    "metadata": {}
+  },
+  "error": null
+}

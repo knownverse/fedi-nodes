@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 368,
+      "localComments": 5085
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Amelia Earhart: The Truth at Last",
+      "nodeDescription": "Propaganda versus fact in the disappearance of America’s First Lady of Flight",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

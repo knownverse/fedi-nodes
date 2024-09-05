@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 46,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Herr Herrmann",
+      "nodeDescription": "Sebastian Herrmann is a software developer and (hobby) musician and photographer. This is his personal blog and website.",
+      "nodeIcon": "https://herrherrmann.net/wp-content/uploads/2017/11/cropped-favicon-1.png"
+    }
+  },
+  "error": null
+}

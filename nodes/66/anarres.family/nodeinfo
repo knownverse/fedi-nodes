@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch.anarres.family"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeMonth": 22,
+        "activeHalfyear": 22
+      },
+      "localPosts": 69054
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Server of the Anarresti",
+      "nodeDescription": "This server is for Anarresti only, i.e. for rebels, misfits, round pegs in square holes. It is run in an anarcho-syndicalist style. Membership on invitation only."
+    }
+  },
+  "error": null
+}

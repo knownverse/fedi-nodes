@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Cricket",
+      "nodeDescription": "The Truth Can Never Be Silenced...",
+      "nodeIcon": "https://thecricketcoa.wordpress.com/wp-content/uploads/2024/05/cropped-cropped-the-cricket-logo-resaved.png"
+    }
+  },
+  "error": null
+}

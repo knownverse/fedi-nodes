@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 124,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.midori",
+      "nodeDescription": "ただの所得無し大学生限界きらきらぼっち万年ニート女がホストするMisskeyインスタンス。\n誰でも気軽にご参加ください！",
+      "nodeAdmins": [
+        {
+          "name": "桜井 緑",
+          "email": "midorichan@midorichan.net"
+        }
+      ],
+      "maintainer": {
+        "name": "桜井 緑",
+        "email": "midorichan@midorichan.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "midorichan",
+      "themeColor": "#cee3c2"
+    }
+  },
+  "error": null
+}

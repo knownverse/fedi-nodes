@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Saint Monday",
+      "nodeDescription": "The Band from Marin County",
+      "nodeIcon": "https://i0.wp.com/saintmon.day/wp-content/uploads/2023/10/saint-monday-sticker.png?fit=3000%2C3000&ssl=1"
+    }
+  },
+  "error": null
+}

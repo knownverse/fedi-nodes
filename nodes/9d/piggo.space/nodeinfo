@@ -1,0 +1,481 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [
+            "#metazooa",
+            "#wordle",
+            "#Polygonle",
+            "https://figure.game",
+            "wafflegame.net",
+            "6mal5.com",
+            "#miceco",
+            "#misshaialert",
+            "https://misskey.tools",
+            "discord.gg/ctkpaarr",
+            "kuroneko6423",
+            "# 診断メーカー"
+          ],
+          "replace": []
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "SimplePolicy",
+          "HellthreadPolicy",
+          "AntiFollowbotPolicy",
+          "EnsureRePrepended",
+          "NoPlaceholderTextPolicy",
+          "KeywordPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "botsin.space"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "gab.com",
+            "gab.ai",
+            "development.gab.com",
+            "non-development.gab.com",
+            "social.gab.com",
+            "develop.gab.io",
+            "gab.io",
+            "kiwifarms.cc",
+            "freefedifollowers.ga",
+            "witches.live",
+            "switter.at",
+            "porntoot.com",
+            "counter.social",
+            "pridelands.io",
+            "albin.social",
+            "humblr.social",
+            "melalandia.tk",
+            "blackandgold.xyz",
+            "kinky.business",
+            "rubber.social",
+            "kinkyelephant.com",
+            "baraag.net",
+            "archivefedifor.fun",
+            "poa.st",
+            "nazi.social",
+            "hidamari.apartments",
+            "mastodon.eunomia.social",
+            "truth.social",
+            "decentralized.eunomia.social",
+            "gleasonator.com",
+            "genderheretics.xyz",
+            "eightpoint.app",
+            "beefyboys.win",
+            "social.wideboys.org",
+            "varishangout.net",
+            "activitypub-troll.cf",
+            "misskey-forkbomb.cf",
+            "repl.co",
+            "staging.kazar.ma",
+            "kazar.ma",
+            "technodon.org",
+            "nicecrew.digital",
+            "pawoo.net",
+            "freespeechextremist.com",
+            "h-i.social",
+            "threads.net",
+            "www.threads.net",
+            "emmaverse.void.rehab",
+            "gameliberty.club",
+            "goreslut.xyz",
+            "social.cutefunny.net",
+            "fediverse.hanbitgaram.com",
+            "annihilation.social"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "botsin.space": {
+              "reason": "periodic bots spamming TL"
+            }
+          },
+          "reject": {
+            "kinky.business": {
+              "reason": "porn"
+            },
+            "h-i.social": {
+              "reason": "are0h, famous racist"
+            },
+            "nazi.social": {
+              "reason": "trolls"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "bad actor"
+            },
+            "threads.net": {
+              "reason": "facebook"
+            },
+            "truth.social": {
+              "reason": "trumpoids"
+            },
+            "blackandgold.xyz": {
+              "reason": "annoying"
+            },
+            "nicecrew.digital": {
+              "reason": "edgy nazi trolls"
+            },
+            "rubber.social": {
+              "reason": "porn"
+            },
+            "non-development.gab.com": {
+              "reason": "gab"
+            },
+            "porntoot.com": {
+              "reason": "porn"
+            },
+            "archivefedifor.fun": {
+              "reason": "indexer"
+            },
+            "kinkyelephant.com": {
+              "reason": "porn"
+            },
+            "staging.kazar.ma": {
+              "reason": "search/indexer/followbot"
+            },
+            "counter.social": {
+              "reason": "trumpoids"
+            },
+            "social.gab.com": {
+              "reason": "gab"
+            },
+            "freespeechextremist.com": {
+              "reason": "annoyingm harrasment"
+            },
+            "freefedifollowers.ga": {
+              "reason": "spam"
+            },
+            "www.threads.net": {
+              "reason": "facebook"
+            },
+            "gameliberty.club": {
+              "reason": "edgy trolls"
+            },
+            "beefyboys.win": {
+              "reason": "edgelords"
+            },
+            "gleasonator.com": {
+              "reason": "alex gleason"
+            },
+            "albin.social": {
+              "reason": "annoying"
+            },
+            "varishangout.net": {
+              "reason": "bad feeling about this server"
+            },
+            "technodon.org": {
+              "reason": "fake verified badges and overall looks fishy"
+            },
+            "switter.at": {
+              "reason": "porn"
+            },
+            "humblr.social": {
+              "reason": "porn spam"
+            },
+            "development.gab.com": {
+              "reason": "gab"
+            },
+            "emmaverse.void.rehab": {
+              "reason": "threadbomb"
+            },
+            "gab.ai": {
+              "reason": "gab"
+            },
+            "social.cutefunny.net": {
+              "reason": "spam"
+            },
+            "decentralized.eunomia.social": {
+              "reason": "indexer"
+            },
+            "fediverse.hanbitgaram.com": {
+              "reason": "spam"
+            },
+            "hidamari.apartments": {
+              "reason": "child porn"
+            },
+            "repl.co": {
+              "reason": "probably hacking"
+            },
+            "social.wideboys.org": {
+              "reason": "edgelords"
+            },
+            "pridelands.io": {
+              "reason": "annoying"
+            },
+            "poa.st": {
+              "reason": "trolls"
+            },
+            "baraag.net": {
+              "reason": "porn"
+            },
+            "pawoo.net": {
+              "reason": "child porn"
+            },
+            "activitypub-troll.cf": {
+              "reason": "bad actor"
+            },
+            "melalandia.tk": {
+              "reason": "annoying"
+            },
+            "mastodon.eunomia.social": {
+              "reason": "indexer"
+            },
+            "kiwifarms.cc": {
+              "reason": "annoying"
+            },
+            "witches.live": {
+              "reason": "drama queens"
+            },
+            "annihilation.social": {
+              "reason": "malicious"
+            },
+            "eightpoint.app": {
+              "reason": "suspicious"
+            },
+            "gab.com": {
+              "reason": "gab"
+            },
+            "develop.gab.io": {
+              "reason": "gab"
+            },
+            "gab.io": {
+              "reason": "gab"
+            },
+            "goreslut.xyz": {
+              "reason": "creepy"
+            },
+            "genderheretics.xyz": {
+              "reason": "transphobes"
+            },
+            "kazar.ma": {
+              "reason": "search/indexer/followbot"
+            }
+          }
+        },
+        "quarantined_instances": [
+          "kiwifarms.cc",
+          "archivefedifor.fun",
+          "poa.st",
+          "mastodon.eunomia.social",
+          "eightpoint.app",
+          "beefyboys.win",
+          "social.wideboys.org",
+          "freespeechextremist.com",
+          "emmaverse.void.rehab",
+          "annihilation.social"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {
+            "annihilation.social": {
+              "reason": "malicious"
+            },
+            "archivefedifor.fun": {
+              "reason": "indexer"
+            },
+            "beefyboys.win": {
+              "reason": "annoying"
+            },
+            "eightpoint.app": {
+              "reason": "bad vibes"
+            },
+            "emmaverse.void.rehab": {
+              "reason": "threadbomb"
+            },
+            "freespeechextremist.com": {
+              "reason": "edgelords"
+            },
+            "kiwifarms.cc": {
+              "reason": "trolls"
+            },
+            "mastodon.eunomia.social": {
+              "reason": "indexer"
+            },
+            "poa.st": {
+              "reason": "poa.st"
+            },
+            "social.wideboys.org": {
+              "reason": "annoying"
+            }
+          }
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "Oink, oink!",
+      "nodeName": "Piggo.space",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://piggo.space/users/piggo"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.1"
+    },
+    "usage": {
+      "localPosts": 87851,
+      "users": {
+        "activeHalfyear": 8,
+        "activeMonth": 4,
+        "total": 18
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

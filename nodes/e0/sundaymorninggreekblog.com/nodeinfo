@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 175,
+      "localComments": 524
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sunday Morning Greek Blog",
+      "nodeDescription": "Dig Deeper, Read Smarter, Draw Closer: Koine Greek Bible Studies",
+      "nodeIcon": "https://sundaymorninggreekblog.com/wp-content/uploads/2020/12/image.jpg"
+    }
+  },
+  "error": null
+}

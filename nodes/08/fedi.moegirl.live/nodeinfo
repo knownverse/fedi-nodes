@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "mhga7vldr@mozmail.com",
+        "name": "Hime"
+      },
+      "nodeDescription": "A Pan-ACG instance. 这是一个中文为主的泛ACG主题的Calckey服务器，欢迎三坑入驻！感兴趣的路人也可以！ 欢迎大家分享各种各样的东西，只是另一个分享你生活的地方，讨论话题基本无限制。",
+      "nodeName": "萌宅乐园×忧郁偶像的洛可可午宴 Moe Otaku Elysian x Gloomily Idol's Rococo Luncheon",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#a37a80"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 2800,
+      "users": {
+        "activeHalfyear": 34,
+        "activeMonth": 21,
+        "total": 104
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

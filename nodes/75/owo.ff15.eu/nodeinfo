@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch+cat+1.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": 6,
+        "activeHalfyear": 13
+      },
+      "localPosts": 1759
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "owo",
+      "nodeDescription": "smol private instance for me and anyone interested\r\n\r\nmeow"
+    }
+  },
+  "error": null
+}

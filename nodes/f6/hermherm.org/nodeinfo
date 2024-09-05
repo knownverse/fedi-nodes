@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "social@oakleycord.dev",
+        "name": "oakley"
+      },
+      "nodeDescription": "A general firefish instance that cool people use ",
+      "nodeName": "Herm Herm",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240523"
+    },
+    "usage": {
+      "localPosts": 100,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 0,
+        "total": 8
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 25,
+        "activeHalfyear": 15,
+        "activeMonth": 10
+      },
+      "localPosts": 16671,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Le Marud-verse",
+      "nodeDescription": "L'instance qui POUTRE de la LOUTRE ! \n\nUn endroit chill où le mot d'ordre principal est : respecte les autres fedi-loutres.\n<br>\n\nN'oubliez pas d'aller vérifier les règles d'utilisation avant toute chose (... > à propos de l'instance > les conditions d'utilisation) \n<br>\n\nPlease go check the instance rules before anything else (... > à propos de l'instance > les conditions d'utilisation)\n<br>\n",
+      "maintainer": {
+        "name": "Marud",
+        "email": "social-admin@marud.fr"
+      },
+      "langs": [],
+      "tosUrl": "https://social.marud.fr/@marud/pages/1722458521375",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

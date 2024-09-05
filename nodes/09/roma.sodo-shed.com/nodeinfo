@@ -1,0 +1,307 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "media_proxy",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "rejected_instances": {},
+        "mrf_simple": {
+          "accept": [
+            "roma.sodo-shed.com",
+            "fedibird.com",
+            "misskey.io",
+            "mstdn.maud.io",
+            "sushi.ski",
+            "mastodon-japan.net",
+            "misskey.cloud",
+            "mstdn.bmw-and-more.info",
+            "live-theater.net",
+            "trpger.us",
+            "misskey.gamelore.fun",
+            "misskey.backspace.fm",
+            "ikaskey.bktsk.com",
+            "side.misskey.productions",
+            "oekakiskey.com",
+            "mi.nakn.jp",
+            "misskey.yukineko.me",
+            "misskey.systems",
+            "misskey.design",
+            "misskey.art",
+            "misskey.noellabo.jp",
+            "buicha.social",
+            "misskey.niri.la",
+            "misskey.gg",
+            "pawoo.net",
+            "mstdn.jp",
+            "imastodon.net",
+            "social.hyuki.net",
+            "voskey.icalo.net",
+            "unnerv.jp"
+          ],
+          "reject": [],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "mrf_simple_info": {
+          "accept": {
+            "buicha.social": {
+              "reason": "allow"
+            },
+            "fedibird.com": {
+              "reason": "allow"
+            },
+            "ikaskey.bktsk.com": {
+              "reason": "allow"
+            },
+            "imastodon.net": {
+              "reason": "allow"
+            },
+            "live-theater.net": {
+              "reason": "allow"
+            },
+            "mastodon-japan.net": {
+              "reason": "allow"
+            },
+            "mi.nakn.jp": {
+              "reason": "allow"
+            },
+            "misskey.art": {
+              "reason": "allow"
+            },
+            "misskey.backspace.fm": {
+              "reason": "allow"
+            },
+            "misskey.cloud": {
+              "reason": "allow"
+            },
+            "misskey.design": {
+              "reason": "allow"
+            },
+            "misskey.gamelore.fun": {
+              "reason": "allow"
+            },
+            "misskey.gg": {
+              "reason": "allow"
+            },
+            "misskey.io": {
+              "reason": "allow"
+            },
+            "misskey.niri.la": {
+              "reason": "allow"
+            },
+            "misskey.noellabo.jp": {
+              "reason": "allow"
+            },
+            "misskey.systems": {
+              "reason": "allow"
+            },
+            "misskey.yukineko.me": {
+              "reason": "allow"
+            },
+            "mstdn.bmw-and-more.info": {
+              "reason": "allow"
+            },
+            "mstdn.jp": {
+              "reason": "allow"
+            },
+            "mstdn.maud.io": {
+              "reason": "allow"
+            },
+            "oekakiskey.com": {
+              "reason": "allow"
+            },
+            "pawoo.net": {
+              "reason": "allow"
+            },
+            "roma.sodo-shed.com": {
+              "reason": "allow"
+            },
+            "side.misskey.productions": {
+              "reason": "allow"
+            },
+            "social.hyuki.net": {
+              "reason": "allow"
+            },
+            "sushi.ski": {
+              "reason": "allow"
+            },
+            "trpger.us": {
+              "reason": "allow"
+            },
+            "unnerv.jp": {
+              "reason": "allow"
+            },
+            "voskey.icalo.net": {
+              "reason": "allow"
+            }
+          }
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy"
+        ]
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": false,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": false,
+      "nodeDescription": "Pleroma: An efficient and flexible fediverse server",
+      "nodeName": "roma.sodo-shed.com",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://roma.sodo-shed.com/users/uraku"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 62914560,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 7705
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

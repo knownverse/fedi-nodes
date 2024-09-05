@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "",
+      "nodeName": "mezzoevents"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "2.1.0"
+    },
+    "usage": {
+      "localComments": 3,
+      "localPosts": 1,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

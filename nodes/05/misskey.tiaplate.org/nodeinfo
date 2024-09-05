@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "",
+        "name": "nuekaze"
+      },
+      "nodeDescription": "Tiaplate",
+      "nodeName": "Tiaplate Fanclub",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#DD571C"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240613"
+    },
+    "usage": {
+      "localPosts": 412,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

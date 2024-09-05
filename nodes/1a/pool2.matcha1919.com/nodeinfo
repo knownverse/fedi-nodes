@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6208,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "繁殖池",
+      "nodeDescription": "末茶藻中の個人サーバです（再作成）<br>\n<br>\n土地 — 森(Forest) 島(Island)<br>\n（(Ｔ)：(緑)か(青)を加える。）<br>\n繁殖池が戦場に出るに際し、あなたは２点のライフを支払ってもよい。そうしないなら、これはタップ状態で戦場に出る。",
+      "nodeAdmins": [
+        {
+          "name": "末茶藻中",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "末茶藻中",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#108e75"
+    }
+  },
+  "error": null
+}

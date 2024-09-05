@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3278,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "彗星編纂社 by fedimagazine.tokyo",
+      "nodeDescription": "fedimagazine.tokyo関係者のMisskeyサーバーです。(彗星編纂社は架空の団体です)",
+      "nodeAdmins": [
+        {
+          "name": "fedimagazine.tokyo",
+          "email": "運営者情報にあるサイトの「お問い合わせ」よりご連絡ください。"
+        }
+      ],
+      "maintainer": {
+        "name": "fedimagazine.tokyo",
+        "email": "運営者情報にあるサイトの「お問い合わせ」よりご連絡ください。"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://fedimagazine.tokyo/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#4498e6"
+    }
+  },
+  "error": null
+}

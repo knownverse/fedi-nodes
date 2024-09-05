@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Eine Mobilizon-Instant mit dem Themenschwerpunkt \"Radverkehr\"",
+      "nodeName": "Fedibikes Events (Mobilizon)"
+    },
+    "usage": {
+      "users": {
+        "total": 35
+      },
+      "localComments": 4,
+      "localPosts": 90
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

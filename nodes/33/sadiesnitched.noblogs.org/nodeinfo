@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 0,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sadie Farrell Sends Doxxes to Andy Ngo",
+      "nodeDescription": "do not approach, do not engage, do not trust anyone who defends her. send tips to SadieSnitched@proton.me ",
+      "nodeIcon": "https://sadiesnitched.noblogs.org/files/2023/03/cropped-sadie-lipstick.jpg"
+    }
+  },
+  "error": null
+}

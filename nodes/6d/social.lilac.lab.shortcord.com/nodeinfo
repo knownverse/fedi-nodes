@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch+cat+1.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 7730
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Maustodon",
+      "nodeDescription": "A whole server for a very smol maus"
+    }
+  },
+  "error": null
+}

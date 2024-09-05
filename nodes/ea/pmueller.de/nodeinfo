@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 130,
+      "localComments": 141
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Peter Müller",
+      "nodeDescription": "Bücher und Videokurse",
+      "nodeIcon": "https://pmueller.de/wp-content/uploads/2022/01/cropped-peter-mueller-memoji-blue-beanie-thumb-up_ccexpress-compressor.png"
+    }
+  },
+  "error": null
+}

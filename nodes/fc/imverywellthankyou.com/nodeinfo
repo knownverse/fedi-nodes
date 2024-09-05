@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I&#039;M VERY WELL THANK YOU!",
+      "nodeDescription": "The one and only site offering tried and tested, expert &amp; fresh WELLNESS information in Greece &amp; beyond! Experiences, gastronomy, products, gadgets &amp; more",
+      "nodeIcon": "https://imverywellthankyou.com/wp-content/uploads/2017/07/cropped-cebbcebf2.jpg"
+    }
+  },
+  "error": null
+}

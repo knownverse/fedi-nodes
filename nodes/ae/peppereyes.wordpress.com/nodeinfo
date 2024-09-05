@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 548,
+      "localComments": 817
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Defense Against Crime",
+      "nodeDescription": "Get Ready! Stay Ready!",
+      "nodeIcon": "https://peppereyes.wordpress.com/wp-content/uploads/2019/05/cropped-bxp35697.jpg"
+    }
+  },
+  "error": null
+}

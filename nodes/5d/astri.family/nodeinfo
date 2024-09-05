@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "me@sol.moe",
+        "name": "https://astri.family/@sol"
+      },
+      "nodeDescription": "Sol's Friend Group firefish server.",
+      "nodeName": "Astri Family!",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240623"
+    },
+    "usage": {
+      "localPosts": 10,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

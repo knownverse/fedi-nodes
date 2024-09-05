@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13192,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ゔぁるきゅりすき〜",
+      "nodeDescription": "valkyrie大好きな人が自宅に建てたサーバー\n招待コード欲しい方は管理者に連絡下さい",
+      "nodeAdmins": [
+        {
+          "name": "ヴァル都",
+          "email": "valhallatomin@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ヴァル都",
+        "email": "valhallatomin@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://mika.valkyrisskey.uk/@valhallatomin/pages/1710928381161",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ae0028"
+    }
+  },
+  "error": null
+}

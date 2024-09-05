@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2-fix.7.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6769,
+        "activeHalfyear": 3271,
+        "activeMonth": 1438
+      },
+      "localPosts": 983717,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "おちゃすき〜 / Ochaskey 🍵",
+      "nodeDescription": "おちゃで繋がるネットワーク🍵<br><br>以下の条件に当てはまる人はお断りです。<br>\n・<strike>13歳未満の方 (13さいよりとししたのひと)</strike>→今後は制限なし<br>\n・EU圏内に在住している方 (If you live in the EU, you cannot register. Please understand that.)<br>\n・利用規約を読んでいない人<br>\n・<strike>マナーがない人</strike>→利用規約に準じます<br>\n<br>\n<a href=\"https://terms-labo.wovs.tk\" target=\"_blank\"><u>利用規約</u></a>\n<a href=\"https://forms.yandex.com/cloud/65db26082530c2ed5344076c\"><u>問い合わせフォーム</u></a>",
+      "maintainer": {
+        "name": "ochaskey group",
+        "email": "forms.yandex.com/cloud/65db26082530c2ed5344076c"
+      },
+      "langs": [],
+      "tosUrl": "https://terms-labo.wovs.tk",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "a",
+      "themeColor": "#007d00"
+    }
+  },
+  "error": null
+}

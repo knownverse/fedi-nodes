@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 268,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "eD! Thomas",
+      "nodeDescription": "Excels Equally in Awesomeness &amp; Modesty",
+      "nodeIcon": "https://i0.wp.com/edequalsaweso.me/wp-content/uploads/2021/02/Oh-Hey-Cartoon-Me-Favicon.png?fit=3000%2C3000&quality=80&ssl=1"
+    }
+  },
+  "error": null
+}

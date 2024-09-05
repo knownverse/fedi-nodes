@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "support@fifi.club",
+        "name": "FiFiClub Support"
+      },
+      "nodeDescription": "本站是 <a href=\"https://nya.one\">喵窝</a> 的 FireFish (Calckey) 分部，请注意遵守服务器所在地（日本）的法律，预祝您使用愉快～",
+      "nodeName": "FiFi Club",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 28,
+      "users": {
+        "activeHalfyear": 8,
+        "activeMonth": 3,
+        "total": 11
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

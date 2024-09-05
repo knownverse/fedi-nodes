@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 448,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 49747,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "呜喵 w(> ʌ <)w",
+      "nodeDescription": "是 <a href=\"https://wxw.moe\" target=\"_blank\">wxw.moe</a> 的姊妹实例 ~<br>\n<br>\nw(> ʌ <)w 呜喵目前仅对呜呜站用户开放<br>\n站内私信「<a href=\"https://wxw.moe/@wxw_moe_status\" target=\"_blank\">wxw.moe 更新姬</a>」获取邀请码",
+      "nodeAdmins": [
+        {
+          "name": "@wxw_cat_status",
+          "email": "support@wxw.cat"
+        }
+      ],
+      "maintainer": {
+        "name": "@wxw_cat_status",
+        "email": "support@wxw.cat"
+      },
+      "langs": [],
+      "tosUrl": "https://wxw.cat/@wxw_cat_status/pages/about_wxw_cat",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#5db0da"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/lynlynlynx/misskey",
+      "repository": "https://github.com/lynlynlynx/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 116477,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ふろすきー",
+      "nodeDescription": "ふろがすきなおたく歓迎。\n倫理性・人間性・論理性を著しく欠く場合無警告でアカウントを凍結、削除します。友達同士、ネットミーム、言葉の綾、会話の流れなどいかなる理由でも許容されません。",
+      "nodeAdmins": [
+        {
+          "name": "原木しいたけ",
+          "email": "admin@sanin.link"
+        }
+      ],
+      "maintainer": {
+        "name": "原木しいたけ",
+        "email": "admin@sanin.link"
+      },
+      "langs": [],
+      "tosUrl": "https://cryo.jp/misskey/onsen/tos.php",
+      "privacyPolicyUrl": "https://cryo.jp/misskey/onsen/privacy.php",
+      "inquiryUrl": "https://cryo.jp/misskey/onsen/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/lynlynlynx/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "sukunahiko",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 15,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "پارسا رنجبر",
+      "nodeDescription": "نوشته های یک ذهن پر از آشوب",
+      "nodeIcon": "https://rnjbr.org/wp-content/uploads/2023/01/cropped-458D6A92-915F-4FDF-AE06-AD8FA4489F28.png"
+    }
+  },
+  "error": null
+}

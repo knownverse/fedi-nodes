@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 56,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Eddie The Jacky",
+      "nodeDescription": "Eddies Abenteuer",
+      "nodeIcon": "https://eddie-the-jacky.de/wp-content/uploads/2022/09/cropped-cfab9c60-d50d-4837-8872-dc2a50bf7abd-1.jpeg"
+    }
+  },
+  "error": null
+}

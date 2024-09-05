@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 623,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23770,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "easy mode",
+      "nodeDescription": "A home for those into gaming (especially retro and indie), game dev, game music, tabletop gaming, anime, culture, books, TV, movies, weirdness, photography, esoterica, creative stuff, etc.\n\nFeel free to chat about anything you like, but the server was made for those of us into all that cozy stuff.",
+      "nodeAdmins": [
+        {
+          "name": "ward",
+          "email": "ward@easymode.im"
+        }
+      ],
+      "maintainer": {
+        "name": "ward",
+        "email": "ward@easymode.im"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://easymode.im/@ward/pages/contact",
+      "impressumUrl": null,
+      "donationUrl": "https://epicpants.com/products/easymode-im-server-fee-support-donation?_pos=1&_psq=easymode&_ss=e&_v=1.0",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#382545"
+    }
+  },
+  "error": null
+}

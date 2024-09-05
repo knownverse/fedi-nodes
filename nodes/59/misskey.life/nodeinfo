@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1045,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 169137,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みすきーらいふ！",
+      "nodeDescription": "みすきーらいふ！は、汎用のMisskeyサーバーです。日本国内法と一般的な倫理の範囲でご自由に利用いただけます。",
+      "nodeAdmins": [
+        {
+          "name": "はちみつ",
+          "email": "admin@8mitsu.net"
+        }
+      ],
+      "maintainer": {
+        "name": "はちみつ",
+        "email": "admin@8mitsu.net"
+      },
+      "langs": [],
+      "tosUrl": "https://portal.misskey.life/misskey-life-terms-of-use/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#7396FF"
+    }
+  },
+  "error": null
+}

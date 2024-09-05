@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "https://forms.gle/3527NHeWDZ41diWL9",
+        "name": "rins (rns_8i8)"
+      },
+      "nodeDescription": "(・△・) 鳩類の王が治めるおひとりさまサーバーです。",
+      "nodeName": "輝ける栄光の鳩類王国",
+      "proxyAccountName": "9egm25w1if",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#3DB59A"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 20539,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

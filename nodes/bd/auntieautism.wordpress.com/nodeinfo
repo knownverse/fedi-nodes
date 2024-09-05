@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 39,
+      "localComments": 64
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Neuro Poppins - Auntie Autism",
+      "nodeDescription": "Neuro Poppins - Gender Critical : Through the lens of autism",
+      "nodeIcon": "https://auntieautism.wordpress.com/wp-content/uploads/2024/05/wp-1716667064236.png"
+    }
+  },
+  "error": null
+}

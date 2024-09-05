@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.pounce"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 286,
+        "activeMonth": 81,
+        "activeHalfyear": 110
+      },
+      "localPosts": 179257
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "pouncetodon",
+      "nodeDescription": "a generalistic furry mastodon instance\r\n\r\n[ art of @Lio by angiewolfartist ]"
+    }
+  },
+  "error": null
+}

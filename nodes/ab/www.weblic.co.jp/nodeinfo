@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 181,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WEBLIC LLC",
+      "nodeDescription": "名古屋のWEBサイト制作会社WEBLIC LLC。私たちは、WEBサイトの設計から環境構築、インターフェースデザイン、システム開発など、WEBサイト構築に関するすべてをお手伝いします。",
+      "nodeIcon": "https://www.weblic.co.jp/wp-content/uploads/2023/03/1679467060.png"
+    }
+  },
+  "error": null
+}

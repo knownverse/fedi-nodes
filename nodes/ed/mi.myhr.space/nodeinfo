@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 456,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "くるすなほり",
+      "nodeDescription": "おひとりさまさーばなのだ！<br>\nいちおスペック的にひと入ってもおっけな気がするので気になるひとは個別で連絡してねぇ(卍 ˘ω˘))卍",
+      "nodeAdmins": [
+        {
+          "name": "六葩くる",
+          "email": "muyuhira.kuru@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "六葩くる",
+        "email": "muyuhira.kuru@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": null,
+      "impressumUrl": "https://mi.myhr.space/@muyuhira",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#b1f8ef"
+    }
+  },
+  "error": null
+}

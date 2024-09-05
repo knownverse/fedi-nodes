@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Fedodo",
+      "version": "0.5.10",
+      "repository": "https://github.com/Fedodo",
+      "homePage": "https://fedodo.org"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "openRegistrations": true,
+    "metadata": {}
+  },
+  "error": null
+}

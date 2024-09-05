@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 190,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8612,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "とあるMisskey鯖",
+      "nodeDescription": "色々なオンラインセッションなどを楽しめるとあるTRPG鯖に設置したmisskeyインスタンスです。\nとはいえ、TRPG、アナログゲーム、卓ゲーに限らずVRChat、日常、猫、生活、お金の話など何をお話してもOKです。\n\nお約束\n・R18やR18G含む画像やメッセージの投稿はダメです\n・犯罪行為や特定個人・組織への行きすぎた誹謗中傷などには利用しないでください\n・広告専用アカウントやBotでの連投などによる広告・宣伝行為は悪質であれば警告なしで削除するかもしれません\n・無保証なので他アカウントとのパスワード共用や機密情報の保管などは絶対にしないでください\n",
+      "nodeAdmins": [
+        {
+          "name": "とあるTRPG鯖管理人",
+          "email": "非公開"
+        }
+      ],
+      "maintainer": {
+        "name": "とあるTRPG鯖管理人",
+        "email": "非公開"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 138,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Klub Tropical",
+      "nodeDescription": "Latin Dance &amp; Caribbean Sound System",
+      "nodeIcon": "https://klubtropical.com/wp-content/uploads/2018/02/klubtropical_2018.png"
+    }
+  },
+  "error": null
+}

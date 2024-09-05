@@ -1,0 +1,254 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "truth.social",
+            "gab.com",
+            "brighteon.social",
+            "dev.brighteon.social",
+            "staging.brighteon.social",
+            "noagendasocial.com",
+            "mapsupport.de",
+            "detroitriotcity.com",
+            "poa.st",
+            "bae.st",
+            "federated.fun",
+            "pawoo.net",
+            "ai.wiki",
+            "coolsite.win",
+            "sneed.social",
+            "mirr0r.city",
+            "threads.net",
+            "mostr.pub"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "ai.wiki": {
+              "reason": "instance dedicated to marketing"
+            },
+            "bae.st": {
+              "reason": "users are idiots"
+            },
+            "brighteon.social": {
+              "reason": "misinformation and bullshit"
+            },
+            "coolsite.win": {
+              "reason": "all the phobias"
+            },
+            "detroitriotcity.com": {
+              "reason": "free-speech absolutists, you know the type"
+            },
+            "dev.brighteon.social": {
+              "reason": "misinformation and bullshit development"
+            },
+            "federated.fun": {
+              "reason": "users appear to at least lean towards idiocy"
+            },
+            "gab.com": {
+              "reason": "for the same obvious reasons"
+            },
+            "mapsupport.de": {
+              "reason": "eyeroll"
+            },
+            "mirr0r.city": {
+              "reason": "goons"
+            },
+            "mostr.pub": {
+              "reason": "Nostr bridge. No thanks."
+            },
+            "noagendasocial.com": {
+              "reason": "misinformation, bullshit and the rest"
+            },
+            "pawoo.net": {
+              "reason": "users are idiots"
+            },
+            "poa.st": {
+              "reason": "users are idiots"
+            },
+            "sneed.social": {
+              "reason": "description looks like it was written by a child, posts aren't much better"
+            },
+            "staging.brighteon.social": {
+              "reason": "misinformation and bullshit staging"
+            },
+            "threads.net": {
+              "reason": "probably just full of arseholes"
+            },
+            "truth.social": {
+              "reason": "for obvious reasons"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "Private Akkoma instance. Might eventually be used for some music/zine/art stuff at some point, but for now it’s just me.",
+      "nodeName": "as.the.river",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://astheriver.art/users/kristian"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 53
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

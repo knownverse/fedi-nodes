@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 52,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Beauty Cares Inc ",
+      "nodeDescription": "Best in Beauty",
+      "nodeIcon": "https://beautycaresinc.com/wp-content/uploads/2024/07/cropped-img-qquevigysiwcccephi8kbo7d-3-3049640718-e1723975587572.png"
+    }
+  },
+  "error": null
+}

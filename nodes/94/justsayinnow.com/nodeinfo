@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 188,
+      "localComments": 124
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Just Sayin&#039; Now",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/justsayinnow.com/wp-content/uploads/2022/05/cropped-cropped-BLcom540.png?fit=780%2C780&ssl=1"
+    }
+  },
+  "error": null
+}

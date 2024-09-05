@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 179,
+        "activeHalfyear": 39,
+        "activeMonth": 14
+      },
+      "localPosts": 1333,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ボカロ丼 misskey",
+      "nodeDescription": "ボカロ丼 ( vocalodon.net ) が運営するMisskeyサーバです。\n\n※現在新規登録には招待コードが必要です。\n\n利用規約はボカロ丼本家に準じます。\n\n※「VOCALOID(ボーカロイド)」ならびに「ボカロ」はヤマハ株式会社の登録商標です。\n※ Vocalodon ではヤマハ株式会社の許諾を得てこの名称を利用し運営しています。",
+      "maintainer": {
+        "name": "TOMOKI++",
+        "email": "tomoki@autla.com"
+      },
+      "langs": [],
+      "tosUrl": "https://vocalodon.net/about/more",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

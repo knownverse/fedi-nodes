@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "حزب أهل مصر البسطاء الموقع الرسمي",
+      "nodeDescription": "حزب اهل مصر البسطاء حزب مدني سياسي اجتماعي خدمي عمالي شامل",
+      "nodeIcon": "https://ahlimasralbusata.wordpress.com/wp-content/uploads/2024/02/wp-1707683236856.jpg"
+    }
+  },
+  "error": null
+}

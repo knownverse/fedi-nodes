@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9-dev-bbc4fd655",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 24,
+        "activeHalfyear": 15,
+        "activeMonth": 9
+      },
+      "localPosts": 2293,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Iceshrimp.de",
+      "nodeDescription": "<h1>Dein neues Zuhause im Fediverse!</h1>\n\n<h2>Wir wollen der Ort sein, wo ihr euch Zuhause fühlt.</h2>\nWir sprechen hauptsächlich Deutsch und Englisch.\nIhr wolltet schon immer mal Iceshrimp ausprobieren? Dann fühlt euch hier sehr wilkommen.\nJeder ist willkommen, aber Nazis müssen draußen bleiben.\n\nDiese Instanz wird auf der selben Infrastruktur wie vaultwarden.net betrieben. (Schaut da auch mal vorbei, wenn ihr wollt). Uptime kann ich leider nicht garantieren, da es sich hierbei um ein Freizeitprojekt von mir handelt\n\n<hr>\n\nWe want to be the place where you feel at home.\nWe mainly speak German and English.\nHave you always wanted to try Iceshrimp? Then feel very welcome here.\nEveryone is welcome, but Nazis must stay outside.\n\nThis instance is operated on the same infrastructure as vaultwarden.net. (Have a look there too if you want)\nUptime cannot be guarranteed as this is a freetime project",
+      "maintainer": {
+        "name": "@admin@iceshrimp.de",
+        "email": "admin@obco.pro"
+      },
+      "langs": [],
+      "tosUrl": "https://iceshrimp.de/@admin/pages/1700612647659",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

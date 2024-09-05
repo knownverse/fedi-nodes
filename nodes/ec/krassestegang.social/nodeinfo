@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 5
+      },
+      "localPosts": 183
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "krassestegang.social",
+      "nodeDescription": "Die Mastodon-Instanz der krassesten Gang."
+    }
+  },
+  "error": null
+}

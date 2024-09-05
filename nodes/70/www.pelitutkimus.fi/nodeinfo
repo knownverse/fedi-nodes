@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 132,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pelitutkimus.fi",
+      "nodeDescription": "Suomen pelitutkimuksen seura ry / The Finnish Society for Game Research",
+      "nodeIcon": "https://www.pelitutkimus.fi/wp-content/uploads/2017/10/icon.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 301,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 27167,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Café @ Otter Homes | 獭咖",
+      "nodeDescription": "欢迎来到獭咖 （cafe.otter.homes）! \n\n\nWelcome to cafe.otter.homes!\n\n\ncafe.otter.homes是一个自由、开放、多语言的Misskey实例。在这里你可以和Fediverse中不同背景、爱好的任何人友好地交流，而免于任何政府或大公司的言论审查。\n\n\ncafe.otter.homes is a free, open, and multilingual instance of Misskey. Here you can communicate friendly with inhabitants of different backgrounds & hobbies of the Fediverse, without the surveillance of big tech companies or governments.\n\n",
+      "nodeAdmins": [
+        {
+          "name": "Otter",
+          "email": "otter@otter.homes"
+        }
+      ],
+      "maintainer": {
+        "name": "Otter",
+        "email": "otter@otter.homes"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#4f92bd"
+    }
+  },
+  "error": null
+}

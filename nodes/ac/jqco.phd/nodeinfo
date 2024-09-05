@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 32
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JQCO.PhD",
+      "nodeDescription": "Socioeconomic and political commentary from a communications perspective",
+      "nodeIcon": "https://jqco.phd/wp-content/uploads/2024/07/jqco-logo-sq.png"
+    }
+  },
+  "error": null
+}

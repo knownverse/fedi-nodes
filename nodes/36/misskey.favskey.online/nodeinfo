@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 465,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 51990,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ふぁぼすきー",
+      "nodeDescription": "ふぁぼすきーです。Misskeyを使ったSNSです。<br>\nフォローした人だけが現れる「ホームタイムライン」が中心になるように仕組みづくりをしていきます。<br>\n様々な日常や創作活動の投稿先として過ごしやすいSNSにしたいと思っています。\n<br>\n利用規約<br>\n1. 日本の法律の範囲で使うこと<br>\n2. 転んでも泣かない、唯一のデータ（ノート、ドライブ）の置き場所にしてはならない<br>\n3. お互いに気持ちよく過ごす<br>\n4. 利用規約は変更されることがある<br>\n",
+      "nodeAdmins": [
+        {
+          "name": "へんりえったさん",
+          "email": "nassii74@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "へんりえったさん",
+        "email": "nassii74@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.favskey.online/@HenriettaSan/pages/1721538055064",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#b1dd8c"
+    }
+  },
+  "error": null
+}

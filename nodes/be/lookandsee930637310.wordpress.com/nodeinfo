@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2635,
+      "localComments": 5674
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Welcome to the Trash Site. Landfill of trash from other websites.",
+      "nodeDescription": "",
+      "nodeIcon": "https://lookandsee930637310.wordpress.com/wp-content/uploads/2019/10/cropped-barani1-16-1.gif"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 113,
+      "localComments": 114
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Polifinario",
+      "nodeDescription": "&quot;There's never enough time to do all the nothing you want&quot;",
+      "nodeIcon": "https://polifinario.net/wp-content/uploads/2019/03/cropped-p7270266_2.jpg"
+    }
+  },
+  "error": null
+}

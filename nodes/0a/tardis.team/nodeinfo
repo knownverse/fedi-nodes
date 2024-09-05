@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 2794
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "The TARDIS team",
+      "nodeDescription": "A single-user (for now) instance for TARDIS.guide."
+    }
+  },
+  "error": null
+}

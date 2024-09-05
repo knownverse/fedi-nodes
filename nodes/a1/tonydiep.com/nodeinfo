@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 741,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tony Diep Street Photography",
+      "nodeDescription": "Old-school candid shots of people from the streets of Toronto",
+      "nodeIcon": "https://i0.wp.com/tonydiep.com/wp-content/uploads/2023/07/cropped-Polaroid-Camera-black.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

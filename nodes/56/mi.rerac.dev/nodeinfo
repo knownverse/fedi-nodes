@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.10.0",
+      "basedMisskeyVersion": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 41,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 19993,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MiRe;RaDo✨",
+      "nodeDescription": "<strong>어서오세요!</strong><br>\n\n<strong>미레;라도</strong>는 레라씨의 <strong>개인 인스턴스</strong>에요.<br>\n개인 인스턴스이므로 레라씨의 지인이 아닌 <br><strong>외부인의 가입</strong>은 기본적으로 <strong>받지 않고</strong> 있어요.<br>\n<br>\n[<a href=\"https://mi.rerac.dev/@rera/pages/rule\">이용약관/규칙 페이지</a>]\n<br><br>\nレラさんの個人インスタンスです。<br>\n個人インスタンスなので、レラさんの知人以外の外部の方の登録は基本的に受け付けておりません。",
+      "nodeAdmins": [
+        {
+          "name": "rera",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "rera",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://mi.rerac.dev/@rera/pages/rule",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#666dfe"
+    }
+  },
+  "error": null
+}

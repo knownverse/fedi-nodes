@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 445,
+      "localComments": 172
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ブロギングライフ",
+      "nodeDescription": "ブログサイト運営関連、AdSenseについての情報などを発信しています。",
+      "nodeIcon": "https://www.blogging-life.com/wp-content/uploads/2017/03/cropped-Blogging-Life-logo-WP-icon-2.png"
+    }
+  },
+  "error": null
+}

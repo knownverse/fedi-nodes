@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Termine",
+      "nodeName": "WWWorkgroup",
+      "nodeLabel": ""
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.4.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 3,
+      "users": {
+        "total": 1
+      }
+    }
+  },
+  "error": null
+}

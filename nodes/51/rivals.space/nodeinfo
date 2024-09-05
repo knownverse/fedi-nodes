@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+rivals-bfa6790-1724345971"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2027,
+        "activeMonth": 335,
+        "activeHalfyear": 572
+      },
+      "localPosts": 288358
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "RIVALS.SPACE",
+      "nodeDescription": "Serveur français généraliste, durable et rapide, créé en 2018 & toujours présent!\r\n\r\nModération active, discord/matrix disponible en cas de problème."
+    }
+  },
+  "error": null
+}

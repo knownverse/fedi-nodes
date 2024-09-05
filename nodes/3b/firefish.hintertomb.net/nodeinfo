@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "firefish-admin[at] hintertomb.net",
+        "name": "Capella"
+      },
+      "nodeDescription": "趣味で運営している Firefish サーバーです。\n\n主に中の人のモチベーションや懐具合次第で唐突に爆破される可能性があります。\n\nBloodborne をはじめ、ゲームが好きな方を歓迎しています。",
+      "nodeName": "ちていすきー",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 514,
+      "users": {
+        "activeHalfyear": 5,
+        "activeMonth": 4,
+        "total": 5
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

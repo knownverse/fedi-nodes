@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "Hono",
+      "version": "^3.3.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "lacolaco.social",
+      "nodeDescription": "らこらこインターネット",
+      "disableRegistration": true,
+      "themeColor": "#77b58c",
+      "maintainer": {
+        "name": "lacolaco",
+        "email": "https://github.com/lacolaco#where-you-can-contact-me"
+      }
+    }
+  },
+  "error": null
+}

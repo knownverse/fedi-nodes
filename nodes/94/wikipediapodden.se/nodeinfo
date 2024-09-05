@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 2
+      },
+      "localPosts": 277,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Wikipediapodden",
+      "nodeDescription": "En podcast om Wikipedia på svenska",
+      "nodeIcon": "https://wikipediapodden.se/wp-content/uploads/2019/05/FB-profile.png"
+    }
+  },
+  "error": null
+}

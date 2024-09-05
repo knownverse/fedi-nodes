@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Inner Peace",
+      "nodeDescription": "The moment has come to reclaim dominion over our digital realms, freeing them from the grip of commercial mayhem! Let us restore the purity of genuine social connections, as they were meant to be!",
+      "nodeAdmins": [
+        {
+          "name": "Master Shifu",
+          "email": "shifu@worldofmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Master Shifu",
+        "email": "shifu@worldofmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://innerpeace.social/@shifu/pages/terms-of-service",
+      "privacyPolicyUrl": "https://innerpeace.social/@shifu/pages/privacy-policy",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

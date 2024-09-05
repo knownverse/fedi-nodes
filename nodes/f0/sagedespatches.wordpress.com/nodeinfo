@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 85,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sage Despatches",
+      "nodeDescription": "Tales From Within The Dark Forest",
+      "nodeIcon": "https://sagedespatches.wordpress.com/wp-content/uploads/2023/01/cropped-old-time-reporter-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1170,
+        "activeMonth": 38,
+        "activeHalfyear": 137
+      },
+      "localPosts": 29302
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "TURBO Toot!",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 47,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "El Sitio Del Omega 3",
+      "nodeDescription": "Descubre los beneficios del Omega 3 para la salud y el bienestar. Información sobre fuentes, suplementos, recetas saludables y estudios científicos.",
+      "nodeIcon": "https://i0.wp.com/elsitiodelomega3.com/wp-content/uploads/2024/08/El-Sitio-Del-Omega-3.png?fit=2048%2C2048&ssl=1"
+    }
+  },
+  "error": null
+}

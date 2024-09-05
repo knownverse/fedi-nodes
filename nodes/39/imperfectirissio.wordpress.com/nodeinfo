@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 823,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Imperfect Irissio",
+      "nodeDescription": "Watercolor Cliparts",
+      "nodeIcon": "https://imperfectirissio.wordpress.com/wp-content/uploads/2023/11/cropped-cropped-img_6618.jpeg"
+    }
+  },
+  "error": null
+}

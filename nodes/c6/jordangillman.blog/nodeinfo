@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 52,
+      "localComments": 44
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jordan Gillman",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/jordangillman.blog/wp-content/uploads/2018/12/Headshot.jpeg?fit=1094%2C1094&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7128,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MICROPEN",
+      "nodeDescription": "<p>元はKuropenの個人用として作られたMisskeyサーバーです。<br>このため完全紹介制になっておりますので、登録を希望される方は<a href=\"https://kuropen.org/contact/\" target=\"_blank\">問い合わせフォーム</a>より招待コードの発行依頼を行ってください。その際、面識のある当サーバーユーザーの名前と、そのユーザーとの関係性を必ず添えて送ってください。<br>\n当サーバーの利用規約は招待コードとともに通知します（「サーバールール」にその概要を記載します）</p>\n<p><strong>外部サーバーの管理者・利用者の方へ</strong>: 当サーバー管理者への問い合わせは<a href=\"https://kuropen.org/contact/\" target=\"_blank\">問い合わせフォーム</a> または <a href=\"https://mi.kuropen.org/@kuropen\">@kuropen@mi.kuropen.org</a> 宛にお願いします。</p>\n<p><a href=\"https://mi.kuropen.org/notes/9vmwhau9hz\">当サーバーのロゴの取り扱いについて</a></p>\n<p><a href=\"https://status.kuropen.org/\" target=\"_blank\">サービス稼働状況</a></p>\n<p><a href=\"https://kuropen.org/legal/\" target=\"_blank\">情報の外部送信に関する表示</a></p>",
+      "nodeAdmins": [
+        {
+          "name": "Kuropen",
+          "email": "misskey-contact-80df8ca7_at_kuropen.org"
+        }
+      ],
+      "maintainer": {
+        "name": "Kuropen",
+        "email": "misskey-contact-80df8ca7_at_kuropen.org"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.google.com/document/d/1F_15r159eXq_h9yc-RzcLxfWRbHjxxVtMMVN-BSRX3M/edit?usp=sharing",
+      "privacyPolicyUrl": "https://kuropen.org/legal/",
+      "inquiryUrl": "https://kuropen.org/contact/",
+      "impressumUrl": "https://kuropen.org/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#5f6fea"
+    }
+  },
+  "error": null
+}

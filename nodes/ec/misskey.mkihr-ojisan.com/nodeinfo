@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-mkoj",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 48,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 25737,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MKOJskey",
+      "nodeDescription": "向原おじさんとその友人のためのMisskeyサーバー",
+      "nodeAdmins": [
+        {
+          "name": "向原おじさん",
+          "email": "mkihr.ojisan@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "向原おじさん",
+        "email": "mkihr.ojisan@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#613583"
+    }
+  },
+  "error": null
+}

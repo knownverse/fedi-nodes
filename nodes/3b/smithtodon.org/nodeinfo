@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 3970
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon",
+      "nodeDescription": "A small server run by Mark Smith, a chaplain living in New Jersey, USA. Running for the benefit of its users."
+    }
+  },
+  "error": null
+}

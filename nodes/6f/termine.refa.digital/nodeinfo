@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "REFA ist Deutschlands älteste Organisation für Arbeitsgestaltung, Betriebsorganisation und Unternehmensentwicklung. Auf dieser Mobilizon-Instanz veröffentlichen wir Termine für Qualifizierungen, Ausbildungen und Seminare. \n\nDie Instanz wird von REFA Sachsen-Anhalt e.V. betrieben. Sie steht jedoch auch anderen REFA-Landes- und Gebietsverbänden offen.",
+      "nodeName": "REFA Termine"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      },
+      "localComments": 1,
+      "localPosts": 132
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

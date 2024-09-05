@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Private lightweight server for ActivityPub",
+      "nodeName": "Private"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "Private",
+      "version": "0.1"
+    },
+    "usage": {
+      "localPosts": 1,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

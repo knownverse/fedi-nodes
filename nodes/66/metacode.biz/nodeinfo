@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "data": {
+    "version": 1,
+    "software": {
+      "name": "n/a",
+      "version": "2019.09-1323"
+    },
+    "protocols": {
+      "inbound": [
+        "activitypub"
+      ],
+      "outbound": [
+        "activitypub"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "N/A",
+      "protocols": {
+        "inbound": [
+          "activitypub"
+        ],
+        "outbound": [
+          "activitypub"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": []
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

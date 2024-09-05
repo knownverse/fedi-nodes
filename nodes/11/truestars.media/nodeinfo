@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 32,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "True Stars Media",
+      "nodeDescription": "Community-Driven Media, Web3&#039;s Creative Cosmos. Join the Constellation.",
+      "nodeIcon": "https://truestars.media/wp-content/uploads/2023/08/untitled-design-91.png"
+    }
+  },
+  "error": null
+}

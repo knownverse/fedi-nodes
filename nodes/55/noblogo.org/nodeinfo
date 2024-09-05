@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "noblogo.org",
+      "nodeDescription": "Noblogo.org è il network di blog etici e senza scopo di lucro della federazione writefreely, nessuno spia, nessuno analizza cosa stai facendo, nessuna fastidiosa registrazione, niente dati personali, niente costi premium, nessuna notifica o email fastidiosa e niente banners.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 5,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 766,
+        "activeHalfyear": 129,
+        "activeMonth": 26
+      },
+      "localPosts": 6177
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

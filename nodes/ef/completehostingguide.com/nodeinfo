@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "8.6.2"
+    },
+    "protocols": [
+      "zot",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeHalfyear": 17,
+        "activeMonth": 17
+      },
+      "localPosts": 154,
+      "localComments": 742
+    },
+    "metadata": {
+      "nodeName": "Complete Hosting Guide"
+    }
+  },
+  "error": null
+}

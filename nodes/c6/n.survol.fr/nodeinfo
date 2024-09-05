@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5.2",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 2098,
+      "localComments": 5242
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": {
+      "inbound": [
+        "activitypub",
+        "webmention"
+      ],
+      "outbound": [
+        "activitypub",
+        "webmention"
+      ]
+    },
+    "metadata": {
+      "email": "eric.daspet@survol.fr",
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.1.0",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      }
+    }
+  },
+  "error": null
+}

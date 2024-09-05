@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.1-yojo1.0.1",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://github.com/yojo-art/cherrypick",
+      "repository": "https://github.com/yojo-art/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6549,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "幼女.Art",
+      "nodeDescription": "幼女創作が好きな人のインスタンス<br>\nロリコンSNS",
+      "nodeAdmins": [
+        {
+          "name": "幼女Artチーム",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "幼女Artチーム",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://yojo-art.github.io/docs/TOS",
+      "privacyPolicyUrl": "https://yojo-art.github.io/docs/PRIVACY_POLICY",
+      "inquiryUrl": "https://forms.gle/gsB4XvhaQU1f5otT9",
+      "impressumUrl": "https://xn--vusz0j.art/contact",
+      "repositoryUrl": "https://github.com/yojo-art/cherrypick",
+      "feedbackUrl": "https://github.com/yojo-art/cherrypick/issues/new",
+      "statusUrl": "https://status2.penginn.net/status/yojo-art",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": true,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 5120,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffbcdc",
+      "reversiVersion": "1.0.0-yojo"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2-fix.7.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 560,
+        "activeHalfyear": 147,
+        "activeMonth": 65
+      },
+      "localPosts": 525278,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Firefish大好きでした。いままで本当にありがとうございます。",
+      "nodeDescription": "msk.ilnk.infoで使用しているv12はフォークです。決して維持されずに放置されているわけではありません。それを理由としたドメインブロックはやめていただけると幸いです。<br>\nСоциальная сеть для японских, русских и корейских пользователей.<br>(Название на белорусском языке🇧🇾.<br>Рекомендуемые сайты<br>Йопосукй(ja)→<a href=\"https://mk.yopo.work/\">mk.yopo.work</a><br>Суниская Соцсеть(ja/by/ru...etc)→<a href=\"https://sunisky.club/\">sunisky.club</a><br><a href=\"https://msk.ilnk.info/@emoji_informal/pages/license\">Emoji License</a>\n<br>\n【Для российских пользователей.】<br>\nВозможно, Twely проще в использовании. Twely — еще один сайт, созданный этонерн. →<a href=\"https://twely.etn.icu/\">twely.etn.icu</a>\n<br><br>\nおすすめ曲↓\n<br><br>\n<iframe width=\"350\" height=\"250\" src=\"https://www.youtube.com/embed/uqqPTyG7W7g\" title=\"youtube player\" </iframe>\n<br><br>\n<a href=\"https://etn.icu/domainblock\">ドメインブロックリスト</a>",
+      "maintainer": {
+        "name": "Etonern Riben Kanagawa",
+        "email": "tannu@etonern.ru"
+      },
+      "langs": [],
+      "tosUrl": "https://etn.icu/tos",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "kein_deutsch_koennen",
+      "themeColor": "#F8DDF3"
+    }
+  },
+  "error": null
+}

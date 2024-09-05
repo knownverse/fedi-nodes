@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "a@dvd.moe",
+        "name": "dvd"
+      },
+      "nodeDescription": "Yet another Firefish Instance. Join to enjoy:\n- 200GB of free storage space for each user\n- Complete DVD emoji\n- Full-text search based on PGroonga\n- Complete AD-free experience",
+      "nodeName": "DVD Chat",
+      "proxyAccountName": "9grcv3q2yd",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FF7E79"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240725"
+    },
+    "usage": {
+      "localPosts": 128416,
+      "users": {
+        "activeHalfyear": 509,
+        "activeMonth": 242,
+        "total": 1066
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 81,
+        "activeMonth": "68",
+        "activeHalfyear": "66"
+      },
+      "localPosts": 644,
+      "localComments": 1848
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Corporate Learning Community",
+      "nodeDescription": "Beiträge zur Entwicklung von Learning &amp; Development aus der Corporate Learning Community",
+      "nodeIcon": "https://colearn.de/wp-content/uploads/2017/01/cropped-CLA_Icon.jpg"
+    }
+  },
+  "error": null
+}

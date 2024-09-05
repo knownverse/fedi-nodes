@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 200,
+      "localComments": 315
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "protocols": {
+      "0": "activitypub",
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp",
+        "friendica",
+        "gnusocial",
+        "mastodon"
+      ]
+    },
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Bau- und Wohnblog Bio-Solar-Haus in Bornheim",
+      "nodeDescription": "Unser Blog zum Bio-Solar-Haus (Niedrigenergiehaus als Ausbauhaus) mit Knecht-Fertigkeller in Bornheim-Rösberg. Seit Juli 2012 wohnen wir im Haus und nutzen es auch für unsere Werbe- und Internetagentur 11com7. Der ältere Teil des Blogs enthält unser Baublog.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

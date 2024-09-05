@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "lemmy",
+      "version": "0.19.5",
+      "repository": "https://github.com/LemmyNet/lemmy",
+      "homepage": "https://join-lemmy.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 109,
+        "activeHalfyear": 27,
+        "activeMonth": 16
+      },
+      "localPosts": 1269,
+      "localComments": 3883
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {}
+  },
+  "error": null
+}

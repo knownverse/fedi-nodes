@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 59,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3006,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "geoMisskey",
+      "nodeDescription": "Lets GO GEOCACHING!<br>\nジオキャッシングなる世界規模の宝探しゲームに興味がある方の場所です\nメアド不要で開放中\n【注：面白い絵文字はありません】\nジオキャッシングは責任のない失敗と成功を繰り返すという精神衛生上とても良い遊びです\n体を動かすこともできるしレベルアップも実感できます",
+      "nodeAdmins": [
+        {
+          "name": "せったー",
+          "email": "setter@i-red.info"
+        }
+      ],
+      "maintainer": {
+        "name": "せったー",
+        "email": "setter@i-red.info"
+      },
+      "langs": [],
+      "tosUrl": "https://msk.i-red.info/announcements",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "ghost",
+      "themeColor": "#808000"
+    }
+  },
+  "error": null
+}

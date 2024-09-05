@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Murairi Hassan",
+      "nodeDescription": "La vraie mort c&#039;est la peur de la mort",
+      "nodeIcon": "https://etsmurairi.wordpress.com/wp-content/uploads/2024/02/cropped-screenshot_20240221-103744.jpg"
+    }
+  },
+  "error": null
+}

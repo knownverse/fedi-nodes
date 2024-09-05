@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "7",
+        "activeHalfyear": "7"
+      },
+      "localPosts": 2002,
+      "localComments": 730
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TechDirectArchive",
+      "nodeDescription": "Hands-on on Windows, macOS, Linux, Azure, GCP, AWS",
+      "nodeIcon": "https://i0.wp.com/techdirectarchive.com/wp-content/uploads/2023/10/site-icon-favicon.jpg?fit=120%2C120&ssl=1"
+    }
+  },
+  "error": null
+}

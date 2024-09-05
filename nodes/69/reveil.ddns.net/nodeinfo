@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 614,
+      "localComments": 1054
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "アジアの片隅から",
+      "nodeDescription": "anytime, anywhere with anybody",
+      "nodeIcon": "https://reveil.ddns.net/wp-content/uploads/2023/05/cropped-ダウンロード-1.png"
+    }
+  },
+  "error": null
+}

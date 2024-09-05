@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 12,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mieke Roth",
+      "nodeDescription": "Complex scientific subjects in a beautiful, accessible and visible way",
+      "nodeIcon": "https://i0.wp.com/www.miekeroth.com/wp-content/uploads/2023/07/cropped-ava_sketchfab.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

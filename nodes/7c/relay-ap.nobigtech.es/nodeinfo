@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.1 80a8c9b391a6332b535ea3d2151d2f1516aa5059"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0",
+    "metadata": {
+      "peers": [
+        "sindicato.social",
+        "mastodon.uy",
+        "red.niboe.info",
+        "masto.nobigtech.es",
+        "mstdn.mx",
+        "masto.es",
+        "masto.federa.social"
+      ]
+    }
+  },
+  "error": null
+}

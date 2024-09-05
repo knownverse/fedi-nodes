@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 249,
+      "localComments": 33
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "PHX Rail Food",
+      "nodeDescription": "A Guide to Good Eating Along the Light Rail and Streetcar Lines that Connect Phoenix, Tempe, and Mesa",
+      "nodeIcon": "https://phxrailfood.com/wp-content/uploads/2017/12/cropped-phx-rail-food-logo2.jpg"
+    }
+  },
+  "error": null
+}

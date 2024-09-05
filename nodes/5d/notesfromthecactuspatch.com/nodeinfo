@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 407,
+      "localComments": 3208
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Notes From The Cactus Patch",
+      "nodeDescription": "Tall Tales and Ripping Yarns from The Great State Of Texas",
+      "nodeIcon": "https://notesfromthecactuspatch.com/wp-content/uploads/2024/02/cropped-20200506_122924-1.jpg"
+    }
+  },
+  "error": null
+}

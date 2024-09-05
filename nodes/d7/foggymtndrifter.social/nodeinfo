@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-07"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 151
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "FoggyMtnDrifter's Digital Lair",
+      "nodeDescription": "FoggyMtnDrifter broadcasts from the digital wilds. Open-source adventures and the occasional existential question. Registrations closed - current population: one."
+    }
+  },
+  "error": null
+}

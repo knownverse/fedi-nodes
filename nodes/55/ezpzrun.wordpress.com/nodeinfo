@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 256,
+      "localComments": 642
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ezpzrun",
+      "nodeDescription": "Making Fitness as a Fun Daily Activity",
+      "nodeIcon": "https://ezpzrun.wordpress.com/wp-content/uploads/2023/11/cropped-231b0-sunflower_20220729_100528-2-scaled-1.jpg"
+    }
+  },
+  "error": null
+}

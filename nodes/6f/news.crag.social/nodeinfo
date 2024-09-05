@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "NodeBB",
+      "version": "4.0.0-alpha"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": "23",
+        "activeMonth": 10,
+        "activeHalfyear": 23
+      },
+      "localPosts": "963"
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "OpenBeta Forums",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

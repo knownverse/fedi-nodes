@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 13
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dra. Ofelia Arias",
+      "nodeDescription": "en pocas palabras...mis recomendaciones para una vida mejor",
+      "nodeIcon": "https://draofeliaarias.com/wp-content/uploads/2021/12/cropped-34307f16-8082-492c-ac16-5dd6ff85d71d_1_201_a.jpeg"
+    }
+  },
+  "error": null
+}

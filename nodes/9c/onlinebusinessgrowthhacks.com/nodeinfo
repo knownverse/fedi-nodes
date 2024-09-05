@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 102,
+      "localComments": 1016
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "QUIT THE NINE TO FIVE",
+      "nodeDescription": "",
+      "nodeIcon": "https://onlinebusinessgrowthhacks.com/wp-content/uploads/2024/04/cropped-bench-accounting-8d2k7a3wmkq-unsplash-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "6.0.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 150,
+        "activeHalfyear": 6,
+        "activeMonth": 6
+      },
+      "localPosts": 324,
+      "localComments": 37
+    },
+    "metadata": {
+      "nodeName": "LUGNSK.ORG"
+    }
+  },
+  "error": null
+}

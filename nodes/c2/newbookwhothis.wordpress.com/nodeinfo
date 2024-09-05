@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ramblings from the Spiral",
+      "nodeDescription": "To everyone who visited, thank you for giving my words a chance.",
+      "nodeIcon": "https://newbookwhothis.wordpress.com/wp-content/uploads/2024/01/cropped-neon-pink-iced-donut.-pills-on-donut.-dark-black-background.-1-3419375639-e1705967600959.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 130,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Emojiency",
+      "nodeDescription": "Fiction, autobiography, and all the gooey stuff in the middle.",
+      "nodeIcon": "https://www.emojiency.com/bloggityblogblog/wp-content/uploads/2016/07/cropped-emojiency_face_siteicon.png"
+    }
+  },
+  "error": null
+}

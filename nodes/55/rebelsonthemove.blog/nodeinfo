@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 12,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Failure of Governance in the Muslim World. A Study with reference to Pakistan as a Sample State.",
+      "nodeDescription": "An Insightful Writer, An Analytical Geek, A believer in Science, A former Civil Servant, An Insider Storyteller Writes a Blog!",
+      "nodeIcon": "https://i0.wp.com/rebelsonthemove.blog/wp-content/uploads/2023/11/image-1.jpg?fit=640%2C640&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 35,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "守矢神社-建設中",
+      "nodeDescription": "建設中，暫僅對認識的人開放註冊。歡迎跨實例互動。\n本實例由東方廚開設，以東方Project中的守矢神社為名，與洩矢神社等現實中的組織、機構等無直接關聯。\nThis instance is run by a TOUHOU FAN, under the name of \"MoriyaShrine\"(守矢神社) in Touhou project, no associated with any institution and organization (like 洩矢神社) in real life.\n聲明：\n本實例伺服器位於中華人民共和國香港特區，嚴禁用於傳播淫穢、色情、詐欺、政治敏感等違反中華人民共和國大陸地區及香港特區法律之信息，發現將私人網盤用於傳播違法信息之情形則直接刪除帳戶，並清空所儲信息。處理前不會予以警告。\n本實例用戶發言與Fediverse timeline不代表管理員意志與立場。\n本實例管理員堅定\"四個自信\"、\"兩個維護\"，熱愛祖國，熱愛人民，好好學習，天天鍛鍊，時刻準備為共產主義事業而奮鬥。\n個人小站，晶哥你就搖了我吧！\nDisclaimer:\nContents that violate Chinese value and law will be removed for some reason, sorry for that.",
+      "maintainer": {
+        "name": "早苗",
+        "email": "内緒"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#9cf7cc"
+    }
+  },
+  "error": null
+}

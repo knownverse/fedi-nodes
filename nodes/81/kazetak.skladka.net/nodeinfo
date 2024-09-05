@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 246,
+        "activeHalfyear": 6,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://kazetak.skladka.net/federation/actors/service_2",
+      "private": false,
+      "shortDescription": "tape player from a landfill",
+      "longDescription": "- sounds rusty even though it's completely made out of plastic / zní rezavě, i když je celej z plastu\r\n\r\n- photo is only illustrational / foto slouží pouze pro ilustrační účely",
+      "contactEmail": "",
+      "nodeName": "kazeťák na skládce",
+      "banner": "https://kazetak.skladka.net/media/dynamic_preferences/instance__banner/kazetak_1R5uWUy.webp",
+      "defaultUploadQuota": 13000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 34
+          }
+        },
+        "listenings": {
+          "total": 11802
+        },
+        "downloads": {
+          "total": 13273
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 9952
+        },
+        "artists": {
+          "total": 2688
+        },
+        "albums": {
+          "total": 2697
+        },
+        "music": {
+          "hours": 520.02
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": true
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": false
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": true
+        }
+      ],
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "rules": "1. podporujte hudebníky, jak můžete\r\n2. serte na vydavatelský příživníky\r\n3. OSA ať se jde vycpat\r\n4. je vrcholně fajn mít __tagy v pořádku už před uploadem__, protože dodatečně se editujou pekelně blbě",
+      "terms": ""
+    }
+  },
+  "error": null
+}

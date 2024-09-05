@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 252,
+      "localComments": 29
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Generation &#039;89",
+      "nodeDescription": "&quot;We are evolution!&quot;",
+      "nodeIcon": "https://generation89.de/wp-content/uploads/2020/10/cropped-G89-favicons.png"
+    }
+  },
+  "error": null
+}

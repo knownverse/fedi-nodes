@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 794,
+      "localComments": 15295
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Try to get it!",
+      "nodeDescription": "My thoughts.....",
+      "nodeIcon": "https://omabdalrahmaan.wordpress.com/wp-content/uploads/2020/09/img-20200824-wa0011.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,214 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mostr",
+      "version": "1.0.0",
+      "repository": "https://gitlab.com/soapbox-pub/mostr",
+      "homepage": "https://mostr.pub"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 20732
+      }
+    },
+    "metadata": {
+      "features": [
+        "nip05",
+        "nostr_bridge"
+      ],
+      "relays": [
+        "wss://relay.mostr.pub"
+      ],
+      "readonlyRelays": [
+        "wss://nostr.land",
+        "wss://nostr.fmt.wiz.biz",
+        "wss://relay.damus.io",
+        "wss://offchain.pub",
+        "wss://nos.lol"
+      ],
+      "stats": {
+        "activitypub": {
+          "users": 6463,
+          "popular": [
+            {
+              "apId": "https://gleasonator.com/users/alex",
+              "count": 2250
+            },
+            {
+              "apId": "https://xscape.top/users/xscape",
+              "count": 837
+            },
+            {
+              "apId": "https://mastodon.social/users/protonmail",
+              "count": 815
+            },
+            {
+              "apId": "https://mastodon.social/users/RedditGoneWild",
+              "count": 655
+            },
+            {
+              "apId": "https://xscape.top/users/HairyPoppins",
+              "count": 623
+            },
+            {
+              "apId": "https://schleuss.online/users/itnewsbot",
+              "count": 589
+            },
+            {
+              "apId": "https://noc.social/users/todayilearned",
+              "count": 466
+            },
+            {
+              "apId": "https://grapheneos.social/users/GrapheneOS",
+              "count": 424
+            },
+            {
+              "apId": "https://mastodon.online/users/mullvadnet",
+              "count": 405
+            },
+            {
+              "apId": "https://mastodon.online/users/alexwild",
+              "count": 401
+            },
+            {
+              "apId": "https://xscape.top/users/FamilyGuy",
+              "count": 397
+            },
+            {
+              "apId": "https://mastodon.social/users/torproject",
+              "count": 357
+            },
+            {
+              "apId": "https://bae.st/users/ShowerThoughts",
+              "count": 339
+            },
+            {
+              "apId": "https://social.kernel.org/users/torvalds",
+              "count": 289
+            },
+            {
+              "apId": "https://press.coop/users/Reuters",
+              "count": 275
+            },
+            {
+              "apId": "https://mastodon.world/users/9GAG",
+              "count": 270
+            },
+            {
+              "apId": "https://press.coop/users/WSJ",
+              "count": 259
+            },
+            {
+              "apId": "https://mastodon.social/users/eff",
+              "count": 252
+            },
+            {
+              "apId": "https://press.coop/users/GameSpot",
+              "count": 247
+            },
+            {
+              "apId": "https://mastodon.social/users/nixCraft",
+              "count": 237
+            }
+          ]
+        },
+        "nostr": {
+          "users": 14269,
+          "popular": [
+            {
+              "pubkey": "84dee6e676e5bb67b4ad4e042cf70cbd8681155db535942fcc6a0533858a7240",
+              "count": 610
+            },
+            {
+              "pubkey": "45b35521c312a5da4c2558703ad4be3d2e6d08c812551514c7a1eb7ab5fa0f04",
+              "count": 427
+            },
+            {
+              "pubkey": "6d30bbc96c99027f6bffe8151700f650f5c0be0cba2d2ac814dcccaf5cb99d46",
+              "count": 371
+            },
+            {
+              "pubkey": "1b1e7b22eb297be33b16dbc01d89cf2ee88704390710069feee7ab9ed91deb1d",
+              "count": 330
+            },
+            {
+              "pubkey": "cd6679f6ef2df2aa43ec7bda28dbac8ca1ca49813c7a4eaa35ccb9bc6f8a3432",
+              "count": 318
+            },
+            {
+              "pubkey": "82341f882b6eabcd2ba7f1ef90aad961cf074af15b9ef44a09f9d2a8fbfbe6a2",
+              "count": 298
+            },
+            {
+              "pubkey": "bd2f96f56347abe90464d1c220d093e325fe41212926b9eb8c056c5f6ab08280",
+              "count": 271
+            },
+            {
+              "pubkey": "0461fcbecc4c3374439932d6b8f11269ccdb7cc973ad7a50ae362db135a474dd",
+              "count": 152
+            },
+            {
+              "pubkey": "17b209d34f8fd7c30fde779eb8c3b0c84f724d021ebe6007a5ba70093b2576da",
+              "count": 142
+            },
+            {
+              "pubkey": "76c71aae3a491f1d9eec47cba17e229cda4113a0bbb6e6ae1776d7643e29cafa",
+              "count": 136
+            },
+            {
+              "pubkey": "4cd81099cf9ff5e1bb0dae3959e4b7be23b3df952aa8d766b63dd885b3f755be",
+              "count": 135
+            },
+            {
+              "pubkey": "32e1827635450ebb3c5a7d12c1f8e7b2b514439ac10a67eef3d9fd9c5c68e245",
+              "count": 113
+            },
+            {
+              "pubkey": "508f28656b8db436153d5239de5034abc0351b8c90ac33e6b156d1fea64b2960",
+              "count": 113
+            },
+            {
+              "pubkey": "d981591e0ea6153b8687b2aed670ab7d9b6c3ad018a360b2820b3cf0f7c0ae37",
+              "count": 109
+            },
+            {
+              "pubkey": "3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d",
+              "count": 97
+            },
+            {
+              "pubkey": "2c7cc62a697ea3a7826521f3fd34f0cb273693cbe5e9310f35449f43622a5cdc",
+              "count": 94
+            },
+            {
+              "pubkey": "33c74427f3b2b73d5e38f3e6c991c122a55d204072356f71da49a0e209fb6940",
+              "count": 81
+            },
+            {
+              "pubkey": "80f48f5e58c5d0d9774856ebf7f619da347b1546fc0115dbcb6511de9d4a9e3c",
+              "count": 81
+            },
+            {
+              "pubkey": "c060b31fe2bbb0be4d393bc7c40a80848a25b8f0e0f382cb5b49c37bf7476cb4",
+              "count": 75
+            },
+            {
+              "pubkey": "5c10ed0678805156d39ef1ef6d46110fe1e7e590ae04986ccf48ba1299cb53e2",
+              "count": 70
+            }
+          ]
+        }
+      }
+    }
+  },
+  "error": null
+}

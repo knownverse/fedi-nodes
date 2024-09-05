@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "activityrelay",
+      "version": "0.3.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "localPosts": 0,
+      "localComments": 0,
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "approval_required": false,
+      "peers": [
+        "sekretaerbaer.de",
+        "declin.eu",
+        "social.fischbyte.de",
+        "mastodon.medienzentrenbw.de",
+        "mastodon.terpotiz.net",
+        "gnurfl.de",
+        "swissodon.ch",
+        "shk.mv2k.com",
+        "mastodon.ostertag.team",
+        "friendicadev.sekretaerbaer.de",
+        "sharkey.social",
+        "afterspace.rocks",
+        "weyhe.social",
+        "lilienthal.social",
+        "relay.fedi.buzz",
+        "social.j62.de",
+        "netzkae.se",
+        "social.ceod.net",
+        "pentacop.moellus.net",
+        "mastodon.zapfmeister.net",
+        "msk.mv2k.com",
+        "m.feyo.pw",
+        "firefish.mv2k.com",
+        "social.fidart.it",
+        "masto.onurb.net",
+        "chat.niclas.xyz",
+        "social.brothertec.eu",
+        "friendicagaarden.de",
+        "beoriginal.social",
+        "mstdn.mv2k.com",
+        "social.mv2k.com",
+        "khuluma.de",
+        "mapstodon.technology",
+        "social-pflege.de",
+        "federation.network",
+        "wandzeitung.xyz",
+        "zuhair.social",
+        "masto.allerlei.it",
+        "hannover.town",
+        "social.detektor.fm",
+        "test.metaversum.wtf",
+        "amateurfunk.social",
+        "mst.mineown.de",
+        "mielke.social",
+        "tinycities.net",
+        "dagegenbewegen.social",
+        "relay.kanoa.de",
+        "unvernunft.social",
+        "kanoa.de",
+        "elbmatsch.de",
+        "anywise.net",
+        "idlethumbs.social",
+        "oldbytes.space",
+        "mastodon.wurzelmann.at",
+        "lazysocial.de",
+        "fnordon.de",
+        "social.bund.de",
+        "pixelfed.21314.de",
+        "karlsruhe.social",
+        "mastodon.bwnet.it",
+        "social.bopinions.de",
+        "friendica.andreaskilgus.de",
+        "nothavingthis.co.uk",
+        "glitch.sekretaerbaer.net",
+        "mstdn.sekbaer.de",
+        "mirus.club",
+        "nerdistan.cloud"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "夏の思い出",
+      "nodeDescription": "夏の匂いがまた君を思い出させる｡ 忘れられないの、君と青い夏｡",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "tumblr",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 67
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

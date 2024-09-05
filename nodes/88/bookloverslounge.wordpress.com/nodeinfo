@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 35,
+      "localComments": 88
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Book Lover&#039;s Lounge",
+      "nodeDescription": "Chronicles of a Bookworm&#039;s Odyssey ^^*",
+      "nodeIcon": "https://bookloverslounge.wordpress.com/wp-content/uploads/2023/11/cropped-2.jpg"
+    }
+  },
+  "error": null
+}

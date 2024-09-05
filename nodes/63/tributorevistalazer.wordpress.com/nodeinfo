@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 254,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TRL | Tributo Revista LAZER",
+      "nodeDescription": "Publicación de notas de la revista LAZER de Editorial IVREA.",
+      "nodeIcon": "https://tributorevistalazer.wordpress.com/wp-content/uploads/2023/07/cropped-logo_trl.png"
+    }
+  },
+  "error": null
+}

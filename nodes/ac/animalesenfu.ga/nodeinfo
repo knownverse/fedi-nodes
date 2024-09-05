@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "animales@disroot.org",
+        "name": "hogveras, tristes, vegansite"
+      },
+      "nodeDescription": "Instancia para personas y colectivas veganas/antiespecistas de habla hispana. \n<br>\nCreada por <a href=\"https://animalesenfu.ga/@4w4/pages/tos\"><b>4w4</b></a> y ahora mantenida por su familia y amistades en su memoria.\n<br>\n<br>\nCorreo de contacto: animales@disroot.org\n<br>\n<br>\nRevisa los <a href=\"https://animalesenfu.ga/@4w4\"><b>Términos de Servicios</b></a>.\n<br>\nLa imagen de fondo es de <a href=\"https://www.wkolinska.com\"><b>Weronika Kolinska</b></a>",
+      "nodeName": "Animales en fuga",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FB00E8"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240630"
+    },
+    "usage": {
+      "localPosts": 3138,
+      "users": {
+        "activeHalfyear": 27,
+        "activeMonth": 14,
+        "total": 94
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

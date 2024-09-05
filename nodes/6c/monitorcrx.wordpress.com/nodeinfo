@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 21,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Monitor_CRX",
+      "nodeDescription": "Stay updated with the latest in healthcare, pharmaceuticals, medical startups, and clinical trials.",
+      "nodeIcon": "https://monitorcrx.wordpress.com/wp-content/uploads/2024/04/cropped-logo_e7858ee88cb6e78cbf_cycle.png"
+    }
+  },
+  "error": null
+}

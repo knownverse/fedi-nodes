@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 416,
+      "localComments": 65
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AstroCampania ETS",
+      "nodeDescription": "l&#039;astronomia amatoriale in Campania",
+      "nodeIcon": "https://www.astrocampania.it/wp-content/uploads/sites/3/2015/05/cropped-AstroCampania_LOGO_FB-1.png"
+    }
+  },
+  "error": null
+}

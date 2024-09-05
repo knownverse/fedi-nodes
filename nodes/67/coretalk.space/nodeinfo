@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 439,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1824,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Core ◆ Talk",
+      "nodeDescription": "Core ◆ Talk is where blockchain enthusiasts, advocates of decentralization, and the Fediverse community converge. It's a movement for digital autonomy, ethical interaction, and free expression. Join us to share, discuss, and connect over the transformative power of blockchain within a secure and respectful environment. Rediscover digital freedom with Core ◆ Talk. ActivityPub relay: https://relay.fedi.buzz/instance/coretalk.space",
+      "nodeAdmins": [
+        {
+          "name": "Blockchain Hub",
+          "email": "contact@coretalk.space"
+        }
+      ],
+      "maintainer": {
+        "name": "Blockchain Hub",
+        "email": "contact@coretalk.space"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/bchainhub/coretalk/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#039e21"
+    }
+  },
+  "error": null
+}

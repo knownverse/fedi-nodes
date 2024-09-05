@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+cat.1.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 65
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Kyuties :3",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

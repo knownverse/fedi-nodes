@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "admin@hypervirtual.world",
+        "name": "@notharry123"
+      },
+      "nodeDescription": "the cuntiest french firefish instance<3. \ncentres d'intérêts : la mode, les sciences, la musique. mais ça ne vous empêche pas de parler de n'importe quoi!\nplease come join us ! ",
+      "nodeName": "fish in da hyperwater !",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240729"
+    },
+    "usage": {
+      "localPosts": 44,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

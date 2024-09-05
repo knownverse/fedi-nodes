@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 127,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "defragment.tech",
+      "nodeDescription": "Jan Kordovský - blog / info / podcast consulting / strategie / media",
+      "nodeIcon": "https://defragment.tech/wp-content/uploads/2023/12/cropped-Screenshot-2023-12-17-at-12.27.44.png"
+    }
+  },
+  "error": null
+}

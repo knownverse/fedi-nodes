@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 16
+      },
+      "localComments": 16,
+      "localPosts": 38
+    },
+    "metadata": {
+      "nodeDescription": "This is a first test instance. Don't look at anything ! It may break anytime ! Don't federate with it.",
+      "nodeName": "Instance de test numéro 1"
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-beta.1-dirty"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

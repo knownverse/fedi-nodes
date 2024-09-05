@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 62,
+        "activeHalfyear": 20,
+        "activeMonth": 7
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.anartist.org/federation/actors/service",
+      "private": true,
+      "shortDescription": "Más info en: https://anartist.org",
+      "longDescription": "Nuestros objetivos son:\r\n\r\n- Crear una comunidad colectivizando herramientas no comerciales\r\n- Descentralizar el poder de la industria cultural\r\n- Generar espacios de debate, aprendizaje y apoyo mutuo entre artistas\r\n- Construir cultura libre y ética para la transformación social\r\n\r\nMás info en: https://anartist.org",
+      "contactEmail": "info@anartist.org",
+      "nodeName": "Anartist Funkwhale",
+      "banner": "https://audio.anartist.org/media/dynamic_preferences/instance__banner/banner%20funkwhale.png",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "Te gusta escuchar música y podcasts? A nosotras también! Por eso te pedimos que apoyes económicamente el proyecto para que todas podamos seguir disfrutando\r\n\r\n[**Haz una donación a Anartist**](https://opencollective.com/anartist/donate)",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 168
+          }
+        },
+        "listenings": {
+          "total": 1224
+        },
+        "downloads": {
+          "total": 13225
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 803
+        },
+        "artists": {
+          "total": 139
+        },
+        "albums": {
+          "total": 103
+        },
+        "music": {
+          "hours": 506.6508333333333
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "Esta herramienta está gestionada por el proyecto comunitario Anartist.org. Si quieres crearte una cuenta asegúrate de aceptar primero nuestros [acordes de convivencia](https://anartist.org/acuerdos-de-convivencia). Una vez leídos, si estás de acuerdo, ya puedes [solicitar una cuenta en Anartist.org](https://anartist.org/cuenta).",
+      "terms": "Esta herramienta está gestionada por el proyecto comunitario Anartist.org. Si quieres crearte una cuenta asegúrate de aceptar primero nuestros [acordes de convivencia](https://anartist.org/acuerdos-de-convivencia). Una vez leídos, si estás de acuerdo, ya puedes [solicitar una cuenta en Anartist.org](https://anartist.org/cuenta)."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 111,
+      "localComments": 37
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LautFunk",
+      "nodeDescription": "Wo Geschichten unüberhörbar übermittelt werden.",
+      "nodeIcon": "https://lautfunk.uber.space/wp-content/uploads/2018/04/cropped-LautFunk-1.jpg"
+    }
+  },
+  "error": null
+}

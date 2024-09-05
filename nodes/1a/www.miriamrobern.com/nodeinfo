@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 193,
+      "localComments": 11
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Miriam Robern ",
+      "nodeDescription": "makes Books &amp; Games &amp; Things",
+      "nodeIcon": "https://www.miriamrobern.com/wp-content/uploads/2023/12/cropped-Look-Past-Camera.jpg"
+    }
+  },
+  "error": null
+}

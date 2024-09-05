@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 998,
+      "localComments": 1711
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Animal Toy Blog",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/animaltoyforum.com/blog/wp-content/uploads/2019/10/cropped-Tiger2.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

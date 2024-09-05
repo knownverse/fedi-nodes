@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeMonth": 6,
+        "activeHalfyear": 7
+      },
+      "localPosts": 790
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Hackerdrinks.social",
+      "nodeDescription": "Hackerdrinks community mastodon. Maintained by the guys from <a href=\"https://hackerdrinks.sg\">hackerdrinks.sg</a>"
+    }
+  },
+  "error": null
+}

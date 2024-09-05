@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 32
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mededelingen van de Civiele Autoriteiten",
+      "nodeDescription": "Mededelingen van de afdelingschef satirische activiteiten regio Midden-West.\r\nVoor klachten kunt u op maandag tussen 14:30 en 15:15 terecht bij loket 6b, alleen op afspraak."
+    }
+  },
+  "error": null
+}

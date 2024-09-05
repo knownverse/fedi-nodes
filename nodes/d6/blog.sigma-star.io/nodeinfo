@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 10,
+      "localComments": 42
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sigma&#039;s Blog",
+      "nodeDescription": "Quite informative, somewhat entertaining",
+      "nodeIcon": "https://blog.sigma-star.io/wp-content/uploads/2023/03/favicon-1.png"
+    }
+  },
+  "error": null
+}

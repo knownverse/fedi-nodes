@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.7.0-torch",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 48,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "TorchMC",
+      "nodeDescription": "тестируем этот ваш федивёрс",
+      "nodeAdmins": [
+        {
+          "name": "@cuteboibutt@torchmc.ru",
+          "email": "cuteboibutt@protonmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@cuteboibutt@torchmc.ru",
+        "email": "cuteboibutt@protonmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "admin@torchmc.ru",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://git.torchmc.ru/TorchMC/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#b40118"
+    }
+  },
+  "error": null
+}

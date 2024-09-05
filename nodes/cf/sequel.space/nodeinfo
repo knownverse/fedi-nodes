@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sequel",
+      "version": "0.19.0"
+    },
+    "protocols": [
+      "activitypub",
+      "gemini"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 116,
+        "activeHalfyear": 11,
+        "activeMonth": 1
+      },
+      "localPosts": 178,
+      "localComments": 31
+    },
+    "metadata": {}
+  },
+  "error": null
+}

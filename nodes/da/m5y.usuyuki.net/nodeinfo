@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/usuyuki/usuyukey",
+      "repository": "https://github.com/usuyuki/usuyukey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4951,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "うすゆきーv2",
+      "nodeDescription": "うすゆきーインスタンスの復活版。\nおひとりさまインスタンスのため、登録などは受け付けていません！\n美味しくなって新登場🍮",
+      "nodeAdmins": [
+        {
+          "name": "うすゆき",
+          "email": "usuyuki524@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "うすゆき",
+        "email": "usuyuki524@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/usuyuki/usuyukey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#7e937f"
+    }
+  },
+  "error": null
+}

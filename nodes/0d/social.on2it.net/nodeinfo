@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-09-04+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeMonth": 5,
+        "activeHalfyear": 8
+      },
+      "localPosts": 282
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "ON2IT - Zero trust innovators",
+      "nodeDescription": "Provided by ON2IT, for employees of ON2IT"
+    }
+  },
+  "error": null
+}

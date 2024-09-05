@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 84,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "&quot;EMPOWERED MINDSET&quot;",
+      "nodeDescription": "&quot;Nurturing Minds, Inspiring Growth&quot;",
+      "nodeIcon": "https://empoweredmindset.blog/wp-content/uploads/2024/07/img-bdgxyuxinbt8rrnjo9xnqimk.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 67148,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ななおすきー",
+      "nodeDescription": "<a href=\"https://misskey.damnx.net/@damnxcsy\">七尾氏</a>専用\n",
+      "nodeAdmins": [
+        {
+          "name": "七尾氏(@damnxcsy)",
+          "email": "https://misskey.damnx.net/@damnxcsy"
+        }
+      ],
+      "maintainer": {
+        "name": "七尾氏(@damnxcsy)",
+        "email": "https://misskey.damnx.net/@damnxcsy"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://misskey.damnx.net/@damnxcsy",
+      "impressumUrl": "https://misskey.damnx.net/@damnxcsy",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

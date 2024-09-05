@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 49,
+        "activeMonth": 4,
+        "activeHalfyear": 7
+      },
+      "localPosts": 782
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "mastodon.sl",
+      "nodeDescription": "This server is operated by Cajutel (Sierra Leone) Ltd, the fastest growing internet provider in Sierra Leone. It is open to anyone, especially to west africans and the free press."
+    }
+  },
+  "error": null
+}

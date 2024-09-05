@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.2.3"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {
+      "peers": [
+        "ottawa.place",
+        "mastodonapp.ca",
+        "thecanadian.social",
+        "oceanplayground.social",
+        "nelson.social",
+        "tuxz.one",
+        "neonsoup.xyz",
+        "akko.within.website",
+        "nfld.me",
+        "kitchenparty.online",
+        "hub.winslow.cloud",
+        "mstdn.chrisalemany.ca",
+        "phire.place",
+        "hiya.moe",
+        "yql.social",
+        "social.dinn.ca",
+        "clar.ke"
+      ]
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

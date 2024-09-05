@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "EclecticEuphoria",
+      "nodeDescription": "Celebrating My Kaleidoscope of Interests",
+      "nodeIcon": "https://hdshirtsandtotes.wordpress.com/wp-content/uploads/2024/01/7987fc18-4538-4670-b690-ace11997f5bc.jpeg"
+    }
+  },
+  "error": null
+}

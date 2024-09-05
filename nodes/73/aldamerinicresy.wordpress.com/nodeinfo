@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1359,
+      "localComments": 821
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My little poetry by Cresy Crescenza ",
+      "nodeDescription": "RESPIRO L&#039;ANIMA",
+      "nodeIcon": "https://aldamerinicresy.wordpress.com/wp-content/uploads/2019/06/39946580_2242383185789249_3047476341021605888_n.jpg"
+    }
+  },
+  "error": null
+}

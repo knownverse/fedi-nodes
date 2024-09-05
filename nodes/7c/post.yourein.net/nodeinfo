@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5570,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Yourein's Notebook",
+      "nodeDescription": "Youreinのおひとりさまインスタンスです\n\n(おひとりさまですが、知り合いならアカウントの作成を受け入れるかもしれません。個別に相談してください。)",
+      "nodeAdmins": [
+        {
+          "name": "Yourein",
+          "email": "rein.you.3.1@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Yourein",
+        "email": "rein.you.3.1@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_yourein_net",
+      "themeColor": "#ef8e34"
+    }
+  },
+  "error": null
+}

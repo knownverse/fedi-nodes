@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 348,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 139175,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "𝙉𝙚𝙬𝙨𝙠𝙚𝙮.𝙘𝙘",
+      "nodeDescription": "管理人がMisskeyをするために建てたノージャンルなMisskeyインスタンスです。参加希望の方は頑張って招待コードを入手してください。",
+      "nodeAdmins": [
+        {
+          "name": "れもん",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "れもん",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://newskey.cc/@Yellow/pages/Terms_of_service",
+      "privacyPolicyUrl": "https://newskey.cc/@Yellow/pages/privacy-policy",
+      "inquiryUrl": "https://blog.newskey.cc/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ff4637"
+    }
+  },
+  "error": null
+}

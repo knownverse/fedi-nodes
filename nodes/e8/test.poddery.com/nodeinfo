@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.15.0"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 772,
+        "activeHalfyear": 48,
+        "activeMonth": 27
+      },
+      "localPosts": 26781,
+      "localComments": 34021
+    },
+    "metadata": {
+      "nodeName": "Poddery*",
+      "xmppChat": false,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "savepoddery"
+    }
+  },
+  "error": null
+}

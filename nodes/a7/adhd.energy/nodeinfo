@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1079
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "adhd.energy",
+      "nodeDescription": "Mastodon is a decentralised social network. This is my instance of it and will be largely full of ADHD-ridden Toots."
+    }
+  },
+  "error": null
+}

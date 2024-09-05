@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1545,
+      "localComments": 771
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ellen Mint",
+      "nodeDescription": "Author of Steamy Cinnamon Roll Romances",
+      "nodeIcon": "https://ellenmint.blog/wp-content/uploads/2019/06/cropped-logo3.jpg"
+    }
+  },
+  "error": null
+}

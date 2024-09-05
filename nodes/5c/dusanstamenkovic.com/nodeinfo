@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 419,
+      "localComments": 974
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Душан Стаменковић",
+      "nodeDescription": "Белешке о људима и догађајима, као и фотографије, могу да послуже будућим генерацијама да боље разумеју наш данашњи живот.",
+      "nodeIcon": "https://dusanstamenkovic.com/wp-content/uploads/2017/04/cropped-dusan-stamenkovic1.jpg"
+    }
+  },
+  "error": null
+}

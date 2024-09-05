@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Eventi tra Ravenna e Ferrara",
+      "nodeName": "FuoriNellaNebbia",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.17.2"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 61,
+      "users": {
+        "total": 1
+      }
+    }
+  },
+  "error": null
+}

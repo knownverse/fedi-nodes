@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.08-1571"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "smtp",
+        "twitter"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 5,
+        "activeMonth": 5
+      },
+      "localPosts": 28,
+      "localComments": 32
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Alteria Social",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [],
+        "outbound": [
+          "smtp",
+          "twitter"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

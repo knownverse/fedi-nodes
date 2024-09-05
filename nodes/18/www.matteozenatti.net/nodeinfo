@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 217,
+      "localComments": 402
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Matteo Zenatti",
+      "nodeDescription": "tenore e arpista di musiche antiche",
+      "nodeIcon": "https://www.matteozenatti.net/wp-content/uploads/2020/02/cropped-Matteobianco-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2759,
+      "localComments": 1215
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "El Blog de Zack",
+      "nodeDescription": "Para ser es necesario hacer.",
+      "nodeIcon": "https://zackelquesabe.wordpress.com/wp-content/uploads/2023/07/cropped-cutpaste_2023-07-11_16-17-04-565.png"
+    }
+  },
+  "error": null
+}

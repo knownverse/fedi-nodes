@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 44,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Off-Grid",
+      "nodeDescription": "The not-really-about crosswords podcast. &quot;A show that is almost entirely digressions from its notional subject.&quot; - The General",
+      "nodeIcon": "https://offgrid.tlmb.net/wp-content/uploads/2021/06/cropped-Off-Grid_Pod_artwork_clpt_1400.jpg"
+    }
+  },
+  "error": null
+}

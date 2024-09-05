@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "13.16.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 30,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 10907,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "る、みすきー / РУ, МИССКИЙ",
+      "nodeDescription": "<FONT STYLE=\"color: #00ff58;\">るみさーばー</FONT>の<FONT STYLE=\"color: rgb(134, 179, 0);\">Misskey</FONT>インスタンス。<BR>\nつまり<FONT STYLE=\"color: blue;\"><A HREF=\"https://rumiserver.com/rumisystem/\">合同会社るみしすてむ</A></FONT>のインスタンスなんだが、<BR>\nほぼるみが運営する個人インスタンス（）<BR>\nちなみに新規登録できないので、おひとりさまみたいな所は有る<BR>\n<BR>\n<BR>\n<FONT STYLE=\"color: blue;\"><A HREF=\"https://rumi-room.net/FORM/index.html\">インスタンスブロック解除要求はこちらからどうぞ</A></FONT>",
+      "nodeAdmins": [
+        {
+          "name": "八木瑠海伸梧(@Rumisan)",
+          "email": "https://rumi-room.net/FORM/index.html"
+        }
+      ],
+      "maintainer": {
+        "name": "八木瑠海伸梧(@Rumisan)",
+        "email": "https://rumi-room.net/FORM/index.html"
+      },
+      "langs": [],
+      "tosUrl": "https://rumiserver.com/README/NEW/view.php?ID=RUMISSKEY/README",
+      "privacyPolicyUrl": "https://rumiserver.com/README/NEW/view.php?ID=RUMISERVER/PP",
+      "inquiryUrl": null,
+      "impressumUrl": "https://八木伸梧.com/PROF.html",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00ffb6"
+    }
+  },
+  "error": null
+}

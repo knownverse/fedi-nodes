@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 27,
+      "localComments": 34
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "What Mummy Didn&#039;t Know",
+      "nodeDescription": "Welcome to WhatMummyDidn&#039;tKnow.Blog, where I share insights, tips, and truths I&#039;ve uncovered on my parenting journey. As an older mum navigating the twists and turns of parenthood, I hope to offer a blend of laughter and learning from my own experiences. Here, you&#039;ll find candid reflections on what I wish I’d known, practical advice for working parents, and stories that make the journey a bit lighter. This blog is all about telling the truth of being a new, older, working mum — providing insights and information by sharing what I learn about the things I didn’t know!",
+      "nodeIcon": "https://whatmummydidntknow.blog/wp-content/uploads/2024/08/cropped-blog-logo-2.png"
+    }
+  },
+  "error": null
+}

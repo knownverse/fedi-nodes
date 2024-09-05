@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3222,
+      "localComments": 486
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Digital-Jéry ",
+      "nodeDescription": "Sport, TIC, Culture, Musik, on partage tout!!!",
+      "nodeIcon": "https://dierydiallo.wordpress.com/wp-content/uploads/2024/04/cropped-anniversaire.png"
+    }
+  },
+  "error": null
+}

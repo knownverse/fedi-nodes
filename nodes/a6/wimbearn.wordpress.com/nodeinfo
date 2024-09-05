@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 94,
+      "localComments": 103
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "wimbearn",
+      "nodeDescription": "Drawings, characters, fanart, and more done by Arnézia W.",
+      "nodeIcon": "https://wimbearn.wordpress.com/wp-content/uploads/2023/08/cropped-scan_20230808-2.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 980,
+      "localComments": 221
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zsolt Zsemba",
+      "nodeDescription": "Take a deep breath and open your mind....",
+      "nodeIcon": "https://i0.wp.com/zsoltzsemba.com/wp-content/uploads/2024/01/image-1.jpg?fit=960%2C960&ssl=1"
+    }
+  },
+  "error": null
+}

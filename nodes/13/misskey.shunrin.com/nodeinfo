@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 243,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8486,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.shunrin.com",
+      "nodeDescription": "試しに作ってみたので、もしよければどうぞ～！\nメールアドレスの登録は必須になりました～！\nお手数ですがよろしくお願いします～！\nストレージの上限は100MBになっています！上限の開放のお願いなどは、管理者までメールをお願いします～！\n\nスパムやBot対策のため、アカウント作成から1週間はグローバルタイムライン(GTL)が使えないようになっています。ご了承下さい。\n\n利用規約と日本の法律とマナーを守って利用してください。",
+      "nodeAdmins": [
+        {
+          "name": "しゅんりん",
+          "email": "misskey@shunrin.com"
+        }
+      ],
+      "maintainer": {
+        "name": "しゅんりん",
+        "email": "misskey@shunrin.com"
+      },
+      "langs": [],
+      "tosUrl": "https://shunrin.com/license.html",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

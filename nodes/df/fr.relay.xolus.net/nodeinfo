@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.114-max-e53db365"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "catharsis.cafe",
+        "cornichon.me",
+        "fedi.space",
+        "iceshrimp.spathoche.ovh",
+        "kwak.cab",
+        "masto.blasters.fr",
+        "masto.glorious-space.eu",
+        "mastodon.cgx.me",
+        "mastodon.fedivienne.org",
+        "mastodon.launay.org",
+        "mastodon.parleur.net",
+        "mastodon.xolus.net",
+        "oc.todon.fr",
+        "physfluids.fr",
+        "pleroma.spathoche.ovh",
+        "pouet.badprocess.me",
+        "social.n3otrax.fr",
+        "social.plom.net"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

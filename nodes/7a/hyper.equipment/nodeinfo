@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "13.1.4.1",
+      "repository": "https://codeberg/calckey/calckey",
+      "homepage": "https://calckey.cloud"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 208,
+        "activeHalfyear": 80,
+        "activeMonth": 27
+      },
+      "localPosts": 3258,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Hyper Equipment",
+      "nodeDescription": "An 18+ furry instance for all those who love massive assets, multiple assets, growth, macro, and everything related! Non-hypers welcome, as long as you're interested!\n\nPlease use a content warning for anything NSFW, as this instance is not private.",
+      "maintainer": {
+        "name": "@asrael",
+        "email": "asrael@hyper.equipment"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/asraeldragon/hyper.equipment/blob/master/CODE_OF_CONDUCT.md",
+      "repositoryUrl": "https://codeberg/calckey/calckey",
+      "feedbackUrl": "https://codeberg/calckey/calckey/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

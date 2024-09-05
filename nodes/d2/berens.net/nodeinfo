@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 106,
+      "localComments": 266
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "berens•net",
+      "nodeDescription": "Foto - Linux - Web - Welt ... und alles drumherum",
+      "nodeIcon": "https://berens.net/wp-content/uploads/2017/12/uber.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "admin@phoenixup.link",
+        "name": "@hryzn"
+      },
+      "nodeDescription": "Social platform hosted on node_001",
+      "nodeName": "//PHOENIX_INITIATIVE",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#1F46C3"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240523"
+    },
+    "usage": {
+      "localPosts": 3,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

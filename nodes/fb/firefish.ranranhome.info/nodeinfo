@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "admin@ranranhome.info",
+        "name": "ランラン"
+      },
+      "nodeDescription": "ランランが運営するFireFishインスタンス。\n\n利用規約は同じくランランが運用しているMastodonに準拠します。\nhttps://mstdn-jp.site/about\n",
+      "nodeName": "FireFish by ranranhome.info（登録開放中）",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240607"
+    },
+    "usage": {
+      "localPosts": 1406788,
+      "users": {
+        "activeHalfyear": 3959,
+        "activeMonth": 1297,
+        "total": 7887
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 73,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5162,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "CAMPHOR- Social",
+      "nodeDescription": "CAMPHOR- Social は京都のIT系学生コミュニティ CAMPHOR- が運営する汎用 Misskey サーバーです。\n\n主に京都の学生が対象ですが、そうでない方も大歓迎です！\n\nお問い合わせはこちら:\nhttps://camph.net/#contact",
+      "maintainer": {
+        "name": "CAMPHOR-",
+        "email": "support.camph.net"
+      },
+      "langs": [],
+      "tosUrl": "https://esa-pages.io/p/sharing/14200/posts/354/3c903a32045d90ef6514.html",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "admin",
+      "themeColor": "#f2151e"
+    }
+  },
+  "error": null
+}

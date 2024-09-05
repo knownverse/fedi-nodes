@@ -1,0 +1,603 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "media_proxy",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 10,
+          "reject_threshold": 20
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "MediaProxyWarmingPolicy",
+          "SimplePolicy",
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "HellthreadPolicy",
+          "EnsureRePrepended",
+          "AntiLinkSpamPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "activism.openworlds.info",
+            "bae.st",
+            "bikeshed.party",
+            "blob.cat",
+            "botsin.space",
+            "bungle.online",
+            "cawfee.club",
+            "chaos.social",
+            "djsumdog.com",
+            "floss.social",
+            "framapiaf.org",
+            "hachyderm.io",
+            "hackers.town",
+            "ihatebeinga.live",
+            "infosec.exchange",
+            "kolektiva.social",
+            "livellosegreto.it",
+            "mamot.fr",
+            "mas.to",
+            "masto.ai",
+            "mastodon.art",
+            "mastodon.bida.im",
+            "mastodon.cloud",
+            "mastodon.online",
+            "mastodon.sdf.org",
+            "mastodon.social",
+            "mastodon.uno",
+            "mastodon.world",
+            "misskey.io",
+            "mstdn.io",
+            "mstdn.social",
+            "octodon.social",
+            "outerheaven.club",
+            "poa.st",
+            "poly.cybre.city",
+            "puntarella.party",
+            "raru.re",
+            "shitposter.club",
+            "social.beepboop.ga",
+            "social.coop",
+            "social.shadowfacts.net",
+            "tenforward.social",
+            "this.mouse.rocks",
+            "todon.eu",
+            "toot.cat",
+            "unnerv.jp"
+          ],
+          "followers_only": [
+            "example.com",
+            "9kb.me",
+            "archaeology.social",
+            "bigballchunkyverse.online",
+            "bondsdogs.com",
+            "cherryberry.pink",
+            "cryptodon.lol",
+            "cunnyborea.top",
+            "cuyes.mooo.com",
+            "devsrv.farhan.codes",
+            "digitaldata.social",
+            "discourse.helenprejean.org",
+            "dtris.moe",
+            "edusocial.it",
+            "freesocial.co",
+            "fusionpros.social",
+            "game-tecx.de",
+            "games.retrotalk.live",
+            "hdty.in",
+            "i.transmit.love",
+            "kernkraft.social",
+            "kokuusa.club",
+            "kotodama.space",
+            "lllsecurity.com",
+            "m.techsocial.site",
+            "mastadon.astuto.cc",
+            "mastodon-omikron-alpha.net",
+            "mastodon.conquestuniverse.com",
+            "mastodon.io.seg.br",
+            "mastodon.thedirtydis.co",
+            "mentalhealthmasto.com",
+            "nasface.cz",
+            "neuroscience-mastodon.com",
+            "niederbayern.social",
+            "onion.social",
+            "onlybsds.com",
+            "rtypedbs.hostdon.ne.jp",
+            "s-h.social",
+            "scfzfilm.org",
+            "sensitive.hostdon.ne.jp",
+            "smooth.guru",
+            "social.cutefunny.net",
+            "tambayan.us",
+            "tech.retrotalk.live",
+            "thoughtful.social",
+            "tut.andreer.no",
+            "waterlily.tokyo"
+          ],
+          "media_nsfw": [
+            "h5q.net"
+          ],
+          "media_removal": [],
+          "reject": [
+            "threads.net",
+            "gab.com",
+            "baraag.net",
+            "pawoo.net",
+            "qoto.org",
+            "freespeechextremist.com",
+            "kiwifarms.cc"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "kolektiva.social": {
+              "reason": "noise"
+            },
+            "mastodon.sdf.org": {
+              "reason": "noise"
+            },
+            "bikeshed.party": {
+              "reason": "noise"
+            },
+            "mstdn.io": {
+              "reason": "noise"
+            },
+            "mastodon.world": {
+              "reason": "noise"
+            },
+            "hachyderm.io": {
+              "reason": "noise"
+            },
+            "shitposter.club": {
+              "reason": "noise"
+            },
+            "bungle.online": {
+              "reason": "noise"
+            },
+            "mamot.fr": {
+              "reason": "noise"
+            },
+            "blob.cat": {
+              "reason": "noise"
+            },
+            "chaos.social": {
+              "reason": "noise"
+            },
+            "tenforward.social": {
+              "reason": "noise"
+            },
+            "todon.eu": {
+              "reason": "noise"
+            },
+            "octodon.social": {
+              "reason": "noise"
+            },
+            "social.shadowfacts.net": {
+              "reason": "noise"
+            },
+            "mstdn.social": {
+              "reason": "noise"
+            },
+            "floss.social": {
+              "reason": "noise"
+            },
+            "mastodon.bida.im": {
+              "reason": "noise"
+            },
+            "misskey.io": {
+              "reason": "noise"
+            },
+            "botsin.space": {
+              "reason": "noise"
+            },
+            "toot.cat": {
+              "reason": "noise"
+            },
+            "outerheaven.club": {
+              "reason": "noise"
+            },
+            "mas.to": {
+              "reason": "noise"
+            },
+            "mastodon.uno": {
+              "reason": "noise"
+            },
+            "social.beepboop.ga": {
+              "reason": "noise"
+            },
+            "hackers.town": {
+              "reason": "noise"
+            },
+            "mastodon.online": {
+              "reason": "noise"
+            },
+            "bae.st": {
+              "reason": "noise"
+            },
+            "puntarella.party": {
+              "reason": "noise"
+            },
+            "poly.cybre.city": {
+              "reason": "noise"
+            },
+            "poa.st": {
+              "reason": "noise"
+            },
+            "framapiaf.org": {
+              "reason": "noise"
+            },
+            "mastodon.social": {
+              "reason": "noise"
+            },
+            "activism.openworlds.info": {
+              "reason": "noise"
+            },
+            "cawfee.club": {
+              "reason": "noise"
+            },
+            "social.coop": {
+              "reason": "noise"
+            },
+            "mastodon.cloud": {
+              "reason": "noise"
+            },
+            "masto.ai": {
+              "reason": "noise"
+            },
+            "livellosegreto.it": {
+              "reason": "noise"
+            },
+            "unnerv.jp": {
+              "reason": "noise"
+            },
+            "djsumdog.com": {
+              "reason": "noise"
+            },
+            "raru.re": {
+              "reason": "noise"
+            },
+            "infosec.exchange": {
+              "reason": "noise"
+            },
+            "mastodon.art": {
+              "reason": "noise"
+            },
+            "ihatebeinga.live": {
+              "reason": "noise"
+            },
+            "this.mouse.rocks": {
+              "reason": "noise"
+            }
+          },
+          "followers_only": {
+            "bigballchunkyverse.online": {
+              "reason": "Spam"
+            },
+            "kokuusa.club": {
+              "reason": "Spam"
+            },
+            "mastadon.astuto.cc": {
+              "reason": "Spam"
+            },
+            "hdty.in": {
+              "reason": "Spam"
+            },
+            "archaeology.social": {
+              "reason": "Spam"
+            },
+            "9kb.me": {
+              "reason": "Spam"
+            },
+            "kotodama.space": {
+              "reason": "Spam"
+            },
+            "m.techsocial.site": {
+              "reason": "Spam"
+            },
+            "cunnyborea.top": {
+              "reason": "Spam"
+            },
+            "tech.retrotalk.live": {
+              "reason": "Spam"
+            },
+            "dtris.moe": {
+              "reason": "Spam"
+            },
+            "cuyes.mooo.com": {
+              "reason": "Spam"
+            },
+            "example.com": {
+              "reason": "Test"
+            },
+            "rtypedbs.hostdon.ne.jp": {
+              "reason": "Spam"
+            },
+            "mastodon.thedirtydis.co": {
+              "reason": "Spam"
+            },
+            "edusocial.it": {
+              "reason": "Spam"
+            },
+            "onlybsds.com": {
+              "reason": "Spam"
+            },
+            "sensitive.hostdon.ne.jp": {
+              "reason": "Spam"
+            },
+            "mentalhealthmasto.com": {
+              "reason": "Spam"
+            },
+            "i.transmit.love": {
+              "reason": "Spam"
+            },
+            "devsrv.farhan.codes": {
+              "reason": "Spam"
+            },
+            "cherryberry.pink": {
+              "reason": "Spam"
+            },
+            "onion.social": {
+              "reason": "Spam"
+            },
+            "social.cutefunny.net": {
+              "reason": "Spam"
+            },
+            "mastodon.conquestuniverse.com": {
+              "reason": "Spam"
+            },
+            "fusionpros.social": {
+              "reason": "Spam"
+            },
+            "digitaldata.social": {
+              "reason": "Spam"
+            },
+            "waterlily.tokyo": {
+              "reason": "Spam"
+            },
+            "lllsecurity.com": {
+              "reason": "Spam"
+            },
+            "neuroscience-mastodon.com": {
+              "reason": "Spam"
+            },
+            "niederbayern.social": {
+              "reason": "Spam"
+            },
+            "cryptodon.lol": {
+              "reason": "Spam"
+            },
+            "tambayan.us": {
+              "reason": "Spam"
+            },
+            "bondsdogs.com": {
+              "reason": "Spam"
+            },
+            "nasface.cz": {
+              "reason": "Spam"
+            },
+            "freesocial.co": {
+              "reason": "Spam"
+            },
+            "kernkraft.social": {
+              "reason": "Spam"
+            },
+            "thoughtful.social": {
+              "reason": "Spam"
+            },
+            "mastodon.io.seg.br": {
+              "reason": "Spam"
+            },
+            "scfzfilm.org": {
+              "reason": "Spam"
+            },
+            "discourse.helenprejean.org": {
+              "reason": "Spam"
+            },
+            "game-tecx.de": {
+              "reason": "Spam"
+            },
+            "games.retrotalk.live": {
+              "reason": "Spam"
+            },
+            "tut.andreer.no": {
+              "reason": "Spam"
+            },
+            "smooth.guru": {
+              "reason": "Spam"
+            },
+            "s-h.social": {
+              "reason": "Spam"
+            },
+            "mastodon-omikron-alpha.net": {
+              "reason": "Spam"
+            }
+          },
+          "media_nsfw": {
+            "h5q.net": {
+              "reason": "Untagged NSFW content"
+            }
+          },
+          "reject": {
+            "baraag.net": {
+              "reason": "brutti"
+            },
+            "freespeechextremist.com": {
+              "reason": "Free speech extemist"
+            },
+            "gab.com": {
+              "reason": "Bullshit"
+            },
+            "kiwifarms.cc": {
+              "reason": "Persistent harassment of users, no moderation"
+            },
+            "pawoo.net": {
+              "reason": "brutti"
+            },
+            "qoto.org": {
+              "reason": "Free speech extemist"
+            },
+            "threads.net": {
+              "reason": "Silicon Valley"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "My private Akkoma instance.",
+      "nodeName": "Akkoma hosted by Elinvention",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://pleroma.elinvention.ovh/users/elia"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "usage": {
+      "localPosts": 1870,
+      "users": {
+        "activeHalfyear": 5,
+        "activeMonth": 3,
+        "total": 5
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

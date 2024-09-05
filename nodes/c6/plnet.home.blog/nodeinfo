@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rasel Computer  &amp; Network  Service  Providers",
+      "nodeDescription": "Police line shaheprotab Narsingdi",
+      "nodeIcon": "https://plnet.home.blog/wp-content/uploads/2023/09/cropped-screenshot_20230910_222015-1.jpg"
+    }
+  },
+  "error": null
+}

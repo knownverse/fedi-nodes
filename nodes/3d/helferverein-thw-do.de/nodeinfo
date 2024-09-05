@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "THW Helfervereinigung Dortmund",
+      "nodeDescription": "Die THW-Helfervereinigung Dortmund e.V. unterstützt als gemeinnütziger Förderverein die Arbeit der ehrenamtlichen Helfer des Technischen Hilfswerks in Dortmund..",
+      "nodeIcon": "https://helferverein-thw-do.de/wp-content/uploads/2022/06/favicon.png"
+    }
+  },
+  "error": null
+}

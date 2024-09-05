@@ -1,0 +1,640 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "mastodon.social",
+            "mstdn.social",
+            "mastodon.online",
+            "bsky.brid.gy",
+            "bird.makeup",
+            "misskey.io",
+            "masto.globaleas.org",
+            "kolektiva.social",
+            "aus.social",
+            "mstdn.jp",
+            "qaf.men",
+            "rubber.social"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "loli.church",
+            "repl.co",
+            "vercel.app",
+            "glitch.me",
+            "101010.pl",
+            "10minutepleroma.com",
+            "8777.ch",
+            "a.nti.social",
+            "a.sc",
+            "activitypub-proxy.cf",
+            "ai.wiki",
+            "aethy.com",
+            "adachi.party",
+            "akm.longyap.name.my",
+            "amala.schwartzwelt.xyz",
+            "alpaca.gold",
+            "anime.website",
+            "annihilation.social",
+            "archivefedifor.fun",
+            "asbestos.cafe",
+            "b.z0ne.social",
+            "bae.st",
+            "baraag.net",
+            "beefyboys.win",
+            "berserker.town",
+            "blackoutstout.space",
+            "blacksun.social",
+            "blobturtle.club",
+            "bodybuilding.im",
+            "boks.moe",
+            "boomer.website",
+            "boymoder.biz",
+            "brasileiros.social",
+            "breastmilk.club",
+            "brighteon.social",
+            "bsd.moe",
+            "cannibal.cafe",
+            "carrot.army",
+            "catgirl.life",
+            "cawfee.club",
+            "cdrom.tokyo",
+            "childlove.space",
+            "childlove.su",
+            "chudbuds.lol",
+            "ck.cachapa.xyz",
+            "cliterati.club",
+            "clubcyberia.co",
+            "cnet.site",
+            "collapse.pub",
+            "collapsitarian.io",
+            "contrapointsfan.club",
+            "coolsite.win",
+            "coom.club",
+            "cottoncandy.cafe",
+            "crucible.world",
+            "cryptotalks.social",
+            "cubhub.social",
+            "cum.camp",
+            "cum.salon",
+            "d2l.masto.host",
+            "daffodil-11.org",
+            "darlow.co.uk",
+            "decayable.ink",
+            "degenerates.fail",
+            "detroitriotcity.com",
+            "distrotoot.com",
+            "dlf.social",
+            "dotnet00.dev",
+            "eatthebugs.social",
+            "eientei.org",
+            "enjoyer.network",
+            "eskimo.com",
+            "expired.mentality.rip",
+            "f.haeder.net",
+            "fans.sonichu.com",
+            "federated.fun",
+            "fedi.app",
+            "fedi.intkos.link",
+            "fedi.live",
+            "fedichive.tk",
+            "fediffusion.art",
+            "femboys.love",
+            "feminism.lgbt",
+            "feral.cafe",
+            "firebird.zone",
+            "fluf.club",
+            "freak.university",
+            "freeatlantis.com",
+            "freecumextremist.com",
+            "freedomofpress.rocks",
+            "freesoftwareextremist.com",
+            "freespeechextremist.com",
+            "freethinkers.lgbt",
+            "freezepeach.xyz",
+            "frennet.link",
+            "frennet.xyz",
+            "furcel.club",
+            "gab.ai",
+            "gab.com",
+            "gameliberty.club",
+            "gearlandia.haus",
+            "gendercritical.club",
+            "gendercritical.space",
+            "geofront.rocks",
+            "getwild.online",
+            "ghetti.monster",
+            "gitmo.life",
+            "gladtech.social",
+            "gleasonator.com",
+            "glee.li",
+            "glindr.org",
+            "globalskywatch.social",
+            "glowers.club",
+            "goreslut.xyz",
+            "gorf.pub",
+            "h-i.social",
+            "handicapped.tk",
+            "hunk.city",
+            "ichii.moe",
+            "iddqd.social",
+            "ignorelist.com",
+            "illegalpornography.com",
+            "immibis.com",
+            "iscute.moe",
+            "jaeger.website",
+            "jigglypuff.club",
+            "jpop.club",
+            "kitty.haus",
+            "kiwifarms.cc",
+            "kiwifarms.is",
+            "kiwifarms.net",
+            "kurosawa.moe",
+            "lain.com",
+            "lain.la",
+            "lets.bemoe.online",
+            "liberdon.com",
+            "lick.cunny.win",
+            "cunny.win",
+            "ligma.pro",
+            "lolison.top",
+            "lunareclip.se",
+            "makemysarcophagus.com",
+            "mapsupport.de",
+            "marsey.moe",
+            "mastertibbles.co.uk",
+            "mastodon.cf",
+            "mastodon.redplanetlabs.com",
+            "mastodon.saintsofvirtue.org",
+            "mastodong.lol",
+            "mastodonhub.com",
+            "md.neko.bar",
+            "merovingian.club",
+            "milker.cafe",
+            "minds.com",
+            "miniwa.moe",
+            "mirr0r.city",
+            "misskey-forkbomb.cf",
+            "moe.cachapa.xyz",
+            "monk.ey.business",
+            "mooo.com",
+            "mostr.pub",
+            "mouse.services",
+            "mrhands.horse",
+            "ms.neko.bar",
+            "mstdn.foxfam.club",
+            "mu.zaitcev.nu",
+            "mugicha.club",
+            "myxoz.port0.org",
+            "narrativerry.xyz",
+            "nationalist.social",
+            "neckbeard.xyz",
+            "needs.vodka",
+            "newsie.social",
+            "nicecrew.digital",
+            "niu.moe",
+            "nnia.space",
+            "noagendasocial.com",
+            "norwoodzero.net",
+            "nyanide.com",
+            "obo.sh",
+            "offkey.cat",
+            "outpoa.st",
+            "pawoo.net",
+            "pebble.social",
+            "peertube.se",
+            "pettanko.art",
+            "pieville.net",
+            "pisskey.io",
+            "pl.kitsunemimi.club",
+            "pl.neko.bar",
+            "pleroma.comfy.moe",
+            "pleroma.pibvt.net",
+            "poa.st",
+            "pone.social",
+            "pooper.social",
+            "poster.place",
+            "poweredbycocaine.com",
+            "privex.social",
+            "quey.org",
+            "rape.lol",
+            "rape.pet",
+            "rawr-xd.club",
+            "rayci.st",
+            "rdrama.cc",
+            "refusal.biz",
+            "robo.super-niche.club",
+            "rojogato.com",
+            "rosaline.systems",
+            "rot.gives",
+            "ryona.agency",
+            "sakh.social",
+            "saynoto.lgbt",
+            "scrapist.xyz",
+            "screamshitter.sh",
+            "seal.cafe",
+            "shigusegubu.club",
+            "shitpost.cloud",
+            "shitposter.club",
+            "shortstackran.ch",
+            "shortstacksran.ch",
+            "shpposter.club",
+            "silliness.observer",
+            "sinblr.com",
+            "skippers-bin.com",
+            "sleepy.cafe",
+            "sm.shaw.app",
+            "sneed.social",
+            "snopyta.org",
+            "social.076.ne.jp",
+            "social.freetalklive.com",
+            "social.mypdns.org",
+            "social.rebased.network",
+            "social.shrimpcam.pw",
+            "spinster.xyz",
+            "squid.kids",
+            "the.occultist.space",
+            "the9thcircle.club",
+            "threads.net",
+            "tumblr.com",
+            "toot.love",
+            "tooters.fun",
+            "truthsocial.co.in",
+            "tube.4aem.com",
+            "twitter.1d4.us",
+            "twitter.activitypub.actor",
+            "umbrellix.org",
+            "unbound.social",
+            "ursal.zone",
+            "usualsuspects.lol",
+            "varishangout.net",
+            "vive.im",
+            "vtuberfan.social",
+            "wagesofsinisdeath.com",
+            "waifu.social",
+            "waifuappreciation.club",
+            "weeaboo.space",
+            "weedis.life",
+            "wetfish.space",
+            "wintermute.fr.to",
+            "wolfgirl.bar",
+            "xhais.love",
+            "yggdrasil.social",
+            "zokni.xyz",
+            "zov.oti.st",
+            "zztails.gay",
+            "fedi.cassilda.house",
+            "social.icod.de",
+            "tummy.town",
+            "social.fbxl.net",
+            "parcero.bond",
+            "nyanide.alterracloud.com",
+            "alterracloud.com",
+            "mashtodon.alterracloud.com",
+            "crlf.ninja",
+            "sacred.harpy.faith",
+            "vampiremaid.cafe",
+            "skinheads.social",
+            "skinheads.io",
+            "skinheads.uk",
+            "skinheads.eu",
+            "clew.lol",
+            "dembased.xyz",
+            "djsumdog.com",
+            "eveningzoo.club",
+            "foxgirl.lol",
+            "pedo.school",
+            "poast.org",
+            "poast.tv",
+            "prospeech.space",
+            "r18.social",
+            "odballs.online",
+            "oddballs.online",
+            "theblab.org",
+            "social.bbc",
+            "shitposter.world",
+            "m.ating.press",
+            "noauthority.social",
+            "fedi.yesmap.net",
+            "imouto.pics",
+            "cutecatgirls.cafe",
+            "akkoma.nekos.cafe",
+            "rodent.life",
+            "clown.university",
+            "momostr.pink",
+            "fetch.mostr.net",
+            "moe.onl",
+            "mastodon.cloud",
+            "xscape.top",
+            "mesmerized.online",
+            "love.xn--vusz0j.life",
+            "notacri.me",
+            "thoughtcrimes.top",
+            "isekco.re",
+            "miiverse.cafe",
+            "sexycubs.xyz",
+            "pacsa.us",
+            "burggit.moe",
+            "strangeminds.social",
+            "imouto.exposed",
+            "femboy-sluts.online",
+            "pl.absolutelyproprietary.org",
+            "woem.men",
+            "rqd2.net",
+            "chat.wecops.uk"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "aus.social": {
+              "reason": "frequent uncwed politics +alt-textphobic +i dont like them"
+            },
+            "bird.makeup": {
+              "reason": "twitter"
+            },
+            "bsky.brid.gy": {
+              "reason": "bluesky"
+            },
+            "kolektiva.social": {
+              "reason": "frequent uncwed politics +alt-textphobic +i dont like them"
+            },
+            "masto.globaleas.org": {
+              "reason": "spammy"
+            },
+            "mastodon.online": {
+              "reason": "giant instance, poorly moderated"
+            },
+            "mastodon.social": {
+              "reason": "giant instance, poorly moderated"
+            },
+            "misskey.io": {
+              "reason": "giant instance, poorly moderated, vomit inducing local timeline"
+            },
+            "mstdn.jp": {
+              "reason": "vomit inducing local timeline"
+            },
+            "mstdn.social": {
+              "reason": "giant instance, poorly moderated"
+            },
+            "qaf.men": {
+              "reason": "uncwed porn"
+            },
+            "rubber.social": {
+              "reason": "nsfw profile pictures and uncwed porn :("
+            }
+          },
+          "reject": {
+            "akkoma.nekos.cafe": {
+              "reason": "pedos"
+            },
+            "chat.wecops.uk": {
+              "reason": "cops"
+            },
+            "cutecatgirls.cafe": {
+              "reason": "pedos"
+            },
+            "fedi.yesmap.net": {
+              "reason": "pedos"
+            },
+            "glitch.me": {
+              "reason": "public subdomain"
+            },
+            "imouto.exposed": {
+              "reason": "imouto.pics alt"
+            },
+            "imouto.pics": {
+              "reason": "pedos"
+            },
+            "loli.church": {
+              "reason": "pedos"
+            },
+            "miiverse.cafe": {
+              "reason": "pedos"
+            },
+            "moe.onl": {
+              "reason": "lolishota"
+            },
+            "outpoa.st": {
+              "reason": "poast"
+            },
+            "poa.st": {
+              "reason": "poast"
+            },
+            "poast.org": {
+              "reason": "poast"
+            },
+            "poast.tv": {
+              "reason": "poast"
+            },
+            "repl.co": {
+              "reason": "public subdomain"
+            },
+            "rqd2.net": {
+              "reason": "pedos"
+            },
+            "shitposter.world": {
+              "reason": "doesnt accept deletes"
+            },
+            "social.bbc": {
+              "reason": "get fucked"
+            },
+            "strangeminds.social": {
+              "reason": "pedos"
+            },
+            "threads.net": {
+              "reason": "get fucked"
+            },
+            "tumblr.com": {
+              "reason": "pjack"
+            },
+            "vercel.app": {
+              "reason": "public subdomain"
+            },
+            "woem.men": {
+              "reason": "i am sick of it"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 20,
+        "maxRemoteFields": 30,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "eepy.zone",
+        "grimgreenfo.rest",
+        "brain.d.on-t.work",
+        "lea.pet",
+        "wetdry.world",
+        "lethallava.land",
+        "labyrinth.zone",
+        "cats.city",
+        "shrimple.aagaming.me",
+        "soc.noob.quest",
+        "mk.noob.quest",
+        "koko.micenest.xyz",
+        "chadthundercock.com",
+        "oomfie.city",
+        "bart.tobskep.com",
+        "java.duke.social"
+      ],
+      "mailerEnabled": false,
+      "nodeDescription": "akkoma instance run by eepy.zone",
+      "nodeName": "eepy.zone 3‼️",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 25,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": true,
+        "federated": false,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://akko.eepy.zone/users/notfire",
+        "https://akko.eepy.zone/users/harper",
+        "https://akko.eepy.zone/users/admin",
+        "https://akko.eepy.zone/users/sneexy",
+        "https://akko.eepy.zone/users/critter"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.1"
+    },
+    "usage": {
+      "localPosts": 8388,
+      "users": {
+        "activeHalfyear": 29,
+        "activeMonth": 23,
+        "total": 24
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

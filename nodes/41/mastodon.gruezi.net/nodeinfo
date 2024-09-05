@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 8,
+        "activeHalfyear": 9
+      },
+      "localPosts": 5604
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Gruezi",
+      "nodeDescription": "A private instance for some PNW (and PNW at heart) folks"
+    }
+  },
+  "error": null
+}

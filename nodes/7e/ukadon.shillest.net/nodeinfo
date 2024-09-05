@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 301,
+        "activeMonth": 147,
+        "activeHalfyear": 180
+      },
+      "localPosts": 228142
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "うかどん",
+      "nodeDescription": "うかどんはデスクトップマスコットソフト「伺か」向け主体（専用とは言ってない）のMastodonサーバです。うどんでも新手のどんぶりでもありません。",
+      "maintainer": {
+        "name": "ponapalt"
+      },
+      "themeColor": "#B5C0FF"
+    }
+  },
+  "error": null
+}

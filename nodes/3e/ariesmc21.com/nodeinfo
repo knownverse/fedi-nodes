@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-alpha.5+kmyblue.13.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 1535
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "相戸ゆづなの新放牧地",
+      "nodeDescription": "相戸ゆづなさんのおひとり様サーバーです",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-alpha.5"
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 117,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2135,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Chiakey.io",
+      "nodeDescription": "コンセプトを持たない汎用的なサーバーです。YUKIMOCHI Toot Relay Service に接続しているため 300 以上のサーバーやインスタンスに対して投稿が相互にリレーされます。 (https://relay.toot.yukimochi.jp/)",
+      "nodeAdmins": [
+        {
+          "name": "おかゆ",
+          "email": "admin@chiakey.io"
+        }
+      ],
+      "maintainer": {
+        "name": "おかゆ",
+        "email": "admin@chiakey.io"
+      },
+      "langs": [],
+      "tosUrl": "https://chiakey.io/@okayu/pages/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "remote",
+      "themeColor": "#BC9B76"
+    }
+  },
+  "error": null
+}

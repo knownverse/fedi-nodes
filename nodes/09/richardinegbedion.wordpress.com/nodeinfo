@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 119,
+      "localComments": 52
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Richard Inegbedion",
+      "nodeDescription": "As Always, it&#039;s my Opinion",
+      "nodeIcon": "https://richardinegbedion.wordpress.com/wp-content/uploads/2024/03/cropped-black-white-minimalist-business-logo-2.png"
+    }
+  },
+  "error": null
+}

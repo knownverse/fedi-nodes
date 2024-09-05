@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": 2,
+    "software": {
+      "name": "postmarks",
+      "version": "0.0.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 39
+    },
+    "openRegistrations": false,
+    "metadata": {}
+  },
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Pour utiliser cet instance, connectez vous avec votre compte Libreon",
+      "nodeName": "Libreon"
+    },
+    "usage": {
+      "users": {
+        "total": 12
+      },
+      "localComments": 8,
+      "localPosts": 3
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

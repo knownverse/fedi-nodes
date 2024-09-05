@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21,
+        "activeHalfyear": 4,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://mixtape.absturztau.be/federation/actors/service",
+      "private": false,
+      "shortDescription": "puniko's little funkwhale instance",
+      "longDescription": "Just a little comfy funkwhale instance :3\r\n\r\ndance and enjoy the meowsic~",
+      "contactEmail": "me+funkwhale@absturztau.be",
+      "nodeName": "mixtape.absturztau.be",
+      "banner": "https://s3.eu-central-1.wasabisys.com/funkwhale-taube/media/dynamic_preferences/instance__banner/83f0c2f2df72e1699c7eda89432ff3ae.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=6NGYUIB4BCW9M58TCEKJ%2F20240905%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20240905T221548Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=fffac418e0059ae5104088771db848488c7d9c19a08748ed9341c9e902acdc56",
+      "defaultUploadQuota": 10000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 548
+          }
+        },
+        "listenings": {
+          "total": 34884
+        },
+        "downloads": {
+          "total": 46915
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 6059
+        },
+        "artists": {
+          "total": 532
+        },
+        "albums": {
+          "total": 333
+        },
+        "music": {
+          "hours": 3277.3769444444442
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": true
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": true
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "rules": "- Don't post anything illegal (juristication switzerland)\r\n- Tag your music correctly\r\n- Don't post any fascist or racist music\r\n- Don't post any transphobic, homophobic or otherwise bigoted music",
+      "terms": "[Same](https://fedi.absturztau.be/about) as on my other stuff as well :3"
+    }
+  },
+  "error": null
+}

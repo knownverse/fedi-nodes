@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 125,
+        "activeMonth": 20,
+        "activeHalfyear": 38
+      },
+      "localPosts": 3092
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "마라탕.인생",
+      "nodeDescription": "마라탕.인생은 마라탕에 관심이 많은 사람들을 위한 서버입니다. 마라탕이 좋거나, 싫거나, 몰라도 가입할 수 있습니다. Server icon from pngtree.com"
+    }
+  },
+  "error": null
+}

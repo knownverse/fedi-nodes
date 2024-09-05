@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+vegan"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3086,
+        "activeMonth": 339,
+        "activeHalfyear": 582
+      },
+      "localPosts": 139238
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Veganism Social",
+      "nodeDescription": "Veganism Social is a welcoming space on the internet for vegans to connect and engage with the broader decentralized social media community."
+    }
+  },
+  "error": null
+}

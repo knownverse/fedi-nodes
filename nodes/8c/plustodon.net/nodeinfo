@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 195,
+        "activeMonth": 18,
+        "activeHalfyear": 33
+      },
+      "localPosts": 126506
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "+Plustodon",
+      "nodeDescription": "Google\"Plus to\" Mas\"todon\""
+    }
+  },
+  "error": null
+}

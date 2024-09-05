@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 41,
+      "localComments": 34
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Craft Beer Breweries in South Africa - CraftBru.com",
+      "nodeDescription": "Your Brother in Beer",
+      "nodeIcon": "https://i0.wp.com/craftbru.com/wp-content/uploads/2017/09/craftbru-2017.png?fit=500%2C500&ssl=1"
+    }
+  },
+  "error": null
+}

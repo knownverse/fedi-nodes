@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.3.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 115,
+        "activeHalfyear": 43,
+        "activeMonth": 21
+      },
+      "localPosts": 1514
+    },
+    "metadata": {
+      "nodeName": "Wizard Casa",
+      "nodeDescription": "Experimental Mitra instance",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://wizard.casa/users/nimda"
+      ]
+    }
+  },
+  "error": null
+}

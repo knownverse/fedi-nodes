@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 106,
+      "localComments": 5383
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Appdate",
+      "nodeDescription": "Tech for all",
+      "nodeIcon": "https://i0.wp.com/www.appdate.lk/wp-content/uploads/2021/12/Logo-Latest.png?fit=500%2C500&ssl=1"
+    }
+  },
+  "error": null
+}

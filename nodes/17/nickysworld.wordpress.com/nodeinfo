@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2271,
+      "localComments": 192
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nicky&#039;s World",
+      "nodeDescription": "My Life, followed through my writings, rants and raves. 24-7, 365 days a year",
+      "nodeIcon": "https://nickysworld.wordpress.com/wp-content/uploads/2020/09/image.jpg"
+    }
+  },
+  "error": null
+}

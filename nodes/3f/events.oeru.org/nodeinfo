@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "This is the OER Foundation's event management system. ",
+      "nodeName": "OERu Events  Mobilizon Instance"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localComments": 1,
+      "localPosts": 2
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

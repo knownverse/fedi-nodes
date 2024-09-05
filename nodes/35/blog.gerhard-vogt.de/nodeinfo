@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 590,
+      "localComments": 99
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hardy&#039;s Homepage",
+      "nodeDescription": "Blog, Fotos und mehr...",
+      "nodeIcon": "https://i0.wp.com/blog.gerhard-vogt.de/wp-content/uploads/2017/02/cropped-Pirate-513.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

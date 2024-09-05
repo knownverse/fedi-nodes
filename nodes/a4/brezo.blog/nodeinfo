@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 155,
+      "localComments": 64
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Brezo.blog",
+      "nodeDescription": "Página en blanco",
+      "nodeIcon": "https://i0.wp.com/brezo.blog/wp-content/uploads/2017/03/img_5048-1.jpg?fit=640%2C640&ssl=1"
+    }
+  },
+  "error": null
+}

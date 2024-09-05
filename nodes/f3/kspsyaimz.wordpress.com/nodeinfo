@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KS Education and Collaboration.",
+      "nodeDescription": "This site is all about learning and interacting with all the peoples with the skills and interest they have within , we are going to  create job opportunity , knowledgeable teams and training sessions .  This website is like a family you can share your ideas for business, no age limit . Happy start  let Grow together .",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

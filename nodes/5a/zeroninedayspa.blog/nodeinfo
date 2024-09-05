@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Beauty Bible",
+      "nodeDescription": "Welcome to &quot;The Beauty Bible,&quot; where we blend the world of glamour with a healthy dose of laughter. Your new go-to destination for all things beauty, skincare, and self-care, served up with a side of wit and humor. \n\nJoin us as we dive into the latest beauty trends, uncover hidden skincare secrets and explore the realm of self-care rituals that will leave you feeling fabulous from head to toe. \n\nBuckle up, beauties - it&#039;s time to dive in!",
+      "nodeIcon": "https://zeroninedayspa.blog/wp-content/uploads/2023/12/cropped-maddiegg3.jpg"
+    }
+  },
+  "error": null
+}

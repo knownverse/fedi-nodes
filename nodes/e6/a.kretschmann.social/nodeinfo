@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.9"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://a.kretschmann.social/federation/actors/service",
+      "private": true,
+      "shortDescription": "Persönlicher Audio Pod",
+      "longDescription": "Private Klangschale für Podcasts und ggf. mehr.",
+      "rules": "",
+      "contactEmail": "info@kretschmann.social",
+      "terms": "",
+      "nodeName": "Kretschmann Funkwhale Pod",
+      "banner": "https://a.kretschmann.social/media/dynamic_preferences/instance__banner/20160306_150012.JPG",
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 12
+        },
+        "artists": {
+          "total": 3
+        },
+        "albums": {
+          "total": 1
+        },
+        "music": {
+          "hours": 0.7983333333333333
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://a.kretschmann.social/api/v1/federation/domains",
+        "channels": "https://a.kretschmann.social/federation/index/channels",
+        "libraries": "https://a.kretschmann.social/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 2
+          }
+        },
+        "listenings": {
+          "total": 11
+        },
+        "downloads": {
+          "total": 94
+        }
+      }
+    }
+  },
+  "error": null
+}

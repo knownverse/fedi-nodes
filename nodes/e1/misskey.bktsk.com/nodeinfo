@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 193,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぼくのたどりつくばしょ",
+      "nodeDescription": "BKTSKのMisskeyサーバーです。\n個人運営なので止まったりすることもありそう。",
+      "nodeAdmins": [
+        {
+          "name": "いぬかん",
+          "email": "bktsk@bktsk.com"
+        }
+      ],
+      "maintainer": {
+        "name": "いぬかん",
+        "email": "bktsk@bktsk.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.bktsk.com/@inukan/pages/terms",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://bktsk.com/#contact",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "bktskbot",
+      "themeColor": "#FFFF00"
+    }
+  },
+  "error": null
+}

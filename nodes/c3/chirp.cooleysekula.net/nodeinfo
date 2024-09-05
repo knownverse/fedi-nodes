@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "gnusocial",
+      "version": "2.0.1-beta0"
+    },
+    "protocols": [
+      "activitypub",
+      "ostatus"
+    ],
+    "services": {
+      "inbound": [
+        "twitter",
+        "gnusocial"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "twitter",
+        "gnusocial"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      },
+      "localPosts": 10621,
+      "localComments": 519
+    },
+    "metadata": {
+      "nodeName": "Chirp!",
+      "software": {
+        "homepage": "https://gnusocial.rocks/",
+        "repository": "https://notabug.org/diogo/gnu-social/"
+      },
+      "uploadLimit": 8388608,
+      "postFormats": [
+        "text/plain",
+        "text/html"
+      ],
+      "features": [
+        "polls"
+      ]
+    }
+  },
+  "error": null
+}

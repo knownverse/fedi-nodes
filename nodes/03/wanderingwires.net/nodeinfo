@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9-dev-f14d8a7ea",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 23,
+        "activeHalfyear": 17,
+        "activeMonth": 2
+      },
+      "localPosts": 11150,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "wanderingwires",
+      "nodeDescription": "An instance for anarchist furries and cybernetic weirdos. Come on in!\n\nRules\n1. Absolutely no bigotry of any kind.\n2. CW All NSFW media.\n3. CW Upsetting topics (serious politics, current events, etc.)\n4. No sexualization of minors (fictional or real)\n5. No defense of fascism, the right wing, or reactionary politics\n6. Absolutely no nationalism (yes, even supposedly \"left wing\" nationalism)\n7. Don't get the server in trouble.",
+      "maintainer": {
+        "name": "Margaret Miller",
+        "email": "0x4d6165@posteo.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "themeColor": "#d9b1ec"
+    }
+  },
+  "error": null
+}

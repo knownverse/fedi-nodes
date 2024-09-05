@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "沐森林 mu forests",
+      "nodeDescription": "沐森林天然木質精油 木皮薄片 木箔藝術 木紋飾面",
+      "nodeIcon": "https://muforests.wordpress.com/wp-content/uploads/2024/01/logo-mu-forests-wd-1.png"
+    }
+  },
+  "error": null
+}

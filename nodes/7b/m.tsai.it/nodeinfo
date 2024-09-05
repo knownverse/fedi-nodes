@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1645,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Tsai I-ta's Microblog",
+      "nodeDescription": "A radiologist, interested in medical informatics and interventional radiology.<br>\nAn enthusiast programmer.<br>\nAn amateur photographer.<br>\n<br>\n正職是放射診斷科的醫師，喜歡玩電腦或被電腦耍，手邊有幾台慢慢被時代遺忘的底片相機，總愛邊出遊邊透過鏡頭看世界，也對追求音樂、藝術一類美的事物充滿熱情。<br>\n<br>\n<br>\nPowered by Misskey",
+      "nodeAdmins": [
+        {
+          "name": "tsaiid",
+          "email": "ittsai@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "tsaiid",
+        "email": "ittsai@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

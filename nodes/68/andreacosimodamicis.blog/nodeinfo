@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Il libro della verità (per tutti)!",
+      "nodeDescription": "Intelligenza è capire il bene per tutti senza fare un male a nessuno compreso a te stesso",
+      "nodeIcon": "https://andreacosimodamicis.blog/wp-content/uploads/2021/11/wp-1637530704053.jpg"
+    }
+  },
+  "error": null
+}

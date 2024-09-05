@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 77,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Die Pixelspieler",
+      "nodeDescription": "Nur ein weiteres Blog über Videospiele",
+      "nodeIcon": "https://blog.pixelspieler.net/wp-content/uploads/2024/09/cropped-pixellogo.jpeg"
+    }
+  },
+  "error": null
+}

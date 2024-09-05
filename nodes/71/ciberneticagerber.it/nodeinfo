@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 458,
+      "localComments": 181
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cibernetica Gerber",
+      "nodeDescription": "L&#039;informatica e l&#039;AI secondo Ricardo Antonio Piana",
+      "nodeIcon": "https://ciberneticagerber.it/wp-content/uploads/2020/09/image.jpg"
+    }
+  },
+  "error": null
+}

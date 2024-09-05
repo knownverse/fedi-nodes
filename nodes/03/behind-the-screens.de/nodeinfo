@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 134,
+      "localComments": 462
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Behind the Screens",
+      "nodeDescription": "Games | Psychologie | Spielkultur",
+      "nodeIcon": false
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.3.3",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1646,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "IMC's Tea Empire",
+      "nodeDescription": "New Fediverse instance of IMC's Tea Empire, not as gracefully as I would've wanted replacing md.ilyamikcoder.com. Currently experimental, expect issues.",
+      "nodeAdmins": [
+        {
+          "name": "ilyamikcoder",
+          "email": "me@ilyamikcoder.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ilyamikcoder",
+        "email": "me@ilyamikcoder.com"
+      },
+      "langs": [],
+      "tosUrl": "https://ilyamikcoder.com/codex",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "donationUrl": "https://ko-fi.com/ilyamikcoder",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "mkimc_proxyaccount",
+      "themeColor": "#b9ffad"
+    }
+  },
+  "error": null
+}

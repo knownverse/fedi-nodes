@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3160,
+        "activeMonth": 178,
+        "activeHalfyear": 273
+      },
+      "localPosts": 166321
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Tabletop Social",
+      "nodeDescription": "We are an inclusive Mastodon community for everything tabletop (and more)."
+    }
+  },
+  "error": null
+}

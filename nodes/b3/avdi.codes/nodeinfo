@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 690,
+      "localComments": 7940
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "avdi.codes",
+      "nodeDescription": "Avdi Grimm, Code Cleric",
+      "nodeIcon": "https://avdi.codes/wp-content/uploads/2019/06/cropped-favicon-extraced-from-linda-kerr-loga.png"
+    }
+  },
+  "error": null
+}

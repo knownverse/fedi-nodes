@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 35,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "chentubue",
+      "nodeDescription": "欢迎来到 chentubue 的个人博客。此博客并非为营利性质，我在这里记录和分享我的生活与个人感想。",
+      "nodeIcon": "https://chentubue.wordpress.com/wp-content/uploads/2023/12/wp-1702618184572.jpg"
+    }
+  },
+  "error": null
+}

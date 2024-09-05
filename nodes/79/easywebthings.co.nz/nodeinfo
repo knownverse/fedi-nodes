@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 3,
+        "activeHalfyear": 2
+      },
+      "localPosts": 23,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Easy Web Things",
+      "nodeDescription": "New Zealand Website Creation and Management",
+      "nodeIcon": "https://easywebthings.co.nz/wp-content/uploads/2023/01/Favicon-EasyWebThings.png"
+    }
+  },
+  "error": null
+}

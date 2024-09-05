@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "neodb",
+      "version": "0.10.4.5",
+      "repository": "https://github.com/neodb-social/neodb",
+      "homepage": "https://neodb.net/"
+    },
+    "protocols": [
+      "activitypub",
+      "neodb"
+    ],
+    "openRegistrations": true,
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 17334,
+        "activeMonth": 1505,
+        "activeHalfyear": 3070
+      },
+      "localPosts": 10286909,
+      "localComments": 2431193
+    },
+    "metadata": {
+      "nodeName": "NeoDB",
+      "nodeRevision": "0.10.4.5-9fb44f6-7ea6cb1-20240727200140",
+      "nodeEnvironment": "production"
+    }
+  },
+  "error": null
+}

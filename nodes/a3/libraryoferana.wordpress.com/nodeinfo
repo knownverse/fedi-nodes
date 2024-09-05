@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2264,
+      "localComments": 2518
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Library of Erana",
+      "nodeDescription": "A haven of magic, myth and mayhem!  Blog stops, books, reviews, interviews and more. The site of fantasy author, poet and blogger A. L. Butcher.",
+      "nodeIcon": "https://libraryoferana.wordpress.com/wp-content/uploads/2022/08/cropped-comp-book1-new-lightningbg-blue-2022.jpg"
+    }
+  },
+  "error": null
+}

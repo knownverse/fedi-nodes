@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": "4",
+        "activeHalfyear": "4"
+      },
+      "localPosts": 26,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pretty Grouse!",
+      "nodeDescription": "Wasting Your Time Since 1997",
+      "nodeIcon": "https://prettygrouse.com/wp-content/uploads/2015/01/Temp-Logo-800.png"
+    }
+  },
+  "error": null
+}

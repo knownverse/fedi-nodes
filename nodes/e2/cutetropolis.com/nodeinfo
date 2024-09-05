@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9682,
+      "localComments": 142620
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "CUTETROPOLIS",
+      "nodeDescription": "Where the Cutest Animals Do the Funniest Things",
+      "nodeIcon": "https://i0.wp.com/cutetropolis.com/wp-content/uploads/2019/03/cropped-ct-icon-nocircle-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

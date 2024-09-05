@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "0.1.3-beta",
+      "homepage": "https://github.com/mattyatea/misskey",
+      "repository": "https://github.com/mattyatea/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3787,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 477159,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "まっちゃすきー。",
+      "nodeDescription": "どんな話題でも大歓迎な汎用サーバーです！\nとにかく日本の法律厳守です！:cool_doggo:\nIt is not compliant with GDPR and cannot be used by people in the EU.\nCompliance with Japanese law.",
+      "nodeAdmins": [
+        {
+          "name": "mattyatea",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "mattyatea",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://mattyaski.co/notes/9scbn4cyjl",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/mattyatea/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "relay.actor",
+      "themeColor": "#045900"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 757,
+      "localComments": 10329
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Slice of Mexico",
+      "nodeDescription": "Discover and re-discover Mexico’s cuisine, culture and history through the recipes, backyard stories and other interesting findings of an expatriate in Canada",
+      "nodeIcon": "https://mysliceofmexico.ca/wp-content/uploads/2018/04/cropped-small-logo.jpg"
+    }
+  },
+  "error": null
+}

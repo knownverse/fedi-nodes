@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "name": "admin@cn.tc"
+      },
+      "nodeDescription": "Current Name To Change - 一个友人间的小规模 Firefish 实例，目前不开放注册，有关系者/有钱者可联系 @admin@cn.tc 申请注册",
+      "nodeName": "CNTC",
+      "proxyAccountName": "9iq0a12izgbn4y0j",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 391,
+      "users": {
+        "activeHalfyear": 6,
+        "activeMonth": 5,
+        "total": 6
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

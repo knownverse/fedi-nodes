@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 47,
+        "activeHalfyear": 41
+      },
+      "localPosts": 507,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "1964 Mountain Culture Journal",
+      "nodeDescription": "We are a Mountain Culture Journal in Aotearoa, New Zealand",
+      "nodeIcon": "https://1964.co.nz/wp-content/uploads/2023/08/favicon.png"
+    }
+  },
+  "error": null
+}

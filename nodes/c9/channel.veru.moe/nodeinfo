@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Veru's Mischief Stop",
+      "nodeDescription": "<center><img src=\"https://media.veru.moe/misskey/fcd9bb37-047e-4a3d-9b7b-439e9a48b9c6.png\" width=\"75\"> <p>All-in-one site for Veru's (mis)adventures!</p>\n<p>Variety posts about retro games and Veru's dolls and art!</p>\n<p>※ The content is meant for adults only. 🔞</p>",
+      "nodeAdmins": [
+        {
+          "name": "Veru",
+          "email": "contactme.grimace840@passfwd.com"
+        }
+      ],
+      "maintainer": {
+        "name": "Veru",
+        "email": "contactme.grimace840@passfwd.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#631bba"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 257,
+        "activeMonth": 59,
+        "activeHalfyear": 80
+      },
+      "localPosts": 180778
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Diaspodon",
+      "nodeDescription": "Diaspodon.fr est une instance majoritairement francophone et généraliste. \r\nAucun contenu du fédiverse n'est filtré par une décision d'administrateur ou de modérateur."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "",
+      "nodeName": "plume1"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.0"
+    },
+    "usage": {
+      "localComments": 4,
+      "localPosts": 17,
+      "users": {
+        "total": 7
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

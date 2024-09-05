@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.5-dev18",
+      "repository": "https://git.joinfirefish.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 4,
+        "activeMonth": 3
+      },
+      "localPosts": 849,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "二等辺モンスター",
+      "nodeDescription": "<center>\n<img src=\"https://isosceles.monster/files/thumbnail-62d358c7-6675-40b0-a8c4-afd120ba8dfe\" width=\"100px\">\n<br><br>\n<img src=\"https://natsimagestorage.carrd.co/assets/images/image17.png?v=12cf7dfc\" style=\"width:320px;\">\n<br><br>\n</center>",
+      "maintainer": {
+        "name": "Catawump",
+        "email": "catawump@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/ligma-io/ligma.io",
+      "repositoryUrl": "https://git.joinfirefish.org/firefish/firefish",
+      "feedbackUrl": "https://git.joinfirefish.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ead285"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 14,
+        "activeHalfyear": 14
+      },
+      "localPosts": 6039,
+      "localComments": 3179
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Daily Tech News Show",
+      "nodeDescription": "Helping each other understand",
+      "nodeIcon": "https://i0.wp.com/dailytechnewsshow.com/wp-content/uploads/2023/10/cropped-14080518-72df-41ae-be8a-5de14eeb0b2e_420x300.webp?fit=300%2C300&ssl=1"
+    }
+  },
+  "error": null
+}

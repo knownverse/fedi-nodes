@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 152,
+      "localComments": 38
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "C.L. Who Writes",
+      "nodeDescription": "Stories, thoughts, and essays by C. L. Who",
+      "nodeIcon": "https://clwhowrites.wordpress.com/wp-content/uploads/2021/11/cropped-me-quorter.png"
+    }
+  },
+  "error": null
+}

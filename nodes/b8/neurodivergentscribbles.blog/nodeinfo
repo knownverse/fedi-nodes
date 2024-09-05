@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "Neurodivergent Scribbles is a writing podcast curated by neurodivergent people for neurodivergent people, hosted by Abbott Manning Hansen. ",
+      "nodeIcon": "https://neurodivergentscribbles.blog/wp-content/uploads/2024/07/Unknown.jpg"
+    }
+  },
+  "error": null
+}

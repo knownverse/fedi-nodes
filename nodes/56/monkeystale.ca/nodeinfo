@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 378,
+      "localComments": 23369
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Monkey&#039;s Tale",
+      "nodeDescription": "An Adventure Travel Blog",
+      "nodeIcon": "https://monkeystale.ca/wp-content/uploads/2018/11/cropped-monkeytaleicon12.jpg"
+    }
+  },
+  "error": null
+}

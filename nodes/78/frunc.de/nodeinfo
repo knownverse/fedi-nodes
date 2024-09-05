@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 18,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FRUNC",
+      "nodeDescription": "Schnall den Rucksack um, Ulf. Ich glaub, es geht los!",
+      "nodeIcon": "https://i0.wp.com/frunc.de/wp-content/uploads/2020/08/cropped-default-monochrome-logo-black-1-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1477,
+      "localComments": 10543
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "kfsone&#039;s pittance",
+      "nodeDescription": "Gamer turned dev",
+      "nodeIcon": "https://kfsone.wordpress.com/wp-content/uploads/2024/03/cropped-dallc2b7e-2024-03-04-17.49.26-create-a-high-resolution-pixel-art-icon-featuring-a-kingfisher-bird-stylized-as-the-number-1-with-a-vibrant-and-dynamic-pose-that-integrates-the-sh.webp"
+    }
+  },
+  "error": null
+}

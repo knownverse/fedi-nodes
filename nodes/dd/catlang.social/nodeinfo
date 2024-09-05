@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-07+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 5,
+        "activeHalfyear": 8
+      },
+      "localPosts": 127
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Concatenative Languages Mastodon",
+      "nodeDescription": "We are here to enjoy and advance concatenative programming, a paradigm of compositional programming languages.\r\n"
+    }
+  },
+  "error": null
+}

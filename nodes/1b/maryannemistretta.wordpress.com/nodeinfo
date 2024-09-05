@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1496,
+      "localComments": 8037
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Maryanne Christiano-Mistretta",
+      "nodeDescription": "Author, Journalist, Cat Sitter, Speaker, Loving Wife",
+      "nodeIcon": "https://maryannemistretta.wordpress.com/wp-content/uploads/2024/01/cropped-img_1360.jpg"
+    }
+  },
+  "error": null
+}

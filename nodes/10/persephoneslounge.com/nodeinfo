@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 75,
+      "localComments": 65
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Persephone&#039;s Lounge",
+      "nodeDescription": "",
+      "nodeIcon": "https://persephoneslounge.com/wp-content/uploads/2023/02/cropped-photo-1574709755254-fcd942d09d5a-1-1.jpeg"
+    }
+  },
+  "error": null
+}

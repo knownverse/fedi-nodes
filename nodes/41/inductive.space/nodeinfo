@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 10,
+        "activeHalfyear": 15
+      },
+      "localPosts": 2945
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "inductive.space",
+      "nodeDescription": "A tiny server for me and friendly people who like programming languages, free software, urbanism or just want to hang out."
+    }
+  },
+  "error": null
+}

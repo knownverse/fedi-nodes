@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5372,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "FLAT",
+      "nodeDescription": "🪑 Misskey質素生活部\n🏕 ゆるくつながる質素なコミュニティです。\n📖 日常をシェアしよう。",
+      "nodeAdmins": [
+        {
+          "name": "すわくん @ztrehagem",
+          "email": "ztrehagem@ztrehagem.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "すわくん @ztrehagem",
+        "email": "ztrehagem@ztrehagem.dev"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.flat.place/@flatplace/pages/terms_of_use",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://ztrehagem.dev/",
+      "impressumUrl": "https://ztrehagem.dev/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#192320"
+    }
+  },
+  "error": null
+}

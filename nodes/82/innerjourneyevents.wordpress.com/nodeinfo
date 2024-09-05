@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 782,
+      "localComments": 712
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Inner Journey Events Blog",
+      "nodeDescription": "Reflections on my journey with Mama Earth and Grandmother Moon",
+      "nodeIcon": "https://innerjourneyevents.wordpress.com/wp-content/uploads/2017/09/cropped-fullsizeoutput_2c6.jpeg"
+    }
+  },
+  "error": null
+}

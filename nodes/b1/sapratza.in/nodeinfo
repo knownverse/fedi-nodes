@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Agenda condivisa del sottobosco autogestito sardo",
+      "nodeName": "Sa Pratza",
+      "nodeTimezone": "Europe/Rome",
+      "nodeActor": "Sa Pratza"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 935,
+      "users": {
+        "total": 40
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "ecko",
+      "version": "3.4.9001"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 40,
+        "activeMonth": 3,
+        "activeHalfyear": 6
+      },
+      "localPosts": 1815
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

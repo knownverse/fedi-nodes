@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 220,
+      "localComments": 273
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "rscottjones",
+      "nodeDescription": "tagline-free since 1998",
+      "nodeIcon": "https://i0.wp.com/rscottjones.com/wp-content/uploads/2021/02/cropped-scott_profile_image_block.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

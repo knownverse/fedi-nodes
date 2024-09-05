@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2121,
+        "activeMonth": 410,
+        "activeHalfyear": 621
+      },
+      "localPosts": 344008
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "tilde.zone",
+      "nodeDescription": "mastodon instance of the tildeverse, a collection of small public access *nix systems for collaboration, creativity, and socializing. a proud part of the small internet."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 0,
+        "activeHalfyear": 0
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Raymond Tec",
+      "nodeDescription": "At the Intersection of Technology and Real Life",
+      "nodeIcon": "https://nrmedia.nyc3.cdn.digitaloceanspaces.com/2018/04/rt-logo-square-bow.png"
+    }
+  },
+  "error": null
+}

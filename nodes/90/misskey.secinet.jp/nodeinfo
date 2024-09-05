@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-dream1.12.0",
+      "homepage": "https://github.com/Secineralyr/misskey.dream",
+      "repository": "https://github.com/Secineralyr/misskey.dream"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 758,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 438191,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ねむすぎー",
+      "nodeDescription": "ここは謎の遊園地みたいな汎用サーバー「ねむすぎー」、通称Misskey.Dream。<br>\n通常のMisskeyとは少しだけ異なる変な機能がもりもりあったりなかったり...<br>\n<br>\nこのサーバーでは基本的に何でもありのようにしています！<br>\n<small>※そのため、各自でミュートなどで対策することをおすすめします。</small>",
+      "nodeAdmins": [
+        {
+          "name": "Team: Dream",
+          "email": "<None>"
+        }
+      ],
+      "maintainer": {
+        "name": "Team: Dream",
+        "email": "<None>"
+      },
+      "langs": [],
+      "tosUrl": "https://secinet.jp/misskey-dream/ToS",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://misskey.secinet.jp",
+      "repositoryUrl": "https://github.com/Secineralyr/misskey.dream",
+      "feedbackUrl": "https://github.com/Secineralyr/misskey.dream/issues/new/choose",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#bbcfff"
+    }
+  },
+  "error": null
+}

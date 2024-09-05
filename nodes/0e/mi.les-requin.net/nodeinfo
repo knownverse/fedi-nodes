@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 38723,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "チョリソリングとさめすきー",
+      "nodeDescription": "サメ、ついに出荷されました。\n\nGroundpolis→Misskeyに生まれ変わりました\n\nここのサメは都市部のサメです🦈",
+      "nodeAdmins": [
+        {
+          "name": "るかん",
+          "email": "フカヒレチョリ太郎"
+        }
+      ],
+      "maintainer": {
+        "name": "るかん",
+        "email": "フカヒレチョリ太郎"
+      },
+      "langs": [],
+      "tosUrl": "https://les-requin.notion.site/0d9ccb670dd24366a331d5c6039abb05?pvs=4",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/xeltica/groundpolis",
+      "feedbackUrl": "https://github.com/xeltica/groundpolis/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#828282"
+    }
+  },
+  "error": null
+}

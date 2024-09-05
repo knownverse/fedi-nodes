@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "3.5.3+kibicat"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 12,
+        "activeHalfyear": 12
+      },
+      "localPosts": 73887
+    },
+    "openRegistrations": false,
+    "metadata": []
+  },
+  "error": null
+}

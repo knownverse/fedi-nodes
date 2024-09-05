@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 49,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Crypto-Team",
+      "nodeDescription": "Naviguez à travers les vagues de la Cryptomonnaie et des NFTs avec nos analyses pointues.",
+      "nodeIcon": "https://zenashopping8.wordpress.com/wp-content/uploads/2024/01/crypto.-3.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.08-1571"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica"
+      ],
+      "outbound": [
+        "friendica"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "bluesky"
+      ],
+      "outbound": [
+        "bluesky",
+        "smtp"
+      ]
+    },
+    "usage": {
+      "users": {}
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Friendica - cracrayol.org",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "bluesky"
+        ],
+        "outbound": [
+          "bluesky",
+          "smtp"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

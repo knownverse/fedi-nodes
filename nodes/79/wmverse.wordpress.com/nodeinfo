@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WMVERSE",
+      "nodeDescription": "O portal WMVERSE é o agregador do Universo do Autor Wesley Marques. Neste portal você encontrará um universo de conteúdo para você.",
+      "nodeIcon": "https://wmverse.wordpress.com/wp-content/uploads/2024/01/cropped-20240121_134611_0000.png"
+    }
+  },
+  "error": null
+}

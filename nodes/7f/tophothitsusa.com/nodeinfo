@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1131,
+      "localComments": 72
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Top Hot Hits USA",
+      "nodeDescription": "Top Hot Hits | Indie Artist Spotlight | News | Marketing | Submissions",
+      "nodeIcon": "https://tophothitsusa.com/wp-content/uploads/2023/11/cropped-87919-top-hot-hits-usa-3.png"
+    }
+  },
+  "error": null
+}

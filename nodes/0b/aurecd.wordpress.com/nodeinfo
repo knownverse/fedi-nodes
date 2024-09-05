@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 241,
+      "localComments": 249
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cuadernos negros",
+      "nodeDescription": "Un lugar para el relato breve.",
+      "nodeIcon": "https://aurecd.wordpress.com/wp-content/uploads/2023/03/cropped-img_8949.jpg"
+    }
+  },
+  "error": null
+}

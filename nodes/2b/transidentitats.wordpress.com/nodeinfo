@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 343,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "identitats trans ATC llibertat",
+      "nodeDescription": "&quot;Celebrem la diversitat i donem suport a la visibilitat trans per construir un món més inclusiu i respectuós per a tots!&quot;",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.1",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 22716,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "키츠네소바🦊",
+      "nodeDescription": "자칭 악의 결사 '고양이귀 후드단' 산하, 따끈한 자유주제 인스턴스 '키츠네소바'입니다. 고양이귀 후드단의 약간 모자란 유다 단장(@Villain_jud) 이 운영하고 있습니다. 피로감 적은 SNS를 지향합니다.<br>\n</p>\n<hr>\n<strong><center>☆ 키츠네소바 서버 구축에 도움을 주신 분들</center></strong>\n<br>\n[스팸방지 솔루션 '스팸조림' 제작자] @nulta@social.slilcon.moe [로고제작 도움] @fluffy_foxyb0x@k.lapy.link/ [서버구축 도움] @rera@mi.rerac.dev / @paring@nyaa.paring.moe / @cocoa@hoto.moe / @pleiades@iqhina.org / \n@mocha@cerulean.ink / @caipira113@stella.place / @abyssstring@k.lapy.link / \n@voice_yeonggill@planet.moe / @yuno@munochi.moe / @xecachan@silicon.moe / @rp_rosalielover@misskey.io / \n<hr>\n<a rel=\"me\" href=\"https://planet.moe/@Villain_jud\">Mastodon</a>",
+      "nodeAdmins": [
+        {
+          "name": "Judah",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "Judah",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "Villain_jud",
+      "themeColor": "#ffe51f"
+    }
+  },
+  "error": null
+}

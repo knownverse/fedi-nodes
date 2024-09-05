@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial",
+        "friendica",
+        "redmatrix",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeHalfyear": 16,
+        "activeMonth": 10
+      },
+      "localPosts": 4663,
+      "localComments": 3330
+    },
+    "metadata": {
+      "nodeName": "Vilarejo Pro"
+    }
+  },
+  "error": null
+}

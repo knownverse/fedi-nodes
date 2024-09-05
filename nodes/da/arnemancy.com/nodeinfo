@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": "9",
+        "activeHalfyear": "9"
+      },
+      "localPosts": 248,
+      "localComments": 310
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Arnemancy",
+      "nodeDescription": "Tarot, Magic, and the Occult with Reverend Erik",
+      "nodeIcon": "https://arnemancy.com/wp-content/uploads/2019/05/cropped-arnemancy-sigil-icon-disc.png"
+    }
+  },
+  "error": null
+}

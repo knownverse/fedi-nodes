@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 153,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Mosslawn.space",
+      "nodeDescription": "音楽の耳コピ、カバー、アレンジ、作曲で活動している「青出葦生／ツムンテマ」のおひとりさまMisskeyインスタンスです。",
+      "nodeAdmins": [
+        {
+          "name": "ツムンテマ",
+          "email": "tsumuntema.contact@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ツムンテマ",
+        "email": "tsumuntema.contact@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://tsumuntema.com/mosslawn-space/terms-of-service/",
+      "privacyPolicyUrl": "https://tsumuntema.com/mosslawn-space/privacy-policy/",
+      "inquiryUrl": "https://tsumuntema.com/mosslawn-space/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#78882d"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0.cremebrul_ee.2",
+      "homepage": "https://github.com/LilyMorpho/misskey_cremebrulee",
+      "repository": "https://github.com/LilyMorpho/misskey_cremebrulee"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 16754,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "크림브륄레",
+      "nodeDescription": "연합우주 한켠의 조그마한 원룸 카페 - 미스키와 함께합니다.",
+      "nodeAdmins": [
+        {
+          "name": "shakerato",
+          "email": "ikaros9903@daum.net"
+        }
+      ],
+      "maintainer": {
+        "name": "shakerato",
+        "email": "ikaros9903@daum.net"
+      },
+      "langs": [],
+      "tosUrl": "https://cremebrul-ee.notion.site/77a50f772afe4f94b57839811b0cb599?pvs=4",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://amethyst.blue/",
+      "repositoryUrl": "https://github.com/LilyMorpho/misskey_cremebrulee",
+      "feedbackUrl": "https://github.com/LilyMorpho/misskey_cremebrulee/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ffe39b"
+    }
+  },
+  "error": null
+}

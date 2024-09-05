@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 9108,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mk2.toyoko.in",
+      "nodeDescription": "<i>もしかして:</i> <a href=\"https://www.toyoko-inn.com/\">www.toyoko-inn.com</a>",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "maronu@example.com"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "maronu@example.com"
+      },
+      "langs": [],
+      "tosUrl": "https://elaws.e-gov.go.jp/document?lawid=140AC0000000045",
+      "privacyPolicyUrl": "https://dwango.co.jp/terms/privacy/",
+      "inquiryUrl": "https://www.police.pref.kanagawa.jp/sodan/sodan_kujo_joho/mesh0002.html",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#1DA1F2"
+    }
+  },
+  "error": null
+}

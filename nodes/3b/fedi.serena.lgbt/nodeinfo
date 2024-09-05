@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.0",
+      "homepage": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "repository": "https://git.joinsharkey.org/Sharkey/Sharkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 152,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Serena's Cat Sanctuary",
+      "nodeDescription": "This is an instance primarily focused on the trans community and all things kawaii. No transphobes, TERFs, fundamentalist evangelicals, or homophobes allowed.\n\nWe tend to lean to the left, but don't enforce a particular political ideology as long as the above is respected.",
+      "nodeAdmins": [
+        {
+          "name": "Serena",
+          "email": "serena@serena.lgbt"
+        }
+      ],
+      "maintainer": {
+        "name": "Serena",
+        "email": "serena@serena.lgbt"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "feedbackUrl": "https://git.joinsharkey.org/Sharkey/Sharkey/issues/new/choose",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

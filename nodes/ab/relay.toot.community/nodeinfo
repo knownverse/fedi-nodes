@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.106-HEAD-603fcc6e"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "convo.casa",
+        "fasol.org",
+        "glitch.gaycookie.dev",
+        "mastodon.jing.lgbt",
+        "mastodon.opalium.net",
+        "mastodon.sebastix.dev",
+        "mastodon.tuxtendo.nl",
+        "mastodon.world",
+        "mountains.social",
+        "mstdn.ca",
+        "musicworld.social",
+        "pool.social",
+        "social.hostservice.nl",
+        "toot.community",
+        "trolley.seattlebus.space",
+        "veganism.social"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 7,
+        "activeHalfyear": 7
+      },
+      "localPosts": 1563
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The MacLeod Clan",
+      "nodeDescription": "This is The MacLeod Clan"
+    }
+  },
+  "error": null
+}

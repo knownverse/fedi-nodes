@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 721,
+      "localComments": 630
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WillCycle",
+      "nodeDescription": "Because you deserve some adventure in your life",
+      "nodeIcon": "https://i0.wp.com/www.willcycle.com/wp-content/uploads/2021/10/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

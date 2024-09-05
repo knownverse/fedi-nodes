@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Intance Mobilizon d'Aquilenet, fournisseur d'accès Internet associatif, membre fondateur de la FFDN.\nAquilenet est basé à Bordeaux. Rencontre tous les mardi soirs 20 rue Tourat à Bordeaux\n",
+      "nodeName": "mobilizon.aquilenet.fr"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.0.4"
+    },
+    "usage": {
+      "localComments": 4,
+      "localPosts": 26,
+      "users": {
+        "total": 34
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

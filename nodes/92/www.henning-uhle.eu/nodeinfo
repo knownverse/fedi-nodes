@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4694,
+      "localComments": 8538
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Henning Uhle",
+      "nodeDescription": "Es waren nicht alle so",
+      "nodeIcon": "https://www.henning-uhle.eu/wp-content/loadingstructure/2009/04/cropped-huhle-1.jpg"
+    }
+  },
+  "error": null
+}

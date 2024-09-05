@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 663,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "8and...（エイトアンド）",
+      "nodeDescription": "世界のエンタメを、いち早くお届け｡",
+      "nodeIcon": "https://8and.jp/wp-content/uploads/2024/01/cropped-8and.e383a1e382a4e383b3e382a2e382a4e382b3e383b3e794a8e383ade382b4-3-3222577003-e1704960758956-1.png"
+    }
+  },
+  "error": null
+}

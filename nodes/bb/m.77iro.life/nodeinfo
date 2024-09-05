@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1952,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "なないろLab.",
+      "nodeDescription": "なないろLab.は宇宙のかたすみで絵文字をこねるなどの活動をする桜川の個人的な研究室です。",
+      "nodeAdmins": [
+        {
+          "name": "桜川 七帆",
+          "email": "なにかあれば@nanairo3977@misskey.ioかhttps://x.com/nanairo3977まで"
+        }
+      ],
+      "maintainer": {
+        "name": "桜川 七帆",
+        "email": "なにかあれば@nanairo3977@misskey.ioかhttps://x.com/nanairo3977まで"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#a988bd"
+    }
+  },
+  "error": null
+}

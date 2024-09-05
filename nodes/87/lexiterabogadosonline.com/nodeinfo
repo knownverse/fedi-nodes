@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 70
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "LEXITER",
+      "nodeDescription": "Bienvenido/a a LEXITER, el servicio de consultoría legal online que te ofrece la mejor atención jurídica desde la comodidad de tu casa o tu oficina. Siente la fuerza de contar con la ayuda de un abogado siempre que lo necesites y donde lo necesites.",
+      "nodeIcon": "https://lexiterabogadosonline.com/wp-content/uploads/2023/11/bf5d3a89-e7fb-499b-a035-72243f4e406c.webp"
+    }
+  },
+  "error": null
+}

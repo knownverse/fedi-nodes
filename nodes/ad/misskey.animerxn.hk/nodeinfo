@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 692,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ANIMErxn misskey (RXNETWORK.INC Misskey)",
+      "nodeDescription": "<p>This is RXNETWORK.INC Misskey instance<br/>\nAlso as ROY(AnimeRXN) Personal Misskey instance</p>\n<p>這個是ROY(AnimeRXN)個人用Misskey伺服器(與Mastodon兼容)<br/>這裡可以講IT🖥️、科技🖱️、手機📱、游戲🎮、動畫📀、電影🎥等多種話題。<br/>另外可以歡迎註冊這個伺服器。</p>\n",
+      "nodeAdmins": [
+        {
+          "name": "ROY(AnimeRXN)",
+          "email": "animerxn@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ROY(AnimeRXN)",
+        "email": "animerxn@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

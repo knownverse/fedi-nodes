@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {},
+    "protocols": [
+      "activitypub",
+      "micropub",
+      "webmention"
+    ],
+    "software": {
+      "name": "goblog",
+      "repository": "https://go.goblog.app/app"
+    },
+    "usage": {
+      "localPosts": 1840,
+      "users": {
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

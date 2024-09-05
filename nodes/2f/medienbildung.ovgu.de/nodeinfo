@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 12,
+        "activeHalfyear": 11
+      },
+      "localPosts": 337,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Medienbildung",
+      "nodeDescription": "Audiovisuelle Kultur und Kommunikation",
+      "nodeIcon": "https://medienbildung.ovgu.de/wp-content/uploads/2016/11/cropped-logo_hw.png"
+    }
+  },
+  "error": null
+}

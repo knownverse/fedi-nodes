@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mashy",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/mashy.jp/wp-content/uploads/2023/09/mashy-logo.jpg?fit=1181%2C1181&ssl=1"
+    }
+  },
+  "error": null
+}

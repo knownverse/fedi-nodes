@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 785,
+      "localComments": 1119
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "narF voit le monde dans des lunettes hexagonales",
+      "nodeDescription": "mon carnet de réflexions",
+      "nodeIcon": "https://blogue.narf.ca/wp-content/uploads/2019/01/cropped-narF-avatar-1.png"
+    }
+  },
+  "error": null
+}

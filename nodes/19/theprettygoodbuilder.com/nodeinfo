@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 34,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Pretty Good Builder",
+      "nodeDescription": "Guides and Advice on Building Cabins and Rural Homes",
+      "nodeIcon": "https://i0.wp.com/prettygoodbuilder.com/wp-content/uploads/2024/08/Pretty-Good-Builder-1.jpg?fit=159%2C159&ssl=1"
+    }
+  },
+  "error": null
+}

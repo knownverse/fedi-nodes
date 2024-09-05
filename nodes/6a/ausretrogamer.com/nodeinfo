@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "15",
+        "activeHalfyear": "15"
+      },
+      "localPosts": 2254,
+      "localComments": 534
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "AUSRETROGAMER",
+      "nodeDescription": "The Pop-Culture E-Zine",
+      "nodeIcon": "https://i0.wp.com/ausretrogamer.com/wp-content/uploads/2020/01/cropped-ARG-512px.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

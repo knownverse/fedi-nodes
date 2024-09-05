@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Help Me Alert!! ‘Thousands’ of The UK People &amp; Small Businesses; Regards Being ‘Overcharged’ On their Electricity Bills!! Across the United Kingdom. Please View my Website and Pass it on to Every UK Blogger You Know: Help Me Warn Others. Ash. https://helpmewarnothers.wordpress.com/",
+      "nodeDescription": "I Seek to Warn ‘Thousands’ of People and Small Businesses. Across the United Kingdom. Regards ‘Covert-Overcharging’ On ‘Electricity’ Bills!! But will be Oblivious!! This has Happened. Because of how They Pay their Electricity Bills!! Everyone Needs to “Check ‘Electricity’ Bills Against Their Bank Statements” To see if ‘Hidden’ Overcharging. Has Occurred. I was ‘Overcharged’ on my Electric Bill. Now I Only seek to Warn Others. If others Complain, I’ll be Vindicated. Please pass on this Website to UK Based Influencers, Bloggers, Vloggers, Even Joggers. And Help me Alert ‘Thousands’. Thank You. Ash Ashbincond My Online Blogging Name. Please View My WordPress Website: https://helpmewarnothers.wordpress.com/",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

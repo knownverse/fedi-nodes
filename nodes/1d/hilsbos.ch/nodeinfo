@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 227,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HILSBOS Dog Training - Clever Canines &amp; Detection Dogs",
+      "nodeDescription": "Dog Training in English - Spürhunde - Suchhunde",
+      "nodeIcon": "https://i0.wp.com/hilsbos.ch/wp-content/uploads/2023/10/h-7.png?fit=500%2C500&ssl=1"
+    }
+  },
+  "error": null
+}

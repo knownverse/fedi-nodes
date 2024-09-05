@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 306,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "たこ焼きスキー",
+      "nodeDescription": "Welcome to my takoyaki themed instance.\n<br>\nAsk <a href=\"https://ski.takoyaki.xyz/@wststreet\">@wststreet</a> or a user you know for an invite.<br>\nIf I silenced your instance during the spam, please let me know once you got rid of the bots so I can unsilence it.\n<br>\n<br>\nDo not take this instance seriously, don't make it as your main, I suck at maintaining it.\n<br>\n\n<br>\n<br>\n怠け者なのでDeepLで翻訳。\n<br>\n僕のたこ焼きをテーマにしたインスタンスへようこそ。\n<br>\nこのインスタンスを本気にしないでください、メインにしないでください。\n<br>\n<a href=\"https://ski.takoyaki.xyz/@wststreet\">@wststreet</a>またはお知り合いのユーザーに招待コードを依頼してください。\n<br>\n<br>\n",
+      "nodeAdmins": [
+        {
+          "name": "wststreet",
+          "email": "n/a"
+        }
+      ],
+      "maintainer": {
+        "name": "wststreet",
+        "email": "n/a"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "takoyaki_proxy",
+      "themeColor": "#bf616a"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 698,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 15735,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskey Social",
+      "nodeDescription": "Il primo Misskey italiano! Qui si parla anche inglese e giapponese. Tecnologia, opensource, giochi, manga, anime, cultura giapponese, amicizie, idol maid e... waifu!\n\nEnglish is our second spoken language, after Italian. Feel free to join and stay with us!\n\nイタリアからMisskeyです、 いらっしゃいませ 。イタリア語と英語と日本語をあります",
+      "nodeAdmins": [
+        {
+          "name": "SysOp",
+          "email": "sysop@misskey.social"
+        }
+      ],
+      "maintainer": {
+        "name": "SysOp",
+        "email": "sysop@misskey.social"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.social/@sysop/pages/regolamento",
+      "privacyPolicyUrl": "https://misskey.social/@sysop/pages/privacy",
+      "inquiryUrl": "https://misskey.social/@sysop/pages/contatto",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#e66100"
+    }
+  },
+  "error": null
+}

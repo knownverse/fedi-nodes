@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Suéllen Padilha",
+      "nodeDescription": "Olá Bem vindo ao meu mundo pessoal da escrita, aqui compartilharei em forma de palavras os meus sentimentos, e como enxergo a vida! Será um prazer enorme ter você como meu leitor!",
+      "nodeIcon": "https://suellenpadilha0.wordpress.com/wp-content/uploads/2024/01/cropped-cropped-suellen-padilha.jpg"
+    }
+  },
+  "error": null
+}

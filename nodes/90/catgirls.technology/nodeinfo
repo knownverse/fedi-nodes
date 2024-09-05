@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 26,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6135,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "catgirls.technology",
+      "nodeDescription": "Friendly place powered by catgirls. Message @trif for an invite.",
+      "nodeAdmins": [
+        {
+          "name": "trif",
+          "email": "admin@mail.catgirls.technology"
+        }
+      ],
+      "maintainer": {
+        "name": "trif",
+        "email": "admin@mail.catgirls.technology"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#72c0ed"
+    }
+  },
+  "error": null
+}

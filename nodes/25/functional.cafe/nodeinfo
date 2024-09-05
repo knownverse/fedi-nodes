@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 764,
+        "activeMonth": 217,
+        "activeHalfyear": 313
+      },
+      "localPosts": 244591
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Functional Café",
+      "nodeDescription": "functional.cafe is an instance for people interested in functional programming and languages."
+    }
+  },
+  "error": null
+}

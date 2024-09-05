@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "activityrelay",
+      "version": "0.0.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "maintainer": {
+        "href": "https://ottawa.place/@andrew",
+        "name": "Andrew Dunham"
+      },
+      "peers": [
+        "clar.ke",
+        "eozygodon.com",
+        "fedi.sphericalcow.space",
+        "hub.winslow.cloud",
+        "imjust.one",
+        "key.tinier.town",
+        "mastodon.nervesocket.com",
+        "mastodon.peterjanes.ca",
+        "mastodon.tds.xyz",
+        "mstdn.chrisalemany.ca",
+        "mtl.rocks",
+        "niagara.social",
+        "ottawa.place",
+        "owo.is",
+        "pouet.fedi.quebec",
+        "social.desbasques.com",
+        "social.dinn.ca",
+        "social.ewpratten.com",
+        "social.theaddict.xyz",
+        "thecanadian.social",
+        "tuxz.one",
+        "zeroes.ca"
+      ]
+    }
+  },
+  "error": null
+}

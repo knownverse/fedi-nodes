@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 11,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "el Fredo&#039;s Tech-Blog",
+      "nodeDescription": "tech-stuff, smarthome and more...",
+      "nodeIcon": "https://elfredo.net/wp-content/uploads/2023/08/favicon.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 380,
+      "localComments": 421
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "trau.kainehm",
+      "nodeDescription": "Kai Nehm",
+      "nodeIcon": "https://trau.kainehm.de/wp-content/uploads/2017/03/cropped-tkn_site_icon.png"
+    }
+  },
+  "error": null
+}

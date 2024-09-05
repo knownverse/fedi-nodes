@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.th"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1503,
+        "activeMonth": 569,
+        "activeHalfyear": 828
+      },
+      "localPosts": 428498
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Treehouse Mastodon",
+      "nodeDescription": "A community of friends mostly surviving in the technology industry.  If you sign up, please provide a Twitter, GitHub, or personal blog or website link for us to get to know you better."
+    }
+  },
+  "error": null
+}

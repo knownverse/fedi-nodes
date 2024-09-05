@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1187
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "OKS Mastodon",
+      "nodeDescription": "Run by onekopaka, for now only for me. Maybe it will be for my friends too."
+    }
+  },
+  "error": null
+}

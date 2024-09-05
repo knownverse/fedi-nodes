@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cerita Fiksi Tiffany",
+      "nodeDescription": "Kumpulan cerita fiksi indonesia uang dibuat oleh Tiffany Wijaya",
+      "nodeIcon": "https://tiffany235.wordpress.com/wp-content/uploads/2024/03/pixlr-image-generator-ad30e7f3-39c5-4bfb-bf69-03bc879168c1.png"
+    }
+  },
+  "error": null
+}

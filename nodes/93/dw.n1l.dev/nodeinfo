@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-n.1",
+      "homepage": "https://github.com/n1lsqn/misskey",
+      "repository": "https://github.com/n1lsqn/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1841,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 452833,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "深層",
+      "nodeDescription": "深層です。\nGTLやLTLが存在しないサーバーです。",
+      "nodeAdmins": [
+        {
+          "name": "n1lsqn",
+          "email": "@n1lsqn"
+        }
+      ],
+      "maintainer": {
+        "name": "n1lsqn",
+        "email": "@n1lsqn"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/n1lsqn/misskey",
+      "feedbackUrl": "https://github.com/n1lsqn/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 9000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#000000"
+    }
+  },
+  "error": null
+}

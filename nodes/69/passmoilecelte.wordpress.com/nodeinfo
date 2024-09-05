@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Pass&#039;Moi le Celte",
+      "nodeDescription": "Rock Celtique festif et endiablé, Made in Haute-Savoie",
+      "nodeIcon": "https://passmoilecelte.wordpress.com/wp-content/uploads/2023/03/pmc-logo.jpeg"
+    }
+  },
+  "error": null
+}

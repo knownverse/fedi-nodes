@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 88,
+      "localComments": 38
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "een beetje maguy",
+      "nodeDescription": "",
+      "nodeIcon": "https://maguy.be/wp-content/uploads/2022/01/cropped-wuustwezel-16-mei-maguy.be_.jpg"
+    }
+  },
+  "error": null
+}

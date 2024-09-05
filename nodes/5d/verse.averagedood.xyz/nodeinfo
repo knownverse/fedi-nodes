@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": 13,
+        "activeMonth": 7
+      },
+      "localPosts": 3093,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "AverageVerse",
+      "nodeDescription": "Instancia de panas, partiendo la pana, invitando a la peña a cañas </br> </br> Unete a nuestro <a href=\"https://support.averagedood.xyz/\" style=\"color: #7289DA\">servidor de Discord <img src=\"https://vps.darkespada.xyz/si/discord.png\" alt=\"logo de Discord :D\" width=\"20px\" height=\"15px\"></a>",
+      "maintainer": {
+        "name": "AverageDood",
+        "email": "contacto@averagedood.xyz"
+      },
+      "langs": [],
+      "tosUrl": "https://verse.averagedood.xyz/@averagedood/pages/tos",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 10000,
+      "maxCaptionTextLength": 2500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": true,
+      "enableEmail": true,
+      "themeColor": "#066a72"
+    }
+  },
+  "error": null
+}

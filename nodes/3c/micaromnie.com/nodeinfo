@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 519,
+      "localComments": 22
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mica Românie",
+      "nodeDescription": "Să cunoaștem mai multe despre România și nu numai...",
+      "nodeIcon": "https://micaromnie.com/wp-content/uploads/2024/03/cropped-430173143_435896725449325_2015296724031778818_n.jpg"
+    }
+  },
+  "error": null
+}

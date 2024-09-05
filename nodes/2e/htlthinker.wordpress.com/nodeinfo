@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HTL思想者社科文庫",
+      "nodeDescription": "民衆の力は歴史の原動力である",
+      "nodeIcon": "https://htlthinker.com/wp-content/uploads/2022/06/e4b880e6a1a5e5a4a7e5ada6e585bce69dbee8aeb2e5a082.jpg"
+    }
+  },
+  "error": null
+}

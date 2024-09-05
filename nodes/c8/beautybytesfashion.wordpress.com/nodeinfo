@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BeautyBytesFashion",
+      "nodeDescription": "&quot;BeautyBytesFashion.wordpress.com&quot; is a captivating \n&quot;BeautyBytesFashion.wordpress.com&quot; actively explores the intersection of beauty, fashion, and technology. This vibrant blog curates engaging content that showcases the latest trends, innovative beauty products, and tech-infused fashion insights. Readers delve into in-depth reviews of cutting-edge beauty gadgets, skincare tech, and the seamless integration of technology in style and beauty.\n\nThe platform offers actionable tips, guides, and suggestions, empowering readers to embrace a modern lifestyle that effortlessly blends technology with fashion and beauty. With a focus on the dynamic evolution of these industries, BeautyBytesFashion.wordpress.com inspires its audience to adopt a sophisticated and trendsetting approach to their lifestyle.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

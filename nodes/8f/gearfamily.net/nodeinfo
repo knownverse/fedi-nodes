@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 207,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Gear Family",
+      "nodeDescription": "Two big Gears and three little ones",
+      "nodeIcon": "https://i0.wp.com/gearfamily.net/au/wp-content/uploads/2020/11/cropped-B9B577CD-0827-4342-ADBD-CBA8FF2B4051.jpeg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

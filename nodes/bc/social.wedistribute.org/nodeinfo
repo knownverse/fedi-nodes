@@ -1,0 +1,186 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "wedistribute.org",
+        "fediversereport.com",
+        "indieweb.social",
+        "Flipboard.social",
+        "pebble.social",
+        "newsmast.social",
+        "threads.net",
+        "flipboard.com",
+        "Me.dm",
+        "mozilla.social",
+        "Momostr.pink",
+        "Fedia.io",
+        "fedia.social",
+        "catodon.social",
+        "goblin.band",
+        "Tapbots.social",
+        "econtwitter.net",
+        "iceshrimp.social",
+        "appdot.net",
+        "federatedfandom.net",
+        "gamepad.club",
+        "mastoart.social",
+        "vmst.io",
+        "Octodon.social",
+        "Geekdom.social",
+        "dmv.community",
+        "Goblin.camp",
+        "Social.coop",
+        "Frequency.app",
+        "app.wafrn.net",
+        "Twit.social",
+        "moth.social",
+        "Blacktwitter.io",
+        "bsky.brid.gy",
+        "akkomane.social",
+        "Ditto.pub",
+        "Mostr.pub",
+        "sub.club",
+        "pixelfed.social",
+        "piefed.social",
+        "Mastodon.online",
+        "Masto.ai"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "We Distribute: Connecting Threads Across the Web!",
+      "nodeName": "We Distribute",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 10,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": true,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.wedistribute.org/users/laurens",
+        "https://social.wedistribute.org/users/decentered",
+        "https://social.wedistribute.org/users/deadsuperhero",
+        "https://social.wedistribute.org/users/hello",
+        "https://social.wedistribute.org/users/damon"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": 8,
+        "activeMonth": 6
+      },
+      "localPosts": 2176
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

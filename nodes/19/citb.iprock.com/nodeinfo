@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 536,
+      "localComments": 106
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Thom Byxbe&#039;s Research  Desk",
+      "nodeDescription": "Challenging Your Thinking, Driving Your Imagination, Forecasting The Future",
+      "nodeIcon": "https://i0.wp.com/citb.iprock.com/wp-content/images//2016/02/CITB-Logo.jpg?fit=175%2C178&ssl=1"
+    }
+  },
+  "error": null
+}

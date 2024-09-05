@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "lemmy",
+      "version": "0.19.3-6-g86e4cb214"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 165662,
+        "activeHalfyear": 29609,
+        "activeMonth": 18374
+      },
+      "localPosts": 358316,
+      "localComments": 3285859
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

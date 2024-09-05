@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 170,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "misskey.local",
+      "nodeDescription": "おひとり様misskey鯖<br><br>\n自宅のラズパイサーバー misskey.local<br>\nをCloudflareTunnelで公開しています<br><br>\nWorks on RaspberryPi 4 4GB<br>\nOS: debian12 bookworm",
+      "nodeAdmins": [
+        {
+          "name": "Mori S*",
+          "email": "https://mi.moris.day/@moris"
+        }
+      ],
+      "maintainer": {
+        "name": "Mori S*",
+        "email": "https://mi.moris.day/@moris"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://mi.moris.day/@moris",
+      "impressumUrl": "https://mi.moris.day/@moris",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ff9300"
+    }
+  },
+  "error": null
+}

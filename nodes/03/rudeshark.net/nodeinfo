@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "madeorsk@protonmail.com",
+        "name": "Madeorsk"
+      },
+      "nodeDescription": "A good fediverse instance to be a rude shark.",
+      "nodeName": "Rudeshark",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240630"
+    },
+    "usage": {
+      "localPosts": 17,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 1,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

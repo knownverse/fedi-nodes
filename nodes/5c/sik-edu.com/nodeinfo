@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Study in Kibris",
+      "nodeDescription": "أطلق العنان لمستقبلك في قبرص الشمالية!",
+      "nodeIcon": "https://sik-edu.com/wp-content/uploads/2024/01/cropped-study-in-kibris-high-resolution-logo-transparent-7.png"
+    }
+  },
+  "error": null
+}

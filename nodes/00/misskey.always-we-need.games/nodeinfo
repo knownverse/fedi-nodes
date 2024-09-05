@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 597,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 50677,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "always-we-need.games",
+      "nodeDescription": "PBW、定期更新、ボドゲその他諸々のゲームに関係するユーザー、クリエイター、その他大勢向けのmisskeyです！\n\nただただつぶやきたい、つぶやきを見たい、そんな貴方向けです。\n管理人がmisskeyとりあえず立てた勢＆管理上避難所的側面が強いですが、適当に使い倒していただいて構いません！",
+      "maintainer": {
+        "name": "井上ラー",
+        "email": "sobata@alpaca-connect.co.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

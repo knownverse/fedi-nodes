@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14243,
+        "activeMonth": 3395,
+        "activeHalfyear": 5394
+      },
+      "localPosts": 3399134
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "LGBTQIA+ and Tech",
+      "nodeDescription": "We welcome all marginalized identities. This Mastodon instance is generally for folks who are LGBTQIA+ and Allies with an interest in tech work, academics, or technology in general."
+    }
+  },
+  "error": null
+}

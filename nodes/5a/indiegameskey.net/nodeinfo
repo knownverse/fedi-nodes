@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 197,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2771,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "自作ゲーム愛好会",
+      "nodeDescription": "フリーゲーム、インディーゲーム、同人ゲーム、スマホゲームなど、中小規模独立開発ゲームの遊び手や作り手などが集まるサーバーです。\n展示会やコミケのような、交流できる場を想定しています。\n\n・開発者は、宣伝や進捗報告、技術話などにどうぞ\n・プレイヤーは、好きなゲーム語りやn次創作などにどうぞ\n・その他、大作ゲームや雑談などの話題も歓迎です。\n\n利用する前に必ず <a href=https://indiegameskey.notion.site/0486de2cd17d4965a1511b9028057d27?pvs=4><font color=blue>【ガイドライン】</font></a>をお読みください。\n（特にR-18ゲームの制作者は注意してください）\n\n<a href=https://indiegameskey.notion.site/Discord-660e52cf50144997947fa30051d97846><font color=blue>【Discord版】</font></a>もございます。",
+      "nodeAdmins": [
+        {
+          "name": "まきぬの",
+          "email": "aaa@bbb.com"
+        }
+      ],
+      "maintainer": {
+        "name": "まきぬの",
+        "email": "aaa@bbb.com"
+      },
+      "langs": [],
+      "tosUrl": "https://indiegameskey.notion.site/81231f215b6a479881bad0d60d48e37e",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#4d5b66"
+    }
+  },
+  "error": null
+}

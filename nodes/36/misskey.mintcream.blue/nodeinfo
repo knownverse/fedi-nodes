@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8956,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "きょうのねどこ",
+      "nodeDescription": "基本おひとりさまですが、お知り合いの方など受け入れています。<br><br>\n 登録希望の方は、<a href=\"https://misskey.mintcream.blue/@hgym/pages/terms\" style=\"text-decoration: underline\">利用規約・ガイドライン</a>を最後まで読んで登録を進めてください。",
+      "nodeAdmins": [
+        {
+          "name": "ハギ／おはぎ",
+          "email": "個人サイトに載ってます"
+        }
+      ],
+      "maintainer": {
+        "name": "ハギ／おはぎ",
+        "email": "個人サイトに載ってます"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#7b68ee"
+    }
+  },
+  "error": null
+}

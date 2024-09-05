@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2833,
+      "localComments": 7021
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Why It Matters",
+      "nodeDescription": "Music. Stories. Essays. Records.",
+      "nodeIcon": "https://wimwords.com/wp-content/uploads/2018/08/cropped-wimbot_web_bw_sm.jpg"
+    }
+  },
+  "error": null
+}

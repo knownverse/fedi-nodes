@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 860,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 142382,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "#だらだら倶楽部",
+      "nodeDescription": "何もしていないをしたい、そんなインスタンス。\nあなたの心の避暑地、ここにあります。",
+      "nodeAdmins": [
+        {
+          "name": "だらだら倶楽部部長",
+          "email": "hello@drdr.club"
+        }
+      ],
+      "maintainer": {
+        "name": "だらだら倶楽部部長",
+        "email": "hello@drdr.club"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "remote",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

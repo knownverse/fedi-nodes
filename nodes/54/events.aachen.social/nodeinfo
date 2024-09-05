@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "au hur!",
+      "nodeName": "events.aachen.social"
+    },
+    "usage": {
+      "users": {
+        "total": 25
+      },
+      "localComments": 9,
+      "localPosts": 301
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "5.0.0-beta.1-dirty"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

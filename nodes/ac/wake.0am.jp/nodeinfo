@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "foundkey",
+      "version": "13.0.0-preview6",
+      "repository": "https://akkoma.dev/FoundKeyGang/FoundKey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4568,
+        "activeHalfyear": 1749,
+        "activeMonth": 488
+      },
+      "localPosts": 153951,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "０時おっき",
+      "nodeDescription": "あかりが運営してるFoundkeyだよ！<p>\nFeel free to register ♪",
+      "maintainer": {
+        "name": "あかり",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://wake.0am.jp/@akari/pages/rules",
+      "repositoryUrl": "https://akkoma.dev/FoundKeyGang/FoundKey",
+      "feedbackUrl": "https://akkoma.dev/FoundKeyGang/FoundKey/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "proxyAccountName": null,
+      "themeColor": "#A0522D",
+      "activeWebhooks": 0
+    }
+  },
+  "error": null
+}

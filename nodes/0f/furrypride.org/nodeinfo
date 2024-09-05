@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 183853
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "FurryPride!",
+      "nodeDescription": "The reincarnation of the Furry Pride Akkoma server, Akkoma decided to die so I switched to Mastodon-Glitch! Will allow user reg soon - still working out kinks <3"
+    }
+  },
+  "error": null
+}

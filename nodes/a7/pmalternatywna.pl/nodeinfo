@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 536,
+      "localComments": 50
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Polska Muzyka alternatywna",
+      "nodeDescription": "Odkrywamy dla Was bogactwo polskiej sceny alternatywnej, wyjątkowe brzmienia i artystyczne wizje. Polska Muzyka alternatywna to projekt społeczny prowadzony hobbystycznie.",
+      "nodeIcon": "https://pmalternatywna.pl/wp-content/uploads/2024/07/logo-pma-zielone-sluchawki-1080x1080px-1.png"
+    }
+  },
+  "error": null
+}

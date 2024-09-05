@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23423,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ゆ〜れいコンビニ♨",
+      "nodeDescription": "廃コンビニにひびくゆ〜れいのぼやき。\n\n開放してないけど、おれに申し出てもらえれば、だれでも招待するよ。\n\nおれはこいつ→ https://mk.u0conveni.club/@kamikire ←ここだけ文字列にURLを埋め込めない",
+      "nodeAdmins": [
+        {
+          "name": "髪切れ",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "髪切れ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://mk.u0conveni.club/@announce/pages/1674292936064",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#478384"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 26,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1381,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぶるーすきー!!",
+      "nodeDescription": "ぶるーすかいじゃないよ! ぶるーすきー!\n青いものが好きな人いらっしゃい! そうでない人もいらっしゃい!",
+      "nodeAdmins": [
+        {
+          "name": "にこなのにふわわあ",
+          "email": "contact@bskey.social"
+        }
+      ],
+      "maintainer": {
+        "name": "にこなのにふわわあ",
+        "email": "contact@bskey.social"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://fuwa.dev/about",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00afff"
+    }
+  },
+  "error": null
+}

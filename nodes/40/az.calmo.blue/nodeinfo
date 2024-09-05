@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8396,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "あずま屋",
+      "nodeDescription": "個人・お知り合い向けサーバーです。",
+      "nodeAdmins": [
+        {
+          "name": "tetola",
+          "email": "tetetorico@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "tetola",
+        "email": "tetetorico@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://az.calmo.blue/@tetra/pages/readme",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#5b9293"
+    }
+  },
+  "error": null
+}

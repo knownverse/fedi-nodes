@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Eine weitere Plume-Instanz!<br>Hier kannst du völlig kostenlos Blogeinträge erstellen und deinen Beitrag mit mehreren Instanzen vernetzen. Somit hast du eine höhere Reichweite!<br><br>\n\nImprint(Impressum): <a href=\"https://ggc-project.de/impressum.html\" rel=\"noopener noreferrer\">klick</a><br>\nPrivacy(Datenschutzerklärung): <a href=\"https://ggc-project.de/datenschutz.html\" rel=\"noopener noreferrer\">klick</a><br>\nTerms(Nutzungsbedingungen): <a href=\"https://ggc-project.de/terms.html\" rel=\"noopener noreferrer\">klick</a>",
+      "nodeName": "Plume at GGC-Project"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 473,
+      "localPosts": 804,
+      "users": {
+        "total": 1061
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

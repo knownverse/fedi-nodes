@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "brighteon",
+      "version": "3.4.6"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 53581,
+        "activeMonth": 3,
+        "activeHalfyear": 33
+      },
+      "localPosts": 2566725
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

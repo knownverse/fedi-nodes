@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 46,
+        "activeMonth": 26,
+        "activeHalfyear": 31
+      },
+      "localPosts": 529799
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Mochi Academy 🍡",
+      "nodeDescription": "Serveur personnel et avec des ami.e.s."
+    }
+  },
+  "error": null
+}

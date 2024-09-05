@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 177,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nachhaltige Zukunft Waldstetten e.V.",
+      "nodeDescription": "Gemeinsam entwickeln wir die Zukunft für Waldstetten.",
+      "nodeIcon": "https://nazuwa.de/wp-content/uploads/2021/11/NaZuWa-BILDLogo-final-03-e1636888903366.png"
+    }
+  },
+  "error": null
+}

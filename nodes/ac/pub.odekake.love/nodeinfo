@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-osky.1.0.14",
+      "homepage": "https://github.com/Kai-Z-JP/pub.odekake.love",
+      "repository": "https://github.com/Kai-Z-JP/pub.odekake.love"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 120,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 121294,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Odekakey",
+      "nodeDescription": "軽率に、おでかけっ！！！",
+      "nodeAdmins": [
+        {
+          "name": "2-2-2",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "2-2-2",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/Kai-Z-JP/pub.odekake.love",
+      "feedbackUrl": "https://github.com/Kai-Z-JP/pub.odekake.love/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#37D8AE"
+    }
+  },
+  "error": null
+}

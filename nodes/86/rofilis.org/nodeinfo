@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 166,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "J. Marc Reichow | Kurkurator",
+      "nodeDescription": "Eine Seite der Rofilisorganisation.",
+      "nodeIcon": "https://rofilis.org/wp-content/uploads/2018/04/cropped-darkprofil2mitrand.jpg"
+    }
+  },
+  "error": null
+}

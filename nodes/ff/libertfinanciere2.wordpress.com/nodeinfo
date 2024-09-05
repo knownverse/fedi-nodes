@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Comment devenir financièrement libre ?",
+      "nodeDescription": "Ici vous aurez accès à des idées de bisness en ligne et à des formations en tout genre pour atteindre votre objectif de liberté financière",
+      "nodeIcon": "https://libertfinanciere2.wordpress.com/wp-content/uploads/2024/01/cropped-20240111_003419_0000.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2804,
+      "localComments": 204
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "狼系",
+      "nodeDescription": "犬のようには懐かない。",
+      "nodeIcon": "https://i0.wp.com/wolverion.com/wp/wp-content/uploads/2019/10/cropped-wolverion2019_512x512.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

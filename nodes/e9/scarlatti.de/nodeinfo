@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 558,
+      "localComments": 476
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Scarlatti",
+      "nodeDescription": "[bracketing the big topics]",
+      "nodeIcon": "https://scarlatti.de/wp-content/uploads/2020/02/cropped-dom.jpg"
+    }
+  },
+  "error": null
+}

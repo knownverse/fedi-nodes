@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 44,
+      "localComments": 100
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ZYNAB AMINU| FREELANCE WRITER ",
+      "nodeDescription": "I create and manage written content for businesses and organizations.",
+      "nodeIcon": "https://zynabaminublog.wordpress.com/wp-content/uploads/2021/06/wp-1624888796939..jpg"
+    }
+  },
+  "error": null
+}

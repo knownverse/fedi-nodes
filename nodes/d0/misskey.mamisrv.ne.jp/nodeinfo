@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 378,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Mamisskey",
+      "nodeDescription": "Q.「Mamisskey」はどんなサーバーですか？<br>\nA. オーナーの公開(商用)運用勉強のサーバー<br>\n<br>\nQ. 利用規約はあるの？<br>\nA. ざっくりなルールしか無いけど、読んでね!!<br>\n<br>\n当初、避難所として作ってたので、ぜひ使ってね<br>\n<br>\nMamisskeyの読み方:「マミスキー」<br>\nQ. ネーミングの由来<br>\nA. Mamireimuとmisskeyを混ぜただけ<br>",
+      "nodeAdmins": [
+        {
+          "name": "Mamireimu Net Work's",
+          "email": "support[at]mamisrv.ne.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "Mamireimu Net Work's",
+        "email": "support[at]mamisrv.ne.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://mi-docs.mamisrv.ne.jp/tos/tos/",
+      "privacyPolicyUrl": "https://mi-docs.mamisrv.ne.jp/tos/privacy_policy/",
+      "inquiryUrl": "support@mamisrv.ne.jp",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

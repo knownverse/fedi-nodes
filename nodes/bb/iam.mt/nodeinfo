@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 156,
+      "localComments": 98
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mohnish Thallavajhula",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/iam.mt/wp-content/uploads/2021/06/cropped-cropped-7cef7-cropped-cropped-image-1-2.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

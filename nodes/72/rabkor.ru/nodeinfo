@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.3"
+    },
+    "usage": {
+      "users": {
+        "total": 301,
+        "activeMonth": "294",
+        "activeHalfyear": "294"
+      },
+      "localPosts": 14835,
+      "localComments": 54
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Рабкор.ру",
+      "nodeDescription": "Интернет-журнал, посвященный вопросам политики, экономики, общества и культуры.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

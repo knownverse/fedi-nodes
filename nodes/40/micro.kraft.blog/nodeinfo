@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 326,
+      "localComments": 455
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Little Bits of Cheese",
+      "nodeDescription": "Kraft&#039;s Random Short Thoughts",
+      "nodeIcon": "https://micro.kraft.blog/uploads/sites/45/2020/10/7955a3914c65c0e67c01d9a7de1ba3fad3efbb9f.jpg"
+    }
+  },
+  "error": null
+}

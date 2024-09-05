@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2708,
+      "localComments": 19787
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Belgian Ecclesia Brussel - Leuven",
+      "nodeDescription": "Thoughts and happenings around the Belgian Free Christadelphian Ecclesia Brussels-Leuven - Gedachten en gebeurtenissen rond de Ecclesia Brussel-Leuven van de Broeders in Christus",
+      "nodeIcon": "https://christadelphians.wordpress.com/wp-content/uploads/2021/03/cropped-cbm-logo.jpg"
+    }
+  },
+  "error": null
+}

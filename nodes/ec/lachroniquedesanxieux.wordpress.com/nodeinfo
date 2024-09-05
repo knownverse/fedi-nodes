@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Chronique des Anxieux",
+      "nodeDescription": "Ancienne infirmière ayant exercé en psychiatrie pendant de nombreuses années je vous propose des réflexions autour de la santé mentale, avec des approches différentes et quelques notions théoriques. Tout ceci dans le but de vous aider à appréhender au mieux votre santé mentale et à-pprendre soin de vous.",
+      "nodeIcon": "https://lachroniquedesanxieux.wordpress.com/wp-content/uploads/2022/06/blue-black-and-cream-modern-podcast3-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "kurage.top@gmail.com",
+        "name": "admin@kurage.top"
+      },
+      "nodeDescription": "〜ゆらゆら 揺らめく 波の間に〜\n<br>\n〜きらきら 輝く 声はただ揺れ 彼方へと〜",
+      "nodeName": "クラゲの海",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240630"
+    },
+    "usage": {
+      "localPosts": 9285,
+      "users": {
+        "activeHalfyear": 10,
+        "activeMonth": 7,
+        "total": 20
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

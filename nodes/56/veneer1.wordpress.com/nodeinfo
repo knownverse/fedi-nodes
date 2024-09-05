@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 125,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "天然實木薄片木皮不織布 木皮熱壓板 天然木皮塗裝板 特耐PP軟片",
+      "nodeDescription": "天然木皮 沐霖木皮房 muLin wood veneer",
+      "nodeIcon": "https://veneer1.wordpress.com/wp-content/uploads/2023/10/mu-lin-veneer-1-30x24-1.png"
+    }
+  },
+  "error": null
+}

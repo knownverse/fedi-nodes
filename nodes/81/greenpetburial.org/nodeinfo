@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 27,
+      "localComments": 80
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Green Pet-Burial Society",
+      "nodeDescription": "Together Forever",
+      "nodeIcon": "https://greenpetburial.org/wp-content/uploads/2012/03/cropped-cropped-bannerdeer528948452_333abe2417_b_edited-2.jpg"
+    }
+  },
+  "error": null
+}

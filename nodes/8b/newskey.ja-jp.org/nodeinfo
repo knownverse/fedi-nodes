@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 91025,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "にゅーすきー",
+      "nodeDescription": "このサーバは、rss情報をActivityPubに流してみる、という感じのコンセプトサーバ（実験サーバ）です。\nある日突然死ぬかもしれませんのでご注意ください。\n\nRSSのニュースを配信してみています。\n他のmisskey/mastodonなどから、気になるアカウントをフォローしてご利用ください。死んだらごめんな？\n\n現在このサーバではアカウント登録を受け付けていません。",
+      "maintainer": {
+        "name": "いつき",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

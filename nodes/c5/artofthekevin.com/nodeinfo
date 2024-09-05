@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Art of the Kevin",
+      "nodeDescription": "Aspiring 2D/3D Artist - Occasional Photographer - Sci-Fi Fan",
+      "nodeIcon": "https://artofthekevin.com/wp-content/uploads/2022/12/cropped-prototype-corridor-2013-002a-800px.jpg"
+    }
+  },
+  "error": null
+}

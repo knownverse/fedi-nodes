@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 45,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Irish Left With Ukraine - Neither Moscow nor Washington",
+      "nodeDescription": "Ireland Fought for Freedom against an Empire - Now we on the Irish Left Support Ukraine&#039;s Fight for Freedom",
+      "nodeIcon": "https://irishleftwithukraine.blog/wp-content/uploads/2023/02/image.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.10+git.d075c6ae"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": 3,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://radio.washingtonbeach.online/federation/actors/service",
+      "private": false,
+      "shortDescription": "Brought to you by the Ministry of Culture",
+      "longDescription": "A digital toast to the era of the jukebox, where you could really get a feel for a place by what you could listen to while you were there. Like most good clubs it's invite only, but let one of us know and I'm sure we can get you on the list.",
+      "rules": "Rules are pretty simple:\r\n<ul>\r\n<li>Don't post stuff publicly that you don't have the rights to</li>\r\n<li>No racist/nazi shit</li>\r\n<li>No Goo Goo Dolls</li>\r\n</ul>",
+      "contactEmail": "sergio.pantalone@proton.me",
+      "terms": "What will we do with your data? Nothing. How will you be influenced by advertisers? You won't. How will we aggregate your data in order to improve your service… none of that.\r\n\r\nWe will never share your data with anyone else, except in the case of valid legal requests if it comes to that. (Hopefully it won't come to that!) Similarly, users and third parties are forbidden from scraping content from the instance's web interface or API; you are required to respect <code>robots.txt</code> files.",
+      "nodeName": "the Washington Beach Jukebox",
+      "banner": "https://s3.wasabisys.com/funkwhale/dynamic_preferences/instance__banner/dubewhale.jpeg",
+      "defaultUploadQuota": 10000,
+      "library": {
+        "federationEnabled": false,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 7875
+        },
+        "artists": {
+          "total": 1254
+        },
+        "albums": {
+          "total": 550
+        },
+        "music": {
+          "hours": 479.1141666666667
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 157
+          }
+        },
+        "listenings": {
+          "total": 38711
+        },
+        "downloads": {
+          "total": 40873
+        }
+      }
+    }
+  },
+  "error": null
+}

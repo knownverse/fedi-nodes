@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.56-HEAD-d44db2eab509aeafc80acfd1a6be280ea21a8cef"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "chirpnest.net",
+        "declin.eu",
+        "eeeeeeeee.eu",
+        "masto.ingeechat.party",
+        "misskey.masca.li",
+        "relay.fedi.buzz",
+        "relay.fedi.buzz"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

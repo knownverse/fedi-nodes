@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 24,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1714,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "B.O.T.(仮)",
+      "nodeDescription": "身内用インスタンスです。現状公式からBranchしたのみで独自機能の実装の予定はありません。<Br>\n・【安定動作を保証しません。】<br>　様々な理由により動作が停止する可能性があります。<br>\n・投稿したデータ等は管理者から全て閲覧可能な状態になります。<br>\n　セキュリティ的にも「閲覧されて問題ない」認証情報を使用することを強く推奨します。<br>\n・転んでも泣かない。<br>\n・御用の際は管理者のメールアドレス、もしくはDiscord#Misaki_Ryoまで。",
+      "maintainer": {
+        "name": "巫 合歓",
+        "email": "nemu.kounagi@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

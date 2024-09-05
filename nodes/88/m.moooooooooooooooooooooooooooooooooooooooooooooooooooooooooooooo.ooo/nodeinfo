@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 2
+    },
+    "metadata": {
+      "nodeName": "cow ranch",
+      "nodeDescription": "just some cows walking around",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://m.moooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ooo/users/cow"
+      ]
+    }
+  },
+  "error": null
+}

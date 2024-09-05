@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "This is a semi-private Plume instance.  Plume is a federated publishing/blog platform using ActivityPub which connects federated sites.  Thus a blog posted on one Plume/Federated site is published on all Plume/Fdeerated sites.\n\nIf you know me and would like an account, just get in touch and I'll get you setup.\n\nOtherwise to find a public instance of Plume, go to **[https://the-federation.info/plume](https://the-federation.info/plume).**  **Also see the section below** about _'How to Like, Boost (reshare) or comment on any post'_ for even more options.",
+      "nodeName": "WriteWorks"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 3,
+      "localPosts": 1069,
+      "users": {
+        "total": 3
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

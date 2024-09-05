@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0+pbzweihander.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7911,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "엘더스크롤.우주",
+      "nodeDescription": "엘더스크롤 시리즈의 게임과 세계관에 대한 이야기를 나누는 곳입니다.",
+      "nodeAdmins": [
+        {
+          "name": "양손검",
+          "email": "pbzweihander@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "양손검",
+        "email": "pbzweihander@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#fcf7b3"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 26,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2950,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "작은 양품점",
+      "nodeDescription": "작은 양품점은 인형, 미니어처 및 각종 장난감을 위한 곳입니다. 당신만의 작은 세계를 전시해보세요.",
+      "nodeAdmins": [
+        {
+          "name": "양품점 점원, 루시안",
+          "email": "the.doll.of.the.girl@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "양품점 점원, 루시안",
+        "email": "the.doll.of.the.girl@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "mailto:the.doll.of.the.girl@gmail.com",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ab957b"
+    }
+  },
+  "error": null
+}

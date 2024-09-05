@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 13,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Entraide francophone",
+      "nodeDescription": "Que l&#039;entraide soit pour nous une façon de multiplier notre pouvoir d&#039;action personnel.",
+      "nodeIcon": "https://entraide-francophone.org/wp-content/uploads/2023/10/cropped-logo-new-150x150-1.png"
+    }
+  },
+  "error": null
+}

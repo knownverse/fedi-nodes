@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 428,
+        "activeMonth": 255,
+        "activeHalfyear": 316
+      },
+      "localPosts": 512237
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The Dragon's Cave",
+      "nodeDescription": "A fun, happy little Mastodon/Glitch instance."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,254 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": []
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "KeywordPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "plume.pullopen.xyz",
+            "fediverse.blog"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "nicecrew.digital",
+            "k.posix.gay",
+            "refusal.llc",
+            "merveilles.town",
+            "rot.gives",
+            "baraag.net",
+            "threads.net",
+            "detroitriotcity.com",
+            "poa.st",
+            "h-i.social",
+            "chat.wecops.uk"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "fediverse.blog": {
+              "reason": "Spam"
+            },
+            "plume.pullopen.xyz": {
+              "reason": "Spam"
+            }
+          },
+          "reject": {
+            "baraag.net": {
+              "reason": "Has a peculiar set of laws being struck out in their about section."
+            },
+            "chat.wecops.uk": {
+              "reason": "0/10 no Andy Summers on the server"
+            },
+            "detroitriotcity.com": {
+              "reason": "Pings the admins with gore."
+            },
+            "h-i.social": {
+              "reason": "Think tanks don't."
+            },
+            "k.posix.gay": {
+              "reason": "Believes refusal did nothing wrong."
+            },
+            "merveilles.town": {
+              "reason": "Cognitohazard generators."
+            },
+            "nicecrew.digital": {
+              "reason": "Inhabitants believe you greet people by calling them the r-word."
+            },
+            "poa.st": {
+              "reason": "Pings the admins with gore."
+            },
+            "refusal.llc": {
+              "reason": "Non-zero number of pedophiles and nasty people in general."
+            },
+            "rot.gives": {
+              "reason": "Non-zero number of pedophiles and nasty people in general."
+            },
+            "threads.net": {
+              "reason": "Even my mum doesn't want anything to do with it."
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "mailerEnabled": false,
+      "nodeDescription": "Anarchist^WCollective individualistic cooperative of concrete, self-oriented will in pursuit of ego (no crabs) code",
+      "nodeName": "Applied Language",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 25,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://social.applied-langua.ge/users/hayley",
+        "https://social.applied-langua.ge/users/Gnuxie"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 32000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.5.2-13-g2d193861"
+    },
+    "usage": {
+      "localPosts": 10871,
+      "users": {
+        "activeHalfyear": 5,
+        "activeMonth": 5,
+        "total": 6
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

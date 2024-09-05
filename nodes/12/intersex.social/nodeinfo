@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": 18,
+        "activeMonth": 8
+      },
+      "localPosts": 229,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "intersex.social",
+      "nodeDescription": "A fediverse server for intersex folks, run by intersex folks. \n💛💜💛\nOur goal is to create a safe space for intersex people on the fediverse. 💛 We hope to be a community-hosted alternative to the intersex hashtag on tumblr, and are actively moderating the intersex hashtag on this instance. 💜",
+      "maintainer": {
+        "name": "moderator",
+        "email": "intersexdotsocial@proton.me"
+      },
+      "langs": [],
+      "tosUrl": "https://intersex.social/notes/9u05xaozy7o1dyky#9u05xaozy7o1dyky",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

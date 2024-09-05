@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "KickynIt Satellite Radio Broadcast",
+      "nodeDescription": "KSRB proudly upholds the tradition of radio, delivering top-notch programming that honors the past while embracing the future. We&#039;re expanding our reach through satellite and streaming, pioneering innovative approaches and shaping the future of radio. Join us on this exciting journey!",
+      "nodeIcon": "https://kickynitradio.com/wp-content/uploads/2022/04/cropped-cropped-big-logo-transparent-background-png-512-x-512-px.png"
+    }
+  },
+  "error": null
+}

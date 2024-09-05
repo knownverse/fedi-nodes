@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+qdon.glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 9,
+        "activeHalfyear": 12
+      },
+      "localPosts": 71981
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "에테르",
+      "nodeDescription": "실험적인 인프라를 테스트하는 서버입니다.\r\n각종 봇들도 여기에 굴릴 예정입니다"
+    }
+  },
+  "error": null
+}

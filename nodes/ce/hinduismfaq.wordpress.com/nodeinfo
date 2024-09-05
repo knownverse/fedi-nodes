@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 72,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FREQUENTLY ASKED QUESTIONS ON HINDUISM ANSWERED",
+      "nodeDescription": "Your answers to the frequently asked questions by different religions (Muslim or Christian missionaries) and sects within Hindus (Lingayath, Arya Samaj), atheist, etc.",
+      "nodeIcon": "https://hinduismfaq.wordpress.com/wp-content/uploads/2023/01/cropped-webs1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "Clubsall",
+      "version": "1.0.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 0,
+        "activeMonth": 0,
+        "activeHalfyear": 0
+      }
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Clubsall",
+      "nodeDescription": "Clubsall is an interactive online platform that empowers users to connect with people, engage in a wide range of discussions, and share content on a variety of topics."
+    }
+  },
+  "error": null
+}

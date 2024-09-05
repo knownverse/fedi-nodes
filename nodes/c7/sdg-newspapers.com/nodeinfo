@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "St. Lawrence U.E.L. and Family Histories Newspaper Project",
+      "nodeDescription": "Newspaper articles about the local people",
+      "nodeIcon": "https://sdg-newspapers.com/wp-content/uploads/2024/04/img-myyadubunhidmlzbyeacujxh.png"
+    }
+  },
+  "error": null
+}

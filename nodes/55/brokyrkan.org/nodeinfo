@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Brokyrkan",
+      "nodeDescription": "Församlingen Brokyrkan i Rimforsa",
+      "nodeIcon": "https://brokyrkan.org/wp-content/uploads/2015/08/cropped-brokyrkan_ikon.jpg"
+    }
+  },
+  "error": null
+}

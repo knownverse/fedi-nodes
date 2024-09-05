@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 52,
+      "localComments": 247
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Anna&#039;s Multiverse",
+      "nodeDescription": "",
+      "nodeIcon": "https://annasmultiverse.wordpress.com/wp-content/uploads/2024/01/cropped-13104080.jpg"
+    }
+  },
+  "error": null
+}

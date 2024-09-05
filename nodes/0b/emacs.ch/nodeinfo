@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1275,
+        "activeMonth": 419,
+        "activeHalfyear": 613
+      },
+      "localPosts": 124929
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Emacs.ch",
+      "nodeDescription": "A safe and friendly Mastodon instance, operated for Emacs, Lisp and FOSS enthusiasts, developers and all open-minded humans. 5000 character limit."
+    }
+  },
+  "error": null
+}

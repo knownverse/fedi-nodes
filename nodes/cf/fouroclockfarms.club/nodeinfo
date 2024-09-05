@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeMonth": 9,
+        "activeHalfyear": 9
+      },
+      "localPosts": 16285
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Four O'clock Farms",
+      "nodeDescription": "A small, highly moderated, private server run by some wheat growing queers on the plains."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Events and trainings organised by XR Global Support",
+      "nodeName": "XR Global Support Events"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.1.1"
+    },
+    "usage": {
+      "localComments": 13,
+      "localPosts": 231,
+      "users": {
+        "total": 8
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

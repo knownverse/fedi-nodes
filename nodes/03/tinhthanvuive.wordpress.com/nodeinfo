@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tinh Thần Vui Vẻ",
+      "nodeDescription": "Chào các bạn đến với Tình Thần Vui Vẻ. Trang chuyên chia sẻ về típ làm đẹp, chăm sóc da, body.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

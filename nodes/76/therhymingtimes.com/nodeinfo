@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 71,
+      "localComments": 258
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "THE  RHYMING  TIMES",
+      "nodeDescription": "HILARITY IN POETRY &amp; WOEFUL VERSES WEEKLY BY GILL THOMAS",
+      "nodeIcon": "https://therhymingtimes.com/wp-content/uploads/2018/01/cropped-fb_img_1505305704842-e1517644144236.jpg"
+    }
+  },
+  "error": null
+}

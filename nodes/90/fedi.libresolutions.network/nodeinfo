@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 40
+    },
+    "metadata": {
+      "nodeName": "Mitra - Libre Solutions Network",
+      "nodeDescription": "Mitra",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://fedi.libresolutions.network/users/gabriel"
+      ]
+    }
+  },
+  "error": null
+}

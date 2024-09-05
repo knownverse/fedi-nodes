@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 49,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hemingway&#039;s Cocktail &amp; Music Bar",
+      "nodeDescription": "The Soundtrack of your Drinking Memories",
+      "nodeIcon": "https://i0.wp.com/marinamichou.com/wp-content/uploads/2024/03/cropped-img_20230126_183635_467-1024x1024-1-1.jpeg?fit=887%2C887&ssl=1"
+    }
+  },
+  "error": null
+}

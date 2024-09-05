@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3914,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "todanano-fune",
+      "nodeDescription": "Misskeyに興味が出たので、サーバーを建ててみました。\nひとまずは、個人用で、ユーザー登録は受け付けていません。\n\n",
+      "nodeAdmins": [
+        {
+          "name": "冬音",
+          "email": "todanano_fune-misskey@yahoo.co.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "冬音",
+        "email": "todanano_fune-misskey@yahoo.co.jp"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://x.com/todanano",
+      "impressumUrl": "https://x.com/todanano",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ed6d3d"
+    }
+  },
+  "error": null
+}

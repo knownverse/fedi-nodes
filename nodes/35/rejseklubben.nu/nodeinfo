@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 137,
+      "localComments": 164
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Rejseklubben",
+      "nodeDescription": "Vores oplevelser rundt omkring i Verden",
+      "nodeIcon": "https://rejseklubben.nu/wp-content/uploads/2018/10/cropped-profil01.jpg"
+    }
+  },
+  "error": null
+}

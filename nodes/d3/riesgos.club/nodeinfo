@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Riesgos.club",
+      "nodeDescription": "En este club te enseñamos sobre riesgos",
+      "nodeIcon": "https://riesgos.club/wp-content/uploads/2023/01/cropped-riesgos.club_-3698493282-e1673655371286.jpeg"
+    }
+  },
+  "error": null
+}

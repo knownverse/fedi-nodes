@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Shirtless Jay",
+      "nodeDescription": "I&#039;m Jay. I&#039;m gay. I&#039;m shirtless every day.",
+      "nodeIcon": "https://blog.shirtless.gay/wp-content/uploads/2023/02/cropped-DSC_2552_2000-1.png"
+    }
+  },
+  "error": null
+}

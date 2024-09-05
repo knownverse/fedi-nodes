@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 27,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 21717,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "The Trans Agenda",
+      "nodeDescription": "This is one of the places where the trans agenda is determined. Shhhh don't let the cishets know.\r\n\r\nIf I know you and you want an account. Message me.",
+      "nodeAdmins": [
+        {
+          "name": "@phoenix_fairy@thetransagenda.gay",
+          "email": "alex [at] cryoit.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@phoenix_fairy@thetransagenda.gay",
+        "email": "alex [at] cryoit.com"
+      },
+      "langs": [
+        "en"
+      ],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://thetransagenda.gay/@admin/pages/contact_info",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

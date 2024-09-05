@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "12",
+        "activeHalfyear": "12"
+      },
+      "localPosts": 121,
+      "localComments": 208
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jazz-Clarinet.com",
+      "nodeDescription": "Jazz-Clarinet, all things Jazz and Clarinet",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

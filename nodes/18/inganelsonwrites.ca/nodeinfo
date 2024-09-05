@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 137,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Inga Nelson Writes",
+      "nodeDescription": "Imagine with Inga, as she shares her interests and written works.",
+      "nodeIcon": "https://inganelsonwrites.ca/wp-content/uploads/2022/01/cropped-7-q-hpim4921.jpg"
+    }
+  },
+  "error": null
+}

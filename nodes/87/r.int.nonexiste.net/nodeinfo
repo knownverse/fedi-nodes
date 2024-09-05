@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "activityrelay",
+      "version": "0.1 26a6d80227e3f339e7f286d67afe40537e88cfa5"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0",
+    "metadata": {
+      "peers": [
+        "nonexiste.net",
+        "pleroma.1d4.us"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 39,
+        "activeHalfyear": 7,
+        "activeMonth": 4
+      }
+    },
+    "metadata": {
+      "actorId": "https://disco.is.nota.live/federation/actors/service",
+      "private": false,
+      "shortDescription": "Music big, but s3 is bigger",
+      "longDescription": "The Funkwhale instance for users and friends of [nota.live](https://nota.live).\r\n\r\nUpload quota is 30GB just by default, reach out if you need more~",
+      "contactEmail": "ida@is.nota.live",
+      "nodeName": "genre = dead",
+      "banner": "https://sfo2.digitaloceanspaces.com/funkwhale/dynamic_preferences/instance__banner/bannerpride.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=O2JN7FP6APJJENZKU4QW%2F20240905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240905T221055Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=5164c8b95bb94731baf31ba15286b72be9941ca552f9c0f44c0e7b3338ffede6",
+      "defaultUploadQuota": 30000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "All nota.live servers are paid for by users like you. See [here](https://nota.live/donate) for all the ways you can contribute",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 258
+          }
+        },
+        "listenings": {
+          "total": 8664
+        },
+        "downloads": {
+          "total": 12117
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 9286
+        },
+        "artists": {
+          "total": 1305
+        },
+        "albums": {
+          "total": 1308
+        },
+        "music": {
+          "hours": 579.6791666666667
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "rules": "Don't share music you do not own reproduction rights to without explicit control (you may still upload your collection, but set privacy to \"Instance\" or \"Nobody\" and share via the link with trusted individuals only)",
+      "terms": "As always. we maintain the right to remove content as we see fit and do not require an exact ruleset because that's exhausting, and you probably don't have to worry about that.\r\n\r\nWe also maintain the right to fix your metadata :3"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 286,
+        "activeHalfyear": 285
+      },
+      "localPosts": 17723,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Eternal Terror Live",
+      "nodeDescription": "Eternal Terror Live",
+      "nodeIcon": "https://eternal-terror.com/wp-content/uploads/2022/01/cropped-etlogo250.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 51,
+        "activeMonth": 4,
+        "activeHalfyear": 7
+      },
+      "localPosts": 19210
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Boing.World",
+      "nodeDescription": "A gateway into the global open conversation in the fediverse, for Boing folks and anyone they know. If you're friends with someone here, or the event, or were at the fabled old place, come join us."
+    }
+  },
+  "error": null
+}

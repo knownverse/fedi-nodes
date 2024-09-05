@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "instance_support@octans.app",
+        "name": "Octans Support"
+      },
+      "nodeDescription": "Octans Instance in Fediverse. For our fediverse app, go <a href=\"https://fedi.octans.app/@octans\">@octans@octans.app</a>",
+      "nodeName": "Octans",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240714"
+    },
+    "usage": {
+      "localPosts": 79,
+      "users": {
+        "activeHalfyear": 0,
+        "activeMonth": 0,
+        "total": 8
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

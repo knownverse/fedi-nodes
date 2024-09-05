@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+tirr.0",
+      "homepage": "https://github.com/tirr-c/misskey",
+      "repository": "https://github.com/tirr-c/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4051,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "미티르",
+      "nodeDescription": "티르의 지인을 모아 놓은 서버입니다.",
+      "nodeAdmins": [
+        {
+          "name": "티르",
+          "email": "retica@tirr.dev"
+        }
+      ],
+      "maintainer": {
+        "name": "티르",
+        "email": "retica@tirr.dev"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "retica@tirr.dev",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/tirr-c/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

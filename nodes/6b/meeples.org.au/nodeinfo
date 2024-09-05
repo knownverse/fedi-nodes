@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 7,
+        "activeHalfyear": 6
+      },
+      "localPosts": 82,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Melbourne Meeples",
+      "nodeDescription": "Where the meeples play",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

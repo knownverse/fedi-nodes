@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vault Tales",
+      "nodeDescription": "Stories and articles drawn from the deep lore of the Fallout universe",
+      "nodeIcon": "https://vaulttales.wordpress.com/wp-content/uploads/2024/04/dallc2b7e-2024-04-22-15.13.07-a-logo-design-for-vault-tales.-central-imagery-features-a-slightly-ajar-stylized-vault-door-with-intricate-designs-resembling-gears-and-mechanical-.webp"
+    }
+  },
+  "error": null
+}

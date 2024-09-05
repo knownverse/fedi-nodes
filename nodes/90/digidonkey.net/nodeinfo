@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 588,
+      "localComments": 127
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DigiDonkey",
+      "nodeDescription": "Photography, Travel, Video and Writing by Neil Blakely ",
+      "nodeIcon": "https://digidonkey.net/wp-content/uploads/2018/02/cropped-neilblakelylogocutout-email.png"
+    }
+  },
+  "error": null
+}

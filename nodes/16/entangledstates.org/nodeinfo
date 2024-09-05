@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 2462,
+      "localComments": 2760
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Entangled States",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/entangledstates.org/wp-content/uploads/2018/10/esflavicon.jpg?fit=94%2C94&ssl=1"
+    }
+  },
+  "error": null
+}

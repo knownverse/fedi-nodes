@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 9883,
+      "localComments": 65
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nutriguía (Desde 2002)",
+      "nodeDescription": "Nutrición, salud y gastronomía",
+      "nodeIcon": "https://nutriguia.com/wp-content/uploads/2020/12/cropped-Miniatura.jpg"
+    }
+  },
+  "error": null
+}

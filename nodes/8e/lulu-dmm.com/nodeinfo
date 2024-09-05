@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 40,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "るるのCafe巡り＆流行News",
+      "nodeDescription": "トルコリラ円で金利生活中の私が、おすすめのカフェ情報と気になる話題をコンパクトに解説する雑記ブログ！",
+      "nodeIcon": "https://lulu-dmm.com/wp-content/uploads/2024/05/cropped-ko.webp"
+    }
+  },
+  "error": null
+}

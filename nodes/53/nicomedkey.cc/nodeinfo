@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-nmk1.1.3b",
+      "homepage": "https://github.com/uboar/nicomedkey",
+      "repository": "https://github.com/uboar/nicomedkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 230,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 284291,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "nicomedkey.cc",
+      "nodeDescription": "ニコメド作者・愛好者の集い",
+      "nodeAdmins": [
+        {
+          "name": "uboar",
+          "email": "https://forms.gle/1HG5qdVhCnwpszpo7"
+        }
+      ],
+      "maintainer": {
+        "name": "uboar",
+        "email": "https://forms.gle/1HG5qdVhCnwpszpo7"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.nicomedkey.cc",
+      "privacyPolicyUrl": "https://docs.nicomedkey.cc",
+      "inquiryUrl": "https://forms.gle/1HG5qdVhCnwpszpo7",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/uboar/nicomedkey",
+      "feedbackUrl": "https://github.com/uboar/nicomedkey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#f29924"
+    }
+  },
+  "error": null
+}

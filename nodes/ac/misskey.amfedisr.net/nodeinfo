@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2792,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "あむふぇすきー",
+      "nodeDescription": "Misskeyの汎用サーバーとなります。現在は招待制にしています。\nサーバー名は管理者が好きなことの文字を並べかえていたら出来たものです。変わる可能性があります。",
+      "nodeAdmins": [
+        {
+          "name": "あいんず",
+          "email": "@ains_asmr@misskey.amfedisr.net"
+        }
+      ],
+      "maintainer": {
+        "name": "あいんず",
+        "email": "@ains_asmr@misskey.amfedisr.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://ainzzz.wkspcloud.com/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#e9f971"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 83,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GizDöküm",
+      "nodeDescription": "&quot;Öyle güzelsin ki kuş koysunlar yoluna&quot;",
+      "nodeIcon": "https://sancarcanorg.com/wp-content/uploads/2024/04/cropped-cropped-cropped-cropped-cropped-ashion-brand-art-design-logo3-2.jpg"
+    }
+  },
+  "error": null
+}

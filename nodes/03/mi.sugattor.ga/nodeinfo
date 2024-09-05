@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "meisskey",
+      "version": "10.102.700-m544",
+      "repository": "https://github.com/mei23/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 2091,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しゅがしゅきー",
+      "nodeDescription": "しゅがった用いんすたんす",
+      "name": "しゅがしゅきー",
+      "description": "しゅがった用いんすたんす",
+      "maintainer": {
+        "name": "シュガッター",
+        "email": "sugattor-renraku@yahoo.co.jp"
+      },
+      "langs": [
+        "ja"
+      ],
+      "announcements": [
+        {
+          "title": "ドメイン復活",
+          "text": "ドメインを購入し直し、無事インスタンス復活です"
+        },
+        {
+          "title": "ドメインの問題",
+          "text": "sugattor.gaのドメインが名前解決できなくされたため、連合サーバから当インスタンスへのアクセスができなくなっています。。。"
+        },
+        {
+          "title": "インスタンス開始",
+          "text": "2023/3/1 インスタンスはじめました"
+        }
+      ],
+      "relayActor": "https://mi.sugattor.ga/users/6400c1e720a5ac16007fc62d",
+      "relays": [
+        "relay.toot.yukimochi.jp",
+        "relay.mstdn.cf",
+        "relay.mstdn-jp.site",
+        "relay.shc.kanagawa.jp",
+        "relay.fedibird.com",
+        "relay.taruntarun.net",
+        "hashtag-relay.dtp-mstdn.jp"
+      ],
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_user"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 233,
+      "localComments": 298
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BloomHood",
+      "nodeDescription": "Everything Wellness Just for YOU",
+      "nodeIcon": "https://bloomhood.wordpress.com/wp-content/uploads/2022/06/wp-1656018662030.png"
+    }
+  },
+  "error": null
+}

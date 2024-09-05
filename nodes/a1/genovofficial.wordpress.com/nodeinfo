@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 33,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Genov official - Shein",
+      "nodeDescription": "",
+      "nodeIcon": "https://genovofficial.wordpress.com/wp-content/uploads/2023/12/genov-official-gestion-de-compras-shein-dior-amazon-el-tigre-maturin-moda-maquillaje-ropa-damas-ninos-online-compras-linea.jpg"
+    }
+  },
+  "error": null
+}

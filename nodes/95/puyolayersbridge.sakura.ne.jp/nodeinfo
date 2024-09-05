@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "ぷよ橋ActivityPub",
+      "version": "0.1.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

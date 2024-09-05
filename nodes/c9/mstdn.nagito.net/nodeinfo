@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "nagitodon",
+      "version": "4.2.10+nagitodon.5.21-LTS."
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 25,
+        "activeMonth": 14,
+        "activeHalfyear": 26
+      },
+      "localPosts": 2046
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "features": [
+        "enable_wide_emoji",
+        "nagitodon_searchability",
+        "searchability",
+        "nagitodon_markdown",
+        "nagitodon_reaction_deck",
+        "nagitodon_visibility_login",
+        "status_reference",
+        "visibility_mutual",
+        "visibility_limited",
+        "nagitodon_limited_scope",
+        "nagitodon_antenna",
+        "nagitodon_bookmark_category",
+        "nagitodon_quote",
+        "nagitodon_searchability_limited",
+        "nagitodon_visibility_public_unlisted",
+        "profile_search",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "Mastodon",
+        "version": "4.2.10"
+      }
+    }
+  },
+  "error": null
+}

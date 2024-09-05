@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 199,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BÜNDNIS 90/DIE GRÜNEN",
+      "nodeDescription": "Kreisverband Schleswig-Flensburg",
+      "nodeIcon": "https://gruene-sl-fl.de/wp-content/themes/sunflower/assets/img/favicon.ico"
+    }
+  },
+  "error": null
+}

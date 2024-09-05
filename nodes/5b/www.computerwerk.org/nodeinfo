@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeMonth": "6",
+        "activeHalfyear": "6"
+      },
+      "localPosts": 44,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Computerwerk Darmstadt e.V.",
+      "nodeDescription": "Menschen mit Computern helfen",
+      "nodeIcon": "https://www.computerwerk.org/wp-content/uploads/2018/07/favicon.gif"
+    }
+  },
+  "error": null
+}

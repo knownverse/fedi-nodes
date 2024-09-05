@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 637,
+      "localComments": 341
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sycarion Diversions",
+      "nodeDescription": "Home of the Odd Duk",
+      "nodeIcon": "https://i0.wp.com/www.sycarion.com/wp-content/uploads/2022/12/swRgeDmA_400x400.jpg?fit=270%2C270&ssl=1"
+    }
+  },
+  "error": null
+}

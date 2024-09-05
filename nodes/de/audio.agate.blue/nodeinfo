@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.3.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 97,
+        "activeHalfyear": 3,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.agate.blue/federation/actors/service",
+      "private": false,
+      "shortDescription": "A Funkwhale pod for friends and family.",
+      "longDescription": "Funkwhale started as a personal project, in 2015, and I've been using it to stream my music eversince. This is the very first Funkwhale pod!\r\n\r\nThis pod is restricted to friends and family.",
+      "rules": "You can consider [Funkwhale's code of conduct](https://funkwhale.audio/code-of-conduct/) applies here.  In addition, please don't upload copyrighted material in public libraries, as I'd have to remove it immediatly.",
+      "contactEmail": "me@agate.blue",
+      "terms": "",
+      "nodeName": "Funkwhale 101",
+      "banner": "https://audio.agate.blue/media/dynamic_preferences/instance__banner/38145049242_b6994a316f_k.jpg",
+      "defaultUploadQuota": 5000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 29643
+        },
+        "artists": {
+          "total": 1382
+        },
+        "albums": {
+          "total": 2453
+        },
+        "music": {
+          "hours": 4897.446944444445
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 4504
+          }
+        },
+        "listenings": {
+          "total": 159821
+        },
+        "downloads": {
+          "total": 79961
+        }
+      }
+    }
+  },
+  "error": null
+}

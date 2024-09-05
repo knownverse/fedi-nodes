@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "contact@cybre.club",
+        "name": "Toromino"
+      },
+      "nodeDescription": "Firefish (formerly Foundkey) instance for comfy people. Invite codes only available upon request (email: contact@cybre.club)",
+      "nodeName": "CybreClub",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 340019,
+      "users": {
+        "activeHalfyear": 161,
+        "activeMonth": 65,
+        "total": 1417
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

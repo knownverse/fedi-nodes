@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.tryptophonic.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "Tryptophonic is an ethical, experimental and independent record label.",
+      "longDescription": "Tryptophonic is an ethical, experimental and independent record label focused on visionary music that exists outside conventional genre boundaries.",
+      "contactEmail": "contact@tryptophonic.com",
+      "nodeName": "Tryptophonic",
+      "banner": "https://audio.tryptophonic.com/media/dynamic_preferences/instance__banner/funkwhaleheader_eYB5aLg.jpg",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "All music from Tryptophonic is released under Creative Commons licenses - meaning that (among other things) you're able to download everything for free. While you can access everything for no cost, you are encouraged to financially support free and ethical art if you are able and willing via our [Ko-fi page](https://ko-fi.com/tryptophonic). Any support - financial, emotional or philosophical - is deeply appreciated! https://ko-fi.com/tryptophonic",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 19
+        },
+        "downloads": {
+          "total": 677
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 119
+        },
+        "artists": {
+          "total": 5
+        },
+        "albums": {
+          "total": 17
+        },
+        "music": {
+          "hours": 223.5175
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

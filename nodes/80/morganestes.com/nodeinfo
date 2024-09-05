@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 43,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Morgan Estes",
+      "nodeDescription": "Tech, family, stuff",
+      "nodeIcon": "https://mlx9vcofgmqf.i.optimole.com/cb:8Zzl.4cc76/w:auto/h:auto/q:mauto/f:best/https://morganestes.com/wp-content/uploads/2022/12/cropped-PXL_20221209_030108599.PORTRAIT2.jpg"
+    }
+  },
+  "error": null
+}

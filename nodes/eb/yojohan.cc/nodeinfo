@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-kakurega.1.39.1",
+      "homepage": "https://github.com/hideki0403/misskey.yukineko.me",
+      "repository": "https://github.com/hideki0403/misskey.yukineko.me"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 149,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 49654,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "四畳半",
+      "nodeDescription": "喧噪から離れて狭い部屋でのんびりしませんか？\n\n<p>\nこのサーバーはGTL, LTL, STLが無効化されています。<br>\nまたリレーサーバーには参加していません。（リモートフォローは可能です）加えてすべてのユーザーの発言がHTL以下（サイレンス）の公開範囲になっています。<br>\n細かい仕様は <a href=\"https://lemu.notion.site/Misskey-41adeef676d94aff9e0573ab6102da83\" target=\"_blank\" style=\"color:var(--accent);\">こちら</a> をご覧ください。\n</p>\n\n<p>\nスパム対策のため登録後1週間はメンションを送ることはできません。24時間あたり10アカウントまでの新規登録制限中です。もし上限に達していた場合は時間をあけてから再度お試しください。使い捨てアドレスでの登録も禁止です。\n</p>\n\n<p>\n姉妹サーバーに ≫『<a href=\"https://mfmf.club\" target=\"_blank\" style=\"color:var(--accent);\">もふもふクラブ</a>』≪ もあります。<br>そちらも併せてどうぞ。\n</p>\n\n<p>登録前のお問い合わせやコンテンツの通報などは<br><a href=\"https://forms.gle/a36rEZZBjkdLrwSo8\" target=\"_blank\" style=\"color:var(--accent);\">専用フォーム</a>をご利用ください。</p>\n\n<p>隠れ家フォークの<a href=\"https://github.com/hideki0403/kakurega.app/blob/dev-kakurega/docs/difference.md\" target=\"_blank\" style=\"color:var(--accent);\">独自機能</a>一覧</p>\n\n<p>利用者向けWikiは<a href=\"https://lemu.notion.site/b44dc09bbe5a4f11af56d16dee5018a5?v=6208192feebe439fa5cafaf3859599be\" target=\"_blank\" style=\"color:var(--accent);\">こちら</a></p>",
+      "nodeAdmins": [
+        {
+          "name": "かなで",
+          "email": "https://forms.gle/a36rEZZBjkdLrwSo8"
+        }
+      ],
+      "maintainer": {
+        "name": "かなで",
+        "email": "https://forms.gle/a36rEZZBjkdLrwSo8"
+      },
+      "langs": [],
+      "tosUrl": "https://lemu.notion.site/19602ab40f7c4fe1b8f2c6aac795d3ae",
+      "privacyPolicyUrl": "",
+      "inquiryUrl": "https://forms.gle/a36rEZZBjkdLrwSo8",
+      "impressumUrl": "https://lemu.notion.site/1d10fad72e56402a9539be7d27e7bac1",
+      "repositoryUrl": "https://github.com/hideki0403/misskey.yukineko.me",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#006e54"
+    }
+  },
+  "error": null
+}

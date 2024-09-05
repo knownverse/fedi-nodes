@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "0.1.3-beta",
+      "homepage": "https://git.prismisskey.space/mattyatea/misskey",
+      "repository": "https://git.prismisskey.space/mattyatea/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 79,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8106,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Soranaki Project",
+      "nodeDescription": "Soranaki Projectの運営するMisskeyサーバー\nfanbox支援者に招待コードを発行させて頂きます。\n限定公開記事からご連絡をお願いします。\nhttps://soranaki-project.fanbox.cc/",
+      "nodeAdmins": [
+        {
+          "name": "かわぢり",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "かわぢり",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.prismisskey.space/mattyatea/misskey",
+      "feedbackUrl": null,
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#8bdbfe"
+    }
+  },
+  "error": null
+}

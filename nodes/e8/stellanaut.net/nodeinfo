@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 76,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 675,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Cafe&Bar Stellanaut",
+      "nodeDescription": "このサーバーは「カフェ&バー ステラノート」でございます。\n街角の片隅にひっそりと佇むMisskeyインスタンスであり、昼はカフェ営業、夜はバー営業ではございますが、カフェ営業時間中も18歳未満の方はご利用になれない、大人の方のためのお店でございます。\nお客様はみな、ご立派な紳士淑女ばかりであり、こちらには一時の安らぎを求めて、あるいは大人の社交場として訪れた方たちでございます。\nロールプレイは重要ではありませんが、こちらにいらっしゃる皆様は執事(バトラー)や秘書(セクレタリー)を従えるような身分であり、皆に尊敬される存在である――という心持ちでお振る舞いくださるようお願い申し上げます。\nどうぞお言葉は上品に、粗暴な振る舞いはお控えくださいませ。\n\n当店はテーマ縛りはない、雑談サーバーとなっております。\nご自由にお使いいただけますが、利用規約のほうに禁止事項もございますので、どうぞお目通しください。\n\n当店では管理人のことは、どうぞ「マスター」とお呼びくださいませ。モデレーターは現在のところおりませんので、特に従業員の呼び方は決まっておりませんが、その時がくればここに合った呼び方を決める予定でございます。\n\nさて、以上のことをご理解いただき、規約にもすべてご同意いただけましたら、どうぞプロフィールには「追加情報」の欄に「最初の一杯」をご記入くださいませ。\n当店はお酒、コーヒー、お茶、あるいはソフトドリンクまで幅広く取り揃えております。\nいつまでも最初の一杯をご注文いただけないお客様は、サイレンス、あるいは凍結とさせていただく場合がございます。どうぞ、お好きなお飲み物をご記入の上、ご入店ください。",
+      "nodeAdmins": [
+        {
+          "name": "はるかみ",
+          "email": "stellanaut-master@reasonset.net"
+        }
+      ],
+      "maintainer": {
+        "name": "はるかみ",
+        "email": "stellanaut-master@reasonset.net"
+      },
+      "langs": [],
+      "tosUrl": "https://doc.stellanaut.net/tos.html",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://chienomi.org/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "phantom",
+      "themeColor": "#EB9D51"
+    }
+  },
+  "error": null
+}

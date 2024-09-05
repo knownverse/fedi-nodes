@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 71,
+      "localComments": 252
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "blog.Lopo.it",
+      "nodeDescription": "&quot;Civilisation has emerged only recently and it may yet prove to be an unsuccessful experiment.&quot;",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

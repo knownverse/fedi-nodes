@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 6
+      },
+      "localPosts": 11526
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "GAYONLY!",
+      "nodeDescription": "private at home (CH) hosted system for serve those LGBTQIA+ (and Allies) that are into fun adventurous things. NSFW Content!"
+    }
+  },
+  "error": null
+}

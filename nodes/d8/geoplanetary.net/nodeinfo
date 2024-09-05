@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1-geoplanetary.7",
+      "homepage": "https://github.com/zawa-ch/geoplanetary",
+      "repository": "https://github.com/zawa-ch/geoplanetary"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7877,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "じおぷらねたりー",
+      "nodeDescription": "Fediverseを揺蕩うちいさな人工惑星。",
+      "nodeAdmins": [
+        {
+          "name": "zawa-ch.",
+          "email": "https://geoplanetary.net/@stellar_ch"
+        }
+      ],
+      "maintainer": {
+        "name": "zawa-ch.",
+        "email": "https://geoplanetary.net/@stellar_ch"
+      },
+      "langs": [],
+      "tosUrl": "https://service.geoplanetary.net/#/page/terms",
+      "privacyPolicyUrl": "https://service.geoplanetary.net/#/page/policies%2Fprivacy",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/zawa-ch/geoplanetary",
+      "feedbackUrl": "https://github.com/zawa-ch/geoplanetary/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 65536,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#003f8e"
+    }
+  },
+  "error": null
+}

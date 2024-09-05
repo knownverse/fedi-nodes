@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 18,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Thinking Aloud",
+      "nodeDescription": "A collection of creations",
+      "nodeIcon": "https://thinkingaloudjp.wordpress.com/wp-content/uploads/2024/03/cropped-img_20231103_081810.jpg"
+    }
+  },
+  "error": null
+}

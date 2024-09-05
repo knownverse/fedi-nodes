@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ambudigital.com",
+      "nodeDescription": "Just click on any link to either have your passive income or purchase profitable products",
+      "nodeIcon": "https://ecstatic-ogbukaambrose.wordpress.com/wp-content/uploads/2024/01/cropped-154d6-img_4-min-1.png"
+    }
+  },
+  "error": null
+}

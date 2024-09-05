@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2669,
+      "localComments": 830
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "marginaali",
+      "nodeDescription": "Loitsuja, unia",
+      "nodeIcon": "https://marginaa.li/wp-content/uploads/2019/08/cropped-ensob-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Boss Lady Connections",
+      "nodeDescription": "Welcome to the Boss Lady Connections Blog – your ultimate destination for entrepreneurial inspiration, savvy financial advice, and empowering content tailored to ambitious women like yourself. Whether you’re a seasoned business mogul or just starting your journey, this platform is designed to fuel your ambitions, foster connections, and equip you with the tools you need to thrive in the digital age.",
+      "nodeIcon": "https://bossladyconnections2p2general.wordpress.com/wp-content/uploads/2024/03/cropped-boss-lady-conections-600-x-600-px.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 41,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "lenny unencumbered",
+      "nodeDescription": "Contemplating a bewildering world through empathy and understanding",
+      "nodeIcon": "https://lennyunencumbered.com/wp-content/uploads/2024/02/img-mfdza6ekgy0qfo9hj7barqzq.png"
+    }
+  },
+  "error": null
+}

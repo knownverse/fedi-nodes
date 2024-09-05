@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.3.0-alpha.5+kmyblue.13.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 15,
+        "activeHalfyear": 20
+      },
+      "localPosts": 17230
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "dsj弐番館",
+      "nodeDescription": "dsj壱番館が不調に陥ったときに備えて緊急避難的に設えたサーバーです。スペック的にはこちらの方が上です。連合TLが賑やかなのが特徴。",
+      "features": [
+        "enable_wide_emoji",
+        "status_reference",
+        "quote",
+        "emoji_keywords",
+        "circle",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "mastodon",
+        "version": "4.3.0-alpha.5"
+      }
+    }
+  },
+  "error": null
+}

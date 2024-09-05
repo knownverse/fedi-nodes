@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "name": "Osumi Akari"
+      },
+      "nodeDescription": "Osumi Akariの個人インスタンス",
+      "nodeName": "c.osumiakari.jp",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#1e1b2b"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 2397,
+      "users": {
+        "activeHalfyear": 4,
+        "activeMonth": 4,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

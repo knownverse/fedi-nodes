@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7982,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "MissKey ULTRA-pro",
+      "nodeDescription": "this too is yuri<br>\n---<br>\nMissKey ULTRA-pro, born from a Discord channel in which a group of ~10 people wanted to give the Fediverse a try<br>\n---<br> \nSIGNUPS CLOSED FOR NOW - CONTACT @aliceif@mkultra.x27.one VIA DM OR DISCORD<br>\n<img src=\"https://uptime.lemmings.world/mkultra.x27.one.svg\"/>",
+      "nodeAdmins": [
+        {
+          "name": "@aliceif@mkultra.x27.one",
+          "email": "@aliceif@mkultra.x27.one"
+        }
+      ],
+      "maintainer": {
+        "name": "@aliceif@mkultra.x27.one",
+        "email": "@aliceif@mkultra.x27.one"
+      },
+      "langs": [],
+      "tosUrl": "https://mkultra.x27.one/@aliceif/pages/1689926557348",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://mkultra.x27.one/@aliceif",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

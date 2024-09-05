@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-resonite-love.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 351,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 318302,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Resonite.love",
+      "nodeDescription": "Resoniteを愛する???コミュニティ、resonite.loveのMisskeyインスタンスです。\n誰でも登録可能！\n\nThis is the Misskey instance of resonite.love, a community that loves Resonite.\nAnyone can register!",
+      "nodeAdmins": [
+        {
+          "name": "kokoa",
+          "email": "@kokoa"
+        }
+      ],
+      "maintainer": {
+        "name": "kokoa",
+        "email": "@kokoa"
+      },
+      "langs": [],
+      "tosUrl": "https://neos-love.notion.site/misskey-resonite-love-282dd6905dd34a1ab544aaddf639cee8",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/resonite-love/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#4287f5"
+    }
+  },
+  "error": null
+}

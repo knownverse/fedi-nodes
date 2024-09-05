@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 15,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "berlin cannabis ",
+      "nodeDescription": "Cannabis news , food ideas and event ",
+      "nodeIcon": "https://i0.wp.com/berlin-cannabis.com/wp-content/uploads/2024/03/cropped-simsay0078_a_logo_for_a_cannabis_news_blog_recipe_website_in_be_a0475443-91cb-4bb5-a5c5-c97eb87a5e07-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

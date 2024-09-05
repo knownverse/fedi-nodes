@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 17,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bee Empowered, Business &amp; Lifestyle Hub",
+      "nodeDescription": "Grow and Bee Empowered. Your Self-Help Destination",
+      "nodeIcon": "https://beebyblessingomolu.wordpress.com/wp-content/uploads/2024/03/cropped-20240319_044057_0000.jpg"
+    }
+  },
+  "error": null
+}

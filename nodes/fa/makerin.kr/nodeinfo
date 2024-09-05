@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.8.0",
+      "basedMisskeyVersion": "2024.3.1",
+      "homepage": "https://github.com/makerin/cherrypick",
+      "repository": "https://github.com/makerin/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 32,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "메이커인",
+      "nodeDescription": "전국의 메이커들을 한곳에서! 안녕하세요, 우리 같은 괴짜들이 마음 편히 얘기를 나눌 공간이 있었으면 해서 이 서버를 만들게 됐어요. 여기서 여러분이 만든 모든 것들을 자랑해보세요. 또한 다른 사람과 소통하며 협력하며 공동의 목표를 달성해 보세요.",
+      "nodeAdmins": [
+        {
+          "name": "메이커집",
+          "email": "hello@makerzip.com"
+        }
+      ],
+      "maintainer": {
+        "name": "메이커집",
+        "email": "hello@makerzip.com"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "privacyPolicyUrl": "",
+      "impressumUrl": "https://github.com/apwlq",
+      "repositoryUrl": "https://github.com/makerin/cherrypick",
+      "feedbackUrl": "https://github.com/makerin/cherrypick/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": "activity",
+      "themeColor": "#eb1414"
+    }
+  },
+  "error": null
+}

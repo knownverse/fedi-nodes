@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-ikaskey",
+      "homepage": "https://github.com/sasagar/misskey",
+      "repository": "https://github.com/sasagar/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4396,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3926427,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "いかすきー",
+      "nodeDescription": "主にスプラトゥーンが好きな人向けのMisskeyサーバーです。\nスプラトゥーンを軸にみんなで楽しく集まろう！\n\n可能な限りMisskey本体の最新版に追従するIkaskeyフォークです。\n\n流速・サーバー負荷などを鑑みて招待制への移行or新規受付停止することがあります。\n個人運営のため、止まったりすることもあるかもしれません。\n\nMastodonを利用したい方はイカトドンがあります。そちらもどうぞ！（運営は全く別です）\n\n利用規約により13歳未満の登録は禁止です。プロフィール上での年齢が規約違反となる場合、アカウントは凍結される場合があります。",
+      "nodeAdmins": [
+        {
+          "name": "スーパーマンタロー",
+          "email": "admin@ikaskey.bktsk.com"
+        }
+      ],
+      "maintainer": {
+        "name": "スーパーマンタロー",
+        "email": "admin@ikaskey.bktsk.com"
+      },
+      "langs": [],
+      "tosUrl": "https://ikaskey-support.bktsk.com/terms/",
+      "privacyPolicyUrl": "https://ikaskey-support.bktsk.com/privacy-policy/",
+      "inquiryUrl": "https://bktsk.com/#contact",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/sasagar/misskey",
+      "feedbackUrl": "https://github.com/sasagar/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "kojake",
+      "themeColor": "#603BE2"
+    }
+  },
+  "error": null
+}

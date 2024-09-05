@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 30,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 149562,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "シン・真・新元祖本家ネオ腋すきー2",
+      "nodeDescription": "ソウくんかわいいねもぐ…",
+      "nodeAdmins": [
+        {
+          "name": "khronosk",
+          "email": "管理者（@khronosk@soukun.io）宛に、DMでご連絡を宜しくお願いします。"
+        }
+      ],
+      "maintainer": {
+        "name": "khronosk",
+        "email": "管理者（@khronosk@soukun.io）宛に、DMでご連絡を宜しくお願いします。"
+      },
+      "langs": [],
+      "tosUrl": "https://soukun.io/notes/9r0h9fydmy",
+      "privacyPolicyUrl": "https://soukun.io/@khronosk",
+      "inquiryUrl": "https://soukun.io/@khronosk",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#eb6b2f"
+    }
+  },
+  "error": null
+}

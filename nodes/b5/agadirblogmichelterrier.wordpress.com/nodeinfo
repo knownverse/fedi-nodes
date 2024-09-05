@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 386,
+      "localComments": 165
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Agadir, le Blog",
+      "nodeDescription": "Actualités d&#039;Agadir, Tourisme, Manifestations, Revue de Presse",
+      "nodeIcon": "https://agadirblogmichelterrier.wordpress.com/wp-content/uploads/2024/01/cropped-p1060322-001.jpg"
+    }
+  },
+  "error": null
+}

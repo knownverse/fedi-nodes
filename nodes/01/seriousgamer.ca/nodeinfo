@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 467,
+      "localComments": 132
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Serious/Gamer",
+      "nodeDescription": "A Seriously Geeky look at Gaming, Expos, Blu-ray releases and anything else quirky and fun that crosses my mind. Enjoy the ride, share the comments and have fun!",
+      "nodeIcon": "https://seriousgamer.ca/wp-content/uploads/2021/12/cropped-my-project-1.png"
+    }
+  },
+  "error": null
+}

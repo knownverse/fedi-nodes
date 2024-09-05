@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 79,
+      "localComments": 31
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Descriptionary",
+      "nodeDescription": "Helping Writers Find The Words",
+      "nodeIcon": "https://descriptionary.wordpress.com/wp-content/uploads/2024/05/cropped-descriptionary_a_writers_resource-icon.png"
+    }
+  },
+  "error": null
+}

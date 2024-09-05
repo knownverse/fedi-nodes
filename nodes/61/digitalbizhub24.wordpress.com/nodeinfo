@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 28,
+      "localComments": 53
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "DigitalBizHub24",
+      "nodeDescription": "Lets make some extra cash through side hustles",
+      "nodeIcon": "https://digitalbizhub24.wordpress.com/wp-content/uploads/2023/12/wp-1703290814024.png"
+    }
+  },
+  "error": null
+}

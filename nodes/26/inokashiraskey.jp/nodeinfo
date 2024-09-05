@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-inokashiraskey.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 22,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 52135,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Інокашираський",
+      "nodeDescription": "VRChatの民とプレイバイウェブの民、言語創作（文芸）の民および三鷹市井の頭近辺の住民のためのMisskeyインスタンスです。\n\n詳しくはІнокашираськийについて　https://inokashiraskey.jp/@LouisaCharlotte/pages/about-inokashiraskey をご覧ください。\n\n話題は規約 https://inokashiraskey.jp/@LouisaCharlotte/pages/TermsOfUse に反しない限り基本的に自由ですが、相手が不快になる言動はやめましょう。\n\nなお、三鷹市や武蔵野市、東京都、京王電鉄、VRChat、トミーウォーカー公式のものではありません。\n公式に問い合わせないようにお願いいたします。\n\n現在新規登録を休止しています。",
+      "nodeAdmins": [
+        {
+          "name": "るいざ・しゃーろっと",
+          "email": "https://inokashiraskey.jp/notes/9pqmdkw393"
+        }
+      ],
+      "maintainer": {
+        "name": "るいざ・しゃーろっと",
+        "email": "https://inokashiraskey.jp/notes/9pqmdkw393"
+      },
+      "langs": [],
+      "tosUrl": "https://inokashiraskey.jp/@LouisaCharlotte/pages/TermsOfUse",
+      "privacyPolicyUrl": "https://inokashiraskey.jp/@LouisaCharlotte/pages/TermsOfUse",
+      "inquiryUrl": "https://inokashiraskey.jp/@LouisaCharlotte",
+      "impressumUrl": "https://lit.link/VRCLouisa",
+      "repositoryUrl": "https://github.com/huideyeren/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "vmimiRelayTimelineImplemented": true,
+      "disableVmimiRelayTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "LouisaCharlotte",
+      "themeColor": "#00377e"
+    }
+  },
+  "error": null
+}

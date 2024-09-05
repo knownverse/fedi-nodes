@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Euskal Herriko underground eszenaren egutegia.",
+      "nodeName": "Eskoria",
+      "nodeTimezone": "Europe/Madrid",
+      "nodeActor": "relay"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 1,
+      "localPosts": 285,
+      "users": {
+        "total": 11
+      }
+    }
+  },
+  "error": null
+}

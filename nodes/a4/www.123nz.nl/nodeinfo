@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 201,
+      "localComments": 439
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "123NZ reisblog",
+      "nodeDescription": "Reizen en werken in Nieuw-Zeeland is 1-2-3 geregeld",
+      "nodeIcon": "https://www.123nz.nl/wp-content/uploads/2017/12/cropped-123NZ-logo-transparent-square-2017.png"
+    }
+  },
+  "error": null
+}

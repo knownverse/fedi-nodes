@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Our instance is focused on the furry community, and those interested in it!",
+      "nodeName": "Furry Federation Meetup"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "2.0.2"
+    },
+    "usage": {
+      "localComments": 55,
+      "localPosts": 18159,
+      "users": {
+        "total": 18192
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

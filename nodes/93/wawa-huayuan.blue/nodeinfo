@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "kmyblue",
+      "version": "4.2.12+kmyblue.5.23-LTS"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 1097
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "features": [
+        "enable_wide_emoji",
+        "kmyblue_searchability",
+        "searchability",
+        "kmyblue_markdown",
+        "kmyblue_reaction_deck",
+        "kmyblue_visibility_login",
+        "status_reference",
+        "visibility_mutual",
+        "visibility_limited",
+        "kmyblue_limited_scope",
+        "kmyblue_antenna",
+        "kmyblue_bookmark_category",
+        "kmyblue_quote",
+        "kmyblue_searchability_limited",
+        "kmyblue_visibility_public_unlisted",
+        "profile_search",
+        "emoji_reaction",
+        "enable_wide_emoji_reaction"
+      ],
+      "upstream": {
+        "name": "Mastodon",
+        "version": "4.2.12"
+      }
+    }
+  },
+  "error": null
+}

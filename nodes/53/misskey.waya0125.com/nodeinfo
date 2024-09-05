@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4756,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "わやすきー / Wayaskey",
+      "nodeDescription": "わやが運用する憧れの \"Fediverse\"。<br>\n基本的にサーバー管理人が活動していますがそれ以外の方も参加可能です。<br>\n※当サーバーではグローバルタブを提供しておりません。<br><br>\n\n※ただいまスパム及び迷惑メール対策で自由な参加とメールの記載を取りやめしております。<br>\nもし参加したい場合は下記までお願いいたします。<br>\n<a href=\"https://twitter.com/wayamoti2015\">Twitter@wayamoti2015</a><br>\n<a href=\"https://misskey.io/@waya\">@waya@misskey.io</a><br><br>\n\nその他お問い合わせは\n<a href=\"https://misskey.io/@waya\">@waya@misskey.io</a>\nまでお願いします。<br><br>\n\nCopyright 2023 waya0125<br>\nPowered by <a href=\"https://github.com/misskey-dev/misskey\">Misskey</a>",
+      "nodeAdmins": [
+        {
+          "name": "わやもち",
+          "email": "hoge"
+        }
+      ],
+      "maintainer": {
+        "name": "わやもち",
+        "email": "hoge"
+      },
+      "langs": [],
+      "tosUrl": "https://waya0125.com/misskey",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://waya0125.com/contact",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#199aa3"
+    }
+  },
+  "error": null
+}

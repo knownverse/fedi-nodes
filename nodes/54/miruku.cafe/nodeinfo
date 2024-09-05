@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "info@miruku.cafe",
+        "name": "@wait_what_, @lilly | status.miruku.cafe"
+      },
+      "nodeDescription": "🎉ようこそ!! Welcome to Miruku, a public federated microblogging service on the fediverse! <br>\n\nWe have a social feed, channels, games, DMs, and more. Discover new people and share your thoughts with an endless amount of users. <br><br>\n\nBe sure to read the <a href=\"https://github.com/mirukucafe/legal/blob/main/guidelines.md\">guidelines</a> https://github.com/mirukucafe/legal!\n<br><br>\n📊 Statistics and server metrics @ https://status.miruku.cafe\n<br><br>\nDiscord Server 🐾 : https://discord.gg/VgmT9gUH3w",
+      "nodeName": "Miruku",
+      "proxyAccountName": "986f831zf0",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#9bf6ff"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240607"
+    },
+    "usage": {
+      "localPosts": 265315,
+      "users": {
+        "activeHalfyear": 370,
+        "activeMonth": 93,
+        "total": 2646
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

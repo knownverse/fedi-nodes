@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 30,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HENKKA LAUKKA",
+      "nodeDescription": "Laukan Henkka",
+      "nodeIcon": "https://henkkalaukka.fi/wp-content/uploads/2022/12/cropped-Promo1Small-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 57,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Money Box",
+      "nodeDescription": "Making Personal Financial Planning Simpler",
+      "nodeIcon": "https://mymoneybox.in/wp-content/uploads/2023/02/cropped-dallc2b7e-2023-02-14-15.55.49.png"
+    }
+  },
+  "error": null
+}

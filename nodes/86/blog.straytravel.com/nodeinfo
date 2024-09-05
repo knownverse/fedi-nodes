@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 227,
+      "localComments": 53
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stray Travel Blog",
+      "nodeDescription": "Hey, we’re Stray! We’re a travel company that likes to do things a little differently.We blog about New Zealand, Australia, and SE Asia.",
+      "nodeIcon": "https://blog.straytravel.com/wp-content/uploads/2019/03/cropped-image001.png"
+    }
+  },
+  "error": null
+}

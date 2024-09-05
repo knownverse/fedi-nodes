@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 576,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "布蘭斯的部落格 Brassaikaotw.com ",
+      "nodeDescription": "IT, Travels and Life",
+      "nodeIcon": "https://brassaikaotw.com/wp-content/uploads/2018/06/cropped-me.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeMonth": 5,
+        "activeHalfyear": 10
+      },
+      "localPosts": 2014
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "f slurs dot gay",
+      "nodeDescription": "f slurs dot gay is a fediverse instance for everyone's favorite f slurs"
+    }
+  },
+  "error": null
+}

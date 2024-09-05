@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3742,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "RooLone Hangout",
+      "nodeDescription": "ただいま、試験運用中。\n登録は一旦vandrareを寄付されてから。\nもし、どうしても使いたいのであれば、一般公開まで待つか、Mastodon鯖のvandrare.pageを登録するかにしてくださいませませ。",
+      "nodeAdmins": [
+        {
+          "name": "Sumögåsbord",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "Sumögåsbord",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://plainbox.net/mastodon/fediverse-policy#terms",
+      "privacyPolicyUrl": "https://plainbox.net/mastodon/fediverse-policy#privacy-policy",
+      "inquiryUrl": null,
+      "impressumUrl": "https://ja.gravatar.com/sumogas",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "sumogasbord",
+      "themeColor": "#51f3bc"
+    }
+  },
+  "error": null
+}

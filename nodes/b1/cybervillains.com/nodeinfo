@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 254,
+        "activeMonth": 29,
+        "activeHalfyear": 46
+      },
+      "localPosts": 7166
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The Lair of the CyberVillains",
+      "nodeDescription": "This server was specifically built as a playground for security professionals to understand the security, privacy and safety issues of Mastodon. Unstable and crazy, as social media should be. "
+    }
+  },
+  "error": null
+}

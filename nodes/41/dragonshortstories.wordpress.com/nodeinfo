@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 129,
+      "localComments": 75
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Empire of Dragons - Alien Space Dragon Archive",
+      "nodeDescription": "Fics and Dragon Gamer Musings",
+      "nodeIcon": "https://dragonshortstories.wordpress.com/wp-content/uploads/2022/03/11af9ec0-1379-457d-990d-e4b135804af5.png"
+    }
+  },
+  "error": null
+}

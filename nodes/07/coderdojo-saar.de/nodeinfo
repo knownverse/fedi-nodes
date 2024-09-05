@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 94,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "coderdojo-saar.de",
+      "nodeDescription": "Programmieren für Kinder und Jugendliche",
+      "nodeIcon": "https://coderdojo-saar.de/wp-content/uploads/2017/10/cropped-ninja-small-quadratisch-3.png"
+    }
+  },
+  "error": null
+}

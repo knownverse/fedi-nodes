@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1518,
+      "localComments": 1623
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Una Vita da Cinefilo",
+      "nodeDescription": "Dal 2008, consigli su quale film o serie tv volete vedere (anche se ancora non lo sapete)",
+      "nodeIcon": "https://unavitadacinefilo.com/wp-content/uploads/2018/11/logo.jpg"
+    }
+  },
+  "error": null
+}

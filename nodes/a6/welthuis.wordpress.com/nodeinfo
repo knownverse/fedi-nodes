@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 40,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Welthuis",
+      "nodeDescription": "Foto&#039;s &amp; Verhalen",
+      "nodeIcon": "https://welthuis.wordpress.com/wp-content/uploads/2023/11/cropped-logo5ab.jpg"
+    }
+  },
+  "error": null
+}

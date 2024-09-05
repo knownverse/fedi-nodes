@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 44,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": ". ~ &gt; S t u m b l y M u m b l e r &lt; ~ .",
+      "nodeDescription": "HUMOR. WISDOM. FOLLY.",
+      "nodeIcon": "https://stumblymumbler.com/wp-content/uploads/2024/07/cropped-pxl_20240706_1503040627361406349339346197.jpg"
+    }
+  },
+  "error": null
+}

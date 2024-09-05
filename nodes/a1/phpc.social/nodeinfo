@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.12"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4760,
+        "activeMonth": 858,
+        "activeHalfyear": 1466
+      },
+      "localPosts": 273721
+    },
+    "openRegistrations": true,
+    "metadata": {}
+  },
+  "error": null
+}

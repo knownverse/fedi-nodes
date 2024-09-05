@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 43,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kentsel Dönüşüm Hakkında Yazılar ve Soru-Cevap",
+      "nodeDescription": "",
+      "nodeIcon": "https://kentselyenileme.wordpress.com/wp-content/uploads/2018/09/cropped-grid1.jpg"
+    }
+  },
+  "error": null
+}

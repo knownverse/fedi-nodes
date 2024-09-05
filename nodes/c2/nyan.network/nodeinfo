@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "StealEmojiPolicy",
+          "TagPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "coolsite.win",
+            "h5q.net",
+            "misskey.io",
+            "mastodon.social",
+            "mas.to",
+            "fosstodon.org",
+            "toad.social",
+            "infosec.exchange",
+            "mindly.social",
+            "www.minds.com"
+          ],
+          "followers_only": [
+            "pech.tech",
+            "mastodon.cloud"
+          ],
+          "media_nsfw": [
+            "h5q.net",
+            "kinkyelephant.com"
+          ],
+          "media_removal": [],
+          "reject": [
+            "freespeechextremist.com",
+            "pl.smuglo.li",
+            "fedi.z0ne.moe",
+            "neckbeard.xyz",
+            "gleasonator.com",
+            "kiwifarms.cc",
+            "glowers.club",
+            "poa.st",
+            "baraag.net",
+            "varishangout.net",
+            "youjo.love",
+            "freak.university",
+            "lol*.**zza",
+            "pos****.*******.**cks",
+            "yggdrasil.social",
+            "cunny.finance",
+            "shitposter.club",
+            "helladoge.com",
+            "cum.desupost.soy",
+            "noagendasocial.com",
+            "social.handholding.io",
+            "bae.st",
+            "detroitriotcity.com",
+            "social.lovingexpressions.net",
+            "gameliberty.club",
+            "pl.tkammer.de",
+            "journa.host",
+            "suicidepolice.com",
+            "chudbuds.lol",
+            "newsie.socia",
+            "masthead.social",
+            "rot.gives",
+            "nicecrew.digital",
+            "eientei.org",
+            "mostr.pub",
+            "glee.li",
+            "seal.cafe",
+            "spinster.xyz",
+            "aethy.com",
+            "xenofem.me",
+            "noauthority.social",
+            "срёт.онлайн",
+            "nnia.space",
+            "lol****.****ork",
+            "liberdon.com",
+            "decayable.ink",
+            "social.freetalklive.com",
+            "xn--p1abe3d.xn--80asehdb",
+            "🌏срёт.онлайн",
+            "sacred.harpy.faith",
+            "threads.net",
+            "annihilation.social",
+            "momostr.pink",
+            "fetch.mostr.net",
+            "shitpost.cloud",
+            "shitposter.world",
+            "majestic12.airforce",
+            "fsebugoutzone.org",
+            "genderheretics.xyz",
+            "linuxrocks.online",
+            "cawfee.club",
+            "mesugaki.xyz"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "coolsite.win": {
+              "reason": "spammy"
+            },
+            "fosstodon.org": {
+              "reason": "unmoderated"
+            },
+            "h5q.net": {
+              "reason": "porn"
+            },
+            "infosec.exchange": {
+              "reason": "honestly not a great instance"
+            },
+            "mas.to": {
+              "reason": "unmoderated"
+            },
+            "mastodon.social": {
+              "reason": "unmoderated"
+            },
+            "mindly.social": {
+              "reason": "uncw'd pol"
+            },
+            "misskey.io": {
+              "reason": "unmoderated"
+            },
+            "toad.social": {
+              "reason": "unmoderated libs"
+            },
+            "www.minds.com": {
+              "reason": "unmoderated"
+            }
+          },
+          "followers_only": {
+            "mastodon.cloud": {
+              "reason": "poor moderation"
+            },
+            "pech.tech": {
+              "reason": "sus"
+            }
+          },
+          "media_nsfw": {
+            "h5q.net": {
+              "reason": "porn"
+            },
+            "kinkyelephant.com": {
+              "reason": "nsfw"
+            }
+          },
+          "reject": {
+            "mostr.pub": {
+              "reason": "gleason, nostr"
+            },
+            "срёт.онлайн": {
+              "reason": "coomers"
+            },
+            "mesugaki.xyz": {
+              "reason": "pedo"
+            },
+            "newsie.socia": {
+              "reason": "transphobia"
+            },
+            "masthead.social": {
+              "reason": "racism, freespeach instance"
+            },
+            "spinster.xyz": {
+              "reason": "transphobia, gleason"
+            },
+            "threads.net": {
+              "reason": "large, unmoderated"
+            },
+            "majestic12.airforce": {
+              "reason": "trolls"
+            },
+            "nicecrew.digital": {
+              "reason": "racism, soapbox crimes"
+            },
+            "momostr.pink": {
+              "reason": "nostr bridge"
+            },
+            "shitpost.cloud": {
+              "reason": "new spc"
+            },
+            "journa.host": {
+              "reason": "https://tilde.zone/@el/109509015610195089"
+            },
+            "suicidepolice.com": {
+              "reason": "channers"
+            },
+            "pos****.*******.**cks": {
+              "reason": "pedo"
+            },
+            "fsebugoutzone.org": {
+              "reason": "new fse"
+            },
+            "nnia.space": {
+              "reason": "noooooooooooope"
+            },
+            "🌏срёт.онлайн": {
+              "reason": "alt"
+            },
+            "sacred.harpy.faith": {
+              "reason": "nazi"
+            },
+            "detroitriotcity.com": {
+              "reason": "spammers"
+            },
+            "gleasonator.com": {
+              "reason": "terf"
+            },
+            "aethy.com": {
+              "reason": "pedo"
+            },
+            "noauthority.social": {
+              "reason": "holocaust denial"
+            },
+            "lol****.****ork": {
+              "reason": "no"
+            },
+            "liberdon.com": {
+              "reason": "bye ancaps"
+            },
+            "seal.cafe": {
+              "reason": "hate speach"
+            },
+            "eientei.org": {
+              "reason": "pleroma crimes"
+            },
+            "fetch.mostr.net": {
+              "reason": "nostr bridge"
+            },
+            "linuxrocks.online": {
+              "reason": "dweebs"
+            },
+            "xenofem.me": {
+              "reason": "average eris instance"
+            },
+            "glee.li": {
+              "reason": "racist eris instance"
+            },
+            "decayable.ink": {
+              "reason": "average soapbox"
+            },
+            "lol*.**zza": {
+              "reason": "pedo"
+            },
+            "kiwifarms.cc": {
+              "reason": "yeah..."
+            },
+            "cawfee.club": {
+              "reason": "miku is NOT racist"
+            },
+            "chudbuds.lol": {
+              "reason": "nazis"
+            },
+            "annihilation.social": {
+              "reason": "freespeech instance"
+            },
+            "social.freetalklive.com": {
+              "reason": "chud radio"
+            },
+            "shitposter.world": {
+              "reason": "also new spc? pick an instance yall"
+            },
+            "rot.gives": {
+              "reason": "average eris instance"
+            },
+            "genderheretics.xyz": {
+              "reason": "transphobe instance, like... that's the whole point.... do the people setting these things up really have a life?"
+            },
+            "pl.smuglo.li": {
+              "reason": "/"
+            },
+            "youjo.love": {
+              "reason": "pedo"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "nyaaaaaaan",
+      "nodeName": "Breaking Nyan Network News",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": true,
+        "federated": false,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://nyan.network/users/pounce",
+        "https://nyan.network/users/mei"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "usage": {
+      "localPosts": 6850,
+      "users": {
+        "activeHalfyear": 9,
+        "activeMonth": 8,
+        "total": 13
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

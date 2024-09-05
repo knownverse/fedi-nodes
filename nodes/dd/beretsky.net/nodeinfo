@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 82,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 76772,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "beretsky",
+      "nodeDescription": "読み方はべれーすきーです\n\nmaozedong0604がお送りするなんでもごちゃまぜ交流鯖\n\nみんなおいで♡\n",
+      "nodeAdmins": [
+        {
+          "name": "まおさん(@maozedong0604)",
+          "email": "mao0604san@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "まおさん(@maozedong0604)",
+        "email": "mao0604san@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://beretsky.net/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "test_savakan",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 5,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "&lt;meta name=&quot;google-adsense-account&quot; content=&quot;ca-pub-9870588301225506&quot;&gt;",
+      "nodeDescription": "Independent discussion on global affairs",
+      "nodeIcon": "https://globalaffairs.blog/wp-content/uploads/2024/04/wp-1712364458916.jpg"
+    }
+  },
+  "error": null
+}

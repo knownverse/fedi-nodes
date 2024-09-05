@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 853,
+      "localComments": 5425
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Brain of Shawn",
+      "nodeDescription": "the thinks I think",
+      "nodeIcon": "https://brainofshawn.com/wp-content/uploads/2019/01/cropped-cropped-cropped-penguin.png"
+    }
+  },
+  "error": null
+}

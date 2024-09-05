@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Uluwatu Travel",
+      "nodeDescription": "Uluwatu Temple is a cliff-top temple located in South Bali. Seeing the sunset in the afternoon, Watching kecak dance.Seeing monkeys",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

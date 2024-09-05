@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 282,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Touching Doodles",
+      "nodeDescription": "Comics, Art and Illustrations by Kyle Freeman",
+      "nodeIcon": "https://i0.wp.com/touchingdoodles.com/wp-content/uploads/2023/01/Touching-Doodles-Icon-logo_square.png?fit=400%2C400&ssl=1"
+    }
+  },
+  "error": null
+}

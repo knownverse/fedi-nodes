@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 3031,
+      "localComments": 10838
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "An Eclectic Mind",
+      "nodeDescription": "Web site and blog for Maria Langer, helicopter pilot, content creator, jewelry artist, boater, and serious amateur photographer.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

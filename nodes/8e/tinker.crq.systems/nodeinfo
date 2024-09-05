@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 16,
+      "localComments": 60
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Officially certified",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/tinker.crq.systems/stuff/2019/11/cropped-tinker.icon_.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

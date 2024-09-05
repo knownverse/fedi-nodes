@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 335,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13580,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "『ダイスき』(dicekey.jp)",
+      "nodeDescription": "<center><strong>アナログゲーム大好きな人のMisskey</strong></center>\n<center>話題はアナログゲームだけに限定しません。</center>\n<center>新作ボードゲームの話題から、</center>\n<center>TRPGのシナリオ、イベント情報、宣伝など、</center>\n<center>公共良俗に反しない範囲で、</center>\n<center>ご自由にお楽しみください。</center>",
+      "nodeAdmins": [
+        {
+          "name": "弓路",
+          "email": "info@dicekey.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "弓路",
+        "email": "info@dicekey.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://dicekey.jp/@info/pages/privacypolicy",
+      "privacyPolicyUrl": "https://dicekey.jp/@info/pages/privacypolicy",
+      "inquiryUrl": "https://dicekey.jp/about",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#DDAE71"
+    }
+  },
+  "error": null
+}

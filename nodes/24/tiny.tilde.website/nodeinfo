@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 243,
+        "activeMonth": 50,
+        "activeHalfyear": 67
+      },
+      "localPosts": 167277
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Tiny Tilde Website",
+      "nodeDescription": "ttw is the unofficial Mastodon instance of tilde.town. We're only small, but we're friendly. Please don't be a dick."
+    }
+  },
+  "error": null
+}

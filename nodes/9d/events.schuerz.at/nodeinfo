@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Terminorganisation für Jakob und befreundete Organisationen",
+      "nodeName": "Der Schürzens Privattermine"
+    },
+    "usage": {
+      "users": {
+        "total": 10
+      },
+      "localComments": 16,
+      "localPosts": 33
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

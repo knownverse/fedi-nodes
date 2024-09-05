@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 138,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 76899,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "おやすみすきー",
+      "nodeDescription": "寝るときに おやすみ と言えたらいいな",
+      "nodeAdmins": [
+        {
+          "name": "こばさん",
+          "email": "misskey@oyasumi.ski"
+        }
+      ],
+      "maintainer": {
+        "name": "こばさん",
+        "email": "misskey@oyasumi.ski"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.oyasumi.ski/rule/",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ai",
+      "themeColor": "#213a70"
+    }
+  },
+  "error": null
+}

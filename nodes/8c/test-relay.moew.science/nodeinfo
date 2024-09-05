@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitipub"
+    ],
+    "software": {
+      "build": {
+        "commit": "0824255",
+        "branch": "master",
+        "go": "go1.22.1"
+      },
+      "name": "Coma",
+      "version": "v0.0.1"
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

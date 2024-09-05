@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 455,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "handelsfrei Verzeichnis",
+      "nodeDescription": "diejenigen, die anbieten, sollten nichts im Gegenzug verlangen - diejenigen, die bekommen, sollten nichts zurückgeben müssen",
+      "nodeIcon": "https://verzeichnis.handelsfrei.org/wp-content/uploads/2022/03/cropped-logo-favicon-black.png"
+    }
+  },
+  "error": null
+}

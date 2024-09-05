@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Heng9999",
+      "nodeDescription": "สมัครสมาชิกใหม่วันนี้รับโบนัสฟรี 69 บาท ไม่ต้องฝากก่อน",
+      "nodeIcon": "https://heng9.wordpress.com/wp-content/uploads/2023/12/cropped-photo_e0b992e0b990e0b992e0b993-e0b991e0b992-e0b990e0b998_e0b991e0b997-e0b995e0b995-e0b991e0b999.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Friends WordPress Plugin",
+      "nodeDescription": "A social network between WordPresses. Privacy focused, by itself a self-hosted RSS++ reader with notifications",
+      "nodeIcon": "https://wpfriends.at/wp-content/uploads/2020/12/cropped-icon-256.png"
+    }
+  },
+  "error": null
+}

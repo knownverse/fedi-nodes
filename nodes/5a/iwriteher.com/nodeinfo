@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2980,
+      "localComments": 37660
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I Write Her",
+      "nodeDescription": "my humanity in written form",
+      "nodeIcon": "https://iwriteher.com/wp-content/uploads/2018/01/292233312288_59a9ab945579e1333ba5_132.png"
+    }
+  },
+  "error": null
+}

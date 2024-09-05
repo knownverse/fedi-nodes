@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "social@cloudfrancois.fr",
+        "name": "@CapsLock@social.cloudfrancois.fr"
+      },
+      "nodeName": "social.cloudfrancois.fr",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240630"
+    },
+    "usage": {
+      "localPosts": 165,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 2
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

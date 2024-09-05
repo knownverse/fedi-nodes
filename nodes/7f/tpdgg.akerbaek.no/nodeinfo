@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.2"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 93,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TPDGG",
+      "nodeDescription": "Impro og teater i Halden",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

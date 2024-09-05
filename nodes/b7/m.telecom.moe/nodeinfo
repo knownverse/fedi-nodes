@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "萌の国度",
+      "nodeDescription": "欢迎来到 萌の国度<br><br>\n一个Misskey实例<br>\n\n<a href=\"https://www.telecom.moe\">>>>MoeTelecom<<<</a> <br>\n<a href=\"https://m.telecom.moe/@qytc233/pages/tos\">>>>TOS<<<</a> <br>",
+      "nodeAdmins": [
+        {
+          "name": "Moe233",
+          "email": "admin@telecom.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "Moe233",
+        "email": "admin@telecom.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://m.telecom.moe/pages/edit/9hipeyqwm5",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#cdfec3"
+    }
+  },
+  "error": null
+}

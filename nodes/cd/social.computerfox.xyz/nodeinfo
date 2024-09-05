@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 142281
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "ComputerFox Network",
+      "nodeDescription": "<a href=\"https://jortage.com\">\r\n\t<img\r\n\t\tstyle=\"width: 100px; height: 133px;\r\n                       float: left; margin-left: 10px;\"\r\n\t\tsrc=\"https://blob.jortage.com/jortage-badge-tall.svg\"\r\n\t\talt=\"Powered By Denim\"/>\r\n</a>\r\n\r\n<a href=\"https://mutant.tech\">\r\n    <img\r\n        style=\"width: 100px; height: 133px;\r\n               margin-left: 15px;\"\r\n        src=\"https://social.computerfox.xyz/mutstd-badge.svg\"\r\n        alt=\"This instance uses Mutant Standard emoji\"/>\r\n</a>\r\n\r\n<br/>"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Patio And Driveway Cleaning Crawley",
+      "nodeDescription": "Patio And Driveway Cleaning Services In Crawley, West Sussex.",
+      "nodeIcon": "https://patioanddrivewaycleaningcrawley.wordpress.com/wp-content/uploads/2024/03/cropped-the-jet-wash-fella-logo-6-663298596-e1710173325903.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 162,
+      "localComments": 18
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Holy Spirit Ministry",
+      "nodeDescription": "Experiencing God&#039;s Love and Understanding the Gifts and Healing Powers Of The Holy Spirit.",
+      "nodeIcon": "https://i0.wp.com/holyspiritministry.life/wp-content/uploads/2024/06/HSM-Logo-1.jpg?fit=1080%2C383&ssl=1"
+    }
+  },
+  "error": null
+}

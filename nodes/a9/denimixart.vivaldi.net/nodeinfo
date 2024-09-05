@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 23,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sztuką w Parkinsona",
+      "nodeDescription": "Moja podróż z Parkinsonem to nie tylko walka z chorobą, ale również odkrywanie siebie i swojej pasji do Sztuki. Zapraszam Cię do wspólnej podróży!",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

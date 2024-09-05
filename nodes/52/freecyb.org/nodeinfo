@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Freecyb.org\n\nA collective effort to offer blogging hosting | blogging in the fediverse and on the web! Decentralized, open-source and free. | Register and start blogging now",
+      "nodeName": "Freecyb.org"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.3-dev"
+    },
+    "usage": {
+      "localComments": 16,
+      "localPosts": 23,
+      "users": {
+        "total": 31
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

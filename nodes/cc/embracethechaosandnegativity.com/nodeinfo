@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 55,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "EMBRACE CHAOS",
+      "nodeDescription": "Life isn&#039;t about waiting for the storm to pass, it&#039;s learning to dance in the rain...",
+      "nodeIcon": "https://embracethechaosandnegativity.com/wp-content/uploads/2023/10/social-ad.jpg"
+    }
+  },
+  "error": null
+}

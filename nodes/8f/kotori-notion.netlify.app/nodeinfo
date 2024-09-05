@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "kotori",
+      "version": "0.0.5"
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      }
+    },
+    "metadata": {}
+  },
+  "error": null
+}

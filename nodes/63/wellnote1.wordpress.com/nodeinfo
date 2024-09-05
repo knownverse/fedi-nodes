@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "WellNote",
+      "nodeDescription": "Let us note well the importance of beauty, health and well-being in your life.",
+      "nodeIcon": "https://wellnote1.wordpress.com/wp-content/uploads/2023/12/wellnote-101-2.png"
+    }
+  },
+  "error": null
+}

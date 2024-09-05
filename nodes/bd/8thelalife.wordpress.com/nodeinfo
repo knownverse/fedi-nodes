@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 450,
+      "localComments": 350
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Livin&#039; that 8th ELA life",
+      "nodeDescription": "Thoughts and feelings of an experienced educator, mom, and wife",
+      "nodeIcon": "https://8thelalife.wordpress.com/wp-content/uploads/2014/01/cropped-apple-wordle-1.jpg"
+    }
+  },
+  "error": null
+}

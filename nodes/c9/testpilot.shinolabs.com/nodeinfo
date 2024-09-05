@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Toki",
+      "version": "fix_pagination-6cde34a",
+      "repository": "https://github.com/purifetchi/Toki",
+      "homepage": "https://github.com/purifetchi/Toki"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 168
+    },
+    "metadata": {
+      "nodeName": "Toki Testpilot",
+      "nodeDescription": "Federation testing instance for Toki"
+    },
+    "operations": {
+      "com.shinolabs.api.bite": [
+        "1.0.0"
+      ],
+      "jetzt.mia.ns.activitypub.accept.bite": [
+        "1.0.0"
+      ]
+    }
+  },
+  "error": null
+}

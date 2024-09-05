@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Digital formidling",
+      "nodeDescription": "Lektor Stakkeland",
+      "nodeIcon": "https://lektorstakkeland.wordpress.com/wp-content/uploads/2024/02/antikken-illustrasjon-microsoft-copilot-ai-kjetil-tonnevold-stakkeland.jpg"
+    }
+  },
+  "error": null
+}

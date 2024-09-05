@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 81,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "guide2museums.com",
+      "nodeDescription": "Discover Museums For All In The U.S. &amp; Canada",
+      "nodeIcon": "https://guide2museums.com/wp-content/uploads/2023/08/cropped-guide2museums_aug22_transparent_300px.webp"
+    }
+  },
+  "error": null
+}

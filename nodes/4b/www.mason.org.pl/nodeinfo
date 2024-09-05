@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11395,
+      "localComments": 25
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Masonierek",
+      "nodeDescription": "Robert A.Mason - fotografia architektury, dokumentalna i reporterska",
+      "nodeIcon": "https://www.mason.org.pl/wp-content/uploads/2023/04/Masonierek-Logo-0423-white-mn.png"
+    }
+  },
+  "error": null
+}

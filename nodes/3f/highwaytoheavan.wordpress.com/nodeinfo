@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 194,
+      "localComments": 108
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Spiritual Ethnic Journey in Savory, Sweet, Bitter, &amp; Spicy Cuisine",
+      "nodeDescription": "Empowering Spiritual Culinary Kitchen: Ancient Recipes, Poetry &amp; Theology",
+      "nodeIcon": "https://highwaytoheavan.wordpress.com/wp-content/uploads/2024/04/wp-1713422258778.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "friendica",
+      "version": "2024.08-1571"
+    },
+    "protocols": {
+      "inbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ],
+      "outbound": [
+        "friendica",
+        "diaspora",
+        "gnusocial"
+      ]
+    },
+    "services": {
+      "inbound": [
+        "bluesky",
+        "gnusocial",
+        "pumpio"
+      ],
+      "outbound": [
+        "bluesky",
+        "gnusocial",
+        "pumpio",
+        "smtp",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 57,
+      "localComments": 152
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "A teia social",
+      "protocols": {
+        "inbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0",
+          "rss2.0"
+        ],
+        "outbound": [
+          "friendica",
+          "diaspora",
+          "gnusocial",
+          "atom1.0"
+        ]
+      },
+      "services": {
+        "inbound": [
+          "bluesky",
+          "gnusocial",
+          "pumpio"
+        ],
+        "outbound": [
+          "bluesky",
+          "gnusocial",
+          "pumpio",
+          "smtp",
+          "tumblr",
+          "wordpress"
+        ]
+      },
+      "explicitContent": false
+    }
+  },
+  "error": null
+}

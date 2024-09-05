@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Ottawa DIY punk event calendar",
+      "nodeName": "OTTAWA Ask A Punk",
+      "nodeTimezone": "America/Toronto",
+      "nodeActor": "shows"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.18.1"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 123,
+      "users": {
+        "total": 2
+      }
+    }
+  },
+  "error": null
+}

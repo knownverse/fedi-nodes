@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.9.0",
+      "basedMisskeyVersion": "2024.5.0",
+      "homepage": "https://github.com/kokonect-link/cherrypick",
+      "repository": "https://github.com/kokonect-link/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 453,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "여우굴",
+      "nodeDescription": "<center>\n<img src=\"https://cave.kitsub0.xyz/files/f6015af4-e5b8-4c73-b21e-c673e3ea8339\" alt=\"캔냥이_치하\" width=\"150\" height=\"150\">\n<br>\n<b>파란여우, 드래곤, 캔냥이, 히치하이커들의 여우굴에 어서오세요! </b><br>\n커다란 하늘색 여우드래곤 포식자님과 캔냥이들의 휴식처.<br>\n<i>Server Running Since 2023-11-14</i>\n<br><hr>\n<b>【 현재 신규 가입을 받고 있지 않습니다 - 베타 운영 중 】</b><br>\n주인장 : @f0xy_box@cave.kitsub0.xyz\n<hr>\nRespect. <a href=\"https://github.com/kokonect-link/cherrypick\">CherryPick</a>\n</center>",
+      "nodeAdmins": [
+        {
+          "name": "블랙치이(BlacK_CHi)",
+          "email": "fox@kitsub0.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "블랙치이(BlacK_CHi)",
+        "email": "fox@kitsub0.xyz"
+      },
+      "langs": [],
+      "tosUrl": "https://cave.kitsub0.xyz/@f0xy_dora/pages/ToS",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#59deff"
+    }
+  },
+  "error": null
+}

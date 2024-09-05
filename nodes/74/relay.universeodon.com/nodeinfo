@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.104-main-a0f9827e"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "convo.casa",
+        "cupoftea.social",
+        "mastodon.online",
+        "mastodon.social",
+        "mastodonapp.uk",
+        "ohai.social",
+        "rivals.space",
+        "techhub.social",
+        "toot.community",
+        "universeodon.com",
+        "veganism.social",
+        "vmst.io"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

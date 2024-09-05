@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 94,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Who Did You Boycott Today",
+      "nodeDescription": "This Is Your Greatest Power You Have As A Negro American",
+      "nodeIcon": "https://whodidyouboycotttodaycom.wordpress.com/wp-content/uploads/2024/01/cropped-negroes-community-stay-in-the-know-1-2.png"
+    }
+  },
+  "error": null
+}

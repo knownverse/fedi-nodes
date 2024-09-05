@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 5051,
+      "localComments": 34751
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GeDACHt | Geschrieben | Erlebt | Gesehen",
+      "nodeDescription": "Meine Meinung, meine Erlebnisse, meine Phantasien etc. unterm Blogdach",
+      "nodeIcon": "https://deremil.blogda.ch/wp-content/uploads/2023/02/cropped-kl_Twittava-new.jpg"
+    }
+  },
+  "error": null
+}

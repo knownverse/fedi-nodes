@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 4,
+        "activeMonth": 3
+      },
+      "localPosts": 197
+    },
+    "metadata": {
+      "nodeName": "Watamelon Mitra",
+      "nodeDescription": "WataMitra",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://mt.watamelon.win/users/tadano"
+      ]
+    }
+  },
+  "error": null
+}

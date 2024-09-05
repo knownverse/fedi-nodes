@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 4341,
+      "localComments": 732
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Zen Mischief",
+      "nodeDescription": "Eccentric looks at life through the thoughts of a retired working thinker",
+      "nodeIcon": "https://zenmischief.com/wp-content/uploads/cropped-t512.gif"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 6
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Poco sexo en Badayork",
+      "nodeDescription": "Quien ríe el último, duerme mejor",
+      "nodeIcon": "https://pocosexoenbadayork.wordpress.com/wp-content/uploads/2020/11/wp-1604933219208.jpg"
+    }
+  },
+  "error": null
+}

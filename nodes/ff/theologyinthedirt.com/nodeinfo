@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1230,
+      "localComments": 332
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Theology in the Dirt",
+      "nodeDescription": "Practicing our theology in the public square of our homes, our city and our world",
+      "nodeIcon": "https://theologyinthedirt.com/wp-content/uploads/2023/02/tid-thumbnail-500-c397-500-px.png"
+    }
+  },
+  "error": null
+}

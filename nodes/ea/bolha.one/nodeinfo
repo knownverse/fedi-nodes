@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 68,
+        "activeMonth": 67,
+        "activeHalfyear": 78
+      },
+      "localPosts": 37749
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Bolhinha",
+      "nodeDescription": "A Bolhinha é uma comunidade moderada do Mastodon sem tema específico, voltada para falantes de português."
+    }
+  },
+  "error": null
+}

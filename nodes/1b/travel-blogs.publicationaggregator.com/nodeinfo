@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2870,
+        "activeHalfyear": 2827
+      },
+      "localPosts": 303862,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Travel Blogs",
+      "nodeDescription": "PublicationAggregator.com site to aggregate travel blogs",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

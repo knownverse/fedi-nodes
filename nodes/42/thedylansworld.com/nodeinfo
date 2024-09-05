@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 19,
+      "localComments": 56
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "TheDylansWorld",
+      "nodeDescription": "A view into the world of yachting and a mix of pop culture.",
+      "nodeIcon": "https://thedylansworld.com/wp-content/uploads/2024/04/wp-1713544122875.png"
+    }
+  },
+  "error": null
+}

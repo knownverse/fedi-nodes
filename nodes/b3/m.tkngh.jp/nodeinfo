@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "1.0-b4.7.0",
+      "basedMisskeyVersion": "2024.2.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 149,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 191697,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "TKNGH",
+      "nodeDescription": "肥前国の文化を学習\n<img src=\"https://status.tkngh.jp/api/badge/2/uptime\"> <img src=\"https://status.tkngh.jp/api/badge/2/avg-response\"> <img src=\"https://status.tkngh.jp/api/badge/2/cert-exp\">",
+      "nodeAdmins": [
+        {
+          "name": "MSNIC",
+          "email": "info@mail.msnic.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "MSNIC",
+        "email": "info@mail.msnic.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://m.tkngh.jp/@802KsaRATgSUa/pages/tos",
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://www.tkngh.jp",
+      "repositoryUrl": "https://github.com/49372s/cherrypick",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffbcdc"
+    }
+  },
+  "error": null
+}

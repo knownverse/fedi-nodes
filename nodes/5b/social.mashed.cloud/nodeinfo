@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 434
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "mashed.cloud",
+      "nodeDescription": "A small, invite-only server run by @curtispf for themself and some friends."
+    }
+  },
+  "error": null
+}

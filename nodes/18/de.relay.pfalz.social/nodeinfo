@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.98-HEAD-731a8310"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "bewegung.social",
+        "burningboard.net",
+        "cas.social",
+        "colearn.social",
+        "convo.casa",
+        "digitalcourage.social",
+        "edi.social",
+        "fed.fsub.de",
+        "fftest.twexodus.top",
+        "franken.social",
+        "frankfurt.social",
+        "future-generation.social",
+        "fuzaxx.de",
+        "genista.osrx.chat",
+        "hub.uckermark.social",
+        "instanzfreun.de",
+        "jbo.social",
+        "loerzweiler.social",
+        "mastodon.bachgau.social",
+        "mastodon.friendnet.eu",
+        "mastodon.hexix.de",
+        "mstdn.mv2k.com",
+        "musee.social",
+        "noto.social",
+        "pfalz.social",
+        "ploen.social",
+        "privacyofficers.social",
+        "queer.todon.de",
+        "ratingen.social",
+        "ruhrpott.social",
+        "schaumburg.social",
+        "soc.utzer.de",
+        "social.bau-ha.us",
+        "social.brothertec.eu",
+        "social.c-onner.de",
+        "social.corticarte.com",
+        "social.kontrollapparat.de",
+        "social.tacty.org",
+        "social.techn1k.de",
+        "social.tsueri.cloud",
+        "toot.rhetro.de",
+        "troet.odinlab.xyz",
+        "vhs.social",
+        "voi.social",
+        "waf.social",
+        "weyhe.social"
+      ],
+      "blocks": []
+    }
+  },
+  "error": null
+}

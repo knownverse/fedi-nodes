@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kabir",
+      "nodeDescription": "যে মুহূর্ত থেকে তুমি নিজেকে অজুহাত দেখানো বন্ধ করে কাজ শুরু করবে সে মুহূর্ত থেকে তোমার স্বপ্ন আর স্বপ্ন থাকবে না- সেটি বাস্তবে রূপ নিতে শুরু করবে!",
+      "nodeIcon": "https://kabirdc.wordpress.com/wp-content/uploads/2024/01/cropped-1705298808260-removebg-preview.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "3.5.19patch-2024-07-04"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeMonth": 17,
+        "activeHalfyear": 23
+      },
+      "localPosts": 104070
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

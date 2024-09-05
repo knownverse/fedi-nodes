@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "https://www.okin-jp.net/contact",
+        "name": "おきん"
+      },
+      "nodeDescription": "ふぃーお！はFirefishのサーバーです。手軽に楽しくFediverseへ参加したいユーザーのための汎用サーバーです。@okin_p@mi.okin-jp.net (@okin_p@si.okin-jp.net / @okin_p)が運用しています。 ",
+      "nodeName": "ふぃーお！",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#F68B1F"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 7638,
+      "users": {
+        "activeHalfyear": 24,
+        "activeMonth": 11,
+        "total": 33
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

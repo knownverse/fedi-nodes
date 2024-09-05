@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3377,
+      "localComments": 30795
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jacquie Biggar-USA Today Best-selling author ",
+      "nodeDescription": "Read. Write. Love. 💕💕💕",
+      "nodeIcon": "https://jacqbiggar.com/wp-content/uploads/2017/03/cropped-heart-159638_640.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "L'aggregatore di eventi di livellosegreto.it",
+      "nodeName": "Quest",
+      "nodeLabel": "Quest"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.4.4"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 244,
+      "users": {
+        "total": 43
+      }
+    }
+  },
+  "error": null
+}

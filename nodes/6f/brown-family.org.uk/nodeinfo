@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 2039,
+      "localComments": 106
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Richard &amp; Caroline&#039;s Blog",
+      "nodeDescription": "Family, Photography and other misc news",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

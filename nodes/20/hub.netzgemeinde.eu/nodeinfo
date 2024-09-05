@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.2.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "wordpress"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1950,
+        "activeHalfyear": 323,
+        "activeMonth": 100
+      },
+      "localPosts": 132180,
+      "localComments": 42843
+    },
+    "metadata": {
+      "nodeName": "Netzgemeinde/Hubzilla"
+    }
+  },
+  "error": null
+}

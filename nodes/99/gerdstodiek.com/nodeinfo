@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 236,
+      "localComments": 58
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gerd Stodiek",
+      "nodeDescription": "",
+      "nodeIcon": "https://gerdstodiek.com/wp-content/uploads/2017/12/cropped-sto-icon-logo.png"
+    }
+  },
+  "error": null
+}

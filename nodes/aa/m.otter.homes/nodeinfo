@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 941,
+        "activeMonth": 482,
+        "activeHalfyear": 671
+      },
+      "localPosts": 418880
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Otter Homes 🦦​",
+      "nodeDescription": "欢迎来到獭獭之家 （m.otter.homes）! Welcome to m.otter.homes!\r\n\r\nm.otter.homes是一个自由、开放、多语言的长毛象实例。在这里你可以和Fediverse中不同背景、爱好的任何人友好地交流，而免于任何政府或大公司的言论审查。"
+    }
+  },
+  "error": null
+}

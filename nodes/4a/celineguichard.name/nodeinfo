@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 284,
+      "localComments": 108
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Céline Guichard",
+      "nodeDescription": "visual artist",
+      "nodeIcon": "https://celineguichard.name/wp-content/uploads/2022/11/cropped-tete-celineguichard.jpg"
+    }
+  },
+  "error": null
+}

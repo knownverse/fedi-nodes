@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 50,
+      "localComments": 197
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "raimue.blog",
+      "nodeDescription": "",
+      "nodeIcon": "https://raimue.blog/wp-content/uploads/2023/11/cropped-BingImageCreator_computer-bike-dog-beer-coffee.jpg"
+    }
+  },
+  "error": null
+}

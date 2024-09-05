@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 684,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tropik Infos",
+      "nodeDescription": "Site d&#039;informations générales africaines et mondiales",
+      "nodeIcon": "https://tropikinfos.net/wp-content/uploads/2024/02/cropped-web-log-ok.jpg"
+    }
+  },
+  "error": null
+}

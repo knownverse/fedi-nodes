@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Minimal, federated blogging platform.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writeas/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 10,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.12.0"
+    },
+    "usage": {
+      "users": {
+        "total": 32
+      },
+      "localPosts": 44
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

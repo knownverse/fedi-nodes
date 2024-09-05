@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "韩国首尔上门服务2024",
+      "nodeDescription": "2024韩国出差旅行留学-随时找乐子",
+      "nodeIcon": "https://call2333.com/wp-content/uploads/2024/01/cropped-youtubee9a0ade5838fe8a8ade8a888.png"
+    }
+  },
+  "error": null
+}

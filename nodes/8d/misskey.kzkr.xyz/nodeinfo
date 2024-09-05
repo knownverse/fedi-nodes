@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3028,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "狐桜サーバー",
+      "nodeDescription": "狐桜(@kozakura)が運用する身内利用のインスタンスです。\n知人以外の登録は受け付けていません",
+      "nodeAdmins": [
+        {
+          "name": "@kozakura@misskey.kzkr.xyz",
+          "email": "https://misskey.kzkr.xyz/@kozakura"
+        }
+      ],
+      "maintainer": {
+        "name": "@kozakura@misskey.kzkr.xyz",
+        "email": "https://misskey.kzkr.xyz/@kozakura"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://misskey.kzkr.xyz/@kozakura",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#e6a19c"
+    }
+  },
+  "error": null
+}

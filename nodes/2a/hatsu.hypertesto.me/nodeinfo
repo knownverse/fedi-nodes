@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "hatsu",
+      "version": "0.2.0-beta.5",
+      "repository": "https://github.com/importantimport/hatsu",
+      "homepage": "https://hatsu.cli.rs"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 60
+    },
+    "metadata": {
+      "nodeName": "HyperTesto - Hatsu instance",
+      "nodeDescription": "HyperTesto activity bub bridge"
+    }
+  },
+  "error": null
+}

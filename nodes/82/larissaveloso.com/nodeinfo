@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 52,
+      "localComments": 60
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ladislara",
+      "nodeDescription": "From São Paulo to Toronto and everything in between. ",
+      "nodeIcon": "https://larissaveloso.com/wp-content/uploads/2024/04/cropped-img-20240405-wa0004.jpg"
+    }
+  },
+  "error": null
+}

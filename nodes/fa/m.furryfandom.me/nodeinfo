@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 27
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Terrence's Private Server",
+      "nodeDescription": "This is a private, invite only instance at present used for testing and validation of code changes. You may request an invite to this instance if I (Terrence the Fox) know you."
+    }
+  },
+  "error": null
+}

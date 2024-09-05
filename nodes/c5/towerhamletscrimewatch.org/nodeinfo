@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 108,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tower Hamlets Crime Watch",
+      "nodeDescription": "Better together to stop crime and ASB",
+      "nodeIcon": "https://towerhamletscrimewatch.org/wp-content/uploads/2023/12/cropped-meerkats-colour.jpg"
+    }
+  },
+  "error": null
+}

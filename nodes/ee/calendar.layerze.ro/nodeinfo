@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "A community events calendar for LZ",
+      "nodeName": "Layer Zero Events",
+      "nodeLabel": "Layer Zero Events",
+      "nodeTimezone": "America/Chicago",
+      "nodeActor": "layerzeroevents"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.11.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 0,
+      "localPosts": 243,
+      "users": {
+        "total": 9
+      }
+    }
+  },
+  "error": null
+}

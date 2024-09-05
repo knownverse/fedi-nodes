@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeMonth": 10,
+        "activeHalfyear": 7
+      },
+      "localPosts": 267,
+      "localComments": 299
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stimpunks Foundation",
+      "nodeDescription": "Mutual Aid and Human-Centered Learning for Neurodivergent and Disabled People",
+      "nodeIcon": "https://i0.wp.com/stimpunks.org/wp-content/uploads/2021/12/cropped-stimpunks-power-wheelchair-with-rainbow-umbrella.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

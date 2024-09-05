@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "kwakuanansejr",
+      "nodeDescription": "The adventures of Kwaku Ananse Jr, the son of the esteemed Kwaku Ananse, known for his trickery, wisdom and tales from a small village in the heart of the Ashanti region of Ghana called Effiduase to the hustle and bustling of city life in the capital Accra.",
+      "nodeIcon": "https://kwakuanansejr.wordpress.com/wp-content/uploads/2023/12/cropped-logo1.jpg"
+    }
+  },
+  "error": null
+}

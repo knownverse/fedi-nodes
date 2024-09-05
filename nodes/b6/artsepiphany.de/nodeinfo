@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "1.0.5-rc",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "homepage": "https://joinfirefish.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 97,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ArtsEpiphany's Server [DEU]",
+      "nodeDescription": "Server run by ArtsSuraimu. NOT open for public registration\n\n** Impressum\n** Angaben gemäß § 5 TMG\nArts Yang *\nc/o NVIDIA *\nBavaria Towers *\nEinsteinstr. 172 *\n81677 München *\n\n** Vertreten durch:\nArts Yang *\nE-Mail: 1@arts.moe *\n** Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\nArts Yang *\nc/o NVIDIA *\nBavaria Towers *\nEinsteinstr. 172 *\n81677 München *",
+      "maintainer": {
+        "name": "Arts Suraimu",
+        "email": "1@arts.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/RimuroSuraimu/c.arts.moe/blob/main/privacy.md",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

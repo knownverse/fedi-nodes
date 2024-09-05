@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 69,
+      "localComments": 180
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Travel.Geek.NZ",
+      "nodeDescription": "We Travel. We Enjoy Life. We Share Stories.",
+      "nodeIcon": "https://travel.geek.nz/wp-content/uploads/2021/06/cropped-TravelGeek-logo-512x512-1.gif"
+    }
+  },
+  "error": null
+}

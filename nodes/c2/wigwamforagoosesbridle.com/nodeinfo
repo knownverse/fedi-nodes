@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 215,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Wigwam for a Goose&#039;s Bridle",
+      "nodeDescription": "Musings of a Mess of a Dreamer",
+      "nodeIcon": "https://wigwamforagoosesbridle.com/wp-content/uploads/2023/11/waterhouse_miranda_the_tempest-1.jpg"
+    }
+  },
+  "error": null
+}

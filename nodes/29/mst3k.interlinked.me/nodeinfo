@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 239,
+        "activeMonth": 9,
+        "activeHalfyear": 13
+      },
+      "localPosts": 345645
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Interlinked MST3K",
+      "nodeDescription": "this is mst3k"
+    }
+  },
+  "error": null
+}

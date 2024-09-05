@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 0,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.danksquad.org/federation/actors/service",
+      "private": true,
+      "shortDescription": "",
+      "longDescription": "",
+      "rules": "",
+      "contactEmail": "ssv (at) danksquad (dot) net",
+      "terms": "",
+      "nodeName": "music.danksquad.org",
+      "banner": null,
+      "defaultUploadQuota": 100000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 1152
+        },
+        "artists": {
+          "total": 125
+        },
+        "albums": {
+          "total": 125
+        },
+        "music": {
+          "hours": 88.45555555555555
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://music.danksquad.org/api/v1/federation/domains",
+        "channels": "https://music.danksquad.org/federation/index/channels",
+        "libraries": "https://music.danksquad.org/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 185
+          }
+        },
+        "listenings": {
+          "total": 715
+        },
+        "downloads": {
+          "total": 7301
+        }
+      }
+    }
+  },
+  "error": null
+}

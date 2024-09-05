@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 93,
+      "localComments": 154
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Return Trip",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/bymichaelbyrne.com/wp-content/uploads/2024/04/cropped-cover.jpg?fit=464%2C464&ssl=1"
+    }
+  },
+  "error": null
+}

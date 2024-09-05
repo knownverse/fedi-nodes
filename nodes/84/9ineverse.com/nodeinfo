@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-9ine-4.5.3",
+      "homepage": "https://github.com/9ineverse-dev/Type-9ine",
+      "repository": "https://github.com/9ineverse-dev/Type-9ine"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3379,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2470557,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "9ineverse.com",
+      "nodeDescription": "<br><center><font size=\"4\">つたえる、つながる、ひろがる。<br>居場所はきっとここにある。</font></center><br>\n<br>\n<font size=\"2\">\n9ineverse.comはブラウザで利用出来るSNSであり、インターネットコミュニティです。<br>\n9,000個を超える絵文字は便利なものから使いどころが全く分からない物まであり、<br>「いいね」だけでは物足りない人にぴったりです。<br>\n<br>\n気軽に自分の気持ちをつたえて、緩くどこかの誰かとつながる。<br>やさしいユーモアも、くだらない日常もあなたから誰かにひろがっていく。<br>\n私たちはそんなコミュニティを目指しています。<br>\n<br>\n眺めているだけで思わずニヤっとしてしまうようなあの頃のインターネットを探している人へ。9ineverse.comはそんなあなたを待っています。<br>\n</font>",
+      "nodeAdmins": [
+        {
+          "name": "株式会社9ineverse",
+          "email": "https://9ineverse.com/@Support"
+        }
+      ],
+      "maintainer": {
+        "name": "株式会社9ineverse",
+        "email": "https://9ineverse.com/@Support"
+      },
+      "langs": [],
+      "tosUrl": "https://www.portal.9ineverse.com/terms-of-use",
+      "privacyPolicyUrl": "https://www.portal.9ineverse.com/privacy-policy",
+      "inquiryUrl": "https://9ineverse.com/@Support",
+      "impressumUrl": "https://9ineverse.com/@Support",
+      "repositoryUrl": "https://github.com/9ineverse-dev/Type-9ine",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "9ineverseListener",
+      "themeColor": "#1b1b1b"
+    }
+  },
+  "error": null
+}

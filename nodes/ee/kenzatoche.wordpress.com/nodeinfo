@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Early to Read and Early to Rise",
+      "nodeDescription": "This blog will uncover the news and forgotten stories that make the Middle East and Northern Africa such a multi-layered captivating world region. With a keen interest for this region, I hope that my blog will stimulate people’s intellectual curiosity to know more about the region and its rich but complex history. Enjoy the reading of my blog in the hope that it is clearer than any history class you have ever taken.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

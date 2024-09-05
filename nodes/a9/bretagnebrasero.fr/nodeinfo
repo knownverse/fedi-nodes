@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bretagne Brasero",
+      "nodeDescription": "Décoration terrasse &amp; jardin",
+      "nodeIcon": "https://bretagnebrasero.fr/wp-content/uploads/2024/03/cropped-logo-bb-2.png"
+    }
+  },
+  "error": null
+}

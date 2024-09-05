@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 275,
+      "localComments": 41
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "MurderHobo.Club",
+      "nodeDescription": "Something clever goes here.",
+      "nodeIcon": "https://i0.wp.com/www.murderhobo.club/wp-content/uploads/2018/10/cropped-1420288253_shopping-cart-512-54a78cb6v1_site_icon-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

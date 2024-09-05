@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1493,
+      "localComments": 8639
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Lily Cafe",
+      "nodeDescription": "Serving up stories since 2013",
+      "nodeIcon": "https://thelilycafe.com/wp-content/uploads/2021/09/82828-kat-new-logo-09.07.19-edited.jpg"
+    }
+  },
+  "error": null
+}

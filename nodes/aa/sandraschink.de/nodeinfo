@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 77,
+      "localComments": 33
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sandra",
+      "nodeDescription": "Digital Pioneer mit Herz für&#039;s Fediversum.",
+      "nodeIcon": "https://sandraschink.de/wp-content/uploads/2023/07/cropped-ico.jpg"
+    }
+  },
+  "error": null
+}

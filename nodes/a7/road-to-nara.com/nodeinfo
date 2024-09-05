@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 211,
+      "localComments": 9150
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ROAD TO NARA",
+      "nodeDescription": "A Sustainable Ethnographic Travel Blog From India",
+      "nodeIcon": "https://road-to-nara.com/wp-content/uploads/2022/11/cropped-screenshot_20221124-140611_instagram.jpg"
+    }
+  },
+  "error": null
+}

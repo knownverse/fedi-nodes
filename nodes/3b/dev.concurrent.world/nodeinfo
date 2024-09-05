@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "Concurrent"
+    },
+    "protocols": [
+      "concurrentsub",
+      "activitypub"
+    ],
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "concurrent-dev",
+      "nodeDescription": "concurrentの開発版の実験用ドメインです。一般に流通していないschemaが多めなので開発者以外にはオススメできません。",
+      "maintainer": {
+        "name": "changeme",
+        "email": "changeme@example.com"
+      },
+      "themeColor": "#c77e18"
+    },
+    "usage": {
+      "localPosts": 203218,
+      "users": {
+        "total": 14
+      }
+    }
+  },
+  "error": null
+}

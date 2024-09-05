@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.7.0-rc",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 16,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 920,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Ocean Planet 【Sharkey】",
+      "nodeDescription": "こちらは、科学好きな日本語話者向けのサーバー「Ocean Planet」です。Firefishサーバー「Aurora Planet」の姉妹サーバーになります。<br>\n閉鎖前提です。<br>\n話題は必ずしも科学に限る必要はありません。<br>\n<br>\nわが地球の表面の7割は海洋です。海洋は、生命の始まりであり、今も多様な生命が存在しています。そんな地球上の生命のように、様々なバックグラウンドを持った方々が、科学に親しみ、楽しめるようなサーバーを目指しています。<br>\n\nアイコンのライセンスは[CC BY-NC-SA](https://misskey-hub.net/ja/brand-assets/)です。<br>\nNot Found画面のアイコン: CC BY-SA 4.0 @dameko0sayama@calckey.jp さん<br>\nエラー画面のアイコン: CC BY-SA 4.0 @dameko0sayama@calckey.jp さん",
+      "nodeAdmins": [
+        {
+          "name": "Shiina Kanta",
+          "email": "https://homepage.uryokurin.net"
+        }
+      ],
+      "maintainer": {
+        "name": "Shiina Kanta",
+        "email": "https://homepage.uryokurin.net"
+      },
+      "langs": [],
+      "tosUrl": "https://homepage.uryokurin.net/rule/",
+      "privacyPolicyUrl": "https://homepage.uryokurin.net/rule/",
+      "inquiryUrl": "https://homepage.uryokurin.net",
+      "impressumUrl": "https://homepage.uryokurin.net",
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 10000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "SpaceshipOcean",
+      "themeColor": "#007bbb"
+    }
+  },
+  "error": null
+}

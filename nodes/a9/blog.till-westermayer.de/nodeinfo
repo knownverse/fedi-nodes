@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 2710,
+      "localComments": 5640
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "till we *)",
+      "nodeDescription": "Das Blog von Till Westermayer * 2002",
+      "nodeIcon": "https://blog.till-westermayer.de/wp-content/uploads/2018/02/cropped-favicongross.png"
+    }
+  },
+  "error": null
+}

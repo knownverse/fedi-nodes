@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/mendakon/sushiski",
+      "repository": "https://github.com/mendakon/sushiski"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 17977,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 6002622,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "すしすきー",
+      "nodeDescription": "絵文字が楽しい汎用インスタンスです。\n\n寿司がすきな人も寿司嫌いな人も寿司興味ない人もおいでませすしすきー！！！",
+      "nodeAdmins": [
+        {
+          "name": "くちばし【@kuchibashi@sushi.ski】",
+          "email": "現在非表示になっています"
+        }
+      ],
+      "maintainer": {
+        "name": "くちばし【@kuchibashi@sushi.ski】",
+        "email": "現在非表示になっています"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.google.com/document/d/1iwIURlAtNbeFQzohlaqSB1y4VCpMChY5kd_WLHRrKJ0/edit?usp=sharing",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "kuchibashimendakon@gmail.com",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/mendakon/sushiski",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#a00000"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.11-theatlsocial-20240826"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 559,
+        "activeMonth": 84,
+        "activeHalfyear": 144
+      },
+      "localPosts": 52397
+    },
+    "openRegistrations": true,
+    "metadata": {}
+  },
+  "error": null
+}

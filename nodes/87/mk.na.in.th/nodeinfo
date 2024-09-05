@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0-beta.3-MemoThai-0.7",
+      "homepage": "https://github.com/MemoThai/misskey-th",
+      "repository": "https://github.com/MemoThai/misskey-th"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 188,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "มิสคีย์ นะ.ไทย",
+      "nodeDescription": "Misskey ภาษาไทยแบบแปลใหม่หมด อ่านเข้าใจ เป็นภาษาคนแปลไม่ใช่คอมแปล (แต่ยังแปลไม่เสร็จ)  <br>(<i>ยังไม่เปิดรับสมาชิกอย่างสาธารณะ</i> ต้องปิดเซิร์ฟบ่อยเพื่ออัปเดต/แก้ไขข้อความแปล UI)<br>ต้องการสมัครใช้ โปรดติดต่อมายังอีเมลผู้ดูแลระบบ หรือเซิร์ฟดิสคอร์ด <code>zG5GTDpSj2</code><br>ᩅᩮ᩠ᨷᩢ​ᨪᩱᨲ᩼​ᨶᩥ ᨺ᩠ᨦᩢ​ᨼᩬᨶ᩠ᨲ᩼​ᨲ᩠ᩅᩫ​ᨵᨾ᩠ᨾ᩺​ᨾᩣ​ᩅᩱ᩠ᨿ᩶​ᩓ᩠ᩅ᪩",
+      "nodeAdmins": [
+        {
+          "name": "hiohlan",
+          "email": "me@na.in.th"
+        }
+      ],
+      "maintainer": {
+        "name": "hiohlan",
+        "email": "me@na.in.th"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://me.na.in.th",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/MemoThai/misskey-th",
+      "feedbackUrl": "https://github.com/MemoThai/misskey-th/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#2ec27e"
+    }
+  },
+  "error": null
+}

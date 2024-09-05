@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BATTERYPARTS",
+      "nodeDescription": "Battery Accessaries: Manufacturing Equipment Raw Materials",
+      "nodeIcon": "https://batteryparts.wordpress.com/wp-content/uploads/2024/04/fireshot-capture-002-fiverr-logo-maker-www.fiverr.com_.png"
+    }
+  },
+  "error": null
+}

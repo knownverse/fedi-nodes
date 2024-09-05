@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "القرميد التركي / قرميد تركي/01101241000",
+      "nodeDescription": "BaBaLMagaL قرميد بي في سي مستورد للبيع",
+      "nodeIcon": "https://hashmistone.wordpress.com/wp-content/uploads/2024/03/wp-1710606458448.png"
+    }
+  },
+  "error": null
+}

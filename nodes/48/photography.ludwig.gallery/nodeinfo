@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 391,
+      "localComments": 356
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gallery Ludwig",
+      "nodeDescription": "photography show place",
+      "nodeIcon": "https://i0.wp.com/photography.ludwig.gallery/wp-content/uploads/2012/01/newlogo-04-200.jpg?fit=200%2C200&ssl=1"
+    }
+  },
+  "error": null
+}

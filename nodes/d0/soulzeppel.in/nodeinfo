@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3028,
+      "localComments": 4617
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "enjoying the postapocalypse",
+      "nodeDescription": "(enjoying the postapocalypse)",
+      "nodeIcon": "https://soulzeppel.in/wp-content/uploads/2023/08/bloglogo2023.png"
+    }
+  },
+  "error": null
+}

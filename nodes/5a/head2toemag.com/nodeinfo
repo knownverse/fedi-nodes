@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "6",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 261,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Head2Toe Magazine &amp; Entertainment",
+      "nodeDescription": "Online Beauty &amp; Entertainment Magazine",
+      "nodeIcon": "https://i0.wp.com/head2toemag.com/wp-content/uploads/2023/05/cropped-Copy-of-Black-and-Gold-Elegant-Beauty-Logo-5-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

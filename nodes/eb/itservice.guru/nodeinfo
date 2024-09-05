@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 72,
+      "localComments": 81
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "IT Service Guru",
+      "nodeDescription": "Stay ahead of the IT curve: Expert guidance for navigating the new normal",
+      "nodeIcon": "https://i0.wp.com/itservice.guru/wp-content/uploads/2023/12/8c3ae-19bc910f-87fe-4fc6-a17f-102d43833fd1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

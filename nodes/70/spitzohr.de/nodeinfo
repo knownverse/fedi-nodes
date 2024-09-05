@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 312,
+      "localComments": 984
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Florian Spitzohr",
+      "nodeDescription": "Science Fiction-Fan, Lego-Sammler und Internet-Freak aus München",
+      "nodeIcon": "https://spitzohr.de/wp-content/uploads/2024/02/cropped-spitzohr-network-app.jpg"
+    }
+  },
+  "error": null
+}

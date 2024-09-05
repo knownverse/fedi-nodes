@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 85,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": {
+      "inbound": [
+        "activitypub"
+      ],
+      "outbound": [
+        "activitypub"
+      ]
+    },
+    "metadata": {
+      "email": "roberto@selbach.ca",
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.1.0",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      }
+    }
+  },
+  "error": null
+}

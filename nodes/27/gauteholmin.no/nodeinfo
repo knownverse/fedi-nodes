@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 616,
+      "localComments": 631
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Gaute Holmin - Teknologi, livet og sånt...",
+      "nodeDescription": "Teknologi, livet og sånt...",
+      "nodeIcon": "https://gauteholmin.no/wp-content/uploads/2019/07/cropped-gauteholmin_no_favicon.png"
+    }
+  },
+  "error": null
+}

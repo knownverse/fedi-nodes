@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.9.0",
+      "basedMisskeyVersion": "2024.5.0",
+      "homepage": "https://github.com/kokonect-link/cherrypick",
+      "repository": "https://github.com/kokonect-link/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2722,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1140874,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "CherryPick.lapy 🥝",
+      "nodeDescription": "@lapy 의 취미로 운영되는 연합우주의 작은 키위별, CherryPick.lapy에 오신 것을 환영합니다.<br>\n여기에서는 <a href=\"https://github.com/syuilo/misskey\"  style=\"color:var(--accent, inherit);\">Misskey</a> 기반 포크 소프트웨어 <a href=\"https://github.com/kokonect-link/cherrypick\"  style=\"color:var(--accent, inherit);\">CherryPick</a> 를 통해 분산형 SNS 서비스를 제공하고 있으며, planet(플래닛) 등과 같은 마스토돈 인스턴스의 유저와도 소통이 가능합니다.<br>\n( 키라링 / 키라피 / 키위라피 등으로 불러주세요! )<br>\n<br>",
+      "nodeAdmins": [
+        {
+          "name": "lapy",
+          "email": "grower-secrets0q@icloud.com"
+        }
+      ],
+      "maintainer": {
+        "name": "lapy",
+        "email": "grower-secrets0q@icloud.com"
+      },
+      "langs": [
+        "ko",
+        "ja",
+        "en"
+      ],
+      "tosUrl": "https://lapy.notion.site/11c80826bca04b28b47704429a72bc97",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/ltlapy/misskey/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#c1694f"
+    }
+  },
+  "error": null
+}

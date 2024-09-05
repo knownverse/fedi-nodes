@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 142,
+      "localComments": 22
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JMB.mx",
+      "nodeDescription": "home of JMBzine.com and the JMB Archives",
+      "nodeIcon": "https://jmb.mx/wp-content/uploads/2023/11/cropped-cropped-jmb-dot-mx-1.png"
+    }
+  },
+  "error": null
+}

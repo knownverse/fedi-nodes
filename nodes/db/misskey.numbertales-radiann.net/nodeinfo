@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-rc.5",
+      "homepage": "https://github.com/ous-radian-n/misskey-nts-radiann.git",
+      "repository": "https://github.com/ous-radian-n/misskey-nts-radiann.git"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 17063,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "百花繚乱研究所 公式Misskey",
+      "nodeDescription": "百花繚乱研究所がMisskey公式サーバとして進出！\nナンバーテールズ公式 http://www.numbertales-radiann.com\n管理者・原作者 ラジアン（柏木 主税）",
+      "nodeAdmins": [
+        {
+          "name": "ラジアン(柏木 主税)",
+          "email": "radiann.kswg6631@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ラジアン(柏木 主税)",
+        "email": "radiann.kswg6631@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.numbertales-radiann.net/@official/pages/creation_guideline",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://misskey.io/@RadianN_kswg",
+      "repositoryUrl": "https://github.com/ous-radian-n/misskey-nts-radiann.git",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#9eb0dc"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 364,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "くししつSNS",
+      "nodeDescription": "くししつ生のくししつ生によるくししつ生のためのみすきー",
+      "maintainer": {
+        "name": "Ess2021",
+        "email": "admin@kushiro-u.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://www.kushiro-u.jp/お問い合わせ/privacy-policy/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#74a7fe"
+    }
+  },
+  "error": null
+}

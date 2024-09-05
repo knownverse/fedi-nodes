@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 135,
+      "localComments": 42
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Arp Comics",
+      "nodeDescription": "Comics &amp; illustrations by Arp Laszlo",
+      "nodeIcon": "https://arpcomics.com/wp-content/uploads/5114D557-451F-42CB-816F-6DA76A48556C.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "😉Welcome to my photography library！",
+      "nodeDescription": "一一泛黄、褪色的只是色调，永远都汹涌澎湃的是回忆",
+      "nodeIcon": "https://ricardophotography4.wordpress.com/wp-content/uploads/2024/02/image-1.jpg"
+    }
+  },
+  "error": null
+}

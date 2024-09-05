@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1+bscone.d",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 814,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 441730,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "버터스콘",
+      "nodeDescription": "버터스콘은 개인이 운영하는 자유 주제 misskey 서버입니다.\n<br><br>\n피로감 없는 SNS를 지향하고 있습니다.\n따끈따끈하고 시덥잖은 이야기를 마음껏 하며 즐겨 주세요.<br><br>\nrunning since 2022. 11. 24",
+      "nodeAdmins": [
+        {
+          "name": "jam",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "jam",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://buttersc-one.notion.site/905675f5543f48eab4d2860e3e0b7b08",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/ZerglingGo/misskey",
+      "feedbackUrl": "https://github.com/ZerglingGo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "buttersconeproxy",
+      "themeColor": "#FFDE80"
+    }
+  },
+  "error": null
+}

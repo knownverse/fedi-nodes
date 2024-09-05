@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 581,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "自宅警備員Misskey支部",
+      "nodeDescription": "<font size=\"4\">社会不適合者(社不)が作った鯖<br>\n誰でもうぇるかむです！<br>\n適当にゆるく運営してます</font>\n<p>名前がちょっとアレですが...()<br>\nテーマもくそもない鯖なのでそんなにお気になさらず...</p>\n<p>Misskeyでは珍しい高レスポンス鯖(自称)です<br>\n快適なmisskeyライフを送りたい方はぜひ</p>\n<hr>\n<b>[specs]</b><pre>\nCPU: AMD EPYC 7551P\nRAM: 64GB</pre>\n<hr>\n<div><a href=\"//www.cman.jp/network/\" target=\"_blank\"><img src=\"//www.cman.jp/network/logo/CmanSvNetS.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"株式会社シーマン　サーバー監視サービス\"></a></div>\n<div>Powered by <a href=\"https://www.raitako.com/\">raitako server</a></div>\n<div>&copy;&nbsp;2023&nbsp;raitako-1</div>",
+      "nodeAdmins": [
+        {
+          "name": "室堂雷司",
+          "email": "raiji.kure551.naitoki@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "室堂雷司",
+        "email": "raiji.kure551.naitoki@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://www.raitako.com/riyoukiyaku.html",
+      "privacyPolicyUrl": "https://www.raitako.com/puraibasi-porisi-.html",
+      "inquiryUrl": null,
+      "impressumUrl": "https://www.raitako.com/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#7746d2"
+    }
+  },
+  "error": null
+}

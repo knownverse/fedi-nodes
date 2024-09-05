@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3199,
+        "activeMonth": 396,
+        "activeHalfyear": 670
+      },
+      "localPosts": 752441
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "FF14-Mastodon",
+      "nodeDescription": "FF14プレイヤーのためのMastodonサーバーです<br />\r\n(C) SQUARE ENIX CO., LTD. All Rights Reserved."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 42,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jon Sun Tan (sound/energy healer)",
+      "nodeDescription": "Reactivation of innate spiritual abilities through endogenous DMT (Alchemy of the Ætheric Lifestyle).",
+      "nodeIcon": "https://jonsuntan.ca/wp-content/uploads/2022/03/cropped-screenshot-2022-03-27-2.59.15-pm-1.png"
+    }
+  },
+  "error": null
+}

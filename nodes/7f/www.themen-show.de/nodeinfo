@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 88,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Themen-Show.DE",
+      "nodeDescription": "Themen-Show.DE - Gut Zu_Hören! ...Gegen Langeweile",
+      "nodeIcon": "https://www.themen-show.de/wp-content/uploads/2019/10/cropped-Themen-Show-only-alexa-512x512-1.jpg"
+    }
+  },
+  "error": null
+}

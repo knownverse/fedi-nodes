@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 41,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Arbona Health Hub",
+      "nodeDescription": "A medical student&#039;s perspective on all things healthcare",
+      "nodeIcon": "https://arbonahealthhub.com/wp-content/uploads/2024/02/cropped-imageedit_26_8768448205.png"
+    }
+  },
+  "error": null
+}

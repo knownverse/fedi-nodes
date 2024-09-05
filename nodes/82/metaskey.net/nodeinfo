@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 398,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 63284,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Metaskey / めたすきー",
+      "nodeDescription": "VRChatなど、VRなんでもインスタンス\n<br>けもみみーっ！！！！！！！！！</br>\n\n<br>Metaskeyに関する情報はこちら</br>\n<br>https://wiki.metaskey.net</br>",
+      "nodeAdmins": [
+        {
+          "name": "桜ヶ丘電信",
+          "email": "contact@sakura.tel"
+        }
+      ],
+      "maintainer": {
+        "name": "桜ヶ丘電信",
+        "email": "contact@sakura.tel"
+      },
+      "langs": [],
+      "tosUrl": "https://sakura.tel/terms",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "MetaskeyGhost",
+      "themeColor": "#F0A915"
+    }
+  },
+  "error": null
+}

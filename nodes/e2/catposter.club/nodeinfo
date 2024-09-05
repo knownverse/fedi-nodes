@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "iska@iskamag.com",
+        "name": "@iska"
+      },
+      "nodeDescription": "An english/russian instance for awesome cat people 😼\nMust love cats to join and use.",
+      "nodeName": "Catposter Club!",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240523"
+    },
+    "usage": {
+      "localPosts": 32733,
+      "users": {
+        "activeHalfyear": 6,
+        "activeMonth": 2,
+        "total": 23
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

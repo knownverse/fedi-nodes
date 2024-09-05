@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": "6",
+        "activeHalfyear": "6"
+      },
+      "localPosts": 47455,
+      "localComments": 10655
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dentaku",
+      "nodeDescription": "Das Blog",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

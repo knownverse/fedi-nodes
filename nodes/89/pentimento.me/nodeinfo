@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 1,
+        "activeHalfyear": 5
+      },
+      "localPosts": 219
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "零醍社 Pentimento.me",
+      "nodeDescription": "Pentimento.me is a registered 501 (c)(3) literature institution in Seattle, WA. We host podcast and online workshops both in Chinese and English."
+    }
+  },
+  "error": null
+}

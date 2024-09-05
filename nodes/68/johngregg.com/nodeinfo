@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 321,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "John Gregg Studios",
+      "nodeDescription": "I can get lost in my art work, as I add layers of color, and adding depth and texture to my art.",
+      "nodeIcon": "https://i0.wp.com/johngregg.com/wp-content/uploads/2019/05/image.jpg?fit=960%2C960&ssl=1"
+    }
+  },
+  "error": null
+}

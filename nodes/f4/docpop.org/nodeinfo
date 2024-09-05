@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 1738,
+      "localComments": 2978
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Doc Pop&#039;s Blog",
+      "nodeDescription": "Doctor Popular is a game designer, musician, illustrator, zinester, crafster, and DIY super nerd who lives in San Francisco.",
+      "nodeIcon": "https://docpop.org/wp-content/uploads/2023/09/doc-pop-metal.svg"
+    }
+  },
+  "error": null
+}

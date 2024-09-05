@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "渥の柚木 wo’ teak wood",
+      "nodeDescription": "沐林原木 柚木林場 柚木製所 木器漆 柚木漆料 柚木の塗料 水性護木漆 顆粒液態柚木",
+      "nodeIcon": "https://teak7.wordpress.com/wp-content/uploads/2023/11/cropped-mu-lin-logo-1-135x.png"
+    }
+  },
+  "error": null
+}

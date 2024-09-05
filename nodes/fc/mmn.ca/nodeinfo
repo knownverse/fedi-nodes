@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "MMN Blog est une instance privée de [Plume](https://joinplu.me/), un logiciel de blogging fédéré (ActivityPub).\n\nVeuillez noter que le contenu du _flux fédéré_ n’a pas été créé, approuvé, contrôlé ou hébergé par sus.fr et fait partie de l’ensemble du [Fediverse](https://formations.pages.eirlab.net/presentation-fediverse-fr/).\n\nSi vous aimez mon travail, [vous pouvez faire un petit don](https://www.oh.mg/donate/).\n\n_Made with disdain à Paris • Barcelona • Oslo_ 💔",
+      "nodeName": "MMN"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "plume",
+      "version": "0.7.2"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 6502,
+      "users": {
+        "total": 2
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

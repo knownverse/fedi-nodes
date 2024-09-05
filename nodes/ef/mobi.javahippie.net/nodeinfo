@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Change this to a proper description of your instance",
+      "nodeName": "My Mobilizon Instance"
+    },
+    "usage": {
+      "users": {
+        "total": 3
+      },
+      "localComments": 4,
+      "localPosts": 4
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "5.0.0-beta.1"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

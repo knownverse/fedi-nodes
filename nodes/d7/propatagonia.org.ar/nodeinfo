@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Propatagonia - Asociación Civil sin Fines de Lucro",
+      "nodeDescription": "Somos una Organización No Gubernamental (ONG), conformada en 1995, integrada por un grupo de técnicos y profesionales que trabajamos en diversos temas y desde diferentes ámbitos, con las Comunidades Mapuche de la zona sur de la provincia de Neuquén y con la comunidad en general.",
+      "nodeIcon": "https://propatagonia.org.ar/wp-content/uploads/2023/02/propatagonia2.png"
+    }
+  },
+  "error": null
+}

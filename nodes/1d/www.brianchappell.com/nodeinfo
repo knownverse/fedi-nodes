@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 76,
+      "localComments": 207
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Brian Chappell",
+      "nodeDescription": "Google Critic, Search Expert and Audience Developer with over 10 years of documented success",
+      "nodeIcon": "https://www.brianchappell.com/wp-content/2016-08-26_15-57-00.png"
+    }
+  },
+  "error": null
+}

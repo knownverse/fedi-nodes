@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Michael D. McVey",
+      "nodeDescription": "Couples Counseling | Psychotherapy",
+      "nodeIcon": "https://michaeldmcvey.com/wp-content/uploads/2024/04/cropped-icononly_transparent.png"
+    }
+  },
+  "error": null
+}

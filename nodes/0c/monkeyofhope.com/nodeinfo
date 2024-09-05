@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 230,
+      "localComments": 384
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Monkey of Hope",
+      "nodeDescription": "Entdecke stets Neues mit staunendem Blick.",
+      "nodeIcon": "https://monkeyofhope.com/wp-content/uploads/monkeyofhope_M-55b7a7abv1_site_icon.png"
+    }
+  },
+  "error": null
+}

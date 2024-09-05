@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.10+git.d075c6ae"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 15,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.ihatebeinga.live/federation/actors/service",
+      "private": true,
+      "shortDescription": "I hate being alive, but music is pretty ok",
+      "longDescription": "",
+      "rules": "",
+      "contactEmail": "hannah@coffee-and-dreams.uk",
+      "terms": "",
+      "nodeName": "I hate being alive",
+      "banner": null,
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 3273
+        },
+        "artists": {
+          "total": 256
+        },
+        "albums": {
+          "total": 211
+        },
+        "music": {
+          "hours": 1094.5844444444444
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://music.ihatebeinga.live/api/v1/federation/domains",
+        "channels": "https://music.ihatebeinga.live/federation/index/channels",
+        "libraries": "https://music.ihatebeinga.live/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 20
+          }
+        },
+        "listenings": {
+          "total": 11950
+        },
+        "downloads": {
+          "total": 17787
+        }
+      }
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/",
+      "repository": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4367,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Skyland",
+      "nodeDescription": "<p>Dies ist eine geschlossene Single-Instanz. Hier kannst Du Dich nicht registrieren.</p>\n\n<p><strong><a href=\"https://skyland.social/@sky/pages/1691604972772\" target=\"_blank\" rel=\"noreferrer noopener nofollow\">Impressum</a></strong>",
+      "nodeAdmins": [
+        {
+          "name": "@sky@skyland.social",
+          "email": "firefish@skylarcuming.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@sky@skyland.social",
+        "email": "firefish@skylarcuming.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://skyland.social/@sky/pages/1691604972772",
+      "impressumUrl": "https://skyland.social/@sky/pages/1691604972772",
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

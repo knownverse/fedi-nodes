@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 7,
+        "activeHalfyear": 9
+      },
+      "localPosts": 10555
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "YSHI",
+      "nodeDescription": "Welcome to Yasashii Heavy Industries."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 162,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nürnberger Nebel",
+      "nodeDescription": "Ihr Leuchtturm im NN-Meer aus Lügennebel",
+      "nodeIcon": "https://nuernbergernebel.wordpress.com/wp-content/uploads/2024/04/bildschirmfoto-vom-2024-04-09-14-43-32.png"
+    }
+  },
+  "error": null
+}

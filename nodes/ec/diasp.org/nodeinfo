@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.9.0.0-p4887c3df"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 106030,
+        "activeHalfyear": 1227,
+        "activeMonth": 478
+      },
+      "localPosts": 974330,
+      "localComments": 1067997
+    },
+    "metadata": {
+      "nodeName": "diaspora*",
+      "camo": {
+        "markdown": true,
+        "opengraph": true,
+        "remotePods": true
+      },
+      "adminAccount": "davidmorley"
+    }
+  },
+  "error": null
+}

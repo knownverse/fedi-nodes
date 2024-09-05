@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.2"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 5703,
+      "localComments": 16843
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "CogDogBlog",
+      "nodeDescription": "Alan Levine barks about and plays with stuff here",
+      "nodeIcon": "https://cogdogblog.com/wp-content/uploads/2017/08/cropped-cogdog-sketch-color.png"
+    }
+  },
+  "error": null
+}

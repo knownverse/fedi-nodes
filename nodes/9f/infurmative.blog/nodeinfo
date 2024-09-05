@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 5,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Infurmative",
+      "nodeDescription": "Pet Health Made Simple",
+      "nodeIcon": "https://i0.wp.com/infurmative.blog/wp-content/uploads/2024/03/infurmative-1.png?fit=1200%2C1200&ssl=1"
+    }
+  },
+  "error": null
+}

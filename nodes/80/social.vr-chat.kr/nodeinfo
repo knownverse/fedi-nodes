@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.1",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "VR-chat",
+      "nodeDescription": "게임가드의 테스트용 체리픽 인스턴스입니다.\n가입은 불가합니다.",
+      "nodeAdmins": [
+        {
+          "name": "Gameguard",
+          "email": "admin@gameguard.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "Gameguard",
+        "email": "admin@gameguard.moe"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "",
+      "impressumUrl": "https://x.com/_game_guard",
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ffbcdc"
+    }
+  },
+  "error": null
+}

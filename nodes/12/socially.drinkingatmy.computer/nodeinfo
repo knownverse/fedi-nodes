@@ -1,0 +1,381 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "relay",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "rejected_instances": {},
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "mapsupport.de",
+            "*.yesmap.net",
+            "cannibal.cafe",
+            "tummy.town",
+            "imouto.pics",
+            "eepy.express",
+            "fedi.yesmap.net",
+            "m.ating.press",
+            "rape.pet",
+            "threads.net",
+            "awakari.com",
+            "activitypub.awakari.com",
+            "heymaven.com",
+            "maven.ly",
+            "cottoncandy.cafe",
+            "isekco.re",
+            "social.wikimedia.de",
+            "*.cunnyborea.space",
+            "cutefunny.net",
+            "cutecatgirls.cafe",
+            "*.awakari.app",
+            "exquisite.social",
+            "imouto.exposed",
+            "rapemeat.express",
+            "*.ating.press",
+            "*.nekos.cafe",
+            "*.notacri.me",
+            "*.sexycubs.xyz",
+            "*.punipoka.pink",
+            "childlove.top",
+            "climatejustice.global",
+            "love.is.notacri.me",
+            "aethy.com",
+            "paravielfalt.zone",
+            "*.wecops.uk",
+            "cunnyfu.cc",
+            "*.cubsex.lol"
+          ],
+          "media_removal": [],
+          "media_nsfw": [
+            "baraag.net",
+            "pawoo.net",
+            "misskey.io"
+          ],
+          "federated_timeline_removal": [
+            "mastodon.social"
+          ],
+          "report_removal": [
+            "mastodon.social"
+          ],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "reject_deletes": [
+            "mastodon.social"
+          ]
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "InlineQuotePolicy",
+          "SimplePolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "childlove.top": {
+              "reason": "maps get the rope"
+            },
+            "cutecatgirls.cafe": {
+              "reason": "maps get the rope"
+            },
+            "threads.net": {
+              "reason": "Facebook users get the rope"
+            },
+            "*.nekos.cafe": {
+              "reason": "maps get the rope"
+            },
+            "m.ating.press": {
+              "reason": "maps get the rope"
+            },
+            "mapsupport.de": {
+              "reason": "maps get the rope"
+            },
+            "eepy.express": {
+              "reason": "maps get the rope"
+            },
+            "fedi.yesmap.net": {
+              "reason": "maps get the rope"
+            },
+            "maven.ly": {
+              "reason": "all the cool kids are doing it"
+            },
+            "imouto.pics": {
+              "reason": "maps get the rope"
+            },
+            "rapemeat.express": {
+              "reason": "maps get the rope"
+            },
+            "love.is.notacri.me": {
+              "reason": "maps get the rope"
+            },
+            "cutefunny.net": {
+              "reason": "maps get the rope"
+            },
+            "climatejustice.global": {
+              "reason": "Unjustified instance blocking (censors get the rope)"
+            },
+            "isekco.re": {
+              "reason": "maps get the rope"
+            },
+            "aethy.com": {
+              "reason": "maps get the rope"
+            },
+            "cunnyfu.cc": {
+              "reason": "maps get the rope"
+            },
+            "awakari.com": {
+              "reason": "search my public scrotum"
+            },
+            "tummy.town": {
+              "reason": "maps get the rope"
+            },
+            "*.sexycubs.xyz": {
+              "reason": "maps get the rope"
+            },
+            "*.cunnyborea.space": {
+              "reason": "maps get the rope"
+            },
+            "*.ating.press": {
+              "reason": "maps get the rope"
+            },
+            "cannibal.cafe": {
+              "reason": "maps get the rope"
+            },
+            "heymaven.com": {
+              "reason": "all the cool kids are doing it"
+            },
+            "rape.pet": {
+              "reason": "maps get the rope"
+            },
+            "*.awakari.app": {
+              "reason": "awawawawawawawa"
+            },
+            "social.wikimedia.de": {
+              "reason": "Diesse Mastodonen inztanz ist blocken der volken wit out no reasonen.  Gott strafe Deutschland!"
+            },
+            "paravielfalt.zone": {
+              "reason": "maps get the rope"
+            },
+            "imouto.exposed": {
+              "reason": "maps get the rope"
+            },
+            "*.yesmap.net": {
+              "reason": "maps get the rope"
+            },
+            "activitypub.awakari.com": {
+              "reason": "search my public scrotum"
+            },
+            "*.wecops.uk": {
+              "reason": "Gott strafe Engerland"
+            },
+            "exquisite.social": {
+              "reason": "Openly calling for executions, also false nazism accusations"
+            },
+            "cottoncandy.cafe": {
+              "reason": "maps get the rope"
+            },
+            "*.cubsex.lol": {
+              "reason": "rope"
+            },
+            "*.notacri.me": {
+              "reason": "maps get the rope"
+            },
+            "*.punipoka.pink": {
+              "reason": "maps get the rope"
+            }
+          },
+          "media_nsfw": {
+            "baraag.net": {
+              "reason": "the loli question"
+            },
+            "misskey.io": {
+              "reason": "I just don't need this in my life."
+            },
+            "pawoo.net": {
+              "reason": "the loli question"
+            }
+          },
+          "federated_timeline_removal": {
+            "mastodon.social": {
+              "reason": "firehose of normie opinions"
+            }
+          },
+          "report_removal": {
+            "mastodon.social": {
+              "reason": "mastodon implements reports incorrectly"
+            }
+          },
+          "reject_deletes": {
+            "mastodon.social": {
+              "reason": "funy"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "suggestions": {
+        "enabled": false
+      },
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "accountActivationRequired": false,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "🅱️leroma :DDDDDD",
+      "nodeName": "Socially Drinking At My Dot Computer",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://socially.drinkingatmy.computer/users/often",
+        "https://socially.drinkingatmy.computer/users/prettygood"
+      ],
+      "uploadLimits": {
+        "general": 36000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 11191
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

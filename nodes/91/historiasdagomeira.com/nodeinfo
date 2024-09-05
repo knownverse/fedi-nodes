@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 62,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "A história do lugar da Gomeira, desde os primórdios até hoje, com a freguesia da Conceição de Tavira e umas cabanas de armação do atum",
+      "nodeIcon": "https://historiasdagomeira.com/wp-content/uploads/2018/12/agomeira-icon.png"
+    }
+  },
+  "error": null
+}

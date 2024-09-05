@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 13,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Scott Maier",
+      "nodeDescription": "Welcome to my personal space in the digital world! I am a technology connoisseur and this is my place to share my knowledge, experience and anything else cool and fun.",
+      "nodeIcon": "https://smaier.net/wp-content/uploads/2022/02/smaier.jpeg"
+    }
+  },
+  "error": null
+}

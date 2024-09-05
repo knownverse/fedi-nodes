@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "In4Matics.CAT",
+      "nodeDescription": "Apassionat de les noves tecnologies, ment autodidacta i inquieta. Estic al món de la informàtica des dels 12 anys.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "publicReader": true,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 4
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

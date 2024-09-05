@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "L'instance généraliste mobilizon.chapril.org est un service proposé par le Chapril permettant d'organiser des évènements, préparer l'avant et l'après, et de publier des infos pour les groupes que vous souhaitez gérer à plusieurs. Du plus petit anniversaire familial ou la sortie entre amis à la grande manifestation internationale, le Chapril vous permet de réaliser vos rassemblements comme vous le souhaitez tout en préservant la confidentialité des participantes et participants.",
+      "nodeName": "mobilizon.chapril.org"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.0.0"
+    },
+    "usage": {
+      "localComments": 12,
+      "localPosts": 1004,
+      "users": {
+        "total": 1218
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

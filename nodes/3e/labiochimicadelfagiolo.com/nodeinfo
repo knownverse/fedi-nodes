@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 65,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "La Biochimica Del Fagiolo",
+      "nodeDescription": "L&#039;insostenibile leggerezza del trash",
+      "nodeIcon": "https://labiochimicadelfagiolo.com/wp-content/uploads/2022/10/cropped-logo-1.png"
+    }
+  },
+  "error": null
+}

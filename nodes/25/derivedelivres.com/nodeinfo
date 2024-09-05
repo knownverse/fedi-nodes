@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 95,
+      "localComments": 86
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dérive de Livres",
+      "nodeDescription": "Des fragments d&#039;existences, de mots, d&#039;univers éparpillés pour vivre milles vies en une. Lire écrire, rêver, et tout simplement, s&#039;évader loin d&#039;ici. A la Dérive des Mots, à la Dérive des Livres. Bienvenue dans mon univers !",
+      "nodeIcon": "https://derivedelivres.com/wp-content/uploads/2020/06/wp-1591141355195.jpg"
+    }
+  },
+  "error": null
+}

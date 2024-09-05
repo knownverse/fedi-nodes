@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+cat.1.0.0+nightly"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 379,
+        "activeMonth": 142,
+        "activeHalfyear": 214
+      },
+      "localPosts": 276610
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "CatCatNya~",
+      "nodeDescription": "We are CatCatNya~, a left-wing instance founded by cats, for cats (and more!)"
+    }
+  },
+  "error": null
+}

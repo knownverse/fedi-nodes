@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 520,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ネコミミ楽園",
+      "nodeDescription": "これはルイーのミスキーインスタンスです。\n\nThis is Lui's personal instance of Misskey.",
+      "nodeAdmins": [
+        {
+          "name": "Injabie3",
+          "email": "me@injabie3.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "Injabie3",
+        "email": "me@injabie3.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.injabie3.moe/@lui/pages/1690679824839",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ffa200"
+    }
+  },
+  "error": null
+}

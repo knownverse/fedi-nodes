@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Techsetechtak ",
+      "nodeDescription": "Smartphones, mobile, watches, laptops etc.",
+      "nodeIcon": "https://techsetechtak.wordpress.com/wp-content/uploads/2024/03/whatsapp-image-2024-03-22-at-14.18.41_9cfdb623.jpg"
+    }
+  },
+  "error": null
+}

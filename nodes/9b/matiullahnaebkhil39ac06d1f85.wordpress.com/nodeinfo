@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 15,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Matiullah Naebkhil Journalism Students",
+      "nodeDescription": "The Students&#039; Practical works and Certifications",
+      "nodeIcon": "https://matiullahnaebkhil39ac06d1f85.wordpress.com/wp-content/uploads/2024/03/cropped-cropped-72b43553-cf7d-4d78-a73b-1ed73d5687e1.png"
+    }
+  },
+  "error": null
+}

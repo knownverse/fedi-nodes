@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 1153,
+      "localComments": 920
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "@thomasknoll",
+      "nodeDescription": "",
+      "nodeIcon": "https://thomasknoll.info/wp-content/uploads/2020/03/cropped-2BB56456-1B0F-4AF3-A06B-C188AE69DF4A-e1667570715621.png"
+    }
+  },
+  "error": null
+}

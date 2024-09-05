@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 158,
+      "localComments": 71
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Over Coffee Conversations",
+      "nodeDescription": "Let&#039;s relax and talk about life, love, books, society, spirituality, travel, events and what have you?...",
+      "nodeIcon": "https://gmarcianoblogs.wordpress.com/wp-content/uploads/2021/01/cropped-over-coffee-conversations-1.png"
+    }
+  },
+  "error": null
+}

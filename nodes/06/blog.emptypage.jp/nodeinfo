@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 692,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "emptypage.jp blog",
+      "nodeDescription": "Masaaki Shibata blog",
+      "nodeIcon": "https://i0.wp.com/blog.emptypage.jp/wp-content/uploads/2024/08/icon-large.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

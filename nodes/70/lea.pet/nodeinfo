@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/TransFem-org/Sharkey/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 148,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 147947,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "140 cats in a trenchcoat",
+      "nodeDescription": "<center>\nPersonal Sharkey instance for me and my friends <3 <small>(ignore the instance name it just changes a lot)</small>\n<br>\n<br>\n<img width=366 height=47 src=\"https://api.s3.lea.pet/lea.pet///6af32f73-8f5c-444c-910a-f67b04d64eb0.gif\" alt=\"Lea's Dungeon's Minecraft server banner advertising Shitton of emojis, worlds bestest admins, rizzlers and gyatts and cats and dragons.\" />\n<br>\n<br>\n<a style=\"display:block;min-width:100px;max-width:92%;width:100%;background:linear-gradient(90deg,var(--X8),var(--X8));border-radius:var(--radius);padding:10px 14px;text-align:center;margin-bottom:.75em;color:var(--fgOnAccent);\" href=\"https://lea.pet/@sneexy/pages/information\">Instance Information</a>\n<a style=\"display:block;min-width:100px;max-width:92%;width:100%;background:var(--buttonBg);border-radius:var(--radius);padding:10px 14px;text-align:center;\" href=\"https://lea.pet/@sneexy/pages/blocked\">Blocked Instances</a>\n</center>",
+      "nodeAdmins": [
+        {
+          "name": "Lea",
+          "email": "meow@lea.pet"
+        }
+      ],
+      "maintainer": {
+        "name": "Lea",
+        "email": "meow@lea.pet"
+      },
+      "langs": [],
+      "tosUrl": "https://lea.pet/@lea/pages/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://me.lea.pet",
+      "impressumUrl": null,
+      "donationUrl": "https://me.lea.pet/donate",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 2147483647,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#ffb8b3"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 353,
+      "localComments": 1426
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mapa das Letras",
+      "nodeDescription": "Literatura descomplicada",
+      "nodeIcon": "https://mapadasletras.com.br/wp-content/uploads/2024/01/mapa-das-letras-_-logo2.webp"
+    }
+  },
+  "error": null
+}

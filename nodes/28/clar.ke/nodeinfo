@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1074
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Greg Clarke",
+      "nodeDescription": "A Mastodon instance for any & all Clarkes."
+    }
+  },
+  "error": null
+}

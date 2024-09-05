@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1057,
+      "localComments": 32
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "اکرام اللہ خان یوسفزئی ",
+      "nodeDescription": "Studying history and other topics we will create the best kind of content, most of which will be related to history such as roman history, ottoman history and other important history. ",
+      "nodeIcon": "https://bk1.home.blog/wp-content/uploads/2024/02/wp-1708795728243.jpg"
+    }
+  },
+  "error": null
+}

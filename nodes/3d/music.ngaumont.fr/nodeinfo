@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.ngaumont.fr/federation/actors/service",
+      "private": true,
+      "shortDescription": "",
+      "longDescription": "",
+      "contactEmail": "noe@ngaumont.fr",
+      "nodeName": "",
+      "banner": null,
+      "defaultUploadQuota": 20000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": true,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 92
+          }
+        },
+        "listenings": {
+          "total": 7636
+        },
+        "downloads": {
+          "total": 11239
+        }
+      },
+      "library": {
+        "federationEnabled": false,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 2629
+        },
+        "artists": {
+          "total": 459
+        },
+        "albums": {
+          "total": 264
+        },
+        "music": {
+          "hours": 183.65972222222223
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": null,
+        "libraries": null
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

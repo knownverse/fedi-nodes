@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 641,
+      "localComments": 8355
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Na Na pinches her pennies",
+      "nodeDescription": "Shh... don&#039;t tell anyone I&#039;m poor.  They all think I&#039;m living frugal and green just like everyone these days.  This is a blog about a senior citizen living a frugal life, on a fixed income, in a low income food desert, and passing along knowledge from lessons learned.  Some she learned from her Grandma Mama many years ago and some learned only a few days ago.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

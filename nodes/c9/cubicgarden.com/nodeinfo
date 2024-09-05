@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 4692,
+      "localComments": 4001
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cubicgarden.com...",
+      "nodeDescription": "Thoughts and ideas of a dyslexic designer/developer",
+      "nodeIcon": "https://i0.wp.com/cubicgarden.com/wp-content/uploads/2020/02/wp-1580864561041.jpg?fit=1509%2C1509&ssl=1"
+    }
+  },
+  "error": null
+}

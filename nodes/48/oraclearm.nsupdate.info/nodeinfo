@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.1.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 5,
+        "activeMonth": 3
+      },
+      "localPosts": 77
+    },
+    "metadata": {
+      "nodeName": "Narnia",
+      "nodeDescription": "Pruebas Mitra",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://oraclearm.nsupdate.info/users/juanro49"
+      ]
+    }
+  },
+  "error": null
+}

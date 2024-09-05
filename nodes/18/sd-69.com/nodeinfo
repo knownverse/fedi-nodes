@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-kakurega.1.39.1",
+      "homepage": "https://github.com/hideki0403/misskey.yukineko.me",
+      "repository": "https://github.com/hideki0403/misskey.yukineko.me"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4368,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "SELF DOWN-69%",
+      "nodeDescription": "ジャンル名：Free to operate at will<br><br>\n自分で転んで69ダメージを受けたでござる<br>\n一人用なので新規登録は受け付けてません<br><br>\n<b>Powered by <a href=\"https://github.com/hideki0403/kakurega.app/blob/dev-kakurega/docs/difference.md\" target=\"_blank\"><font color=\"#660000\">隠れ家</font> 様</a></b>",
+      "nodeAdmins": [
+        {
+          "name": "admin(@admin_info)",
+          "email": "https://runaway-melancholy.com/contact/"
+        }
+      ],
+      "maintainer": {
+        "name": "admin(@admin_info)",
+        "email": "https://runaway-melancholy.com/contact/"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://runaway-melancholy.com/contact/",
+      "impressumUrl": "https://www.runaway-melancholy.com/who-is-this-person/",
+      "repositoryUrl": "https://github.com/hideki0403/misskey.yukineko.me",
+      "feedbackUrl": "https://github.com/hideki0403/misskey.yukineko.me/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00e1ff"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.7"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 520,
+        "activeMonth": 100,
+        "activeHalfyear": 400
+      },
+      "localPosts": 2915
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "MakeGayFriends",
+      "nodeDescription": "An online LGBTQ community. A safe space to network and share. Support lesbian, gay, bisexual, transgender and questioning spaces by joining our community. LGTBQ events, news, entertainment and people."
+    }
+  },
+  "error": null
+}

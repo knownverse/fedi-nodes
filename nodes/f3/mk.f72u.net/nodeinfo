@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-frsky",
+      "homepage": "https://github.com/frfs/misskey",
+      "repository": "https://github.com/frfs/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 41,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 199963,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ふるすきー",
+      "nodeDescription": "#frfr のタグが勝手につくよ<br>\nローカルTLとソーシャルTLに #frfr タグがついた投稿が入るよ<br>\n<br>\nあれやこれやを避けるために招待制にしてます<br>",
+      "nodeAdmins": [
+        {
+          "name": "ふるふる",
+          "email": "dummy@hoge"
+        }
+      ],
+      "maintainer": {
+        "name": "ふるふる",
+        "email": "dummy@hoge"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/frfs/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffe877"
+    }
+  },
+  "error": null
+}

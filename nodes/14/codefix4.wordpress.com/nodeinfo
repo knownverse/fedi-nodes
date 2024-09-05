@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 30,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ctreet Gh online ",
+      "nodeDescription": "Entertainment has a new definition and that is what we give you plus the catchy happenings.",
+      "nodeIcon": "https://codefix4.wordpress.com/wp-content/uploads/2023/07/cropped-img_8467.jpg"
+    }
+  },
+  "error": null
+}

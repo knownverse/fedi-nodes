@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Douglas Writes...",
+      "nodeDescription": "The latest in Doug-generated content.",
+      "nodeIcon": "https://douglas-writes.com/wp-content/uploads/2024/03/cropped-cfe44980-dda2-4f8b-b83f-198bb5909947-1.jpeg"
+    }
+  },
+  "error": null
+}

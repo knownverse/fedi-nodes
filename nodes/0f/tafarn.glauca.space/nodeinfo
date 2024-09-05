@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Tafarn",
+      "version": "0.1.0",
+      "repository": "https://github.com/TheEnbyperor/tafarn"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": null,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": null,
+      "localComments": null
+    },
+    "metadata": {}
+  },
+  "error": null
+}

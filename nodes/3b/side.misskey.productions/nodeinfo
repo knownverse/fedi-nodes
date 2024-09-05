@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/monsier-oui/misskey",
+      "repository": "https://github.com/monsier-oui/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2641,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4229375,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "sideMisskey（さいどみすきー）",
+      "nodeDescription": "<strong><font color=\"red\">\n<br>新規登録用の招待コードの配布は現在停止中です。\n<br>以前に受け取っているコードを使用しての登録は可能です。\n<br>どうぞよろしくお願いいたします。</font></strong>\n\n<br>\n<br>sideMisskey(さいどみすきー)は\n<br>「アイドルマスターSideM」が「すきー」な方が\n<br>わいわいできるMisskeyです\n<br>※「アイドルマスターSideM」公式とは\n<br>一切関係ありません\n<br>\n<br>登録される方は\n<br><strong><font color=\"red\"><a href=\"https://peat-trowel-2f3.notion.site/135d1732a63d46e58ae001dd670c9fa5?v=5970ec68843349c5a9c1721d279cb815\">利用規約・プライバシーポリシー・閲覧注意の投稿ルール</a></font></strong>\n<br>を必ずご確認ください\n<br>\n<br>登録した時点で、利用規約・プライバシーポリシー・閲覧注意の投稿ルールを確認・了承したものとみなします\n",
+      "nodeAdmins": [
+        {
+          "name": "さいどみすきー運営チーム",
+          "email": "sidemisskey315★gmail.com←★を@マークに変えてください"
+        }
+      ],
+      "maintainer": {
+        "name": "さいどみすきー運営チーム",
+        "email": "sidemisskey315★gmail.com←★を@マークに変えてください"
+      },
+      "langs": [],
+      "tosUrl": "https://www.notion.so/135d1732a63d46e58ae001dd670c9fa5?v=5970ec68843349c5a9c1721d279cb815",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/monsier-oui/misskey",
+      "feedbackUrl": "https://github.com/monsier-oui/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#45ccb3"
+    }
+  },
+  "error": null
+}

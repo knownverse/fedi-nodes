@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-2d8aaa1",
+      "homepage": "https://github.com/ProjectMyosotis/misskey",
+      "repository": "https://github.com/ProjectMyosotis/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 65346,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ひゆきねっと(misskey edition)",
+      "nodeDescription": "ひなこわいね\n",
+      "nodeAdmins": [
+        {
+          "name": "hiyuki",
+          "email": "myosotis@hiyuki2578.net"
+        }
+      ],
+      "maintainer": {
+        "name": "hiyuki",
+        "email": "myosotis@hiyuki2578.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/ProjectMyosotis/misskey",
+      "feedbackUrl": "https://github.com/ProjectMyosotis/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "test",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

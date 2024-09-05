@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 46,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8863,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "网上邻居 Sciencp",
+      "nodeDescription": "<p><strong>本实例为同人社团「虫洞神经网」的自有实例</strong>，以ACGN&影视等领域的同人活动为主</p>\n<p>出于社团历史上的一些神秘传统，同时欢迎包括数学、物理学、中文、历史甚至印刷包装业在内的各行各业学术及八卦内容</p>\n<p>◆本实例暂不开放对外注册◆</p>\n<p>加入本实例请严格遵守实例规则，任何问题请直接联系站长阿左或政委</p>",
+      "nodeAdmins": [
+        {
+          "name": "sciencp",
+          "email": "admin@sciencp.work"
+        }
+      ],
+      "maintainer": {
+        "name": "sciencp",
+        "email": "admin@sciencp.work"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ffbfd3"
+    }
+  },
+  "error": null
+}

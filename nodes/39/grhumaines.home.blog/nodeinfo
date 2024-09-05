@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 758,
+      "localComments": 221
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "تسيير الموارد البشرية GRH",
+      "nodeDescription": "موقع متخصص لنشر كل ماله علاقة بالإدارة من بحوث ومذكرات تخرج",
+      "nodeIcon": "https://grhumaines.home.blog/wp-content/uploads/2024/01/cropped-icons8-etoile-94.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 48,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "New Parent Again",
+      "nodeDescription": "Balancing Life For New and Growing Families",
+      "nodeIcon": "https://i0.wp.com/newparentagain.com/wp-content/uploads/2024/02/cropped-New-Parent-Again-Logo-Shadow.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

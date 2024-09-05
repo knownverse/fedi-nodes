@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "estampie-2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 647,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "estampie",
+      "nodeDescription": "のくのおひとりさま個人用Misskeyサーバーです。<br>\nHP: <a href=\"https://estampie.work/\">https://estampie.work/</a><br>\n<br>\n他のサーバーからは<br>\n@noc@m.estampie.work<br>\nをフォローして下さい。<br>",
+      "nodeAdmins": [
+        {
+          "name": "のく",
+          "email": "noc@absoluteego.sakura.ne.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "のく",
+        "email": "noc@absoluteego.sakura.ne.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://estampie.work/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#3a3f64"
+    }
+  },
+  "error": null
+}

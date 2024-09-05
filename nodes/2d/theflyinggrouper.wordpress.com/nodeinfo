@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "the Grouper Flight Sim",
+      "nodeDescription": "Various Flight Sim Careers",
+      "nodeIcon": "https://theflyinggrouper.wordpress.com/wp-content/uploads/2019/03/cropped-2019-3-17_17-35-44-754.jpg"
+    }
+  },
+  "error": null
+}

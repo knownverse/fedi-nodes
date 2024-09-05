@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GéoRésilience",
+      "nodeDescription": "GéoRésilience est une société de conseil, spécialisée dans la résilience des territoires par l&#039;implication citoyenne et le travail conjoint de tous les acteurs (élus, associations, sécurité civile, entreprises...).",
+      "nodeIcon": "https://georesilience.wordpress.com/wp-content/uploads/2023/09/cropped-phoenix-georesilience.png"
+    }
+  },
+  "error": null
+}

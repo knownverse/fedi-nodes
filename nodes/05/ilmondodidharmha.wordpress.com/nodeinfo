@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Il mondo di Dharmha",
+      "nodeDescription": "Libri, fumetti, arte, esperienze, riflessioni, tutto ciò che ti porta verso l&#039;eterno",
+      "nodeIcon": "https://ilmondodidharmha.wordpress.com/wp-content/uploads/2023/07/cropped-137677916-1.png"
+    }
+  },
+  "error": null
+}

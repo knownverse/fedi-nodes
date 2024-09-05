@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-24+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 215,
+        "activeMonth": 40,
+        "activeHalfyear": 66
+      },
+      "localPosts": 19386
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "UA Fediland",
+      "nodeDescription": "Вітаємо в українськомовному федеративному інстансі \"UA Fediland\"!"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "NodeBB",
+      "version": "4.0.0-alpha"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 4,
+        "activeHalfyear": 5
+      },
+      "localPosts": 49
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "The Nexus of Discussions",
+      "nodeDescription": "Discussions about technology, justice, privacy, social networks, and more"
+    }
+  },
+  "error": null
+}

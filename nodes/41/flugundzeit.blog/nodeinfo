@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 910,
+      "localComments": 1853
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FlugundZeit",
+      "nodeDescription": "Das Luft- und Raumfahrt-Magazin",
+      "nodeIcon": "https://i0.wp.com/flugundzeit.blog/wp-content/uploads/2024/03/captain-ohne.png?fit=357%2C357&ssl=1"
+    }
+  },
+  "error": null
+}

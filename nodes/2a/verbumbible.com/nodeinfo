@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1372,
+      "localComments": 1308
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Éditions Verbum Bible",
+      "nodeDescription": "In the service of the WORD of God / Au service de la Parole de Dieu",
+      "nodeIcon": "https://verbumbible.com/wp-content/uploads/2017/04/cropped-capture-d_c3a9cran-2017-04-20-c3a0-11-52-08-am1.png"
+    }
+  },
+  "error": null
+}

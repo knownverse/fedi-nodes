@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 24,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Malik Speaks!",
+      "nodeDescription": "The writings, musings, perspectives and words of political prisoner Malik Muhammad",
+      "nodeIcon": "https://malikspeaks.noblogs.org/files/2023/02/fire_1f525.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 54,
+      "localComments": 15
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "   ",
+      "nodeDescription": "",
+      "nodeIcon": "https://darkheinoam.com/wp-content/uploads/2024/02/cropped-cropped-cropped-cropped-imagen-de-whatsapp-2024-02-12-a-las-18.49.03_20173fe6-3793858014-e1707793088876.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 396,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Radio Muretas Sertanejas",
+      "nodeDescription": "Tocando Sertanejo",
+      "nodeIcon": "https://msertanejas.wordpress.com/wp-content/uploads/2024/04/cropped-marca-s-agua-muretas-23-1.png"
+    }
+  },
+  "error": null
+}

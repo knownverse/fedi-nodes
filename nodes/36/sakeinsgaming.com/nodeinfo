@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2621,
+      "localComments": 538
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sakein&#039;s Gaming",
+      "nodeDescription": "At Sakein’s Gaming, every click is an adventure in the gaming world. Whether you’re a casual or hardcore gamer, we’re your go-to for the latest news, tips, and trends.",
+      "nodeIcon": "https://sakeinsgaming.com/wp-content/uploads/2024/06/small-logo2.jpg"
+    }
+  },
+  "error": null
+}

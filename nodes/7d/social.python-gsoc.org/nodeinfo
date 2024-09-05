@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 40,
+        "activeMonth": 25,
+        "activeHalfyear": 40
+      },
+      "localPosts": 247
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Python GSoC Social",
+      "nodeDescription": "Server for Python GSoC contributors, mentors, and projects to collaborate and provide feedback on their work"
+    }
+  },
+  "error": null
+}

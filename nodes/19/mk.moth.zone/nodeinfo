@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2801,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "the moth zone",
+      "nodeDescription": "the moth zone (misskey edition)",
+      "nodeAdmins": [
+        {
+          "name": "Chesapeake",
+          "email": "hello@moth.monster"
+        }
+      ],
+      "maintainer": {
+        "name": "Chesapeake",
+        "email": "hello@moth.monster"
+      },
+      "langs": [],
+      "tosUrl": "https://moth.zone/about",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://moth.monster",
+      "impressumUrl": "",
+      "donationUrl": "https://liberapay.com/mothdotmonster/",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 6969,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

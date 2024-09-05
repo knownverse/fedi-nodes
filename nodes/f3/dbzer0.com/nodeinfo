@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 1222,
+      "localComments": 8095
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Division by Zer0",
+      "nodeDescription": "A bug in the code of the universe",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

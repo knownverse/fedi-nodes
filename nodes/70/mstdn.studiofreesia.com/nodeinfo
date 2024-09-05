@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 3013
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon",
+      "nodeDescription": "個人が運営しているサーバーですけど、誰でもアカウント作って良いですよ。"
+    }
+  },
+  "error": null
+}

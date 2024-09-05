@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 5711,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Chatsubo on CBRPNK.dev",
+      "nodeDescription": "Neon Suns Fediverse Server. Registrations closed",
+      "nodeAdmins": [
+        {
+          "name": "@johnny@chatsubo.cbrpnk.dev",
+          "email": "meatybloodyboy@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "@johnny@chatsubo.cbrpnk.dev",
+        "email": "meatybloodyboy@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://google.com",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#c22490"
+    }
+  },
+  "error": null
+}

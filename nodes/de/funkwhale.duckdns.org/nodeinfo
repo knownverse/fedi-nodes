@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.7"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": 5,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://funkwhale.duckdns.org/federation/actors/service",
+      "private": false,
+      "shortDescription": "",
+      "longDescription": "Soultuna (pronounced Soul Tuner) was an experimental deployement of Funkwhale on Raspberry Pi, served through Apache. After pastas burnt the poor raspberry, it is now hosted online on docker through Nginx.\r\n\r\nAwesome people (pay a visit to [Agate](https://agate.blue/)) for an awesome Funkwhale. Truly awesome because it goes even farther than just cloning yet another streaming service. With its bridges to the wild Fediverse, Funkwhale aims at giving rise to a spaghetti-like and swarming network, a nightmare for censorship and one-track thinking. A jungle with just enough understanding to communicate with one another.\r\n\r\nSoultuna is a lil hut in this jungle, where you may encounter uncommon funky cods, acid eels and soothing soles, with a particular interest in those fishes whose groovy beat may unstick your brain from your skull.\r\n\r\nYou can keep listening to Tuna beats on your phone : this instance is a Subsonic server as well. Grab this [app](https://f-droid.org/packages/github.daneren2005.dsub/), generate a Subsonic password in your Soultuna profile settings, don't forget to check `Browse by tags` in DSub, and you are ready to go !",
+      "rules": "",
+      "contactEmail": "",
+      "terms": "",
+      "nodeName": "Soultuna",
+      "banner": null,
+      "defaultUploadQuota": 5000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": false,
+        "tracks": {
+          "total": 15446
+        },
+        "artists": {
+          "total": 700
+        },
+        "albums": {
+          "total": 1380
+        },
+        "music": {
+          "hours": 1486.005
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "This server is managed by real people, you can help here : **[liberapay.com/Ren/](https://fr.liberapay.com/Ren/)**",
+      "endpoints": {
+        "knownNodes": null,
+        "channels": null,
+        "libraries": null
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 736
+          }
+        },
+        "listenings": {
+          "total": 27413
+        },
+        "downloads": {
+          "total": 20256
+        }
+      }
+    }
+  },
+  "error": null
+}

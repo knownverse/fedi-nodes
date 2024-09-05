@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10915,
+      "localComments": 6038
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dandanjean",
+      "nodeDescription": "Voies (x) de passage",
+      "nodeIcon": "https://dandanjean.com/wp-content/uploads/2024/04/cropped-14347e44-67d0-4ba1-918e-709caf9fe1e6.jpg"
+    }
+  },
+  "error": null
+}

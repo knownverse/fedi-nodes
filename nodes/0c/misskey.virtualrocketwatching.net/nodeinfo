@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 38681,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ロケット打ち上げを観る集会",
+      "nodeDescription": "VRChatでロケットの打ち上げ生中継・アーカイブ動画を同時視聴する、パブリックビューイングイベントを行っています。実物大の3Dモデルや教材を用いて、最新の宇宙開発事情をお届けします。\n\nホームページ→ https://virtualrocketwatching.net/",
+      "nodeAdmins": [
+        {
+          "name": "medaka",
+          "email": "virtuallaunchlive@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "medaka",
+        "email": "virtuallaunchlive@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.virtualrocketwatching.net/@medaka0228/pages/1691490367459",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "guppy0228",
+      "themeColor": "#004f8a"
+    }
+  },
+  "error": null
+}

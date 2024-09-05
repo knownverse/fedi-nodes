@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 306,
+      "localComments": 126
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The G1ZQN (M0TZO) Blog",
+      "nodeDescription": "Endeavouring to learn CW",
+      "nodeIcon": "https://i0.wp.com/www.m0tzo.co.uk/wp-content/uploads/2024/05/cropped-M0TZO-2023-Logo-Square.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

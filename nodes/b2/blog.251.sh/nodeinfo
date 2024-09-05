@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "251's Blog",
+      "nodeDescription": "您要的页面找不到了，但我们不能停止斗争。",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 1,
+      "publicReader": false,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 148
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

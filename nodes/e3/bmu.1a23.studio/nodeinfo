@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "bird.meetup",
+      "version": "1.0.0"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 0
+      }
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "email": "birdmarkup@apps.1a23.com",
+      "nodeName": "Twitter (E)",
+      "themeColor": "#1DA1F2"
+    }
+  },
+  "error": null
+}

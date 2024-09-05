@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.14.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "めもりすきー",
+      "nodeDescription": "今日は何しましたか？<br>\nどこかへでかけましたか？<br>\n美味しいごはんを食べたりしましたか？<br>\n<br>\n何もない日常が<br>\nあなたの思い出の一つとなれますように・・・<br>\n<br>\nこのサーバーはみんなの何気ないメモリ（記憶）を<br>\nゆっくりとみんなのペースで<br>\n書きつづるコミュニティです。",
+      "maintainer": {
+        "name": "秋乃光羽",
+        "email": "master@memoriski.cc"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

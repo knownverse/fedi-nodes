@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 28,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1636,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぬくもりげいすきー",
+      "nodeDescription": "主にゲイの方が登録されることを想定したMisskeyサーバーです。\n\nキラキラよりぬくもりを大切にしたい...!\n\n＜misskeyが不慣れな方へ＞\nここでの投稿は（ざっくりいうと）基本的にネット上に公開されます、気になる方はプロフィール画像を無難なものにするなど対策をお願いします！",
+      "nodeAdmins": [
+        {
+          "name": "hiro",
+          "email": "hirorocky@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "hiro",
+        "email": "hirorocky@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://tin-raven-99b.notion.site/mi-nukumori-gay-space-508c3587c7514029968bf705707e0853",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#e3582d"
+    }
+  },
+  "error": null
+}

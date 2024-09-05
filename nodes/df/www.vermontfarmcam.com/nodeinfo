@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 832,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Vermont FarmCam",
+      "nodeDescription": "Daily Time-lapse Videos from the Green Mountain State",
+      "nodeIcon": "https://www.vermontfarmcam.com/wp-content/uploads/2020/07/cropped-vtfc-logo-3.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "9.3.7"
+    },
+    "protocols": [
+      "zot",
+      "diaspora"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 4,
+        "activeMonth": 4
+      },
+      "localPosts": 39,
+      "localComments": 100
+    },
+    "metadata": {
+      "nodeName": "Hubzilla"
+    }
+  },
+  "error": null
+}

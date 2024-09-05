@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 73,
+      "localComments": 82
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "R. Michael Rickey",
+      "nodeDescription": "A guy with a camera, a radio, and a computer",
+      "nodeIcon": "https://i0.wp.com/mrickey.com/wp-content/uploads/2020/09/cropped-cade6-rmrlogo.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

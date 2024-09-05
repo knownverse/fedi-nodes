@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "何言夜萧萧",
+      "nodeDescription": "何言夜萧萧，或许你觉得前进觉醒的道路太孤独？来这个博客吧！至少有我陪在你们身边哦",
+      "nodeIcon": "https://vibrant-ahluoruizhe666.wordpress.com/wp-content/uploads/2024/01/site-logo.png"
+    }
+  },
+  "error": null
+}

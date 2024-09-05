@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 77855,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "もぐもぐきーねっと",
+      "nodeDescription": "<br/>\nモーグリのフレンドが集う場所です。<br/>\nモーグリのおともだちの証（招待コード）が必要になります。<br/>\n<br/>\n<small>\n一部のカスタム絵文字には以下の内容が含まれています。<br/>\n<a link=\"https://jp.finalfantasyxiv.com/lodestone/special/fankit/\">ファイナルファンタジーXIVファンキット</a>\n</small>\n© SQUARE ENIX",
+      "maintainer": {
+        "name": "まま・もぐ",
+        "email": "akoru.mine@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#f6a98d"
+    }
+  },
+  "error": null
+}

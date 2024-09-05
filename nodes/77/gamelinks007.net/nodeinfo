@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+448104f2f8456546b5e38bd03662b33f21b45907"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 166,
+        "activeMonth": 23,
+        "activeHalfyear": 35
+      },
+      "localPosts": 304635
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Creatodon",
+      "nodeDescription": "基本的には、創作物全般(絵、小説、ゲームなどなど)を話すインスタンスです。\r\n一次、二次の区別なく創作に関する話をできたらと思っています\r\n\r\nお互いの活動内容なども共有できたらいいなと思います。\r\nなお、普通にTwitter 代わりとして利用していただいても構いません\r\n"
+    }
+  },
+  "error": null
+}

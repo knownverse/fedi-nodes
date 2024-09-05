@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 47,
+      "localComments": 101
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "d&#039;atri.uy",
+      "nodeDescription": "Buenos Aires 1969 &gt; Montevideo 1987 &gt;",
+      "nodeIcon": "https://datri.uy/wp-content/uploads/2015/03/arbol_rambla11-55116c42v1_site_icon.png"
+    }
+  },
+  "error": null
+}

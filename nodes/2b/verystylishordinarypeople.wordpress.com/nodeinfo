@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 228
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Very Stylish Ordinary  People",
+      "nodeDescription": "... Style Guide 🍒",
+      "nodeIcon": "https://verystylishordinarypeople.wordpress.com/wp-content/uploads/2020/07/cropped-verystylishlogofinalsmall.jpg"
+    }
+  },
+  "error": null
+}

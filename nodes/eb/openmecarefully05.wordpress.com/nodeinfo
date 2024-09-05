@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 227,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Open me Carefully",
+      "nodeDescription": "",
+      "nodeIcon": "https://openmecarefully05.wordpress.com/wp-content/uploads/2023/11/cropped-1695233860410-k5a5983-e1699318720181-1.jpg"
+    }
+  },
+  "error": null
+}

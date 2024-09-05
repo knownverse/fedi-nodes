@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Events aus Bonn, Rhein-Sieg und der Region (gerne mit digitalem Bezug). Folge uns im Fediverse unter @bonnjetzt@bonn.jetzt oder bei Telegram https://t.me/bonnjetzt. Jeder darf lokale Events hinzufügen!",
+      "nodeName": "Bonn.jetzt",
+      "nodeTimezone": "Europe/Berlin",
+      "nodeActor": "bonnjetzt"
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "gancio",
+      "version": "1.19.0"
+    },
+    "version": "2.0",
+    "usage": {
+      "localComments": 20,
+      "localPosts": 604,
+      "users": {
+        "total": 37
+      }
+    }
+  },
+  "error": null
+}

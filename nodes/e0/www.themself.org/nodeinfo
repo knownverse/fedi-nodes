@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 703,
+      "localComments": 718
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Themself",
+      "nodeDescription": "A Reader and Writer&#039;s personal blog",
+      "nodeIcon": "https://i0.wp.com/www.themself.org/wp-content/uploads/2015/05/author-5556faccv1_site_icon.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

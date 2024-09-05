@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeHalfyear": 6,
+        "activeMonth": 3
+      }
+    },
+    "metadata": {
+      "actorId": "https://fw.ponychord.rocks/federation/actors/service",
+      "private": true,
+      "shortDescription": "",
+      "longDescription": "Hi! This is our stash to hold a lot of music and stream it to our devices. Some of our libraries with relaxed copyright are public, but other must be kept private.",
+      "contactEmail": "",
+      "nodeName": "Inex and NaiJi's music stash",
+      "banner": "https://fw.ponychord.rocks/media/dynamic_preferences/instance__banner/ANIME-PICTURES.NET_-_674130-3352x1884-vocaloid-hatsune%2Bmiku-elise%2B(piclic)-single-looking%2Bat%2Bviewer-fringe.jpg",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 2008
+          }
+        },
+        "listenings": {
+          "total": 81511
+        },
+        "downloads": {
+          "total": 70938
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 11685
+        },
+        "artists": {
+          "total": 1752
+        },
+        "albums": {
+          "total": 1124
+        },
+        "music": {
+          "hours": 1828.2519444444445
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": false
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": false
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

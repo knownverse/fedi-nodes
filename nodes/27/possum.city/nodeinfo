@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.6.0-dev",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 167,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 117655,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Possum City",
+      "nodeDescription": "Queer, leftist and anti-fascist instance.",
+      "nodeAdmins": [
+        {
+          "name": "@admin",
+          "email": "contact@possum.city"
+        }
+      ],
+      "maintainer": {
+        "name": "@admin",
+        "email": "contact@possum.city"
+      },
+      "langs": [],
+      "tosUrl": "https://about.possum.city/rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://matrix.to/#/#general:possum.city",
+      "impressumUrl": null,
+      "donationUrl": "https://posm.gay/donate",
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": true,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "instance.actor",
+      "themeColor": "#FF77FF"
+    }
+  },
+  "error": null
+}

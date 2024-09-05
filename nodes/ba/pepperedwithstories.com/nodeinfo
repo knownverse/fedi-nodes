@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 80,
+      "localComments": 1460
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "Stories . Struggles . Inspirations",
+      "nodeIcon": "https://i0.wp.com/pepperedwithstories.com/wp-content/uploads/2018/09/cropped-peppered_with_stories_icon.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.8-dev-9a8b7efcd",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 237,
+        "activeHalfyear": 122,
+        "activeMonth": 73
+      },
+      "localPosts": 54723,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Fedia.Social",
+      "nodeDescription": "A general interest Iceshrimp server run by the fine folks at Infosec.Exchange.  This instance follows the same rules as other infosec.exchange-sponsored instances.",
+      "maintainer": {
+        "name": "Jerry Bell",
+        "email": "jerry@infosec.exchange"
+      },
+      "langs": [],
+      "tosUrl": "https://wiki.infosec.exchange/rules/start",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 11000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

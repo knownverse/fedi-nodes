@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1399,
+      "localComments": 538
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Stories From Tina",
+      "nodeDescription": "Welcome to Stories From Tina- A tapestry of life woven with words. Here, every post is a heartbeat, every story a step on the path of extraordinary journey. Join Tina as she unfolds chapters of her life, sharing raw, honest experiences and the pearls of triumph to the valleys of challenge, Tina&#039;s tales are more than just personal anecdotes; they&#039;re beacons of inspiration and understanding, igniting conversations and community. Whether you&#039;re seeking solace in shared struggles or celebrating the quirks of daily life, Tina&#039;s reflections offer a comforting shoulder, a knowing smile, and a guiding light. Dive into a world where every story matters, and find a friend in Tina - because her story is, in many ways, everyone&#039;s story. Subscribe to Stories From Tina, and transform the ordinary into extraordinary, one post at a time.",
+      "nodeIcon": "https://storiesfromtina.com/wp-content/uploads/2024/01/img_4294.png"
+    }
+  },
+  "error": null
+}

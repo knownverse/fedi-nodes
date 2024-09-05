@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 12567,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Burger Empire",
+      "nodeDescription": "我らの素晴らしい王朝",
+      "nodeAdmins": [
+        {
+          "name": "eliudnir",
+          "email": "eliudnir429$gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "eliudnir",
+        "email": "eliudnir429$gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://readme.bgempire.net/",
+      "privacyPolicyUrl": "https://readme.bgempire.net/",
+      "inquiryUrl": "https://readme.bgempire.net/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#864ffe"
+    }
+  },
+  "error": null
+}

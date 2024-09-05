@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 89,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The 21st Romanticists",
+      "nodeDescription": "delve in the world of archaic literature with a touch of the 21st century- a place with million minds",
+      "nodeIcon": "https://21stromanticists.wordpress.com/wp-content/uploads/2023/11/cropped-cropped-whatsapp_image_2023-12-01_at_01.12.08_435fd688-removebg-preview.png"
+    }
+  },
+  "error": null
+}

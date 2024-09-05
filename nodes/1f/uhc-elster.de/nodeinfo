@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 234,
+      "localComments": 19
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "UHC Elster e.V.",
+      "nodeDescription": "Kämpfen und Siegen",
+      "nodeIcon": "https://uhc-elster.de/wp-content/uploads/2022/06/UHC-Wappen_klein-1.png"
+    }
+  },
+  "error": null
+}

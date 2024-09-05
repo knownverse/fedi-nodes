@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-41kg",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3146,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "4 1 k g",
+      "nodeDescription": "古池や蛙飛び込む水の音",
+      "nodeAdmins": [
+        {
+          "name": "けろ🐸（管）",
+          "email": "お問い合わせフォームをご利用ください"
+        }
+      ],
+      "maintainer": {
+        "name": "けろ🐸（管）",
+        "email": "お問い合わせフォームをご利用ください"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfHYDyNQvqOgLuDbS2U7cdC5VQCcHhKfF1duVxRTN2Tn9AiwQ/viewform?usp=sf_link",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 6000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#00ffc4"
+    }
+  },
+  "error": null
+}

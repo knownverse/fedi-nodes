@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 9,
+        "activeHalfyear": 7
+      },
+      "localPosts": 71,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "アオモル！",
+      "nodeDescription": "青森県周辺の魅力を発信",
+      "nodeIcon": "https://aomoru.jp/wp-content/uploads/2021/02/cropped-2_touhoku1__aomori-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 54,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Darkwolf Files",
+      "nodeDescription": "Everything Occult, Supernatural, and Paranormal",
+      "nodeIcon": "https://darkwolffiles.wordpress.com/wp-content/uploads/2021/04/cropped-darkwolf-files-site-icon.jpg"
+    }
+  },
+  "error": null
+}

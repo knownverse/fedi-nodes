@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-02-17-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 12,
+        "activeMonth": 2,
+        "activeHalfyear": 5
+      },
+      "localPosts": 1900
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Bold City Social",
+      "nodeDescription": "A Mastodon instance hosted in Jacksonville, Florida for people residing in the 'Bold New City of the South', in the North Florida area, and anywhere else!"
+    }
+  },
+  "error": null
+}

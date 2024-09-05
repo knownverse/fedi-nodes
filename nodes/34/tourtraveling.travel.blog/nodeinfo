@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tour &amp; Travel",
+      "nodeDescription": "",
+      "nodeIcon": "https://tourtraveling.travel.blog/wp-content/uploads/2024/03/65a04d75-742a-4faf-87f7-6e82ab6eddde.gif"
+    }
+  },
+  "error": null
+}

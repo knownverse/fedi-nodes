@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 24,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Garden Writing and Other Wanderings",
+      "nodeDescription": "reflective writing on gardens, nature and people",
+      "nodeIcon": "https://gardenwritingpoetry.com/wp-content/uploads/2022/11/cropped-img_4453.jpg"
+    }
+  },
+  "error": null
+}

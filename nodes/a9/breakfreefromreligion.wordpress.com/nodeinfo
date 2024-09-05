@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Break Free From Religion! Deconversion Stories, by Paulo Bittencourt",
+      "nodeDescription": "“I don’t want to believe, I want to know.” (Paulo Roberto de Paula Bitencourt)",
+      "nodeIcon": "https://breakfreefromreligion.wordpress.com/wp-content/uploads/2024/05/paulo-bittencourt.png"
+    }
+  },
+  "error": null
+}

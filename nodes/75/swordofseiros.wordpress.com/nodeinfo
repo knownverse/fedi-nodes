@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 48,
+      "localComments": 30
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sword of Seiros",
+      "nodeDescription": "Commentary about videogames",
+      "nodeIcon": "https://swordofseiros.wordpress.com/wp-content/uploads/2024/01/cropped-internet_20230803_215811_101.jpeg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch+cat+1.0.0+nya-1.2.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 4,
+        "activeHalfyear": 4
+      },
+      "localPosts": 49544
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Vachtnoes",
+      "nodeDescription": "Mastodon is a server for a federated social network: everyone can run a server if they want to, including me. So this is a Mastodon server for me (Vierkantor) and my friends."
+    }
+  },
+  "error": null
+}

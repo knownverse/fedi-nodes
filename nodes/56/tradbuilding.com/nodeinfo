@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 144,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Trad Building",
+      "nodeDescription": "The Internet&#039;s Own Historic, Traditional, and Permanent Building HQ",
+      "nodeIcon": "https://tradbuilding.com/wp-content/uploads/2019/03/cropped-5482_498131660370550_4242048634759327763_n_498131660370550.jpg"
+    }
+  },
+  "error": null
+}

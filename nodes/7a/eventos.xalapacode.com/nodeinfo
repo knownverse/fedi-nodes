@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "La plataforma de eventos federada de nuestra comunidad",
+      "nodeName": "Eventos Xalapacode"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localComments": 2,
+      "localPosts": 8
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

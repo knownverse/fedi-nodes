@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "José Antonio Álvarez Lima",
+      "nodeDescription": "Candidato a Senador de la República 2024",
+      "nodeIcon": "https://candidatoasenadorjaal.blog/wp-content/uploads/2024/03/cropped-img-20240304-wa0040.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9-dev-f14d8a7ea",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeHalfyear": 3,
+        "activeMonth": 3
+      },
+      "localPosts": 3439,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Kwak ?!",
+      "nodeDescription": "Cette instance Iceshrimp a été mise en place pour permettre à <a href=\"https://kwak.cab/@AntoineD\" style=\"color:var(--accent);\">@AntoineD</a> et <a href=\"https://kwak.cab/@goldensuneur\" style=\"color:var(--accent);\">@goldensuneur</a> d’interagir dans le fediverse.\n<br><br>\nElle est mise à jour quotidiennement pour disposer des dernières nouveautées de la branche de développement.\n<br>Quelques tweaks d’interface y sont appliqués.\n<br><br>\nLes inscriptions se font par invitation.<br>\n<a href=\"https://kwak.cab/@AntoineD/pages/charte\" style=\"color:var(--accent);\">Lire la charte</a>",
+      "maintainer": {
+        "name": "@AntoineD@kwak.cab @goldensuneur@kwak.cab",
+        "email": "contact@kher.nl"
+      },
+      "langs": [],
+      "tosUrl": "https://kwak.cab/@AntoineD/pages/charte",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 5000,
+      "maxCaptionTextLength": 5000,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#3b364c"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.9+git.817c8fbc"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 138,
+        "activeHalfyear": 19,
+        "activeMonth": 6
+      }
+    },
+    "metadata": {
+      "actorId": "https://music.bitwig.community/federation/actors/service",
+      "private": false,
+      "shortDescription": "A decentralized and federated host for music made by the Bitwig community",
+      "longDescription": "Bitwig Studio is a modern music production and performance application for Windows, macOS and Linux. This is where the Bitwig community is invited to post their own music that has been created using Bitwig.",
+      "rules": "1. The following types of content will be removed from the public timeline:\r\n    - Excessive advertising\r\n    - Uncurated news bots posting from third-party news sources\r\n    - Untagged nudity, pornography and sexually explicit content, including artistic depictions\r\n    - Untagged gore and extremely graphic violence, including artistic depictions\r\n\r\n2. The following types of content will be removed from the public timeline, and may result in account suspension and revocation of access to the service:\r\n    - Racism or advocation of racism\r\n    - Sexism or advocation of sexism\r\n    - Casteism or advocation of casteism\r\n    - Discrimination against gender and sexual minorities, or advocation thereof\r\n    - Xenophobic and/or violent nationalism\r\n\r\n\r\n3. The following types of content are explicitly disallowed and will result in revocation of access to the service:\r\n    - Sexual depictions of children\r\n    - Content illegal in the United States\r\n    - Content illegal in Germany and/or France, such as holocaust denial or \r\n    - Nazi symbolism\r\n    - Conduct promoting the ideology of National Socialism\r\n\r\n4. Any conduct intended to stalk or harass other users, or to impede other users from utilizing the service, or to degrade the performance of the service, or to harass other users, or to incite other users to perform any of the aforementioned actions, is also disallowed, and subject to punishment up to and including revocation of access to the service. This includes, but is not limited to, the following behaviors:\r\n    - Continuing to engage in conversation with a user that has specifically has requested for said engagement with that user to cease and desist may be considered harassment, regardless of platform-specific privacy tools employed.\r\n    - Aggregating, posting, and/or disseminating a person's demographic, personal, or private data without express permission (informally called doxing or dropping dox) may be considered harassment.\r\n    - Inciting users to engage another user in continued interaction or discussion after a user has requested for said engagement with that user to cease and desist (informally called brigading or dogpiling) may be considered harassment.\r\n\r\n4. This space is for sharing music the community created with Bitwig. It's not for pirating music. Only post music you made with Bitwig that you have the rights to share!\r\n\r\nThese provisions notwithstanding, the administration of the service reserves the right to revoke any user's access permissions, at any time, for any reason, except as limited by law.",
+      "contactEmail": "",
+      "terms": "All rights to uploads are property of the uploader, this is a place for individuals to share their creations. Do not under any circumstances upload content that is not yours. Be aware of legal restrictions that apply to your content which has been licensed or released through an entity including but not limited to a record label, etc. Admins reserve the right take down any content at the request of a rights holder.",
+      "nodeName": "Bitwig Community Music",
+      "banner": "https://s3.us-west-001.backblazeb2.com/musicdotbitwigdotcommunity/dynamic_preferences/instance__banner/funkwhale-header.png",
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 574
+        },
+        "artists": {
+          "total": 30
+        },
+        "albums": {
+          "total": 31
+        },
+        "music": {
+          "hours": 644.3536111111111
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://music.bitwig.community/api/v1/federation/domains",
+        "channels": "https://music.bitwig.community/federation/index/channels",
+        "libraries": "https://music.bitwig.community/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 9
+          }
+        },
+        "listenings": {
+          "total": 62
+        },
+        "downloads": {
+          "total": 2114
+        }
+      }
+    }
+  },
+  "error": null
+}

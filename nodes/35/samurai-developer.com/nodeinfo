@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 14,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Samurai Developer",
+      "nodeDescription": "The Accuracy of Code, the Wisdom of the Samurai: Mastering the Path of Software Development",
+      "nodeIcon": "https://i0.wp.com/samurai-developer.com/wp-content/uploads/2023/05/cropped-katana-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

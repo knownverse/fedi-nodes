@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 134,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jim Hope",
+      "nodeDescription": "",
+      "nodeIcon": "https://jimhope.me/wp-content/uploads/2024/06/cropped-JimHope-Logo-Black-e1718109491818.png"
+    }
+  },
+  "error": null
+}

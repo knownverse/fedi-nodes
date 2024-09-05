@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "SPFeBooks",
+      "nodeDescription": "Digital Reads for Fans of Supernatural, Paranormal, and Fantasy Books. Don&#039;t miss new free and bargain book posts!",
+      "nodeIcon": "https://spfebooks.com/wp-content/uploads/2024/01/copy-of-copy-of-copy-of-witching-logo-1-1.png"
+    }
+  },
+  "error": null
+}

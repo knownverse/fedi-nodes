@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "firefish",
+      "version": "20240421",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "homepage": "https://firefish.dev/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeHalfyear": 6,
+        "activeMonth": 2
+      },
+      "localPosts": 6930,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "XIM Social",
+      "nodeDescription": "A general purpose Firefish instance open to everyone, everywhere.",
+      "maintainer": {
+        "name": "The XIM Team - @gary, @yoni, @alex",
+        "email": "support@regantech.net"
+      },
+      "langs": [],
+      "tosUrl": "https://xim.ca/@xim/pages/tos",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "feedbackUrl": "https://firefish.dev/firefish/firefish/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "xim",
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

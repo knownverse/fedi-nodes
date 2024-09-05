@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-kakurega.1.39.1",
+      "homepage": "https://github.com/hideki0403/kakurega.app",
+      "repository": "https://github.com/hideki0403/kakurega.app"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 6684,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2441644,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "隠れ家",
+      "nodeDescription": "「他人の目を気にせずに思ったことをつぶやける」をコンセプトにした、隠れ家のようなサーバーです。\nGTL・LTLが無効化されているほか、独自機能が実装されています。",
+      "nodeAdmins": [
+        {
+          "name": "ゆきねこ (@yukineko)",
+          "email": "https://kakurega.app/@admin/pages/contact"
+        }
+      ],
+      "maintainer": {
+        "name": "ゆきねこ (@yukineko)",
+        "email": "https://kakurega.app/@admin/pages/contact"
+      },
+      "langs": [],
+      "tosUrl": "https://misskey.yukineko.me/@admin/pages/rule",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://kakurega.app/@admin/pages/contact",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/hideki0403/kakurega.app",
+      "feedbackUrl": "https://github.com/syuilo/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#e1c3a8"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3+-20240228"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 2,
+        "activeHalfyear": 3
+      },
+      "localPosts": 1887
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Sharktale",
+      "nodeDescription": "One of cyber hometowns for shark plushies."
+    }
+  },
+  "error": null
+}

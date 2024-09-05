@@ -1,0 +1,616 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": false,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "media_proxy",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus",
+        "pleroma:group_actors",
+        "pleroma:bookmark_folders"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_emoji": {
+          "federated_timeline_removal_shortcode": [],
+          "federated_timeline_removal_url": [],
+          "remove_shortcode": [
+            "YEEEEEE",
+            "ablobrage",
+            "eyes_fidgeting",
+            "blobcathyper",
+            "ablobcathyper",
+            "ablobcat_test3",
+            "nachoneko_hyper",
+            "supertada",
+            "ablobfoxhyper",
+            "~r/^parrot-/",
+            "parrot_ultra_fast",
+            "padoruhyper",
+            "ablobcatnodveryfast"
+          ],
+          "remove_url": []
+        },
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_hellthread": {
+          "delist_threshold": 5,
+          "reject_threshold": 10
+        },
+        "mrf_keyword": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "replace": []
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "HellthreadPolicy",
+          "SimplePolicy",
+          "EmojiPolicy",
+          "InlineQuotePolicy",
+          "MentionPolicy",
+          "KeywordPolicy",
+          "DenyBlockPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "iddqd.social",
+            "poa.st",
+            "kiwifarms.*",
+            "spinster.xyz",
+            "gleasonator.com",
+            "pl.tkammer.de",
+            "lgbtfree.zone",
+            "ryona.agency",
+            "*.lolicon.rocks",
+            "octodon.social",
+            "*.banepo.st",
+            "sleepy.cafe",
+            "qoto.org",
+            "geofront.rocks",
+            "mastodon.world",
+            "c.im",
+            "genderheretics.xyz",
+            "nicecrew.digital",
+            "ursal.zone",
+            "1611.social",
+            "djsumdog.com",
+            "mastodon.buzhangjiuzhou.com",
+            "taobox.pub",
+            "asbestos.cafe",
+            "cachapa.xyz",
+            "misskey.io",
+            "detroitriotcity.com",
+            "twitter.com",
+            "*.kianting.info",
+            "cybercriminal.eu",
+            "eveningzoo.club",
+            "neenster.org",
+            "declin.eu",
+            "poster.place",
+            "rayci.st",
+            "threads.net",
+            "threads.instagram.com",
+            "bae.st",
+            "wired.icu",
+            "*.threads.net",
+            "*.mathias777.com"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "reject": {
+            "kiwifarms.*": {
+              "reason": "harassment | 伤害"
+            },
+            "*.threads.net": {
+              "reason": "meta"
+            },
+            "1611.social": {
+              "reason": "transphobia | 恐跨"
+            },
+            "spinster.xyz": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "threads.net": {
+              "reason": "meta"
+            },
+            "*.kianting.info": {
+              "reason": "transphobia | 恐跨"
+            },
+            "nicecrew.digital": {
+              "reason": "racist | 种族歧视"
+            },
+            "rayci.st": {
+              "reason": "discrimination | 歧视 https://kolektiva.social/@Radical_EgoCom/110593800503921953"
+            },
+            "neenster.org": {
+              "reason": "transphobia ideology | 恐跨意识形态"
+            },
+            "twitter.com": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/AV4yKD2MhBqWGhimau"
+            },
+            "mastodon.world": {
+              "reason": "hate crime | 仇恨犯罪"
+            },
+            "wired.icu": {
+              "reason": "harassment | 伤害"
+            },
+            "*.lolicon.rocks": {
+              "reason": "discrimination | 歧视"
+            },
+            "taobox.pub": {
+              "reason": "trans-excluding matter | 排除跨性别的东西"
+            },
+            "ryona.agency": {
+              "reason": "discrimination | 歧视"
+            },
+            "octodon.social": {
+              "reason": "harassment | 伤害"
+            },
+            "detroitriotcity.com": {
+              "reason": "reveals reporters to the reported users | 把举报人展示给被举报的人"
+            },
+            "gleasonator.com": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "c.im": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/ARAXMlxtG4Y4LOKGdE"
+            },
+            "eveningzoo.club": {
+              "reason": "discrimination | 歧视"
+            },
+            "misskey.io": {
+              "reason": "discrimination | 歧视 https://calckey.jp/notes/9dye7zpmpr https://misskey.io/notes/9dxxezgmw5 https://misskey.io/notes/9dxw9c8sq3"
+            },
+            "sleepy.cafe": {
+              "reason": "harassment | 伤害"
+            },
+            "threads.instagram.com": {
+              "reason": "meta"
+            },
+            "*.banepo.st": {
+              "reason": "discrimination | 歧视"
+            },
+            "*.mathias777.com": {
+              "reason": "spam | 垃圾信息"
+            },
+            "cybercriminal.eu": {
+              "reason": "bots revealing blocks | 揭示屏蔽的机器人"
+            },
+            "pl.tkammer.de": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "bae.st": {
+              "reason": "discrimination | 歧视"
+            },
+            "lgbtfree.zone": {
+              "reason": "discrimination | 歧视"
+            },
+            "poa.st": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "poster.place": {
+              "reason": "discrimination; bots revealing blocks | 歧视；揭示屏蔽的机器人"
+            },
+            "mastodon.buzhangjiuzhou.com": {
+              "reason": "discrimination | 歧视"
+            },
+            "geofront.rocks": {
+              "reason": "discrimination | 歧视"
+            },
+            "asbestos.cafe": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/AUos3h4I4zUAEO0LpI"
+            },
+            "ursal.zone": {
+              "reason": "https://kazv.moe/notice/AQ9eCX95cZwuez3eF6"
+            },
+            "djsumdog.com": {
+              "reason": "transphobia | 恐跨"
+            },
+            "cachapa.xyz": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/AUos3hxEmhRCyniETI"
+            },
+            "iddqd.social": {
+              "reason": "harassment: mass follow | 伤害：大批量关注"
+            },
+            "declin.eu": {
+              "reason": "mass follows | 大批量关注"
+            },
+            "genderheretics.xyz": {
+              "reason": "discrimination | 歧视"
+            },
+            "qoto.org": {
+              "reason": "harassment | 伤害"
+            }
+          }
+        },
+        "quarantined_instances": [
+          "iddqd.social",
+          "*.mastodonhub.com",
+          "mastodonhub.com",
+          "poa.st",
+          "kiwifarms.*",
+          "spinster.xyz",
+          "gleasonator.com",
+          "*.tkammer.de",
+          "lgbtfree.zone",
+          "ryona.agency",
+          "*.lolicon.rocks",
+          "octodon.social",
+          "*.banepo.st",
+          "sleepy.cafe",
+          "qoto.org",
+          "china.al",
+          "geofront.rocks",
+          "mastodon.world",
+          "c.im",
+          "genderheretics.xyz",
+          "nicecrew.digital",
+          "ursal.zone",
+          "1611.social",
+          "djsumdog.com",
+          "mastodon.buzhangjiuzhou.com",
+          "taobox.pub",
+          "*.dragon-fly.club",
+          "asbestos.cafe",
+          "cachapa.xyz",
+          "misskey.io",
+          "detroitriotcity.com",
+          "twitter.com",
+          "*.kianting.info",
+          "cybercriminal.eu",
+          "eveningzoo.club",
+          "neenster.org",
+          "declin.eu",
+          "poster.place",
+          "rayci.st",
+          "threads.net",
+          "threads.instagram.com",
+          "bae.st",
+          "wired.icu",
+          "*.threads.net",
+          "maven.ly",
+          "heymaven.com",
+          "activitypub.awakari.app"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {
+            "kiwifarms.*": {
+              "reason": "harassment | 伤害"
+            },
+            "*.threads.net": {
+              "reason": "meta"
+            },
+            "1611.social": {
+              "reason": "transphobia | 恐跨"
+            },
+            "*.dragon-fly.club": {
+              "reason": "may be taking user info on other site and actively giving it to the Peking government | 可能拿走别站用户信息并积极交与Peking政府"
+            },
+            "spinster.xyz": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "threads.net": {
+              "reason": "meta"
+            },
+            "*.kianting.info": {
+              "reason": "transphobia | 恐跨"
+            },
+            "nicecrew.digital": {
+              "reason": "racism | 种族歧视"
+            },
+            "rayci.st": {
+              "reason": "discrimination | 歧视 https://kolektiva.social/@Radical_EgoCom/110593800503921953"
+            },
+            "neenster.org": {
+              "reason": "transphobia ideology | 恐跨意识形态"
+            },
+            "twitter.com": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/AV4yKD2MhBqWGhimau"
+            },
+            "mastodon.world": {
+              "reason": "hate crime | 仇恨犯罪"
+            },
+            "wired.icu": {
+              "reason": "harassment | 伤害"
+            },
+            "maven.ly": {
+              "reason": "mirroring/faking accounts on other instances | 镜像/伪造别的实例的账号"
+            },
+            "*.lolicon.rocks": {
+              "reason": "discrimination | 歧视"
+            },
+            "taobox.pub": {
+              "reason": "trans-excluding matter | 排除跨性别的东西"
+            },
+            "ryona.agency": {
+              "reason": "discrimination | 歧视"
+            },
+            "octodon.social": {
+              "reason": "harassment | 伤害"
+            },
+            "detroitriotcity.com": {
+              "reason": "reveals reporters to the reported users | 把举报人展示给被举报的人"
+            },
+            "gleasonator.com": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "c.im": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/ARAXMlxtG4Y4LOKGdE"
+            },
+            "eveningzoo.club": {
+              "reason": "discrimination | 歧视"
+            },
+            "misskey.io": {
+              "reason": "discrimination | 歧视 https://calckey.jp/notes/9dye7zpmpr"
+            },
+            "sleepy.cafe": {
+              "reason": "harassment | 伤害"
+            },
+            "mastodonhub.com": {
+              "reason": "mirroring/faking accounts on other instances | 镜像/伪造别的实例的账号"
+            },
+            "threads.instagram.com": {
+              "reason": "meta"
+            },
+            "*.banepo.st": {
+              "reason": "discrimination | 歧视"
+            },
+            "cybercriminal.eu": {
+              "reason": "bots revealing blocks | 揭示屏蔽的机器人"
+            },
+            "heymaven.com": {
+              "reason": "mirroring/faking accounts on other instances | 镜像/伪造别的实例的账号"
+            },
+            "*.mastodonhub.com": {
+              "reason": "mirroring/faking accounts on other instances | 镜像/伪造别的实例的账号"
+            },
+            "bae.st": {
+              "reason": "discrimination | 歧视"
+            },
+            "lgbtfree.zone": {
+              "reason": "discrimination | 歧视"
+            },
+            "poa.st": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "*.tkammer.de": {
+              "reason": "discrimination: trans-exclusive matters | 歧视：排除跨性别的内容"
+            },
+            "poster.place": {
+              "reason": "discrimination; bots revealing blocks | 歧视；揭示屏蔽的机器人"
+            },
+            "mastodon.buzhangjiuzhou.com": {
+              "reason": "discrimination | 歧视"
+            },
+            "geofront.rocks": {
+              "reason": "discrimination | 歧视"
+            },
+            "asbestos.cafe": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/AUos3h4I4zUAEO0LpI"
+            },
+            "ursal.zone": {
+              "reason": "https://kazv.moe/notice/AQ9eCX95cZwuez3eF6"
+            },
+            "djsumdog.com": {
+              "reason": "transphobia | 恐跨"
+            },
+            "cachapa.xyz": {
+              "reason": "discrimination | 歧视 https://kazv.moe/notice/AUos3hxEmhRCyniETI"
+            },
+            "iddqd.social": {
+              "reason": "harassment: mass follow | 伤害：大批量关注"
+            },
+            "declin.eu": {
+              "reason": "mass follows | 大批量关注"
+            },
+            "genderheretics.xyz": {
+              "reason": "discrimination | 歧视"
+            },
+            "activitypub.awakari.app": {
+              "reason": "https://kazv.moe/notice/AkMkZObbhgiRKAWAnQ"
+            },
+            "china.al": {
+              "reason": "may be taking user info on other site and actively giving it to the Peking government | 可能拿走别站用户信息并积极交与Peking政府"
+            },
+            "qoto.org": {
+              "reason": "harassment | 伤害"
+            }
+          }
+        },
+        "rejected_instances": {}
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": true,
+      "nodeDescription": "Just another cute planet. | 又是一个可爱的星球。",
+      "nodeName": "planet kazv | 飞升星",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 512,
+        "max_options": 256,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": false,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa",
+        "miko",
+        "kuro",
+        "lm",
+        "gl",
+        "wa",
+        "junko",
+        "misaki",
+        "ruiko",
+        "mxc",
+        "planet",
+        "matrix",
+        "m",
+        "kazv",
+        "lists",
+        "followers",
+        "following",
+        "featured",
+        "main-key",
+        "publickey"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports",
+          "users_manage_activation_state",
+          "users_manage_invites",
+          "users_manage_tags",
+          "users_read",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://kazv.moe/users/tusooa",
+        "https://kazv.moe/users/judgement",
+        "https://kazv.moe/users/Murasaki"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 16000000,
+        "background": 16000000,
+        "banner": 16000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.7.0-0-g4aa6850e"
+    },
+    "usage": {
+      "localPosts": 111405,
+      "users": {
+        "activeHalfyear": 171,
+        "activeMonth": 94,
+        "total": 854
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

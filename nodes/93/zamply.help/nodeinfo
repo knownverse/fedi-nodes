@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 245,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sogni e realtà",
+      "nodeDescription": "L’Universo non è obbligato ad avere un senso per te",
+      "nodeIcon": "https://zamply.help/wp-content/uploads/2024/03/cropped-gustasando3-1.jpg"
+    }
+  },
+  "error": null
+}

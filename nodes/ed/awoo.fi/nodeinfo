@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": 2,
+        "activeHalfyear": 3
+      },
+      "localPosts": 13
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon Glitch Edition",
+      "nodeDescription": "This server has gone to the dogs!"
+    }
+  },
+  "error": null
+}

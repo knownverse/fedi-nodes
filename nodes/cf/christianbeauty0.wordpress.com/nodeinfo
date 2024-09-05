@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Beauty In The Hiddenness",
+      "nodeDescription": "Isaiah 45:3: I will give you hidden treasures, riches stored in secret places, so that you may know that I am the LORD, the God of Israel, the One who calls you by your name.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

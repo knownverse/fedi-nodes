@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "Mammuthus (Experimental)",
+      "version": 770
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": "4",
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": "0"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

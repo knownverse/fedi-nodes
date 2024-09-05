@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 9,
+        "activeMonth": "18",
+        "activeHalfyear": "18"
+      },
+      "localPosts": 605,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lions District 4‑C4",
+      "nodeDescription": "SERVING SAN FRANCISCO COUNTY, SAN MATEO COUNTY, AND THE CITY OF PALO ALTO",
+      "nodeIcon": "https://lions4c4.org/wordpress/wp-content/uploads/2020/11/cropped-Logo-Lions-4-C4-Square.png"
+    }
+  },
+  "error": null
+}

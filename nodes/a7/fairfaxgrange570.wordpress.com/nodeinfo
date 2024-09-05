@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 14,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fairfax Grange 570",
+      "nodeDescription": "Bakersfield&#039;s Home for Social Dancing Since 1943",
+      "nodeIcon": "https://fairfaxgrange570.wordpress.com/wp-content/uploads/2023/11/cropped-grange-logo-transparent-tight-crop402x.jpg"
+    }
+  },
+  "error": null
+}

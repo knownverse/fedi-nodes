@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 34,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "BuffaloResearch.com",
+      "nodeDescription": "Research Your Buffalo Ancestors and Buildings",
+      "nodeIcon": "https://i0.wp.com/buffaloresearch.com/wp-content/uploads/2023/01/cropped-bisonwithwhitespace.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

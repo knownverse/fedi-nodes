@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 71,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4887,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "しろかみの里",
+      "nodeDescription": "しろかみの里は主に身内向けのMisskeyインスタンスになります。\nけど登録については特に制限しないものとします。\n→申し訳ないけど急に増えてきてスパムアカウントとか怖いので今後の新規はメルアドは必須にします\n\n特に内容について制限はしませんが日本国憲法は遵守してね。\n\nこのサーバーは運営者の個人的趣味で運営されています、登録時には利用規約と注意事項をよく読んでから登録をお願い致します。\n\nオーナー　ちや（@nyu_at@kagura.ch）",
+      "maintainer": {
+        "name": "ちや",
+        "email": "akiakane.1797@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://note.com/nyu_at/n/nd8cb0e17e99b",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#d1d1d1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 80,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Contre toutes les cages !",
+      "nodeDescription": "Une émission de radio contre les prisons",
+      "nodeIcon": "https://carapatage.noblogs.org/files/2021/05/cropped-logo-carapatage512-e1621281270176-1.jpg"
+    }
+  },
+  "error": null
+}

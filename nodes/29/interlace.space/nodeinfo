@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 7,
+        "activeMonth": 2,
+        "activeHalfyear": 4
+      },
+      "localPosts": 3030
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "interlace.space",
+      "nodeDescription": "Single-person instance."
+    }
+  },
+  "error": null
+}

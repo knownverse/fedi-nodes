@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 5
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mittwochsfrage",
+      "nodeDescription": "Internet-Experiment für offenes Lernen",
+      "nodeIcon": "https://mittwochsfrage.de/wp-content/uploads/2024/03/cropped-favimittwoch-removebg-preview.png"
+    }
+  },
+  "error": null
+}

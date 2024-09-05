@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2706,
+      "localComments": 6188
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "El Último Puente",
+      "nodeDescription": "Donde si no encuentras una novela de fantasía que leer, aprendes a escribirla.",
+      "nodeIcon": "https://elultimopuente2.wordpress.com/wp-content/uploads/2022/10/cropped-logo-del-blog-con-transparencia.png"
+    }
+  },
+  "error": null
+}

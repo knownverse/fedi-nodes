@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sims4Mods",
+      "nodeDescription": "Sims 4 Fixes Best Mods Guides and Tips",
+      "nodeIcon": "https://sims4mod.wordpress.com/wp-content/uploads/2017/08/cropped-tumblr_inline_olivpnffco1t6fuiy_540.jpg"
+    }
+  },
+  "error": null
+}

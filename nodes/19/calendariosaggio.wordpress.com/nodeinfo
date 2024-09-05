@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 444,
+      "localComments": 141
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "IL CALENDARIO SAGGIO",
+      "nodeDescription": "«Ogni giorno per un buongiorno»",
+      "nodeIcon": "https://calendariosaggio.wordpress.com/wp-content/uploads/2018/06/36188963_208544309791267_4022593466658717696_n.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-21+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeMonth": 10,
+        "activeHalfyear": 14
+      },
+      "localPosts": 4740
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Yip",
+      "nodeDescription": "A small fluffy Mastodon home for the LGBTQIA+ furries, therians and otherkin beings. \r\nYip!!!!\r\nWe use relays to gain more interesting posts, especially from furry instances."
+    }
+  },
+  "error": null
+}

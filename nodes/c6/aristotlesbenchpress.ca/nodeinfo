@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 393,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Aristotle&#039;s Bench Press",
+      "nodeDescription": "Straight Talk for the Ideologically Impaired.",
+      "nodeIcon": "https://aristotlesbenchpress.ca/wp-content/uploads/2021/02/cropped-blanchehunt.jpg"
+    }
+  },
+  "error": null
+}

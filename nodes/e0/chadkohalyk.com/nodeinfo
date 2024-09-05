@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 774,
+      "localComments": 95
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "chadkohalyk.com",
+      "nodeDescription": "@chadkoh — Generous with Likes ❤️",
+      "nodeIcon": "https://i0.wp.com/chadkohalyk.com/wp/wp-content/uploads/2014/11/cropped-crown_logo_400_grey2-2.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

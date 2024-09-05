@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "www.otthonomba.wordpress.com",
+      "nodeDescription": "Mit kezdj a szabadidőddel, vagy a sok otthon haszontalanul töltött idő helyett, hogy töltsd napaidat meg élettel vidámsággal. Vagy valami oknál fogva a lakásodba szorultál, hogy kapj ihletet? Hogy ne váljon hátrányodra hanem előnyt kovácsolj belőle.",
+      "nodeIcon": "https://otthonomba.wordpress.com/wp-content/uploads/2024/02/cropped-2-6.jpg"
+    }
+  },
+  "error": null
+}

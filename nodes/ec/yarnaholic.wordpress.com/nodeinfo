@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 121,
+      "localComments": 87
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ms. Yarnaholic&#039;s School for Wayward  Skeins",
+      "nodeDescription": "",
+      "nodeIcon": "https://yarnaholic.wordpress.com/wp-content/uploads/2020/06/cropped-hellbasket.jpg"
+    }
+  },
+  "error": null
+}

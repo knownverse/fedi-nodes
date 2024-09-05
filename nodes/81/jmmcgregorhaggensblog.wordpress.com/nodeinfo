@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "JM McGregor Haggens, Inc. Ship Repair Worldwide Hatch Macgregor &amp; Crane",
+      "nodeDescription": "SHIP REPAIR WORLDWIDE RIDING TEAM",
+      "nodeIcon": "https://jmmcgregorhaggensblog.wordpress.com/wp-content/uploads/2023/04/jm-mcgregor-logo-2020.jpg"
+    }
+  },
+  "error": null
+}

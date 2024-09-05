@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "0",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lanciano Blogs",
+      "nodeDescription": "Tornare a scrivere, raccontare, condividere... per il semplice gusto di farlo.",
+      "nodeIcon": "https://cdn.lancianoblog.it/wp-content/uploads/2023/01/24122149/cropped-xhdpi.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "owncast",
+      "version": "20240404-nightly"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 323
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "chat_enabled": false
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.3"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 4
+      },
+      "localPosts": 918
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Nozbe’s Mastodon Server",
+      "nodeDescription": "Mastodon server by and for people working on Nozbe - the simplest tool that helps busy small business owners manage their personal and business tasks and projects."
+    }
+  },
+  "error": null
+}

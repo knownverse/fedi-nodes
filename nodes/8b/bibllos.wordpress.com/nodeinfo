@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Bibllos",
+      "nodeDescription": " Bibllos é uma iniciativa que busca promover simplificar o estudo da Bíblia através de ferramentas digitais.",
+      "nodeIcon": "https://bibllos.wordpress.com/wp-content/uploads/2024/04/circle27-10-big.png"
+    }
+  },
+  "error": null
+}

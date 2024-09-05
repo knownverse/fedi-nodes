@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "yumeka@yumeka.xyz",
+        "name": "유메카"
+      },
+      "nodeDescription": "달콤하고 맛있는 인스턴스 / 사용된 계산기 아이콘은 Flaticon의 Freepik이 만들었습니다.",
+      "nodeName": "Yumeka Candy",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240601"
+    },
+    "usage": {
+      "localPosts": 147,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 0,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

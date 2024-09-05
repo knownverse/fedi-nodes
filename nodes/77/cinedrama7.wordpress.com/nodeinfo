@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 7,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Cinedrama Entertainment",
+      "nodeDescription": "Unleash the Magic: Your Passport to Infinite Entertainment with Cinedrama Entertainment",
+      "nodeIcon": "https://cinedrama7.wordpress.com/wp-content/uploads/2024/01/whatsapp-image-2023-12-28-at-20.47.44.jpeg"
+    }
+  },
+  "error": null
+}

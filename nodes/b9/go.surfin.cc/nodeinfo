@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://activitypub.software/",
+      "repository": "https://activitypub.software/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "go.surfin.cc",
+      "nodeDescription": "This Sharkey (Misskey fork) instance was set up to \"Surf\" the internet, be a member of the the fediverse,  and provide a place to share with friends, family and others.  The mission is to provide good times ahead.  </br></br>\n\nWe (members of go.surfin.cc) do not approve of attacks on free speech.  We do not approve of SPAM or unsolicited hate or harm.    These issues will get offending users or instances banned per the digression of the administrators.  If you would like to contact the administrator of this instance, please email youradmin@surfin.cc\n</br></br>\nCurrently, this instance is by invitation only.   If you would like to be a member, please contact youradmin@surfin.cc with details about you and why you like go.surfin.cc!  (hint: It's an awesome place!)",
+      "nodeAdmins": [
+        {
+          "name": "@youradmin@go.surfin.cc",
+          "email": "youradmin@surfin.cc"
+        }
+      ],
+      "maintainer": {
+        "name": "@youradmin@go.surfin.cc",
+        "email": "youradmin@surfin.cc"
+      },
+      "langs": [],
+      "tosUrl": "https://go.surfin.cc/@youradmin/pages/TOS",
+      "privacyPolicyUrl": "https://go.surfin.cc/@youradmin/pages/Privacy",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

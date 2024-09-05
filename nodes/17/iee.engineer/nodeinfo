@@ -1,0 +1,685 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "editing",
+        "quote_posting",
+        "blockers_visible",
+        "chat",
+        "shout",
+        "relay",
+        "safe_dm_mentions",
+        "pleroma_emoji_reactions",
+        "pleroma_custom_emoji_reactions",
+        "pleroma_chat_messages",
+        "exposable_reactions",
+        "profile_directory",
+        "pleroma:get:main/ostatus"
+      ],
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_object_age": {
+          "actions": [
+            "delist",
+            "strip_followers"
+          ],
+          "threshold": 604800
+        },
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "StealEmojiPolicy",
+          "HashtagPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "dragon-fly.club",
+            "*.dragon-fly.club",
+            "yrm.xyz",
+            "*.yrm.xyz",
+            "tsuihc.top",
+            "*.tsuihc.top",
+            "solagg.com",
+            "*.solagg.com",
+            "weedis.life",
+            "*.weedis.life",
+            "beebear.party",
+            "*.beebear.party",
+            "gab.com",
+            "*.gab.com",
+            "simcu.com",
+            "*.simcu.com",
+            "bitseatech.com",
+            "*.bitseatech.com",
+            "076.ne.jp",
+            "*.076.ne.jp",
+            "iddqd.social",
+            "*.iddqd.social",
+            "activitypub-troll.cf",
+            "*.activitypub-troll.cf",
+            "repl.co",
+            "*.repl.co",
+            "lkjxblog.tech",
+            "*.lkjxblog.tech",
+            "shakuameji.com",
+            "*.shakuameji.com",
+            "kiwifarms.is",
+            "*.kiwifarms.is",
+            "mastodonhub.com",
+            "*.mastodonhub.com",
+            "thymrios.com",
+            "*.thymrios.com",
+            "jumping.wang",
+            "*.jumping.wang",
+            "chaoswork.cn",
+            "*.chaoswork.cn",
+            "kiwifarms.cc",
+            "*.kiwifarms.cc",
+            "poa.st",
+            "*.poa.st",
+            "gallinula.com",
+            "*.gallinula.com",
+            "hunk.city",
+            "*.hunk.city",
+            "misskey-forkbomb.cf",
+            "*.misskey-forkbomb.cf",
+            "maxng.cc",
+            "*.maxng.cc",
+            "kiwifarms.net",
+            "*.kiwifarms.net",
+            "dashuo.org",
+            "*.dashuo.org",
+            "dalaomai.cn",
+            "*.dalaomai.cn",
+            "nihao.pub",
+            "*.nihao.pub",
+            "hxbus.net",
+            "*.hxbus.net",
+            "trpg.cloud",
+            "*.trpg.cloud",
+            "china.al",
+            "*.china.al",
+            "ergedd.com",
+            "*.ergedd.com",
+            "ignorelist.com",
+            "*.ignorelist.com",
+            "mastinator.com",
+            "*.mastinator.com",
+            "jp0id.fun",
+            "*.jp0id.fun",
+            "manalejandro.com",
+            "*.manalejandro.com",
+            "taobox.pub",
+            "*.taobox.pub",
+            "declin.eu",
+            "*.declin.eu",
+            "poster.place",
+            "*.poster place",
+            "asbestos.cafe",
+            "*.asbestos.cafe",
+            "detroitriotcity.com",
+            "*.detroitriotcity.com",
+            "torlaz.online",
+            "*.torlaz.online",
+            "beefyboys.win",
+            "*.beefyboys.win",
+            "mathias777.com",
+            "*.mathias777.com",
+            "77234399.xyz",
+            "*.77234399.xyz",
+            "yz666.eu.org",
+            "*.yz666.eu.org",
+            "114514.fan",
+            "*.114514.fan"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {},
+        "quarantined_instances": [
+          "tsuihc.top",
+          "*.tsuihc.top",
+          "solagg.com",
+          "*.solagg.com",
+          "dashuo.org",
+          "*.dashuo.org",
+          "thymrios.com",
+          "*.thymrios.com",
+          "kiwifarms.net",
+          "*.kiwifarms.net",
+          "mastodonhub.com",
+          "*.mastodonhub.com",
+          "dalaomai.cn",
+          "*.dalaomai.cn",
+          "dragon-fly.club",
+          "*.dragon-fly.club",
+          "trpg.cloud",
+          "*.trpg.cloud",
+          "hxbus.net",
+          "*.hxbus.net",
+          "chaoswork.cn",
+          "*.chaoswork.cn",
+          "maxng.cc",
+          "*.maxng.cc",
+          "yrm.xyz",
+          "*.yrm.xyz",
+          "kiwifarms.is",
+          "*.kiwifarms.is",
+          "nihao.pub",
+          "*.nihao.pub",
+          "activitypub-troll.cf",
+          "*.activitypub-troll.cf",
+          "china.al",
+          "*.china.al",
+          "kiwifarms.cc",
+          "*.kiwifarms.cc",
+          "gallinula.com",
+          "*.gallinula.com",
+          "gab.com",
+          "*.gab.com",
+          "shakuameji.com",
+          "*.shakuameji.com",
+          "hunk.city",
+          "*.hunk.city",
+          "bitseatech.com",
+          "*.bitseatech.com",
+          "ergedd.com",
+          "*.ergedd.com",
+          "jumping.wang",
+          "*.jumping.wang",
+          "repl.co",
+          "*.repl.co",
+          "misskey-forkbomb.cf",
+          "*.misskey-forkbomb.cf",
+          "poa.st",
+          "*.poa.st",
+          "beebear.party",
+          "*.beebear.party",
+          "iddqd.social",
+          "*.iddqd.social",
+          "076.ne.jp",
+          "*.076.ne.jp",
+          "weedis.life",
+          "*.weedis.life",
+          "lkjxblog.tech",
+          "*.lkjxblog.tech",
+          "simcu.com",
+          "*.simcu.com",
+          "ignorelist.com",
+          "*.ignorelist.com",
+          "mastinator.com",
+          "*.mastinator.com",
+          "jp0id.fun",
+          "*.jp0id.fun",
+          "manalejandro.com",
+          "*.manalejandro.com",
+          "taobox.pub",
+          "*.taobox.pub",
+          "declin.eu",
+          "*.declin.eu",
+          "poster.place",
+          "*.poster.place",
+          "asbestos.cafe",
+          "*.asbestos.cafe",
+          "detroitriotcity.com",
+          "*.detroitriotcity.com",
+          "torlaz.online",
+          "*.torlaz.online",
+          "beefyboys.win",
+          "*.beefyboys.win",
+          "mathias777.com",
+          "*.mathias777.com",
+          "77234399.xyz",
+          "*.77234399.xyz",
+          "yz666.eu.org",
+          "*.yz666.eu.org",
+          "114514.fan",
+          "*.114514.fan"
+        ],
+        "quarantined_instances_info": {
+          "quarantined_instances": {
+            "*.kiwifarms.cc": {
+              "reason": ""
+            },
+            "beebear.party": {
+              "reason": ""
+            },
+            "*.jumping.wang": {
+              "reason": ""
+            },
+            "*.repl.co": {
+              "reason": ""
+            },
+            "mastodonhub.com": {
+              "reason": ""
+            },
+            "thymrios.com": {
+              "reason": ""
+            },
+            "*.solagg.com": {
+              "reason": ""
+            },
+            "*.hunk.city": {
+              "reason": ""
+            },
+            "misskey-forkbomb.cf": {
+              "reason": ""
+            },
+            "*.lkjxblog.tech": {
+              "reason": ""
+            },
+            "*.nihao.pub": {
+              "reason": ""
+            },
+            "*.simcu.com": {
+              "reason": ""
+            },
+            "poa.st": {
+              "reason": ""
+            },
+            "*.maxng.cc": {
+              "reason": ""
+            },
+            "*.hxbus.net": {
+              "reason": ""
+            },
+            "hunk.city": {
+              "reason": ""
+            },
+            "*.kiwifarms.net": {
+              "reason": ""
+            },
+            "*.bitseatech.com": {
+              "reason": ""
+            },
+            "*.tsuihc.top": {
+              "reason": ""
+            },
+            "kiwifarms.net": {
+              "reason": ""
+            },
+            "gallinula.com": {
+              "reason": ""
+            },
+            "simcu.com": {
+              "reason": ""
+            },
+            "maxng.cc": {
+              "reason": ""
+            },
+            "asbestos.cafe": {
+              "reason": ""
+            },
+            "iddqd.social": {
+              "reason": ""
+            },
+            "*.ignorelist.com": {
+              "reason": ""
+            },
+            "*.yz666.eu.org": {
+              "reason": ""
+            },
+            "*.beebear.party": {
+              "reason": ""
+            },
+            "jumping.wang": {
+              "reason": ""
+            },
+            "dalaomai.cn": {
+              "reason": ""
+            },
+            "*.jp0id.fun": {
+              "reason": ""
+            },
+            "*.yrm.xyz": {
+              "reason": ""
+            },
+            "jp0id.fun": {
+              "reason": ""
+            },
+            "*.weedis.life": {
+              "reason": ""
+            },
+            "lkjxblog.tech": {
+              "reason": ""
+            },
+            "*.manalejandro.com": {
+              "reason": ""
+            },
+            "*.77234399.xyz": {
+              "reason": ""
+            },
+            "*.dalaomai.cn": {
+              "reason": ""
+            },
+            "hxbus.net": {
+              "reason": ""
+            },
+            "*.thymrios.com": {
+              "reason": ""
+            },
+            "*.activitypub-troll.cf": {
+              "reason": ""
+            },
+            "*.detroitriotcity.com": {
+              "reason": ""
+            },
+            "manalejandro.com": {
+              "reason": ""
+            },
+            "*.poster.place": {
+              "reason": ""
+            },
+            "*.mastinator.com": {
+              "reason": ""
+            },
+            "dashuo.org": {
+              "reason": ""
+            },
+            "ignorelist.com": {
+              "reason": ""
+            },
+            "beefyboys.win": {
+              "reason": ""
+            },
+            "weedis.life": {
+              "reason": ""
+            },
+            "*.torlaz.online": {
+              "reason": ""
+            },
+            "mathias777.com": {
+              "reason": ""
+            },
+            "*.kiwifarms.is": {
+              "reason": ""
+            },
+            "chaoswork.cn": {
+              "reason": ""
+            },
+            "*.taobox.pub": {
+              "reason": ""
+            },
+            "detroitriotcity.com": {
+              "reason": ""
+            },
+            "*.chaoswork.cn": {
+              "reason": ""
+            },
+            "*.076.ne.jp": {
+              "reason": ""
+            },
+            "yrm.xyz": {
+              "reason": ""
+            },
+            "076.ne.jp": {
+              "reason": ""
+            },
+            "taobox.pub": {
+              "reason": ""
+            },
+            "*.dashuo.org": {
+              "reason": ""
+            },
+            "trpg.cloud": {
+              "reason": ""
+            },
+            "*.gallinula.com": {
+              "reason": ""
+            },
+            "mastinator.com": {
+              "reason": ""
+            },
+            "nihao.pub": {
+              "reason": ""
+            },
+            "*.114514.fan": {
+              "reason": ""
+            },
+            "bitseatech.com": {
+              "reason": ""
+            },
+            "77234399.xyz": {
+              "reason": ""
+            },
+            "*.declin.eu": {
+              "reason": ""
+            },
+            "china.al": {
+              "reason": ""
+            },
+            "*.trpg.cloud": {
+              "reason": ""
+            },
+            "*.dragon-fly.club": {
+              "reason": ""
+            },
+            "*.misskey-forkbomb.cf": {
+              "reason": ""
+            },
+            "tsuihc.top": {
+              "reason": ""
+            },
+            "*.gab.com": {
+              "reason": ""
+            },
+            "declin.eu": {
+              "reason": ""
+            },
+            "kiwifarms.is": {
+              "reason": ""
+            },
+            "*.mastodonhub.com": {
+              "reason": ""
+            },
+            "dragon-fly.club": {
+              "reason": ""
+            },
+            "*.iddqd.social": {
+              "reason": ""
+            },
+            "activitypub-troll.cf": {
+              "reason": ""
+            },
+            "gab.com": {
+              "reason": ""
+            },
+            "*.mathias777.com": {
+              "reason": ""
+            },
+            "*.china.al": {
+              "reason": ""
+            },
+            "torlaz.online": {
+              "reason": ""
+            },
+            "114514.fan": {
+              "reason": ""
+            },
+            "ergedd.com": {
+              "reason": ""
+            },
+            "solagg.com": {
+              "reason": ""
+            },
+            "*.poa.st": {
+              "reason": ""
+            },
+            "poster.place": {
+              "reason": ""
+            },
+            "*.asbestos.cafe": {
+              "reason": ""
+            },
+            "yz666.eu.org": {
+              "reason": ""
+            },
+            "*.ergedd.com": {
+              "reason": ""
+            },
+            "shakuameji.com": {
+              "reason": ""
+            },
+            "repl.co": {
+              "reason": ""
+            },
+            "kiwifarms.cc": {
+              "reason": ""
+            },
+            "*.beefyboys.win": {
+              "reason": ""
+            },
+            "*.shakuameji.com": {
+              "reason": ""
+            }
+          }
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "mailerEnabled": false,
+      "nodeDescription": "",
+      "nodeName": "NOT IEE.E",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 50,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "private": true,
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "roles": {
+        "admin": [
+          "users_read",
+          "users_manage_invites",
+          "users_manage_activation_state",
+          "users_manage_tags",
+          "users_manage_credentials",
+          "users_delete",
+          "messages_read",
+          "messages_delete",
+          "instances_delete",
+          "reports_manage_reports",
+          "moderation_log_read",
+          "announcements_manage_announcements",
+          "emoji_manage_emoji",
+          "statistics_read"
+        ],
+        "moderator": [
+          "messages_delete",
+          "reports_manage_reports"
+        ]
+      },
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://not.iee.engineer/users/Renn"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pleroma",
+      "version": "2.6.3"
+    },
+    "usage": {
+      "localPosts": 5526,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

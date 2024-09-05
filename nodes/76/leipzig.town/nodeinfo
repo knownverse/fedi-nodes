@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 108,
+        "activeMonth": 39,
+        "activeHalfyear": 70
+      },
+      "localPosts": 5809
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "leipzig.town",
+      "nodeDescription": "Hier sind alle Willkommen, die Leipzig ihr zu Hause nennen und/oder die Stadt lieben. Bitte seid exzellent zueinander und haltet euch an die Regeln. Foto von F. Heiberger, Pixabay."
+    }
+  },
+  "error": null
+}

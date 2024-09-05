@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 351,
+      "localComments": 64
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Africa Online News",
+      "nodeDescription": "Global news &amp; information service from an African perspective",
+      "nodeIcon": "https://africaonlinenews.blog/wp-content/uploads/2022/07/wp-1656649190731.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 1641,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "𖤐1M²Lab𖤐",
+      "nodeDescription": "1m² Elecronics Lab's Instance by AlderForrest. Now on #iceshrimp world.",
+      "maintainer": {
+        "name": "𖤐AlderForrest 𖤐",
+        "email": "admin@anvil.top"
+      },
+      "langs": [],
+      "tosUrl": "https://1m2lab.anvil.top/@AlderForrest/pages/TOS",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 30000,
+      "maxCaptionTextLength": 2500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#ffff00"
+    }
+  },
+  "error": null
+}

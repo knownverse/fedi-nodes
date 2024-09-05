@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "version": "1.0",
+    "software": {
+      "name": "diaspora",
+      "version": "0.7.18.2-pf042f5d4"
+    },
+    "protocols": {
+      "inbound": [
+        "diaspora"
+      ],
+      "outbound": [
+        "diaspora"
+      ]
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "twitter",
+        "tumblr",
+        "wordpress"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 4075,
+        "activeHalfyear": 1181,
+        "activeMonth": 236
+      },
+      "localPosts": 179837,
+      "localComments": 29811
+    },
+    "metadata": {
+      "nodeName": "DiasporaBR",
+      "xmppChat": true,
+      "camo": {
+        "markdown": false,
+        "opengraph": false,
+        "remotePods": false
+      },
+      "adminAccount": "anahuacpg"
+    }
+  },
+  "error": null
+}

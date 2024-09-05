@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 322,
+      "localComments": 444
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "As A Little Child",
+      "nodeDescription": "&quot;The child is innocence and forgetfulness, a new beginning, a sport, a self-propelling wheel, a first motion, a sacred Yes.&quot;",
+      "nodeIcon": "https://asalittlechild.wordpress.com/wp-content/uploads/2021/01/cropped-jonas-koel-nnxwqztmoxq-unsplash-scaled-e15965687284097695830266801623096.jpeg"
+    }
+  },
+  "error": null
+}

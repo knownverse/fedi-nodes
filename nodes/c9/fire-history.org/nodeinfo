@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sonoran Desert Fire History",
+      "nodeDescription": "A longitudinal study of recovery 50 years after burning.",
+      "nodeIcon": "https://fire-history.org/wp-content/uploads/2024/01/afosa-logo.jpg"
+    }
+  },
+  "error": null
+}

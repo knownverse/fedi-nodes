@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 35,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Otto&#039;s Helpful Hacks",
+      "nodeDescription": "Your helpful guide to a better life.",
+      "nodeIcon": "https://ottoshelpfulhacks.com/wp-content/uploads/2023/11/wp-1699396693354.png"
+    }
+  },
+  "error": null
+}

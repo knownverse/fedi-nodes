@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 203,
+      "localComments": 127
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Let&#039;s get home",
+      "nodeDescription": "home is where the heart is",
+      "nodeIcon": "https://letsgethome.wordpress.com/wp-content/uploads/2024/01/image-1.jpg"
+    }
+  },
+  "error": null
+}

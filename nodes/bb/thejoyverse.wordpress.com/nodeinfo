@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 12,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Joyverse",
+      "nodeDescription": "Writing about experiences... and pop culture, games, books and music! This is one guy&#039;s journal about everything exciting.",
+      "nodeIcon": "https://thejoyverse.wordpress.com/wp-content/uploads/2019/01/cropped-joywoke1-1.jpg"
+    }
+  },
+  "error": null
+}

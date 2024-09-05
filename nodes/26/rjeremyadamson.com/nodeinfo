@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 40,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Jeremy Adamson",
+      "nodeDescription": "Website of Jeremy Adamson, data and analytics leader and author of Minding the Machines.",
+      "nodeIcon": "https://rjeremyadamson.com/wp-content/uploads/2021/03/cropped-cropped-bizanalytics_vs_intelligence-hero.jpg"
+    }
+  },
+  "error": null
+}

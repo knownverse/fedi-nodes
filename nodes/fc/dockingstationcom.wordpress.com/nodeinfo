@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Docking station",
+      "nodeDescription": "This site is all about Docking station and tech topic",
+      "nodeIcon": "https://dockingstationcom.wordpress.com/wp-content/uploads/2024/04/cropped-a-modern-and-sleek-docking-station-logo-featuring-gmbggznrsuofcd-nqijkhq-m6g9m_fpqtctid8lonzbcq.jpeg"
+    }
+  },
+  "error": null
+}

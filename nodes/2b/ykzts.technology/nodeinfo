@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-09-04"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1475
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "ykzts.technology",
+      "nodeDescription": "ykzts.technologyは山岸和利 (ykzts) が個人で使うために運用しているMastodonサーバーです。"
+    }
+  },
+  "error": null
+}

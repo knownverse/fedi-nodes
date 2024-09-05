@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+yurigarden.0",
+      "homepage": "https://github.com/pbzweihander/misskey",
+      "repository": "https://github.com/pbzweihander/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 316,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 79595,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "백합.정원",
+      "nodeDescription": "백합러의, 백합러에 의한, 백합러를 위한 백합 미스키 인스턴스.\n<br>\n<br>\n백합 이야기만을 하는 곳은 아닙니다. 단지 백합러들이 모여서 자유롭게 이야기를 나누는 곳입니다.\n<br>\n<br>\n커스텀 에모지 신청은 <a href=\"https://forms.gle/zRGQiS2bgDdixfyK6\">여기</a>를 이용하시거나, 정원사에게 멘션 또는 DM으로 주세요.",
+      "nodeAdmins": [
+        {
+          "name": "양손검",
+          "email": "pbzweihander@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "양손검",
+        "email": "pbzweihander@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/pbzweihander/misskey",
+      "feedbackUrl": "https://github.com/pbzweihander/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#fffaf0"
+    }
+  },
+  "error": null
+}

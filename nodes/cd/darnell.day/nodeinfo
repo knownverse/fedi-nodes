@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Darnell (Seize The Day)",
+      "nodeDescription": "👨🏾‍🚀 [Darnell.bio](https://www.darnell.bio) 🤳🏾 [@darnell@telegram.me](https://t.me/darnell) 📹 [@darnell@youtube.com](https://youtube.com/@darnell)",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      }
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "tumblr",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 140
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

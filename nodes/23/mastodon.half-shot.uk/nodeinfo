@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2548
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Halfy's little noticeboard",
+      "nodeDescription": "Personal server of @halfy@half-shot.uk"
+    }
+  },
+  "error": null
+}

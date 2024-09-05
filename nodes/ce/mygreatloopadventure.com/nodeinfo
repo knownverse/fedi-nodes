@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 192,
+      "localComments": 406
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Great Loop Adventure",
+      "nodeDescription": "Tales of crusing the Loop as crew and then (mostly) solo as captain of my own boat.",
+      "nodeIcon": "https://i0.wp.com/mygreatloopadventure.com/wp-content/uploads/2022/10/cropped-IMG_0886.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

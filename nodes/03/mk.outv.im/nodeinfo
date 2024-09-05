@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-mkoutv",
+      "homepage": "https://github.com/outloudvi/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3066,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Outalk MK2.1",
+      "nodeDescription": "This is the descendent of <a href=\"https://social.outv.im\">Outalk</a>.<br>\nThe \"MK2\" says \"MissKey, too\" or \"Make 2\".<br>\nNot opening for registration since it's a private instance.<br>\n<a href=\"http://mkoutvkdjxotwxrioisit75clrbfzjv66oepmyveki5y75p5ydbgu2id.onion\">Tor Hidden Service</a>",
+      "nodeAdmins": [
+        {
+          "name": "Team MK2.1",
+          "email": "mk@outv.im"
+        }
+      ],
+      "maintainer": {
+        "name": "Team MK2.1",
+        "email": "mk@outv.im"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/outloudvi/misskey",
+      "feedbackUrl": "https://github.com/outloudvi/misskey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

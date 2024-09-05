@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Troppo Polittico",
+      "nodeDescription": "La critica d&#039;arte è morta, Vasari e Longhi pure, e anch&#039;io non sto troppo bene",
+      "nodeIcon": "https://troppopolittico.wordpress.com/wp-content/uploads/2024/04/logo-troppo-polittico-3.png"
+    }
+  },
+  "error": null
+}

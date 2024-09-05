@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "طباعه وتصوير وكوبى سنتر طلاب حقوق66963432",
+      "nodeDescription": "&quot;طباعه&quot; &quot;طباعه وتصوير الكويت&quot; &quot;تصوير الكويت&quot; &quot;شركه طباعه وتصوير &quot; &quot;طباعين&quot; &quot;طباع&quot; &quot;رقم طباع&quot; &quot;رقم طباعه وتصوير&quot; &quot;رقم مطبعه&quot; &quot;كوبي سنتر&quot; &quot;طباعه وتوصيل&quot; &quot;رقم كوبي سنتر &quot;   &quot;COPY SERVICE&quot; متوفر_لدينا# طباعة وتصوير طباعه وتصوير في محافظه الفروانية طباعه وتصوير في محافظه حولي طباعه وتصوير محافظه الجهراء طباعه وتصوير محافظه مبارك الكبير طباعه وتصوير العاصمة طباعه وتصوير الجهراء #متوفر_لدينا طباعة وتصوير مستندات طباعه وتصوير وسكانر طباعة تصوير وماسح ضوئي طباعة وتصوير وسكانر طباعة وتصوير ورق طباعة وتصوير مستندات طباعة وتصوير محل طباعة وتصوير مكتب مركز طباعة وتصوير",
+      "nodeIcon": "https://lawprintq8.wordpress.com/wp-content/uploads/2023/12/cropped-10-d981d984d8b3-1.jpg"
+    }
+  },
+  "error": null
+}

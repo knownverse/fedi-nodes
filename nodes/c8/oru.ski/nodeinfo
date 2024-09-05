@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.10.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1391,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 146434,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "オルスキー",
+      "nodeDescription": "ロボットとして過ごしはじめてから数年の月日が経った。もう誰も自分が人間であることなど気づかない。自分までもがロボットであると認識してしまっていた。それまではロボットなのではと疑われることが幾度となくあった。喉元に今にも突き刺さりそうなロボットのアームが、目の前に迫ったことを覚えている──。ある日のこと、諜報部からまだ人間たちの拠点が存在している情報を得ることがあった。その場所ではまだ多くの人間たちが存在している。もうロボットとして過ごす必要などない。人々はこれまでの居場所に別れを告げ、新天地を目指した。",
+      "maintainer": {
+        "name": "nacika@oru.ski",
+        "email": "noreply@oru.ski"
+      },
+      "langs": [],
+      "tosUrl": "https://oru.ski/@oruski_info/pages/1720953397758",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "oruski_info",
+      "themeColor": "#5E7DAB"
+    }
+  },
+  "error": null
+}

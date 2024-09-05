@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "pub-relay",
+      "version": "0.2.0-a2"
+    },
+    "usage": {
+      "localPosts": 0,
+      "users": {
+        "total": 1
+      }
+    },
+    "version": "2.0",
+    "metadata": {
+      "peers": [
+        "post.miriel.net",
+        "reima.rocks",
+        "redfuku.com",
+        "misskey.04.si",
+        "misskey.stream",
+        "ofurodon.com",
+        "ingen.work",
+        "misskey.nokotaro.com",
+        "x.nichipon.com",
+        "atsuchan.page",
+        "nekomiya.net",
+        "mstdn.buzz",
+        "yoshida2015.net",
+        "mkey.enzan.org",
+        "fairy.id",
+        "misskey.takehi.to",
+        "mi.chocomint.blue",
+        "misskey.the-menz.com",
+        "edgechip.net",
+        "mytter.jp",
+        "wake.0am.jp",
+        "mastodon.hakurei.win",
+        "misskey.zerozaski.tech",
+        "bluesskey.jp",
+        "msk.ilnk.info",
+        "mk.shc.kanagawa.jp",
+        "labo.wovs.tk",
+        "costodon.social",
+        "misskey.gg",
+        "sumanko.com",
+        "misskey.syahu.com",
+        "papi.n1l.dev",
+        "sns.mszpro.com",
+        "mastodon.lithium03.info",
+        "misskey.bainroom.info",
+        "blue.misteli.in.net",
+        "soratomo.info",
+        "misskey.haku-kazamaru.club",
+        "eyes4you.org",
+        "mi.nakn.jp",
+        "mastodon.tokyo",
+        "mt.shc.kanagawa.jp",
+        "n7.social",
+        "mstdn.yamaken.jp",
+        "libera.tokyo",
+        "misskey.tech",
+        "fw3rd-bc.jp",
+        "mstdn.b-shock.org",
+        "16bit.picopico.party",
+        "knse.net"
+      ]
+    }
+  },
+  "error": null
+}

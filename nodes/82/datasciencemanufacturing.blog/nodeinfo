@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 24,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ものづくりの未来を考えるwithデータサイエンス",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/datasciencemanufacturing.blog/wp-content/uploads/2024/05/DALL·E-2024-02-18-18.40.51-Create-a-simplified-2D-illustration-of-Locally-Weighted-Regression.-Show-a-basic-horizontal-x-axis-and-a-vertical-y-axis-with-a-sparse-distribution-o.webp?fit=1024%2C1024&ssl=1"
+    }
+  },
+  "error": null
+}

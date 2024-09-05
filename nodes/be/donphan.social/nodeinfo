@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.donphan.social"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3358,
+        "activeMonth": 137,
+        "activeHalfyear": 271
+      },
+      "localPosts": 138696
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "donphan.social",
+      "nodeDescription": "This generalist Mastodon server welcomes enthusiasts of the Pokémon franchise, to talk about it or anything else. Join the federation!"
+    }
+  },
+  "error": null
+}

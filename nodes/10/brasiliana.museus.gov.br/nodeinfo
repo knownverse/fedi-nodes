@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 9,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Brasiliana Museus",
+      "nodeDescription": "Agregador do patrimônio histórico cultural brasileiro",
+      "nodeIcon": "https://brasiliana.museus.gov.br/wp-content/uploads/2023/09/cropped-logo_brasiliana.png"
+    }
+  },
+  "error": null
+}

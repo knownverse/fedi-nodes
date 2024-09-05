@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 116,
+      "localComments": 80
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sailing Lake Tahoe on a good old boat",
+      "nodeDescription": "A Tahoe sailing blog about Splendido, our 1993 Catalina 270 ",
+      "nodeIcon": "https://sailing-splendido.com/wp-content/uploads/2020/12/cropped-compass-rose.png"
+    }
+  },
+  "error": null
+}

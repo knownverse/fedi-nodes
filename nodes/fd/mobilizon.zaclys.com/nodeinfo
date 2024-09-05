@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Mobilizon par Zaclys, respectueux de la vie privée et des données personnelles de ses utilisateurs.\nTous nos services sur www.zaclys.com",
+      "nodeName": "MobiliZon"
+    },
+    "usage": {
+      "users": {
+        "total": 140
+      },
+      "localComments": 13,
+      "localPosts": 81
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

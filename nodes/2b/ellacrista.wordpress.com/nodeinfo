@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 172,
+      "localComments": 17
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ELLA CRISTÃ REFORMADA",
+      "nodeDescription": "&quot;Teologia fraca produz mulheres fracas&quot;(John piper).",
+      "nodeIcon": "https://ellacrista.wordpress.com/wp-content/uploads/2024/06/logo-3.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-24+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 4,
+        "activeHalfyear": 7
+      },
+      "localPosts": 1104
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Nerv Project ASBL",
+      "nodeDescription": "Art, culture, littérature, SFFF, développement, DIY, logiciel libre, accessibilité et handicap. / Art, culture, literature, fantasy, sci-fi, coding, DIY, free software, accessibility."
+    }
+  },
+  "error": null
+}

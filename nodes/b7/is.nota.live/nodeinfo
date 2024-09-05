@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.2.12+notalive"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1698,
+        "activeMonth": 129,
+        "activeHalfyear": 238
+      },
+      "localPosts": 377768
+    },
+    "openRegistrations": true,
+    "metadata": {}
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "I.I.S. Polo Tecnologico Imperiese",
+      "nodeDescription": "Istituto di Istruzione Superiore a Imperia",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

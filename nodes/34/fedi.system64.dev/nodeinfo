@@ -1,0 +1,350 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "universeodon.com",
+            "threads.instagram.com",
+            "threads.net",
+            "kiwifarms.cc",
+            "kiwifarms.is",
+            "kiwifarms.net",
+            "kiwifarms.*",
+            "cassilda.house",
+            "freak.university",
+            "homoo.social",
+            "m.anirloli.dev",
+            "truthsocial.com",
+            "varishangout.net",
+            "pawoo.net",
+            "rapist.town",
+            "rape.pet",
+            "rape.lol",
+            "raplst.town",
+            "zztails.gay",
+            "sigmoid.social",
+            "poa.st",
+            "newsie.social",
+            "bsky.app",
+            "ai.wiki",
+            "missiletest.site",
+            "bsky.brid.gy",
+            "pone.social",
+            "akko.disqordia.space",
+            "disqordia.space",
+            "spinny.city",
+            "*.disqordia.space",
+            "contentnation.net",
+            "shigusegubu.club",
+            "shitposters.club",
+            "femboy.breeding.college",
+            "fedi.yesmap.net",
+            "eepy.express"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [
+            "mastodon.social",
+            "mstdn.social",
+            "babyfurs.social"
+          ],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "kiwifarms.*": {
+              "reason": "Self-explanatory (do wildcards work?)"
+            },
+            "disqordia.space": {
+              "reason": "4channers, Federates with some yikes instances"
+            },
+            "threads.net": {
+              "reason": "Facebook"
+            },
+            "m.anirloli.dev": {
+              "reason": "pedo shit"
+            },
+            "eepy.express": {
+              "reason": "Pedophillia"
+            },
+            "rape.lol": {
+              "reason": "Just look at the domain name"
+            },
+            "fedi.yesmap.net": {
+              "reason": "CSAM"
+            },
+            "ai.wiki": {
+              "reason": "AI Content, Crypto"
+            },
+            "pone.social": {
+              "reason": "Free speech, Nazis, Underage pornography"
+            },
+            "bsky.app": {
+              "reason": "We're not even chancing it"
+            },
+            "sigmoid.social": {
+              "reason": "AI Content Focused, NFT"
+            },
+            "freak.university": {
+              "reason": "pedo shit"
+            },
+            "homoo.social": {
+              "reason": "pedo shit"
+            },
+            "varishangout.net": {
+              "reason": "pedo shit"
+            },
+            "spinny.city": {
+              "reason": "False rape accusations from their admin, federates with Disqordia"
+            },
+            "kiwifarms.is": {
+              "reason": "Self-explanatory"
+            },
+            "cassilda.house": {
+              "reason": "pedo shit"
+            },
+            "bsky.brid.gy": {
+              "reason": "\"haha so what if i force opted in everyone\" get outta heeere"
+            },
+            "shigusegubu.club": {
+              "reason": "Pedophilia, Instance admin also follows a lot of users from other yikes instances (pawoo.net, shitposters.club)"
+            },
+            "kiwifarms.net": {
+              "reason": "Self-explanatory"
+            },
+            "threads.instagram.com": {
+              "reason": "Facebook"
+            },
+            "rapist.town": {
+              "reason": "Just look at the domain name"
+            },
+            "truthsocial.com": {
+              "reason": "we're going to build a wall, and make donald rump pay for it"
+            },
+            "contentnation.net": {
+              "reason": "Unauthorized scraping"
+            },
+            "akko.disqordia.space": {
+              "reason": "4channers, Federates with some yikes instances"
+            },
+            "zztails.gay": {
+              "reason": "apparently this one got suspended on my old instance some time after i domain blocked it"
+            },
+            "poa.st": {
+              "reason": "Racism, Nazis, Soapbox"
+            },
+            "rape.pet": {
+              "reason": "Just look at the domain name"
+            },
+            "*.disqordia.space": {
+              "reason": "4channers, Federates with some yikes instances"
+            },
+            "raplst.town": {
+              "reason": "Just look at the domain name"
+            },
+            "pawoo.net": {
+              "reason": "don't they host loli shit"
+            },
+            "kiwifarms.cc": {
+              "reason": "Self-explanatory"
+            },
+            "universeodon.com": {
+              "reason": "Growth mindset, Met with meta"
+            },
+            "missiletest.site": {
+              "reason": "Federates with newsie.social, and ai.wiki, doesn't appear to have any rules or MRF policy."
+            },
+            "newsie.social": {
+              "reason": "Hosts known right-wing conservative networks"
+            },
+            "femboy.breeding.college": {
+              "reason": "Admin has a upskirt picture of themselves as their profile picture, unCW'd nsfw posts as well."
+            }
+          },
+          "federated_timeline_removal": {
+            "babyfurs.social": {
+              "reason": "I don't feel comfortable with this content here."
+            },
+            "mastodon.social": {
+              "reason": "Effectively unmoderated"
+            },
+            "mstdn.social": {
+              "reason": "Effectively unmoderated"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "glaceon.social",
+        "mastodon.is-a.horse",
+        "pony.social",
+        "equestria.social",
+        "hooves.social"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "A private small akkoma instance for Technomancer and friends.",
+      "nodeName": "Technomancer's Digital Gateway",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://fedi.system64.dev/users/sweetiebot",
+        "https://fedi.system64.dev/users/IDeletedSystem64"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 3,
+        "activeMonth": 3
+      },
+      "localPosts": 1796
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

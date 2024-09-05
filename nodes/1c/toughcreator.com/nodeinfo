@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.11.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 62,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 3955,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "創作部（非公式）",
+      "nodeDescription": "取り敢えず1年だけ動かしてみます。\n一次・二次・媒体問わず創作関連の呟きやら何やらをする……予定のインスタンスです。\n放課後の自習室みたいにゆるく創作活動の後押しをお互いにしていけたらいいな、と思っています。\n（タフ語録は使っても使わなくても）なんでもいいですよ。",
+      "maintainer": {
+        "name": "@Captain_muscle",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#007bff"
+    }
+  },
+  "error": null
+}

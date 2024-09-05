@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Córdoba Gravel ",
+      "nodeDescription": "Espacio destinado a la promoción del ciclismo gravel. La libertad se siente pedaleando",
+      "nodeIcon": "https://cordobagravel.wordpress.com/wp-content/uploads/2023/02/mi-post-1.png"
+    }
+  },
+  "error": null
+}

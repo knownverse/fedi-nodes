@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "恋愛結婚ウエディング",
+      "nodeDescription": "恋愛結婚関係集めてみました。どうぞご利用ください。",
+      "nodeIcon": "https://7700japan.wordpress.com/wp-content/uploads/2024/05/cropped-pexels-photo-1493226.jpeg"
+    }
+  },
+  "error": null
+}

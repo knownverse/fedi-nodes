@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-hotomoe.6",
+      "homepage": "https://github.com/hotomoe/hotomoe",
+      "repository": "https://github.com/hotomoe/hotomoe"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 461,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 206783,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "hotomoe",
+      "nodeDescription": "Your own little story. A story that connects with you. A story with everyone. hotomoe welcomes your stories.\n\n나만의 작은 이야기. 당신과 이어지는 이야기. 모두와 함께하는 이야기. hotomoe는 그런 여러분의 이야기를 환영합니다.\n\n自分だけの小さな物語。あなたとつながる物語。みんなと一緒の物語。hotomoeはそんなあなたの物語を歓迎します。\n\n[The hotomoe service is owned by HotoUS LLC. in Wyoming, USA, and operated by the hotomoe community. DMCA Request: dmca@hoto.us]",
+      "nodeAdmins": [
+        {
+          "name": "hotomoe",
+          "email": "support@hoto.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "hotomoe",
+        "email": "support@hoto.moe"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/hotomoe/docs/blob/master/README.md",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/hotomoe/hotomoe",
+      "feedbackUrl": "https://github.com/hotomoe/hotomoe/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#ffc0cb"
+    }
+  },
+  "error": null
+}

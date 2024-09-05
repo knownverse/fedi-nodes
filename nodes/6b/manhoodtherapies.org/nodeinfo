@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 82,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Manhoodtherapies Singapore/84334199",
+      "nodeDescription": "manhood singapore, tantric, Lingam massage, erectile dysfunction",
+      "nodeIcon": "https://manhoodtherapies.org/wp-content/uploads/2023/03/cropped-cropped-935346ac-d558-4055-b7a8-ab39c47dd794-1.png"
+    }
+  },
+  "error": null
+}

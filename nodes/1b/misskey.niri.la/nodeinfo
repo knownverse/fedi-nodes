@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-kinel.1",
+      "homepage": "https://github.com/niri-la/misskey.niri.la"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 2788,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1412810,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "にりらみすきー部",
+      "nodeDescription": "主にVRSNSユーザー向けインスタンスです！\n他の話題も歓迎です！お気軽にどうぞ！\n登録うぇるかむ👏\n#VRChat #KineL #Misskey\n",
+      "nodeAdmins": [
+        {
+          "name": "にりら",
+          "email": "https://kinel.notion.site/a50c370b356043159c4f09eac3132db2"
+        }
+      ],
+      "maintainer": {
+        "name": "にりら",
+        "email": "https://kinel.notion.site/a50c370b356043159c4f09eac3132db2"
+      },
+      "langs": [],
+      "tosUrl": "https://kinel.notion.site/2024-5-1-f4b257d349e64bf797811c4bc99c7dfa",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://kinel.notion.site/a50c370b356043159c4f09eac3132db2",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/niri-la/misskey.niri.la",
+      "feedbackUrl": "https://github.com/niri-la/misskey.niri.la/issues/new/choose",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "vmimiRelayTimelineImplemented": true,
+      "disableVmimiRelayTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "koke",
+      "themeColor": "#c91c58"
+    }
+  },
+  "error": null
+}

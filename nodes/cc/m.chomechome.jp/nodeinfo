@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2763,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "チョメチョメ",
+      "nodeDescription": "Twitterのような短文ＳＮＳ「チョメチョメ」です！　　\n出会い系とかではありませんｗ普通のSNSです！　　　　外部のＳＮＳとも連携しています！　　　　　　　　　　現在会員募集中です。一緒にアレなお話しませんか？ｗ\n<img src=\"https://m-chomechome-jp.s3.isk01.sakurastorage.jp/assets/chome_banner_200.png\" width=\"200\" height=\"40\">\n",
+      "nodeAdmins": [
+        {
+          "name": "ひや",
+          "email": "@hiya@m.chomechome.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "ひや",
+        "email": "@hiya@m.chomechome.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://f.chomechome.jp/",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "chomechome",
+      "themeColor": "#ff52d4"
+    }
+  },
+  "error": null
+}

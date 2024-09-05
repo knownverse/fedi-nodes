@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 45,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Wild Outdoors",
+      "nodeDescription": "Your outdoor journey begins here.",
+      "nodeIcon": "https://i0.wp.com/wildoutdoors.uk/wp-content/uploads/2024/07/cropped-Wild-Outdoors.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

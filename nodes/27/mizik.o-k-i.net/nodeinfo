@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+59687b2f"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeHalfyear": 4,
+        "activeMonth": 2
+      }
+    },
+    "metadata": {
+      "actorId": "https://mizik.o-k-i.net/federation/actors/service",
+      "private": false,
+      "shortDescription": "Musiques militantes et archives de la culture afro-caribéenne (reggae, dancehall, zouk...)",
+      "longDescription": "Les inscriptions sont **soumises à validation**.",
+      "contactEmail": "kontak@o-k-i.net",
+      "nodeName": "Mizik OKI",
+      "banner": "https://mizik.o-k-i.net/media/dynamic_preferences/instance__banner/banner-oki_KWjpBsI.png",
+      "defaultUploadQuota": 0,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "Afin d'assurer la pérennité de nos serveurs, vous pouvez nous soutenir ❤️ [o-k-i.net/soutenir](https://o-k-i.net/#soutenir)",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 257
+          }
+        },
+        "listenings": {
+          "total": 4234
+        },
+        "downloads": {
+          "total": 27219
+        }
+      },
+      "library": {
+        "federationEnabled": false,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 1997
+        },
+        "artists": {
+          "total": 727
+        },
+        "albums": {
+          "total": 126
+        },
+        "music": {
+          "hours": 264.2386111111111
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "",
+      "terms": ""
+    }
+  },
+  "error": null
+}

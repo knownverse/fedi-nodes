@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 3672,
+      "localComments": 155
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "FYFD",
+      "nodeDescription": "Celebrating the physics of all that flows",
+      "nodeIcon": "https://fyfluiddynamics.com/wp-content/uploads/2019/11/FYFD_logo-e1573082043478.png"
+    }
+  },
+  "error": null
+}

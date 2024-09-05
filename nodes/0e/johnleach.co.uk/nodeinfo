@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 341,
+      "localComments": 976
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "John Leach",
+      "nodeDescription": "",
+      "nodeIcon": "https://johnleach.co.uk/wp-content/uploads/2019/07/cropped-john-160724-smart.jpg"
+    }
+  },
+  "error": null
+}

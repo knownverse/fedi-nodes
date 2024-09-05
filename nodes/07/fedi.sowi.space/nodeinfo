@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": true,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "fedi@s.sowi.tech",
+        "name": "Sowa"
+      },
+      "nodeDescription": "Private/family-and-friends Firefish server.\n\nMastodon is dead, and the Firefish came from its ashes...\nAfter failure of maintaining glitch-soc/Mastodon instance under sowi.space, I am coming back with Firefish install. I was long planning on migrating to it, back when it was called Calckey, but before I got to that the db for Mastodon got corrupted. There were attempts at reanimating the whole ordeal, but finally I gave up. Thus fresh install.",
+      "nodeName": "sowi-verse!",
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://codeberg.org/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 322,
+      "users": {
+        "activeHalfyear": 1,
+        "activeMonth": 1,
+        "total": 1
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

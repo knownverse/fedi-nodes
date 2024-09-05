@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 439,
+      "localComments": 1271
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "hiromasa.another :o)",
+      "nodeDescription": "have a lot of interests.",
+      "nodeIcon": "https://another.maple4ever.net/wp-content/uploads/2023/08/cropped-U7Q41eST_400x400.png"
+    }
+  },
+  "error": null
+}

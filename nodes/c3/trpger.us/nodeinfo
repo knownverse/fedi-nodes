@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 17427,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 8627557,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "TRPGがすきー！(TRPGer.us)",
+      "nodeDescription": "TRPGプレイヤー向けのSNSです。幅広い年代・システムから人が集まっています。雑談、卓募集、ご自由に！\n通称：卓すきー//メール認証は送信専用アドレスの\"trpger@ooyaclub.work\"から送信中。",
+      "nodeAdmins": [
+        {
+          "name": "https://trpger.us/@asami",
+          "email": "asami@trpger.us"
+        }
+      ],
+      "maintainer": {
+        "name": "https://trpger.us/@asami",
+        "email": "asami@trpger.us"
+      },
+      "langs": [],
+      "tosUrl": "https://trpger.us/@asami/pages/terms_of_service_and_privacypolicy",
+      "privacyPolicyUrl": "https://trpger.us/@asami/pages/terms_of_service_and_privacypolicy",
+      "inquiryUrl": "https://forms.gle/MLWtWijyAHEwoDc97",
+      "impressumUrl": "https://trpger.us/@asami",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 5000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "remoteproxy",
+      "themeColor": "#bc64a4"
+    }
+  },
+  "error": null
+}

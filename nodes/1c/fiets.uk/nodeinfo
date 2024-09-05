@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 158,
+      "localComments": 91
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fiets! Let's Cycle like the Dutch!!",
+      "nodeDescription": "Sustainable travel and cycling in Nuneaton, Warwickshire, and the wider UK | The personal cycling stories of BicycleBen",
+      "nodeIcon": "https://fiets.uk/wp-content/uploads/2021/03/cropped-Main-Logo-Transparent-Background.png"
+    }
+  },
+  "error": null
+}

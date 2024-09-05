@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch.0814_115fb0a"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 68,
+        "activeMonth": 23,
+        "activeHalfyear": 28
+      },
+      "localPosts": 461441
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "八雲財団 Glitch Edition",
+      "nodeDescription": "八雲財団はノンジャンルの雑談サーバーです。"
+    }
+  },
+  "error": null
+}

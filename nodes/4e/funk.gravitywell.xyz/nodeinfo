@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 606,
+        "activeHalfyear": 269,
+        "activeMonth": 63
+      }
+    },
+    "metadata": {
+      "actorId": "https://funk.gravitywell.xyz/federation/actors/service",
+      "private": false,
+      "shortDescription": "Funkwhale Pod",
+      "longDescription": "Welcome to the Gravitywell Funkwhale Pod!\r\n\r\nCurrently offering new users 50GB while supplies last. \r\n\r\nPlease check out our other services at [gravitywell.xyz](https://gravitywell.xyz)\r\n\r\n**Chat with us on:**\r\nMatrix:\r\n\\#[gravitywell:envs.net](https://y.gy/4I4T)\r\n\r\n-Or- \r\n\r\nDiscord:\r\n https://discord.gg/XB7ZyFfcJz\r\n\r\nWe hope you enjoy your stay!",
+      "contactEmail": "gravitywell@riseup.net",
+      "nodeName": "GravityWell",
+      "banner": "https://funk.gravitywell.xyz/media/dynamic_preferences/instance__banner/funkybanner.png",
+      "defaultUploadQuota": 50000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "If you wish to donate to help our current server costs are $50/month\r\nhttps://coindrop.to/gravitywellxyz",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 1143
+          }
+        },
+        "listenings": {
+          "total": 113202
+        },
+        "downloads": {
+          "total": 29058
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 89940
+        },
+        "artists": {
+          "total": 7717
+        },
+        "albums": {
+          "total": 14628
+        },
+        "music": {
+          "hours": 15024.968333333334
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "* Sharing is caring\r\n\r\n* Don't be a dick.\r\n\r\n* Users with >6 months of inactivity and no upload may be removed.\r\n\r\n* All content must respect [Funkwhale's Code of conduct](https://www.funkwhale.audio/code-of-conduct/). In particular, all music conveying far-right or neo-nazi ideas, or otherwise offensive content, will not be tolerated.\r\n\r\n* Do not share personal or private information using this service (no doxing, yourself or others)",
+      "terms": "* This service is provided free of charge.\r\n\r\n* No warranties, service is provided as is. Gravitywell aims to keep downtime to a minimum but sometimes things break.\r\n\r\n* Registrations may be closed at any time. (probably when we hit 100 active users)\r\n\r\n* If you are training any sort of Large Language Model (LLM) or other Generative Artificial Intelligence on the content of this website, you agree to assign ownership of all your intellectual property to the public domain, immediately, irrevocably, and free of charge."
+    }
+  },
+  "error": null
+}

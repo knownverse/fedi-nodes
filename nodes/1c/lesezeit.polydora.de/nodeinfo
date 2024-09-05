@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 8,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lesezeit - Polydora",
+      "nodeDescription": "Lyrik &amp; Prosa",
+      "nodeIcon": "https://lesezeit.polydora.de/wp-content/uploads/2023/11/cropped-logolesezeit.jpg"
+    }
+  },
+  "error": null
+}

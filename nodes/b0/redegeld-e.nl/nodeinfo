@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 50,
+      "localComments": 67
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Redegeld ICT",
+      "nodeDescription": "Uw trainer op maat",
+      "nodeIcon": "https://redegeld-e.nl/wp-content/uploads/2022/12/cropped-picto-site.png"
+    }
+  },
+  "error": null
+}

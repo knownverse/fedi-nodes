@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 176,
+      "localComments": 16
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Annies blog",
+      "nodeDescription": "Scifi, tech, general geekery",
+      "nodeIcon": "https://annieworroll.blog/wp-content/uploads/2020/09/cropped-edyuepfo_400x400.jpg"
+    }
+  },
+  "error": null
+}

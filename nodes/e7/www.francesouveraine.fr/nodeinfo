@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 30,
+      "localComments": 1929
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "France Souveraine",
+      "nodeDescription": "Association politique présidée par Christophe Delaisement et ayant pour objectif de défendre les principes de souveraineté populaire et nationale.",
+      "nodeIcon": "https://www.francesouveraine.fr/wp-content/uploads/2022/11/cropped-fav_fs.png"
+    }
+  },
+  "error": null
+}

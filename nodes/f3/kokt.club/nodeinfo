@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.10.3-simkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 237,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 15996,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "こけっちくらぶ 開店中",
+      "nodeDescription": "こけっちが管理しています<br>管理人本人はいませんが、自由にやっていってください<br>新規登録開放中 避難用などにどうぞ<br><a href=\"https://github.com/sim1222/misskey\">https://github.com/sim1222/misskey</a>",
+      "maintainer": {
+        "name": "こけっち",
+        "email": "discord@sim1222"
+      },
+      "langs": [],
+      "tosUrl": "https://sim1222.notion.site/kokt-club-4f3dcd0ddedc4fc3946ede931208eea9",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 8192,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

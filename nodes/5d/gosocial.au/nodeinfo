@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 0,
+        "activeHalfyear": 2
+      },
+      "localPosts": 278
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "GoSocial AU",
+      "nodeDescription": "A small, currently closed, Mastodon instance for Australians.\r\nHosted by https://Mastodon-Hosting.au"
+    }
+  },
+  "error": null
+}

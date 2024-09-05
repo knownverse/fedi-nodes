@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2443,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2472703,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Eostagram",
+      "nodeDescription": "FF14プレイヤーが集うMisskey鯖！<br>\nおしゃれなキラキラSNS？<br>\nいいえ、ここは濁流。<br><br>\nヒカセンであれば登録・話題は自由です！<br>\n詳しくは<a href=\"https://eostagram.com/announcements\" style=\"color:#86b300;\">お知らせ</a>・<a href=\"https://wiki.eostagram.com/\" target=\"_blank\" style=\"color:#86b300;\">公式Wiki</a>をチェック！<br><br>\n<strong>【新規登録について】</strong><br>\n現在、招待コードでのみ受け付けております。<br><br>\n<p style=\"font-size:12px;opacity:.6;\"><small>記載されている会社名・製品名・システム名などは、<br>各社の商標、または登録商標です。</small><br><small>(C) SQUARE ENIX CO., LTD. All Rights Reserved.</small><br><small>(C) 2018 XIVAPI</small><br><small>イメージイラスト：らみ様</small></p>",
+      "nodeAdmins": [
+        {
+          "name": "らいあん",
+          "email": "info@eostagram.com"
+        }
+      ],
+      "maintainer": {
+        "name": "らいあん",
+        "email": "info@eostagram.com"
+      },
+      "langs": [],
+      "tosUrl": "https://support.eostagram.com/",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86B300"
+    }
+  },
+  "error": null
+}

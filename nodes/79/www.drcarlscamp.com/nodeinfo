@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 16,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dr. Carl&#039;s Collection of Departments",
+      "nodeDescription": "Demanding your participation since 2005",
+      "nodeIcon": "https://www.drcarlscamp.com/wp-content/uploads/2023/05/pin-2012-2.25in_vmh.png"
+    }
+  },
+  "error": null
+}

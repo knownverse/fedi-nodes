@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3764,
+        "activeMonth": 652,
+        "activeHalfyear": 780
+      },
+      "localPosts": 373452
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Dresden.Network",
+      "nodeDescription": "dresden.network ist eine Mastodon Instanz für alle aus Dresden und Umgebung, dennoch offen für alle. Das Team besteht aus @markus@dresden.network und @ueckueck@dresden.network."
+    }
+  },
+  "error": null
+}

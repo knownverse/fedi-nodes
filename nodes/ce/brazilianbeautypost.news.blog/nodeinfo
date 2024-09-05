@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 317,
+      "localComments": 10
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Brazilian Beauty Posts",
+      "nodeDescription": "Notícia e fotografia de celebridades, modelos e ensaio fotográfico",
+      "nodeIcon": "https://brazilianbeautypost.news.blog/wp-content/uploads/2022/07/cropped-cap_brazilian-beauty_00_00_11_03.png"
+    }
+  },
+  "error": null
+}

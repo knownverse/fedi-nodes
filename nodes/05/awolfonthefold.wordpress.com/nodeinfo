@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1327,
+      "localComments": 90
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A Wolf on the Fold",
+      "nodeDescription": "This line is smaller than the last.",
+      "nodeIcon": "https://awolfonthefold.wordpress.com/wp-content/uploads/2021/05/cropped-awotf-logo-black-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 76,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Full of Words",
+      "nodeDescription": "Book reviews, news, and a healthy obsession with the written word.",
+      "nodeIcon": "https://i0.wp.com/fullofwords.com/wp-content/uploads/2021/11/shelf-of-books.png?fit=705%2C276&ssl=1"
+    }
+  },
+  "error": null
+}

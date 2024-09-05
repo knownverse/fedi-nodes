@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 44,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "GOD LIKE TECH",
+      "nodeDescription": "An investment bankers guide to Technology",
+      "nodeIcon": "https://i0.wp.com/godliketech.com/wp-content/uploads/2024/03/site-logo.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

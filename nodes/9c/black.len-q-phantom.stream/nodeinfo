@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/kemomimi-no-sato/misskey/tree/kemomimi-custom-1",
+      "repository": "https://github.com/kemomimi-no-sato/misskey/tree/kemomimi-custom-1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 41,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 139949,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "れんすきー(仮)",
+      "nodeDescription": "榊蓮が運営する鯖だよ",
+      "nodeAdmins": [
+        {
+          "name": "榊蓮(さかきれん)",
+          "email": "len.skk.pb@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "榊蓮(さかきれん)",
+        "email": "len.skk.pb@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://black.len-q-phantom.stream/@len/pages/term",
+      "privacyPolicyUrl": null,
+      "impressumUrl": "https://black.len-q-phantom.stream/@len",
+      "repositoryUrl": "https://github.com/kemomimi-no-sato/misskey/tree/kemomimi-custom-1",
+      "feedbackUrl": "https://github.com/kemomimi-no-sato/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableLoginOnlyMode": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#831100"
+    }
+  },
+  "error": null
+}

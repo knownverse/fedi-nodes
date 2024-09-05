@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "📜Mélange Of André Ariel",
+      "nodeDescription": "A Poetic person captivated by life’s visuals, and sound, and of course, emotion.",
+      "nodeIcon": "https://andreariel23.wordpress.com/wp-content/uploads/2020/05/wp-1590807276828-3259942888-e1708850590331.jpg"
+    }
+  },
+  "error": null
+}

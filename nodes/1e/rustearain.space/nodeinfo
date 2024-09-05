@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 21,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 15114,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "RusteaRain",
+      "nodeDescription": "宇宙の果てにある小さな惑星。過去に高度な文明がありましたが、今は錆びついた廃墟が並ぶのみとなっています。空気と水があるため気候は地球と似ていますが、雨の日が多いのが特徴です。他の星から渡ってきた人々が小さな自治体を作り、ひっそりと暮らしているようです。",
+      "nodeAdmins": [
+        {
+          "name": "RusteaRain 惑星管理局",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "RusteaRain 惑星管理局",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": "https://rustearain.notion.site/RusteaRain-081147ca8c6141598280f2a6be46bbbc?pvs=4",
+      "privacyPolicyUrl": "https://rustearain.notion.site/2d59b63552674b29ac4f9f8bed3ffb74",
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#7a0031"
+    }
+  },
+  "error": null
+}

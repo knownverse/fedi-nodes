@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 17,
+        "activeMonth": 7,
+        "activeHalfyear": 6
+      },
+      "localPosts": 294,
+      "localComments": 70
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Future Text Lab",
+      "nodeDescription": "",
+      "nodeIcon": "https://futuretextlab.info/wp-content/uploads/2022/10/cropped-cropped-ftl-for-sticker-round3.png"
+    }
+  },
+  "error": null
+}

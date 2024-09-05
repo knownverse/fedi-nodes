@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 687,
+        "activeMonth": 231,
+        "activeHalfyear": 408
+      },
+      "localPosts": 302695
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Muri Network",
+      "nodeDescription": "다양한 무리의 네트워크"
+    }
+  },
+  "error": null
+}

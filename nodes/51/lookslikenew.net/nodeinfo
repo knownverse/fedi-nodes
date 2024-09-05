@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Looks Like New",
+      "nodeDescription": "The show that asks old questions about new technology, produced by the Media Economies Design Lab at CU Boulder.",
+      "nodeIcon": "https://lookslikenew.net/wp-content/uploads/2023/11/LooksLikeNew-5.png"
+    }
+  },
+  "error": null
+}

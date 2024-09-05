@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 6,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Etiäinen",
+      "nodeDescription": "suomenkielinen roolipeli-podcast",
+      "nodeIcon": "https://etiainenpodcast.wordpress.com/wp-content/uploads/2024/01/cropped-etiainen-korppi-valkeassa-neliossa-419862876_122096699012191375_5701004850968154740_n.jpg"
+    }
+  },
+  "error": null
+}

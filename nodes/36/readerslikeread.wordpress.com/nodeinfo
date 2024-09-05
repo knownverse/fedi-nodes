@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 16,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Readers like read!",
+      "nodeDescription": "El mejor blog para leer sobre recomendaciones de libros",
+      "nodeIcon": "https://readerslikeread.wordpress.com/wp-content/uploads/2024/03/a-sea-otter-with-a-pearl-earring_-by-johannes-vermeer.webp"
+    }
+  },
+  "error": null
+}

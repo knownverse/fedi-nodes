@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 147,
+      "localComments": 29
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Los libros no se prestan",
+      "nodeDescription": "- Punto de encuentro entre el lector y el mundo imaginario del autor -",
+      "nodeIcon": "https://loslibrosnoseprestan.wordpress.com/wp-content/uploads/2018/04/cropped-logo-azafrc3a1n-dos11.png"
+    }
+  },
+  "error": null
+}

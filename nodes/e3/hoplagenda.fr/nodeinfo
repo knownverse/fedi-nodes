@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Mobilizon est un agenda d'évènements à travers le monde accessible par le biais de nombreux sites Mobilizon. Si vous souhaitez publier sur ce site, il faut utiliser votre compte @sans-nuage.fr en adhérant à notre association Alsace Réseau Neutre. ",
+      "nodeName": "Hopl'agenda"
+    },
+    "usage": {
+      "users": {
+        "total": 29
+      },
+      "localComments": 4,
+      "localPosts": 178
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.0.2"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 200,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "エッジのたたないポッドキャスト",
+      "nodeDescription": "楽譜入力型作曲ソフト開発やミュージシャンのファンクラブWebサイト制作、世界初の携帯電話向け音楽配信サービスの開発に参加したかと思えば下請けSIerでSESの派遣元、はたまた製造業の情シスであったり情報処理安全確保支援士、そうかと思うと福祉向けパッケージソフトの開発などなどと、プログラミング経験30年あまり、「コンピューターで楽しいことがしたいヒト」ワタクシまっちーことまちだが、エッジのきいた最先端のソフトウェア開発情報をお届けするの「ではなく」、長野のイナカから周回遅れ気味かつ、ソフトウェア開発そのものよりは「その周辺」のおハナシを、あまりカドがたたないようにのんべんだらりんと、ひとりしゃべりでお送りするポッドキャストです。 1本10分前後を目安にしていますので、ちょっとしたスキマ時間のお供にどうぞ。",
+      "nodeIcon": "https://noedge.matchy.net/wp-content/uploads/sites/3/2015/09/favicon.png"
+    }
+  },
+  "error": null
+}

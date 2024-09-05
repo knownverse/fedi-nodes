@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 3,
+        "activeHalfyear": 2
+      },
+      "localPosts": 6,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Imbalance",
+      "nodeDescription": "Uncompromizing brutal thrash/death metal from Norway",
+      "nodeIcon": "https://imbalance.no/wp-content/uploads/2023/06/imbalance-decagram-blue-transparent-web-1.png"
+    }
+  },
+  "error": null
+}

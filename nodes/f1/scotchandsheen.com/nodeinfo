@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 656,
+      "localComments": 342
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Scotch &amp; Sheen",
+      "nodeDescription": "Reviews of Scotch &amp; Everything Else",
+      "nodeIcon": "https://scotchandsheen.com/wp-content/uploads/2018/11/cropped-drink-1543247_1920.jpg"
+    }
+  },
+  "error": null
+}

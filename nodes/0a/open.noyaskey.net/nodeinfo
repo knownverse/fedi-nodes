@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0",
+      "homepage": "https://github.com/kemomimi-no-sato/misskey",
+      "repository": "https://github.com/kemomimi-no-sato/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 688,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 119921,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "おーぷんのやすきー！",
+      "nodeDescription": "独自機能多めなノンテーマサーバーです。\n<br>登録は原則開放しています。\n<br>捨てメアドでの登録禁止！",
+      "nodeAdmins": [
+        {
+          "name": "のや",
+          "email": "@noya@mk.noyaskey.net/@noya@open.noyaskey.net"
+        }
+      ],
+      "maintainer": {
+        "name": "のや",
+        "email": "@noya@mk.noyaskey.net/@noya@open.noyaskey.net"
+      },
+      "langs": [],
+      "tosUrl": "https://open.noyaskey.net/@admin/pages/term_of_use",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kemomimi-no-sato/misskey",
+      "feedbackUrl": "https://open.noyaskey.net/@noya",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableLoginOnlyMode": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ad8271"
+    }
+  },
+  "error": null
+}

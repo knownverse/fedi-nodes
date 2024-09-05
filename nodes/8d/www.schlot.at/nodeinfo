@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 1100,
+      "localComments": 1150
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "schlot.at             ",
+      "nodeDescription": "Industrie · Dokumentation · Archiv",
+      "nodeIcon": "https://www.schlot.at/wp-content/uploads/2017/11/cropped-schlot_at-logo-v2-5-1.png"
+    }
+  },
+  "error": null
+}

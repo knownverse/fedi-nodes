@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1862,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ねこネット",
+      "nodeDescription": "すべてがにゃごになる。",
+      "nodeAdmins": [
+        {
+          "name": "ねこネット管理事務所",
+          "email": "https://form.nekonet.cyou"
+        }
+      ],
+      "maintainer": {
+        "name": "ねこネット管理事務所",
+        "email": "https://form.nekonet.cyou"
+      },
+      "langs": [],
+      "tosUrl": "https://nyago.notion.site/6d24fd6efa904d098c28751b31bf73eb?pvs=4",
+      "privacyPolicyUrl": "https://nyago.notion.site/2edd7d065e2d4c43b8875771f5980b6e?pvs=4",
+      "inquiryUrl": "https://formnekonet.netlify.app/",
+      "impressumUrl": "https://nekonet.cyou",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#108b7c"
+    }
+  },
+  "error": null
+}

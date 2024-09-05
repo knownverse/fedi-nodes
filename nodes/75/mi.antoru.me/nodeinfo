@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 27,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "あんとるめすきー",
+      "nodeDescription": "あんとるめさんの個人鯖です\n前回のGCPサーバーはなぜか無料枠で動いていなかったので、\nConoHaに移ってきました。\nやはり実験鯖であることには変わりありません。",
+      "nodeAdmins": [
+        {
+          "name": "あんとるめ",
+          "email": "misskey@antoru.me"
+        }
+      ],
+      "maintainer": {
+        "name": "あんとるめ",
+        "email": "misskey@antoru.me"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://x.com/vtb_love_bot",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#6d3131"
+    }
+  },
+  "error": null
+}

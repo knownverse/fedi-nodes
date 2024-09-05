@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "hubzilla",
+      "version": "4.4.1"
+    },
+    "protocols": [
+      "zot",
+      "diaspora",
+      "ostatus",
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [
+        "atom1.0",
+        "gnusocial"
+      ],
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 6,
+        "activeHalfyear": 2,
+        "activeMonth": 2
+      },
+      "localPosts": 21,
+      "localComments": 4
+    },
+    "metadata": {
+      "nodeName": "NymClub"
+    }
+  },
+  "error": null
+}

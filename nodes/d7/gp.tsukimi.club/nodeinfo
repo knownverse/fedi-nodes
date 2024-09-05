@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 42,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 54022,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "月ミの会",
+      "nodeDescription": "人として生れられなかった、人が愛でぬものを愛して已まない、されど人の世で人を演ぜねばならない役者達が一堂に会するMisskey製コミュニティーです。<br><br>ここでは日下の姿として学業や就業の日々を綴る事も、月下の姿として専門トークや性癖トークを語り明かす事も、各々の自由の上で演じ分ける事が出来ます。",
+      "nodeAdmins": [
+        {
+          "name": "水草ひかる",
+          "email": "@mzkshkr"
+        }
+      ],
+      "maintainer": {
+        "name": "水草ひかる",
+        "email": "@mzkshkr"
+      },
+      "langs": [],
+      "tosUrl": "https://tsukimiclub.notion.site/bcc93172139c4222b48aa076abe3eb08",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#112266"
+    }
+  },
+  "error": null
+}

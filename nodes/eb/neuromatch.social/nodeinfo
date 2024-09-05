@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1336,
+        "activeMonth": 249,
+        "activeHalfyear": 449
+      },
+      "localPosts": 90789
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Neuromatch Social",
+      "nodeDescription": "We are a cooperatively-governed instance. Please read our About page for further details."
+    }
+  },
+  "error": null
+}

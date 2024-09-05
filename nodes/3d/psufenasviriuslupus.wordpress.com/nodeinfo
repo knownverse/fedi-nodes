@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 104,
+      "localComments": 390
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "P. SUFENAS VIRIUS LUPUS",
+      "nodeDescription": "Vel in limine mundi, Ecce!  Ego semper sum coram te!",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

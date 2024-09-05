@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-misskirara-1.3",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 293,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 205847,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Misskirara",
+      "nodeDescription": "まんがタイムきらら愛好コミュニティサイト、Misskiraraです。<br>\n<br>\nまんがタイムきらら作品に関連する話や情報交換ができる場所です。<br>\n雑談等もOKな広く開かれた場でありたいと思うので、<br>\nお気軽に登録して頂ければと思います。<br>\n※Misskiraraは16歳以上の方がご利用可能です。<br>\n<br>\n現在新規登録を解放しておりますので、<br>\nきらら好きな方なら誰でもご自由に登録が可能です。<br>\n\n※芳文社様及びまんがタイムきらら公式様とは一切関係のない<br>\n 　非営利のファンサイトとなります。<br>\n※MisskiraraはMisskeyのフォークとなります。<br>\n</p>\n<br>\nPowered by RadiumProduction",
+      "nodeAdmins": [
+        {
+          "name": "Misskirara運営",
+          "email": "「運営者情報」より"
+        }
+      ],
+      "maintainer": {
+        "name": "Misskirara運営",
+        "email": "「運営者情報」より"
+      },
+      "langs": [],
+      "tosUrl": "https://doc.misskirara.net/#terms",
+      "privacyPolicyUrl": "https://doc.misskirara.net/#pp",
+      "inquiryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfQ2OE14kFl6bqvEvJUTWTjunzoeikKwpUX5DmhBwfo_aitXA/viewform",
+      "impressumUrl": "https://doc.misskirara.net/#contact",
+      "repositoryUrl": "https://github.com/misskirara/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#fedcfb"
+    }
+  },
+  "error": null
+}

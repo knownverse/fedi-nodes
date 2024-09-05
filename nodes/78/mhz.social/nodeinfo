@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-05-security+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 73,
+        "activeMonth": 4,
+        "activeHalfyear": 6
+      },
+      "localPosts": 3039
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "MHZ Social - Mastodon",
+      "nodeDescription": ""
+    }
+  },
+  "error": null
+}

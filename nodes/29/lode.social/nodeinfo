@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "microblogpub",
+      "version": "2.0.0+dev",
+      "repository": "https://sr.ht/~tsileo/microblog.pub",
+      "homepage": "https://docs.microblog.pub"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 9
+    },
+    "metadata": {
+      "nodeName": "@lode@lode.social"
+    }
+  },
+  "error": null
+}

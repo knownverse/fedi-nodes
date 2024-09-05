@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+besties"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeMonth": 10,
+        "activeHalfyear": 15
+      },
+      "localPosts": 17799
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "besties.house",
+      "nodeDescription": "A general mastodon instance. Ran by @h@besties.house."
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.6.0",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": 11,
+        "activeMonth": 4
+      },
+      "localPosts": 28,
+      "localComments": 221
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "fe.derate.me Mbin",
+      "nodeDescription": "content aggregator and micro-blogging platform for the fediverse"
+    }
+  },
+  "error": null
+}

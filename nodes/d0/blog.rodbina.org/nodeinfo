@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 86,
+      "localComments": 92
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Missives from the void",
+      "nodeDescription": "...musings, stats, politics...",
+      "nodeIcon": "https://blog.rodbina.org/stuff/2019/11/cropped-DM.ICON_.512x512.png"
+    }
+  },
+  "error": null
+}

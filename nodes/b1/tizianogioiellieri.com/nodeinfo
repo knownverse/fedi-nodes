@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 419,
+      "localComments": 65
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Tiziano Gioiellieri",
+      "nodeDescription": "Consulenze internet, PC e laptop",
+      "nodeIcon": "https://tizianogioiellieri.com/wp-content/uploads/2017/07/cropped-18839153_1846732775648909_7722181944662281084_n-1.jpg"
+    }
+  },
+  "error": null
+}

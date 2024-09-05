@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1078,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "GraffitiWall: Leave your mark!",
+      "nodeDescription": "A general use and creative-friendly instance! Leave your mark by posting daily updates, stories, artwork, and more! (Compatible and connects with mastodon and others.)",
+      "nodeAdmins": [
+        {
+          "name": "Floodle",
+          "email": "ferretastic@proton.me"
+        }
+      ],
+      "maintainer": {
+        "name": "Floodle",
+        "email": "ferretastic@proton.me"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": "https://activitypub.software/TransFem-org/Sharkey/-/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "iti",
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

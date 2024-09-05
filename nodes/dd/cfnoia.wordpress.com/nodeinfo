@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "CLUB DE FUTBOL NOIA",
+      "nodeDescription": "Página Oficial del Club de Fútbol Noia",
+      "nodeIcon": "https://cfnoia.wordpress.com/wp-content/uploads/2023/11/cropped-icono.jpg"
+    }
+  },
+  "error": null
+}

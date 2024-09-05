@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 7,
+        "activeHalfyear": 7
+      },
+      "localPosts": 834,
+      "localComments": 552
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Probstisms",
+      "nodeDescription": "Welcome to Tim&#039;s World of Should Be",
+      "nodeIcon": "https://i0.wp.com/www.timprobst.com/blog/wp-content/uploads/2022/12/image.jpg?fit=960%2C960&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 221,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 18393,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぬくもりすきー（Nukumori-Sky）",
+      "nodeDescription": "このサーバーは技術や創作を学んでいる方々がお互いに刺激し合いつつも、皆さんにとってまったりとした雰囲気を目指しています。<br>\n<br>\n利用規約など：<a href=\"https://github.com/PYU224/misskey-data\">https://github.com/PYU224/misskey-data</a><br>\n<br>\nごゆっくりお楽しみください<br>\n<br>\n管理人の作品やアクセスは以下になります。<br>\n<a href=\"https://33-4.me/\">https://33-4.me/</a><br>\n<a href=\"https://misskey.nukumori-sky.net/@PYU224\">https://misskey.nukumori-sky.net/@PYU224</a><br>\n<a href=\"https://w.atwiki.jp/vahren_ency/pages/1006.html\">https://w.atwiki.jp/vahren_ency/pages/1006.html</a><br>\n<a href=\"https://rvlt.gg/MY9Epben\">https://rvlt.gg/MY9Epben</a><br>\n<br><br>\nPayPayとKyashのID： pyu224<br>\nRevolt.ChatでのID： PYU224#4296",
+      "nodeAdmins": [
+        {
+          "name": "PYU",
+          "email": "m3lx5a4s@anonaddy.me"
+        }
+      ],
+      "maintainer": {
+        "name": "PYU",
+        "email": "m3lx5a4s@anonaddy.me"
+      },
+      "langs": [],
+      "tosUrl": "https://github.com/PYU224/misskey-data",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://33-4.me/blog/",
+      "impressumUrl": "33-4.me",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#ff6bab"
+    }
+  },
+  "error": null
+}

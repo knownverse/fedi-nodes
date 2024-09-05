@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "darkpi@chino.tw",
+        "name": "Darkpi"
+      },
+      "nodeName": "chino.tw💙",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#6FD3F7"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240809"
+    },
+    "usage": {
+      "localPosts": 3777,
+      "users": {
+        "activeHalfyear": 4,
+        "activeMonth": 2,
+        "total": 5
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

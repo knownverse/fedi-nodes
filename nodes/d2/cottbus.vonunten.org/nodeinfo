@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Cottbus von Unten",
+      "nodeName": "cottbus.vonunten.org"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-potsda.mn-b39e566cdeea291aad93f5d5fbcf9f1866b4e243"
+    },
+    "usage": {
+      "localComments": 2,
+      "localPosts": 534,
+      "users": {
+        "total": 70
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

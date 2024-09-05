@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.4.0.dev0+59687b2f"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0"
+      ],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 1,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://evangelisches.online/federation/actors/service",
+      "private": false,
+      "shortDescription": "Audiodateien aus dem Bayerwalddekanat Cham",
+      "longDescription": "Dies ist eine Funkwhale-Instanz des ev.-luth. Dekanat Cham. Ihr Ziel ist es Ihnen datenschutzgerecht Audiodateien aus den Gemeinden des Dekanats zur Verfügung zu stellen.\r\n\r\nEinzelne Interessierte aus anderen Kirchengemeinden können zum Ausprobieren des Systems über den Administrator einen Zugang erhalten.\r\n\r\nDie technische Bereitstellung erfolgt durch [Weingärtner IT](https://www.weingaertner-it.de)",
+      "contactEmail": "gerhard.beck@elkb.de",
+      "nodeName": "die Funkwhale-Instanz des Dekanat Cham",
+      "banner": "https://evangelisches.online/media/dynamic_preferences/instance__banner/michal-czyz-KPj62w4uEkM-unsplash_TzLISTB.jpg",
+      "defaultUploadQuota": 1000,
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 19
+        },
+        "downloads": {
+          "total": 36716
+        }
+      },
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 445
+        },
+        "artists": {
+          "total": 4
+        },
+        "albums": {
+          "total": 36
+        },
+        "music": {
+          "hours": 15.873333333333333
+        }
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": true
+        }
+      ],
+      "endpoints": {
+        "knownNodes": "/api/v1/federation/domains",
+        "channels": "/federation/index/channels",
+        "libraries": "/federation/index/libraries"
+      },
+      "rules": "Diese Funkwhale-Instanz dient als Kommunikationsplattform des evangelisch-lutherischen Dekanats Cham.\r\nSie ist offen für die Mitarbeitenden im Dekanat und alle Kirchengemeinden, die Funkwhale ausprobieren wollen.\r\n\r\nDie Registrierung ist nur auf Einladung möglich. Bei Interesse melden Sie sich bitte mit einer Begründung beim Administrator. Die endgültige Entscheidung über eine Registrierung liegt bei diesem.\r\n\r\nBitte beachten Sie bei der Erstellung der Audiodateien auf die Urheberrechte. Werden Rechtsverletzungen bekannt, werden die entsprechenden Dateien vom Administrator gelöscht.\r\n\r\nGibt es Bedenken bei einem Inhalt, können Sie diesen melden.\r\n\r\nBitte bedenken Sie auch: Die Inhalte sind - je nach Einstellung- teils öffentlich.\r\n\r\nWir wünschen viel Spass und Gottes Segen bei der Nutzung dieser Installation. Bei Fragen wenden Sie sich bitte an den Adminstrator..",
+      "terms": "# Impressum\r\n\r\n## Diensteanbieter\r\n\r\nEvangelische Kirchengemeinde Neunburg vorm Wald\r\n\r\nBahnhofstr 3\r\n\r\n92431 Neunburg vorm Wald\r\n\r\nDeutschland\r\n\r\n## Kontaktmöglichkeiten\r\n\r\nE-Mail-Adresse: [gerhard.beck@elkb.de](<mailto:gerhard.beck@elkb.de>)\r\n\r\nTelefon: 09762/91350\r\n\r\n## Vertretungsberechtigte Personen\r\n\r\nVertretungsberechtigt: Gerhard Beck, Pfarrer\r\n\r\n## Audiovisuelle Mediendienste\r\n\r\nSitzland: Deutschland\r\n\r\nZuständige Regulierungs-, bzw. Aufsichtsbehörde: Bayerische Landeszentrale für neue Medien (BLM), [https://www.blm.de/](<https://www.blm.de/>)\r\n\r\n[Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke](<https://datenschutz-generator.de/?l=de> \"Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken.\")\r\n\r\n\r\n\r\n###Datenschutzerklärung\r\n1.  Datenverarbeitung bei Aufruf der Startseite, Registrierungsmaske und Nutzung im Allgemeinen\r\n\r\nSobald du die Startseite von aufrufst, um dich zu registrieren oder auch während der Nutzung im Allgemeinen, wird eine Verbindung zum Webserver aufgebaut, auf dem diese Instanz betrieben wird. \r\n\r\nDiese technischen Daten werden verarbeitet, damit diese Webseite von dem Webserver an dein Endgerät übermittelt und von deinem Browser richtig verarbeitet und angezeigt werden kann.\r\n\r\nDie Datenverarbeitung erfolgt dabei gemäß Art. 6 Abs. 1 Buchst. b) DSGVO im erforderlichen Umfang, um dir den Aufruf der Startseite sowie die Registrierung im Rahmen des Nutzungsverhältnisses zwischen uns (als Betreiber der Instanz) und dir (als Nutzer:in) zu ermöglichen sowie zur Erfüllung der Verpflichtung zur Ergreifung technisch-organisatorischer Schutzmaßnahmen.\r\n\r\n2. Datenverarbeitung bei der Registrierung\r\n\r\nIm Rahmen der Registrierung und zur Konfiguration deines Nutzerkontos verarbeiten wir grundlegende Kontoinformationen: Dazu zählen Benutzername, E-Mail-Adresse und Passwort. Du kannst auch zusätzliche Profilinformationen wie etwa einen Anzeigenamen oder eine Biografie eingeben, ein Profilbild oder ein Headerbild hochladen, dein Konto mit einem zweiten Sicherheitsfaktor schützen und einstellen, dass andere Nutzer:innen blockiert oder stummgeschaltet werden sollen. Der Benutzername, der Anzeigename, die Biografie, das Profilbild und das Headerbild werden dann immer öffentlich angezeigt.\r\n\r\nDie Datenverarbeitung im Rahmen der Registrierung erfolgt dabei gemäß Art. 6 Abs. 1 Buchst. b) DSGVO im erforderlichen Umfang, um dir die Registrierung und Konfiguration im Rahmen des Nutzungsverhältnisses zu ermöglichen.\r\n\r\n3. Datenverarbeitung bei der Nutzung deines Funkwhale-Kontos\r\n\r\nDie Daten die du veröffentlichst sind im Internet sichtbar. Durch die Föderation/Verknüpfung der Instanzen werden sie eventuell auch bei anderen Instanzen gespeichert.\r\n\r\nWelche Daten Funkwhale genau verarbeitet ist [in diesem Dokument](https://pad.funkwhale.audio/data#) aufgeführt\r\n\r\n4. Deine Rechte\r\n\r\nDu hast ein Recht auf\r\n- Auskunft darüber, welche Daten wir zu dir gespeichert haben, einschließlich einer Kopie dieser Daten (gemäß Art. 15 DSGVO),\r\n- Berichtigung falscher Daten (gemäß Art. 16 DSGVO),\r\n- Löschung („Vergessen werden“) oder Einschränkung der Verarbeitung (gemäß Art. 17-18 DSGVO),\r\n- Widerspruch (gemäß Art. 21 DSGVO),\r\n- Erhalt deiner Daten in einem strukturierten, gängigen und maschinenlesbaren Format, das du an einen anderen Funkwhale-Server übermitteln kannst oder ein Recht darauf, dass wir deine Daten direkt an einen anderen Dienst übermitteln, soweit dies technisch möglich ist (gemäß Art. 20 DSGVO).\r\n\r\nDu kannst dein Funkwhale-Konto löschen, wenn du eingeloggt bist \r\n\r\nWende dich bitte per E-Mail an den Addminstrator, wenn du eins der anderen Rechte wahrnehmen willst.\r\n\r\n5. Recht auf Beschwerde\r\n\r\n\r\nWenn du der Meinung bist, dass wir deine Rechte verletzen, kannst du dich bei dem für die Kirchengemeinde zuständigen Datenschutzbeauftragten beschweren.\r\n\r\nDieser ist:\r\n\r\nJanis Jurack\r\nörtlich Beauftragter für Datenschutz,ELKB Verwaltungsverbünde 6 / 7\r\n\r\n\r\nAm Ölberg 2, 93047 Regensburg\r\nE-Mail: janis.jurack@elkb.de\r\nTel.: 0941 58 43 30 25\r\n\r\nNutzung des Textes unter CC-Lizenz\r\n------\r\n\r\nWenn du selbst eine Funkwhale-Instanz betreibst, kannst du unseren Text unter der CreativeCommons-Lizenz „CC BY-SA 3.0 DE“ übernehmen und anpassen. Bedingungen dafür sind:\r\n\r\n „kirche.funkwhale-host“ und die unten genannten Lizenzgeber für Texte, die wir verwendet haben, müssen als Quelle angegeben werden.\r\n Abgeleitete Werke müssen ebenfalls unter die CC BY-SA oder eine vergleichbare Lizenz gestellt werden.\r\n\r\nWeitere Informationen und Verweise zum vollständigen Text der Lizenz findest du bei https://creativecommons.org/licenses/by-sa/3.0/de/\r\n\r\nWir empfehlen dir aber, genau zu prüfen, ob unsere Nutzungsbedingungen und unsere Datenschutzerklärung auch für deine Instanz passen. Die Freigabe dieses Textes zur Nutzung und Anpassung ist keine Rechtsberatung. Frag im Zweifelsfall einen Datenschutzbeauftragten oder einen Rechtsanwalt.\r\n\r\nTexte, die wir verwendet haben\r\n--\r\n\r\nUnsere Datenschutzerklärung basiert auf den Datenschutzhinweisen von Malte Engeler / legal.social und kirche.social/Luki e.V. (freigegeben unter CC-BY-SA-3.0-Lizenz)"
+    }
+  },
+  "error": null
+}

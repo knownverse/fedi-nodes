@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 26,
+      "localComments": 26
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Musenküsse in Reimform, autobiografische Texte und Auftragsdichte(rei)",
+      "nodeDescription": "Wo ich bin, ist die Welt gut!",
+      "nodeIcon": "https://mueckeahoi.wordpress.com/wp-content/uploads/2024/07/cropped-img_20211120_100436_817.jpg"
+    }
+  },
+  "error": null
+}

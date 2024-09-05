@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 122,
+      "localComments": 582
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Sabre23t v4.1",
+      "nodeDescription": "SMS on blogging, public transport, mapping, gadgets, GTFS, GIS &amp; random thoughts",
+      "nodeIcon": "https://sabre23t.wordpress.com/wp-content/uploads/2024/07/cropped-sms-profilephoto-diamond2.png"
+    }
+  },
+  "error": null
+}

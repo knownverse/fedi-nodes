@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Iceshrimp.NET",
+      "version": "2024.1-beta2.security3+kpr.fe14c0",
+      "codename": "phenidate",
+      "edition": "enterprise",
+      "homepage": "https://iceshrimp.dev/iceshrimp/Iceshrimp.NET",
+      "repository": "https://iceshrimp.dev/kopper/Iceshrimp.NET"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": 2,
+        "activeMonth": 1
+      },
+      "localPosts": 27308,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Iceshrimp.NET",
+      "nodeDescription": "An Iceshrimp.NET instance",
+      "maintainer": {
+        "name": "todo",
+        "email": "todo"
+      },
+      "langs": [],
+      "tosUrl": "todo",
+      "repositoryUrl": "https://iceshrimp.dev/kopper/Iceshrimp.NET",
+      "feedbackUrl": "https://issues.iceshrimp.dev",
+      "themeColor": "#000000",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "postEditing": false,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 0,
+      "maxCaptionTextLength": 0,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": false,
+        "local": false
+      },
+      "post_formats": [
+        "text/plain",
+        "text/x.misskeymarkdown"
+      ],
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "quote_posting",
+        "editing",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "custom_emoji_reactions"
+      ],
+      "uploadLimits": {
+        "general": 50000000,
+        "avatar": 50000000,
+        "background": 50000000,
+        "banner": 50000000
+      },
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true
+      },
+      "localBubbleInstances": [],
+      "staffAccounts": []
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

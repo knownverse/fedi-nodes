@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "5",
+        "activeHalfyear": "5"
+      },
+      "localPosts": 104,
+      "localComments": 21
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mirabellug",
+      "nodeDescription": "Groupe d&#039;Utilisateurs de Logiciels Libres de Nancy et ses environs",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

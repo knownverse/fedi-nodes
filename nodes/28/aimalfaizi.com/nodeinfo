@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 29,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Afghanistan",
+      "nodeDescription": "Ending War, Building Peace",
+      "nodeIcon": "https://aimalfaizi.com/wp-content/uploads/2024/03/cropped-af-fotor-bg-remover-2024030705742-2.png"
+    }
+  },
+  "error": null
+}

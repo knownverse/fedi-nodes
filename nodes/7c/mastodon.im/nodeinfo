@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 462,
+        "activeMonth": 124,
+        "activeHalfyear": 187
+      },
+      "localPosts": 94450
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Mastodon.IM | 故障站",
+      "nodeDescription": "欢迎来到“故障站”！这是一个泛话题中文实例。本站使用 Mastodon glitch-soc 分支运行，由 O3O.Foundation 运营。"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 15,
+      "localComments": 22
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HumanisticTorah.org",
+      "nodeDescription": "Educational Resources on Humanistic Judaism",
+      "nodeIcon": "https://humanistictorah.org/wp-content/uploads/2023/09/cropped-logo1.png"
+    }
+  },
+  "error": null
+}

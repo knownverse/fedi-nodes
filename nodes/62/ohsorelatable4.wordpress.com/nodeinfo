@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ohsorelatable 4 you",
+      "nodeDescription": "This is a blog site to offer a bit of everything",
+      "nodeIcon": "https://ohsorelatable4.wordpress.com/wp-content/uploads/2024/04/20240322_014944_0000-1.png"
+    }
+  },
+  "error": null
+}

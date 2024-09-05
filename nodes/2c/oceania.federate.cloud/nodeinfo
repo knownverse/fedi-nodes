@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.104"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "angrydome.au",
+        "asylum.nz",
+        "barrow.social",
+        "broniesaustralia.com.au",
+        "catgirls.cafe",
+        "catgirls.cafe",
+        "cuties.cloud",
+        "darkmyre.cloud",
+        "dev-null.io",
+        "dissentpress.social",
+        "fairdinkum.one",
+        "fedi.ashl.dev",
+        "fedi.blahaj.world",
+        "focal.social",
+        "fortytwo.site",
+        "friendica.jibberjabber.online",
+        "glegle.party",
+        "gyatt.cc",
+        "harton.social",
+        "howes.nz",
+        "jibberjabber.online",
+        "kitty.community",
+        "masto1.100flowers.tech",
+        "mastodon.aridgwayweb.com",
+        "mastodon.brendansbits.com",
+        "mastodon.deepspace.cafe",
+        "mastodon.feets.tv",
+        "mastodon.horvath.au",
+        "mastodon.logzinga.com",
+        "mastodon.nickylamb.dev",
+        "mastodon.nz",
+        "mastodon.solvality.com",
+        "mastodon.thewarrens.name",
+        "mayoi.org",
+        "misskey.oppai.win",
+        "mstdn.matthewmcgranahan.me",
+        "neurodiversity-in.au",
+        "omnify.social",
+        "parasocial.network",
+        "pl.nudie.social",
+        "pleroma.bhamtech.net",
+        "pravdasocial.net",
+        "shinobu.space",
+        "social.2vthe.world",
+        "social.diverge.gg",
+        "social.dnitza.com",
+        "social.doom.broker",
+        "social.pincade.com.au",
+        "social.shas.am",
+        "thattakashi.me",
+        "vollans.id.au"
+      ]
+    }
+  },
+  "error": null
+}

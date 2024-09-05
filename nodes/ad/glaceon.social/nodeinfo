@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 513,
+        "activeMonth": 64,
+        "activeHalfyear": 98
+      },
+      "localPosts": 644921
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "glaceon.social",
+      "nodeDescription": "A general fediverse instance for people who generally like pokemon at least a little bit. Newly registered users must be manually approved due to an increasing number of spam bots; if you look like a person, your account will be approved as soon as possible."
+    }
+  },
+  "error": null
+}

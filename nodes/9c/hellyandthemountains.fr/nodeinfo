@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 300,
+      "localComments": 126
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "HELLY AND THE MOUNTAINS",
+      "nodeDescription": "Randonne avec ton chien !",
+      "nodeIcon": "https://i0.wp.com/s3.fr-par.scw.cloud/wordpress-medias/2021/10/cropped-hellyandthemountains.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "13.13.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 35,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 385,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "はちゅすきー（reptileskey.jp）",
+      "nodeDescription": "<center><strong>爬虫類大好きな人のMisskey</strong></center>\n<center>「うちのこかわいい。」をアピールするために。</center>\n<center>「うちのこかわいい。」をアピールされるために。</center>\n<center>トカゲ、ヤモリ、ヘビ、カメなどの爬虫類</center>\n<center>イモリ、カエルなどの両生類も歓迎。</center>\n<center>レプタイルズイベントの情報、ショップ宣伝など、</center>\n<center>公共良俗に反しない範囲で、</center>\n<center>ご自由にお楽しみください。</center>\n<center></center>\n<center>※※※ご利用上の注意※※※</center>\n<center>生体、餌、どちらも写真公開OKです。</center>\n<center>給餌の様子、糞、血液・体液はNFSW設定をお願いします。</center>\n<center></center>\n<center>写真は自分で撮影したもの、</center>\n<center>撮影者の明確な許可があるもののみ、公開可能です。</center>\n<center>フリーサイトの画像の転載は禁止です。</center>\n<center>ネット上に公開されている画像の転載は禁止です。</center>\n<center>その他、著作権には充分に留意しましょう。</center>",
+      "maintainer": {
+        "name": "弓路",
+        "email": "info@reptileskey.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://reptileskey.jp/@info/pages/privacypolicy",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#8dce9a"
+    }
+  },
+  "error": null
+}

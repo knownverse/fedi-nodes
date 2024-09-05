@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+sk-9e1b46f",
+      "homepage": "https://github.com/libnare/shiftkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 3755,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 857445,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Stella",
+      "nodeDescription": "<center>무수히 많은 별 사이에서 항해하는 인스턴스</center>\n<center>SINCE 2022. 5. 8. ~</center>\n<hr>\n<b><center>Activated</center></b>\n<hr>\n<center>Service uptime is <a href=\"https://status.stella.place/\" target=\"_blank\"><b>here (Frequency: 30s)</b></a></center>\n<hr>\n\n*서버 자원 사용량과 동시 활성 유저 수에 따라서 가입 활성화는 가변적으로 변경됩니다.",
+      "nodeAdmins": [
+        {
+          "name": "caipira113",
+          "email": "caipira@libnare.net"
+        }
+      ],
+      "maintainer": {
+        "name": "caipira113",
+        "email": "caipira@libnare.net"
+      },
+      "langs": [],
+      "tosUrl": "https://docs.stella.place/tos",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": "https://github.com/caipira113",
+      "repositoryUrl": "https://github.com/libnare/shiftkey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#b8b9f7"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://git.zhz.moe/tsuiio/misskey",
+      "repository": "https://git.zhz.moe/tsuiio/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 29,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1319,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "眯 >_< 💤",
+      "nodeDescription": "这里是一个小趴窝,眯一小会",
+      "nodeAdmins": [
+        {
+          "name": "终",
+          "email": "me@zhz.moe"
+        }
+      ],
+      "maintainer": {
+        "name": "终",
+        "email": "me@zhz.moe"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "zhz.moe",
+      "impressumUrl": " ",
+      "repositoryUrl": "https://git.zhz.moe/tsuiio/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#dfaea3"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 88,
+      "localComments": 114
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nerdjunk.de",
+      "nodeDescription": "Der Blog Rund um Manga, Anime, Spiele und  Krempel aller Art",
+      "nodeIcon": "https://nerdjunk.de/wp-content/uploads/2023/12/619256C7-BA1B-4514-B31E-B5C982F62C84.png"
+    }
+  },
+  "error": null
+}

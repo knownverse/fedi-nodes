@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.10.0-rc.3",
+      "basedMisskeyVersion": "2024.7.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 11378,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "のやすきー(新)",
+      "nodeDescription": "新しいのやすきーです。\n信頼性・可用性の向上と自宅鯖をホスティングメインにすることを目的に移行しています。",
+      "nodeAdmins": [
+        {
+          "name": "Noya",
+          "email": "@noya@chp.noyaskey.net"
+        }
+      ],
+      "maintainer": {
+        "name": "Noya",
+        "email": "@noya@chp.noyaskey.net"
+      },
+      "langs": [],
+      "tosUrl": "https://mk.noyaskey.net/@admin/pages/term_of_service_easy",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/HanasakiNayori/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ffa8ec"
+    }
+  },
+  "error": null
+}

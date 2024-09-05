@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": false,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": false,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "kkc4k3[at]gmail.com",
+        "name": "kkcake"
+      },
+      "nodeDescription": "<p>kkcakeのアジト（2代目）</p>\n<p>現在スパム対策のため、都度ドメインブロックを行っています。<br>もしフォローしたいが疎通が出来ない場合ドメインブロック対象になっている可能性が高いので、別サーバーのアカウントからフォロー申請頂くか、<a href=\"https://sushi.ski/@kkcake\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: underline\">@kkcake@sushi.ski</a>などのここ以外のサーバーのアカウント、もしくは<a href=\"https://twitter.com/kkcake\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: underline\">X</a>、<a href=\"https://bsky.app/profile/kkcake.ch\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: underline\">BlueSky</a>に連絡をお願いします。<br>（対応に時間がかかる場合があります、また対象サーバーでのスパム対応状況によっては解除できない場合があります）</p>",
+      "nodeName": "z.kvche.ch",
+      "repositoryUrl": "https://code.naskya.net/naskya/firefish",
+      "themeColor": "#009688"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://code.naskya.net/naskya/firefish",
+      "version": "20240607"
+    },
+    "usage": {
+      "localPosts": 15477,
+      "users": {
+        "activeHalfyear": 2,
+        "activeMonth": 2,
+        "total": 4
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

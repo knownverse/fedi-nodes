@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "小廢物網站",
+      "nodeDescription": "嘗試",
+      "nodeIcon": "https://radiant-yspvpyxpmh.wordpress.com/wp-content/uploads/2024/04/cropped-image-2.jpeg"
+    }
+  },
+  "error": null
+}

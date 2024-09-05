@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.1.4+git.3c8c1524"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 20,
+        "activeHalfyear": 4,
+        "activeMonth": 0
+      }
+    },
+    "metadata": {
+      "actorId": "https://audio.oplibris.com/federation/actors/service",
+      "private": false,
+      "shortDescription": "Instance de test à destination des professionnel·le·s du livre et de la lecture souhaitant goûter aux joies des outils de diffusion numérique libres.",
+      "longDescription": "Oplibris est un projet visant à explorer les solutions logicielles libres autour des métiers du livre et de la lecture.\r\nCette instance Funkwhale a pour objet de permettre à des personnes ou structures de tester la diffusion audio de leurs contenus en lien avec le livre et la lecture.",
+      "rules": "- Tout compte qui ne serait pas en lien avec le livre ou la lecture sera effacé sans préavis.\r\n- Ce serveur est un serveur de test, les comptes créés et le contenu déposé peuvent être écrasés ou supprimé par accident.\r\n\r\nBons tests, amusez-vous bien et merci pour votre compréhension.",
+      "contactEmail": "contact@oplibris.com",
+      "terms": "Nous gardons que les informations strictement nécessaires au bon fonctionnement du serveur.\r\nVous pouvez à tout moment supprimer votre compte.",
+      "nodeName": "Oplibris - instance Funkwhale en test",
+      "banner": null,
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 4
+        },
+        "artists": {
+          "total": 3
+        },
+        "albums": {
+          "total": 4
+        },
+        "music": {
+          "hours": 1.9477777777777778
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": true,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://audio.oplibris.com/api/v1/federation/domains",
+        "channels": "https://audio.oplibris.com/federation/index/channels",
+        "libraries": "https://audio.oplibris.com/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 1
+        },
+        "downloads": {
+          "total": 510
+        }
+      }
+    }
+  },
+  "error": null
+}

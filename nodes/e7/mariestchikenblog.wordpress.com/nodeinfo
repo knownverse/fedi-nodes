@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Marie&#039;s-Tchiken",
+      "nodeDescription": "Hôtellerie et restauration",
+      "nodeIcon": "https://mariestchikenblog.wordpress.com/wp-content/uploads/2024/01/cropped-403f0ffe5f9f83647a3fb06bc1ce6e86.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "bsky.brid.gy",
+            "emmaverse.void.rehab",
+            "threads.net",
+            "detroitriotcity.com",
+            "poa.st",
+            "freespeechextremist.com",
+            "pawoo.net",
+            "baraag.net",
+            "shitposter.club",
+            "bae.st",
+            "noagendasocial.com",
+            "gameliberty.club",
+            "spinster.xyz",
+            "pieville.net",
+            "nicecrew.digital",
+            "yggdrasil.social",
+            "iddqd.social",
+            "detroitriotcity.com",
+            "freecumextremist.com",
+            "freeatlantis.com",
+            "beefyboys.win",
+            "brighteon.social",
+            "chudbuds.lol",
+            "gleasonator.com",
+            "rdrama.cc",
+            "cum.salon",
+            "cawfee.club",
+            "ryona.agency",
+            "disqordia.space",
+            "boymoder.biz",
+            "misskey.io",
+            "mapsupport.de",
+            "nnia.space",
+            "c.im",
+            "mastodon.cf",
+            "tkammer.de",
+            "lolison.top",
+            "valkyrie.world",
+            "geofront.rocks",
+            "lolison.network",
+            "shota.house",
+            "mugicha.club",
+            "poster.place",
+            "tastingtraffic.net",
+            "sneed.social",
+            "kiwifarms.net",
+            "privex.social",
+            "froth.zone",
+            "genderheretics.xyz",
+            "sonichu.com",
+            "eatthebugs.social",
+            "seal.cafe",
+            "rojogato.com",
+            "eveningzoo.club",
+            "rapemeat.solutions",
+            "pmth.us",
+            "101010.pl",
+            "kcl.academy",
+            "truthsocial.co.in",
+            "freetalklive.com",
+            "liberdon.com",
+            "срёт.онлайн",
+            "milker.cafe",
+            "076.ne.jp",
+            "shortstackran.ch",
+            "narrativerry.xyz",
+            "lovingexpressions.net",
+            "kitsunemimi.club",
+            "uwu.social",
+            "bestgore.fun",
+            "varishangout.net",
+            "honkwerx.tech",
+            "anti-degeneracy.club",
+            "helladoge.com",
+            "eientei.org",
+            "fbxl.net",
+            "wolfgirl.bar",
+            "sleepy.cafe",
+            "etiketi.de",
+            "skyshanty.xyz",
+            "handholding.io",
+            "clubcyberia.co",
+            "leafposter.club",
+            "freak.university",
+            "youjo.love",
+            "masochi.st",
+            "soykaf.com",
+            "slash.cl",
+            "beefyboys.club",
+            "strelizia.net",
+            "pedo.school",
+            "fluf.club",
+            "masthead.social",
+            "hentai.baby",
+            "lolicon.rocks",
+            "quanta.wiki",
+            "teci.world",
+            "lain.com",
+            "clubcyberia.co",
+            "pube.tk",
+            "anon-kenkai.com",
+            "wiki-tube.de",
+            "kenfm.de",
+            "alive.bar",
+            "darknight-coffee.org",
+            "animalliberation.social",
+            "gorf.pub",
+            "ligma.pro",
+            "freethinkers.lgbt",
+            "hitchhiker.social",
+            "trumpislovetrumpis.life",
+            "springbo.cc",
+            "urspringer.de",
+            "mstdn.jp",
+            "nobodyhasthe.biz",
+            "freespeech.group"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "срёт.онлайн": {
+              "reason": "racism, HomoMisia, TransMisia"
+            },
+            "masthead.social": {
+              "reason": "lack of moderation, conspiracism, TransMisia"
+            },
+            "disqordia.space": {
+              "reason": "racism, harassment"
+            },
+            "honkwerx.tech": {
+              "reason": "gore, TransMisia"
+            },
+            "shortstackran.ch": {
+              "reason": "TransMisia, racism, ableism, harassment"
+            },
+            "mstdn.jp": {
+              "reason": "national socialism"
+            },
+            "spinster.xyz": {
+              "reason": "TransMisia, TERFism"
+            },
+            "threads.net": {
+              "reason": "eww"
+            },
+            "beefyboys.club": {
+              "reason": "national socialism"
+            },
+            "trumpislovetrumpis.life": {
+              "reason": "facism, racism"
+            },
+            "mapsupport.de": {
+              "reason": "pedophilia"
+            },
+            "tkammer.de": {
+              "reason": "Transmisia"
+            },
+            "nicecrew.digital": {
+              "reason": "racism"
+            },
+            "tastingtraffic.net": {
+              "reason": "QueerMisia"
+            },
+            "101010.pl": {
+              "reason": "fascism, HomoMisia, TransMisia"
+            },
+            "sneed.social": {
+              "reason": "HomoMisia, racism, TransMisia"
+            },
+            "mastodon.cf": {
+              "reason": "pedophilia"
+            },
+            "darknight-coffee.org": {
+              "reason": "TransMisia"
+            },
+            "fluf.club": {
+              "reason": "ableism, TransMisia"
+            },
+            "animalliberation.social": {
+              "reason": "racism, AntiSemitism, TransMisia"
+            },
+            "freespeech.group": {
+              "reason": "harassment"
+            },
+            "pmth.us": {
+              "reason": "TransMisia"
+            },
+            "handholding.io": {
+              "reason": "TransMisia, racism"
+            },
+            "eatthebugs.social": {
+              "reason": "antisemitism, harassment"
+            },
+            "shitposter.club": {
+              "reason": "racism"
+            },
+            "helladoge.com": {
+              "reason": "cryptoscam, spam"
+            },
+            "ryona.agency": {
+              "reason": "racism, anti semitism, misogyny, TransMisia"
+            },
+            "cum.salon": {
+              "reason": "HomoMisia, racism, suicide-proposal"
+            },
+            "076.ne.jp": {
+              "reason": "national socialism, racism, TransMisia lolicon"
+            },
+            "nnia.space": {
+              "reason": "pedophilia"
+            },
+            "privex.social": {
+              "reason": "fascism, harassment"
+            },
+            "kenfm.de": {
+              "reason": "racism, conspiracism, covid denial"
+            },
+            "leafposter.club": {
+              "reason": "TransMisia"
+            },
+            "ligma.pro": {
+              "reason": "harassment, TransMisia, ableism"
+            },
+            "freethinkers.lgbt": {
+              "reason": "harassment"
+            },
+            "hitchhiker.social": {
+              "reason": "racism, harassment"
+            },
+            "boymoder.biz": {
+              "reason": "racism, QueerMisia, harassment"
+            },
+            "uwu.social": {
+              "reason": "national socialism"
+            },
+            "freespeechextremist.com": {
+              "reason": "racism, HomoMisia, harassment"
+            },
+            "rapemeat.solutions": {
+              "reason": "Rape, pedophilia, lolicon"
+            },
+            "sonichu.com": {
+              "reason": "harassment, racism"
+            },
+            "freak.university": {
+              "reason": "pedophilia"
+            },
+            "gameliberty.club": {
+              "reason": "racism, lolicon"
+            },
+            "detroitriotcity.com": {
+              "reason": "racism, HomoMisia"
+            },
+            "beefyboys.win": {
+              "reason": "national socialism"
+            },
+            "lolison.top": {
+              "reason": "lolicon, child porn"
+            },
+            "gleasonator.com": {
+              "reason": "racism, AntiSemitism, TransMisia"
+            },
+            "etiketi.de": {
+              "reason": "conspiracism"
+            },
+            "soykaf.com": {
+              "reason": "HomoMisia"
+            },
+            "freetalklive.com": {
+              "reason": "ancap, libertarianism"
+            },
+            "varishangout.net": {
+              "reason": "TransMisia, lolicon, harassment"
+            },
+            "c.im": {
+              "reason": "racism"
+            },
+            "anti-degeneracy.club": {
+              "reason": "TransMisia"
+            },
+            "kcl.academy": {
+              "reason": "(covid/ukraine) conspiracy theories"
+            },
+            "slash.cl": {
+              "reason": "national socialism"
+            },
+            "eveningzoo.club": {
+              "reason": "HomoMisia"
+            },
+            "gorf.pub": {
+              "reason": "TransMisia, HomoMisia, AntiSemitism"
+            },
+            "misskey.io": {
+              "reason": "queermisia"
+            },
+            "liberdon.com": {
+              "reason": "ancap, libertarianism"
+            },
+            "seal.cafe": {
+              "reason": "TransMisia"
+            },
+            "bsky.brid.gy": {
+              "reason": "fuck you"
+            },
+            "narrativerry.xyz": {
+              "reason": "HomoMisia, glorifying killings"
+            },
+            "sleepy.cafe": {
+              "reason": "rape, TransMisia, HomoMisia"
+            },
+            "freeatlantis.com": {
+              "reason": "Trumpism, Ultra-MAGA"
+            },
+            "emmaverse.void.rehab": {
+              "reason": "oki juno i trust you <3"
+            },
+            "kiwifarms.net": {
+              "reason": "harassment, HomoMisia, TransMisia, racism"
+            },
+            "lolicon.rocks": {
+              "reason": "racism, national socialism, AntiSemitism, conspiracism, lolicon, TransMisia"
+            },
+            "freecumextremist.com": {
+              "reason": "rape"
+            },
+            "anon-kenkai.com": {
+              "reason": "national socialism, lolicon, racism, HomoMisia"
+            },
+            "lain.com": {
+              "reason": "HomoMisia, ableism"
+            },
+            "eientei.org": {
+              "reason": "AntiSemitism, conspiracism"
+            },
+            "rdrama.cc": {
+              "reason": "racism"
+            },
+            "bestgore.fun": {
+              "reason": "gore, making fun of executions"
+            },
+            "wolfgirl.bar": {
+              "reason": "racism, TransMisia"
+            },
+            "urspringer.de": {
+              "reason": "conspiracism"
+            },
+            "masochi.st": {
+              "reason": "harassment, racism, TransMisia"
+            },
+            "pube.tk": {
+              "reason": "HomoMisia"
+            },
+            "wiki-tube.de": {
+              "reason": "AntiSemitism, conspiracism, covid denial"
+            },
+            "springbo.cc": {
+              "reason": "racism, TransMisia"
+            },
+            "noagendasocial.com": {
+              "reason": "AntiSemitism, racism"
+            },
+            "teci.world": {
+              "reason": "qanon conspiracism, trumpism"
+            },
+            "kitsunemimi.club": {
+              "reason": "racism, harassment, TransMisia"
+            },
+            "bae.st": {
+              "reason": "fascism, harassment"
+            },
+            "skyshanty.xyz": {
+              "reason": "HomoMisia"
+            },
+            "yggdrasil.social": {
+              "reason": "national socialism, racism, TransMisia"
+            },
+            "quanta.wiki": {
+              "reason": "qanon conspiracism, trumpism"
+            },
+            "poa.st": {
+              "reason": "racism, HomoMisia, violence, conspiracism"
+            },
+            "poster.place": {
+              "reason": "racism, queermisia"
+            },
+            "froth.zone": {
+              "reason": "harassment, racism"
+            },
+            "alive.bar": {
+              "reason": "national socialism"
+            },
+            "baraag.net": {
+              "reason": "lolicon, ChildPorn"
+            },
+            "pawoo.net": {
+              "reason": "national socialism"
+            },
+            "cawfee.club": {
+              "reason": "racism"
+            },
+            "pedo.school": {
+              "reason": "pedophilia"
+            },
+            "rojogato.com": {
+              "reason": "Racism, TransMisia, ableism"
+            },
+            "geofront.rocks": {
+              "reason": "QueerMisia, racism"
+            },
+            "chudbuds.lol": {
+              "reason": "gore, racism, HomoPhobia, TransPhobia, AntiSemitism"
+            },
+            "clubcyberia.co": {
+              "reason": "HomoMisia, TransMisia, racism"
+            },
+            "truthsocial.co.in": {
+              "reason": "fascism"
+            },
+            "shota.house": {
+              "reason": "national socialism, pedophilia, ableism, QueerMisia"
+            },
+            "hentai.baby": {
+              "reason": "lolicon"
+            },
+            "lovingexpressions.net": {
+              "reason": "national socialism"
+            },
+            "brighteon.social": {
+              "reason": "fascism, conspiracism"
+            },
+            "milker.cafe": {
+              "reason": "lolicon"
+            },
+            "iddqd.social": {
+              "reason": "TransMisia, racism, AntiSemitism, conspiracism"
+            },
+            "fbxl.net": {
+              "reason": "admin wish"
+            },
+            "genderheretics.xyz": {
+              "reason": "TransMisia, making fun of suicide"
+            },
+            "lolison.network": {
+              "reason": "lolicon, child porn"
+            },
+            "nobodyhasthe.biz": {
+              "reason": "taken from a.rathersafe.space"
+            },
+            "valkyrie.world": {
+              "reason": "harassment, QueerMisia, ableism"
+            },
+            "youjo.love": {
+              "reason": "pedophilia"
+            },
+            "strelizia.net": {
+              "reason": "national socialism"
+            },
+            "mugicha.club": {
+              "reason": "national socialism, racism"
+            },
+            "pieville.net": {
+              "reason": "anti semitism, national socialism, racism, ableism, HomoMisia"
+            }
+          }
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": true,
+      "localBubbleInstances": [
+        "cockandballtortu.re",
+        "crimew.gay"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "cathouse",
+      "pollLimits": {
+        "max_options": 20,
+        "max_option_chars": 200,
+        "min_expiration": 0,
+        "max_expiration": 31536000
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "federated": true,
+        "bubble": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://p.girlc.at/users/lz"
+      ],
+      "uploadLimits": {
+        "background": 4000000,
+        "avatar": 2000000,
+        "general": 16000000,
+        "banner": 4000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 10,
+        "activeHalfyear": 8,
+        "activeMonth": 6
+      },
+      "localPosts": 8246
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-4-g906ea101"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

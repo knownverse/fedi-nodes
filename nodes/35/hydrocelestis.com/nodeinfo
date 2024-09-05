@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 23,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ji&#039;hyn&#039;s Webbed Site",
+      "nodeDescription": "Thinkin&#039; &#039;bout stuff",
+      "nodeIcon": "https://jihyn.com/wp-content/uploads/2023/02/SirBarkalot-Icon-e1675530051641.png"
+    }
+  },
+  "error": null
+}

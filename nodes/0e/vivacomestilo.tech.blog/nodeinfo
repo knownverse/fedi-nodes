@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 13,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Viva Com Estilo",
+      "nodeDescription": "&quot;Descubra dicas de beleza exclusivas no blog Viva com Estilo. Encontre as últimas tendências em maquiagem, cuidados com a pele e cabelo para viver com estilo e confiança. Transforme sua rotina de beleza conosco!",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

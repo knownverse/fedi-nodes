@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-08-29+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeMonth": 4,
+        "activeHalfyear": 5
+      },
+      "localPosts": 9195
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Pastwind's pub （評估用）",
+      "nodeDescription": "使用Mastodon架設的去中心化社群網路，類似Twitter。本站的特色以動畫、漫畫與遊戲為主，但不僅限於此。"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 29,
+        "activeMonth": 22,
+        "activeHalfyear": 22
+      },
+      "localPosts": 489,
+      "localComments": 380
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ICT4D.at",
+      "nodeDescription": "Austrian Network for Information and Communication Technologies for Development",
+      "nodeIcon": "https://www.ict4d.at/wp-content/uploads/2018/02/cropped-favicon.png"
+    }
+  },
+  "error": null
+}

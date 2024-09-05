@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 53,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Desa Cemaga",
+      "nodeDescription": "situs desa cemaga kecamatan bunguran selatan",
+      "nodeIcon": "https://desacemaga.wordpress.com/wp-content/uploads/2024/01/cropped-319740507_5890063524391125_6166234623677183926_n.jpg"
+    }
+  },
+  "error": null
+}

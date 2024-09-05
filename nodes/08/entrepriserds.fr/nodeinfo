@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Entreprise RDS",
+      "nodeDescription": "Rénovation-Aménagement-Entretien à l&#039;année de VOS biens- Création Déco Bois - MENUISERIE-PLOMBERIE-ELECTRICITE-RATISSAGE-PLACO-PEINTURE- ARTISAN DE FRANCE CERTIFIE PAR LA CA-34350 VALRAS-PLAGE - Prestation Camping toute l&#039;année, Nettoyage Professionnelle Bois et PVC-Traitement des BOIS par saturateur, FABRICATION de Portails-Escalier-Sous-Bassement et Jardinière sur mesure",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

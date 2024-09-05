@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-09-03"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 39462,
+        "activeMonth": 2239,
+        "activeHalfyear": 5427
+      },
+      "localPosts": 1516575
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "ohai.social",
+      "nodeDescription": "A cozy, fast and secure Mastodon server where everyone is welcome. Run by the folks at ohai.is."
+    }
+  },
+  "error": null
+}

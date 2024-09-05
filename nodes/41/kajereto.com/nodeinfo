@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "misskey",
+      "version": "12.119.2"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 14,
+        "activeHalfyear": 3,
+        "activeMonth": 1
+      },
+      "localPosts": 257,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Kajereto",
+      "nodeDescription": "Misskey-servilo por esperantistoj. Ni havas verdan stelon! Atentu, ke ĉi tiu servilo ne taŭgas por perfekta sekureco: Dosieroj (bildoj ktp) estas konservitaj ĉe publike alireblaj retadresoj, do ne afiŝu tion, pri kio vi nepre volas, ke ĝi estu privata.",
+      "maintainer": {
+        "name": "jstoddard",
+        "email": "jeremiah@jeremiahstoddard.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

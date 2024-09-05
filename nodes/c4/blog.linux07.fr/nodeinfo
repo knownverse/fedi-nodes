@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 89,
+      "localComments": 50
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Linux en Ardèche",
+      "nodeDescription": "GNU/Linux et le logiciel libre en Ardèche.",
+      "nodeIcon": "https://blog.linux07.fr/wp-content/uploads/2022/12/cropped-linux07-website-favicon-color.png"
+    }
+  },
+  "error": null
+}

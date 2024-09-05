@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3119,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "IBAFIN",
+      "nodeDescription": "Financal Analysis &amp; Trading",
+      "nodeIcon": "https://ibafin.com/wp-content/uploads/2023/09/screenshot-2023-09-20-at-10.png"
+    }
+  },
+  "error": null
+}

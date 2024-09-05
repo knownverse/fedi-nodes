@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 201,
+      "localComments": 4
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Songferret",
+      "nodeDescription": "We Share New Music, Monthly playlists on Spotify and YT music",
+      "nodeIcon": "https://songferret.org/wp-content/uploads/2023/08/cropped-21e1f469-2035-45c1-8f14-eb01bbf38cb6-1.png"
+    }
+  },
+  "error": null
+}

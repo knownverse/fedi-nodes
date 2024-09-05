@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 129,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Chicken Yogi",
+      "nodeDescription": "Free Range Your Own Path To Wellness",
+      "nodeIcon": "https://assets.chickenyogi.com/wp-content/uploads/2021/07/09185936/cropped-charmed-chicken-logo-only-96.png"
+    }
+  },
+  "error": null
+}

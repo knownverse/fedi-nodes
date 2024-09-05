@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mitra",
+      "version": "3.4.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 44,
+        "activeHalfyear": 14,
+        "activeMonth": 5
+      },
+      "localPosts": 278
+    },
+    "metadata": {
+      "nodeName": "Mitra",
+      "nodeDescription": "Decentralized social network",
+      "federation": {
+        "enabled": true
+      },
+      "staffAccounts": [
+        "https://public.mitra.social/users/admin"
+      ]
+    }
+  },
+  "error": null
+}

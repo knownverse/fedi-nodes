@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 5,
+        "activeHalfyear": 5
+      },
+      "localPosts": 6627
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "NamaShirasuDon",
+      "nodeDescription": "個人用インスタンスです。\r\n\r\nhttps://in-deep.blue/bio\r\n\r\nQUIC/H3対応（幻想）しています。\r\n"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.7.0-rc2",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 627,
+        "activeHalfyear": 331,
+        "activeMonth": 2
+      },
+      "localPosts": 14,
+      "localComments": 216
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "supermeter.social",
+      "nodeDescription": "link sharing and microblogging for the fighting game community"
+    }
+  },
+  "error": null
+}

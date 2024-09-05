@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "0"
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Danika Rose Lynn | Author",
+      "nodeDescription": "Sugar, Spice, &amp; Words that Entice",
+      "nodeIcon": "https://i0.wp.com/danikalynnbooks.com/wp-content/uploads/2024/07/cropped-image-3.jpg?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

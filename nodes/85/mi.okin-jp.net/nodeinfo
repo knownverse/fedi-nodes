@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.0",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 83,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 23361,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "みおきー",
+      "nodeDescription": "みおきーはMisskeyで構築された謎の汎用インスタンスです。日本にあるので、日本の法律に則って運営されています。詳しくは@okin_p か https://www.okin-jp.net まで。\nhttps://status.okin-jp.net/",
+      "nodeAdmins": [
+        {
+          "name": "おきん",
+          "email": "https://www.okin-jp.net/contact"
+        }
+      ],
+      "maintainer": {
+        "name": "おきん",
+        "email": "https://www.okin-jp.net/contact"
+      },
+      "langs": [],
+      "tosUrl": "https://www.okin-jp.net/terms",
+      "privacyPolicyUrl": "https://www.okin-jp.net/pp",
+      "inquiryUrl": "https://www.okin-jp.net/contact",
+      "impressumUrl": "https://www.okin-jp.net/about",
+      "repositoryUrl": "https://github.com/kokonect-link/cherrypick",
+      "feedbackUrl": "https://github.com/kokonect-link/cherrypick/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy_agent",
+      "themeColor": "#31ad00"
+    }
+  },
+  "error": null
+}

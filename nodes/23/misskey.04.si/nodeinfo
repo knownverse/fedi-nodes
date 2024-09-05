@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-pie-3.3.8",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1774,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 582656,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "りんごぱい",
+      "nodeDescription": "パイは食べられた！(賽は投げられた！と同じ感じで)\nPowered by Starlamp Network Project",
+      "nodeAdmins": [
+        {
+          "name": "Starlamp Network Project/Porlam Nicla",
+          "email": "@porlam@mi.starlamp.su/@grapeapple@misskey.04.si"
+        }
+      ],
+      "maintainer": {
+        "name": "Starlamp Network Project/Porlam Nicla",
+        "email": "@porlam@mi.starlamp.su/@grapeapple@misskey.04.si"
+      },
+      "langs": [],
+      "tosUrl": "https://blog.starlamp.su/pages/tos.html",
+      "privacyPolicyUrl": "https://blog.starlamp.su/pages/privacy-policy.html",
+      "inquiryUrl": "https://04.si/contact",
+      "impressumUrl": "https://starlamp.su",
+      "repositoryUrl": "https://github.com/grapeapple0/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#eb349b"
+    }
+  },
+  "error": null
+}

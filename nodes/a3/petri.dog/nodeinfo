@@ -1,0 +1,2054 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "akkoma:machine_translation",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "076.moe",
+            "0xspace.social",
+            "10minutepleroma.com",
+            "1611.social",
+            "5dollah.click",
+            "7td.org",
+            "80percent.social",
+            "a.sc",
+            "activitypub-proxy.cf",
+            "activitypub-troll.cf",
+            "addy.gg",
+            "aethy.com",
+            "ak.kyaruc.moe",
+            "angrytoday.com",
+            "anime.website",
+            "archivefedifor.fun",
+            "asbestos.cafe",
+            "aspiechattr.me",
+            "bae.st",
+            "bar.arumoon.ru",
+            "baraag.net",
+            "bbs.kawa-kun.com",
+            "bearhole.gay",
+            "beefyboys.club",
+            "beefyboys.win",
+            "berserker.town",
+            "beta.birdsite.live",
+            "beta.mstdn.cf",
+            "bgzashtita.es",
+            "bikeshed.party",
+            "birb.elfenban.de",
+            "bird.evilcyberhacker.net",
+            "bird.froth.zone",
+            "bird.im-in.space",
+            "bird.istheguy.com",
+            "bird.nzbr.de",
+            "bird.r669.live",
+            "birdbots.leptonics.com",
+            "birdbridge.autonomy.earth",
+            "birds.im-in.space",
+            "birdsite.b93.dece.space",
+            "birdsite.blazelight.dev",
+            "birdsite.cloutier.co",
+            "birdsite.darkesttimeline.social",
+            "birdsite.frog.fashion",
+            "birdsite.gabeappleton.me",
+            "birdsite.gred.al",
+            "birdsite.james.moody.name",
+            "birdsite.jemverse.xyz",
+            "birdsite.lakedrops.com",
+            "birdsite.link",
+            "birdsite.mastodon.me.uk",
+            "birdsite.monster",
+            "birdsite.nytpu.com",
+            "birdsite.oliviaappleton.com",
+            "birdsite.platypush.tech",
+            "birdsite.skye.cx",
+            "birdsite.slashdev.space",
+            "birdsite.spectreos.de",
+            "birdsite.tcjc.uk",
+            "birdsite.thorlaksson.com",
+            "birdsite.toot.si",
+            "birdsite.vrparty.social",
+            "birdsite.wilde.cloud",
+            "birdsitelive.bubbletea.dev",
+            "birdsitelive.ffvo.dev",
+            "birdsitelive.loca.lt",
+            "birdsitelive.moistgarbage.info",
+            "birdsitelive.peanutlasko.com",
+            "birdsitelive.treffler.cloud",
+            "bitcoinhackers.org",
+            "bittube.video",
+            "blob.cat",
+            "blockedur.mom",
+            "bofh.social",
+            "boingo00.wtf",
+            "botsin.space",
+            "boyter.org",
+            "brands.town",
+            "breastmilk.club",
+            "bridge.birb.space",
+            "brighteon.social",
+            "bruh.homd.xyz",
+            "bsd.moe",
+            "bsl.sid500.com",
+            "bsl.tuxz.one",
+            "buckeye.social",
+            "buildthatwallandmakeamericagreatagain.trumpislovetrumpis.life",
+            "bungle.online",
+            "cachapa.xyz",
+            "calobar.club",
+            "catgirl.life",
+            "cawfee.club",
+            "childpawn.shop",
+            "chudbuds.lol",
+            "cliterati.club",
+            "cloudisland.online",
+            "clubcyberia.co",
+            "cnet.site",
+            "cocaine.moe",
+            "cock.fish",
+            "comfy.moe",
+            "comfyboy.club",
+            "contrapointsfan.club",
+            "coom.club",
+            "crucible.world",
+            "cryptodon.lol",
+            "cryptotalks.social",
+            "cum.camp",
+            "cum.desupost.soy",
+            "cum.salon",
+            "cyberstorm.one",
+            "d-fens.systems",
+            "daffodil-11.org",
+            "danksquad.org",
+            "detroitriotcity.com",
+            "dirtyhobby.xyz",
+            "disqordia.space",
+            "dlf.social",
+            "dobbs.town",
+            "duckdns.org",
+            "durst.world",
+            "eatthebugs.social",
+            "eientei.org",
+            "eightpoint.app",
+            "elekk.xyz",
+            "endtimebelievers.com",
+            "epic.meme.moe",
+            "eveningzoo.club",
+            "f.haeder.net",
+            "fed.alteregocreations.com",
+            "fed.calp.de",
+            "fed.celp.de",
+            "federated.fun",
+            "fedi.absturztau.be",
+            "fedi.app",
+            "fedi.aria.dog",
+            "fedi.lucasvl.nl",
+            "fedi.pawlicker.com",
+            "fediverse.bbad.com",
+            "feminism.lgbt",
+            "feral.cafe",
+            "fightthis.net",
+            "firebird.mullet.social",
+            "fluf.club",
+            "fr13nd5.com",
+            "freak.university",
+            "freeatlantis.com",
+            "freecumextremist.com",
+            "freefedifollowers.ga",
+            "freehold.earth",
+            "freesoftwareextremist.com",
+            "freespeech.firedragonstudios.com",
+            "freespeechextremist.com",
+            "freezepeach.online",
+            "freezepeach.xyz",
+            "frennet.xyz",
+            "frens.mahodou.moe",
+            "friendica.eskimo.com",
+            "froth.zone",
+            "gab.ai",
+            "gab.com",
+            "gameliberty.club",
+            "gangstalking.services",
+            "gasthe.lgbt",
+            "gearlandia.haus",
+            "gegenstimme.tv",
+            "genderheretics.xyz",
+            "getgle.org",
+            "ghetti.monster",
+            "girevik.su",
+            "gitmo.life",
+            "gleasonator.com",
+            "glindr.org",
+            "globalfrens.com",
+            "glowers.club",
+            "gnuhacker.org",
+            "gorf.pub",
+            "helladoge.com",
+            "hentai.baby",
+            "hieron.cc",
+            "hirad.it",
+            "honkwerx.tech",
+            "hunk.city",
+            "husk.site",
+            "iddqd.social",
+            "ignorelist.com",
+            "ihatebeinga.live",
+            "inex.rocks",
+            "instinctd.com",
+            "intkos.link",
+            "itmslaves.com",
+            "jaeger.website",
+            "jir.moe",
+            "jiyu.dev",
+            "kazv.moe",
+            "kenfm.quadplay.tv",
+            "kitsunemimi.club",
+            "kiwifarms.cc",
+            "kiwifarms.is",
+            "kiwifarms.net",
+            "kolektiva.social",
+            "krdtube.org",
+            "kurosawa.moe",
+            "kys.moe",
+            "lain.sh",
+            "leafposter.club",
+            "leftlibertarian.club",
+            "letsalllovela.in",
+            "lgbtfree.zone",
+            "liberdon.com",
+            "librem.one",
+            "librenet.co.za",
+            "libtar.de",
+            "ligma.pro",
+            "lizards.live",
+            "loli.best",
+            "lolicon.rocks",
+            "lolison.network",
+            "lolison.top",
+            "lush.moe",
+            "mahodou.moe",
+            "maladaptive.art",
+            "mas.glowing.surf",
+            "masochi.st",
+            "mastinator.com",
+            "mastindia.co",
+            "mastodon.cloud",
+            "mastodon.heavyrubberslave.com",
+            "mastodon.hirad.it",
+            "mastodon.network",
+            "mastodon.popps.org",
+            "mastodon.se",
+            "mastodon.teia.art",
+            "mastodon.xaetacore.net",
+            "mastodong.lol",
+            "mastodonhub.com",
+            "meatbag.app",
+            "mediastodon.com",
+            "medic.cafe",
+            "megamast.io",
+            "minidisc.tokyo",
+            "mirr0r.city",
+            "misc.brainsoap.net",
+            "misskey-forkbomb",
+            "misskey-forkbomb.cf",
+            "misskey.kusoneko.moe",
+            "misskey.sharivegas.com",
+            "misskey.shinaaamo.com",
+            "mk.starnix.network",
+            "moa.st",
+            "monads.online",
+            "monstergirl.space",
+            "morale.ch",
+            "mouse.services",
+            "mstdn.foxfam.club",
+            "mstdn.jp",
+            "mstdn.starnix.network",
+            "mugicha.club",
+            "my.dirtyhobby.xyz",
+            "nafo.uk",
+            "natehiggers.online",
+            "nationaljustice.social",
+            "nazi.social",
+            "neckbeard.xyz",
+            "neenster.org",
+            "news.twtr.plus",
+            "newsbots.eu",
+            "nicecrew.digital",
+            "nightshift.social",
+            "nnia.space",
+            "noagendasocial.com",
+            "nobodyhasthe.biz",
+            "normie.cafe",
+            "not.acu.lt",
+            "notbird.site",
+            "ns.auction",
+            "outerheaven.club",
+            "outpoa.st",
+            "owlper.ch",
+            "patriot.online",
+            "pawoo.net",
+            "paypig.org",
+            "pedo.school",
+            "peertube.se",
+            "pengi-san.moe",
+            "pieville.net",
+            "pirateradio.social",
+            "pisskey.io",
+            "pixelart.moe",
+            "pizzaf.art",
+            "pkteerium.xyz",
+            "pl.anon-kenkai.com",
+            "pl.kitsunemimi.club",
+            "pl.slash.cl",
+            "pl.smuglo.li",
+            "pl.starnix.network",
+            "pl.tkammer.de",
+            "pl.valkyrie.world",
+            "pl.wowana.me",
+            "play.xmr.101010.pl",
+            "pleroma.foxarmy.org",
+            "pleroma.fun",
+            "pleroma.karjalazet.se",
+            "pleroma.kitsunemimi.club",
+            "pleroma.kiwifarms.net",
+            "pleroma.narrativerry.xyz",
+            "pleroma.nobodyhasthe.biz",
+            "pleroma.skyshanty.xyz",
+            "pleroma.us",
+            "poa.st",
+            "poast.eth",
+            "poast.org",
+            "poast.tv",
+            "pooper.social",
+            "porntoot.com",
+            "poster.place",
+            "posting.lolicon.rocks",
+            "poweredbycocaine.com",
+            "psyopshop.com",
+            "qoto.org",
+            "quanta.wiki",
+            "quey.org",
+            "r18.social",
+            "rakket.app",
+            "rapefeminists.network",
+            "rapemeat.solutions",
+            "raplst.town",
+            "raspberrypi.social",
+            "rawr-xd.club",
+            "rayci.st",
+            "rdrama.cc",
+            "real.dogsex.org",
+            "rebelbase.site",
+            "refusal.biz",
+            "refusal.llc",
+            "repl.co",
+            "respublicae.eu",
+            "retroedge.tech",
+            "rfsl.bz",
+            "rojogato.com",
+            "ryona.agency",
+            "sb.greenboys.club",
+            "schwartzwelt.xyz",
+            "scots.network",
+            "seal.cafe",
+            "sealion.club",
+            "searchtodon.social",
+            "seo.chat",
+            "servernerds.net",
+            "shelter.moe",
+            "shigusegubu.club",
+            "shitpisscum.mooo.com",
+            "shitpost.cloud",
+            "shitpost.poridge.club",
+            "shitposter.club",
+            "shitposting.army",
+            "shortstackran.ch",
+            "shota.house",
+            "shota.social",
+            "sinblr.com",
+            "skippers-bin.com",
+            "sleepy.cafe",
+            "sleepy.place",
+            "sneak.berlin",
+            "sneed.social",
+            "social.076.ne.jp",
+            "social.ancreport.com",
+            "social.anoxinon.de",
+            "social.cbinary.sk",
+            "social.epenguin.com",
+            "social.freetalklive.com",
+            "social.goip.de",
+            "social.handholding.io",
+            "social.lovingexpressions.net",
+            "social.medusmedia.com",
+            "social.mrhands.horse",
+            "social.projectsegfau.lt",
+            "social.quodverum.com",
+            "social.realnephestate.xyz",
+            "social.sphere.com.ai",
+            "social.teci.world",
+            "social.urspringer.de",
+            "social.wideboys.org",
+            "social.xcess.one",
+            "societal.co",
+            "solagg.com",
+            "spank.ws",
+            "speakfree.world",
+            "sperg.city",
+            "spinster.xyz",
+            "springbo.cc",
+            "squid.kids",
+            "stars.eroaward.com",
+            "stereophonic.space",
+            "strelizia.net",
+            "switter.at",
+            "tastingtraffic.net",
+            "taullo.social",
+            "tavern.drow.be",
+            "terrible.place",
+            "the.talesofmy.life",
+            "thechad.zone",
+            "thepostearthdestination.com",
+            "theres.life",
+            "toot.love",
+            "troll.cafe",
+            "trumpislovetrumpis.life",
+            "truthsocial.co.in",
+            "truthsocial.com",
+            "truthsocialpro.org",
+            "tsukihi.me",
+            "tube.kenfm.de",
+            "tube.querdenken-711.de",
+            "tweet.pasture.moe",
+            "tweetbridge.kogasa.de",
+            "tweets.icu",
+            "twitiverse.com",
+            "twitter.1d4.us",
+            "twitter.activitypub.actor",
+            "twitter.doesnotexist.club",
+            "twitter.grants.cafe",
+            "twitterbridge.jannis.rocks",
+            "twtr.carnivore.social",
+            "twtr.disqordia.space",
+            "twtr.plus",
+            "twtr.vrij.social",
+            "twtr.wappie.land",
+            "unsafe.space",
+            "urchan.org",
+            "ursal.zone",
+            "varishangout.net",
+            "vuju.com",
+            "wagesofsinisdeath.com",
+            "waifu.social",
+            "waifuappreciation.club",
+            "waifuism.life",
+            "wake.st",
+            "weedis.life",
+            "were.social",
+            "whinge.town",
+            "wideboys.org",
+            "wiki-tube.de",
+            "witches.live",
+            "wolfgirl.bar",
+            "workers.dev",
+            "worm.pink",
+            "x0f.org",
+            "xhais.love",
+            "xn--p1abe3d.xn--80asehdb",
+            "xn--rtta-qoa.nu",
+            "xscape.top",
+            "xxxtumblr.org",
+            "yggdrasil.social",
+            "youjo.love",
+            "zedsocial.ca",
+            "zetamu.club",
+            "zwezo.o-k-i.net",
+            "zztails.gay",
+            "zztails.online",
+            "zztails.wtf"
+          ],
+          "media_removal": [],
+          "media_nsfw": [],
+          "federated_timeline_removal": [],
+          "report_removal": [],
+          "followers_only": [],
+          "avatar_removal": [],
+          "banner_removal": [],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw",
+            "r18",
+            "canpoli",
+            "onpoli",
+            "abpoli",
+            "skpoli",
+            "saskpoli",
+            "bcpoli",
+            "nbpoli",
+            "tf",
+            "transfur",
+            "feral",
+            "nwtpoli",
+            "nupoli",
+            "qcpoli",
+            "peipoli",
+            "nflpoli",
+            "trump",
+            "democrat",
+            "republican",
+            "politics",
+            "fatfur",
+            "vore",
+            "transformation"
+          ],
+          "reject": [
+            "abdl",
+            "diaperfur",
+            "babyfur",
+            "bestiality"
+          ],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": false,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "HashtagPolicy",
+          "SimplePolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "twitiverse.com": {
+              "reason": "Blocklist"
+            },
+            "sleepy.place": {
+              "reason": "Blocklist"
+            },
+            "gnuhacker.org": {
+              "reason": "Blocklist"
+            },
+            "kolektiva.social": {
+              "reason": "Blocklist"
+            },
+            "beta.birdsite.live": {
+              "reason": "Blocklist"
+            },
+            "pleroma.skyshanty.xyz": {
+              "reason": "Blocklist"
+            },
+            "pooper.social": {
+              "reason": "Blocklist"
+            },
+            "ak.kyaruc.moe": {
+              "reason": "Blocklist"
+            },
+            "076.moe": {
+              "reason": "Blocklist"
+            },
+            "pleroma.us": {
+              "reason": "Blocklist"
+            },
+            "fed.calp.de": {
+              "reason": "Blocklist"
+            },
+            "real.dogsex.org": {
+              "reason": "Blocklist"
+            },
+            "mstdn.starnix.network": {
+              "reason": "Blocklist"
+            },
+            "misskey-forkbomb": {
+              "reason": "Blocklist"
+            },
+            "worm.pink": {
+              "reason": "Blocklist"
+            },
+            "owlper.ch": {
+              "reason": "Blocklist"
+            },
+            "hieron.cc": {
+              "reason": "Blocklist"
+            },
+            "disqordia.space": {
+              "reason": "Blocklist"
+            },
+            "mstdn.foxfam.club": {
+              "reason": "Blocklist"
+            },
+            "fediverse.bbad.com": {
+              "reason": "Blocklist"
+            },
+            "honkwerx.tech": {
+              "reason": "Blocklist"
+            },
+            "itmslaves.com": {
+              "reason": "Blocklist"
+            },
+            "psyopshop.com": {
+              "reason": "Blocklist"
+            },
+            "shortstackran.ch": {
+              "reason": "Blocklist"
+            },
+            "news.twtr.plus": {
+              "reason": "Blocklist"
+            },
+            "nazi.social": {
+              "reason": "Blocklist"
+            },
+            "tube.querdenken-711.de": {
+              "reason": "Blocklist"
+            },
+            "vuju.com": {
+              "reason": "Blocklist"
+            },
+            "comfy.moe": {
+              "reason": "Blocklist"
+            },
+            "pleroma.fun": {
+              "reason": "Blocklist"
+            },
+            "misskey-forkbomb.cf": {
+              "reason": "Blocklist"
+            },
+            "cnet.site": {
+              "reason": "Blocklist"
+            },
+            "1611.social": {
+              "reason": "Blocklist"
+            },
+            "mstdn.jp": {
+              "reason": "Blocklist"
+            },
+            "not.acu.lt": {
+              "reason": "Blocklist"
+            },
+            "social.teci.world": {
+              "reason": "Blocklist"
+            },
+            "d-fens.systems": {
+              "reason": "Blocklist"
+            },
+            "mastinator.com": {
+              "reason": "Blocklist"
+            },
+            "twtr.plus": {
+              "reason": "Blocklist"
+            },
+            "spinster.xyz": {
+              "reason": "Blocklist"
+            },
+            "freesoftwareextremist.com": {
+              "reason": "Blocklist"
+            },
+            "mastindia.co": {
+              "reason": "Blocklist"
+            },
+            "jir.moe": {
+              "reason": "Blocklist"
+            },
+            "bikeshed.party": {
+              "reason": "Blocklist"
+            },
+            "addy.gg": {
+              "reason": "Blocklist"
+            },
+            "beefyboys.club": {
+              "reason": "Blocklist"
+            },
+            "social.medusmedia.com": {
+              "reason": "Blocklist"
+            },
+            "social.goip.de": {
+              "reason": "Blocklist"
+            },
+            "mk.starnix.network": {
+              "reason": "Blocklist"
+            },
+            "seo.chat": {
+              "reason": "Blocklist"
+            },
+            "pl.anon-kenkai.com": {
+              "reason": "Blocklist"
+            },
+            "trumpislovetrumpis.life": {
+              "reason": "Blocklist"
+            },
+            "endtimebelievers.com": {
+              "reason": "Blocklist"
+            },
+            "bitcoinhackers.org": {
+              "reason": "Blocklist"
+            },
+            "birdsite.gabeappleton.me": {
+              "reason": "Blocklist"
+            },
+            "tweet.pasture.moe": {
+              "reason": "Blocklist"
+            },
+            "5dollah.click": {
+              "reason": "Blocklist"
+            },
+            "duckdns.org": {
+              "reason": "Blocklist"
+            },
+            "refusal.biz": {
+              "reason": "Blocklist"
+            },
+            "moa.st": {
+              "reason": "Blocklist"
+            },
+            "krdtube.org": {
+              "reason": "Blocklist"
+            },
+            "f.haeder.net": {
+              "reason": "Blocklist"
+            },
+            "birds.im-in.space": {
+              "reason": "Blocklist"
+            },
+            "nicecrew.digital": {
+              "reason": "Blocklist"
+            },
+            "bruh.homd.xyz": {
+              "reason": "Blocklist"
+            },
+            "letsalllovela.in": {
+              "reason": "Blocklist"
+            },
+            "rayci.st": {
+              "reason": "Blocklist"
+            },
+            "ignorelist.com": {
+              "reason": "Blocklist"
+            },
+            "cyberstorm.one": {
+              "reason": "Blocklist"
+            },
+            "tastingtraffic.net": {
+              "reason": "Blocklist"
+            },
+            "waifuism.life": {
+              "reason": "Blocklist"
+            },
+            "thechad.zone": {
+              "reason": "Blocklist"
+            },
+            "neenster.org": {
+              "reason": "Blocklist"
+            },
+            "gasthe.lgbt": {
+              "reason": "Blocklist"
+            },
+            "7td.org": {
+              "reason": "Blocklist"
+            },
+            "societal.co": {
+              "reason": "Blocklist"
+            },
+            "poweredbycocaine.com": {
+              "reason": "Blocklist"
+            },
+            "gearlandia.haus": {
+              "reason": "Blocklist"
+            },
+            "sneed.social": {
+              "reason": "Blocklist"
+            },
+            "birdsite.oliviaappleton.com": {
+              "reason": "Blocklist"
+            },
+            "shitpost.cloud": {
+              "reason": "Blocklist"
+            },
+            "solagg.com": {
+              "reason": "Blocklist"
+            },
+            "twitterbridge.jannis.rocks": {
+              "reason": "Blocklist"
+            },
+            "zztails.online": {
+              "reason": "Blocklist"
+            },
+            "shitpost.poridge.club": {
+              "reason": "Blocklist"
+            },
+            "hirad.it": {
+              "reason": "Blocklist"
+            },
+            "birdbots.leptonics.com": {
+              "reason": "Blocklist"
+            },
+            "thepostearthdestination.com": {
+              "reason": "Blocklist"
+            },
+            "sneak.berlin": {
+              "reason": "Blocklist"
+            },
+            "kurosawa.moe": {
+              "reason": "Blocklist"
+            },
+            "pengi-san.moe": {
+              "reason": "Blocklist"
+            },
+            "fluf.club": {
+              "reason": "Blocklist"
+            },
+            "tsukihi.me": {
+              "reason": "Blocklist"
+            },
+            "bgzashtita.es": {
+              "reason": "Blocklist"
+            },
+            "mahodou.moe": {
+              "reason": "Blocklist"
+            },
+            "leftlibertarian.club": {
+              "reason": "Blocklist"
+            },
+            "girevik.su": {
+              "reason": "Blocklist"
+            },
+            "jaeger.website": {
+              "reason": "Blocklist"
+            },
+            "lain.sh": {
+              "reason": "Blocklist"
+            },
+            "sinblr.com": {
+              "reason": "Blocklist"
+            },
+            "comfyboy.club": {
+              "reason": "Blocklist"
+            },
+            "toot.love": {
+              "reason": "Blocklist"
+            },
+            "social.quodverum.com": {
+              "reason": "Blocklist"
+            },
+            "porntoot.com": {
+              "reason": "Blocklist"
+            },
+            "pizzaf.art": {
+              "reason": "Blocklist"
+            },
+            "eatthebugs.social": {
+              "reason": "Blocklist"
+            },
+            "spank.ws": {
+              "reason": "Blocklist"
+            },
+            "social.sphere.com.ai": {
+              "reason": "Blocklist"
+            },
+            "pl.wowana.me": {
+              "reason": "Blocklist"
+            },
+            "monads.online": {
+              "reason": "Blocklist"
+            },
+            "fed.alteregocreations.com": {
+              "reason": "Blocklist"
+            },
+            "beta.mstdn.cf": {
+              "reason": "Blocklist"
+            },
+            "minidisc.tokyo": {
+              "reason": "Blocklist"
+            },
+            "archivefedifor.fun": {
+              "reason": "Blocklist"
+            },
+            "crucible.world": {
+              "reason": "Blocklist"
+            },
+            "shitposter.club": {
+              "reason": "Blocklist"
+            },
+            "bungle.online": {
+              "reason": "Blocklist"
+            },
+            "twtr.carnivore.social": {
+              "reason": "Blocklist"
+            },
+            "troll.cafe": {
+              "reason": "Blocklist"
+            },
+            "helladoge.com": {
+              "reason": "Blocklist"
+            },
+            "ryona.agency": {
+              "reason": "Blocklist"
+            },
+            "pl.valkyrie.world": {
+              "reason": "Blocklist"
+            },
+            "mastodong.lol": {
+              "reason": "Blocklist"
+            },
+            "cum.salon": {
+              "reason": "Blocklist"
+            },
+            "misc.brainsoap.net": {
+              "reason": "Blocklist"
+            },
+            "a.sc": {
+              "reason": "Blocklist"
+            },
+            "globalfrens.com": {
+              "reason": "Blocklist"
+            },
+            "pleroma.foxarmy.org": {
+              "reason": "Blocklist"
+            },
+            "nnia.space": {
+              "reason": "Blocklist"
+            },
+            "respublicae.eu": {
+              "reason": "Blocklist"
+            },
+            "blob.cat": {
+              "reason": "Blocklist"
+            },
+            "pirateradio.social": {
+              "reason": "Blocklist"
+            },
+            "dirtyhobby.xyz": {
+              "reason": "Blocklist"
+            },
+            "leafposter.club": {
+              "reason": "Blocklist"
+            },
+            "ligma.pro": {
+              "reason": "Blocklist"
+            },
+            "fedi.lucasvl.nl": {
+              "reason": "Blocklist"
+            },
+            "raspberrypi.social": {
+              "reason": "Blocklist"
+            },
+            "instinctd.com": {
+              "reason": "Blocklist"
+            },
+            "nafo.uk": {
+              "reason": "Blocklist"
+            },
+            "birdsite.link": {
+              "reason": "Blocklist"
+            },
+            "shelter.moe": {
+              "reason": "Blocklist"
+            },
+            "social.epenguin.com": {
+              "reason": "Blocklist"
+            },
+            "bsl.tuxz.one": {
+              "reason": "Blocklist"
+            },
+            "libtar.de": {
+              "reason": "Blocklist"
+            },
+            "misskey.shinaaamo.com": {
+              "reason": "Blocklist"
+            },
+            "inex.rocks": {
+              "reason": "Blocklist"
+            },
+            "freespeechextremist.com": {
+              "reason": "Blocklist"
+            },
+            "breastmilk.club": {
+              "reason": "Blocklist"
+            },
+            "freefedifollowers.ga": {
+              "reason": "Blocklist"
+            },
+            "rapemeat.solutions": {
+              "reason": "Blocklist"
+            },
+            "squid.kids": {
+              "reason": "Blocklist"
+            },
+            "pl.starnix.network": {
+              "reason": "Blocklist"
+            },
+            "boyter.org": {
+              "reason": "Blocklist"
+            },
+            "cock.fish": {
+              "reason": "Blocklist"
+            },
+            "rapefeminists.network": {
+              "reason": "Blocklist"
+            },
+            "bearhole.gay": {
+              "reason": "Blocklist"
+            },
+            "freak.university": {
+              "reason": "Blocklist"
+            },
+            "cliterati.club": {
+              "reason": "Blocklist"
+            },
+            "lush.moe": {
+              "reason": "Blocklist"
+            },
+            "gitmo.life": {
+              "reason": "Blocklist"
+            },
+            "gameliberty.club": {
+              "reason": "Blocklist"
+            },
+            "detroitriotcity.com": {
+              "reason": "Blocklist"
+            },
+            "nightshift.social": {
+              "reason": "Blocklist"
+            },
+            "beefyboys.win": {
+              "reason": "Blocklist"
+            },
+            "lolison.top": {
+              "reason": "Blocklist"
+            },
+            "servernerds.net": {
+              "reason": "Blocklist"
+            },
+            "birdbridge.autonomy.earth": {
+              "reason": "Blocklist"
+            },
+            "social.realnephestate.xyz": {
+              "reason": "Blocklist"
+            },
+            "calobar.club": {
+              "reason": "Blocklist"
+            },
+            "bird.im-in.space": {
+              "reason": "Blocklist"
+            },
+            "gleasonator.com": {
+              "reason": "Blocklist"
+            },
+            "coom.club": {
+              "reason": "Blocklist"
+            },
+            "tweets.icu": {
+              "reason": "Blocklist"
+            },
+            "rakket.app": {
+              "reason": "Blocklist"
+            },
+            "fightthis.net": {
+              "reason": "Blocklist"
+            },
+            "the.talesofmy.life": {
+              "reason": "Blocklist"
+            },
+            "birdsitelive.loca.lt": {
+              "reason": "Blocklist"
+            },
+            "xn--p1abe3d.xn--80asehdb": {
+              "reason": "Blocklist"
+            },
+            "birdsitelive.ffvo.dev": {
+              "reason": "Blocklist"
+            },
+            "retroedge.tech": {
+              "reason": "Blocklist"
+            },
+            "tweetbridge.kogasa.de": {
+              "reason": "Blocklist"
+            },
+            "aethy.com": {
+              "reason": "Blocklist"
+            },
+            "cum.desupost.soy": {
+              "reason": "Blocklist"
+            },
+            "varishangout.net": {
+              "reason": "Blocklist"
+            },
+            "social.mrhands.horse": {
+              "reason": "Blocklist"
+            },
+            "speakfree.world": {
+              "reason": "Blocklist"
+            },
+            "birdsite.james.moody.name": {
+              "reason": "Blocklist"
+            },
+            "elekk.xyz": {
+              "reason": "Blocklist"
+            },
+            "gegenstimme.tv": {
+              "reason": "Blocklist"
+            },
+            "wake.st": {
+              "reason": "Blocklist"
+            },
+            "birdsitelive.bubbletea.dev": {
+              "reason": "Blocklist"
+            },
+            "mastodon.se": {
+              "reason": "Blocklist"
+            },
+            "weedis.life": {
+              "reason": "Blocklist"
+            },
+            "danksquad.org": {
+              "reason": "Blocklist"
+            },
+            "mirr0r.city": {
+              "reason": "Blocklist"
+            },
+            "bird.froth.zone": {
+              "reason": "Blocklist"
+            },
+            "bofh.social": {
+              "reason": "Blocklist"
+            },
+            "freezepeach.online": {
+              "reason": "Blocklist"
+            },
+            "sb.greenboys.club": {
+              "reason": "Blocklist"
+            },
+            "switter.at": {
+              "reason": "Blocklist"
+            },
+            "kiwifarms.is": {
+              "reason": "Blocklist"
+            },
+            "birdsitelive.peanutlasko.com": {
+              "reason": "Blocklist"
+            },
+            "birb.elfenban.de": {
+              "reason": "Blocklist"
+            },
+            "feminism.lgbt": {
+              "reason": "Blocklist"
+            },
+            "blockedur.mom": {
+              "reason": "Blocklist"
+            },
+            "pl.kitsunemimi.club": {
+              "reason": "Blocklist"
+            },
+            "birdsite.monster": {
+              "reason": "Blocklist"
+            },
+            "eveningzoo.club": {
+              "reason": "Blocklist"
+            },
+            "sealion.club": {
+              "reason": "Blocklist"
+            },
+            "gorf.pub": {
+              "reason": "Blocklist"
+            },
+            "epic.meme.moe": {
+              "reason": "Blocklist"
+            },
+            "medic.cafe": {
+              "reason": "Blocklist"
+            },
+            "80percent.social": {
+              "reason": "Blocklist"
+            },
+            "feral.cafe": {
+              "reason": "Blocklist"
+            },
+            "birdsite.tcjc.uk": {
+              "reason": "Blocklist"
+            },
+            "my.dirtyhobby.xyz": {
+              "reason": "Blocklist"
+            },
+            "liberdon.com": {
+              "reason": "Blocklist"
+            },
+            "searchtodon.social": {
+              "reason": "Blocklist"
+            },
+            "birdsite.blazelight.dev": {
+              "reason": "Blocklist"
+            },
+            "poast.eth": {
+              "reason": "Blocklist"
+            },
+            "pleroma.narrativerry.xyz": {
+              "reason": "Blocklist"
+            },
+            "seal.cafe": {
+              "reason": "Blocklist"
+            },
+            "social.ancreport.com": {
+              "reason": "Blocklist"
+            },
+            "birdsite.frog.fashion": {
+              "reason": "Blocklist"
+            },
+            "botsin.space": {
+              "reason": "Blocklist"
+            },
+            "xxxtumblr.org": {
+              "reason": "Blocklist"
+            },
+            "whinge.town": {
+              "reason": "Blocklist"
+            },
+            "sleepy.cafe": {
+              "reason": "Blocklist"
+            },
+            "birdsite.cloutier.co": {
+              "reason": "Blocklist"
+            },
+            "freeatlantis.com": {
+              "reason": "Blocklist"
+            },
+            "waifu.social": {
+              "reason": "Blocklist"
+            },
+            "posting.lolicon.rocks": {
+              "reason": "Blocklist"
+            },
+            "fed.celp.de": {
+              "reason": "Blocklist"
+            },
+            "shigusegubu.club": {
+              "reason": "Blocklist"
+            },
+            "mastodonhub.com": {
+              "reason": "Blocklist"
+            },
+            "kiwifarms.net": {
+              "reason": "Blocklist"
+            },
+            "ns.auction": {
+              "reason": "Blocklist"
+            },
+            "neckbeard.xyz": {
+              "reason": "Blocklist"
+            },
+            "frens.mahodou.moe": {
+              "reason": "Blocklist"
+            },
+            "cloudisland.online": {
+              "reason": "Blocklist"
+            },
+            "bar.arumoon.ru": {
+              "reason": "Blocklist"
+            },
+            "outerheaven.club": {
+              "reason": "Blocklist"
+            },
+            "lolicon.rocks": {
+              "reason": "Blocklist"
+            },
+            "gab.ai": {
+              "reason": "Blocklist"
+            },
+            "10minutepleroma.com": {
+              "reason": "Blocklist"
+            },
+            "birdsite.vrparty.social": {
+              "reason": "Blocklist"
+            },
+            "waifuappreciation.club": {
+              "reason": "Blocklist"
+            },
+            "kazv.moe": {
+              "reason": "Blocklist"
+            },
+            "freecumextremist.com": {
+              "reason": "Blocklist"
+            },
+            "terrible.place": {
+              "reason": "Blocklist"
+            },
+            "truthsocial.com": {
+              "reason": "Blocklist"
+            },
+            "kys.moe": {
+              "reason": "Blocklist"
+            },
+            "eientei.org": {
+              "reason": "Blocklist"
+            },
+            "maladaptive.art": {
+              "reason": "Blocklist"
+            },
+            "pl.tkammer.de": {
+              "reason": "Blocklist"
+            },
+            "rdrama.cc": {
+              "reason": "Blocklist"
+            },
+            "bittube.video": {
+              "reason": "Blocklist"
+            },
+            "birdsite.jemverse.xyz": {
+              "reason": "Blocklist"
+            },
+            "birdsite.darkesttimeline.social": {
+              "reason": "Blocklist"
+            },
+            "wolfgirl.bar": {
+              "reason": "Blocklist"
+            },
+            "social.076.ne.jp": {
+              "reason": "Blocklist"
+            },
+            "jiyu.dev": {
+              "reason": "Blocklist"
+            },
+            "twtr.disqordia.space": {
+              "reason": "Blocklist"
+            },
+            "bridge.birb.space": {
+              "reason": "Blocklist"
+            },
+            "x0f.org": {
+              "reason": "Blocklist"
+            },
+            "pl.slash.cl": {
+              "reason": "Blocklist"
+            },
+            "bird.nzbr.de": {
+              "reason": "Blocklist"
+            },
+            "masochi.st": {
+              "reason": "Blocklist"
+            },
+            "cum.camp": {
+              "reason": "Blocklist"
+            },
+            "birdsite.b93.dece.space": {
+              "reason": "Blocklist"
+            },
+            "bsd.moe": {
+              "reason": "Blocklist"
+            },
+            "mastodon.teia.art": {
+              "reason": "Blocklist"
+            },
+            "wiki-tube.de": {
+              "reason": "Blocklist"
+            },
+            "glindr.org": {
+              "reason": "Blocklist"
+            },
+            "springbo.cc": {
+              "reason": "Blocklist"
+            },
+            "birdsite.gred.al": {
+              "reason": "Blocklist"
+            },
+            "stereophonic.space": {
+              "reason": "Blocklist"
+            },
+            "childpawn.shop": {
+              "reason": "Blocklist"
+            },
+            "dlf.social": {
+              "reason": "Blocklist"
+            },
+            "fedi.pawlicker.com": {
+              "reason": "Blocklist"
+            },
+            "fedi.aria.dog": {
+              "reason": "Blocklist"
+            },
+            "noagendasocial.com": {
+              "reason": "Blocklist"
+            },
+            "paypig.org": {
+              "reason": "Blocklist"
+            },
+            "zedsocial.ca": {
+              "reason": "Blocklist"
+            },
+            "freehold.earth": {
+              "reason": "Blocklist"
+            },
+            "dobbs.town": {
+              "reason": "Blocklist"
+            },
+            "zetamu.club": {
+              "reason": "Blocklist"
+            },
+            "natehiggers.online": {
+              "reason": "Blocklist"
+            },
+            "tavern.drow.be": {
+              "reason": "Blocklist"
+            },
+            "pleroma.kitsunemimi.club": {
+              "reason": "Blocklist"
+            },
+            "zztails.wtf": {
+              "reason": "Blocklist"
+            },
+            "shitposting.army": {
+              "reason": "Blocklist"
+            },
+            "contrapointsfan.club": {
+              "reason": "Blocklist"
+            },
+            "daffodil-11.org": {
+              "reason": "Blocklist"
+            },
+            "mouse.services": {
+              "reason": "Blocklist"
+            },
+            "shota.social": {
+              "reason": "Blocklist"
+            },
+            "kitsunemimi.club": {
+              "reason": "Blocklist"
+            },
+            "repl.co": {
+              "reason": "Blocklist"
+            },
+            "bae.st": {
+              "reason": "Blocklist"
+            },
+            "friendica.eskimo.com": {
+              "reason": "Blocklist"
+            },
+            "birdsite.skye.cx": {
+              "reason": "Blocklist"
+            },
+            "notbird.site": {
+              "reason": "Blocklist"
+            },
+            "monstergirl.space": {
+              "reason": "Blocklist"
+            },
+            "yggdrasil.social": {
+              "reason": "Blocklist"
+            },
+            "social.wideboys.org": {
+              "reason": "Blocklist"
+            },
+            "fedi.absturztau.be": {
+              "reason": "Blocklist"
+            },
+            "catgirl.life": {
+              "reason": "Blocklist"
+            },
+            "twitter.activitypub.actor": {
+              "reason": "Blocklist"
+            },
+            "intkos.link": {
+              "reason": "Blocklist"
+            },
+            "lgbtfree.zone": {
+              "reason": "Blocklist"
+            },
+            "husk.site": {
+              "reason": "Blocklist"
+            },
+            "cryptodon.lol": {
+              "reason": "Blocklist"
+            },
+            "quanta.wiki": {
+              "reason": "Blocklist"
+            },
+            "zztails.gay": {
+              "reason": "Blocklist"
+            },
+            "urchan.org": {
+              "reason": "Blocklist"
+            },
+            "tube.kenfm.de": {
+              "reason": "Blocklist"
+            },
+            "social.cbinary.sk": {
+              "reason": "Blocklist"
+            },
+            "poa.st": {
+              "reason": "Blocklist"
+            },
+            "birdsite.lakedrops.com": {
+              "reason": "Blocklist"
+            },
+            "truthsocialpro.org": {
+              "reason": "Blocklist"
+            },
+            "getgle.org": {
+              "reason": "Blocklist"
+            },
+            "frennet.xyz": {
+              "reason": "Blocklist"
+            },
+            "xhais.love": {
+              "reason": "Blocklist"
+            },
+            "quey.org": {
+              "reason": "Blocklist"
+            },
+            "poster.place": {
+              "reason": "Blocklist"
+            },
+            "were.social": {
+              "reason": "Blocklist"
+            },
+            "anime.website": {
+              "reason": "Blocklist"
+            },
+            "froth.zone": {
+              "reason": "Blocklist"
+            },
+            "misskey.sharivegas.com": {
+              "reason": "Blocklist"
+            },
+            "taullo.social": {
+              "reason": "Blocklist"
+            },
+            "birdsite.toot.si": {
+              "reason": "Blocklist"
+            },
+            "boingo00.wtf": {
+              "reason": "Blocklist"
+            },
+            "birdsite.nytpu.com": {
+              "reason": "Blocklist"
+            },
+            "social.urspringer.de": {
+              "reason": "Blocklist"
+            },
+            "morale.ch": {
+              "reason": "Blocklist"
+            },
+            "raplst.town": {
+              "reason": "Blocklist"
+            },
+            "ghetti.monster": {
+              "reason": "Blocklist"
+            },
+            "poast.org": {
+              "reason": "Blocklist"
+            },
+            "unsafe.space": {
+              "reason": "Blocklist"
+            },
+            "bird.evilcyberhacker.net": {
+              "reason": "Blocklist"
+            },
+            "baraag.net": {
+              "reason": "Blocklist"
+            },
+            "birdsitelive.treffler.cloud": {
+              "reason": "Blocklist"
+            },
+            "sperg.city": {
+              "reason": "Blocklist"
+            },
+            "newsbots.eu": {
+              "reason": "Blocklist"
+            },
+            "pawoo.net": {
+              "reason": "Blocklist"
+            },
+            "activitypub-troll.cf": {
+              "reason": "Blocklist"
+            },
+            "brands.town": {
+              "reason": "Blocklist"
+            },
+            "mediastodon.com": {
+              "reason": "Blocklist"
+            },
+            "megamast.io": {
+              "reason": "Blocklist"
+            },
+            "twtr.vrij.social": {
+              "reason": "Blocklist"
+            },
+            "mastodon.xaetacore.net": {
+              "reason": "Blocklist"
+            },
+            "bird.r669.live": {
+              "reason": "Blocklist"
+            },
+            "wideboys.org": {
+              "reason": "Blocklist"
+            },
+            "kiwifarms.cc": {
+              "reason": "Blocklist"
+            },
+            "stars.eroaward.com": {
+              "reason": "Blocklist"
+            },
+            "loli.best": {
+              "reason": "Blocklist"
+            },
+            "cawfee.club": {
+              "reason": "Blocklist"
+            },
+            "witches.live": {
+              "reason": "Blocklist"
+            },
+            "buckeye.social": {
+              "reason": "Blocklist"
+            },
+            "glowers.club": {
+              "reason": "Blocklist"
+            },
+            "pedo.school": {
+              "reason": "Blocklist"
+            },
+            "aspiechattr.me": {
+              "reason": "Blocklist"
+            },
+            "firebird.mullet.social": {
+              "reason": "Blocklist"
+            },
+            "bsl.sid500.com": {
+              "reason": "Blocklist"
+            },
+            "rojogato.com": {
+              "reason": "Blocklist"
+            },
+            "cryptotalks.social": {
+              "reason": "Blocklist"
+            },
+            "birdsite.platypush.tech": {
+              "reason": "Blocklist"
+            },
+            "social.handholding.io": {
+              "reason": "Blocklist"
+            },
+            "xn--rtta-qoa.nu": {
+              "reason": "Blocklist"
+            },
+            "rfsl.bz": {
+              "reason": "Blocklist"
+            },
+            "theres.life": {
+              "reason": "Blocklist"
+            },
+            "refusal.llc": {
+              "reason": "Blocklist"
+            },
+            "bird.istheguy.com": {
+              "reason": "Blocklist"
+            },
+            "kenfm.quadplay.tv": {
+              "reason": "Blocklist"
+            },
+            "asbestos.cafe": {
+              "reason": "Blocklist"
+            },
+            "social.lovingexpressions.net": {
+              "reason": "Blocklist"
+            },
+            "chudbuds.lol": {
+              "reason": "Blocklist"
+            },
+            "xscape.top": {
+              "reason": "Blocklist"
+            },
+            "mastodon.cloud": {
+              "reason": "Blocklist"
+            },
+            "cocaine.moe": {
+              "reason": "Blocklist"
+            },
+            "social.freetalklive.com": {
+              "reason": "Blocklist"
+            },
+            "clubcyberia.co": {
+              "reason": "Blocklist"
+            },
+            "twitter.grants.cafe": {
+              "reason": "Blocklist"
+            },
+            "truthsocial.co.in": {
+              "reason": "Blocklist"
+            },
+            "birdsite.mastodon.me.uk": {
+              "reason": "Blocklist"
+            },
+            "birdsite.slashdev.space": {
+              "reason": "Blocklist"
+            },
+            "angrytoday.com": {
+              "reason": "Blocklist"
+            },
+            "freespeech.firedragonstudios.com": {
+              "reason": "Blocklist"
+            },
+            "wagesofsinisdeath.com": {
+              "reason": "Blocklist"
+            },
+            "shota.house": {
+              "reason": "Blocklist"
+            },
+            "hentai.baby": {
+              "reason": "Blocklist"
+            },
+            "buildthatwallandmakeamericagreatagain.trumpislovetrumpis.life": {
+              "reason": "Blocklist"
+            },
+            "eightpoint.app": {
+              "reason": "Blocklist"
+            },
+            "gab.com": {
+              "reason": "Blocklist"
+            },
+            "ursal.zone": {
+              "reason": "Blocklist"
+            },
+            "librem.one": {
+              "reason": "Blocklist"
+            },
+            "birdsite.thorlaksson.com": {
+              "reason": "Blocklist"
+            },
+            "pixelart.moe": {
+              "reason": "Blocklist"
+            },
+            "mastodon.hirad.it": {
+              "reason": "Blocklist"
+            },
+            "cachapa.xyz": {
+              "reason": "Blocklist"
+            },
+            "gangstalking.services": {
+              "reason": "Blocklist"
+            },
+            "rebelbase.site": {
+              "reason": "Blocklist"
+            },
+            "brighteon.social": {
+              "reason": "Blocklist"
+            },
+            "rawr-xd.club": {
+              "reason": "Blocklist"
+            },
+            "hunk.city": {
+              "reason": "Blocklist"
+            },
+            "twtr.wappie.land": {
+              "reason": "Blocklist"
+            },
+            "nationaljustice.social": {
+              "reason": "Blocklist"
+            },
+            "mastodon.popps.org": {
+              "reason": "Blocklist"
+            },
+            "iddqd.social": {
+              "reason": "Blocklist"
+            },
+            "librenet.co.za": {
+              "reason": "Blocklist"
+            },
+            "poast.tv": {
+              "reason": "Blocklist"
+            },
+            "birdsite.spectreos.de": {
+              "reason": "Blocklist"
+            },
+            "lizards.live": {
+              "reason": "Blocklist"
+            },
+            "pleroma.kiwifarms.net": {
+              "reason": "Blocklist"
+            },
+            "r18.social": {
+              "reason": "Blocklist"
+            },
+            "birdsite.wilde.cloud": {
+              "reason": "Blocklist"
+            },
+            "pisskey.io": {
+              "reason": "Blocklist"
+            },
+            "patriot.online": {
+              "reason": "Blocklist"
+            },
+            "0xspace.social": {
+              "reason": "Blocklist"
+            },
+            "ihatebeinga.live": {
+              "reason": "Blocklist"
+            },
+            "genderheretics.xyz": {
+              "reason": "Blocklist"
+            },
+            "misskey.kusoneko.moe": {
+              "reason": "Blocklist"
+            },
+            "pl.smuglo.li": {
+              "reason": "Blocklist"
+            },
+            "federated.fun": {
+              "reason": "Blocklist"
+            },
+            "scots.network": {
+              "reason": "Blocklist"
+            },
+            "twitter.1d4.us": {
+              "reason": "Blocklist"
+            },
+            "twitter.doesnotexist.club": {
+              "reason": "Blocklist"
+            },
+            "lolison.network": {
+              "reason": "Blocklist"
+            },
+            "shitpisscum.mooo.com": {
+              "reason": "Blocklist"
+            },
+            "normie.cafe": {
+              "reason": "Blocklist"
+            },
+            "mas.glowing.surf": {
+              "reason": "Blocklist"
+            },
+            "mastodon.network": {
+              "reason": "Blocklist"
+            },
+            "nobodyhasthe.biz": {
+              "reason": "Blocklist"
+            },
+            "zwezo.o-k-i.net": {
+              "reason": "Blocklist"
+            },
+            "pleroma.karjalazet.se": {
+              "reason": "Blocklist"
+            },
+            "birdsitelive.moistgarbage.info": {
+              "reason": "Blocklist"
+            },
+            "outpoa.st": {
+              "reason": "Blocklist"
+            },
+            "meatbag.app": {
+              "reason": "Blocklist"
+            },
+            "pleroma.nobodyhasthe.biz": {
+              "reason": "Blocklist"
+            },
+            "peertube.se": {
+              "reason": "Blocklist"
+            },
+            "skippers-bin.com": {
+              "reason": "Blocklist"
+            },
+            "social.anoxinon.de": {
+              "reason": "Blocklist"
+            },
+            "youjo.love": {
+              "reason": "Blocklist"
+            },
+            "schwartzwelt.xyz": {
+              "reason": "Blocklist"
+            },
+            "mastodon.heavyrubberslave.com": {
+              "reason": "Blocklist"
+            },
+            "pkteerium.xyz": {
+              "reason": "Blocklist"
+            },
+            "bbs.kawa-kun.com": {
+              "reason": "Blocklist"
+            },
+            "strelizia.net": {
+              "reason": "Blocklist"
+            },
+            "qoto.org": {
+              "reason": "Blocklist"
+            },
+            "activitypub-proxy.cf": {
+              "reason": "Blocklist"
+            },
+            "play.xmr.101010.pl": {
+              "reason": "Blocklist"
+            },
+            "freezepeach.xyz": {
+              "reason": "Blocklist"
+            },
+            "workers.dev": {
+              "reason": "Blocklist"
+            },
+            "social.projectsegfau.lt": {
+              "reason": "Blocklist"
+            },
+            "berserker.town": {
+              "reason": "Blocklist"
+            },
+            "durst.world": {
+              "reason": "Blocklist"
+            },
+            "mugicha.club": {
+              "reason": "Blocklist"
+            },
+            "social.xcess.one": {
+              "reason": "Blocklist"
+            },
+            "fedi.app": {
+              "reason": "Blocklist"
+            },
+            "fr13nd5.com": {
+              "reason": "Blocklist"
+            },
+            "pieville.net": {
+              "reason": "Blocklist"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": false,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": false,
+      "nodeDescription": "A Single User Akkoma Instance",
+      "nodeName": "Petri -dot- Dog",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": false,
+        "federated": false
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://petri.dog/users/petri"
+      ],
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 4000000,
+        "background": 4000000,
+        "avatar": 2000000
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 7
+    },
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

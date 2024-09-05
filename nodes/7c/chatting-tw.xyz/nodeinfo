@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 33,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 109,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "公開的秘密基地(╹ڡ╹ )",
+      "nodeDescription": "歡迎來到「公開的秘密基地(╹ڡ╹ )」，這是一個由臺灣人所架設的伺服器，其主要語言為中文，成員主要來自於台港澳地區，歡迎喜愛閒聊的你/妳加入！",
+      "nodeAdmins": [
+        {
+          "name": "燕子",
+          "email": "admin@chatting-tw.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "燕子",
+        "email": "admin@chatting-tw.xyz"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": "admin",
+      "themeColor": "#f49eff"
+    }
+  },
+  "error": null
+}

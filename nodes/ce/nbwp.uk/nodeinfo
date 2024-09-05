@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 4,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 16,
+      "localComments": 36
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "NB WP UK",
+      "nodeDescription": "SEO Consultant in Stratford upon Avon",
+      "nodeIcon": "https://nbwp.uk/wp-content/uploads/2020/07/cropped-NBWP-Logo.png"
+    }
+  },
+  "error": null
+}

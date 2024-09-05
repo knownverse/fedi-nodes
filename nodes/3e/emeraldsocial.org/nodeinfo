@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 50,
+        "activeMonth": 17,
+        "activeHalfyear": 23
+      },
+      "localPosts": 17319
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Emerald Social",
+      "nodeDescription": "Emerald Social is a social network for Eugene-Springfield (Oregon) and the surrounding area, and a gateway to the world."
+    }
+  },
+  "error": null
+}

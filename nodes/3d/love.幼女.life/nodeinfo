@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "cherrypick",
+      "version": "4.11.1-yojo1.0.0",
+      "basedMisskeyVersion": "2024.8.0",
+      "homepage": "https://github.com/yojo-art/cherrypick",
+      "repository": "https://github.com/yojo-art/cherrypick"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 20057,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ろりーぴっく！",
+      "nodeDescription": "とりあえずDevelop追従しようぜ！<br>\n<img src=\"https://status2.penginn.net/api/badge/1/uptime/168?label=週間稼働率\">\n<img src=\"https://status2.penginn.net/api/badge/1/ping/24?label=API応答 直近24時間平均\">",
+      "nodeAdmins": [
+        {
+          "name": "ぺん",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "ぺん",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/yojo-art/cherrypick",
+      "feedbackUrl": "https://github.com/1673beta/cherrypick/issues/new",
+      "statusUrl": "https://status2.penginn.net/status/server",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 5120,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#bd5eb5",
+      "reversiVersion": "1.0.0-yojo"
+    }
+  },
+  "error": null
+}

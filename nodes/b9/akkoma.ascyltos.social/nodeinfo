@@ -1,0 +1,372 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "accountActivationRequired": true,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "relay",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "federatedTimelineAvailable": true,
+      "federation": {
+        "enabled": true,
+        "exclusions": false,
+        "mrf_hashtag": {
+          "federated_timeline_removal": [],
+          "reject": [],
+          "sensitive": [
+            "nsfw"
+          ]
+        },
+        "mrf_policies": [
+          "SimplePolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "NormalizeMarkup",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple": {
+          "accept": [],
+          "avatar_removal": [],
+          "background_removal": [],
+          "banner_removal": [],
+          "federated_timeline_removal": [
+            "aet**.com",
+            "mastodon.social"
+          ],
+          "followers_only": [],
+          "media_nsfw": [],
+          "media_removal": [],
+          "reject": [
+            "threads.net",
+            "kiwifarms.is",
+            "kiwifarms.cc",
+            "kiwifarms.net",
+            "gab.com",
+            "cawfee.club",
+            "cum.salon",
+            "rdrama.cc",
+            "freecumextremist.com",
+            "iddqd.social",
+            "nicecrew.digital",
+            "beefyboys.win",
+            "ryona.agency",
+            "yggdrasil.social",
+            "pieville.net",
+            "gameliberty.club",
+            "shitposter.club",
+            "detroitriotcity.com",
+            "bae.st",
+            "poa.st",
+            "cybercriminal.eu",
+            "decayable.ink",
+            "pleroma.narrativerry.xyz",
+            "seal.cafe",
+            "crlf.ninja",
+            "poster.place",
+            "dev.brighteon.social",
+            "freeatlantis.com",
+            "noagendasocial.com",
+            "chu*****.lol",
+            "re**.co",
+            "mis*************.cf",
+            "act**************.cf",
+            "ign*******.com",
+            "mas******.lol",
+            "mastinator.com",
+            "bar***.net",
+            "paw**.net",
+            "spinster.xyz",
+            "mostr.pub",
+            "boyter.org",
+            "flipboard.social",
+            "gleasonator.com",
+            "zet***.*lub",
+            "yif***.net",
+            "pac******.org",
+            "mas**.*********.net"
+          ],
+          "reject_deletes": [],
+          "report_removal": []
+        },
+        "mrf_simple_info": {
+          "federated_timeline_removal": {
+            "aet**.com": {
+              "reason": "Under review"
+            },
+            "mastodon.social": {
+              "reason": "Not enough moderation for instance size, low quality"
+            }
+          },
+          "reject": {
+            "mostr.pub": {
+              "reason": "Unmoderated bridge"
+            },
+            "bar***.net": {
+              "reason": "CSAM"
+            },
+            "mastinator.com": {
+              "reason": "Spam"
+            },
+            "spinster.xyz": {
+              "reason": "TERF"
+            },
+            "threads.net": {
+              "reason": "evil overlord"
+            },
+            "zet***.*lub": {
+              "reason": "Zoo Harbor"
+            },
+            "nicecrew.digital": {
+              "reason": "Chan posting"
+            },
+            "mis*************.cf": {
+              "reason": "Malicious code instance"
+            },
+            "mas**.*********.net": {
+              "reason": "Zoo Harbor"
+            },
+            "pac******.org": {
+              "reason": "Zoo Harbor"
+            },
+            "yif***.net": {
+              "reason": "Zoo Harbor"
+            },
+            "shitposter.club": {
+              "reason": "Chan posting"
+            },
+            "ryona.agency": {
+              "reason": "Chan Posting"
+            },
+            "cum.salon": {
+              "reason": "Chan posting"
+            },
+            "dev.brighteon.social": {
+              "reason": "Rightoid conspiracies"
+            },
+            "boyter.org": {
+              "reason": "Weird aggregator"
+            },
+            "gameliberty.club": {
+              "reason": "Chan Posting"
+            },
+            "detroitriotcity.com": {
+              "reason": "Chan posting"
+            },
+            "beefyboys.win": {
+              "reason": "Chan posting"
+            },
+            "mas******.lol": {
+              "reason": "Malicious code instance"
+            },
+            "gleasonator.com": {
+              "reason": "N/A"
+            },
+            "kiwifarms.is": {
+              "reason": "Harrasment"
+            },
+            "act**************.cf": {
+              "reason": "Malicious code instance"
+            },
+            "pleroma.narrativerry.xyz": {
+              "reason": "Chan posting"
+            },
+            "seal.cafe": {
+              "reason": "Chan posting"
+            },
+            "freeatlantis.com": {
+              "reason": "Boomer rightoids"
+            },
+            "kiwifarms.net": {
+              "reason": "Harrasment"
+            },
+            "freecumextremist.com": {
+              "reason": "Chan posting"
+            },
+            "cybercriminal.eu": {
+              "reason": "Chan posting"
+            },
+            "rdrama.cc": {
+              "reason": "Chan posting"
+            },
+            "noagendasocial.com": {
+              "reason": "Boomer rightoids"
+            },
+            "bae.st": {
+              "reason": "Chan posting"
+            },
+            "yggdrasil.social": {
+              "reason": "Chan posting"
+            },
+            "decayable.ink": {
+              "reason": "Chan posting"
+            },
+            "ign*******.com": {
+              "reason": "Malicious code instance"
+            },
+            "poa.st": {
+              "reason": "Chan posting"
+            },
+            "poster.place": {
+              "reason": "Chan posting"
+            },
+            "re**.co": {
+              "reason": "Malicious code instance"
+            },
+            "paw**.net": {
+              "reason": "CSAM"
+            },
+            "chu*****.lol": {
+              "reason": "Compromised instance"
+            },
+            "crlf.ninja": {
+              "reason": "Chan posting"
+            },
+            "kiwifarms.cc": {
+              "reason": "Harrasment"
+            },
+            "cawfee.club": {
+              "reason": "Chan posting"
+            },
+            "gab.com": {
+              "reason": "It's gab"
+            },
+            "iddqd.social": {
+              "reason": "Chan posting"
+            },
+            "flipboard.social": {
+              "reason": "Weird ad agency"
+            },
+            "pieville.net": {
+              "reason": "Chan posting"
+            }
+          }
+        },
+        "quarantined_instances": [],
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [],
+      "mailerEnabled": true,
+      "nodeDescription": "Akkoma: The cooler fediverse server",
+      "nodeName": "akkoma.ascyltos.social",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 20,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "private": false,
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "bubble": false,
+        "federated": true,
+        "local": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://akkoma.ascyltos.social/users/ascyltos"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "uploadLimits": {
+        "avatar": 2000000,
+        "background": 4000000,
+        "banner": 4000000,
+        "general": 16000000
+      }
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2"
+    },
+    "usage": {
+      "localPosts": 103,
+      "users": {
+        "activeHalfyear": 5,
+        "activeMonth": 4,
+        "total": 8
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

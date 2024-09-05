@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 941,
+      "localComments": 8010
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "netzfeuilleton.de",
+      "nodeDescription": "Medien, Meinung, Kultur",
+      "nodeIcon": "https://i0.wp.com/netzfeuilleton.de/wp-content/uploads/2013/06/cropped-netzfeuilletonlogo.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

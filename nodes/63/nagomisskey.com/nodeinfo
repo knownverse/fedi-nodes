@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 9740,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "なごみすきー",
+      "nodeDescription": "<p>ゆったりとした時間を過ごしたい人におすすめの、汎用サーバーです。</p>\n<p>日常の喧騒から離れて、穏やかな交流を楽しめる空間です。</p>\n\n<h2>なごみすきーの特徴</h2>\n\n<ul>\n  <li>雑談や日々の些細な喜びを共有するのに適した環境</li>\n  <li>誰もが自分のペースでのんびりと過ごせる</li>\n  <li>利用者の自由度を尊重しつつ、明確なルールがある</li>\n  <li>落ち着いた雰囲気のデザイン</li>\n</ul>\n\n<p>なごみすきーで、みんなで穏やかな時間を紡いでいきましょう。</p>\n\n<p>必ず<strong><a href=\"https://welcome-to-nagomisskey.super.site/\">利用規約</a></strong>に同意の上ご参加ください。</p>",
+      "nodeAdmins": [
+        {
+          "name": "ゆうむ",
+          "email": "非表示"
+        }
+      ],
+      "maintainer": {
+        "name": "ゆうむ",
+        "email": "非表示"
+      },
+      "langs": [],
+      "tosUrl": "https://welcome-to-nagomisskey.super.site/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://x.gd/1D7na",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#e8d3d1"
+    }
+  },
+  "error": null
+}

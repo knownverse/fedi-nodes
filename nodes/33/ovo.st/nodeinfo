@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wxwClub",
+      "version": "0.0.5"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": "1407",
+        "activeMonth": "37",
+        "activeHalfyear": "79"
+      },
+      "localPosts": "75214"
+    },
+    "metadata": {
+      "nodeName": "ovo.st",
+      "nodeDescription": "A simple social groups compatible with ActivityPub.",
+      "maintainer": {
+        "name": "@ovo_st_status@wxw.moe",
+        "email": "support@ovo.st"
+      },
+      "repositoryUrl": "https://github.com/wxwmoe/wxwClub",
+      "feedbackUrl": "https://github.com/wxwmoe/wxwClub/issues/new"
+    }
+  },
+  "error": null
+}

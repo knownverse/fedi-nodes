@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeDescription": "Welcome to Events Brioco.  Breaking free from the commercial services and embracing the freedom of open source.  Welcome!",
+      "nodeName": "Events Brioco"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-beta.1-dirty"
+    },
+    "usage": {
+      "localComments": 3,
+      "localPosts": 26,
+      "users": {
+        "total": 3
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

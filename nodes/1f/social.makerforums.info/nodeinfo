@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 77,
+        "activeMonth": 16,
+        "activeHalfyear": 21
+      },
+      "localPosts": 16347
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Maker Forums Social",
+      "nodeDescription": "Microblogging for Makers. Part of the Maker Forums community. Maker Forums Discourse: https://forum.makerforums.info/"
+    }
+  },
+  "error": null
+}

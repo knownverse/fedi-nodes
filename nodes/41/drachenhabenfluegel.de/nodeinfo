@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 26,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Drachen haben Flügel",
+      "nodeDescription": "Manchmal musst Du fliegen, um Neues zu entdecken.",
+      "nodeIcon": "https://drachenhabenfluegel.de/wp-content/uploads/2022/06/cropped-dhf_sb_rb_512-1.png"
+    }
+  },
+  "error": null
+}

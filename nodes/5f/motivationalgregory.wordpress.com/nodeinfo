@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 301,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Motivational Gregory",
+      "nodeDescription": "Life Coaching. Raising Consciousness and Awareness.",
+      "nodeIcon": "https://motivationalgregory.wordpress.com/wp-content/uploads/2020/08/cropped-87297090_2299718243654747_6183183392046055424_n.jpg"
+    }
+  },
+  "error": null
+}

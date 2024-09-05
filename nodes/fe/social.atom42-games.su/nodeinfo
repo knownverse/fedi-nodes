@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "protocols": [
+      "activitypub"
+    ],
+    "openRegistrations": false,
+    "software": {
+      "name": "smithereen",
+      "version": "0.8.1-dev.29+621d5e8d",
+      "repository": "https://github.com/grishka/Smithereen",
+      "homepage": "https://smithereen.software"
+    },
+    "usage": {
+      "localPosts": 36,
+      "localComments": 95,
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      }
+    },
+    "metadata": {
+      "nodeName": "ВСовете",
+      "nodeDescription": "Сервер, который работает на слабеньком Android устройстве при помощи Linux Deploy."
+    }
+  },
+  "error": null
+}

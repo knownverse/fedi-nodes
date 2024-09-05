@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 2,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "大人気韓国語講座★★★",
+      "nodeDescription": "今人気の．韓国語学習講座です!!!",
+      "nodeIcon": "https://7700jp.wordpress.com/wp-content/uploads/2024/01/cropped-luca-bravo-hfziod0f_i8-unsplash-1.jpg"
+    }
+  },
+  "error": null
+}

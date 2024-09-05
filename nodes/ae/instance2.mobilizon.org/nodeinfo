@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Une seconde instance de test.\nDO NOT REGISTER!",
+      "nodeName": "Instance n°2"
+    },
+    "usage": {
+      "users": {
+        "total": 9
+      },
+      "localComments": 23,
+      "localPosts": 18
+    },
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0"
+      ]
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "4.1.0-beta.1-dirty"
+    },
+    "openRegistrations": false
+  },
+  "error": null
+}

@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 487,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 89620,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "kitty.social",
+      "nodeDescription": "A general instance for cats, cool cats, loud cats, sad cats, any other kind of cat, and everyone else too!",
+      "nodeAdmins": [
+        {
+          "name": "Kitty Cat",
+          "email": "ki@tty.sh"
+        }
+      ],
+      "maintainer": {
+        "name": "Kitty Cat",
+        "email": "ki@tty.sh"
+      },
+      "langs": [],
+      "tosUrl": "https://meta.kitty.social/tos.txt",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://activitypub.software/TransFem-org/Sharkey/",
+      "feedbackUrl": null,
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#00FFFF"
+    }
+  },
+  "error": null
+}

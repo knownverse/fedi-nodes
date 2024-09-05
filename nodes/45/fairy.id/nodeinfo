@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1/240823+Xajh"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 5907,
+        "activeMonth": 1435,
+        "activeHalfyear": 4149
+      },
+      "localPosts": 162601
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "江湖風險評估社 - Sweet dream,my hero!",
+      "nodeDescription": "銀河耿耿兮寒氣侵，月色橫斜兮玉漏沉。憂心炳炳兮發我哀吟，吟復吟兮寄我知音。\r\nThe time is gone, the story is over, thought we'd something more to say."
+    }
+  },
+  "error": null
+}

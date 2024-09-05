@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 287,
+      "localComments": 25
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Explorer BioGen",
+      "nodeDescription": "Para los curiosos de la diversidad infinita",
+      "nodeIcon": "https://explorerbiogen.com/wp-content/uploads/2024/05/whatsapp-image-2024-05-22-at-17.48.18-2.jpeg"
+    }
+  },
+  "error": null
+}

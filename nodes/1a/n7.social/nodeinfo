@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 97,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 4040,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "N7",
+      "nodeDescription": "ゆるく、たのしく\nそんなMisskeyの汎用サーバーです",
+      "nodeAdmins": [
+        {
+          "name": "neo",
+          "email": "kimotoneo7@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "neo",
+        "email": "kimotoneo7@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://n7.social/@neo/pages/server-rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "N7proxy",
+      "themeColor": "#da6d00"
+    }
+  },
+  "error": null
+}

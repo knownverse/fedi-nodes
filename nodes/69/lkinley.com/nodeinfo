@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6.1"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 4,
+      "localComments": 27
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Lea Kinley",
+      "nodeDescription": "Author",
+      "nodeIcon": "https://lkinley.com/wp-content/uploads/2022/12/cropped-lea-kinley-favicon-1.png"
+    }
+  },
+  "error": null
+}

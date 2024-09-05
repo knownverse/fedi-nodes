@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 3,
+      "localComments": 1
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Braian P.C.",
+      "nodeDescription": "Un blog que recopila mis proyectos a lo largo de mi vida",
+      "nodeIcon": "https://braianpc45450.wordpress.com/wp-content/uploads/2024/04/f5lga4-1.jpg"
+    }
+  },
+  "error": null
+}

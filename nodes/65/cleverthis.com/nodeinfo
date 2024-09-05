@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "Fedipage",
+      "repository": "https://git.qoto.org/fedipage/fedipage",
+      "homepage": "https://fedipage.com/",
+      "version": "2.2.0"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "nodeName": "CleverThis"
+    }
+  },
+  "error": null
+}

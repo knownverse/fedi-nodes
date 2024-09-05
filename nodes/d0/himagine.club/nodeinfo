@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "iceshrimp",
+      "version": "2023.12.9",
+      "repository": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "homepage": "https://iceshrimp.dev/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 151,
+        "activeHalfyear": 81,
+        "activeMonth": 45
+      },
+      "localPosts": 53709,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Himagine",
+      "nodeDescription": "Himagineは、暇人たちが集う意識低い系SNSです。Fediverseの中に存在し、ActivityPubに対応した様々なSNS(Mastodon, Misskey, Threads など)と相互に繋がっています。利用規約を必ず一読し同意した上で、ご自由にお使いください。",
+      "maintainer": {
+        "name": "paku (@skyizwhite@himagine.club)",
+        "email": "paku@skyizwhite.dev"
+      },
+      "langs": [],
+      "tosUrl": "https://scrapbox.io/himagine/Welcome_to_Himagine",
+      "repositoryUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp",
+      "feedbackUrl": "https://iceshrimp.dev/iceshrimp/iceshrimp/issues",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "postEditing": true,
+      "postImports": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "maxCaptionTextLength": 1500,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "themeColor": "#ffffff"
+    }
+  },
+  "error": null
+}

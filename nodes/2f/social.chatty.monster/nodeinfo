@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 3,
+        "activeHalfyear": 3
+      },
+      "localPosts": 5887
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Chatty Fediverse Monsters",
+      "nodeDescription": "A general-purpose Mastodon instance for friendly, social conversations.\r\n\r\nThis server is currently not open for general sign-up, but I am happy to open accounts here for anyone who I know personally."
+    }
+  },
+  "error": null
+}

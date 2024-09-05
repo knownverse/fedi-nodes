@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": "3",
+        "activeHalfyear": "3"
+      },
+      "localPosts": 17,
+      "localComments": 20
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Mam grać?",
+      "nodeDescription": "Radość z muzykowania",
+      "nodeIcon": "https://mamgrac.pl/wp-content/uploads/2021/05/cropped-cropped-dalsegno.png"
+    }
+  },
+  "error": null
+}

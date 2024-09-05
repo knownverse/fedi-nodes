@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1819,
+      "localComments": 160
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "",
+      "nodeDescription": "Gestiamo il traffico cinematografico dal 2010 con oltre 1700 semafori!",
+      "nodeIcon": "https://ilcinesemaforo.wordpress.com/wp-content/uploads/2017/03/cinesemicona.jpg"
+    }
+  },
+  "error": null
+}

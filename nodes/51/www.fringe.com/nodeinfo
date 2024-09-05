@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "2",
+        "activeHalfyear": "2"
+      },
+      "localPosts": 40,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Fringe Photography, LLC",
+      "nodeDescription": "Full of light, beauty, magic, mystery and hope.",
+      "nodeIcon": "https://www.fringe.com/wp-content/uploads/2019/04/cropped-Site-Icons-Logo.png"
+    }
+  },
+  "error": null
+}

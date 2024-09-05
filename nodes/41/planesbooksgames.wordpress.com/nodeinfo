@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1964,
+      "localComments": 3956
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Planes and Books and Games",
+      "nodeDescription": "Living earnestly is the best medicine.",
+      "nodeIcon": "https://planesbooksgames.wordpress.com/wp-content/uploads/2021/01/cropped-cotgoddies-1.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 515,
+      "localComments": 3615
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ANURADHA MAHESH",
+      "nodeDescription": "’Music is a Discipline and a Mistress of Good Manners, she makes the people milder and gentler, more Moral and more Reasonable’’ - Martin Luther King.",
+      "nodeIcon": "https://anuradhamahesh.wordpress.com/wp-content/uploads/2024/07/cropped-img61.png"
+    }
+  },
+  "error": null
+}

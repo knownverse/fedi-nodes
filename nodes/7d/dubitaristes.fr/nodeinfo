@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 4,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Les Dubitaristes Girondins",
+      "nodeDescription": "Vous avez les réponses, nous avons les questions",
+      "nodeIcon": "https://dubitaristes.fr/wp-content/uploads/2021/06/cropped-logo-2.png"
+    }
+  },
+  "error": null
+}

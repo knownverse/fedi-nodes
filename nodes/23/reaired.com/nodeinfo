@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 145,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Reaired",
+      "nodeDescription": "A social network instance for content creators, broadcasters, production, talent, and those otherwise involved in the creation of media. Whether you're in mainstream media, esports, or an indepdendent creator in the industry, this is the place to be and meet others like you!",
+      "nodeAdmins": [
+        {
+          "name": "Reaired Admins",
+          "email": null
+        }
+      ],
+      "maintainer": {
+        "name": "Reaired Admins",
+        "email": null
+      },
+      "langs": [],
+      "tosUrl": "https://web.reaired.com/terms-rules/",
+      "privacyPolicyUrl": "",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#9f00a7"
+    }
+  },
+  "error": null
+}

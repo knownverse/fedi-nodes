@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2375,
+      "localComments": 4163
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Galeria de Espelhos",
+      "nodeDescription": "Quando temos certeza... Tem algo errado",
+      "nodeIcon": "https://www.roney.com.br/wp-content/uploads/2022/05/header_galeria_espelhos_branco_pq.png"
+    }
+  },
+  "error": null
+}

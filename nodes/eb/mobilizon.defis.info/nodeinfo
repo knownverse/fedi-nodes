@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "Mobilizon hébergé par Défis en Morbihan - Bretagne.\nCette instance est ouverte aux inscriptions à tous les acteurs de L’Économie Social, Solidaire et Environnementale du Morbihan et les morbihannais.e.s.",
+      "nodeName": "Mobilizon de Défis"
+    },
+    "usage": {
+      "users": {
+        "total": 552
+      },
+      "localComments": 51,
+      "localPosts": 343
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "3.2.0"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

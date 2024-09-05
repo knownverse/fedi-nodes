@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 8,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "mu wood veneered Board 木皮貼面板",
+      "nodeDescription": "",
+      "nodeIcon": "https://veneer6.wordpress.com/wp-content/uploads/2024/02/v6-logo-2-120x120-1-1.png"
+    }
+  },
+  "error": null
+}

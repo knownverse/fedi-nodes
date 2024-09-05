@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 102,
+      "localComments": 106
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ArteBoaVigna",
+      "nodeDescription": "Onde se pensa o próprio pensamento. ",
+      "nodeIcon": "https://ricardovigna.wordpress.com/wp-content/uploads/2023/12/cropped-2017-institucional-2-426950065-e1702939864907.jpg"
+    }
+  },
+  "error": null
+}

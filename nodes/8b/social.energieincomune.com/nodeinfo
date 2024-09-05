@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.4"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "Energie in Comune",
+      "nodeDescription": "Social dedicato alla discussione e allo sviluppa del progetto economico e finanziario denominato: SCPA. Democratizzare l'economia e la finanza per redistribuire la ricchezza"
+    }
+  },
+  "error": null
+}

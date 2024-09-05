@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 709,
+      "localComments": 381
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Minds Under Construction",
+      "nodeDescription": "Blog de muzica rock si evenimente",
+      "nodeIcon": "https://mindsunderconstruction.wordpress.com/wp-content/uploads/2014/12/muc-neagra2.jpg"
+    }
+  },
+  "error": null
+}

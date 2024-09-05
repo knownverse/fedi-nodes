@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "Vincent Ascosi's Blog",
+      "nodeDescription": "[RSS:](https://blog.ascosilinux.com/feed)",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "publicReader": false,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.15.0"
+    },
+    "usage": {
+      "users": {
+        "total": 1
+      },
+      "localPosts": 6
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

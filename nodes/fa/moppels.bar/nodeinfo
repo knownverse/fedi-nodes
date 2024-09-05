@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "calckey",
+      "version": "14.0.0-rc3",
+      "homepage": "https://calckey.org/"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": 10,
+        "activeMonth": 8
+      },
+      "localPosts": 88216,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Moppels wonderful and comfy Fediverse Bar",
+      "nodeDescription": "A place to enjoy the Fediverse, to chat, or just to read  - and drink, of course 😉🍻🍷",
+      "maintainer": {
+        "name": "Moppelkotzer",
+        "email": "moppelkotzer@mailbox.org"
+      },
+      "langs": [],
+      "tosUrl": "https://moppels.bar/@Carlos/pages/1685229437569",
+      "repositoryUrl": "https://codeberg.org/calckey/calckey",
+      "feedbackUrl": "https://codeberg.org/calckey/calckey/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableRecommendedTimeline": true,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "searchFilters": false,
+      "postEditing": true,
+      "postImports": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 7000,
+      "maxCaptionTextLength": 1500,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": false,
+      "enableDiscordIntegration": false,
+      "enableEmail": false,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#31748f"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/Akkiesoft/misskey",
+      "repository": "https://github.com/Akkiesoft/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2468,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mugiko.moe(misskeyのすがた)",
+      "nodeDescription": "Misskeyの運用を勉強してみるために立ててみたネタサーバーです。一応普通に使えますが、ある日突然ぶっ壊れたりするかもしれないのでその点だけ了承の上入ってください。ルール等はmisskey.ioに準じます。NSFW等も同様です。",
+      "nodeAdmins": [
+        {
+          "name": "あっきぃ",
+          "email": ""
+        }
+      ],
+      "maintainer": {
+        "name": "あっきぃ",
+        "email": ""
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/Akkiesoft/misskey",
+      "feedbackUrl": "https://github.com/Akkiesoft/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#86b300"
+    }
+  },
+  "error": null
+}

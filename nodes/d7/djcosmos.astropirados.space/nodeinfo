@@ -1,0 +1,115 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "funkwhale",
+      "version": "1.2.9"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      }
+    },
+    "metadata": {
+      "actorId": "https://djcosmos.astropirados.space/federation/actors/service",
+      "private": false,
+      "shortDescription": "The home for DJ Cosmos mixes",
+      "longDescription": "The home for DJ Cosmos mixes",
+      "rules": "",
+      "contactEmail": "",
+      "terms": "",
+      "nodeName": "DJ Cosmos Music Space",
+      "banner": "https://djcosmos.astropirados.space/media/dynamic_preferences/instance__banner/IMG_20221126_224749.jpg",
+      "defaultUploadQuota": 1000,
+      "library": {
+        "federationEnabled": true,
+        "anonymousCanListen": true,
+        "tracks": {
+          "total": 27
+        },
+        "artists": {
+          "total": 4
+        },
+        "albums": {
+          "total": 2
+        },
+        "music": {
+          "hours": 46.678333333333335
+        }
+      },
+      "supportedUploadExtensions": [
+        "aac",
+        "aif",
+        "aiff",
+        "flac",
+        "m4a",
+        "mp3",
+        "ogg",
+        "opus"
+      ],
+      "allowList": {
+        "enabled": false,
+        "domains": null
+      },
+      "reportTypes": [
+        {
+          "type": "takedown_request",
+          "label": "Takedown request",
+          "anonymous": true
+        },
+        {
+          "type": "invalid_metadata",
+          "label": "Invalid metadata",
+          "anonymous": false
+        },
+        {
+          "type": "illegal_content",
+          "label": "Illegal content",
+          "anonymous": true
+        },
+        {
+          "type": "offensive_content",
+          "label": "Offensive content",
+          "anonymous": false
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "anonymous": false
+        }
+      ],
+      "funkwhaleSupportMessageEnabled": false,
+      "instanceSupportMessage": "",
+      "endpoints": {
+        "knownNodes": "https://djcosmos.astropirados.space/api/v1/federation/domains",
+        "channels": "https://djcosmos.astropirados.space/federation/index/channels",
+        "libraries": "https://djcosmos.astropirados.space/federation/index/libraries"
+      },
+      "usage": {
+        "favorites": {
+          "tracks": {
+            "total": 0
+          }
+        },
+        "listenings": {
+          "total": 0
+        },
+        "downloads": {
+          "total": 237
+        }
+      }
+    }
+  },
+  "error": null
+}

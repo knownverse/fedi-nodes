@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 178,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 17736,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "封神台",
+      "nodeDescription": "WJ版封神演義が好きな人のためのmisskeyサーバーです。\n集英社・藤崎竜・安能務など各種公式とは一切関係ありません。\n封神以外の話題もどうぞ。\n",
+      "nodeAdmins": [
+        {
+          "name": "古道京紗",
+          "email": "https://houshindai.net/inquiry"
+        }
+      ],
+      "maintainer": {
+        "name": "古道京紗",
+        "email": "https://houshindai.net/inquiry"
+      },
+      "langs": [],
+      "tosUrl": "https://houshindai.net/@admin/pages/1688288880134",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://houshindai.net/inquiry",
+      "impressumUrl": "https://kazeki.net",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#cbf0ff"
+    }
+  },
+  "error": null
+}

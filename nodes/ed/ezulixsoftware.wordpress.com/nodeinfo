@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 116,
+      "localComments": 3
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Ezulix Software - Web and Mobile App Design Service",
+      "nodeDescription": "Ezulix Team have skills and capability to work with you to meet your requirements",
+      "nodeIcon": "https://ezulixsoftware.wordpress.com/wp-content/uploads/2022/02/cropped-ezulix-logo-1.png"
+    }
+  },
+  "error": null
+}

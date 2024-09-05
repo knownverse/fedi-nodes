@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 2151,
+      "localComments": 3054
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Chefblogger Magazin über Wordpress, Social Media, eCommerce und Online Marketing",
+      "nodeDescription": "Bloggen wie der Chef",
+      "nodeIcon": "https://www.chefblogger.me/wp-content/uploads/2015/03/cropped-cb-favicon.png"
+    }
+  },
+  "error": null
+}

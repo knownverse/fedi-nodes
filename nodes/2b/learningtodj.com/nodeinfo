@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 21,
+      "localComments": 23
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Learning to DJ",
+      "nodeDescription": "Teaching the art and skill of musical influence.",
+      "nodeIcon": "https://i0.wp.com/learningtodj.com/wp-content/uploads/2024/03/cropped-l2dj-logo-500-1.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

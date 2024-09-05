@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "write.literatur.social",
+      "nodeDescription": "Der Einstieg ins Fediverse für Autor*innen und Literaturmenschen",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 5,
+      "publicReader": true,
+      "invites": true
+    },
+    "openRegistrations": true,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": ""
+    },
+    "usage": {
+      "users": {
+        "total": 29,
+        "activeHalfyear": 12,
+        "activeMonth": 3
+      },
+      "localPosts": 130
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

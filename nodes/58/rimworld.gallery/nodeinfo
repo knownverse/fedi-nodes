@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "mbin",
+      "version": "1.7.1-rc5",
+      "repository": "https://github.com/MbinOrg/mbin"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 169,
+        "activeHalfyear": 105,
+        "activeMonth": 34
+      },
+      "localPosts": 224,
+      "localComments": 444
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "RimWorld Gallery",
+      "nodeDescription": "A non-profit gallery for renders made from Rimworld games, and more"
+    }
+  },
+  "error": null
+}

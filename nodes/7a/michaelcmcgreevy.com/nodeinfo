@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": "2",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 3245,
+      "localComments": 9049
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Name Is Michael",
+      "nodeDescription": "This is my blog.  There are many like it, but this one is mine.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

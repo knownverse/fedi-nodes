@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "nodeDescription": "fomo.rheinmain.social ist ein Kalender zum bewerben alternativer, emanzipatorischer, kultureller Veranstaltungen und Ereignisse für unkommerzielle Projekte und Gruppen. Account anlegen ⋅ Veranstaltung eintragen ⋅ Folgen ⋅ Erinnert werden ⋅ Oder einfach nur vorbeischauen",
+      "nodeName": "FomoRheinMain"
+    },
+    "usage": {
+      "users": {
+        "total": 15
+      },
+      "localComments": 0,
+      "localPosts": 90
+    },
+    "services": {
+      "outbound": [
+        "atom1.0"
+      ],
+      "inbound": []
+    },
+    "software": {
+      "name": "Mobilizon",
+      "version": "5.0.0-beta.1"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

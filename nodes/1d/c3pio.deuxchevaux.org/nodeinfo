@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "snac",
+      "version": "2.56"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 0,
+        "activeHalfyear": 0
+      },
+      "localPosts": 6
+    },
+    "openRegistrations": false,
+    "metadata": {}
+  },
+  "error": null
+}

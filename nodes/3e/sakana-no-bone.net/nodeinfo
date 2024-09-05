@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.5.0-host.2d",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 147,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "sakana-no-bone.net",
+      "nodeDescription": "ᗦ)))⋊ - sakana-no-bone.net - ᗦ+++◃",
+      "nodeAdmins": [
+        {
+          "name": "ᗦ)))⋊ - オリトイツキ - ᗦ+++◃",
+          "email": "me@orito-itsuki.net"
+        }
+      ],
+      "maintainer": {
+        "name": "ᗦ)))⋊ - オリトイツキ - ᗦ+++◃",
+        "email": "me@orito-itsuki.net"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "ghost",
+      "themeColor": "#EE497F"
+    }
+  },
+  "error": null
+}

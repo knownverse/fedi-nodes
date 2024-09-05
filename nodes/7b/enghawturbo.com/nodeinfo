@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1142,
+      "localComments": 56
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "ENGENHEIROS DO HAWAII TURBO",
+      "nodeDescription": "&quot;...só pra ver até quando o motor aguenta...&quot;",
+      "nodeIcon": "https://enghawturbo.com/wp-content/uploads/2024/08/cropped-unnamed-1.jpg"
+    }
+  },
+  "error": null
+}

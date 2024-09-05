@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {},
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "name": "bovine",
+      "version": "0.5.10"
+    },
+    "usage": {
+      "users": {
+        "activeHalfyear": 36,
+        "activeMonth": 36,
+        "total": 36
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

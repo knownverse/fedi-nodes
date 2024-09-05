@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.2.0",
+      "homepage": "https://github.com/kemomimi-no-sato/misskey/kemomimi-pre",
+      "repository": "https://github.com/kemomimi-no-sato/misskey/kemomimi-pre"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 127,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 62526,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "けもみみの里",
+      "nodeDescription": "けもみみの里、ついにβが取れ正式稼働！\nけもみみが好きな方もそうでない方も、ごゆっくりどうぞ。",
+      "nodeAdmins": [
+        {
+          "name": "0",
+          "email": "@0@mof.kemomi.me"
+        }
+      ],
+      "maintainer": {
+        "name": "0",
+        "email": "@0@mof.kemomi.me"
+      },
+      "langs": [],
+      "tosUrl": "https://mof.kemomi.me/@0/pages/term_of_use",
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/kemomimi-no-sato/misskey/kemomimi-pre",
+      "feedbackUrl": "https://github.com/kemomimi-no-sato/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableLoginOnlyMode": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ff8648"
+    }
+  },
+  "error": null
+}

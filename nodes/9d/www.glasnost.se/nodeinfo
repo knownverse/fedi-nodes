@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1336,
+      "localComments": 5012
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Glasnost.se",
+      "nodeDescription": "Kalle Kniivilä – mest om Ryssland",
+      "nodeIcon": "https://www.glasnost.se/wp-content/uploads/2017/08/cropped-cropped-GlasnostL-1.jpg"
+    }
+  },
+  "error": null
+}

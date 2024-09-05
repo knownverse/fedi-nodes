@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 145,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hinnerk Weiler",
+      "nodeDescription": "Correspondent at Sea and Shoreside Travelist",
+      "nodeIcon": "https://hinnerk-weiler.com/wp-content/uploads/2018/08/cropped-pngArtboard-1.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 246,
+      "localComments": 899
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "IT-News",
+      "nodeDescription": "Computer, Einplatinen, Programmieren, Mobile, IoT",
+      "nodeIcon": "https://blog.unixweb.de/wp-content/uploads/2017/02/cropped-linux.gif"
+    }
+  },
+  "error": null
+}

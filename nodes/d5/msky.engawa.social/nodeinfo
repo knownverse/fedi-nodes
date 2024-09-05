@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.3.1",
+      "homepage": "https://misskey-hub.net"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 181,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "縁側.social",
+      "nodeDescription": "<p>縁側に座って、まったりと外を眺めるようなサーバです。</p>\n<p>ユーザ数を小規模に保ちつつ、他サーバと連合してFediverseをのんびりと楽しめるサーバを目指します。</p>\n<p>（今のところはおひとり様サーバですが、良識のある方に対しアカウント登録を公開しています）</p>\n\n<p>こちらのサーバへのアカウント作成を希望される場合、事前に<a style=\"color: aqua; text-decoration:underline; text-decoration-color:aqua;\" href=\"https://engawa-social.notion.site/engawa-social/86be9b8015844e339e3a53ab5da6f7c0\">利用規約</a>をご確認ください。</p>",
+      "nodeAdmins": [
+        {
+          "name": "ken",
+          "email": "k@msky.engawa.social"
+        }
+      ],
+      "maintainer": {
+        "name": "ken",
+        "email": "k@msky.engawa.social"
+      },
+      "langs": [],
+      "tosUrl": "https://engawa-social.notion.site/86be9b8015844e339e3a53ab5da6f7c0?pvs=4",
+      "privacyPolicyUrl": "https://engawa-social.notion.site/ad2e0a8c23834cfc8c340c86bbe14869?pvs=4",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#a67b01"
+    }
+  },
+  "error": null
+}

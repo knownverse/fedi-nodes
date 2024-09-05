@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 203,
+      "localComments": 996
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "News Of The Night",
+      "nodeDescription": "Your source for things you didn&#039;t know you needed to know",
+      "nodeIcon": "https://newsofthenight.org/wp-content/uploads/2023/11/logonotnsmall.jpg"
+    }
+  },
+  "error": null
+}

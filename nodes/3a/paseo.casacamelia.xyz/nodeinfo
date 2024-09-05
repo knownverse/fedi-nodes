@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 19,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 15801,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "CasaCamelia -paseo-",
+      "nodeDescription": "Fediverse各所に遍在する「つばきさん」の個人サーバー。\n特にこれと言って際立った特徴のない、極普通の汎用サーバーです。\n\n話題に特に制約はありませんが、二次元美少女えちかわな話題も多いため、18歳以上推奨。\n",
+      "nodeAdmins": [
+        {
+          "name": "tsubaki3",
+          "email": "discord:raindropft2"
+        }
+      ],
+      "maintainer": {
+        "name": "tsubaki3",
+        "email": "discord:raindropft2"
+      },
+      "langs": [],
+      "tosUrl": "https://paseo.casacamelia.xyz/@raindropft2/pages/1701836016579",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "discord:raindropft2",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#b22448"
+    }
+  },
+  "error": null
+}

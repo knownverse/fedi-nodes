@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 350,
+      "localComments": 2202
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "My Wild Australia",
+      "nodeDescription": "Wildlife sightings and hiking adventures in Tasmania",
+      "nodeIcon": "https://mywildaustralia.wordpress.com/wp-content/uploads/2024/02/cute-wallaby-face-upscaled-1.jpg"
+    }
+  },
+  "error": null
+}

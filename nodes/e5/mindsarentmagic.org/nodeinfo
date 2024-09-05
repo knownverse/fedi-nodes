@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 38,
+      "localComments": 110
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Minds aren&#039;t magic",
+      "nodeDescription": "Paul Crowley",
+      "nodeIcon": "https://mindsarentmagic.org/wp-content/uploads/2020/02/cropped-new-piskel-1-1.png-1.png"
+    }
+  },
+  "error": null
+}

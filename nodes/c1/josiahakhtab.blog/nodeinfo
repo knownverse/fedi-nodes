@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 86,
+      "localComments": 8
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Josiah Akhtab",
+      "nodeDescription": "Author and Content Creator",
+      "nodeIcon": "https://josiahakhtab.blog/wp-content/uploads/2024/02/cropped-img_20210910_113840_929-1.jpg"
+    }
+  },
+  "error": null
+}

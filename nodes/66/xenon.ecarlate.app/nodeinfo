@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-nightly.2024-07-04+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 2,
+        "activeMonth": 1,
+        "activeHalfyear": 2
+      },
+      "localPosts": 1527
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "ecarlate «xenon»",
+      "nodeDescription": "Welcome to ecarlate «xenon»!"
+    }
+  },
+  "error": null
+}

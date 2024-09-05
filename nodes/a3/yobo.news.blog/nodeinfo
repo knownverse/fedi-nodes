@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 63,
+      "localComments": 2
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "YOBO NEWS",
+      "nodeDescription": "Menulis Untuk Membebaskan",
+      "nodeIcon": "https://yobo.news.blog/wp-content/uploads/2022/10/cropped-screenshot_2022-10-04-23-32-14-55_40deb401b9ffe8e1df2f1cc5ba480b12.jpg"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0+monster1",
+      "homepage": "https://github.com/jbblily/misskey",
+      "repository": "https://github.com/jbblily/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 18,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2634,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "백귀야행 (百鬼夜行)",
+      "nodeDescription": "요정, 요괴, 괴물, 환수 등... <br>이매망량이 모여드는 곳.</p>\n초대받은 자만이 들어올 수 있는 이계공간.\n소규모 지인제 미스키 서버입니다.\n<br>\nModeration Supported Language: 日本語, 한국어, English\n<br>\n<small>* 메일이 오지 않는 경우, 스팸 메일함을 확인해보세요.</small>\n",
+      "nodeAdmins": [
+        {
+          "name": "admin",
+          "email": "jbblily703@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "admin",
+        "email": "jbblily703@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://crownel.monster/@headcrow/pages/1690769067514",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://quesdon.planet.moe/@admin@crownel.monster",
+      "impressumUrl": "",
+      "repositoryUrl": "https://github.com/jbblily/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#dbf1ff"
+    }
+  },
+  "error": null
+}

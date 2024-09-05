@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-negi",
+      "homepage": "https://github.com/umipu/misskey",
+      "repository": "https://github.com/umipu/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 26,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 163208,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ねぎはうす！",
+      "nodeDescription": "新感覚のビニールハウス！\nおネギの知り合いで固められているサーバーです",
+      "nodeAdmins": [
+        {
+          "name": "葱",
+          "email": "negi"
+        }
+      ],
+      "maintainer": {
+        "name": "葱",
+        "email": "negi"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://docs.google.com/forms/d/1tVRP4Zz8Qea9GJbuxfAg_SnQ7cVFgWrwLck0egY3Q70/",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/umipu/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#a79ca1",
+      "reversiVersion": "1.0.0-focalorus"
+    }
+  },
+  "error": null
+}

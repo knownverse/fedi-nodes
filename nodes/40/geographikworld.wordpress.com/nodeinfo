@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 20,
+      "localComments": 7
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Geographik World",
+      "nodeDescription": "Geographic World: Explore. Discover. Inspire!",
+      "nodeIcon": "https://geographikworld.wordpress.com/wp-content/uploads/2024/05/wp-1714702990868.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 525,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Nairobi Online™️",
+      "nodeDescription": "Reach Service Online in Nairobi &amp; Kenya : Professional Services, Cleaning Services, Moving Services, Construction, Handyman Services, Pest Control and Fumigation, Appliance Repair, Trades, Odd Jobs, Technical and more!",
+      "nodeIcon": "https://nairobionlineblog.wordpress.com/wp-content/uploads/2024/08/favicon.png"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 137,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1509,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ふるよにMisskey",
+      "nodeDescription": "ボードゲーム「桜降る代に決闘を」について話したり、対戦相手を探したり、日々のふるよに活動を呟いたりするためのTwitter的なWebサービスです。<br>\nふるよに関係ない日常のつぶやきや雑談も歓迎します。<br>\n<br>\n※このWebサービスは非公式です。「桜降る代に決闘を」の開発元であるBakafire Partyとの関係はありません。\n<br>\n<hr>\nこのWebサービスでは、ふるよにコモンズの画像素材を使用しております。<br>\n<br>\nふるよにコモンズ/BakaFire,TOKIAME<br>\nhttps://main-bakafire.ssl-lolipop.jp/furuyoni/na/rule.html",
+      "nodeAdmins": [
+        {
+          "name": "ポン",
+          "email": "tetradice@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "ポン",
+        "email": "tetradice@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#eed8d8"
+    }
+  },
+  "error": null
+}

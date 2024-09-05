@@ -1,0 +1,110 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "usage": {
+      "users": {
+        "total": 6
+      },
+      "localPosts": 1182
+    },
+    "software": {
+      "version": "1.0.6",
+      "name": "pleroma"
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "protocols": [
+      "activitypub",
+      "ostatus"
+    ],
+    "openRegistrations": false,
+    "metadata": {
+      "uploadLimits": {
+        "general": 16000000,
+        "banner": 8000000,
+        "background": 8000000,
+        "avatar": 4000000
+      },
+      "suggestions": {
+        "web": "https://vinayaka.distsn.org",
+        "timeout": 300000,
+        "thirdPartyEngine": "http://vinayaka.distsn.org/cgi-bin/vinayaka-user-match-suggestions-api.cgi?{{host}}+{{user}}",
+        "limit": 40,
+        "enabled": false
+      },
+      "staffAccounts": [
+        "https://social.monmusu.me/users/elfi",
+        "https://social.monmusu.me/users/lizzy"
+      ],
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web"
+      ],
+      "private": false,
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode"
+      ],
+      "pollLimits": {
+        "min_expiration": 0,
+        "max_options": 20,
+        "max_option_chars": 200,
+        "max_expiration": 31536000
+      },
+      "nodeName": "Monmusume",
+      "nodeDescription": "A Pleroma instance, an alternative fediverse server",
+      "invitesEnabled": true,
+      "federation": {
+        "quarantined_instances": [],
+        "mrf_policies": [
+          "NoOpPolicy"
+        ],
+        "exclusions": false
+      },
+      "features": [
+        "pleroma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "pleroma_explicit_addressing",
+        "chat",
+        "relay"
+      ],
+      "accountActivationRequired": false
+    }
+  },
+  "error": null
+}

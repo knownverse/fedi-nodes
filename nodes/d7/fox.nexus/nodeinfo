@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8,
+        "activeMonth": 7,
+        "activeHalfyear": 8
+      },
+      "localPosts": 9191
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "The Fox Nexus",
+      "nodeDescription": "A fedi instance for foxes I guess. awawawawa"
+    }
+  },
+  "error": null
+}

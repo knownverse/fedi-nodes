@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 11,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Practical Fox LLC",
+      "nodeDescription": "",
+      "nodeIcon": "https://i0.wp.com/www.practicalfox.com/wp-content/uploads/2020/12/PF-quiche.jpg?fit=451%2C450&ssl=1"
+    }
+  },
+  "error": null
+}

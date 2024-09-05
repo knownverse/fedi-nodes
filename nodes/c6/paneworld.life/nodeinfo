@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 43,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 14378,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "ぱにゅわーるど",
+      "nodeDescription": "惑星ぱにゅわーるどでは、人間が希少で貴重な食糧とされている。\nここでは人間が特別にゃ環境下で育てられる牧場が営まれており、\n人間たちは健康管理が徹底され、成長した後にこまくさによって収穫される。\nこの牧場はぱにゅわーるど全体において重要にゃ役割を果たし、その存在は深く根付いている。\n\n※ここは管理人（こまくさ）による招待制サーバーです※",
+      "nodeAdmins": [
+        {
+          "name": "こまくさ（@07770_@paneworld.life）",
+          "email": "komakusa0707@gmail.com"
+        }
+      ],
+      "maintainer": {
+        "name": "こまくさ（@07770_@paneworld.life）",
+        "email": "komakusa0707@gmail.com"
+      },
+      "langs": [],
+      "tosUrl": "https://spiral-chauffeur-b28.notion.site/467e5705ca774443b7cc52843c823de6?pvs=4",
+      "privacyPolicyUrl": "https://spiral-chauffeur-b28.notion.site/467e5705ca774443b7cc52843c823de6?pvs=4",
+      "inquiryUrl": "komakusa0707@gmail.com",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "proxy",
+      "themeColor": "#8ad9d5"
+    }
+  },
+  "error": null
+}

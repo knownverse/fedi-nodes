@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 86,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 36952,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "妖精工房-談話室-",
+      "nodeDescription": "当サーバーは「妖精工房第三分室」で運用されている物理サーバ筐体上で運営管理されている世にも珍しい(当団比)Misskeyサーバーです。<br>\n逸般の誤家庭のサーバーですが、もちろん一般の方もご利用頂けます。<br>\n皆様の入室をお待ちしております。<br>\n<br>\n運営団体<br>\n妖精工房第三分室<br>\n運営連絡先<br>\nlunatefairy@gmail.com<br>\n<br>\n<a href=\"https://www.fw3rd-bc.jp/license/policy.html\" target=\"_blank\" rel=\"noopener noreferrer\">利用規約</a>",
+      "nodeAdmins": [
+        {
+          "name": "妖精工房第三分室",
+          "email": "mizunara.t.rijn@fw3rd-bc.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "妖精工房第三分室",
+        "email": "mizunara.t.rijn@fw3rd-bc.jp"
+      },
+      "langs": [],
+      "tosUrl": "https://www.fw3rd-bc.jp/license/policy.html",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://fw3rd-bc.jp/@demitel_2341",
+      "impressumUrl": "https://misskey.io/@demitel_2341",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": true,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "smfs_fairy_proxy",
+      "themeColor": "#00B700"
+    }
+  },
+  "error": null
+}

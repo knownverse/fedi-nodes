@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 140,
+      "localComments": 22
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dustin&#039;s Hot Garbage",
+      "nodeDescription": "Adventures In Living A Worthwhile Life",
+      "nodeIcon": "https://hotgarbage4u.wordpress.com/wp-content/uploads/2022/11/cropped-img_20220803_1156592-1.jpg"
+    }
+  },
+  "error": null
+}

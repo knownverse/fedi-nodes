@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6",
+      "repository": "https://github.com/wordpress/wordpress"
+    },
+    "usage": {
+      "users": {
+        "total": 5,
+        "activeMonth": 5,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10,
+      "localComments": 3
+    },
+    "openRegistrations": true,
+    "services": {
+      "inbound": [
+        "atom1.0",
+        "rss2.0",
+        "pop3"
+      ],
+      "outbound": [
+        "atom1.0",
+        "rss2.0",
+        "wordpress",
+        "smtp"
+      ]
+    },
+    "protocols": [
+      "activitypub",
+      "webmention"
+    ],
+    "metadata": {
+      "generator": {
+        "name": "NodeInfo WordPress-Plugin",
+        "version": "2.3.1",
+        "repository": "https://github.com/pfefferle/wordpress-nodeinfo/"
+      },
+      "nodeName": "Replying",
+      "nodeDescription": "Replying, especially via WebMention is brill",
+      "nodeIcon": "https://replying.isbrill.com/wp-content/uploads/sites/21/2024/07/cropped-group-4404732_1280.jpg"
+    }
+  },
+  "error": null
+}

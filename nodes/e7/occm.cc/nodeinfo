@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+occm.web1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 8266,
+        "activeMonth": 2931,
+        "activeHalfyear": 5503
+      },
+      "localPosts": 5950677
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "자커마스 v3",
+      "nodeDescription": "자커마스는 자작 캐릭터 커뮤니티, 즉 자캐커뮤를 위한 마스토돈 인스턴스입니다.\r\n자캐커뮤에 특화된 서버 설정을 제공하며, 한국어 검색을 지원합니다."
+    }
+  },
+  "error": null
+}

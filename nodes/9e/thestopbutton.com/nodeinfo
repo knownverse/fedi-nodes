@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 10602,
+      "localComments": 2471
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "The Stop Button",
+      "nodeDescription": "blogging by Andrew Wickliffe",
+      "nodeIcon": "https://i0.wp.com/thestopbutton.com/wp-content/uploads/2021/08/cropped-tsb-2021-2.png?fit=512%2C512&ssl=1"
+    }
+  },
+  "error": null
+}

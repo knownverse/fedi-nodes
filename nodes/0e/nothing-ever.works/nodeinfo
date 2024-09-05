@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": false,
+      "maintainer": {
+        "email": "admin@mail.nothing-ever.works",
+        "name": "admin"
+      },
+      "nodeDescription": "server",
+      "nodeName": "nothing ever works",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#31748f"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240613"
+    },
+    "usage": {
+      "localPosts": 765,
+      "users": {
+        "activeHalfyear": 5,
+        "activeMonth": 3,
+        "total": 6
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

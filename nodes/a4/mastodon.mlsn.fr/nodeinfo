@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-alpha.5+chuckya"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeMonth": 2,
+        "activeHalfyear": 2
+      },
+      "localPosts": 5451
+    },
+    "openRegistrations": true,
+    "metadata": {
+      "nodeName": "mlsn",
+      "nodeDescription": "This place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here."
+    }
+  },
+  "error": null
+}

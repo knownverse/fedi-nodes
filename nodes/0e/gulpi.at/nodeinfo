@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "nodeName": "gulpi",
+      "nodeDescription": "Minimal, federated blogging platform.",
+      "software": {
+        "homepage": "https://writefreely.org",
+        "github": "https://github.com/writefreely/writefreely",
+        "follow": "https://writing.exchange/@write_as"
+      },
+      "maxBlogs": 10,
+      "publicReader": false,
+      "invites": false
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "name": "writefreely",
+      "version": "0.13.1"
+    },
+    "usage": {
+      "users": {
+        "total": 2
+      },
+      "localPosts": 2
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

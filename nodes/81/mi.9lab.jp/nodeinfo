@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2023.12.2",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 63,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "mi.9lab.jp",
+      "nodeDescription": "イラストを中心として創作活動をしている同人サークル「Cue:LAB」のきゅー(Cue)が個人的に運営しているMisskeyサーバーです。\n試験的な運用の為、現在ユーザー登録は開放していません。",
+      "nodeAdmins": [
+        {
+          "name": "きゅー(Cue)",
+          "email": "cue@9lab.jp"
+        }
+      ],
+      "maintainer": {
+        "name": "きゅー(Cue)",
+        "email": "cue@9lab.jp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#cc9999"
+    }
+  },
+  "error": null
+}

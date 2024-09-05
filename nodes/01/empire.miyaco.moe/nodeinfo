@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0-miyaco.20",
+      "homepage": "https://github.com/miyakogi/misskey",
+      "repository": "https://github.com/miyakogi/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 67,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 16669,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "神聖みやこ帝国",
+      "nodeDescription": "神聖みやこ帝国のMisskeyサーバーです。<br>\n登録の前に利用規約の確認をお願いします。<br>\nみやこさんの言うことは絶対です。",
+      "nodeAdmins": [
+        {
+          "name": "みやこ",
+          "email": "https://empire-info.miyaco.moe/contact/"
+        }
+      ],
+      "maintainer": {
+        "name": "みやこ",
+        "email": "https://empire-info.miyaco.moe/contact/"
+      },
+      "langs": [],
+      "tosUrl": "https://empire-info.miyaco.moe/tos/",
+      "privacyPolicyUrl": "https://empire-info.miyaco.moe/privacy-policy/",
+      "inquiryUrl": "https://empire-info.miyaco.moe/contact/",
+      "impressumUrl": "https://empire-info.miyaco.moe/contact/",
+      "repositoryUrl": "https://github.com/miyakogi/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "following",
+      "themeColor": "#000000"
+    }
+  },
+  "error": null
+}

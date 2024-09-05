@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2024.5.1",
+      "homepage": "https://codeberg.org/firefish/firefish",
+      "repository": "https://codeberg.org/firefish/firefish"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2336,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "derg.one",
+      "nodeDescription": "Private fediverse instance for cool swaggy dragons (and their friends)",
+      "nodeAdmins": [
+        {
+          "name": "@levi",
+          "email": "hello@levi.land"
+        }
+      ],
+      "maintainer": {
+        "name": "@levi",
+        "email": "hello@levi.land"
+      },
+      "langs": [],
+      "tosUrl": "https://derg.one/@derg/pages/about",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "https://link.levi.land",
+      "impressumUrl": null,
+      "donationUrl": null,
+      "repositoryUrl": "https://codeberg.org/firefish/firefish",
+      "feedbackUrl": "https://codeberg.org/firefish/firefish/issues",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": true,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": null,
+      "themeColor": "#cf0063"
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "metadata": {
+      "enableGlobalTimeline": true,
+      "enableGuestTimeline": false,
+      "enableLocalTimeline": true,
+      "enableRecommendedTimeline": true,
+      "maintainer": {
+        "email": "admin@rogue-net.work",
+        "name": "Rogue"
+      },
+      "nodeDescription": "Eine unbeschreiblich schöne Instanz im Fediverse.\nPrivate Instanz, keine Registrierung möglich.\n\nGegen: Hass, Gewalt, Rassismus, Radikalismus usw.\nPro: Tier, Natur, Mensch etc.",
+      "nodeName": "Rogue Network",
+      "repositoryUrl": "https://firefish.dev/firefish/firefish",
+      "themeColor": "#FF008C"
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "software": {
+      "homepage": "https://firefish.dev/firefish/firefish",
+      "name": "firefish",
+      "repository": "https://firefish.dev/firefish/firefish",
+      "version": "20240818"
+    },
+    "usage": {
+      "localPosts": 265,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 3,
+        "total": 3
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 579,
+      "localComments": 59
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "hrbrmstr&#039;s Daily Drop",
+      "nodeDescription": "A daily dose of productivity-enhancing finds/info from the deep, dark tech corners of the internet. Expect delightful surprises whether you&#039;re into web tech, data science/engineering, or just tinkering.",
+      "nodeIcon": "https://dailydrop.hrbrmstr.dev/wp-content/uploads/2023/12/site-logo.png"
+    }
+  },
+  "error": null
+}

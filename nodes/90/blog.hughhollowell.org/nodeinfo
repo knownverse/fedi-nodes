@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 282,
+      "localComments": 3304
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hugh&#039;s Blog",
+      "nodeDescription": "joyful in spite of the facts",
+      "nodeIcon": "https://i0.wp.com/blog.hughhollowell.org/wp-content/uploads/2015/11/cropped-cropped-Favicon-54cfac7dv1_site_icon.png?fit=512%2C384&ssl=1"
+    }
+  },
+  "error": null
+}

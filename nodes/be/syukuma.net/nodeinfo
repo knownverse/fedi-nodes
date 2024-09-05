@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.7.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 11,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 2064,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Gesetz",
+      "nodeDescription": "<div align=\"center\">\n<p>この門は世界中に存在する貴方のためのもの。</p>\n</div>\n\n<div align=\"left\">\n<p>元は管理者の一人インスタンスとして始まったものです。メンタルetcの問題を抱えながら頑張る人の「他の人に分かってもらいにくい投稿」ができるサーバーです。日常の一コマも遠慮なく御投稿ください。中央集権型SNSに書き込めない内容を書きたいときの「サブ垢」や、長文用としてどうぞ。</p>\n\n<p>▼更新情報</br>\nhttps://syukuma.net/channels/9nvbwr8kb7</p>\n<p>▼メンテナンス・稼働状況</br>\nhttps://social.gesetz.world/service-status</p>\n\n<p>運営中のSNSやDiscordサーバー情報は以下のサイトにまとめています。</br>\nhttps://social.gesetz.world/</p>\n</div>",
+      "nodeAdmins": [
+        {
+          "name": "Syu",
+          "email": "info@syukuma.net"
+        }
+      ],
+      "maintainer": {
+        "name": "Syu",
+        "email": "info@syukuma.net"
+      },
+      "langs": [],
+      "tosUrl": "https://social.gesetz.world/guidelines",
+      "privacyPolicyUrl": "https://social.gesetz.world/privacy-policy",
+      "inquiryUrl": "https://social.gesetz.world/",
+      "impressumUrl": "https://bsky.app/profile/syukuma.bsky.social",
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": true,
+      "enableMcaptcha": false,
+      "enableTurnstile": false,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "list_Proxy",
+      "themeColor": "#201809"
+    }
+  },
+  "error": null
+}

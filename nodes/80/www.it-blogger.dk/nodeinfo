@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "7",
+        "activeHalfyear": "7"
+      },
+      "localPosts": 2467,
+      "localComments": 2001
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "IT-blogger.dk",
+      "nodeDescription": "Af Andreas Andersen",
+      "nodeIcon": "https://www.it-blogger.dk/wp-content/uploads/2019/11/cropped-Ikon.jpg"
+    }
+  },
+  "error": null
+}

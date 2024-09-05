@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 1353,
+      "localComments": 915
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Hoxsie!",
+      "nodeDescription": "Snippets of local history from Albany, Schenectady and Troy",
+      "nodeIcon": "https://hoxsie.org/wp-content/uploads/2015/08/cropped-cropped-hoxsiebanner.jpg"
+    }
+  },
+  "error": null
+}

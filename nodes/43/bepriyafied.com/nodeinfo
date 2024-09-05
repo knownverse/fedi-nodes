@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 73,
+      "localComments": 162
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Priyafied",
+      "nodeDescription": "The more you read, the more you discover. But if you read right, you also learn! Do it here, with me because scientific literacy is not just science; it is common sense combined with knowledge.",
+      "nodeIcon": "https://bepriyafied.com/wp-content/uploads/2020/03/cropped-cropped-priyafied-1.png"
+    }
+  },
+  "error": null
+}

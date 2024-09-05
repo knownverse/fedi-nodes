@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "links": [
+      {
+        "href": "https://relay.fedi.buzz/.well-known/nodeinfo",
+        "rel": "http://nodeinfo.diaspora.software/ns/schema/2.1"
+      }
+    ],
+    "metadata": {
+      "rust_version": ""
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "software": {
+      "homepage": "https://relay.fedi.buzz",
+      "name": "buzzrelay",
+      "repository": "https://github.com/astro/buzzrelay",
+      "version": "0.1.0"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 27119,
+      "users": {
+        "activeHalfyear": 4288,
+        "activeMonth": 0,
+        "total": 0
+      }
+    },
+    "version": "2.1"
+  },
+  "error": null
+}

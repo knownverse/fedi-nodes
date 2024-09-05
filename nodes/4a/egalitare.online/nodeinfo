@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "data": {
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "software": {
+      "name": "EgalitareFed",
+      "version": "0.2"
+    },
+    "usage": {
+      "localComments": 0,
+      "localPosts": 16,
+      "users": {
+        "activeHalfyear": 3,
+        "activeMonth": 2,
+        "total": 3
+      }
+    },
+    "version": "2.0"
+  },
+  "error": null
+}

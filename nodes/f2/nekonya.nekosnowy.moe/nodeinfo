@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "mastodon",
+      "version": "4.3.0-beta.1+glitch"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 974
+    },
+    "openRegistrations": false,
+    "metadata": {
+      "nodeName": "Nekonya",
+      "nodeDescription": "Personal instance of Neko Snowy to control how I experience the fediverse~"
+    }
+  },
+  "error": null
+}

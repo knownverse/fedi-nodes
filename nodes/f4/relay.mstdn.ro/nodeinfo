@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "aoderelay",
+      "version": "v0.3.85-HEAD-7a002295"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeHalfyear": 1,
+        "activeMonth": 1
+      },
+      "localPosts": 0,
+      "localComments": 0
+    },
+    "metadata": {
+      "peers": [
+        "declin.eu",
+        "dycho.jp",
+        "kitsune.moe",
+        "koliosky.com",
+        "labo.wovs.tk",
+        "mastodon.social",
+        "mattyaski.co",
+        "misskey.amau.jp",
+        "misskey.cloud",
+        "misskey.day",
+        "misskey.midorichan.net",
+        "misskey.ssskkk.top",
+        "misskey.yuu0918.net",
+        "misskey.zhoushen929.com",
+        "mk.amanita.zone",
+        "msky.mfz.jp",
+        "mstdn.ro",
+        "nicomedkey.cc",
+        "ojousama-tea.party",
+        "relay.fedi.buzz",
+        "relay.fedi.buzz",
+        "serve.moe",
+        "ski.takoyaki.xyz",
+        "sns.onjann.club",
+        "soshar.dess.ga",
+        "voskey.icalo.net",
+        "yagamin.com"
+      ]
+    }
+  },
+  "error": null
+}

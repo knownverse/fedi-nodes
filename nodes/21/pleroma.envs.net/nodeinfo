@@ -1,0 +1,2902 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "protocols": [
+      "activitypub"
+    ],
+    "metadata": {
+      "private": false,
+      "features": [
+        "pleroma_api",
+        "akkoma_api",
+        "mastodon_api",
+        "mastodon_api_streaming",
+        "polls",
+        "v2_suggestions",
+        "pleroma_explicit_addressing",
+        "shareable_emoji_packs",
+        "multifetch",
+        "pleroma:api/v1/notifications:include_types_filter",
+        "quote_posting",
+        "editing",
+        "bubble_timeline",
+        "media_proxy",
+        "pleroma_emoji_reactions",
+        "exposable_reactions",
+        "profile_directory",
+        "custom_emoji_reactions",
+        "pleroma:get:main/ostatus"
+      ],
+      "suggestions": {
+        "enabled": false
+      },
+      "federation": {
+        "enabled": true,
+        "mrf_hellthread": {
+          "delist_threshold": 12,
+          "reject_threshold": 25
+        },
+        "quarantined_instances": [],
+        "mrf_simple": {
+          "accept": [],
+          "reject": [
+            "kiwifarms.cc",
+            "pawoo.com",
+            "sinbir.com",
+            "xxxtumbir.org",
+            "twimbir.xyz",
+            "dajiaweibo.com",
+            "baraag.net",
+            "sleepy.cafe",
+            "bajax.us",
+            "poa.st",
+            "bae.st",
+            "freecumextremist.com",
+            "freespeechextremist.com",
+            "spinster.xyz",
+            "genderlandia.haus",
+            "detroitriotcity.com",
+            "leafposter.club",
+            "lovingexpressions.net",
+            "nobodyhasthe.biz",
+            "danksquad.org",
+            "etiketi.de",
+            "childpawn.shop",
+            "loli.pizza",
+            "anime.website",
+            "youjo.love",
+            "lolicon.rocks",
+            "solagg.com",
+            "helladoge.com",
+            "glowers.club",
+            "kiwifarms.is",
+            "kiwifarms.net",
+            "preteengirls.biz",
+            "smugloli.net",
+            "truthsocial.com",
+            "truthsocial.co.in",
+            "lgbtfree.zone",
+            "loliandstuff.moe",
+            "unsafe.space",
+            "honkwerx.tech",
+            "freedomofpress.rocks",
+            "clubcyberia.co",
+            "rdrama.cc",
+            "freewahaextremist.soy",
+            "nicecrew.digital",
+            "happylittle.cloudns.cc",
+            "pedo.school",
+            "saynoto.lgbt",
+            "weeaboo.space",
+            "cawfee.club",
+            "cum.salon",
+            "beefyboys.club",
+            "beefyboys.win",
+            "freeatlantis.com",
+            "desubposter.club",
+            "shpposter.club",
+            "pieville.net",
+            "varishangout.net",
+            "yggdrasil.social",
+            "brighteon.social",
+            "whinge.town",
+            "noagendasocial.com",
+            "eientei.org",
+            "pseudo-whiskey.bar",
+            "iqdd.social",
+            "bikeshed.party",
+            "strelizia.net",
+            "gameliberty.club",
+            "gearlandia.haus",
+            "supes.com",
+            "novoa.nagoya",
+            "pkteerium.xyz",
+            "angrytoday.com",
+            "5dollah.click",
+            "itmslaves.com",
+            "midwaytrades.com",
+            "greenboys.club",
+            "globalfrens.com",
+            "shortstackran.ch",
+            "mahodou.moe",
+            "noxinon.de",
+            "homd.xyz",
+            "d-fens.systems",
+            "thebag.social",
+            "froth.zone",
+            "paypig.org",
+            "frennet.xyz",
+            "narrativerry.xyz",
+            "wolfgirl.bar",
+            "shitposter.club",
+            "truthsocialpro.org",
+            "anon-kenkai.com",
+            "egirls.gay",
+            "fluf.club",
+            "frennet.link",
+            "hatesnigge.rs",
+            "niggers.auction",
+            "liberdon.com",
+            "spinster.dev",
+            "goyim.app",
+            "jpop.club",
+            "hentai.baby",
+            "neckbeard.xyz",
+            "gab.ai",
+            "loliverse.xyz",
+            "midnightride.rs",
+            "fr13nd5.com",
+            "desupost.soy",
+            "firedragonstudios.com",
+            "sleeck.eu",
+            "justicewarrior.social",
+            "anti-degeneracy.club",
+            "iddqd.social",
+            "bestgore.fun",
+            "contrapointsfan.club",
+            "dobbs.town",
+            "quodverum.com",
+            "raygungothic.xyz",
+            "cachapa.moe",
+            "skyshanty.xyz",
+            "handholding.io",
+            "mulmeyun.church",
+            "pawoo.net",
+            "freak.university",
+            "genitalia.observer",
+            "kitsunemimi.club",
+            "gleasonator.com",
+            "masochi.st",
+            "slash.cl",
+            "ancreport.com",
+            "rakket.app",
+            "076.ne.jp",
+            "pmth.us",
+            "hunk.city",
+            "tkammer.de",
+            "glindr.org",
+            "fediversesearch.com",
+            "ligma.pro",
+            "aethy.com",
+            "shota.house",
+            "maladaptive.art",
+            "qoto.org",
+            "nazi.social",
+            "hedgehoghunter.club",
+            "mooo.com",
+            "shitpisscum.mooo.com",
+            "eveningzoo.club",
+            "banepo.st",
+            "based.directory",
+            "4chan.icu",
+            "ghetti.monster",
+            "gab.best",
+            "springbo.cc",
+            "tastingtraffic.net",
+            "calobar.club",
+            "gorf.pub",
+            "chudbuds.lol",
+            "shitposting.army",
+            "mugicha.club",
+            "refusal.biz",
+            "cybercrusade.xyz",
+            "djsumdog.com",
+            "merovingian.club",
+            "geofront.rocks",
+            "mirr0r.city",
+            "comfysnug.space",
+            "a.sc",
+            "bozgor.org",
+            "marsey.club",
+            "birds.garden",
+            "freespeech.group",
+            "freethinkers.lgbt",
+            "natehiggers.online",
+            "seal.cafe",
+            "shrine.moe",
+            "kys.moe",
+            "eatthebugs.social",
+            "twhtv.club",
+            "zztails.gay",
+            "zztails.online",
+            "shitpost.cloud",
+            "zztails.wtf",
+            "rapemeat.solutions",
+            "wideboys.org",
+            "husk.site",
+            "goyslop.cafe",
+            "pisskey.io",
+            "outpoa.st",
+            "pooper.social",
+            "neenster.org",
+            "zombiecats.run",
+            "mu.zaitcev.nu",
+            "schwartzwelt.xyz",
+            "comfyboy.club",
+            "honeypot.im",
+            "medic.cafe",
+            "hallsofamenti.io",
+            "sneed.social",
+            "pawlicker.com",
+            "quanta.wiki",
+            "activitypub-troll.cf",
+            "misskey-forkbomb.cf",
+            "ryona.agency",
+            "poast.org",
+            "rayci.st",
+            "repl.co",
+            "hitchhiker.social",
+            "neet.church",
+            "kabuki.club",
+            "truthsocial.st",
+            "urchan.org",
+            "nuked.social",
+            "antivaxxer.icu",
+            "explosion.party",
+            "murky.club",
+            "misono-ya.info",
+            "sperg.city",
+            "trumpislovetrumpis.life",
+            "darkkeep.net",
+            "shitpost.racing",
+            "nightshift.social",
+            "freezepeach.xyz",
+            "cachapa.xyz",
+            "impeccable.social",
+            "teci.world",
+            "rapefeminists.network",
+            "kurosawa.moe",
+            "letsalllovela.in",
+            "catgirl.life",
+            "milker.cafe",
+            "nnia.space",
+            "pone.social",
+            "gab.com",
+            "shigusegubu.club",
+            "xmrposter.club",
+            "skippers-bin.com",
+            "lain.sh",
+            "genderheretics.xyz",
+            "intkos.link",
+            "10minutepleroma.com",
+            "freefedifollowers.ga",
+            "sneak.berlin",
+            "dickkickextremist.xyz",
+            "tyil.nl",
+            "alfter.us",
+            "masthead.social",
+            "clube.social",
+            "freesoftwareextremist.com",
+            "animalliberation.social",
+            "retard.tech",
+            "aria.company",
+            "pleroma.id",
+            "cucked.me",
+            "homunyan.com",
+            "porntoot.com",
+            "gorf.space",
+            "probablyfreespeech.com",
+            "fbxl.net",
+            "haeder.net",
+            "kag.social",
+            "xn--p1abe3d.xn--80asehdb",
+            "rojogato.com",
+            "poster.place",
+            "mastod.no",
+            "urspringer.de",
+            "workers.dev",
+            "mastodong.lol",
+            "wiki-tube.de",
+            "womyns.land",
+            "1being.org",
+            "gigaohm.bio",
+            "libre.tube",
+            "kenfm.de",
+            "quadplay.tv",
+            "muchiga.club",
+            "pouque.net",
+            "mcjarbo.com",
+            "xhais.love",
+            "13bells.com",
+            "obo.sh",
+            "kcl.academy",
+            "mrhands.horse",
+            "humble.cafe",
+            "ignorelist.com",
+            "cum.camp",
+            "anemoneya.me",
+            "eskimo.com",
+            "homoo.social",
+            "shota.social",
+            "smuglo.li",
+            "kisslolis.moe",
+            "kisslolis.com",
+            "busshi.moe",
+            "mastodon.cf",
+            "lolis.world",
+            "lolison.network",
+            "rakka.tk",
+            "loveforlandlords.com",
+            "gabe.rocks",
+            "normie.cafe",
+            "asimon.org",
+            "libre.video",
+            "librenet.co.za",
+            "rebelbase.site",
+            "freezepeach.online",
+            "terrible.place",
+            "gegenstimme.tv",
+            "troll.cafe",
+            "80percent.social",
+            "midov.pl",
+            "thisisjoes.site",
+            "pube.tk",
+            "hendrixgames.com",
+            "derveni.org",
+            "hidamari.apartments",
+            "cyberretards.xyz",
+            "monstergirl.space",
+            "badly.co",
+            "were.social",
+            "kenhbit.com",
+            "vrij.social",
+            "sneed.vip",
+            "freewahaextremist.wtf",
+            "cock.fish",
+            "carnivore.social",
+            "the9thcircle.club",
+            "cdsisaster.club",
+            "beepboop.ga",
+            "phreedom.club",
+            "thepostearthdestination.com",
+            "bittube.video",
+            "megamast.io",
+            "rettiwtkcuf.social",
+            "niscii.xyz",
+            "rebased.io",
+            "kyaruc.moe",
+            "crlf.ninja",
+            "bgzashtita.es",
+            "101010.pl",
+            "sphere.com.ai",
+            "vladtepesblog.com",
+            "wagesofsinisdeath.com",
+            "civiq.social",
+            "gab.io",
+            "rdrama.net",
+            "nationaljustice.social",
+            "8777.ch",
+            "longyap.name.my",
+            "blazingopen.space",
+            "brapbarn.farm",
+            "loli.best",
+            "hoto.rocks",
+            "cofeti.me",
+            "iamterminally.online",
+            "poridge.club",
+            "handicapped.tk",
+            "elementality.org",
+            "oti.st",
+            "lain.gay",
+            "crucible.world",
+            "sad.cab",
+            "dingdash.com",
+            "jollyville.net",
+            "leadslinger.org",
+            "meld.de",
+            "alive.bar",
+            "mcjarbo.net",
+            "dtzbts.xyz",
+            "1984.cz",
+            "cdrom.tokyo",
+            "somewhy.net",
+            "raspberrypi.social",
+            "dev-wiki.de",
+            "minidisc.tokyo",
+            "hermitmountain.top",
+            "gamers.exposed",
+            "federated.fun",
+            "chocoflan.net",
+            "grin.hu",
+            "toad.social",
+            "ctseuro.com",
+            "mitra.social",
+            "feral.cafe",
+            "awoo.fyi",
+            "starnix.network",
+            "lesaoras.xyz",
+            "meatbag.app",
+            "leftychan.net",
+            "freetalklive.com",
+            "noagendatube.com",
+            "alphasoft.org",
+            "ymkml.online",
+            "prospeech.space",
+            "wasscher.com",
+            "podcastindex.social",
+            "verumsocial.com",
+            "redliberal.com",
+            "moirai.cc",
+            "fedispot.com",
+            "dragonborn.app",
+            "inferencium.net",
+            "mastinator.com",
+            "activitypub-proxy.cf",
+            "libresilicon.com",
+            "jvpiter.net",
+            "grimerica.ca",
+            "076.moe",
+            "animesexual.community",
+            "boobytooth.social",
+            "miku-enthusiast.club",
+            "mastodon.se",
+            "lucasvl.nl",
+            "scots.network",
+            "ironbug.org",
+            "netzgemeinde.eu",
+            "durst.world",
+            "iamterminallyonline.com",
+            "moa.st",
+            "poast.tv",
+            "gorf.tube",
+            "bungle.online",
+            "1611.social",
+            "addy.gg",
+            "fightthis.net",
+            "bien-etre.social",
+            "bucket.0ms.me",
+            "bunny.cafe",
+            "rigcz.club",
+            "woln.eu",
+            "feline.rodeo",
+            "bitacadie.com",
+            "psion.co",
+            "karjalazet.se",
+            "brzozow.xyz",
+            "z0ne.social",
+            "cyberstorm.one",
+            "firechicken.net",
+            "gentoo.live",
+            "m0n5t3r.info",
+            "catboi.party",
+            "vfpmedia.com",
+            "voiodgaming.co",
+            "soykaf.com",
+            "rageparty.club",
+            "redeyes.site",
+            "gnuhacker.org",
+            "sheep.network",
+            "hornyjail.pro",
+            "eeeeeeeee.eu",
+            "arasaka.vip",
+            "refusal.llc",
+            "lainon.life",
+            "ungoverned.social",
+            "moe.onl",
+            "asbestos.cafe",
+            "23.95.115.204",
+            "agates.io",
+            "lainchan.gay",
+            "dlf.social",
+            "crowleyclub.com",
+            "libtar.de",
+            "initiate.space",
+            "nanovim.tk",
+            "dramatica.online",
+            "wreck.rocks",
+            "khajiit.de",
+            "harpy.faith",
+            "privex.social",
+            "xaetacore.net",
+            "whitesmokebbq.social",
+            "burger.rodeo",
+            "hirad.it",
+            "endtimebelievers.com",
+            "mhym.social",
+            "drow.be",
+            "pawlicker.ddns.net",
+            "satoshishop.de",
+            "vsta.org",
+            "kafka.icu",
+            "singing.dog",
+            "tpo.world",
+            "heislandmine.work",
+            "csdisaster.club",
+            "lolic.at",
+            "boseburo.ddns.net",
+            "counter.social",
+            "fedi.cc",
+            "freespeech.club",
+            "nasnfl.com",
+            "darknight-coffee.org",
+            "foxfam.club",
+            "macsnet.cz",
+            "toot.pt",
+            "vuju.com",
+            "b10m.net",
+            "fediverse-lite.com",
+            "nullwhere.social",
+            "glowie.cloud",
+            "freesocial.co",
+            "patriot.social",
+            "peertube.red",
+            "digitalsuccess.dev",
+            "chaoswork.cn",
+            "globalwarming.fun",
+            "jmizzle.com",
+            "unvaxxed.nl",
+            "ruinouspowe.rs",
+            "berserker.town",
+            "mouse.services",
+            "netzsphaere.xyz",
+            "pirateradio.social",
+            "lukesmith.xyz",
+            "realnephestate.xyz",
+            "magicalmirro.red",
+            "poweredbycocaine.com",
+            "miniwa.moe",
+            "danksquad.xyz",
+            "neighborli.xyz",
+            "equel.social",
+            "boyter.org",
+            "socialq.club",
+            "opalstack.social",
+            "stereophonic.space",
+            "lizards.live",
+            "bahnhof.cz",
+            "debilosempire.org",
+            "piazza.today",
+            "cheeseland.xyz",
+            "disqordia.space",
+            "smittenkittens.xyz",
+            "haskovec.social",
+            "projectftm.com",
+            "dmgd.monster",
+            "idolheaven.org",
+            "gravure.club",
+            "asphodel.rip",
+            "campduffel.social",
+            "fuwa.pink",
+            "abraham.su",
+            "refuse2.work",
+            "spook.social",
+            "jir.moe",
+            "kompost.cz",
+            "salastil.com",
+            "socialgoblins.club",
+            "hermit.cafe",
+            "unbound.social",
+            "ebin.club",
+            "maneisacutie.club",
+            "breastmilk.club",
+            "rebased.social",
+            "computerfairi.es",
+            "social.duti.tech",
+            "lolison.top",
+            "squid.kids",
+            "nixnet.social",
+            "freequeefextremist.com",
+            "sonichu.com",
+            "blockriot.com",
+            "wolfballs.com",
+            "mastodon.bayern",
+            "joschu.ch",
+            "servernerds.net",
+            "injection.love",
+            "anthro.cc",
+            "smuganimeavatar.xyz",
+            "lulz.win",
+            "capystan.net",
+            "best-friends.chat",
+            "sliek.social",
+            "ultratumba.dynu.net",
+            "beckmeyer.us",
+            "drastical.tech",
+            "lemonade.moe",
+            "vltava.cloud",
+            "librosphere.fr",
+            "angry.im",
+            "comfy.social",
+            "planet.moe",
+            "bussy.monster",
+            "pizzaf.art",
+            "tesaguri.club",
+            "jauntygoat.net",
+            "scarlet.house",
+            "kilobyte.club",
+            "remnant.social",
+            "morale.ch",
+            "persia.social",
+            "rage.lol",
+            "pengi-san.moe",
+            "treeoflifecomic.com",
+            "dixies.land",
+            "sorcie.re",
+            "pmj.rocks",
+            "discussion.studio",
+            "myhm.social",
+            "blacksun.social",
+            "foxarmy.org",
+            "kawa-kun.com",
+            "bbad.com",
+            "wowana.me",
+            "jiyu.dev",
+            "brainsoap.net",
+            "owlper.ch",
+            "retroedge.tech",
+            "hieron.cc",
+            "theres.life",
+            "talesofmy.life",
+            "cloudisland.online",
+            "mastindia.co",
+            "boingo00.wtf",
+            "zedsocial.ca",
+            "social.goip.de",
+            "medusmedia.com",
+            "cocaine.moe",
+            "r18.social",
+            "sharivegas.com",
+            "alteregocreations.com",
+            "blockedur.mom",
+            "acu.lt",
+            "meme.moe",
+            "kusoneko.moe",
+            "epenguin.com",
+            "shinaaamo.com",
+            "pixelart.moe",
+            "7td.org",
+            "bofh.social",
+            "decept.org",
+            "voidgaming.co",
+            "deadreckoning.cc",
+            "collapsitarian.io",
+            "librem.one",
+            "dissident.business",
+            "querdenken-711.de",
+            "tw.9tail.net",
+            "bocc.de",
+            "arumoon.ru",
+            "unstoppablecode.org",
+            "oddballs.vip",
+            "girino.org",
+            "hdcraft.xyz",
+            "shelter.moe",
+            "w-2.io",
+            "silliness.observer",
+            "nekocave.xyz",
+            "nijimiss.moe",
+            "icum.to",
+            "mikeshelby.noip.me",
+            "gecko20.de",
+            "due.ren",
+            "intotheriff.com",
+            "rcsocial.net",
+            "brodi.me",
+            "sully.site",
+            "assortedflotsam.com",
+            "stracknet.com",
+            "nalocal519.social",
+            "freedomstrike.net",
+            "freedomstrike.org",
+            "theapex.social",
+            "unperson.us",
+            "ckpg.space",
+            "dsocialize.net",
+            "donotban.com",
+            "josephschneider.net",
+            "shadowsocial.org",
+            "daspr.io",
+            "pardoners.church",
+            "malydwhomartthou.com",
+            "weebcouncil.online",
+            "kawen.space",
+            "varis.tv",
+            "conspiracydistillery.com",
+            "bitcointv.com",
+            "thejoyo.com",
+            "susmaninsurance.com",
+            "justbros.xyz",
+            "openmtx.com",
+            "lain.la",
+            "newsie.social",
+            "rot.gives",
+            "ua-fediland.de",
+            "bylines.social",
+            "polaris-1.work",
+            "448c.net",
+            "nekoea.red",
+            "commiespace.duckdns.org",
+            "draine.rs",
+            "elouworld.org",
+            "anancus.fr",
+            "thesolarrepublic.org",
+            "fedi.site",
+            "himk.am",
+            "khajiit.tech",
+            "lovesick.social",
+            "apathy.tv",
+            "bigzu.cc",
+            "rebased.network",
+            "logografos.com",
+            "perktold.xyz",
+            "kalli.st",
+            "spearman.xyz",
+            "driveby.cool",
+            "shouldibuyahorse.com",
+            "onlyfeds.cc",
+            "x0f.org",
+            "ilias.church",
+            "waifuism.life",
+            "zip2.social",
+            "yokai.cafe",
+            "nti.social",
+            "capitalism.party",
+            "btrfly.social",
+            "thecyberdeck.xyz",
+            "kona.moe",
+            "livingunder.rocks",
+            "gerkenator.com",
+            "takesama.com",
+            "twiukraine.com",
+            "machikadon.online",
+            "guizzyordi.info",
+            "posix.gay",
+            "tkw.fm",
+            "icic-net.com",
+            "lain.bar",
+            "propulse.club",
+            "mastertibbles.co.uk",
+            "bida.im",
+            "829.hu",
+            "pech.tech",
+            "fedicafe.com",
+            "noagendasocial.nl",
+            "headcannon.xyz",
+            "republic.red",
+            "inumbra.xyz",
+            "petrolkorps.cc",
+            "madhammer.club",
+            "metro.social",
+            "myyouniverse.observer",
+            "tnd.lol",
+            "seahorse.sh",
+            "0chan.ru",
+            "shocktohp.xyz",
+            "diarbagus.id",
+            "pub.instances.scw.cloud",
+            "ngrok.io",
+            "bungle.chat",
+            "129.159.139.0",
+            "wizard.casa",
+            "whinge.house",
+            "guyfawkes.social",
+            "godspeed.moe",
+            "nakamoto.social",
+            "exploding-heads.com",
+            "firefaithfellowship.com",
+            "illegitimate.technology",
+            "devs.live",
+            "wolfie.pw",
+            "tokhmi.xyz",
+            "rio.social",
+            "esmailelbob.xyz",
+            "veenus.art",
+            "lottev.moe",
+            "viridianpatriots.com",
+            "travnewmatic.com",
+            "4aem.com",
+            "wxw.moe",
+            "spiderden.net",
+            "wake.st",
+            "karl.guru",
+            "yams.lol",
+            "dd0s.lol",
+            "nscio.us",
+            "thenobody.club",
+            "mistli.net",
+            "redspinning.top",
+            "nasface.cz",
+            "nastub.cz",
+            "pibvt.net",
+            "peoplegroup.social",
+            "melonbread.dev",
+            "mememagic.net",
+            "dancefight.club",
+            "itm.osaka",
+            "open-social.xyz",
+            "coolsite.win",
+            "yuukosan.xyz",
+            "lukepreston.xyz",
+            "nukem.biz",
+            "cobblestone.rocks",
+            "1745.info",
+            "cryptotooter.com",
+            "fediverse.pl",
+            "autism.zone",
+            "rneetup.com",
+            "libertyaf.io",
+            "taullo.social",
+            "pendragon.rocks",
+            "skinheads.eu",
+            "skinheads.uk",
+            "skinheads.io",
+            "skinheads.social",
+            "chudbuds.org",
+            "otakufarms.com",
+            "flockingbird.social",
+            "icod.de",
+            "knowltonwx.com",
+            "doctors4covidethics.org",
+            "loves.reisen",
+            "pissqordia.space",
+            "outerkosm.us",
+            "incorrigible.moe",
+            "tewi.and.reisen",
+            "dskofgrn.xyz",
+            "skinheads.network",
+            "poast.lol",
+            "kawen.site",
+            "lolicon.win",
+            "thebased.club",
+            "soysoftware.net",
+            "rodent.life",
+            "cockworshipper.com",
+            "mastobate.social",
+            "jacksgloryhole.com",
+            "writehere.is",
+            "bibly.com",
+            "secluded.site",
+            "someotherguy.xyz",
+            "gitpod.io",
+            "cloudapp.azure.com",
+            "cloud.okteto.net",
+            "cloud.scaleway.com",
+            "cloudplane.app",
+            "openshiftapps.com",
+            "nrk.cloud",
+            "anticom.world",
+            "bitcoinlizard.net",
+            "xxxxxxxxxx.xxx",
+            "localhost.run",
+            "rsc.cdn77.org",
+            "dembased.xyz",
+            "pktriot.net",
+            "xiii.ch",
+            "kyou.social",
+            "wire.garden",
+            "troplo.com",
+            "affiliates.social",
+            "vps.ovh.ca",
+            "here.blue",
+            "g3l.org",
+            "jamesp.org",
+            "babay.icu",
+            "shrimpcam.pw",
+            "tiuxo.com",
+            "waskuisland.com",
+            "expression.social",
+            "kabukimono.top",
+            "tictoc.social",
+            "redpill-insight.com",
+            "utzer.de",
+            "nemoneya.me",
+            "bearbirdsite.sicem.social",
+            "beta.mstdn.cf",
+            "birbber.hotfemboy.pics",
+            "birb.redra1n.net",
+            "birb.stream",
+            "birdbots.leptonics.com",
+            "bird.evilcyberhacker.net",
+            "bird.geiger.ee",
+            "bird.hock.one",
+            "bird.im-in.space",
+            "bird.istheguy.com",
+            "bird.kuendig.io",
+            "bird.makeup",
+            "bird.r669.live",
+            "bird.seafoam.space",
+            "bird.shitposted.today",
+            "birdsite.am-institute.swiss",
+            "birdsite.archybold.com",
+            "birdsite.axeleroy.com",
+            "birdsite.b93.dece.space",
+            "birdsite.blahaj.social",
+            "birdsite.blazelight.dev",
+            "birdsite.cbruegg.com",
+            "birdsite.cloutier.co",
+            "birdsite.csachweh.de",
+            "birdsite.darkesttimeline.social",
+            "birdsite.davinkevin.fr",
+            "birdsite.falkensweb.com",
+            "birdsite.felixmueller.cloud",
+            "birdsite.frog.fashion",
+            "birdsite.gabeappleton.me",
+            "birdsite.gnyo.org",
+            "birdsite.gred.al",
+            "birdsite.gxvwb.dev",
+            "birdsite.hwarf.com",
+            "birdsite.ingwie.me",
+            "birdsite.intra.kaijauch.de",
+            "birdsite.james.moody.name",
+            "birdsite.jupiterslanding.social",
+            "birdsite.kaijauch.de",
+            "birdsite.k-fortytwo.de",
+            "birdsite.kohl.dev",
+            "birdsite.koyu.space",
+            "birdsite.lakedrops.com",
+            "birdsite.link",
+            "birdsite.lipsia.casa",
+            "birdsite.live",
+            "birdsitelive.angrydome.au",
+            "birdsitelive.baguette-it.social",
+            "birdsitelive.bubbletea.dev",
+            "birdsitelive.falschgold.net",
+            "birdsitelive.ffvo.dev",
+            "birdsitelive.janngobble.synology.me",
+            "birdsitelive.kevinyank.com",
+            "birdsitelive.laski.app",
+            "birdsitelive.leonardwong.tech",
+            "birdsitelive.loca.lt",
+            "birdsitelive.mastodon.vm.statshelix.com",
+            "birdsitelive.moistgarbage.info",
+            "birdsitelive.nullreference.io",
+            "birdsitelive.peanutlasko.com",
+            "birdsitelive.samedwards.ca",
+            "birdsitelive.self-hosted.site",
+            "birdsitelive.treffler.cloud",
+            "birdsite.lluni.de",
+            "birdsite.mastodon.land",
+            "birdsite.mastodon.me.uk",
+            "birdsite.miisu.net",
+            "birdsite.monster",
+            "birdsite.noitl.space",
+            "birdsite.nytpu.com",
+            "birdsite.oliviaappleton.com",
+            "birdsite.outadoc.fr",
+            "birdsite.platypush.tech",
+            "birdsite.rap.social",
+            "birdsite.schafscheiss.com",
+            "birdsite.seejy.ninja",
+            "birdsite.slashdev.space",
+            "birdsite.spectreos.de",
+            "birdsite.tcjc.uk",
+            "birdsite.tedandrachel.com",
+            "birdsite.thorlaksson.com",
+            "birdsite.toot.si",
+            "birdsite.vish.link",
+            "birdsite.vrparty.social",
+            "birdsite.weiranzhang.com",
+            "birdsite.wilde.cloud",
+            "bird.waffles.fun",
+            "blue.worldkey.io",
+            "bot.gallion.sh",
+            "bridge.yopp.me",
+            "bsl.adamstas.com",
+            "bsl.allofti.me",
+            "bsl.beerinacan.com",
+            "bsl.compostintraining.club",
+            "bsl.m-n.live",
+            "bsl.pride-rock-labs.com",
+            "bsl.sid500.com",
+            "bsl.tuxz.one",
+            "bsl.zogan.de",
+            "firebird.mullet.social",
+            "gateway.occm.cc",
+            "instinctd.com",
+            "mastodon.socialspill.com",
+            "optiplex.wallaby-bass.ts.net",
+            "polaris.bonespr.it",
+            "politbird.twexodus.top",
+            "relay.scottsmall.org",
+            "socialloods.nl",
+            "sovran.social",
+            "t.l3r.me",
+            "tweetbridge.kogasa.de",
+            "tweetbridge.mollys.social",
+            "tweet.pasture.moe",
+            "tweets.icu",
+            "twitbridge.click",
+            "twitiverse.com",
+            "twitterbridge.mastodon.maki0419.com",
+            "twitter.cryobyte.net",
+            "twitter.dev.holtwick.de",
+            "twitter.grants.cafe",
+            "twitter.kfem.cat",
+            "twitter.moxr.de",
+            "twitter.piriklub.eu",
+            "twitter.savvas.cloud",
+            "twitter.ukd.social",
+            "twtr.3q3.de",
+            "twtr.astra.lol",
+            "twtr.ingeechat.party",
+            "twtr.plus",
+            "woof.foxxo.gay",
+            "zwezo.o-k-i.net",
+            "ams3-03.smarterliving.nl",
+            "birb.byte.wtf",
+            "bird.chauvet.pro",
+            "bird.gensokyo.info",
+            "bird.granford.uk",
+            "bird.karatek.net",
+            "birdlive.grupotd.nat.cu",
+            "bird.lummerland.ddnss.de",
+            "bird.tracto.pl",
+            "bird.zerojay.com",
+            "bird.zvo.io",
+            "birdsite.centennial.root.sx",
+            "birdsite.datboi.network",
+            "birdsite.hexix.de",
+            "birdsite.marschik.me",
+            "birdsite.nickurak.ca",
+            "birdsite.otmns.net",
+            "birdsite.tableflip.zone",
+            "birdsitelive.chatty.monster",
+            "birdsitelive.obey.social",
+            "birdsitelive.sboulema.nl",
+            "bmu.beerinacan.com",
+            "bridgebot.b-wells.us",
+            "bsl.18m250.org",
+            "bsl.fedi.grh.am",
+            "bsl.gronk.cc",
+            "bsl.shrdr.de",
+            "cuicui.senpaga.net",
+            "t.beergeek.social",
+            "test.misskey.cf",
+            "tinybirdsite.com",
+            "twitter.doesnotexist.club",
+            "mastodon.la",
+            "stormcloak.info",
+            "sweetappleacr.es",
+            "roysbeer.place",
+            "drcassone.social",
+            "loca.lt",
+            "elestio.app",
+            "fedposters.club",
+            "mstdn.jp",
+            "yukioke.com",
+            "thechimp.zone",
+            "zyzzsupremacy.xyz",
+            "kamikaze.moe",
+            "tweepsmap.com",
+            "moe.tips",
+            "vara.lol",
+            "lamp.wtf",
+            "ipv6-only.site",
+            "asdgsadga.social",
+            "epsilon.social",
+            "psyopshop.com",
+            "synergetic-design.com",
+            "touha.me",
+            "cyuucat.moe",
+            "col.social",
+            "aoq.me",
+            "jayus.net",
+            "gc-project.de",
+            "nikisoft.one",
+            "muensterland.social",
+            "mstdn.es",
+            "annihilation.social",
+            "fediverse.lol",
+            "tomw.social",
+            "hijacked.download",
+            "triodug.com",
+            "hellthread.church",
+            "nya.gay",
+            "mostr.pub",
+            "needs.vodka",
+            "chamba.social",
+            "biendeo.com",
+            "circlebasti.at",
+            "khsmty.com",
+            "violence.church",
+            "whitewomen.dog",
+            "syspxl.xyz",
+            "glee.li",
+            "nyanide.com",
+            "libbie.cloud",
+            "adhd.stream",
+            "wuwox.com",
+            "fedi.agency",
+            "bird.docmeth02.host",
+            "leonardwong.dev",
+            "twitter.felixmueller.social",
+            "white.fly.dev",
+            "milkers.online",
+            "cp2.jaxbeach.social",
+            "tweetrans.ff15.eu",
+            "twitterfeed.furrypaws.cc",
+            "twittergateway.10247.berlin",
+            "twtrbridge.de",
+            "vtweet.live",
+            "lhrtunnel.link",
+            "lhr.life",
+            "localtunnel.me",
+            "blab.gg",
+            "battlepenguin.video",
+            "manalejandro.com",
+            "decayable.ink",
+            "ai.wiki",
+            "ladies.community",
+            "ortodogs.info",
+            "seikora.one",
+            "clew.lol",
+            "filthylucre.biz",
+            "pixificial.xyz",
+            "pantsfree.cc",
+            "onionfarms.org",
+            "boks.moe",
+            "redd.live",
+            "charcha.cc",
+            "shrimpposter.club",
+            "plagu.ee",
+            "press.coop",
+            "moonbeam.town",
+            "notbird.site",
+            "mapsupport.de",
+            "willtrade.org",
+            "birdsitelive.codingneko.com",
+            "bird.xtra.nu",
+            "mast.socialspill.com",
+            "reisen.church",
+            "fulltermprivacy.com",
+            "lyricaltokarev.fun",
+            "liberal.win",
+            "kemonololi.com",
+            "taobox.pub",
+            "makemysarcophagus.com",
+            "retardedniggers.forsale",
+            "awwter.online",
+            "declin.eu",
+            "femboy.tokyo",
+            "bearygoosey.com",
+            "postnstuffds.lol",
+            "shotatube.xyz",
+            "e3t.cc",
+            "revvy.de",
+            "app.github.dev",
+            "loli.exposed",
+            "shitposte.rs",
+            "lolisandstuff.moe",
+            "magicfedi.su",
+            "lolitube.moe",
+            "depressed.bar",
+            "lambright.com",
+            "cyb3r.moe",
+            "twit.cryolog.in",
+            "twitter.toots.ro",
+            "twitter.tresor.eyhoff.de",
+            "agdersam.no",
+            "naharia.net",
+            "celebrity.social",
+            "lawstodon.social",
+            "verifiedjournalist.social",
+            "bigrelay.social",
+            "cryptodon.chat",
+            "wherelinux.xyz",
+            "swmastodon.com",
+            "b.booots.tech",
+            "fbievan.live",
+            "netz.org",
+            "vienna1.greenedgecloud.com",
+            "grid.tf",
+            "birdmakeup.opiumpost.org",
+            "vigilante.tv",
+            "lewdieheaven.com",
+            "humanist.social",
+            "mercurial.blog",
+            "aillust.fun",
+            "roadlife.social",
+            "yeshuafreedom.com",
+            "pso.li",
+            "banned.cafe",
+            "greatloop.social",
+            "boating.social",
+            "honeytree.social",
+            "bassam.social",
+            "lokinet.io",
+            "darlow.co.uk",
+            "quey.la",
+            "outrnat.nl",
+            "awootism.club",
+            "sementerrori.st",
+            "gensokyo.club",
+            "boymoder.biz",
+            "dox.land",
+            "bird.neolyum.de",
+            "bird.makeup.hwarf.com",
+            "birdsitelive.opiumpost.org",
+            "birdsite.personally.tech",
+            "t2m.davinkevin.fr",
+            "amazonaws.com",
+            "asteroidm.space",
+            "horny.house",
+            "freespeech.fans",
+            "marsey.moe",
+            "fluffytail.org",
+            "kyun.host",
+            "lemmygrad.ml",
+            "adachi.party",
+            "deno.dev",
+            "burggit.moe",
+            "emacs.ch",
+            "gizode.com",
+            "threads.net",
+            "raccoon.quest",
+            "yunyun.moe",
+            "dragonpsi.xyz",
+            "drunkposter.club",
+            "headpat.cafe",
+            "basedcount.com",
+            "ngrok-free.app",
+            "femboys.love",
+            "jbox.com.br",
+            "dline.xyz",
+            "kendothugs.world",
+            "catgirlon.top",
+            "rightmouse.click",
+            "pleromaundermybed.ddns.net",
+            "mycub.space",
+            "alpaca.gold",
+            "furcel.club",
+            "boykissers.club",
+            "scamdemic.party",
+            "kansanvalta.org",
+            "usualsuspects.lol",
+            "encipher.in",
+            "blackoutstout.space",
+            "mastodo.fi",
+            "glownow.club",
+            "itzti.li",
+            "zokni.xyz",
+            "h5q.net",
+            "vtuberfan.social",
+            "shaw.app",
+            "neomobius.com",
+            "norwoodzero.net",
+            "dotnet00.dev",
+            "bruh.social",
+            "wikileaks2.org",
+            "shortstacksran.ch",
+            "cunny.gay",
+            "royalhellcustoms.com",
+            "rapemeat.express",
+            "3zi.ru",
+            "whatiwanttoknow.org",
+            "misskey.gg",
+            "tylerdavis.xyz",
+            "xscape.top",
+            "redplanetlabs.com",
+            "nishi.boats",
+            "zcri.dev",
+            "thoughtful.social",
+            "ravergram.club",
+            "staycuriousandkeepsmil.in",
+            "chaunchy.com",
+            "minds.com",
+            "otr.rocks",
+            "catin.space",
+            "pettanko.art",
+            "smat-app.com",
+            "peervideo.club",
+            "zoomer.photography",
+            "faggot.zone",
+            "rqd2.net",
+            "jordanwages.com",
+            "sakh.social",
+            "ai8w.ddns.net",
+            "floyds.io",
+            "kelarima.com",
+            "withbrains.com",
+            "layer08.com",
+            "supernets.social",
+            "paradigm-x.tokyo",
+            "dirtkids.social",
+            "umbrellix.org",
+            "paravielfalt.zone",
+            "mondoweiss.net",
+            "adtension.com",
+            "childlove.space",
+            "ey.business",
+            "loli.church",
+            "youjo.observer",
+            "cunnyborea.space",
+            "cannibal.cafe",
+            "catposter.club",
+            "ating.press",
+            "icunny.co",
+            "pogfish.party",
+            "nnia.cc",
+            "rape.pet",
+            "cunny.win",
+            "groomer.cc",
+            "isekco.re",
+            "loliimoutolove.com",
+            "yesmap.net",
+            "mapmerch.shop",
+            "patriot.online",
+            "alterracloud.com",
+            "lewdieheaven.vip",
+            "childlove.su",
+            "cute.church",
+            "offkey.cat",
+            "nationalist.social",
+            "cottoncandy.cafe",
+            "pleromanonx86.wordpress.com",
+            "vodoraslo.club",
+            "rosaline.systems",
+            "tooters.fun",
+            "uoh.cx",
+            "neko.ci",
+            "krackhou.se",
+            "vampiremaid.cafe",
+            "noplacelikeholmes.masto.host",
+            "moeanime.io",
+            "styxhexenhammer666.com",
+            "yandere.cc",
+            "zetaspace.org",
+            "globalskywatch.social",
+            "right.wtf",
+            "tooters.wtf",
+            "sizedon.com",
+            "zhub.link",
+            "troll.social",
+            "instagram.com",
+            "tummy.town",
+            "oddballs.online",
+            "emmaverse.void.rehab",
+            "tlespace.xyz",
+            "mapstodon.space",
+            "swebbtube.se",
+            "foxgirl.lol",
+            "resonite.lov",
+            "taihou.website",
+            "parcero.bond",
+            "peertube.it",
+            "mattchristiansenmedia.com",
+            "greenish.red",
+            "magicka.org",
+            "mooneyed.de",
+            "owo69.me",
+            "mostr.net",
+            "cunnyborea.top",
+            "nicecrew.tv",
+            "navisocial.club",
+            "mashtodon.alterracloud.com",
+            "terabyte-computing.com",
+            "noauthority.social",
+            "compostintraining.club",
+            "rosiemma.online",
+            "thewired.online",
+            "g0st.live",
+            "cutefunny.net",
+            "mxin.moe",
+            "rosiemma.nohost.me",
+            "spergi.ng",
+            "confraria.xyz",
+            "na.social",
+            "natehiggers.org",
+            "onion.social",
+            "tallahasseesocial.org",
+            "bsky.brid.gy",
+            "atproto.brid.gy",
+            "atp.brid.gy",
+            "nostr.brid.gy",
+            "bluesky.brid.gy",
+            "discourse.helenprejean.org",
+            "cherryberry.pink",
+            "scfzfilm.org",
+            "i.transmit.love",
+            "niederbayern.social",
+            "cmm.fyi",
+            "cryptodon.lol",
+            "fusionpros.social",
+            "kokuusa.club",
+            "games.retrotalk.live",
+            "9kb.me",
+            "bondsdogs.com",
+            "neuroscience-mastodon.com",
+            "game-tecx.de",
+            "sensitive.hostdon.ne.jp",
+            "waterlily.tokyo",
+            "m.techsocial.site",
+            "mastodon-ero.xyz",
+            "archaeology.social",
+            "s-h.social",
+            "mastodon.io.seg.br",
+            "momostr.pink",
+            "ebiverse.social",
+            "lustli.online",
+            "bigballchunkyverse.online",
+            "flashist.video",
+            "navistream.tv",
+            "tinfoil-hat.net",
+            "pathfinderdreams.com",
+            "turturea.online",
+            "clown.university",
+            "theblab.org",
+            "aether.run",
+            "gh0st.live",
+            "coinfund.app",
+            "shitposter.world",
+            "tleplace.xyz",
+            "goyim.social",
+            "friendlica.de",
+            "fsebugoutzone.org",
+            "vikingkong.xyz",
+            "eihei.nexus",
+            "sportsbots.xyz",
+            "politicaconciencia.org",
+            "coretalk.space",
+            "awakari.com",
+            "eepy.express",
+            "5273.me",
+            "kero.pw",
+            "bunnyanarchy.org",
+            "subs4social.xyz",
+            "kikuri.moe",
+            "peister.org",
+            "nekos.cafe",
+            "loligagg.ing",
+            "imouto.pics",
+            "thoughtcrimes.top",
+            "xscape.club",
+            "maven.ly",
+            "heymaven.com",
+            "ar.al",
+            "lyrion.ch",
+            "awakari.app",
+            "pawoo.org",
+            "feministwiki.org",
+            "versalife.industries",
+            "offkey.wtf",
+            "notacri.me",
+            "agarthangooncave.com",
+            "aidre.quest",
+            "yuga.surf",
+            "sexycubs.xyz",
+            "miiverse.cafe",
+            "absolutelyproprietary.org",
+            "majestic12.airforce",
+            "imouto.exposed",
+            "punipoka.pink",
+            "schizophreniabunker.vip",
+            "monads.online",
+            "xn--vusz0j.art",
+            "mesugaki.xyz"
+          ],
+          "media_removal": [
+            "mstdn.jp",
+            "gyutte.site",
+            "omisosiru.net",
+            "kirota.net",
+            "kazv.moe",
+            "arumoon.ru",
+            "829.hu",
+            "wxw.moe",
+            "wake.st",
+            "pibvt.net",
+            "anqou.net",
+            "mastodon.cloud",
+            "misskey.io",
+            "serpent.skin",
+            "eepy.express",
+            "bunnyanarchy.org",
+            "kikuri.moe",
+            "nekos.cafe",
+            "loligagg.ing",
+            "imouto.pics",
+            "thoughtcrimes.top",
+            "yesmap.net",
+            "burggit.moe",
+            "zetaspace.org",
+            "yukioke.com",
+            "ating.press",
+            "xscape.club",
+            "notacri.me",
+            "offkey.wtf",
+            "sexycubs.xyz",
+            "sexypokemon.xyz",
+            "miiverse.cafe",
+            "imouto.exposed",
+            "punipoka.pink",
+            "xn--vusz0j.art",
+            "mesugaki.xyz"
+          ],
+          "media_nsfw": [
+            "kinky.business",
+            "vipgirlfriend.xxx",
+            "fed.celp.de",
+            "porntoot.com",
+            "arousal.support",
+            "nsfw.social",
+            "xxxtumblr.org",
+            "kinkyelephant.com",
+            "horny.enby.space",
+            "rubber.social",
+            "mstdn.rsync420.com",
+            "xscape.top",
+            "fisting.social",
+            "diamondelizaa.com",
+            "news.ongii.com",
+            "underwear.social",
+            "mastodon.dgfp.club",
+            "cubhub.social",
+            "restraint.social",
+            "jacksgloryhole.com",
+            "mastobate.social",
+            "woof.group",
+            "iame.li",
+            "is-he.re",
+            "wank.social"
+          ],
+          "federated_timeline_removal": [
+            "ilymaikoder.com",
+            "mstdn.rsync420.com",
+            "posts.stream",
+            "duwa.ng",
+            "vivaldi.net",
+            "fimidi.com",
+            "cofe.rocks",
+            "morepablo.com",
+            "news.ongii.com",
+            "unix.dog",
+            "palmer.house",
+            "jaxbeach.social",
+            "pleroma.nthomas20.net",
+            "brabant.community",
+            "mastodon.dgfp.club",
+            "iame.li",
+            "dcomm.net.ua",
+            "chatbox.social",
+            "chaoznekoz.gay",
+            "s1i.dev",
+            "leftist.network",
+            "botsin.space",
+            "mastodon.social",
+            "mastodon.online",
+            "outerheaven.club",
+            "infosec.exchange",
+            "vive.im",
+            "fosstodon.org",
+            "udongein.xyz",
+            "dragoncave.dev",
+            "nog.community",
+            "airwaves.social",
+            "home.speakfree.social",
+            "430022.xyz",
+            "brians.town",
+            "mastodon.saarland",
+            "exmormon.social",
+            "squabble.org",
+            "3dp.chat",
+            "mastodon.io.seg.br",
+            "federated.place",
+            "utter.online",
+            "mastodon.ashevillains.org",
+            "rivals.space",
+            "h4.io",
+            "independent-media.co.uk",
+            "library.love",
+            "social.foederiert.de",
+            "daotodon.me",
+            "ellis.social",
+            "qa.social",
+            "extraordinarygeeks.social",
+            "gervtuber.de",
+            "folksocial.org",
+            "educhat.social",
+            "social.sargasso.nl",
+            "social.tcpcat.net",
+            "mastodon.aargaunet.ch",
+            "m.corduba.tech",
+            "aether.run",
+            "forum-lucifer.com",
+            "adforward.org",
+            "electroverse.tech",
+            "lllsecurity.com",
+            "mentalhealth-masto.com",
+            "rope-access-work.com",
+            "mastodon.dragonbox.de",
+            "toot.poedelwitz.de",
+            "don.neet.co.jp",
+            "mastodon.svgun.ru",
+            "forestver.se",
+            "groupsebelah.com",
+            "kernkraft.social",
+            "besties.com",
+            "voltrina.net"
+          ],
+          "report_removal": [],
+          "followers_only": [
+            "newsbots.eu",
+            "c.im",
+            "enes.lv",
+            "mstdn.jp",
+            "hwfo.online",
+            "quietplace.xyz",
+            "tribe.net",
+            "blob.cat",
+            "dark-alexandr.net",
+            "toot.community",
+            "mediastodon.com",
+            "xn--rtta-qoa.nu",
+            "openworlds.info",
+            "dogsex.org",
+            "eroaward.com",
+            "gyutte.site",
+            "cu2d.com",
+            "bobcall.me",
+            "jorts.horse",
+            "skinnyver.se",
+            "valkyrie.world",
+            "nulled.red",
+            "brotka.st",
+            "computerfairi.es",
+            "geeknews.chat",
+            "pixificial.xyz",
+            "maid.army",
+            "greenfield.masto.host",
+            "airis.work",
+            "mastodon.tech",
+            "fellr.net",
+            "social.ariona.fr",
+            "ck.treasuredgem.xyz",
+            "omisosiru.net",
+            "netrunner.cfd",
+            "mastodon.cloud",
+            "pokemon.men",
+            "cryptoschizo.club",
+            "newsbots.californialocal.com",
+            "kirota.net",
+            "kartonrad.de",
+            "cuezakuisgodofthe.world",
+            "kitty.social",
+            "pirateheaven.eu",
+            "blurts.net",
+            "respublicae.eu",
+            "seediqbale.xyz",
+            "public.garden",
+            "pcgamer.social",
+            "meowing.online",
+            "pixeloasis.eu",
+            "satania.social",
+            "social.cologne",
+            "ravenation.club",
+            "elonsucks.org",
+            "bitcoinhackers.org",
+            "cybre.club",
+            "snack.social",
+            "aspiechattr.me",
+            "kosmos.social",
+            "lor.sh",
+            "toot.wt21.de",
+            "lain.com",
+            "mstdn.io",
+            "expired.mentality.rip",
+            "mastodon.com.tr",
+            "oasys.earth",
+            "m0xee.net",
+            "greenish.red",
+            "sibera.work",
+            "sigterm.wtf",
+            "vaporpolis.net",
+            "communick.com",
+            "duwa.ng",
+            "kartoffelcheetah.eu",
+            "liloandstit.ch",
+            "myasstodon.xyz",
+            "elekk.xyz",
+            "ieji.de",
+            "entire.vc",
+            "mylegendary.quest",
+            "replicant.pl",
+            "fai.st",
+            "anqou.net",
+            "remorse.us",
+            "cubhub.social",
+            "shitpost.school",
+            "mastobate.social",
+            "azaleth.xyz",
+            "cosmicfir.es",
+            "shadowkat.net",
+            "hanna.lol",
+            "neat.computer",
+            "masturbated.one",
+            "noleron.com",
+            "kianting.info",
+            "journa.host",
+            "virtecam.net",
+            "xn--t8j1bd0a4k.xn--q9jyb4c",
+            "abdulocra.cy",
+            "is-he.re",
+            "isosceles.love",
+            "tadzik.net",
+            "bahnhof.cz",
+            "e3t.cc",
+            "jawsh.xyz",
+            "technodon.org",
+            "ussr.win",
+            "qcro.social",
+            "xion.social",
+            "podaboutli.st",
+            "srilankans.online",
+            "collapse.pub",
+            "birdity.club",
+            "taobox.pub",
+            "touhou.vodka",
+            "sogga.top",
+            "neko.computer",
+            "haisu.li",
+            "ulithsys.moe",
+            "enjoyer.network",
+            "doo.gay",
+            "dadalo.pl",
+            "beagle.casa",
+            "comfysnug.space",
+            "phorophyte.org",
+            "port0.org",
+            "goreslut.xyz",
+            "cybercriminal.eu",
+            "miruku.cafe",
+            "occultist.space",
+            "yelvington.com",
+            "catposter.club",
+            "noob.quest",
+            "social.bbc",
+            "hexbear.net",
+            "c.wtf",
+            "misskey.io",
+            "linuxrocks.online",
+            "bodybag.zip",
+            "mypdns.org",
+            "arachnid.town",
+            "layer02.net",
+            "embracing.space",
+            "dirb.xyz",
+            "swooret.com",
+            "teabag.ninja",
+            "serpent.skin",
+            "ericaftereric.top",
+            "eightpoint.app",
+            "hollow.capital",
+            "udongein.reisen",
+            "sugar-free-jazz.com",
+            "memelords.zone",
+            "thezone.host",
+            "myxoz.port0.org",
+            "insurrection.tech",
+            "kirbo.xyz",
+            "imouto.page",
+            "cassilda.house",
+            "gyatt.monster",
+            "aklp.club",
+            "imirhil.fr",
+            "uwu.social",
+            "theblower.au",
+            "truth-sandwich.com",
+            "kero.pw",
+            "unfufadoo.net",
+            "ursal.zone",
+            "the-nutrivore.social",
+            "authenyo.xyz"
+          ],
+          "avatar_removal": [
+            "wank.social"
+          ],
+          "banner_removal": [
+            "wank.social"
+          ],
+          "background_removal": [],
+          "reject_deletes": []
+        },
+        "mrf_keyword": {
+          "replace": [],
+          "reject": [
+            "discord.gg/ctkpaarr",
+            "@ap12@mastodon-japan.net のプロフ 見て",
+            "画像が貼れなかったのでメンションだけします(´・ω・｀)",
+            "荒らし.com/",
+            "ctkpaarr.org/"
+          ],
+          "federated_timeline_removal": []
+        },
+        "mrf_hashtag": {
+          "sensitive": [
+            "nsfw"
+          ],
+          "reject": [],
+          "federated_timeline_removal": []
+        },
+        "mrf_object_age": {
+          "threshold": 604800,
+          "actions": [
+            "delist",
+            "strip_followers"
+          ]
+        },
+        "exclusions": true,
+        "mrf_policies": [
+          "ObjectAgePolicy",
+          "TagPolicy",
+          "SimplePolicy",
+          "NormalizeMarkup",
+          "KeywordPolicy",
+          "RejectNewlyCreatedAccountNotesPolicy",
+          "HellthreadPolicy",
+          "HashtagPolicy",
+          "InlineQuotePolicy",
+          "DirectMessageDisabledPolicy"
+        ],
+        "mrf_simple_info": {
+          "reject": {
+            "birdsite.blahaj.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitiverse.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "ar.al": {
+              "reason": "antisemitism, deactivated user was the only user"
+            },
+            "birdsitelive.angrydome.au": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bigballchunkyverse.online": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "kokuusa.club": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "bird.karatek.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.davinkevin.fr": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "openshiftapps.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "bsl.shrdr.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.otmns.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.k-fortytwo.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "deno.dev": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "pktriot.net": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsite.seejy.ninja": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "blue.worldkey.io": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.csachweh.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.savvas.cloud": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twtr.plus": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.intra.kaijauch.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.rap.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "threads.net": {
+              "reason": "https://mastodon.moule.world/@MOULE/110586173819908327"
+            },
+            "lhr.life": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "archaeology.social": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.gabeappleton.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "9kb.me": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.marschik.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "tweet.pasture.moe": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.archybold.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.compostintraining.club": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "sportsbots.xyz": {
+              "reason": "high-volume bot posting"
+            },
+            "birdsite.koyu.space": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "grid.tf": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "bird.xtra.nu": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "vienna1.greenedgecloud.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "m.techsocial.site": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "bird.waffles.fun": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.oliviaappleton.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.fedi.grh.am": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.cryobyte.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.hock.one": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdbots.leptonics.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birb.byte.wtf": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.tresor.eyhoff.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.miisu.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.axeleroy.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "mast.socialspill.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.chatty.monster": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "maven.ly": {
+              "reason": "burned bridges by mass scraping + one-directional replication of posts"
+            },
+            "vtweet.live": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.shitposted.today": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.mastodon.vm.statshelix.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.gronk.cc": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.makeup": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "shrimpcam.pw": {
+              "reason": "block circumvention tool"
+            },
+            "birdsite.nickurak.ca": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "beta.mstdn.cf": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.janngobble.synology.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "ngrok-free.app": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "bsl.beerinacan.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.datboi.network": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.falkensweb.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.self-hosted.site": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.kuendig.io": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "t2m.davinkevin.fr": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "instinctd.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.link": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "optiplex.wallaby-bass.ts.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bearbirdsite.sicem.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.tuxz.one": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.ukd.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birb.redra1n.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitterbridge.mastodon.maki0419.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "rsc.cdn77.org": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsitelive.falschgold.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.codingneko.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.sboulema.nl": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.laski.app": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cloudplane.app": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "relay.scottsmall.org": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.im-in.space": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "thechimp.zone": {
+              "reason": "k"
+            },
+            "tweets.icu": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.m-n.live": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.loca.lt": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bridgebot.b-wells.us": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.piriklub.eu": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.pride-rock-labs.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.toots.ro": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "test.misskey.cf": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.ffvo.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "sensitive.hostdon.ne.jp": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "twitbridge.click": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.samedwards.ca": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "tweetbridge.kogasa.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "woof.foxxo.gay": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.james.moody.name": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.bubbletea.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cloudapp.azure.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsitelive.peanutlasko.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "awakari.com": {
+              "reason": "followbot-based scraping"
+            },
+            "localtunnel.me": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "t.beergeek.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.monster": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.gxvwb.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "i.transmit.love": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.noitl.space": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.outadoc.fr": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.tcjc.uk": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bridge.yopp.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.blazelight.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twit.cryolog.in": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.frog.fashion": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "localhost.run": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "pub.instances.scw.cloud": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsite.cloutier.co": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "emmaverse.void.rehab": {
+              "reason": "harmless but noisy: https://void.rehab/notes/9ndzk51ttlu6oovn"
+            },
+            "birdsitelive.baguette-it.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "jbox.com.br": {
+              "reason": "spamvertising bots"
+            },
+            "kero.pw": {
+              "reason": "high-volume bot posting"
+            },
+            "bsl.zogan.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cloudisland.online": {
+              "reason": "cloudisland.nz/@aurynn/109686649335482660"
+            },
+            "nationalist.social": {
+              "reason": "https://pleroma.envs.net/notice/AbqF2T5BcMcRgiXGQy"
+            },
+            "gitpod.io": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsitelive.leonardwong.tech": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "elestio.app": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsite.vrparty.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twtr.3q3.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "lhrtunnel.link": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "cherryberry.pink": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "tinybirdsite.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birbber.hotfemboy.pics": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "onion.social": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "instagram.com": {
+              "reason": "official documentation says posts may also federate from a subdomain of this"
+            },
+            "birdsite.kaijauch.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "politbird.twexodus.top": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cmm.fyi": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "t.l3r.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.am-institute.swiss": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.darkesttimeline.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twittergateway.10247.berlin": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.allofti.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "tweetrans.ff15.eu": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.centennial.root.sx": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.b93.dece.space": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.gred.al": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.hwarf.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "heymaven.com": {
+              "reason": "burned bridges by mass scraping + one-directional replication of posts"
+            },
+            "birdsite.vish.link": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.gnyo.org": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "fusionpros.social": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "vps.ovh.ca": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "waterlily.tokyo": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "repl.co": {
+              "reason": "free often-ephemeral subdomains often used for spam"
+            },
+            "bird.seafoam.space": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.weiranzhang.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.felixmueller.cloud": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "neuroscience-mastodon.com": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdmakeup.opiumpost.org": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.neolyum.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bot.gallion.sh": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.felixmueller.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "niederbayern.social": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "twitter.kfem.cat": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cryptodon.lol": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "bondsdogs.com": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "nasface.cz": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "ngrok.io": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "ua-fediland.de": {
+              "reason": "mew.toot.cat/mw/Ua-fediland.de"
+            },
+            "birdsite.lakedrops.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "umbrellix.org": {
+              "reason": "https://sunbeam.city/@hazelnot/111142469510613004"
+            },
+            "bird.docmeth02.host": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "loca.lt": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "bird.granford.uk": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.18m250.org": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.toot.si": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "polaris.bonespr.it": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.nytpu.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.lummerland.ddnss.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "freesocial.co": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "gateway.occm.cc": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.zerojay.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.cbruegg.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.evilcyberhacker.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.lipsia.casa": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.treffler.cloud": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.personally.tech": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cp2.jaxbeach.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.gensokyo.info": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.obey.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cloud.okteto.net": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "bird.zvo.io": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "tallahasseesocial.org": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "bird.r669.live": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "amazonaws.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsitelive.nullreference.io": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "b.booots.tech": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.live": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "mastodon.io.seg.br": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.hexix.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "firebird.mullet.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "white.fly.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.sid500.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.platypush.tech": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "scfzfilm.org": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsitelive.opiumpost.org": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.istheguy.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.tableflip.zone": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.schafscheiss.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.dev.holtwick.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.makeup.hwarf.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twtrbridge.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.grants.cafe": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.mastodon.me.uk": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.lluni.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "discourse.helenprejean.org": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.slashdev.space": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "game-tecx.de": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.ingwie.me": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "games.retrotalk.live": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "birdsite.thorlaksson.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birb.stream": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "ams3-03.smarterliving.nl": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.tedandrachel.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.geiger.ee": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitterfeed.furrypaws.cc": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twtr.astra.lol": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.spectreos.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.wilde.cloud": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "socialloods.nl": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twtr.ingeechat.party": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "mastodon.socialspill.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsite.kohl.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "mastodon-ero.xyz": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "cloud.scaleway.com": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsite.jupiterslanding.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.tracto.pl": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "twitter.doesnotexist.club": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdlive.grupotd.nat.cu": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "cuicui.senpaga.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bird.chauvet.pro": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "zwezo.o-k-i.net": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.moistgarbage.info": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "s-h.social": {
+              "reason": "spambots (hopefully temporary)"
+            },
+            "bmu.beerinacan.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "app.github.dev": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "twitter.moxr.de": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "nrk.cloud": {
+              "reason": "dynamically allocated domain names and/or spin-up-spin-down short-lived servers"
+            },
+            "sovran.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "tweetbridge.mollys.social": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "birdsitelive.kevinyank.com": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "leonardwong.dev": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "workers.dev": {
+              "reason": "dynamically allocated hostnames  and/or spin-up-spin-down short-lived servers"
+            },
+            "birdsite.mastodon.land": {
+              "reason": "non-consensual twitter crossposter"
+            },
+            "bsl.adamstas.com": {
+              "reason": "non-consensual twitter crossposter"
+            }
+          },
+          "federated_timeline_removal": {
+            "library.love": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.ashevillains.org": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.svgun.ru": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "3dp.chat": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "fosstodon.org": {
+              "reason": "https://pleroma.envs.net/notice/AaEZeOcaseUq3H7Zzs"
+            },
+            "exmormon.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "nog.community": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "squabble.org": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "folksocial.org": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "independent-media.co.uk": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "forum-lucifer.com": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "gervtuber.de": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "home.speakfree.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "430022.xyz": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "forestver.se": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "social.foederiert.de": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "federated.place": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.saarland": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "rope-access-work.com": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "h4.io": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "udongein.xyz": {
+              "reason": "downgraded from FO/reject"
+            },
+            "qa.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "besties.com": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "botsin.space": {
+              "reason": "bot-focused instance"
+            },
+            "rivals.space": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "educhat.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.dragonbox.de": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.online": {
+              "reason": "same org as m.s"
+            },
+            "lllsecurity.com": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "aether.run": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "ellis.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "daotodon.me": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "adforward.org": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.social": {
+              "reason": "refusing to disable open-reg despite multiple spam-waves"
+            },
+            "social.tcpcat.net": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "kernkraft.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "groupsebelah.com": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "airwaves.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "brians.town": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "dcomm.net.ua": {
+              "reason": "downgraded from suspension"
+            },
+            "social.sargasso.nl": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mentalhealth-masto.com": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.io.seg.br": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "m.corduba.tech": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "electroverse.tech": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "toot.poedelwitz.de": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "dragoncave.dev": {
+              "reason": "downgraded from reject"
+            },
+            "don.neet.co.jp": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "utter.online": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "extraordinarygeeks.social": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            },
+            "mastodon.aargaunet.ch": {
+              "reason": "downgraded from suspension after spam was removed. preserving the entry here pending official response."
+            }
+          },
+          "followers_only": {
+            "cybercriminal.eu": {
+              "reason": "downgraded from suspension"
+            },
+            "journa.host": {
+              "reason": "downgraded from suspension"
+            },
+            "miruku.cafe": {
+              "reason": "downgraded from suspension"
+            },
+            "theblower.au": {
+              "reason": "antisemitism"
+            },
+            "ursal.zone": {
+              "reason": "downgraded from suspension"
+            }
+          }
+        },
+        "quarantined_instances_info": {
+          "quarantined_instances": {}
+        }
+      },
+      "accountActivationRequired": true,
+      "federatedTimelineAvailable": true,
+      "fieldsLimits": {
+        "maxFields": 10,
+        "maxRemoteFields": 20,
+        "nameLength": 512,
+        "valueLength": 2048
+      },
+      "invitesEnabled": false,
+      "localBubbleInstances": [
+        "pleroma.envs.net",
+        "tilde.zone",
+        "tiny.tilde.website"
+      ],
+      "mailerEnabled": true,
+      "nodeDescription": "A Pleroma/Akkoma instance on envs.net, an alternative fediverse server.",
+      "nodeName": "Akkoma on envs.net",
+      "pollLimits": {
+        "max_expiration": 31536000,
+        "max_option_chars": 200,
+        "max_options": 25,
+        "min_expiration": 0
+      },
+      "postFormats": [
+        "text/plain",
+        "text/html",
+        "text/markdown",
+        "text/bbcode",
+        "text/x.misskeymarkdown"
+      ],
+      "privilegedStaff": false,
+      "publicTimelineVisibility": {
+        "local": true,
+        "bubble": true,
+        "federated": true
+      },
+      "restrictedNicknames": [
+        ".well-known",
+        "~",
+        "about",
+        "activities",
+        "api",
+        "auth",
+        "check_password",
+        "dev",
+        "friend-requests",
+        "inbox",
+        "internal",
+        "main",
+        "media",
+        "nodeinfo",
+        "notice",
+        "oauth",
+        "objects",
+        "ostatus_subscribe",
+        "pleroma",
+        "proxy",
+        "push",
+        "registration",
+        "relay",
+        "settings",
+        "status",
+        "tag",
+        "user-search",
+        "user_exists",
+        "users",
+        "web",
+        "verify_credentials",
+        "update_credentials",
+        "relationships",
+        "search",
+        "confirmation_resend",
+        "mfa"
+      ],
+      "skipThreadContainment": true,
+      "staffAccounts": [
+        "https://pleroma.envs.net/users/envs",
+        "https://pleroma.envs.net/users/creme",
+        "https://pleroma.envs.net/users/Seirdy"
+      ],
+      "uploadLimits": {
+        "general": 33554432,
+        "banner": 33554432,
+        "background": 33554432,
+        "avatar": 33554432
+      }
+    },
+    "usage": {
+      "users": {
+        "total": 250,
+        "activeHalfyear": 81,
+        "activeMonth": 50
+      },
+      "localPosts": 37240
+    },
+    "services": {
+      "outbound": [],
+      "inbound": []
+    },
+    "software": {
+      "name": "akkoma",
+      "version": "3.13.2-0-g050bc74"
+    },
+    "openRegistrations": true
+  },
+  "error": null
+}

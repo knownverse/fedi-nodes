@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "sharkey",
+      "version": "2023.12.0",
+      "homepage": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "repository": "https://git.joinsharkey.org/Sharkey/Sharkey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": false,
+    "usage": {
+      "users": {
+        "total": 3,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 7,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "pogcha.mp",
+      "nodeDescription": "single user instance with a funny name ",
+      "nodeAdmins": [
+        {
+          "name": "@pog@poggers.pogcha.mp",
+          "email": "poggers@pogcha.mp"
+        }
+      ],
+      "maintainer": {
+        "name": "@pog@poggers.pogcha.mp",
+        "email": "poggers@pogcha.mp"
+      },
+      "langs": [],
+      "tosUrl": null,
+      "privacyPolicyUrl": null,
+      "impressumUrl": null,
+      "repositoryUrl": "https://git.joinsharkey.org/Sharkey/Sharkey",
+      "feedbackUrl": "https://git.joinsharkey.org/Sharkey/Sharkey/issues/new/choose",
+      "disableRegistration": true,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "disableBubbleTimeline": true,
+      "emailRequiredForSignup": false,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "maxNoteTextLength": 7621,
+      "enableEmail": false,
+      "enableServiceWorker": false,
+      "proxyAccountName": null,
+      "themeColor": "#ff7300"
+    }
+  },
+  "error": null
+}

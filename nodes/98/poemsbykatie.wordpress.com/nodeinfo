@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 62,
+      "localComments": 24
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "    👼🏻☺️~Welcome to my Mind~🌀😈 👌",
+      "nodeDescription": "~blog &amp; poetry~                                                    **18years old+!!",
+      "nodeIcon": "https://poemsbykatie.wordpress.com/wp-content/uploads/2023/10/cropped-instasize_230611230715.png"
+    }
+  },
+  "error": null
+}

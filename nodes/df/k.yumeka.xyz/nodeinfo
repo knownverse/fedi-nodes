@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.1",
+    "software": {
+      "name": "misskey",
+      "version": "2024.8.0",
+      "homepage": "https://github.com/misskey-dev/misskey",
+      "repository": "https://github.com/misskey-dev/misskey"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {
+        "total": 56,
+        "activeHalfyear": null,
+        "activeMonth": null
+      },
+      "localPosts": 1516,
+      "localComments": 0
+    },
+    "metadata": {
+      "nodeName": "Yumeka Keys",
+      "nodeDescription": "세상을 향한 새로운 열쇠 - Yumeka Keys입니다. 개인 서버지만 가입도 열려 있습니다. 백업도 실시간으로 이루어지고 있지만 가끔 업데이트로 서버가 다운되는 경우가 있습니다. 사이트 로고에 사용된 딸기 아이콘은 Flaticon의 Freepik이 만들었습니다. 배너 이미지 출처는 https://www.flickr.com/photos/martinlabar/5715596798 이며 CC BY-NC 2.0 라이선스입니다.",
+      "nodeAdmins": [
+        {
+          "name": "유메카",
+          "email": "yumeka@yumeka.xyz"
+        }
+      ],
+      "maintainer": {
+        "name": "유메카",
+        "email": "yumeka@yumeka.xyz"
+      },
+      "langs": [],
+      "tosUrl": "https://k.yumeka.xyz/@yumeka/pages/rules",
+      "privacyPolicyUrl": null,
+      "inquiryUrl": "http://s.occm.cc/openchat",
+      "impressumUrl": null,
+      "repositoryUrl": "https://github.com/misskey-dev/misskey",
+      "feedbackUrl": "https://github.com/misskey-dev/misskey/issues/new",
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "emailRequiredForSignup": true,
+      "enableHcaptcha": false,
+      "enableRecaptcha": false,
+      "enableMcaptcha": false,
+      "enableTurnstile": true,
+      "maxNoteTextLength": 3000,
+      "enableEmail": true,
+      "enableServiceWorker": true,
+      "proxyAccountName": "keys",
+      "themeColor": "#ff0c38"
+    }
+  },
+  "error": null
+}

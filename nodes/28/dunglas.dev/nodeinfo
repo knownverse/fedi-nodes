@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.5"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": "1",
+        "activeHalfyear": "1"
+      },
+      "localPosts": 323,
+      "localComments": 559
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Kévin Dunglas",
+      "nodeDescription": "Founder of Les-Tilleuls.coop (worker-owned cooperative). Creator of API Platform, Mercure.rocks, Vulcain.rocks and of some Symfony components.",
+      "nodeIcon": ""
+    }
+  },
+  "error": null
+}

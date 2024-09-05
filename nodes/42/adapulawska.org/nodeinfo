@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.4"
+    },
+    "usage": {
+      "users": {
+        "total": 13,
+        "activeMonth": 6,
+        "activeHalfyear": 6
+      },
+      "localPosts": 291,
+      "localComments": 0
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "A.D.A. Puławska",
+      "nodeDescription": "Autonomiczne centrum społeczno-kulturalne",
+      "nodeIcon": "https://adapulawska.org/wp-content/uploads/2023/03/cropped-67725377_1100311736833339_1920319735338106880_n.jpg"
+    }
+  },
+  "error": null
+}

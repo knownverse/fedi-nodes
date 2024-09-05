@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.7"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 339,
+      "localComments": 14
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Dr. Oleksandr (Sasha) Kondrashov",
+      "nodeDescription": "DROKACADEMY",
+      "nodeIcon": "https://krasun.ca/wp-content/uploads/2024/01/cropped-screenshot-2024-01-28-221530.png"
+    }
+  },
+  "error": null
+}

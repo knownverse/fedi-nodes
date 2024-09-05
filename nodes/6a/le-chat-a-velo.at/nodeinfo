@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "wordpress",
+      "version": "6.6"
+    },
+    "usage": {
+      "users": {
+        "total": 1,
+        "activeMonth": 1,
+        "activeHalfyear": 1
+      },
+      "localPosts": 513,
+      "localComments": 69
+    },
+    "openRegistrations": false,
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": []
+    },
+    "metadata": {
+      "nodeName": "Le Chat à Vélo",
+      "nodeDescription": "Die Katze reist, die Kette schnurrt",
+      "nodeIcon": "https://le-chat-a-velo.at/wp-content/uploads/2023/04/blau-Le-Chat@2x-1.png"
+    }
+  },
+  "error": null
+}

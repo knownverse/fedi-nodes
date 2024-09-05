@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "data": {
+    "version": "2.0",
+    "software": {
+      "name": "areionskey",
+      "version": "3.1.1"
+    },
+    "protocols": [
+      "activitypub"
+    ],
+    "services": {
+      "inbound": [],
+      "outbound": [
+        "atom1.0",
+        "rss2.0"
+      ]
+    },
+    "openRegistrations": true,
+    "usage": {
+      "users": {}
+    },
+    "metadata": {
+      "nodeName": "umaMilkey",
+      "nodeDescription": "umaMilkey は 競馬関連の話題がメインのインスタンスです。\nMilkey の不具合による一時的な閉鎖に伴い、サブドメインを使って代替となる umaMilkey が作られました。\n桜ヶ丘電信は電気通信事業者です。代表して、みねむ(@Xiaminem) が届出を提出しています。",
+      "maintainer": {
+        "name": "桜ヶ丘電信",
+        "email": ""
+      },
+      "langs": [
+        "日本語",
+        "英語"
+      ],
+      "ToSUrl": "https://sakura.tel/terms",
+      "repositoryUrl": "https://github.com/sakura-tel/areionskey",
+      "feedbackUrl": "https://github.com/sakura-tel/areionskey/issues/new",
+      "announcements": [
+        {
+          "text": "みなさま、ご機嫌いかがですか。umaMilkey で、素敵な Fediverse の世界をお楽しみください。\n公式によるお知らせは @umaMilkey@uma.milkey.homes で配信します。\numaMilkey 含め 桜ヶ丘電信の活動費の寄付・支援は https://www.patreon.com/sakuraelec にて受け付けしています。",
+          "image": null,
+          "title": "umaMilkey へようこそ。"
+        },
+        {
+          "text": "umaMilkey (Areionskey) では、ブロックの機能が「フォロー拒否」のみとなっております。\n公開範囲「フォロワー」やその他プライバシー設定と併せてご利用ください。",
+          "image": null,
+          "title": "umaMilkey (Areionskey) のブロック機能について。"
+        },
+        {
+          "text": "ダウンロードはこちら: https://uma.milkey.homes/files/033d9216-4954-4bea-aa05-15eb642022c9/033d9216-4954-4bea-aa05-15eb642022c9.misskeytheme",
+          "image": null,
+          "title": "umaMilkey のために作ったサイトテーマです。"
+        },
+        {
+          "text": "20歳未満の公営競技における投票券の購入は、各根拠法により禁止されています。\nまた、相手が20歳未満と承知の上で投票券を譲り渡した者には、各根拠法により50万円以下の罰金が課せられます。",
+          "image": null,
+          "title": "公営競技における投票券の購入は20歳になってから。"
+        },
+        {
+          "text": "悪徳業者による「必ず当たる」「結果が決まっているレースがある」などの勧誘から始まる詐欺にご注意ください。\nまた、投票券購入代行業(ノミ屋)は各根拠法により500万円以下の罰金、利用者は100万円以下の罰金が課せられます。\numaMilkey 内において、そのような行為を見かけられたら、ただちにそのユーザを通報してください。",
+          "image": null,
+          "title": "悪徳業者や投票券購入代行業者にご注意ください。"
+        },
+        {
+          "text": "公営競技の払戻金については、一時所得として確定申告が必要となる場合があります。\n詳しくは国税庁のホームページ・リーフレットをご覧ください。\nhttps://www.nta.go.jp/publication/pamph/shotoku/kakuteishinkokukankei/koueikyougi/index.htm",
+          "image": null,
+          "title": "公営競技の払戻金の支払を受けた方へ。"
+        },
+        {
+          "text": "ギャンブル等依存症でお困りの方、また、ギャンブルにのめりこみそうで心配な方のために相談窓口があります。\n詳しくは消費者庁のホームページをご覧ください。\nhttps://www.caa.go.jp/policies/policy/consumer_policy/caution/caution_012/",
+          "image": null,
+          "title": "ギャンブル等依存症でお困りの方へ。"
+        }
+      ],
+      "disableRegistration": false,
+      "disableLocalTimeline": false,
+      "disableGlobalTimeline": false,
+      "enableRecaptcha": true,
+      "maxNoteTextLength": 8192,
+      "enableTwitterIntegration": false,
+      "enableGithubIntegration": true,
+      "enableDiscordIntegration": false,
+      "enableEmail": true,
+      "enableServiceWorker": false,
+      "upstream": {
+        "name": "misskey",
+        "version": "11.37.1"
+      }
+    }
+  },
+  "error": null
+}
